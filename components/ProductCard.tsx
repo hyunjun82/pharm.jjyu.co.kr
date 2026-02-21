@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 export interface Product {
@@ -25,54 +24,54 @@ export function ProductCard({ product }: { product: Product }) {
   const barkiryUrl = `https://barkiri.com/search?query=${encodeURIComponent(product.barkiryQuery)}`;
 
   return (
-    <Card className="group overflow-hidden border border-gray-200 py-0 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:border-emerald-300">
-      <div className="relative aspect-[4/3] overflow-hidden bg-gray-50">
-        <Image
-          src={product.image}
-          alt={product.name}
-          fill
-          className="object-contain p-6 transition-transform duration-500 group-hover:scale-110"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-        />
-        <Badge className="absolute left-3 top-3 bg-emerald-600 text-white hover:bg-emerald-600 text-xs">
-          {product.category}
-        </Badge>
-      </div>
-
-      <CardContent className="flex flex-col gap-3 p-5">
-        <div>
-          <h3 className="text-base font-bold text-gray-900 leading-snug">
-            {product.name}
-          </h3>
-          <p className="mt-1.5 text-sm text-gray-500 leading-relaxed line-clamp-2">
-            {product.description}
-          </p>
-        </div>
-
-        <div>
-          <div className="flex items-baseline gap-1.5">
-            <span className="text-2xl font-extrabold text-emerald-600 tracking-tight">
-              {formattedPrice}
-            </span>
-            <span className="text-sm font-medium text-gray-500">원</span>
-            <span className="text-xs text-gray-400">/ {product.unit}</span>
+    <a
+      href={barkiryUrl}
+      target="_blank"
+      rel="noopener noreferrer nofollow"
+      className="block"
+    >
+      <Card className="group overflow-hidden border border-gray-200 py-0 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:border-emerald-300 cursor-pointer">
+        <div className="flex items-center gap-4 p-4">
+          {/* 이미지: 컴팩트 정사각형 */}
+          <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-lg bg-gray-50">
+            <Image
+              src={product.image}
+              alt={product.name}
+              fill
+              className="object-contain p-2"
+              sizes="80px"
+            />
           </div>
-          <p className="mt-0.5 text-[11px] text-gray-400">
-            {getTodayString()} 기준 최저가
-          </p>
-        </div>
 
-        <a
-          href={barkiryUrl}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-        >
-          <Button className="group/btn w-full bg-emerald-600 text-white font-semibold text-sm py-5 shadow-md transition-all duration-200 hover:bg-emerald-700 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98]">
-            최저가 바로가기
-            <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-200 group-hover/btn:translate-x-1" />
-          </Button>
-        </a>
-      </CardContent>
-    </Card>
+          {/* 정보 */}
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2">
+              <Badge className="bg-emerald-600 text-white hover:bg-emerald-600 text-[10px] px-1.5 py-0">
+                {product.category}
+              </Badge>
+            </div>
+            <h3 className="mt-1 text-sm font-bold text-gray-900 leading-snug truncate">
+              {product.name}
+            </h3>
+            <p className="mt-0.5 text-xs text-gray-500 line-clamp-1">
+              {product.description}
+            </p>
+            <div className="mt-1.5 flex items-baseline gap-1">
+              <span className="text-lg font-extrabold text-emerald-600">
+                {formattedPrice}
+              </span>
+              <span className="text-xs text-gray-500">원</span>
+              <span className="text-[10px] text-gray-400">/ {product.unit}</span>
+              <span className="ml-auto text-[10px] text-gray-400">
+                {getTodayString()} 기준
+              </span>
+            </div>
+          </div>
+
+          {/* 화살표 */}
+          <ArrowRight className="h-4 w-4 shrink-0 text-gray-300 group-hover:text-emerald-600 transition-colors" />
+        </div>
+      </Card>
+    </a>
   );
 }

@@ -10,7 +10,37 @@ import { spokeArticles } from "@/data/articles";
 import { categories } from "@/data/categories";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { ChevronRight, ArrowLeft } from "lucide-react";
+import {
+  ChevronRight,
+  ArrowLeft,
+  Pill,
+  Sparkles,
+  ClipboardList,
+  AlertTriangle,
+  ShieldAlert,
+  PackageOpen,
+} from "lucide-react";
+
+// 섹션 제목 키워드 → 아이콘 + 색상 매핑
+const SECTION_ICONS: Record<string, { icon: React.ElementType; color: string }> = {
+  성분: { icon: Pill, color: "text-blue-500" },
+  효능: { icon: Sparkles, color: "text-amber-500" },
+  효과: { icon: Sparkles, color: "text-amber-500" },
+  사용법: { icon: ClipboardList, color: "text-emerald-500" },
+  복용법: { icon: ClipboardList, color: "text-emerald-500" },
+  용법: { icon: ClipboardList, color: "text-emerald-500" },
+  부작용: { icon: AlertTriangle, color: "text-red-500" },
+  주의사항: { icon: ShieldAlert, color: "text-orange-500" },
+  주의: { icon: ShieldAlert, color: "text-orange-500" },
+  보관: { icon: PackageOpen, color: "text-violet-500" },
+};
+
+function getSectionIcon(title: string) {
+  for (const [keyword, config] of Object.entries(SECTION_ICONS)) {
+    if (title.includes(keyword)) return config;
+  }
+  return { icon: ClipboardList, color: "text-gray-400" };
+}
 
 interface PageProps {
   params: Promise<{ category: string; slug: string }>;
@@ -90,9 +120,9 @@ export default async function SpokePage({ params }: PageProps) {
       </section>
 
       {/* Main Product Card */}
-      <section className="mx-auto max-w-3xl px-4 py-8">
+      <section className="mx-auto max-w-3xl px-4 py-6">
         {article.products.length > 0 && (
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-3">
             {article.products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -107,19 +137,26 @@ export default async function SpokePage({ params }: PageProps) {
 
       {/* Article Sections */}
       <article className="mx-auto max-w-3xl px-4">
-        {article.sections.map((section, i) => (
-          <section key={i} className="mb-10">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">
-              {section.title}
-            </h2>
-            <p className="text-[16px] text-gray-600 leading-[1.85] sm:text-[17px]">
-              {section.content}
-            </p>
-            {i < article.sections.length - 1 && <Separator className="mt-10" />}
-            {/* 섹션 중간 광고: 첫 번째 섹션 뒤 */}
-            {i === 0 && <AdSlot id="content-mid" />}
-          </section>
-        ))}
+        {article.sections.map((section, i) => {
+          const { icon: Icon, color } = getSectionIcon(section.title);
+          return (
+            <section key={i} className="mb-8">
+              <div className="flex items-center gap-2.5 mb-3">
+                <div className={`flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 ${color}`}>
+                  <Icon className="h-4.5 w-4.5" />
+                </div>
+                <h2 className="text-lg font-bold text-gray-900">
+                  {section.title}
+                </h2>
+              </div>
+              <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] pl-[42px]">
+                {section.content}
+              </p>
+              {i < article.sections.length - 1 && <Separator className="mt-8" />}
+              {i === 0 && <AdSlot id="content-mid" />}
+            </section>
+          );
+        })}
       </article>
 
       {/* FAQ */}
@@ -141,7 +178,7 @@ export default async function SpokePage({ params }: PageProps) {
             <h2 className="text-lg font-bold text-gray-900 mb-4">
               같은 카테고리 다른 의약품
             </h2>
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid gap-3">
               {relatedProducts.map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}
