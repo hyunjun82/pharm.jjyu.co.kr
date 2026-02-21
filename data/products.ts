@@ -1,0 +1,134 @@
+import { Product } from "@/lib/types";
+
+export const products: Product[] = [
+  // 연고 카테고리
+  {
+    id: "madecassol-10g",
+    name: "마데카솔 연고 10g",
+    image: "/images/madecassol.svg",
+    category: "일반의약품",
+    categorySlug: "연고",
+    description: "상처 치유 촉진, 흉터 예방. 센텔라 아시아티카 추출물 함유.",
+    price: 3200,
+    unit: "10g",
+    barkiryQuery: "마데카솔",
+    ingredients: "센텔라아시아티카적정추출물",
+    usage: "1일 1~2회 환부에 얇게 바른다",
+    slug: "마데카솔",
+  },
+  {
+    id: "fucidin-5g",
+    name: "후시딘 연고 5g",
+    image: "/images/fucidin.svg",
+    category: "일반의약품",
+    categorySlug: "연고",
+    description: "세균 감염 상처 치료, 항생제 연고. 퓨시드산 성분.",
+    price: 2800,
+    unit: "5g",
+    barkiryQuery: "후시딘",
+    ingredients: "퓨시드산나트륨",
+    usage: "1일 2~3회 환부에 얇게 바른다",
+    slug: "후시딘",
+  },
+  {
+    id: "bepanthen-30g",
+    name: "비판텐 연고 30g",
+    image: "/images/bepanthen.svg",
+    category: "일반의약품",
+    categorySlug: "연고",
+    description: "피부 재생, 보습. 덱스판테놀(프로비타민B5) 함유.",
+    price: 8500,
+    unit: "30g",
+    barkiryQuery: "비판텐",
+    ingredients: "덱스판테놀",
+    usage: "1일 수회 환부에 바른다",
+    slug: "비판텐",
+  },
+  // 탈모 카테고리
+  {
+    id: "minoxidil-60ml",
+    name: "미녹시딜 5% 60ml",
+    image: "/images/minoxidil.svg",
+    category: "일반의약품",
+    categorySlug: "탈모",
+    description: "남성형 탈모 치료. FDA 승인 탈모 치료 성분.",
+    price: 14000,
+    unit: "60ml",
+    barkiryQuery: "미녹시딜",
+    ingredients: "미녹시딜",
+    usage: "1일 2회, 1ml씩 두피에 도포",
+    slug: "미녹시딜",
+  },
+  {
+    id: "pantogar-90caps",
+    name: "판토가 캡슐 90캡슐",
+    image: "/images/pantogar.svg",
+    category: "일반의약품",
+    categorySlug: "탈모",
+    description: "여성형 탈모, 모발 영양 공급. 복합 비타민·아미노산.",
+    price: 45000,
+    unit: "90캡슐",
+    barkiryQuery: "판토가",
+    ingredients: "비타민B1,판토텐산칼슘,약용효모,L-시스틴,케라틴,파라아미노벤조산",
+    usage: "1일 3회, 1캡슐씩 식사와 함께 복용",
+    slug: "판토가",
+  },
+  // 감기 카테고리
+  {
+    id: "pancold-a-10tabs",
+    name: "판콜에이 10정",
+    image: "/images/pancold.svg",
+    category: "일반의약품",
+    categorySlug: "감기",
+    description: "종합 감기약. 발열, 두통, 콧물, 기침 완화.",
+    price: 3500,
+    unit: "10정",
+    barkiryQuery: "판콜에이",
+    ingredients: "아세트아미노펜,클로르페니라민말레산염,덱스트로메토르판",
+    usage: "1일 3회, 1정씩 식후 복용",
+    slug: "판콜에이",
+  },
+  // 무좀 카테고리
+  {
+    id: "lamisil-15g",
+    name: "라미실 크림 15g",
+    image: "/images/lamisil.svg",
+    category: "일반의약품",
+    categorySlug: "무좀",
+    description: "무좀, 피부 진균 감염 치료. 테르비나핀 성분.",
+    price: 7000,
+    unit: "15g",
+    barkiryQuery: "라미실",
+    ingredients: "테르비나핀염산염",
+    usage: "1일 1~2회, 환부에 얇게 바른다",
+    slug: "라미실",
+  },
+  // 진통제
+  {
+    id: "tylenol-500-10tabs",
+    name: "타이레놀 500mg 10정",
+    image: "/images/tylenol.svg",
+    category: "일반의약품",
+    categorySlug: "진통제",
+    description: "두통, 치통, 생리통 완화. 아세트아미노펜 성분.",
+    price: 2000,
+    unit: "10정",
+    barkiryQuery: "타이레놀",
+    ingredients: "아세트아미노펜",
+    usage: "1회 1~2정, 1일 3~4회 (4~6시간 간격)",
+    slug: "타이레놀",
+  },
+];
+
+export function getProductsByCategory(categorySlug: string): Product[] {
+  return products.filter((p) => p.categorySlug === categorySlug);
+}
+
+export function getProductBySlug(
+  categorySlug: string,
+  productSlug: string
+): Product | undefined {
+  return products.find(
+    (p) => p.categorySlug === categorySlug && p.slug === productSlug
+  );
+}
