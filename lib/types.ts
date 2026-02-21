@@ -37,9 +37,17 @@ export interface SpokeArticle {
   sections: ArticleSection[];
 }
 
+export interface IngredientItem {
+  type: "주성분" | "첨가제";
+  name: string;
+  amount?: string;
+  role: string;
+}
+
 export interface ArticleSection {
   title: string;
   content: string;
+  ingredients?: IngredientItem[];
 }
 
 export interface HubArticle {

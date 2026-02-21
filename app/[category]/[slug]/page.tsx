@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { ProductCard } from "@/components/ProductCard";
 import { FAQSection } from "@/components/FAQSection";
 import { AdSlot } from "@/components/AdSlot";
+import { IngredientTable } from "@/components/IngredientTable";
 import { getSpokeArticle } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
 import { spokeArticles } from "@/data/articles";
@@ -149,6 +150,11 @@ export default async function SpokePage({ params }: PageProps) {
                   {section.title}
                 </h2>
               </div>
+              {section.ingredients && section.ingredients.length > 0 && (
+                <div className="mb-4 pl-[42px]">
+                  <IngredientTable items={section.ingredients} />
+                </div>
+              )}
               <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] pl-[42px]">
                 {section.content}
               </p>

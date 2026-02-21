@@ -128,6 +128,12 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
           title: "마데카솔 성분",
           content:
             "센텔라아시아티카적정추출물(병풀추출물)이 주성분입니다. 콜라겐 합성을 촉진하여 피부 조직 재생을 돕는 성분으로, 1960년대부터 상처 치료에 사용되어 온 검증된 원료입니다.",
+          ingredients: [
+            { type: "주성분", name: "센텔라아시아티카적정추출물", amount: "10mg/g", role: "새살 형성 촉진, 흉터 예방" },
+            { type: "첨가제", name: "농글리세린", role: "피부 보습, 연고 베이스" },
+            { type: "첨가제", name: "덱스판테놀", role: "피부 재생 보조 (비타민B5 유도체)" },
+            { type: "첨가제", name: "부틸레이티드히드록시아니솔", role: "산화 방지제 (품질 유지)" },
+          ],
         },
         {
           title: "마데카솔 효능/효과",
