@@ -30,6 +30,8 @@ export interface SpokeArticle {
   slug: string;
   categorySlug: string;
   title: string;
+  h1: string;
+  metaDescription: string;
   description: string;
   heroDescription: string;
   products: Product[];
@@ -53,6 +55,8 @@ export interface ArticleSection {
 export interface HubArticle {
   categorySlug: string;
   title: string;
+  h1: string;
+  metaDescription: string;
   description: string;
   heroDescription: string;
   spokes: { slug: string; title: string; description: string }[];

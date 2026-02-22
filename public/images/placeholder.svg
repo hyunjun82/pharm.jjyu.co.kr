@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f3f4f6" rx="20"/>
+  <circle cx="200" cy="170" r="50" fill="#d1d5db"/>
+  <rect x="170" y="145" width="60" height="50" rx="8" fill="#e5e7eb"/>
+  <text x="200" y="270" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#9ca3af">의약품</text>
+  <text x="200" y="310" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="16" fill="#d1d5db">이미지 준비 중</text>
+</svg>

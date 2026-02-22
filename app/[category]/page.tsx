@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!hub) return {};
   return {
     title: hub.title,
-    description: hub.description,
+    description: hub.metaDescription,
   };
 }
 
@@ -59,7 +59,7 @@ export default async function HubPage({ params }: PageProps) {
             {catInfo.icon} {catInfo.name} 가이드
           </Badge>
           <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-            {hub.title}
+            {hub.h1}
           </h1>
           <p className="mt-3 text-base text-gray-500 leading-relaxed max-w-2xl">
             {hub.heroDescription}

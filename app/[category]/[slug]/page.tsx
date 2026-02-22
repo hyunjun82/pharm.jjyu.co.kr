@@ -5,6 +5,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { FAQSection } from "@/components/FAQSection";
 import { AdSlot } from "@/components/AdSlot";
 import { IngredientTable } from "@/components/IngredientTable";
+import { PriceCTA } from "@/components/PriceCTA";
 import { getSpokeArticle } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
 import { spokeArticles } from "@/data/articles";
@@ -20,13 +21,18 @@ import {
   AlertTriangle,
   ShieldAlert,
   PackageOpen,
+  BadgePercent,
 } from "lucide-react";
 
 // 섹션 제목 키워드 → 아이콘 + 색상 매핑
 const SECTION_ICONS: Record<string, { icon: React.ElementType; color: string }> = {
+  "성분 분석": { icon: Pill, color: "text-blue-500" },
   성분: { icon: Pill, color: "text-blue-500" },
+  "효능과 효과": { icon: Sparkles, color: "text-amber-500" },
   효능: { icon: Sparkles, color: "text-amber-500" },
   효과: { icon: Sparkles, color: "text-amber-500" },
+  "올바른 사용법": { icon: ClipboardList, color: "text-emerald-500" },
+  "올바른 복용법": { icon: ClipboardList, color: "text-emerald-500" },
   사용법: { icon: ClipboardList, color: "text-emerald-500" },
   복용법: { icon: ClipboardList, color: "text-emerald-500" },
   용법: { icon: ClipboardList, color: "text-emerald-500" },
@@ -34,6 +40,8 @@ const SECTION_ICONS: Record<string, { icon: React.ElementType; color: string }> 
   주의사항: { icon: ShieldAlert, color: "text-orange-500" },
   주의: { icon: ShieldAlert, color: "text-orange-500" },
   보관: { icon: PackageOpen, color: "text-violet-500" },
+  가격: { icon: BadgePercent, color: "text-emerald-600" },
+  최저가: { icon: BadgePercent, color: "text-emerald-600" },
 };
 
 function getSectionIcon(title: string) {
@@ -67,7 +75,7 @@ export async function generateMetadata({
   if (!article) return {};
   return {
     title: article.title,
-    description: article.description,
+    description: article.metaDescription,
   };
 }
 
@@ -112,7 +120,7 @@ export default async function SpokePage({ params }: PageProps) {
             {catInfo.icon} {catInfo.name}
           </Badge>
           <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-            {article.title}
+            {article.h1}
           </h1>
           <p className="mt-3 text-base text-gray-500 leading-relaxed sm:text-lg">
             {article.heroDescription}
@@ -164,6 +172,28 @@ export default async function SpokePage({ params }: PageProps) {
           );
         })}
       </article>
+
+      {/* 가격 비교 섹션 */}
+      {mainProduct && (
+        <section className="mx-auto max-w-3xl px-4 mb-8">
+          <div className="flex items-center gap-2.5 mb-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 text-emerald-600">
+              <BadgePercent className="h-4.5 w-4.5" />
+            </div>
+            <h2 className="text-lg font-bold text-gray-900">
+              {spokeSlug} 최저가 가격 비교
+            </h2>
+          </div>
+          <div className="pl-[42px]">
+            <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] mb-5">
+              {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
+              약국마다 가격이 다를 수 있으니, 바키리에서 실시간 약국별 최저가를 비교해 보세요.
+            </p>
+            <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} />
+          </div>
+          <Separator className="mt-8" />
+        </section>
+      )}
 
       {/* FAQ */}
       {article.faq.length > 0 && (
