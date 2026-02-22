@@ -2,59 +2,17 @@ import { Category } from "@/lib/types";
 
 export const categories: Category[] = [
   {
-    name: "탈모약",
-    slug: "탈모",
-    icon: "💊",
-    description: "미녹시딜, 피나스테리드 등 탈모 치료제",
-    count: 8,
-  },
-  {
-    name: "연고",
-    slug: "연고",
-    icon: "🩹",
-    description: "마데카솔, 후시딘 등 상처·피부 치료 연고",
-    count: 12,
-  },
-  {
-    name: "감기약",
-    slug: "감기",
-    icon: "🤧",
-    description: "타이레놀콜드, 판콜에이 등 종합감기약",
-    count: 10,
-  },
-  {
-    name: "진통제",
-    slug: "진통제",
-    icon: "💉",
-    description: "타이레놀, 이부프로펜 등 통증 완화제",
-    count: 8,
-  },
-  {
-    name: "무좀약",
-    slug: "무좀",
-    icon: "🦶",
-    description: "라미실, 카네스텐 등 무좀 치료제",
-    count: 6,
-  },
-  {
-    name: "설사약",
-    slug: "설사",
-    icon: "💧",
-    description: "스멕타, 정로환 등 설사·장염 치료제",
-    count: 5,
-  },
-  {
     name: "소화제",
     slug: "소화제",
-    icon: "🫗",
-    description: "베아제, 훼스탈 등 소화 촉진제",
-    count: 7,
+    icon: "💚",
+    description: "소화제 효능, 성분, 가격 비교",
+    count: 2,
   },
   {
-    name: "안약",
-    slug: "안약",
-    icon: "👁️",
-    description: "시크린, 인공눈물 등 안과용 의약품",
-    count: 5,
-  },
+    name: "일반의약품",
+    slug: "일반",
+    icon: "💊",
+    description: "일반의약품 효능, 성분, 가격 비교",
+    count: 3,
+  }
 ];
