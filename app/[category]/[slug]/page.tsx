@@ -6,6 +6,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { FAQSection } from "@/components/FAQSection";
 import { IngredientTable } from "@/components/IngredientTable";
 import { PriceCTA } from "@/components/PriceCTA";
+import { RelatedSpokes } from "@/components/RelatedSpokes";
 import { getSpokeArticle } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
 import { spokeArticles } from "@/data/articles";
@@ -171,24 +172,29 @@ export default async function SpokePage({ params }: PageProps) {
 
               {/* 가격 비교 - 사용법/복용법 바로 다음 */}
               {showPriceAfter && (
-                <section className="mb-8">
-                  <div className="flex items-center gap-2.5 mb-3">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 text-emerald-600">
-                      <BadgePercent className="h-4.5 w-4.5" />
+                <>
+                  <section className="mb-8">
+                    <div className="flex items-center gap-2.5 mb-3">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 text-emerald-600">
+                        <BadgePercent className="h-4.5 w-4.5" />
+                      </div>
+                      <h2 className="text-lg font-bold text-gray-900">
+                        {spokeSlug} 최저가 가격 비교
+                      </h2>
                     </div>
-                    <h2 className="text-lg font-bold text-gray-900">
-                      {spokeSlug} 최저가 가격 비교
-                    </h2>
-                  </div>
-                  <div className="pl-[42px]">
-                    <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] mb-5">
-                      {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
-                      약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
-                    </p>
-                    <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} />
-                  </div>
-                  <Separator className="mt-8" />
-                </section>
+                    <div className="pl-[42px]">
+                      <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] mb-5">
+                        {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
+                        약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
+                      </p>
+                      <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} />
+                    </div>
+                    <Separator className="mt-8" />
+                  </section>
+
+                  {/* 내부링크 - 같은 카테고리 다른 의약품 */}
+                  <RelatedSpokes categorySlug={catSlug} currentSlug={spokeSlug} />
+                </>
               )}
             </Fragment>
           );
