@@ -8,6 +8,7 @@ export interface Product {
   price: number;
   unit: string;
   barkiryQuery: string;
+  barkiryProductId?: string;
   ingredients?: string;
   usage?: string;
   slug: string;
