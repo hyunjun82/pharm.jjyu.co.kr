@@ -143,23 +143,30 @@ export default async function SpokePage({ params }: PageProps) {
           <p className="mt-3 text-base text-gray-500 leading-relaxed sm:text-lg">
             {article.heroDescription}
           </p>
-          {(article.datePublished || article.dateModified) && (
-            <div className="mt-3 flex items-center gap-3 text-sm text-gray-400">
-              {article.datePublished && (
+          <div className="mt-3 flex items-center gap-3 text-sm text-gray-400">
+            <Link
+              href="/about"
+              className="font-medium text-gray-500 hover:text-emerald-600 transition-colors"
+            >
+              의약품 에디터
+            </Link>
+            {article.datePublished && (
+              <>
+                <span>|</span>
                 <time dateTime={article.datePublished}>
                   {formatKoreanDate(article.datePublished)} 작성
                 </time>
-              )}
-              {article.dateModified && article.dateModified !== article.datePublished && (
-                <>
-                  <span>|</span>
-                  <time dateTime={article.dateModified}>
-                    {formatKoreanDate(article.dateModified)} 수정
-                  </time>
-                </>
-              )}
-            </div>
-          )}
+              </>
+            )}
+            {article.dateModified && article.dateModified !== article.datePublished && (
+              <>
+                <span>|</span>
+                <time dateTime={article.dateModified}>
+                  {formatKoreanDate(article.dateModified)} 수정
+                </time>
+              </>
+            )}
+          </div>
           <div className="mt-4">
             <ShareButtons title={article.title} />
           </div>
