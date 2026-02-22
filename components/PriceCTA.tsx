@@ -20,7 +20,7 @@ export function PriceCTA({ name, barkiryQuery }: PriceCTAProps) {
         <ExternalLink className="h-4 w-4 opacity-70 group-hover:opacity-100 transition-opacity" />
       </span>
       <span className="block text-sm text-emerald-100 mt-1">
-        바키리에서 약국별 실시간 가격 비교
+        약국별 실시간 가격 비교 →
       </span>
     </a>
   );

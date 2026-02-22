@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight } from "lucide-react";
 
 export interface Product {
   id: string;
@@ -68,8 +67,11 @@ export function ProductCard({ product }: { product: Product }) {
             </div>
           </div>
 
-          {/* 화살표 */}
-          <ArrowRight className="h-4 w-4 shrink-0 text-gray-300 group-hover:text-emerald-600 transition-colors" />
+        </div>
+
+        {/* CTA 바 */}
+        <div className="flex items-center justify-center gap-1.5 border-t border-emerald-100 bg-emerald-50 px-4 py-2.5 text-sm font-semibold text-emerald-700 transition-colors group-hover:bg-emerald-600 group-hover:text-white">
+          💊 최저가 확인 →
         </div>
       </Card>
     </a>

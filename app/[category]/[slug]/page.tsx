@@ -1,9 +1,9 @@
+import { Fragment } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ProductCard } from "@/components/ProductCard";
 import { FAQSection } from "@/components/FAQSection";
-import { AdSlot } from "@/components/AdSlot";
 import { IngredientTable } from "@/components/IngredientTable";
 import { PriceCTA } from "@/components/PriceCTA";
 import { getSpokeArticle } from "@/data/articles";
@@ -139,61 +139,61 @@ export default async function SpokePage({ params }: PageProps) {
         )}
       </section>
 
-      {/* Ad: 본문 진입 전 */}
-      <div className="mx-auto max-w-3xl px-4">
-        <AdSlot id="content-top" />
-      </div>
-
       {/* Article Sections */}
       <article className="mx-auto max-w-3xl px-4">
         {article.sections.map((section, i) => {
           const { icon: Icon, color } = getSectionIcon(section.title);
+          const showPriceAfter =
+            (section.title.includes("사용법") || section.title.includes("복용법")) && !!mainProduct;
           return (
-            <section key={i} className="mb-8">
-              <div className="flex items-center gap-2.5 mb-3">
-                <div className={`flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 ${color}`}>
-                  <Icon className="h-4.5 w-4.5" />
+            <Fragment key={i}>
+              <section className="mb-8">
+                <div className="flex items-center gap-2.5 mb-3">
+                  <div className={`flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 ${color}`}>
+                    <Icon className="h-4.5 w-4.5" />
+                  </div>
+                  <h2 className="text-lg font-bold text-gray-900">
+                    {section.title}
+                  </h2>
                 </div>
-                <h2 className="text-lg font-bold text-gray-900">
-                  {section.title}
-                </h2>
-              </div>
-              {section.ingredients && section.ingredients.length > 0 && (
-                <div className="mb-4 pl-[42px]">
-                  <IngredientTable items={section.ingredients} />
+                {section.ingredients && section.ingredients.length > 0 && (
+                  <div className="mb-4 pl-[42px]">
+                    <IngredientTable items={section.ingredients} />
+                  </div>
+                )}
+                <div className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] pl-[42px] space-y-3">
+                  {section.content.split("\n\n").map((paragraph, pi) => (
+                    <p key={pi}>{paragraph}</p>
+                  ))}
                 </div>
+                {i < article.sections.length - 1 && <Separator className="mt-8" />}
+              </section>
+
+              {/* 가격 비교 - 사용법/복용법 바로 다음 */}
+              {showPriceAfter && (
+                <section className="mb-8">
+                  <div className="flex items-center gap-2.5 mb-3">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 text-emerald-600">
+                      <BadgePercent className="h-4.5 w-4.5" />
+                    </div>
+                    <h2 className="text-lg font-bold text-gray-900">
+                      {spokeSlug} 최저가 가격 비교
+                    </h2>
+                  </div>
+                  <div className="pl-[42px]">
+                    <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] mb-5">
+                      {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
+                      약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
+                    </p>
+                    <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} />
+                  </div>
+                  <Separator className="mt-8" />
+                </section>
               )}
-              <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] pl-[42px]">
-                {section.content}
-              </p>
-              {i < article.sections.length - 1 && <Separator className="mt-8" />}
-              {i === 0 && <AdSlot id="content-mid" />}
-            </section>
+            </Fragment>
           );
         })}
       </article>
-
-      {/* 가격 비교 섹션 */}
-      {mainProduct && (
-        <section className="mx-auto max-w-3xl px-4 mb-8">
-          <div className="flex items-center gap-2.5 mb-3">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 text-emerald-600">
-              <BadgePercent className="h-4.5 w-4.5" />
-            </div>
-            <h2 className="text-lg font-bold text-gray-900">
-              {spokeSlug} 최저가 가격 비교
-            </h2>
-          </div>
-          <div className="pl-[42px]">
-            <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] mb-5">
-              {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
-              약국마다 가격이 다를 수 있으니, 바키리에서 실시간 약국별 최저가를 비교해 보세요.
-            </p>
-            <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} />
-          </div>
-          <Separator className="mt-8" />
-        </section>
-      )}
 
       {/* FAQ */}
       {article.faq.length > 0 && (
@@ -201,11 +201,6 @@ export default async function SpokePage({ params }: PageProps) {
           <FAQSection items={article.faq} />
         </div>
       )}
-
-      {/* Ad: FAQ 아래 */}
-      <div className="mx-auto max-w-3xl px-4">
-        <AdSlot id="after-faq" />
-      </div>
 
       {/* Related Products */}
       {relatedProducts.length > 0 && (
