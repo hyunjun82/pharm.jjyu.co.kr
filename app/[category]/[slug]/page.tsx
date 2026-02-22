@@ -27,6 +27,11 @@ import {
   BadgePercent,
 } from "lucide-react";
 
+function formatKoreanDate(isoDate: string): string {
+  const [year, month, day] = isoDate.split("-");
+  return `${year}년 ${parseInt(month)}월 ${parseInt(day)}일`;
+}
+
 // 섹션 제목 키워드 → 아이콘 + 색상 매핑
 const SECTION_ICONS: Record<string, { icon: React.ElementType; color: string }> = {
   "성분 분석": { icon: Pill, color: "text-blue-500" },
@@ -79,6 +84,16 @@ export async function generateMetadata({
   return {
     title: article.title,
     description: article.metaDescription,
+    authors: [{ name: "의약품 에디터", url: "https://pharm.jjyu.co.kr/about" }],
+    openGraph: {
+      title: article.title,
+      description: article.metaDescription,
+      type: "article",
+      publishedTime: article.datePublished,
+      modifiedTime: article.dateModified,
+      authors: ["https://pharm.jjyu.co.kr/about"],
+      siteName: "약정보",
+    },
   };
 }
 
@@ -128,7 +143,24 @@ export default async function SpokePage({ params }: PageProps) {
           <p className="mt-3 text-base text-gray-500 leading-relaxed sm:text-lg">
             {article.heroDescription}
           </p>
-          <div className="mt-5">
+          {(article.datePublished || article.dateModified) && (
+            <div className="mt-3 flex items-center gap-3 text-sm text-gray-400">
+              {article.datePublished && (
+                <time dateTime={article.datePublished}>
+                  {formatKoreanDate(article.datePublished)} 작성
+                </time>
+              )}
+              {article.dateModified && article.dateModified !== article.datePublished && (
+                <>
+                  <span>|</span>
+                  <time dateTime={article.dateModified}>
+                    {formatKoreanDate(article.dateModified)} 수정
+                  </time>
+                </>
+              )}
+            </div>
+          )}
+          <div className="mt-4">
             <ShareButtons title={article.title} />
           </div>
         </div>
@@ -214,7 +246,11 @@ export default async function SpokePage({ params }: PageProps) {
       )}
 
       {/* 작성자 */}
-      <AuthorBio />
+      <AuthorBio
+        categoryName={catInfo.name}
+        datePublished={article.datePublished}
+        dateModified={article.dateModified}
+      />
 
       {/* Related Products */}
       {relatedProducts.length > 0 && (
@@ -255,14 +291,22 @@ export default async function SpokePage({ params }: PageProps) {
             image: mainProduct?.image
               ? `https://pharm.jjyu.co.kr${mainProduct.image}`
               : undefined,
+            datePublished: article.datePublished,
+            dateModified: article.dateModified,
             author: {
               "@type": "Person",
-              name: "약정보 에디터",
+              name: "의약품 에디터",
               url: "https://pharm.jjyu.co.kr/about",
+              jobTitle: "의약품 정보 전문 에디터",
+              worksFor: {
+                "@type": "Organization",
+                name: "약정보",
+              },
             },
             publisher: {
               "@type": "Organization",
               name: "약정보",
+              url: "https://pharm.jjyu.co.kr",
               logo: {
                 "@type": "ImageObject",
                 url: "https://pharm.jjyu.co.kr/logo.png",
@@ -272,6 +316,7 @@ export default async function SpokePage({ params }: PageProps) {
               "@type": "WebPage",
               "@id": `https://pharm.jjyu.co.kr/${catSlug}/${spokeSlug}`,
             },
+            inLanguage: "ko",
           }),
         }}
       />

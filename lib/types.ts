@@ -37,6 +37,8 @@ export interface SpokeArticle {
   products: Product[];
   faq: FAQItem[];
   sections: ArticleSection[];
+  datePublished?: string;
+  dateModified?: string;
 }
 
 export interface IngredientItem {
@@ -60,4 +62,6 @@ export interface HubArticle {
   description: string;
   heroDescription: string;
   spokes: { slug: string; title: string; description: string }[];
+  datePublished?: string;
+  dateModified?: string;
 }

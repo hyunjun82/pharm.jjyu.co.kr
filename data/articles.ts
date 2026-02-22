@@ -4,6 +4,8 @@ import { getProductsByCategory } from "./products";
 export const hubArticles: Record<string, HubArticle> = {
   연고: {
     categorySlug: "연고",
+    datePublished: "2026-01-15",
+    dateModified: "2026-02-22",
     title: "연고 추천 최저가 가격 비교 | 성분 효과 부작용 가이드",
     h1: "연고 추천 가이드 - 상처별 연고 선택법",
     metaDescription:
@@ -32,6 +34,8 @@ export const hubArticles: Record<string, HubArticle> = {
   },
   탈모: {
     categorySlug: "탈모",
+    datePublished: "2026-01-15",
+    dateModified: "2026-02-22",
     title: "탈모약 추천 최저가 가격 비교 | 성분 효과 부작용 가이드",
     h1: "탈모약 추천 가이드 - 성분별 탈모 치료제 비교",
     metaDescription:
@@ -60,6 +64,8 @@ export const hubArticles: Record<string, HubArticle> = {
   },
   감기: {
     categorySlug: "감기",
+    datePublished: "2026-01-20",
+    dateModified: "2026-02-22",
     title: "감기약 추천 최저가 가격 비교 | 성분 효과 부작용 가이드",
     h1: "감기약 추천 가이드 - 증상별 감기약 선택법",
     metaDescription:
@@ -88,6 +94,8 @@ export const hubArticles: Record<string, HubArticle> = {
   },
   무좀: {
     categorySlug: "무좀",
+    datePublished: "2026-01-25",
+    dateModified: "2026-02-22",
     title: "무좀약 추천 최저가 가격 비교 | 성분 효과 부작용 가이드",
     h1: "무좀약 추천 가이드 - 무좀 치료제 비교 분석",
     metaDescription:
@@ -105,6 +113,8 @@ export const hubArticles: Record<string, HubArticle> = {
   },
   진통제: {
     categorySlug: "진통제",
+    datePublished: "2026-01-20",
+    dateModified: "2026-02-22",
     title: "진통제 추천 최저가 가격 비교 | 성분 효과 부작용 가이드",
     h1: "진통제 추천 가이드 - 통증별 진통제 선택법",
     metaDescription:
@@ -138,6 +148,8 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
     마데카솔: {
       slug: "마데카솔",
       categorySlug: "연고",
+      datePublished: "2026-01-15",
+      dateModified: "2026-02-22",
       title: "마데카솔 최저가 가격 | 성분 효과 사용법 부작용까지",
       h1: "마데카솔 최저가 가격 | 성분 효과 사용법 부작용까지",
       metaDescription:
@@ -206,6 +218,8 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
     후시딘: {
       slug: "후시딘",
       categorySlug: "연고",
+      datePublished: "2026-01-18",
+      dateModified: "2026-02-22",
       title: "후시딘 최저가 가격 | 성분 효과 사용법 부작용까지",
       h1: "후시딘 최저가 가격 | 성분 효과 사용법 부작용까지",
       metaDescription:
@@ -277,6 +291,8 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
     미녹시딜: {
       slug: "미녹시딜",
       categorySlug: "탈모",
+      datePublished: "2026-01-20",
+      dateModified: "2026-02-22",
       title: "미녹시딜 최저가 가격 | 성분 효과 사용법 부작용까지",
       h1: "미녹시딜 최저가 가격 | 성분 효과 사용법 부작용까지",
       metaDescription:
@@ -347,6 +363,8 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
     타이레놀: {
       slug: "타이레놀",
       categorySlug: "진통제",
+      datePublished: "2026-02-01",
+      dateModified: "2026-02-22",
       title: "타이레놀 최저가 가격 | 성분 효과 복용법 부작용까지",
       h1: "타이레놀 최저가 가격 | 성분 효과 복용법 부작용까지",
       metaDescription:
@@ -417,6 +435,8 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
     판콜에이: {
       slug: "판콜에이",
       categorySlug: "감기",
+      datePublished: "2026-02-05",
+      dateModified: "2026-02-22",
       title: "판콜에이 최저가 가격 | 성분 효과 복용법 부작용까지",
       h1: "판콜에이 최저가 가격 | 성분 효과 복용법 부작용까지",
       metaDescription:

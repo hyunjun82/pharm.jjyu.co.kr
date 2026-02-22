@@ -86,20 +86,25 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "약정보 에디터",
+              name: "의약품 에디터",
               url: "https://pharm.jjyu.co.kr/about",
               jobTitle: "의약품 정보 전문 에디터",
+              description:
+                "식약처 공공데이터 기반으로 일반의약품 성분, 효능, 부작용 정보를 전문적으로 분석하고 전달하는 에디터",
               worksFor: {
                 "@type": "Organization",
                 name: "약정보",
+                url: "https://pharm.jjyu.co.kr",
               },
               knowsAbout: [
                 "일반의약품(OTC) 성분 분석",
+                "의약품 효능 및 부작용 분석",
                 "탈모 케어 가이드",
                 "복약 지도",
                 "피부 질환 연고 분석",
                 "의약품 가격 비교 데이터",
               ],
+              sameAs: ["https://pharm.jjyu.co.kr/about"],
             }),
           }}
         />

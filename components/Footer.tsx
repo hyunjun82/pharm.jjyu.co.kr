@@ -13,6 +13,10 @@ export function Footer() {
               홈
             </Link>
             <span>|</span>
+            <Link href="/about" className="hover:text-gray-600">
+              작성자 소개
+            </Link>
+            <span>|</span>
             <span>공공데이터포털 API 활용</span>
           </div>
         </div>
