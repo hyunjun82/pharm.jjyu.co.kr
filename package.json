@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/verify-deeplinks.js",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "verify-deeplinks": "node scripts/verify-deeplinks.js"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
