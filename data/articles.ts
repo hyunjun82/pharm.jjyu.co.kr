@@ -114,7 +114,7 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
       slug: "마데카솔",
       categorySlug: "연고",
       title: "마데카솔 최저가 가격 | 성분 효과 사용법 부작용까지",
-      h1: "마데카솔 효과 부작용 성분 총정리",
+      h1: "마데카솔 최저가 가격 | 성분 효과 사용법 부작용까지",
       metaDescription:
         "마데카솔 연고 성분과 효능, 부작용, 올바른 사용법을 정리했습니다. 약국별 최저가 비교로 가장 저렴하게 구매하세요.",
       description:
@@ -184,7 +184,7 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
       slug: "후시딘",
       categorySlug: "연고",
       title: "후시딘 최저가 가격 | 성분 효과 사용법 부작용까지",
-      h1: "후시딘 효과 부작용 성분 총정리",
+      h1: "후시딘 최저가 가격 | 성분 효과 사용법 부작용까지",
       metaDescription:
         "후시딘 연고 성분과 효능, 부작용, 올바른 사용법을 정리했습니다. 약국별 최저가 비교로 가장 저렴하게 구매하세요.",
       description:
@@ -225,7 +225,7 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
       slug: "미녹시딜",
       categorySlug: "탈모",
       title: "미녹시딜 최저가 가격 | 성분 효과 사용법 부작용까지",
-      h1: "미녹시딜 효과 부작용 성분 총정리",
+      h1: "미녹시딜 최저가 가격 | 성분 효과 사용법 부작용까지",
       metaDescription:
         "미녹시딜 탈모 치료제 성분과 효능, 부작용, 올바른 사용법을 정리했습니다. 약국별 최저가 비교로 가장 저렴하게 구매하세요.",
       description:

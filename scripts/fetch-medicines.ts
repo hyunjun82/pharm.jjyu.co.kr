@@ -406,7 +406,7 @@ ${spokesList}
       }
 
       const spokeTitle = `${p.slug} 최저가 가격 | 성분 효과 ${method} 부작용까지`;
-      const spokeH1 = `${p.slug} 효과 부작용 성분 총정리`;
+      const spokeH1 = `${p.slug} 최저가 가격 | 성분 효과 ${method} 부작용까지`;
       const spokeMeta = `${p.slug} 성분과 효능, 부작용, 올바른 ${method}을 정리했습니다. 약국별 최저가 비교로 가장 저렴하게 구매하세요.`;
       return `    ${JSON.stringify(p.slug)}: {
       slug: ${JSON.stringify(p.slug)},
