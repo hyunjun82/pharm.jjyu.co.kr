@@ -7,6 +7,8 @@ import { FAQSection } from "@/components/FAQSection";
 import { IngredientTable } from "@/components/IngredientTable";
 import { PriceCTA } from "@/components/PriceCTA";
 import { RelatedSpokes } from "@/components/RelatedSpokes";
+import { ShareButtons } from "@/components/ShareButtons";
+import { AuthorBio } from "@/components/AuthorBio";
 import { getSpokeArticle } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
 import { spokeArticles } from "@/data/articles";
@@ -126,6 +128,9 @@ export default async function SpokePage({ params }: PageProps) {
           <p className="mt-3 text-base text-gray-500 leading-relaxed sm:text-lg">
             {article.heroDescription}
           </p>
+          <div className="mt-5">
+            <ShareButtons title={article.title} />
+          </div>
         </div>
       </section>
 
@@ -207,6 +212,9 @@ export default async function SpokePage({ params }: PageProps) {
           <FAQSection items={article.faq} />
         </div>
       )}
+
+      {/* 작성자 */}
+      <AuthorBio />
 
       {/* Related Products */}
       {relatedProducts.length > 0 && (
