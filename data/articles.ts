@@ -1,5 +1,5 @@
 import { HubArticle, SpokeArticle } from "@/lib/types";
-import { getProductsByCategory, getProductBySlug } from "./products";
+import { getProductsByCategory } from "./products";
 
 export const hubArticles: Record<string, HubArticle> = {
   연고: {
@@ -146,9 +146,7 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
         "마데카솔 연고의 효능, 성분, 사용법, 최저가 비교 정보를 제공해요.",
       heroDescription:
         "흉터 예방의 대명사 마데카솔. 센텔라 아시아티카 추출물로 상처 치유를 촉진하고 흉터를 예방해요.",
-      products: getProductsByCategory("연고").filter(
-        (p) => p.slug === "마데카솔"
-      ),
+      products: [],
       faq: [
         {
           question: "마데카솔은 어떤 상처에 바르나요?",
@@ -216,9 +214,7 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
         "후시딘 연고의 효능, 성분, 사용법, 최저가 비교 정보를 제공해요.",
       heroDescription:
         "후시딘은 항생제 연고예요. 세균 감염이 의심되는 상처에 사용하며, 무분별한 사용은 내성을 유발할 수 있어요.",
-      products: getProductsByCategory("연고").filter(
-        (p) => p.slug === "후시딘"
-      ),
+      products: [],
       faq: [
         {
           question: "후시딘은 모든 상처에 발라도 되나요?",
@@ -289,9 +285,7 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
         "미녹시딜 5%의 효과, 부작용, 사용법, 최저가 비교 정보를 제공해요.",
       heroDescription:
         "미녹시딜은 FDA가 승인한 탈모 치료 성분이에요. 두피에 직접 도포해서 혈류를 개선하고 모낭을 활성화해요.",
-      products: getProductsByCategory("탈모").filter(
-        (p) => p.slug === "미녹시딜"
-      ),
+      products: [],
       faq: [
         {
           question: "미녹시딜은 얼마나 써야 효과가 나타나나요?",
@@ -361,9 +355,7 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
         "타이레놀의 효능, 성분, 복용법, 최저가 비교 정보를 제공해요.",
       heroDescription:
         "타이레놀은 아세트아미노펜 성분의 해열·진통제예요. 위장 자극이 적어서 공복에도 복용 가능하고, 두통·치통·생리통 등 다양한 통증에 사용돼요.",
-      products: getProductsByCategory("진통제").filter(
-        (p) => p.slug === "타이레놀"
-      ),
+      products: [],
       faq: [
         {
           question: "타이레놀은 하루에 최대 몇 정까지 먹을 수 있나요?",
@@ -433,9 +425,7 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
         "판콜에이 종합감기약의 효능, 성분, 복용법, 최저가 비교 정보를 제공해요.",
       heroDescription:
         "판콜에이는 발열, 두통, 콧물, 기침을 한 번에 잡아주는 종합감기약이에요. 여러 증상이 동시에 나타나는 감기 초·중기에 특히 효과적이에요.",
-      products: getProductsByCategory("감기").filter(
-        (p) => p.slug === "판콜에이"
-      ),
+      products: [],
       faq: [
         {
           question: "판콜에이 먹으면 졸려요?",
@@ -504,5 +494,11 @@ export function getSpokeArticle(
   categorySlug: string,
   slug: string
 ): SpokeArticle | undefined {
-  return spokeArticles[categorySlug]?.[slug];
+  const article = spokeArticles[categorySlug]?.[slug];
+  if (!article) return undefined;
+  // Lazily resolve products to avoid module-level cross-dependency issues
+  const resolvedProducts = getProductsByCategory(categorySlug).filter(
+    (p) => p.slug === slug
+  );
+  return { ...article, products: resolvedProducts };
 }

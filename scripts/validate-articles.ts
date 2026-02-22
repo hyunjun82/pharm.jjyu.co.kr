@@ -5,7 +5,7 @@
  * 사용법: npx tsx scripts/validate-articles.ts
  */
 
-import { spokeArticles, hubArticles } from "../data/articles";
+import { spokeArticles, hubArticles, getSpokeArticle } from "../data/articles";
 import { products } from "../data/products";
 import type { SpokeArticle } from "../lib/types";
 
@@ -281,7 +281,10 @@ function main() {
   const allResults: { key: string; results: CheckResult[] }[] = [];
 
   for (const [catSlug, spokes] of Object.entries(spokeArticles)) {
-    for (const [slug, article] of Object.entries(spokes)) {
+    for (const slug of Object.keys(spokes)) {
+      // Use getSpokeArticle for lazy product resolution
+      const article = getSpokeArticle(catSlug, slug);
+      if (!article) continue;
       totalArticles++;
       const results = validateArticle(catSlug, slug, article);
       const passed = results.filter((r) => r.passed).length;
