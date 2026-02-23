@@ -152,7 +152,6 @@ export const products: Product[] = [
     price: 4500,
     unit: "10캡슐",
     barkiryQuery: "콘택600",
-    barkiryProductId: "p442",
     ingredients: "슈도에페드린염산염,트리프롤리딘염산염",
     usage: "1일 2회, 1캡슐씩 복용",
     slug: "콘택600",
