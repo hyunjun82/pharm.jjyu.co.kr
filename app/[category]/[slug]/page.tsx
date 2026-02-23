@@ -107,11 +107,18 @@ export default async function SpokePage({ params }: PageProps) {
 
   if (!article || !catInfo) notFound();
 
-  const relatedProducts = getProductsByCategory(catSlug).filter(
+  const categoryProducts = getProductsByCategory(catSlug);
+  const matchedProduct = categoryProducts.find((p) => p.slug === spokeSlug);
+  const relatedProducts = categoryProducts.filter(
     (p) => p.slug !== spokeSlug
   );
 
-  const mainProduct = article.products[0];
+  const mainProduct = article.products[0] || matchedProduct || null;
+  const displayProducts = article.products.length > 0
+    ? article.products
+    : matchedProduct
+      ? [matchedProduct]
+      : [];
 
   return (
     <>
@@ -181,9 +188,9 @@ export default async function SpokePage({ params }: PageProps) {
 
       {/* Main Product Card */}
       <section className="py-6">
-        {article.products.length > 0 && (
+        {displayProducts.length > 0 && (
           <div className="grid gap-3">
-            {article.products.map((product) => (
+            {displayProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
