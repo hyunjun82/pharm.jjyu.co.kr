@@ -1,0 +1,34 @@
+import { Product } from "@/lib/types";
+
+export const products: Product[] = [
+  {
+      id: "tylenol-500-10tabs",
+      name: "타이레놀 500mg 10정",
+      image: "/images/tylenol.svg",
+      category: "일반의약품",
+      categorySlug: "진통제",
+      description: "두통, 치통, 생리통 완화. 아세트아미노펜 성분.",
+      price: 2000,
+      unit: "10정",
+      barkiryQuery: "타이레놀",
+      barkiryProductId: "p88",
+      ingredients: "아세트아미노펜",
+      usage: "1회 1~2정, 1일 3~4회 (4~6시간 간격)",
+      slug: "타이레놀",
+    },
+  {
+      id: "ibuprofen-200-20tabs",
+      name: "이부프로펜 200mg 20정",
+      image: "/images/ibuprofen.svg",
+      category: "일반의약품",
+      categorySlug: "진통제",
+      description: "두통, 관절통, 생리통 완화. 비스테로이드 항염증제.",
+      price: 3000,
+      unit: "20정",
+      barkiryQuery: "이부프로펜",
+      barkiryProductId: "p1122",
+      ingredients: "이부프로펜",
+      usage: "1회 1정, 1일 3회 식후 복용",
+      slug: "이부프로펜",
+    },
+];

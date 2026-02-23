@@ -1,6 +1,6 @@
 /**
  * 발키리 딥링크 검증 스크립트
- * data/products.ts에서 자동으로 제품 목록을 읽어 검증합니다.
+ * data/products/{카테고리}.ts 에서 자동으로 제품 목록을 읽어 검증합니다.
  *
  * 사용법: node scripts/verify-deeplinks.js
  */
@@ -8,20 +8,22 @@
 const fs = require("fs");
 const path = require("path");
 
-/** products.ts 파일에서 barkiryProductId가 있는 제품 목록 추출 */
+/** data/products/ 폴더의 모든 카테고리 파일에서 barkiryProductId가 있는 제품 목록 추출 */
 function loadProducts() {
-  const filePath = path.join(__dirname, "..", "data", "products.ts");
-  const content = fs.readFileSync(filePath, "utf-8");
+  const productsDir = path.join(__dirname, "..", "data", "products");
+  const files = fs.readdirSync(productsDir).filter(f => f.endsWith(".ts") && f !== "index.ts");
 
   const products = [];
-  // 정규식으로 name과 barkiryProductId 쌍 추출
-  const blocks = content.split(/\{[^}]*?name:/);
+  for (const file of files) {
+    const content = fs.readFileSync(path.join(productsDir, file), "utf-8");
+    const blocks = content.split(/\{[^}]*?name:/);
 
-  for (const block of blocks) {
-    const nameMatch = block.match(/^\s*"([^"]+)"/);
-    const idMatch = block.match(/barkiryProductId:\s*"([^"]+)"/);
-    if (nameMatch && idMatch) {
-      products.push({ name: nameMatch[1], id: idMatch[1] });
+    for (const block of blocks) {
+      const nameMatch = block.match(/^\s*"([^"]+)"/);
+      const idMatch = block.match(/barkiryProductId:\s*"([^"]+)"/);
+      if (nameMatch && idMatch) {
+        products.push({ name: nameMatch[1], id: idMatch[1] });
+      }
     }
   }
 

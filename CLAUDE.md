@@ -287,17 +287,41 @@ pharm-jjyu/
 │   ├── CategorySidebar.tsx         ← PC 사이드바
 │   ├── FAQSection.tsx              ← FAQ 아코디언
 │   ├── IngredientTable.tsx         ← 성분 테이블
-│   ├── PriceCTA.tsx                ← 최저가 버튼
-│   ├── ProductCard.tsx             ← 제품 카드
+│   ├── PriceCTA.tsx                ← 최저가 버튼 (링크 없으면 자동 숨김)
+│   ├── ProductCard.tsx             ← 제품 카드 (링크 없으면 CTA 숨김)
 │   ├── RelatedSpokes.tsx           ← 본문 내부링크 (3개 제한)
 │   └── ShareButtons.tsx            ← 공유 버튼
 ├── data/
-│   ├── articles.ts                 ← Hub + Spoke 글 데이터
 │   ├── categories.ts               ← 8개 카테고리
-│   └── products.ts                 ← 제품 데이터
+│   ├── products/                   ← ⭐ 카테고리별 분리
+│   │   ├── index.ts                ← 통합 export (getProductsByCategory 등)
+│   │   ├── 연고.ts
+│   │   ├── 탈모.ts
+│   │   ├── 감기.ts
+│   │   ├── 진통제.ts
+│   │   ├── 무좀.ts
+│   │   ├── 설사.ts
+│   │   ├── 소화제.ts
+│   │   └── 안약.ts
+│   └── articles/                   ← ⭐ 카테고리별 분리
+│       ├── index.ts                ← 통합 export (getHubArticle, getSpokeArticle 등)
+│       ├── 연고.ts
+│       ├── 탈모.ts
+│       ├── 감기.ts
+│       ├── 진통제.ts
+│       ├── 무좀.ts
+│       ├── 설사.ts
+│       ├── 소화제.ts
+│       └── 안약.ts
 ├── lib/
 │   └── types.ts                    ← TypeScript 인터페이스
 └── scripts/
+    ├── split-data.js               ← 데이터 파일 분리 스크립트
     ├── verify-deeplinks.js         ← 딥링크 자동 검증
     └── verify-wiki-quality.js      ← 품질 검증
 ```
+
+### Agent Teams 카테고리 파일 규칙
+- 에이전트는 자기 카테고리 파일만 편집: `data/products/{카테고리}.ts`, `data/articles/{카테고리}.ts`
+- `index.ts`는 자동으로 모든 카테고리를 import → 별도 수정 불필요
+- import 경로는 기존과 동일: `@/data/products`, `@/data/articles`
