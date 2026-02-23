@@ -73,6 +73,7 @@ export const products: Product[] = [
     price: 45000,
     unit: "90캡슐",
     barkiryQuery: "판토가",
+    externalSearchUrl: "https://search.shopping.naver.com/search/all?query=판토가+캡슐",
     ingredients: "비타민B1,판토텐산칼슘,약용효모,L-시스틴,케라틴,파라아미노벤조산",
     usage: "1일 3회, 1캡슐씩 식사와 함께 복용",
     slug: "판토가",

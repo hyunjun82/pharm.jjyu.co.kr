@@ -12,6 +12,7 @@ export interface Product {
   unit: string;
   barkiryQuery: string;
   barkiryProductId?: string;
+  externalSearchUrl?: string;
 }
 
 function getTodayString() {
@@ -23,7 +24,9 @@ export function ProductCard({ product }: { product: Product }) {
   const formattedPrice = new Intl.NumberFormat("ko-KR").format(product.price);
   const barkiryUrl = product.barkiryProductId
     ? `https://barkiri.com/products/${product.barkiryProductId}`
-    : `https://barkiri.com/search?query=${encodeURIComponent(product.barkiryQuery)}`;
+    : product.externalSearchUrl
+      ? product.externalSearchUrl
+      : `https://barkiri.com/search?query=${encodeURIComponent(product.barkiryQuery)}`;
 
   return (
     <a

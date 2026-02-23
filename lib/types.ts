@@ -9,6 +9,7 @@ export interface Product {
   unit: string;
   barkiryQuery: string;
   barkiryProductId?: string;
+  externalSearchUrl?: string;
   ingredients?: string;
   usage?: string;
   slug: string;

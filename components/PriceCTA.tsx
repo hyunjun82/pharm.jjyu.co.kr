@@ -4,12 +4,15 @@ interface PriceCTAProps {
   name: string;
   barkiryQuery: string;
   barkiryProductId?: string;
+  externalSearchUrl?: string;
 }
 
-export function PriceCTA({ name, barkiryQuery, barkiryProductId }: PriceCTAProps) {
+export function PriceCTA({ name, barkiryQuery, barkiryProductId, externalSearchUrl }: PriceCTAProps) {
   const barkiryUrl = barkiryProductId
     ? `https://barkiri.com/products/${barkiryProductId}`
-    : `https://barkiri.com/search?query=${encodeURIComponent(barkiryQuery)}`;
+    : externalSearchUrl
+      ? externalSearchUrl
+      : `https://barkiri.com/search?query=${encodeURIComponent(barkiryQuery)}`;
 
   return (
     <a
