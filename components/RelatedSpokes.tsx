@@ -11,8 +11,11 @@ export function RelatedSpokes({ categorySlug, currentSlug }: RelatedSpokesProps)
   const hub = hubArticles[categorySlug];
   if (!hub) return null;
 
-  const otherSpokes = hub.spokes.filter((s) => s.slug !== currentSlug);
-  if (otherSpokes.length === 0) return null;
+  const allOtherSpokes = hub.spokes.filter((s) => s.slug !== currentSlug);
+  if (allOtherSpokes.length === 0) return null;
+
+  const displaySpokes = allOtherSpokes.slice(0, 3);
+  const hasMore = allOtherSpokes.length > 3;
 
   return (
     <section className="mb-8">
@@ -21,7 +24,7 @@ export function RelatedSpokes({ categorySlug, currentSlug }: RelatedSpokesProps)
           📋 다른 {hub.categorySlug}도 비교해 보세요
         </h3>
         <div className="space-y-2.5">
-          {otherSpokes.map((spoke) => (
+          {displaySpokes.map((spoke) => (
             <Link
               key={spoke.slug}
               href={`/${categorySlug}/${spoke.slug}`}
@@ -46,7 +49,9 @@ export function RelatedSpokes({ categorySlug, currentSlug }: RelatedSpokesProps)
           >
             <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 group-hover:text-emerald-500 group-hover:translate-x-0.5 transition-all" />
             <span className="text-sm font-medium text-gray-600 group-hover:text-emerald-600 transition-colors">
-              {hub.categorySlug} 가이드 전체 보기
+              {hasMore
+                ? `${hub.categorySlug} ${allOtherSpokes.length}개 더 비교하기`
+                : `${hub.categorySlug} 가이드 전체 보기`}
             </span>
           </Link>
         </div>

@@ -7,6 +7,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { IngredientTable } from "@/components/IngredientTable";
 import { PriceCTA } from "@/components/PriceCTA";
 import { RelatedSpokes } from "@/components/RelatedSpokes";
+import { CategorySidebar } from "@/components/CategorySidebar";
 import { ShareButtons } from "@/components/ShareButtons";
 import { AuthorBio } from "@/components/AuthorBio";
 import { getSpokeArticle } from "@/data/articles";
@@ -173,8 +174,13 @@ export default async function SpokePage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* 2-column layout wrapper: main + sidebar */}
+      <div className="mx-auto max-w-5xl px-4 lg:flex lg:gap-8">
+        {/* Main Column */}
+        <div className="flex-1 max-w-3xl">
+
       {/* Main Product Card */}
-      <section className="mx-auto max-w-3xl px-4 py-6">
+      <section className="py-6">
         {article.products.length > 0 && (
           <div className="grid gap-3">
             {article.products.map((product) => (
@@ -185,7 +191,7 @@ export default async function SpokePage({ params }: PageProps) {
       </section>
 
       {/* Article Sections */}
-      <article className="mx-auto max-w-3xl px-4">
+      <article>
         {article.sections.map((section, i) => {
           const { icon: Icon, color } = getSectionIcon(section.title);
           const showPriceAfter =
@@ -247,7 +253,7 @@ export default async function SpokePage({ params }: PageProps) {
 
       {/* FAQ */}
       {article.faq.length > 0 && (
-        <div className="mx-auto max-w-3xl px-4 pb-4">
+        <div className="pb-4">
           <FAQSection items={article.faq} />
         </div>
       )}
@@ -259,24 +265,34 @@ export default async function SpokePage({ params }: PageProps) {
         dateModified={article.dateModified}
       />
 
-      {/* Related Products */}
+      {/* Related Products — 3개 제한 */}
       {relatedProducts.length > 0 && (
-        <section className="border-t bg-gray-50/50 mt-4">
-          <div className="mx-auto max-w-3xl px-4 py-10">
+        <section className="border-t bg-gray-50/50 mt-4 rounded-xl">
+          <div className="py-10 px-1">
             <h2 className="text-lg font-bold text-gray-900 mb-4">
               같은 카테고리 다른 의약품
             </h2>
             <div className="grid gap-3">
-              {relatedProducts.map((product) => (
+              {relatedProducts.slice(0, 3).map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}
             </div>
+            {relatedProducts.length > 3 && (
+              <div className="mt-4 text-center">
+                <Link
+                  href={`/${catSlug}`}
+                  className="text-sm text-gray-500 hover:text-emerald-600 transition-colors"
+                >
+                  {catInfo.name} 전체 보기 →
+                </Link>
+              </div>
+            )}
           </div>
         </section>
       )}
 
       {/* Back Links */}
-      <div className="mx-auto max-w-3xl px-4 py-8 flex gap-4">
+      <div className="py-8 flex gap-4">
         <Link
           href={`/${catSlug}`}
           className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-emerald-600 transition-colors"
@@ -285,6 +301,13 @@ export default async function SpokePage({ params }: PageProps) {
           {catInfo.name} 가이드로 돌아가기
         </Link>
       </div>
+
+        </div>{/* end Main Column */}
+
+        {/* PC Sidebar */}
+        <CategorySidebar categorySlug={catSlug} currentSlug={spokeSlug} />
+
+      </div>{/* end 2-column wrapper */}
 
       {/* #1 Article 스키마 - 기본 글 정보 */}
       <script
