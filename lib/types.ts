@@ -7,7 +7,7 @@ export interface Product {
   description: string;
   price: number;
   unit: string;
-  barkiryQuery: string;
+  barkiryQuery?: string;
   barkiryProductId?: string;
   externalSearchUrl?: string;
   ingredients?: string;

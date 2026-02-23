@@ -292,7 +292,7 @@ export const products: Product[] = [
     usage: "1회 1정, 1일 3회 식후 복용",
     slug: "이부프로펜",
   },
-  // 감기 추가
+  // 감기 — 콘택600 (가격 비교 링크 없음)
   {
     id: "contac600-10caps",
     name: "콘택600 10캡슐",
@@ -302,8 +302,6 @@ export const products: Product[] = [
     description: "코감기약. 콧물, 코막힘 완화. 서방형 캡슐.",
     price: 4500,
     unit: "10캡슐",
-    barkiryQuery: "콘택600",
-    externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EC%BD%98%ED%83%9D600",
     ingredients: "슈도에페드린염산염,트리프롤리딘염산염",
     usage: "1일 2회, 1캡슐씩 복용",
     slug: "콘택600",

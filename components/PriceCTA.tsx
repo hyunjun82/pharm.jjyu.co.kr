@@ -2,17 +2,20 @@ import { ExternalLink } from "lucide-react";
 
 interface PriceCTAProps {
   name: string;
-  barkiryQuery: string;
+  barkiryQuery?: string;
   barkiryProductId?: string;
   externalSearchUrl?: string;
 }
 
 export function PriceCTA({ name, barkiryQuery, barkiryProductId, externalSearchUrl }: PriceCTAProps) {
+  const hasLink = !!(barkiryProductId || externalSearchUrl || barkiryQuery);
+  if (!hasLink) return null;
+
   const barkiryUrl = barkiryProductId
     ? `https://barkiri.com/products/${barkiryProductId}`
     : externalSearchUrl
       ? externalSearchUrl
-      : `https://barkiri.com/search?query=${encodeURIComponent(barkiryQuery)}`;
+      : `https://barkiri.com/search?query=${encodeURIComponent(barkiryQuery!)}`;
 
   return (
     <a
