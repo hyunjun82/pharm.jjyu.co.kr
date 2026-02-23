@@ -136,7 +136,7 @@ export const products: Product[] = [
     price: 3000,
     unit: "20정",
     barkiryQuery: "이부프로펜",
-    barkiryProductId: "p267",
+    barkiryProductId: "p1122",
     ingredients: "이부프로펜",
     usage: "1회 1정, 1일 3회 식후 복용",
     slug: "이부프로펜",
