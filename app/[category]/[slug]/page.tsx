@@ -89,11 +89,21 @@ export async function generateMetadata({
     openGraph: {
       title: article.title,
       description: article.metaDescription,
+      url: `https://pharm.jjyu.co.kr/${catSlug}/${spokeSlug}`,
       type: "article",
       publishedTime: article.datePublished,
       modifiedTime: article.dateModified,
       authors: ["https://pharm.jjyu.co.kr/about"],
       siteName: "약정보",
+      locale: "ko_KR",
+    },
+    twitter: {
+      card: "summary",
+      title: article.title,
+      description: article.metaDescription,
+    },
+    alternates: {
+      canonical: `https://pharm.jjyu.co.kr/${catSlug}/${spokeSlug}`,
     },
   };
 }

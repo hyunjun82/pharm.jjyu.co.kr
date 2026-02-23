@@ -24,6 +24,24 @@ export const metadata: Metadata = {
   description:
     "일반의약품 최저가 비교, 성분 분석, 효능 가이드. 탈모약, 연고, 감기약, 진통제 등 의약품 정보를 한눈에.",
   keywords: ["일반의약품", "최저가", "약 가격 비교", "탈모약", "연고", "감기약"],
+  openGraph: {
+    title: "약정보 - 일반의약품 최저가 비교 가이드",
+    description:
+      "일반의약품 최저가 비교, 성분 분석, 효능 가이드. 탈모약, 연고, 감기약, 진통제 등 의약품 정보를 한눈에.",
+    url: "https://pharm.jjyu.co.kr",
+    siteName: "약정보",
+    locale: "ko_KR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "약정보 - 일반의약품 최저가 비교 가이드",
+    description:
+      "일반의약품 최저가 비교, 성분 분석, 효능 가이드. 탈모약, 연고, 감기약, 진통제 등 의약품 정보를 한눈에.",
+  },
+  alternates: {
+    canonical: "https://pharm.jjyu.co.kr",
+  },
   verification: {
     google: "kPe6sAN7cMBDG2OVVWHcI8hH-BxkT5Zv6U8TVWTxuwI",
     other: {

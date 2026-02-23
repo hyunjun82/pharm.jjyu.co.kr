@@ -24,6 +24,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: hub.title,
     description: hub.metaDescription,
+    openGraph: {
+      title: hub.title,
+      description: hub.metaDescription,
+      url: `https://pharm.jjyu.co.kr/${slug}`,
+      siteName: "약정보",
+      locale: "ko_KR",
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title: hub.title,
+      description: hub.metaDescription,
+    },
+    alternates: {
+      canonical: `https://pharm.jjyu.co.kr/${slug}`,
+    },
   };
 }
 
