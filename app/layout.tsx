@@ -39,6 +39,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body
         className={`${notoSansKR.variable} ${geistMono.variable} font-sans antialiased`}
       >
