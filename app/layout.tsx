@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   keywords: ["일반의약품", "최저가", "약 가격 비교", "탈모약", "연고", "감기약"],
   verification: {
     google: "kPe6sAN7cMBDG2OVVWHcI8hH-BxkT5Zv6U8TVWTxuwI",
+    other: {
+      "naver-site-verification": ["1ae236154d318ff542ba2858bb0d557f33834985"],
+    },
   },
 };
 
