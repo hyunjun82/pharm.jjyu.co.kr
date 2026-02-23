@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "gaviscon-double-12pk",
     name: "개비스콘 더블액션 현탁액 10ml 12포",
-    image: "/images/gaviscon.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "위산 역류, 속쓰림 완화. 알긴산 위 보호막.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "gas-hwalmyungsu-75ml",
     name: "까스활명수 75ml",
-    image: "/images/gas-hwalmyungsu.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "가스, 더부룩함 해소. 생약 성분 액상 소화제.",
@@ -93,7 +93,7 @@ export const products: Product[] = [
   {
     id: "gelfos-m-4pack",
     name: "겔포스엠 현탁액 4포",
-    image: "/images/gelfos-m.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "인산알루미늄+마그네슘 복합 제산제. 속쓰림, 위산 과다에 효과적이에요.",
@@ -108,7 +108,7 @@ export const products: Product[] = [
   {
     id: "hwalmeongsu-q-75ml",
     name: "까스 활명수 큐액 75ml",
-    image: "/images/hwalmeongsu-q.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "동화약품 대표 생약 소화제. 식체, 소화불량에 빠른 효과를 기대할 수 있어요.",
@@ -123,7 +123,7 @@ export const products: Product[] = [
   {
     id: "sohwaen-venatioF-75ml",
     name: "소화엔 베나치오 에프액 75ml",
-    image: "/images/sohwaen-venatioF.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴 복합 소화효소 드링크. 과식·음주 후 더부룩함 해소에 사용해요.",
@@ -138,7 +138,7 @@ export const products: Product[] = [
   {
     id: "sokpyeon-f-90pack",
     name: "속편F환 90포",
-    image: "/images/sokpyeon-f.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "향사평위산 복합 한방 소화제. 만성 소화불량, 위하수, 식욕부진에 사용해요.",

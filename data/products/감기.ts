@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
       id: "contac600-10caps",
       name: "콘택600 10캡슐",
-      image: "/images/contac600.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "코감기약. 콧물, 코막힘 완화. 서방형 캡슐.",
@@ -32,7 +32,7 @@ export const products: Product[] = [
   {
       id: "ssanghwa-100ml-10",
       name: "광동 쌍화탕 100ml 10병",
-      image: "/images/ssanghwa.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "몸살 감기에 효과적인 한방 감기약. 작약·숙지황 등 생약 성분.",
@@ -47,7 +47,7 @@ export const products: Product[] = [
   {
       id: "theraflu-daytime-6",
       name: "테라플루 데이타임 건조시럽 6개입",
-      image: "/images/theraflu-day.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "따뜻한 음료형 감기약. 발열·두통·코막힘 완화.",
@@ -62,7 +62,7 @@ export const products: Product[] = [
   {
       id: "theraflu-nighttime-6",
       name: "테라플루 나이트타임 건조시럽 6개입",
-      image: "/images/theraflu-night.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "야간 감기 증상 완화. 숙면 도움 항히스타민 포함.",
@@ -107,7 +107,7 @@ export const products: Product[] = [
   {
       id: "pancold-s-30ml-5",
       name: "판콜 에스 내복액 30ml 5병",
-      image: "/images/pancold-s.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "액상형 종합감기약. 빠른 흡수, 다양한 감기 증상 완화.",
@@ -122,7 +122,7 @@ export const products: Product[] = [
   {
       id: "tylenol-cold-s-10tabs",
       name: "타이레놀 콜드에스정 10정",
-      image: "/images/tylenol-cold.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "타이레놀 기반 종합감기약. 발열·두통·콧물·코막힘 완화.",
@@ -137,7 +137,7 @@ export const products: Product[] = [
   {
       id: "huituben-nasal-10ml",
       name: "화이투벤 나잘 스프레이 무향 10ml",
-      image: "/images/huituben-nasal.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "코막힘 즉각 완화 스프레이. 옥시메타졸린 성분.",
@@ -152,7 +152,7 @@ export const products: Product[] = [
   {
       id: "cophu-syrup-s-6",
       name: "코푸 시럽 에스 20ml 6포",
-      image: "/images/cophu-syrup.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "기침감기 전문 시럽. 가래·기침 동시 완화.",
@@ -197,7 +197,7 @@ export const products: Product[] = [
   {
       id: "kosmuldoctor",
       name: "콧물닥터",
-      image: "/images/kosmuldoctor.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "콧물, 재채기 완화. 항히스타민 성분.",
@@ -257,7 +257,7 @@ export const products: Product[] = [
   {
       id: "theraflu-coldcough-10",
       name: "테라플루 데이타임 콜드앤코프 10개입",
-      image: "/images/theraflu-coldcough.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "감기",
       description: "분말 타입 종합감기약. 따뜻하게 마시는 기침·코감기 복합 치료제.",

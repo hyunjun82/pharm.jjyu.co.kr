@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
       id: "lamisil-15g",
       name: "라미실 크림 15g",
-      image: "/images/lamisil.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "무좀, 피부 진균 감염 치료. 테르비나핀 성분.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
       id: "canesten-20g",
       name: "카네스텐 크림 20g",
-      image: "/images/canesten.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "무좀, 칸디다, 피부진균 치료. 클로트리마졸 성분.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
       id: "terbinew-gel-20g",
       name: "터비뉴겔 20g",
-      image: "/images/terbinew.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "무좀 치료 겔 타입. 테르비나핀 성분.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
       id: "lamisil-once-4g",
       name: "라미실 원스 외용액 4g",
-      image: "/images/lamisil-once.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "1회 도포로 무좀 치료. 테르비나핀 필름 형성.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
       id: "terbinew-once-6g",
       name: "터비뉴 원스 외용액 6g",
-      image: "/images/terbinew-once.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "한 번 바르는 무좀 치료. 터비나핀 성분.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
       id: "terbinew-double-30g",
       name: "터비뉴 더블액션 겔 30g",
-      image: "/images/terbinew-double.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "이중 작용 무좀 치료 겔. 터비나핀 성분.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
       id: "canesten-10g",
       name: "카네스텐 크림 10g",
-      image: "/images/canesten-10g.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "소용량 무좀 치료 크림. 클로트리마졸 성분.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
       id: "astart-10g",
       name: "아스타트 크림 10g",
-      image: "/images/astart.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "옥시코나졸 성분의 광범위 항진균 크림. 무좀, 완선, 어루러기 치료에 사용해요.",
@@ -122,7 +122,7 @@ export const products: Product[] = [
   {
       id: "econazole-10g",
       name: "에케나졸 크림 10g",
-      image: "/images/econazole.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "에코나졸 성분의 항진균 크림. 피부사상균과 칸디다균에 모두 효과적이에요.",
@@ -135,7 +135,7 @@ export const products: Product[] = [
   {
       id: "fullcare-10g",
       name: "풀케어 크림 10g",
-      image: "/images/fullcare.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "클로트리마졸 성분의 무좀·칸디다 치료 크림. 카네스텐과 동일 성분 제네릭이에요.",

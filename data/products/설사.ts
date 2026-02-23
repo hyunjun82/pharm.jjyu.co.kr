@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "jungrowhan-f-100pills",
     name: "동성 정로환 에프환 100환",
-    image: "/images/jungrowhan-fp.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "설사",
     description: "급성 설사, 복통 완화. 전통 환제 타입.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "jungrowhan-coated-36tabs",
     name: "동성 정로환 당의정 36정",
-    image: "/images/jungrowhan-c.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "설사",
     description: "급성 설사, 복통 완화. 냄새 없는 코팅 정제.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "smecta-suspension",
     name: "스멕타 현탁액 3g 10포",
-    image: "/images/smecta-suspension.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "설사",
     description: "급성 설사 완화. 흡착성 지사제.",
@@ -63,7 +63,7 @@ export const products: Product[] = [
   {
     id: "bioflor-250-10caps",
     name: "비오플 250 캡슐 10캡슐",
-    image: "/images/bioflor-250-10caps.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "설사",
     description: "장내 유익균 보충. 프로바이오틱스 정장제.",
@@ -77,7 +77,7 @@ export const products: Product[] = [
   {
     id: "lopemin-2mg-10caps",
     name: "로페민 캡슐 2mg 10캡슐",
-    image: "/images/lopemin-2mg-10caps.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "설사",
     description: "급성 설사 억제. 장운동 억제제.",
@@ -91,7 +91,7 @@ export const products: Product[] = [
   {
     id: "imodium-2mg-12caps",
     name: "이모디움 캡슐 2mg 12캡슐",
-    image: "/images/imodium.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "설사",
     description: "글로벌 대표 로페라미드 제제. 장운동 억제로 빠른 설사 완화.",
@@ -104,7 +104,7 @@ export const products: Product[] = [
   {
     id: "bioflor-250-48caps",
     name: "비오플250 캡슐 48캡슐",
-    image: "/images/bioflor-250-48caps.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "설사",
     description: "대용량 비오플250. 사카로마이세스 유산균으로 장내 균형 회복.",

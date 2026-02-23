@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
       id: "minoxidil-60ml",
       name: "미녹시딜 5% 60ml",
-      image: "/images/minoxidil.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "남성형 탈모 치료. FDA 승인 탈모 치료 성분.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
       id: "propecia-28tabs",
       name: "프로페시아정 1mg 28정",
-      image: "/images/propecia.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "남성형 탈모 치료. 피나스테리드 오리지널.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
       id: "finawon-30tabs",
       name: "피나원정 1mg 30정",
-      image: "/images/finawon.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "남성형 탈모 치료. 피나스테리드 제네릭.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
       id: "hairgro-30tabs",
       name: "헤어그로정 1mg 30정",
-      image: "/images/hairgro.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "남성형 탈모 치료. 가성비 피나스테리드.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
       id: "dupina-30ml",
       name: "두피나액 30ml",
-      image: "/images/dupina.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "미녹시딜 함유 두피 탈모 치료 외용액. 남성형 탈모에 사용.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
       id: "hyundai-minoxidil-30tabs",
       name: "현대 미녹시딜정 5mg 30정",
-      image: "/images/hyundai-minoxidil.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "경구용 미녹시딜 5mg. 남성형 탈모 치료 정제.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
       id: "panxidil-liquid-240ml",
       name: "판시딜액 5% 240ml",
-      image: "/images/panxidil-liquid.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "미녹시딜 5% 탈모 치료 외용액. 판시딜 캡슐과 병행 사용 가능.",

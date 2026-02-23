@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
       id: "compound-madecassol-15g",
       name: "복합 마데카솔 연고 15g",
-      image: "/images/compound-madecassol.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "상처 치유 + 세균 감염 방지. 센텔라 + 네오마이신 복합.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
       id: "esroban-10g",
       name: "에스로반 연고 10g",
-      image: "/images/esroban.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "피부 세균 감염 치료. 무피로신 항생제 연고.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
       id: "noscarna-20g",
       name: "노스카나겔 20g",
-      image: "/images/noscarna.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "흉터 치료 겔. 헤파린·알란토인·덱스판테놀 복합.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
       id: "venoplus-20g",
       name: "멍약 베노플러스겔 20g",
-      image: "/images/venoplus.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "멍·타박상 치료 겔. 헤파린나트륨 성분.",
@@ -139,7 +139,7 @@ export const products: Product[] = [
   {
       id: "antiphlamine-30g",
       name: "안티푸라민 연고 30g",
-      image: "/images/antiphlamine.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "근육통·관절통 완화 연고. 살리실산메틸 + 멘톨.",
@@ -154,7 +154,7 @@ export const products: Product[] = [
   {
       id: "posterisan-25g",
       name: "포스테리산 연고 25g",
-      image: "/images/posterisan.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "치질·항문 질환 치료 연고. 대장균 불활화 배양액.",
@@ -169,7 +169,7 @@ export const products: Product[] = [
   {
       id: "acnon-13g",
       name: "애크논 크림 13g",
-      image: "/images/acnon.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "여드름 치료 크림. 이부프로펜피코놀 항염 성분.",
@@ -184,7 +184,7 @@ export const products: Product[] = [
   {
       id: "furepine-28g",
       name: "푸레파인 연고 28g",
-      image: "/images/furepine.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "화상·상처 항염 연고. 아줄렌 성분 함유.",
@@ -199,7 +199,7 @@ export const products: Product[] = [
   {
       id: "acyclovir-5g",
       name: "신신 아시클로버크림 5g",
-      image: "/images/acyclovir.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "항바이러스 크림. 헤르페스(입술 물집) 치료.",
@@ -214,7 +214,7 @@ export const products: Product[] = [
   {
       id: "danaqu-50g",
       name: "다나큐아 크림 50g",
-      image: "/images/danaqu.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "히알루론산+알란토인 복합 상처 치유 크림. 흉터 예방 효과.",
@@ -229,7 +229,7 @@ export const products: Product[] = [
   {
       id: "bosong-10g",
       name: "보송크림 10g",
-      image: "/images/bosong.svg",
+      image: "/images/placeholder.svg",
       category: "일반의약품",
       categorySlug: "연고",
       description: "산화아연 기반 습진·기저귀 발진 예방 크림. 땀띠·피부 자극 완화.",

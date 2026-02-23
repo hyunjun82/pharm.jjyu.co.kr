@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "nunan-30pcs",
     name: "눈앤점안액 0.5% 30개입",
-    image: "/images/nunan.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "건조한 눈 완화. 히알루론산 인공눈물.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "irisplus-30pcs",
     name: "아이리스 플러스 점안액 일회용 0.5ml 30관",
-    image: "/images/irisplus.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "충혈 개선, 눈 피로 완화. 복합 점안액.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "refresh-plus-30pcs",
     name: "리프레쉬 플러스 점안액 0.5% 0.4ml 30개",
-    image: "/images/refresh.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "무방부제 인공눈물. 건조한 눈 완화.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "eyetok-30tubes",
     name: "아이톡 점안액 0.5ml 30관",
-    image: "/images/eyetok.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "프리미엄 히알루론산 인공눈물. 장시간 보습.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "friends-eyedrop-soon-14ml",
     name: "프렌즈 아이드롭 점안액 순 14ml",
-    image: "/images/friends-eyedrop.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "부드러운 인공눈물. 렌즈 위 점안 가능.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "rohto-c3-aquacharge-13ml",
     name: "로토 씨큐브 아쿠아차지 아이 점안액 13ml",
-    image: "/images/rohto-c3.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "콘택트렌즈 전용 인공눈물. 렌즈 위 직접 점안.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
     id: "tearclean-30pcs",
     name: "티어클린 점안액 0.5ml 30관",
-    image: "/images/tearclean.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "카르복시메틸셀룰로스 인공눈물. 눈 건조증 완화 일회용 점안액.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
     id: "ipoure-30pcs",
     name: "아이포레 점안액 0.4ml 30관",
-    image: "/images/ipoure.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산 일회용 인공눈물. 눈 건조증 및 콘택트렌즈 착용 시 사용.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: "numarren-30pcs",
     name: "누마렌 점안액 0.5ml 30관",
-    image: "/images/numarren.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "보령 히알루론산 인공눈물. 콘택트렌즈 착용 중에도 점안 가능.",
@@ -139,7 +139,7 @@ export const products: Product[] = [
   {
     id: "dialfresh-30pcs",
     name: "디알프레쉬 점안액 0.45ml 30개",
-    image: "/images/dialfresh.svg",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "안약",
     description: "덱스트란+히프로멜로스 복합 인공눈물. 오래 지속되는 눈물막 형성.",
