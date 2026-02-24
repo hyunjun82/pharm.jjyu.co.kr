@@ -12,6 +12,11 @@ import { hub as 파스Hub, spokes as 파스Spokes } from "./파스";
 import { hub as 영양제Hub, spokes as 영양제Spokes } from "./영양제";
 import { hub as 여성건강Hub, spokes as 여성건강Spokes } from "./여성건강";
 import { hub as 외상소독Hub, spokes as 외상소독Spokes } from "./외상소독";
+import { hub as 두드러기Hub, spokes as 두드러기Spokes } from "./두드러기";
+import { hub as 구충제Hub, spokes as 구충제Spokes } from "./구충제";
+import { hub as 변비Hub, spokes as 변비Spokes } from "./변비";
+import { hub as 알레르기Hub, spokes as 알레르기Spokes } from "./알레르기";
+import { hub as 제산제Hub, spokes as 제산제Spokes } from "./제산제";
 
 export const hubArticles: Record<string, HubArticle> = {
   연고: 연고Hub,
@@ -27,6 +32,11 @@ export const hubArticles: Record<string, HubArticle> = {
   영양제: 영양제Hub,
   여성건강: 여성건강Hub,
   외상소독: 외상소독Hub,
+  두드러기: 두드러기Hub,
+  구충제: 구충제Hub,
+  변비: 변비Hub,
+  알레르기: 알레르기Hub,
+  제산제: 제산제Hub,
 };
 
 export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
@@ -43,6 +53,11 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
   영양제: 영양제Spokes,
   여성건강: 여성건강Spokes,
   외상소독: 외상소독Spokes,
+  두드러기: 두드러기Spokes,
+  구충제: 구충제Spokes,
+  변비: 변비Spokes,
+  알레르기: 알레르기Spokes,
+  제산제: 제산제Spokes,
 };
 
 export function getHubArticle(categorySlug: string): HubArticle | undefined {
