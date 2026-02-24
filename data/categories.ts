@@ -85,4 +85,11 @@ export const categories: Category[] = [
     description: "이지엔6이브, 부스코판 등 생리통·여성 건강 의약품",
     count: 9,
   },
+  {
+    name: "외상소독",
+    slug: "외상소독",
+    icon: "🩺",
+    description: "베타딘, 리바놀, 과산화수소 등 상처 소독·외상 처치 의약품",
+    count: 9,
+  },
 ];
