@@ -2,6 +2,7 @@ import { CategoryCard } from "@/components/CategoryCard";
 import { ProductCard } from "@/components/ProductCard";
 import { categories } from "@/data/categories";
 import { products } from "@/data/products";
+import { spokeArticles } from "@/data/articles";
 import { Search } from "lucide-react";
 
 export default function HomePage() {
@@ -33,7 +34,13 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {categories.map((cat) => (
-            <CategoryCard key={cat.slug} category={cat} />
+            <CategoryCard
+              key={cat.slug}
+              category={{
+                ...cat,
+                count: Object.keys(spokeArticles[cat.slug] ?? {}).length,
+              }}
+            />
           ))}
         </div>
       </section>
