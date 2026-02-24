@@ -8,8 +8,8 @@ const path = require("path");
 
 const ARTICLES_DIR = path.resolve(__dirname, "../data/articles");
 const PRODUCTS_DIR = path.resolve(__dirname, "../data/products");
-const CATEGORIES = ["연고", "감기", "진통제", "무좀", "탈모", "설사", "소화제", "안약", "구강"];
-const EXTERNAL_CATEGORIES = ["연고", "무좀", "안약"];
+const CATEGORIES = ["연고", "감기", "진통제", "무좀", "탈모", "설사", "소화제", "안약", "구강", "파스"];
+const EXTERNAL_CATEGORIES = ["연고", "무좀", "안약", "파스"];
 const EXTERNAL_TALMO = ["미녹시딜", "판시딜", "두피나액", "판시딜액", "로게인", "카필러스폼", "미녹시폼", "판시딜액3", "동성미녹시딜3", "나녹시딜액", "마이딜액", "목시딜액", "백일후애액", "볼두민액", "마이녹실액", "미녹시딜바이그루트액3"];
 const EXTERNAL_GUGANG = ["오라메디", "페리덱스", "알보칠", "헥사메딘", "탄툼액"];
 
