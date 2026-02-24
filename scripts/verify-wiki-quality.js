@@ -12,7 +12,7 @@ const CATEGORIES = ["연고", "감기", "진통제", "무좀", "탈모", "설사
 const EXTERNAL_CATEGORIES = ["연고", "무좀", "안약", "파스", "외상소독", "두드러기"];
 const EXTERNAL_BYEONBI = ["둘코락스좌약"];
 const EXTERNAL_TALMO = ["미녹시딜", "판시딜", "두피나액", "판시딜액", "로게인", "카필러스폼", "미녹시폼", "판시딜액3", "동성미녹시딜3", "나녹시딜액", "마이딜액", "목시딜액", "백일후애액", "볼두민액", "마이녹실액", "미녹시딜바이그루트액3"];
-const EXTERNAL_GUGANG = ["오라메디", "페리덱스", "알보칠", "헥사메딘", "탄툼액"];
+const EXTERNAL_GUGANG = ["오라메디", "페리덱스", "알보칠", "헥사메딘", "탄툼액", "탄툼베르데네뷸라이저"];
 const EXTERNAL_YEOSUNG = ["지노베타딘"];
 
 let totalErrors = 0;
