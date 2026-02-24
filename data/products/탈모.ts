@@ -1072,4 +1072,17 @@ export const products: Product[] = [
     usage: "1일 1회 1캡슐 복용",
     slug: "두테드연질캡슐",
   },
+  {
+    id: "pansidyl-60ml",
+    name: "판시딜 미녹시딜 5% 외용액 60ml",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "탈모",
+    description: "미녹시딜 5% 남성형 탈모 치료 외용액. FDA 승인 성분으로 두피 혈류를 개선해 모발 성장을 촉진해요.",
+    price: 18000,
+    unit: "60ml",
+    ingredients: "미녹시딜",
+    usage: "1일 2회 탈모 부위에 1ml씩 도포",
+    slug: "판시딜",
+  },
 ];

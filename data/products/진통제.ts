@@ -136,4 +136,17 @@ export const products: Product[] = [
       usage: "1회 1캡슐, 1일 3회 식후 복용",
       slug: "덱스피드",
     },
+  {
+    id: "aspirin-500-20tabs",
+    name: "아스피린 500mg 20정",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "진통제",
+    description: "아세틸살리실산 500mg 해열·진통제. 두통, 치통, 근육통 완화에 사용해요.",
+    price: 3500,
+    unit: "20정",
+    ingredients: "아세틸살리실산",
+    usage: "1회 1~2정, 1일 3회 식후 복용 (4시간 이상 간격)",
+    slug: "아스피린",
+  },
 ];
