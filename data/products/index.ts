@@ -10,6 +10,7 @@ import { products as 안약Products } from "./안약";
 import { products as 구강Products } from "./구강";
 import { products as 파스Products } from "./파스";
 import { products as 영양제Products } from "./영양제";
+import { products as 여성건강Products } from "./여성건강";
 
 export const products: Product[] = [
   ...연고Products,
@@ -23,6 +24,7 @@ export const products: Product[] = [
   ...구강Products,
   ...파스Products,
   ...영양제Products,
+  ...여성건강Products,
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {

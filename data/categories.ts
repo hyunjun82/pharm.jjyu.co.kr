@@ -78,4 +78,11 @@ export const categories: Category[] = [
     description: "비타민C, 오메가3, 루테인 등 비타민·영양제",
     count: 10,
   },
+  {
+    name: "여성건강/생리통",
+    slug: "여성건강",
+    icon: "🌸",
+    description: "이지엔6이브, 부스코판 등 생리통·여성 건강 의약품",
+    count: 9,
+  },
 ];
