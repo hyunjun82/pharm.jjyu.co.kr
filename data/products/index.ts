@@ -7,6 +7,8 @@ import { products as 무좀Products } from "./무좀";
 import { products as 설사Products } from "./설사";
 import { products as 소화제Products } from "./소화제";
 import { products as 안약Products } from "./안약";
+import { products as 구강Products } from "./구강";
+import { products as 파스Products } from "./파스";
 
 export const products: Product[] = [
   ...연고Products,
@@ -17,6 +19,8 @@ export const products: Product[] = [
   ...설사Products,
   ...소화제Products,
   ...안약Products,
+  ...구강Products,
+  ...파스Products,
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {

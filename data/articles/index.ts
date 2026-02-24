@@ -7,6 +7,8 @@ import { hub as 무좀Hub, spokes as 무좀Spokes } from "./무좀";
 import { hub as 설사Hub, spokes as 설사Spokes } from "./설사";
 import { hub as 소화제Hub, spokes as 소화제Spokes } from "./소화제";
 import { hub as 안약Hub, spokes as 안약Spokes } from "./안약";
+import { hub as 구강Hub, spokes as 구강Spokes } from "./구강";
+import { hub as 파스Hub, spokes as 파스Spokes } from "./파스";
 
 export const hubArticles: Record<string, HubArticle> = {
   연고: 연고Hub,
@@ -17,6 +19,8 @@ export const hubArticles: Record<string, HubArticle> = {
   설사: 설사Hub,
   소화제: 소화제Hub,
   안약: 안약Hub,
+  구강: 구강Hub,
+  파스: 파스Hub,
 };
 
 export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
@@ -28,6 +32,8 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
   설사: 설사Spokes,
   소화제: 소화제Spokes,
   안약: 안약Spokes,
+  구강: 구강Spokes,
+  파스: 파스Spokes,
 };
 
 export function getHubArticle(categorySlug: string): HubArticle | undefined {
