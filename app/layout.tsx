@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Noto_Sans_KR, Geist_Mono } from "next/font/google";
+import { Noto_Sans_KR } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -7,13 +8,7 @@ import { Footer } from "@/components/Footer";
 const notoSansKR = Noto_Sans_KR({
   variable: "--font-noto-sans-kr",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
   display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -58,18 +53,23 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121"
-          crossOrigin="anonymous"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://barkiri.com" />
       </head>
       <body
-        className={`${notoSansKR.variable} ${geistMono.variable} font-sans antialiased`}
+        className={`${notoSansKR.variable} font-sans antialiased`}
       >
         <Header />
         <main className="min-h-[calc(100vh-140px)]">{children}</main>
         <Footer />
+
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121"
+          strategy="lazyOnload"
+          crossOrigin="anonymous"
+        />
 
         {/* #5 WebSite 스키마 - 사이트 검색창 */}
         <script
