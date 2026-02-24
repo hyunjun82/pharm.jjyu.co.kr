@@ -1017,7 +1017,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "수란트라크림 성분 분析",
+          title: "수란트라크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "이사부코나조늄황산염(Isavuconazonium sulfate)", amount: "10mg/g(1%)", role: "에르고스테롤 합성 억제·광범위 항진균" },
             { type: "첨가제", name: "프로필렌글리콜(Propylene glycol)", role: "용해·흡수 촉진" },
@@ -1050,7 +1050,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "테르비플러스크림 성분 分析",
+          title: "테르비플러스크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "테르비나핀염산염(Terbinafine HCl)", amount: "10mg/g(1%)", role: "알릴아민계 항진균·에르고스테롤 합성 억제" },
             { type: "첨가제", name: "소듐하이드록사이드(Sodium hydroxide)", role: "pH 조절" },
@@ -1083,7 +1083,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "무조날크림 성분 分析",
+          title: "무조날크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "미코나졸질산염(Miconazole nitrate)", amount: "20mg/g(2%)", role: "이미다졸계 항진균·에르고스테롤 합성 억제" },
             { type: "첨가제", name: "페그-6스테아레이트(PEG-6 stearate)", role: "유화제" },
@@ -1116,7 +1116,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "센스카나겔 성분 分析",
+          title: "센스카나겔 성분 분석",
           ingredients: [
             { type: "주성분", name: "클로트리마졸(Clotrimazole)", amount: "10mg/g(1%)", role: "이미다졸계 항진균·에르고스테롤 합성 억제" },
             { type: "첨가제", name: "프로필렌글리콜(Propylene glycol)", role: "용해·흡수 촉진" },

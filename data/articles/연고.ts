@@ -6361,7 +6361,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "우레아연고 성분 분析",
+          title: "우레아연고 성분 분석",
           ingredients: [
             { type: "주성분", name: "요소(Urea)", amount: "200mg/g(20%)", role: "각질 용해·보습 강화" },
             { type: "첨가제", name: "글리세린(Glycerin)", role: "보습·피부 연화" },
@@ -6394,7 +6394,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "유라덤크림 성분 분析",
+          title: "유라덤크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "요소(Urea)", amount: "100mg/g(10%)", role: "각질 연화·보습" },
             { type: "첨가제", name: "글리세린(Glycerin)", role: "보습·피부 연화" },
@@ -6427,7 +6427,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "프틴크림 성분 분析",
+          title: "프틴크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "알란토인(Allantoin)", amount: "2mg/g(0.2%)", role: "피부 진정·세포 재생 촉진" },
             { type: "첨가제", name: "글리세린(Glycerin)", role: "보습" },
@@ -6460,7 +6460,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "푸리덴연고 성분 분析",
+          title: "푸리덴연고 성분 분석",
           ingredients: [
             { type: "주성분", name: "디펜히드라민염산염(Diphenhydramine HCl)", amount: "10mg/g", role: "항히스타민·가려움 완화" },
             { type: "주성분", name: "뷰틸아미노안식향산에틸(Ethyl butylaminobenzoate)", amount: "20mg/g", role: "국소마취·가려움 완화" },
@@ -6493,7 +6493,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "사라나크림 성분 분析",
+          title: "사라나크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "덱스판테놀(Dexpanthenol)", amount: "50mg/g", role: "피부 장벽 강화·상처 회복 촉진" },
             { type: "주성분", name: "클로르헥시딘글루코네이트(Chlorhexidine gluconate)", amount: "1mg/g", role: "항균·감염 예방" },
@@ -6526,7 +6526,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "리쥬치올크림 성분 분析",
+          title: "리쥬치올크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "PDRN(폴리디옥시리보뉴클레오티드)", amount: "0.1%", role: "피부 세포 재생 촉진" },
             { type: "주성분", name: "레티놀(Retinol, 비타민A)", amount: "2500IU/g", role: "피부 세포 회전 증가·흉터 완화" },
@@ -6559,7 +6559,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "헤리엔톡크림 성분 분析",
+          title: "헤리엔톡크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "헤파린나트륨(Heparin sodium)", amount: "3000IU/100g", role: "항응고·혈액순환 개선·혈종 흡수" },
             { type: "첨가제", name: "알란토인(Allantoin)", role: "피부 진정·재생" },
@@ -6592,7 +6592,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "타바겐겔 성분 분析",
+          title: "타바겐겔 성분 분석",
           ingredients: [
             { type: "주성분", name: "펠비낙(Felbinac)", amount: "30mg/g(3%)", role: "NSAIDs 소염진통" },
             { type: "첨가제", name: "에탄올(Ethanol)", role: "용해·피부 흡수 촉진" },
@@ -6625,7 +6625,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "아리코트에스크림 성분 분析",
+          title: "아리코트에스크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "하이드로코르티손(Hydrocortisone)", amount: "10mg/g(1%)", role: "항염·가려움 완화·알레르기 반응 억제" },
             { type: "첨가제", name: "글리세린(Glycerin)", role: "보습" },
@@ -6658,7 +6658,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "케라논연고 성분 分析",
+          title: "케라논연고 성분 분석",
           ingredients: [
             { type: "주성분", name: "살리실산(Salicylic acid)", amount: "50mg/g(5%)", role: "각질 용해·연화·항균" },
             { type: "첨가제", name: "바세린(Petrolatum)", role: "연화 기제·보호막 형성" },
@@ -6691,7 +6691,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "제일쿨키드크림 성분 分析",
+          title: "제일쿨키드크림 성분 분석",
           ingredients: [
             { type: "주성분", name: "디펜히드라민염산염(Diphenhydramine HCl)", amount: "10mg/g", role: "항히스타민·가려움 완화" },
             { type: "주성분", name: "알란토인(Allantoin)", amount: "2mg/g", role: "피부 진정·재생" },
@@ -6724,7 +6724,7 @@ export const spokes: Record<string, SpokeArticle> = {
       ],
       sections: [
         {
-          title: "멘소래담롤온로션 성분 分析",
+          title: "멘소래담롤온로션 성분 분석",
           ingredients: [
             { type: "주성분", name: "멘톨(Menthol)", amount: "35mg/mL", role: "냉감·청량·가려움 완화" },
             { type: "주성분", name: "살리실산메틸(Methyl salicylate)", amount: "100mg/mL", role: "온열·소염진통" },
