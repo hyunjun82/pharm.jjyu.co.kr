@@ -52,8 +52,8 @@ export default function HomePage() {
             인기 의약품 최저가
           </h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {popularProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+            {popularProducts.map((product, i) => (
+              <ProductCard key={product.id} product={product} priority={i === 0} />
             ))}
           </div>
         </div>

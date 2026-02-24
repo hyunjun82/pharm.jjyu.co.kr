@@ -20,7 +20,7 @@ function getTodayString() {
   return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
 }
 
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({ product, priority }: { product: Product; priority?: boolean }) {
   const formattedPrice = new Intl.NumberFormat("ko-KR").format(product.price);
 
   const hasLink = !!(product.barkiryProductId || product.externalSearchUrl || product.barkiryQuery);
@@ -43,6 +43,7 @@ export function ProductCard({ product }: { product: Product }) {
             fill
             className="object-contain p-2"
             sizes="80px"
+            priority={priority}
           />
         </div>
 

@@ -200,8 +200,8 @@ export default async function SpokePage({ params }: PageProps) {
       <section className="py-6">
         {displayProducts.length > 0 && (
           <div className="grid gap-3">
-            {displayProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+            {displayProducts.map((product, i) => (
+              <ProductCard key={product.id} product={product} priority={i === 0} />
             ))}
           </div>
         )}
