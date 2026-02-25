@@ -10,6 +10,7 @@ import { RelatedSpokes } from "@/components/RelatedSpokes";
 import { CategorySidebar } from "@/components/CategorySidebar";
 import { ShareButtons } from "@/components/ShareButtons";
 import { AuthorBio } from "@/components/AuthorBio";
+import { AdSlot } from "@/components/AdSlot";
 import { getSpokeArticle } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
 import { spokeArticles } from "@/data/articles";
@@ -207,6 +208,9 @@ export default async function SpokePage({ params }: PageProps) {
         )}
       </section>
 
+      {/* 광고 1: 제품 카드 아래 */}
+      <AdSlot />
+
       {/* Article Sections */}
       <article>
         {article.sections.map((section, i) => {
@@ -274,6 +278,9 @@ export default async function SpokePage({ params }: PageProps) {
           <FAQSection items={article.faq} />
         </div>
       )}
+
+      {/* 광고 2: 작성자 카드 위 */}
+      <AdSlot />
 
       {/* 작성자 */}
       <AuthorBio
