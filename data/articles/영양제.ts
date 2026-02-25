@@ -1667,7 +1667,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "시아노코발라민(B12)", amount: "고함량", role: "DNA 합성, 신경 기능 유지" },
           { type: "주성분", name: "니코틴산아미드(B3)", amount: "고함량", role: "에너지 대사 NAD 조효소" },
           { type: "주성분", name: "판토텐산칼슘(B5)", amount: "고함량", role: "코엔자임A 구성, 지방산 대사" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "임팩타민프리미엄정60정 효능과 효과",
@@ -1722,7 +1724,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "대웅 우루사 연질캡슐의 주성분은 우르소데옥시콜산(Ursodeoxycholic Acid, UDCA) 50mg이에요. UDCA는 인간과 동물의 담즙에서 자연적으로 발견되는 이차 담즙산이에요. 특히 곰 담즙에 고농도로 포함되어 있어 '웅담' 성분으로도 알려져 있어요.\n\nUDCA는 친수성(물에 잘 녹는) 담즙산으로, 세포독성이 있는 소수성 담즙산을 대체해서 간세포를 보호해요. 담즙 분비를 촉진하고, 간세포 막을 안정화하며, 세포 자멸사(Apoptosis)를 억제하는 효과가 있어요.\n\n연질캡슐 형태라 흡수가 빠르고 위장 자극이 적어요. 50mg 함량은 일반 건강 관리와 피로 회복 목적에 적합해요. 360캡슐 대용량으로 약 2개월분(1일 3회, 1회 2캡슐 기준)이에요.",
         ingredients: [
           { type: "주성분", name: "우르소데옥시콜산(UDCA)", amount: "50mg/캡슐", role: "간세포 보호, 담즙 분비 촉진, 피로·식욕부진 개선" },
-        ],
+        { type: "첨가제", name: "젤라틴", role: "캡슐 껍질" },
+        { type: "첨가제", name: "이산화티탄", role: "착색제" },
+      ],
       },
       {
         title: "대웅우루사연질캡슐 효능과 효과",
@@ -1780,7 +1784,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "티아민질산염(B1)", amount: "적정 함량", role: "탄수화물 에너지 대사 조효소" },
           { type: "주성분", name: "리보플라빈(B2)", amount: "적정 함량", role: "산화환원 반응 조효소" },
           { type: "주성분", name: "피리독신염산염(B6)", amount: "적정 함량", role: "아미노산 대사, 신경전달물질 합성" },
-        ],
+        { type: "첨가제", name: "젤라틴", role: "캡슐 껍질" },
+        { type: "첨가제", name: "이산화티탄", role: "착색제" },
+      ],
       },
       {
         title: "복합우루사 효능과 효과",
@@ -1835,7 +1841,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "우루사정 100mg의 주성분은 우르소데옥시콜산(UDCA, Ursodeoxycholic Acid) 100mg이에요. 50mg 연질캡슐 2개 분량에 해당하는 고함량이에요. 정제 형태라 연질캡슐보다 보관이 쉽고 안정적이에요.\n\nUDCA는 친수성 담즙산으로 간세포 보호, 담즙 분비 촉진, 세포 자멸사 억제 효과가 있어요. 간세포 막을 세포독성 담즙산으로부터 보호하고, 담즙의 점도를 낮춰 흐름을 개선해요.\n\n100mg 함량은 일반의약품으로 사용 가능한 최고 함량 수준이에요. 경미한 간 기능 이상, 지방간 초기, 과음 후 간 보호 등 더 적극적인 지원이 필요한 분에게 적합해요.",
         ingredients: [
           { type: "주성분", name: "우르소데옥시콜산(UDCA)", amount: "100mg/정", role: "간세포 보호, 담즙 분비 촉진, 간 기능 개선" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "우루사정100mg 효능과 효과",
@@ -1890,7 +1898,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "유한 비타민C 1000mg의 주성분은 아스코르브산(Ascorbic Acid, L-Ascorbic Acid)이에요. 비타민C라고 불리는 수용성 비타민으로, 인간은 체내에서 합성할 수 없어서 반드시 식품이나 보충제로 섭취해야 해요.\n\n아스코르브산은 강력한 항산화제로 자유 라디칼을 제거해요. 콜라겐 합성에 필수적이어서 피부, 뼈, 혈관 건강에 관여해요. 면역 기능 강화, 철분 흡수 촉진, 항히스타민 효과도 있어요.\n\n1000mg 함량은 하루 권장량(100mg)의 10배 수준의 고함량이에요. 수용성이라 과잉 섭취 시 대부분 소변으로 배출되지만, 하루 2000mg 이상 장기 복용 시 일부 부작용 위험이 있어요.",
         ingredients: [
           { type: "주성분", name: "아스코르브산(비타민C)", amount: "1000mg/정", role: "항산화, 면역 기능 강화, 콜라겐 합성 지원, 철분 흡수 촉진" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "유한비타민C1000mg200정 효능과 효과",
@@ -1945,7 +1955,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "헤파신캡슐의 주성분은 실리마린(Silymarin)이에요. 실리마린은 밀크시슬(Silybum marianum, 씨앗) 추출물로, 실리빈(Silybin), 실리디아닌(Silydianin), 실리크리스틴(Silychristin) 등의 플라보노리그난(Flavonolignan) 복합체예요.\n\n실리마린은 강력한 항산화 작용으로 활성 산소(자유 라디칼)로부터 간세포 막을 보호해요. 간세포 막의 투과성을 줄여서 독소의 침투를 막고, 단백질 합성을 촉진해서 손상된 간세포 재생을 도와요.\n\n독소(알코올, 약물, 환경 독소) 대사 시 간세포가 산화 스트레스를 받는데, 실리마린이 항산화 작용으로 이를 방어해요. 우루사(UDCA)가 담즙산 기반 간 보호제라면, 헤파신(실리마린)은 항산화 기반 간 보호제예요.",
         ingredients: [
           { type: "주성분", name: "실리마린", amount: "적정 함량", role: "항산화 간세포 보호, 독소 방어, 간세포 재생 촉진" },
-        ],
+        { type: "첨가제", name: "젤라틴", role: "캡슐 껍질" },
+        { type: "첨가제", name: "이산화티탄", role: "착색제" },
+      ],
       },
       {
         title: "헤파신캡슐 효능과 효과",
@@ -2005,7 +2017,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "시아노코발라민(B12)", amount: "고함량", role: "DNA 합성, 신경 기능 유지" },
           { type: "주성분", name: "니코틴산아미드(B3)", amount: "고함량", role: "에너지 대사 NAD 조효소" },
           { type: "주성분", name: "판토텐산칼슘(B5)", amount: "고함량", role: "코엔자임A 구성, 지방산 대사" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "임팩타민원스정 효능과 효과",
@@ -2066,7 +2080,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "니코틴산아미드(B3)", amount: "고함량", role: "에너지 대사 NAD 조효소" },
           { type: "주성분", name: "판토텐산칼슘(B5)", amount: "고함량", role: "코엔자임A 구성, 지방산 대사" },
           { type: "주성분", name: "아연", amount: "적정 함량", role: "면역 기능 강화, 상처 치유, 항산화" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "임팩타민케어정 효능과 효과",
@@ -2127,7 +2143,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "니코틴산아미드(B3)", amount: "고함량", role: "에너지 대사 NAD 조효소" },
           { type: "주성분", name: "판토텐산칼슘(B5)", amount: "고함량", role: "코엔자임A 구성, 지방산 대사" },
           { type: "주성분", name: "비오틴(B7)", amount: "고함량", role: "지방산 합성, 아미노산 대사, 모발·피부 건강" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "임팩타민시그니처정 효능과 효과",
@@ -2182,7 +2200,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "경남 비타민씨정의 주성분은 아스코르브산(Ascorbic Acid, L-Ascorbic Acid, 비타민C) 1000mg이에요. 유한 비타민C, 고려은단 비타민C와 동일한 성분이에요.\n\n아스코르브산은 강력한 항산화제로 활성 산소(자유 라디칼)를 제거해요. 콜라겐 합성에 필수 조효소로 작용해서 피부, 혈관, 뼈, 치아 건강에 관여해요. 철분의 비헴철을 환원형으로 전환해서 흡수율을 높여줘요.\n\n면역 기능에서는 백혈구(특히 호중구와 림프구)의 기능을 강화해요. 감기 바이러스에 대한 방어 기능을 높이고, 감기 기간과 증상을 단축하는 효과가 있어요. 300정 대용량으로 장기 복용에 경제적이에요.",
         ingredients: [
           { type: "주성분", name: "아스코르브산(비타민C)", amount: "1000mg/정", role: "항산화, 면역 기능 강화, 콜라겐 합성 지원, 철분 흡수 촉진" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "경남비타민씨정 효능과 효과",

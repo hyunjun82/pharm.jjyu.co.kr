@@ -1367,7 +1367,9 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "판크레아틴", amount: "적정 함량", role: "단백질·지방·탄수화물 복합 소화 효소" },
           { type: "주성분", name: "라이페이스", amount: "강화 함량", role: "지방 분해 전문 효소" },
-        ],
+        { type: "첨가제", name: "정제수", role: "용매" },
+        { type: "첨가제", name: "에탄올", role: "용매" },
+      ],
       },
       {
         title: "볼그레액 효능과 효과",
@@ -1436,7 +1438,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "판크레아틴", amount: "적정 함량", role: "단백질·지방·탄수화물 복합 소화 효소" },
           { type: "주성분", name: "우르소데옥시콜산", amount: "적정 함량", role: "담즙산 성분, 지방 유화·흡수 촉진" },
           { type: "주성분", name: "디메틸폴리실록산", amount: "적정 함량", role: "소포제, 위장 내 가스 제거" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "닥터베아제10정 효능과 효과",
@@ -1504,7 +1508,9 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "다이아스타제", amount: "적정 함량", role: "탄수화물(전분) 분해 효소" },
           { type: "주성분", name: "셀룰라제", amount: "적정 함량", role: "식물성 섬유소 분해 효소" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "큐자임정 효능과 효과",
@@ -1572,7 +1578,9 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "시메티콘", amount: "적정 함량", role: "위장 내 기포 파괴, 가스 배출 촉진" },
           { type: "주성분", name: "탄산수소나트륨", amount: "적정 함량", role: "위산 중화, 속쓰림 완화" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "까스앤프리 효능과 효과",
@@ -1641,7 +1649,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "판크레아틴", amount: "적정 함량", role: "단백질·지방·탄수화물 복합 소화 효소" },
           { type: "주성분", name: "헤미셀룰라제", amount: "적정 함량", role: "식물성 헤미셀룰로오스 분해 효소" },
           { type: "주성분", name: "담즙건조엑스", amount: "적정 함량", role: "지방 유화 및 흡수 촉진" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "훼스탈플러스100정 효능과 효과",
@@ -1710,7 +1720,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "판크레아틴", amount: "적정 함량", role: "단백질·지방·탄수화물 복합 소화 효소" },
           { type: "주성분", name: "우르소데옥시콜산", amount: "적정 함량", role: "담즙산, 지방 유화 및 흡수 촉진" },
           { type: "주성분", name: "디메틸폴리실록산", amount: "적정 함량", role: "소포제, 위장 내 가스 기포 파괴" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "베아제10정 효능과 효과",

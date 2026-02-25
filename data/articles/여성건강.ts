@@ -912,7 +912,9 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "레보노르게스트렐", amount: "0.03mg/정", role: "합성 프로게스틴, 배란 억제·자궁경부 점액 변화" },
           { type: "주성분", name: "에티닐에스트라디올", amount: "30mcg/정", role: "합성 에스트로겐, 배란 억제 강화·주기 조절" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "센시아정 효능과 효과",
@@ -968,7 +970,9 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "데소게스트렐", amount: "150mcg/정", role: "3세대 합성 프로게스틴, 배란 억제·자궁 내막 변화" },
           { type: "주성분", name: "에티닐에스트라디올", amount: "20mcg/정", role: "저용량 합성 에스트로겐, 배란 억제 보조·주기 조절" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "머시론정 효능과 효과",
@@ -1024,7 +1028,9 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "이부프로펜", amount: "400mg/캡슐", role: "프로스타글란딘 합성 억제, 소염 진통 효과" },
           { type: "주성분", name: "카페인무수물", amount: "적정 함량", role: "진통 효과 강화, 아데노신 수용체 차단" },
-        ],
+        { type: "첨가제", name: "젤라틴", role: "캡슐 껍질" },
+        { type: "첨가제", name: "이산화티탄", role: "착색제" },
+      ],
       },
       {
         title: "그날엔콜드플러스 효능과 효과",
@@ -1081,7 +1087,9 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "이부프로펜", amount: "400mg/정", role: "프로스타글란딘 억제, 소염 진통" },
           { type: "주성분", name: "피리독신염산염(B6)", amount: "적정 함량", role: "생리 전후 부종·기분 변화·구역 완화" },
           { type: "주성분", name: "카페인무수물", amount: "적정 함량", role: "진통 효과 강화" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "그날엔Q삼중정 효능과 효과",
@@ -1136,7 +1144,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "그날엔정의 주성분은 이부프로펜(Ibuprofen) 400mg이에요. 이부프로펜은 프로피온산 계열 비스테로이드성 소염진통제(NSAID)로, 사이클로옥시게나아제(COX) 효소를 억제해서 프로스타글란딘 합성을 줄여요.\n\n생리통은 프로스타글란딘이 자궁 근육을 강하게 수축시켜서 생겨요. 이부프로펜이 프로스타글란딘 생성을 억제하면 자궁 수축이 줄고 생리통이 완화돼요. 소염 효과도 있어서 자궁 내막의 염증 반응을 줄이는 데도 도움이 돼요.\n\n단일 성분 제품이라 카페인 등 추가 성분의 부작용이 없고, 이미 커피 등으로 카페인을 충분히 섭취하는 분에게 더 적합해요. 그날엔 시리즈의 가장 기본 버전이에요.",
         ingredients: [
           { type: "주성분", name: "이부프로펜", amount: "400mg/정", role: "프로스타글란딘 합성 억제, 소염 진통, 생리통 완화" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "그날엔정 효능과 효과",
@@ -1191,7 +1201,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "그날엔 덱스의 주성분은 덱시부프로펜(Dexibuprofen)이에요. 덱시부프로펜은 이부프로펜의 약효가 있는 광학 이성질체인 S-(+)-이부프로펜이에요. 이부프로펜이 R형과 S형의 혼합물이라면, 덱시부프로펜은 S형 단독 성분이에요.\n\nS형 이성질체만 진통·소염 효과를 내는 활성형이에요. 불필요한 R형 성분이 없어서 동등한 효과를 더 낮은 용량으로 달성할 수 있어요. 위장 점막 자극도 이부프로펜보다 적다는 연구 결과가 있어요.\n\n연질캡슐 형태라 위장에서 빠르게 흡수되어 효과가 빠르게 나타나요. 이부프로펜에 위장 부작용이 있었던 분이나 위장 점막이 민감한 분에게 더 적합해요.",
         ingredients: [
           { type: "주성분", name: "덱시부프로펜", amount: "적정 함량", role: "이부프로펜 활성형, 소염 진통, 위장 부담 저감" },
-        ],
+        { type: "첨가제", name: "젤라틴", role: "캡슐 껍질" },
+        { type: "첨가제", name: "이산화티탄", role: "착색제" },
+      ],
       },
       {
         title: "그날엔덱스 효능과 효과",
@@ -1246,7 +1258,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "그날엔 노즈의 주성분은 나프록센나트륨(Naproxen Sodium)이에요. 나프록센은 프로피온산 계열 비스테로이드성 소염진통제(NSAID)예요. 이부프로펜과 같은 계열이지만 반감기가 더 길어서 효과 지속 시간이 8~12시간으로 길어요.\n\n나프록센나트륨은 나프록센의 나트륨 염 형태예요. 나트륨 염 형태가 일반 나프록센보다 수용성이 높아서 흡수가 더 빠르게 이루어져요. 빠른 흡수와 긴 지속 시간을 함께 갖춘 성분이에요.\n\n이부프로펜과 비교하면 나프록센은 작용 지속 시간이 길어서 복용 횟수를 줄일 수 있어요(1일 2회 vs. 1일 3회). COX 억제를 통해 프로스타글란딘 합성을 억제해서 생리통, 통증, 염증을 줄여요.",
         ingredients: [
           { type: "주성분", name: "나프록센나트륨", amount: "적정 함량", role: "COX 억제, 소염 진통, 8~12시간 지속 효과" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "그날엔노즈 효능과 효과",
@@ -1302,7 +1316,9 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "나프록센나트륨", amount: "적정 함량", role: "COX 억제, 소염 진통, 8~12시간 지속 효과" },
           { type: "주성분", name: "카페인무수물", amount: "적정 함량", role: "진통 효과 강화, 아데노신 수용체 차단" },
-        ],
+        { type: "첨가제", name: "젤라틴", role: "캡슐 껍질" },
+        { type: "첨가제", name: "이산화티탄", role: "착색제" },
+      ],
       },
       {
         title: "그날엔노즈에이 효능과 효과",
@@ -1358,7 +1374,9 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "이부프로펜", amount: "400mg/정", role: "COX 억제, 프로스타글란딘 감소, 소염 진통" },
           { type: "주성분", name: "카페인무수물", amount: "적정 함량", role: "진통 효과 강화" },
-        ],
+        { type: "첨가제", name: "스테아린산마그네슘", role: "윤활제" },
+        { type: "첨가제", name: "결정셀룰로오스", role: "부형제" },
+      ],
       },
       {
         title: "그날엔큐정 효능과 효과",
@@ -1413,7 +1431,9 @@ export const spokes: Record<string, SpokeArticle> = {
         content: "탁센 이브의 주성분은 덱시부프로펜(Dexibuprofen)이에요. 덱시부프로펜은 이부프로펜의 광학 이성질체 중 약효를 내는 S-이성질체예요. R형과 S형이 혼합된 이부프로펜과 달리 순수하게 S형만 함유한 고순도 성분이에요.\n\n같은 진통 효과를 내는 데 필요한 용량이 이부프로펜보다 적고, 불필요한 R형 성분이 없어서 위장 점막 자극이 줄어요. 이부프로펜보다 위장 친화적인 NSAID로 평가받고 있어요.\n\n연질캡슐 형태라 위장에서 빠르게 흡수되고 효과도 빠르게 나타나요. 그날엔 덱스와 성분이 동일해요.",
         ingredients: [
           { type: "주성분", name: "덱시부프로펜", amount: "적정 함량", role: "이부프로펜 활성 S-이성질체, 소염 진통, 위장 부담 감소" },
-        ],
+        { type: "첨가제", name: "젤라틴", role: "캡슐 껍질" },
+        { type: "첨가제", name: "이산화티탄", role: "착색제" },
+      ],
       },
       {
         title: "탁센이브 효능과 효과",

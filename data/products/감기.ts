@@ -807,7 +807,7 @@ export const products: Product[] = [
     barkiryProductId: "p723",
     ingredients: "이부프로펜,슈도에페드린염산염",
     usage: "1회 1캡슐, 1일 3회 식후 복용 (6~8시간 간격)",
-    slug: "화이투벤큐플러스10연질캡슐",
+    slug: "화이투벤큐플러스",
   },
   {
     id: "green-nasal-moisture",

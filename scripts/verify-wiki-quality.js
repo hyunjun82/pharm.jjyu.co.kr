@@ -11,9 +11,11 @@ const PRODUCTS_DIR = path.resolve(__dirname, "../data/products");
 const CATEGORIES = ["연고", "감기", "진통제", "무좀", "탈모", "설사", "소화제", "안약", "구강", "파스", "영양제", "여성건강", "외상소독", "두드러기", "구충제", "변비", "알레르기", "제산제"];
 const EXTERNAL_CATEGORIES = ["연고", "무좀", "안약", "파스", "외상소독", "두드러기"];
 const EXTERNAL_BYEONBI = ["둘코락스좌약"];
-const EXTERNAL_TALMO = ["미녹시딜", "판시딜", "두피나액", "판시딜액", "로게인", "카필러스폼", "미녹시폼", "판시딜액3", "동성미녹시딜3", "나녹시딜액", "마이딜액", "목시딜액", "백일후애액", "볼두민액", "마이녹실액", "미녹시딜바이그루트액3"];
-const EXTERNAL_GUGANG = ["오라메디", "페리덱스", "알보칠", "헥사메딘", "탄툼액", "탄툼베르데네뷸라이저"];
+const EXTERNAL_TALMO = ["미녹시딜", "판시딜", "두피나액", "판시딜액", "로게인", "카필러스폼", "미녹시폼", "판시딜액3", "동성미녹시딜3", "나녹시딜액", "마이딜액", "목시딜액", "백일후애액", "볼두민액", "마이녹실액", "미녹시딜바이그루트액3", "두피앤액"];
+const EXTERNAL_GUGANG = ["오라메디", "페리덱스", "알보칠", "헥사메딘", "탄툼액", "탄툼베르데네뷸라이저", "잇치페이스트", "잇치페이스트피톤치드향", "잇치페이스트프로폴리스"];
 const EXTERNAL_YEOSUNG = ["지노베타딘"];
+// 외부카테고리에 있지만 실제 경구 복용하는 약 (복용법 사용)
+const INTERNAL_ORAL_IN_EXTERNAL = ["아졸정", "제놀담푸러정"];
 
 let totalErrors = 0;
 let totalWarnings = 0;
@@ -62,13 +64,13 @@ function splitSpokeBlocks(content) {
   const firstBrace = afterExport.indexOf("{");
   const spokesBody = afterExport.substring(firstBrace + 1);
 
-  // 최상위 키 찾기: 줄 시작에서 4칸 들여쓰기 + 한글키: {
-  const keyPattern = /^[ ]{2,6}([\w가-힣]+)\s*:\s*\{/gm;
+  // 최상위 키 찾기: 줄 시작에서 2~6칸 들여쓰기 + 키(따옴표 있거나 없거나): {
+  const keyPattern = /^[ ]{2,6}(?:"([^"]+)"|([가-힣\w]+))\s*:\s*\{/gm;
   const keys = [...spokesBody.matchAll(keyPattern)];
 
   const blocks = [];
   for (let i = 0; i < keys.length; i++) {
-    const slug = keys[i][1];
+    const slug = keys[i][1] || keys[i][2]; // quoted or unquoted key
     const start = keys[i].index;
     const end = i < keys.length - 1 ? keys[i + 1].index : spokesBody.length;
     blocks.push({ slug, raw: spokesBody.substring(start, end) });
@@ -77,6 +79,8 @@ function splitSpokeBlocks(content) {
 }
 
 function isExternalUse(cat, slug) {
+  // 외부카테고리에 있지만 경구 복용하는 약은 복용법 사용
+  if (INTERNAL_ORAL_IN_EXTERNAL.includes(slug)) return false;
   if (EXTERNAL_CATEGORIES.includes(cat)) return true;
   if (cat === "탈모" && EXTERNAL_TALMO.includes(slug)) return true;
   if (cat === "구강" && EXTERNAL_GUGANG.includes(slug)) return true;

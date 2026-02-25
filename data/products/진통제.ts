@@ -301,7 +301,7 @@ export const products: Product[] = [
     barkiryProductId: "p103",
     ingredients: "이부프로펜",
     usage: "체중 기준: 5~10mg/kg, 6~8시간 간격 (1일 3회 이하)",
-    slug: "챔프이부펜시럽5ml10포",
+    slug: "챔프이부펜시럽",
   },
   {
     id: "champ-ibufen-cherry-10",
@@ -315,7 +315,7 @@ export const products: Product[] = [
     barkiryProductId: "p279",
     ingredients: "이부프로펜",
     usage: "체중 기준: 5~10mg/kg, 6~8시간 간격 (1일 3회 이하)",
-    slug: "챔프이부펜시럽체리맛5ml10포",
+    slug: "챔프이부펜시럽체리맛",
   },
   {
     id: "coldaewon-kids-ibufen-10",
@@ -329,7 +329,7 @@ export const products: Product[] = [
     barkiryProductId: "p879",
     ingredients: "이부프로펜",
     usage: "체중 기준: 5~10mg/kg, 6~8시간 간격 (1일 3회 이하)",
-    slug: "콜대원키즈이부펜시럽5ml10포",
+    slug: "콜대원키즈이부펜시럽",
   },
   {
     id: "yuhan-acetaminophen-10caps",
@@ -343,7 +343,7 @@ export const products: Product[] = [
     barkiryProductId: "p888",
     ingredients: "아세트아미노펜",
     usage: "1회 1~2캡슐, 4~6시간 간격 (1일 4회 이하)",
-    slug: "유한아세트아미노펜연질캡슐10캡슐",
+    slug: "유한아세트아미노펜연질캡슐",
   },
   {
     id: "painangel-lady-10caps",
@@ -371,7 +371,7 @@ export const products: Product[] = [
     barkiryProductId: "p1178",
     ingredients: "덱시부프로펜",
     usage: "1회 1캡슐, 8시간 간격 (1일 3회 이하) 식후 복용",
-    slug: "페인엔젤프로덱시부프로펜10캡슐",
+    slug: "페인엔젤프로덱시부프로펜",
   },
   {
     id: "ibufen-400-10tabs",
@@ -427,7 +427,7 @@ export const products: Product[] = [
     barkiryProductId: "p1498",
     ingredients: "나프록센나트륨",
     usage: "체중 기준: 5~7.5mg/kg, 8~12시간 간격 (1일 2~3회)",
-    slug: "파인큐나프록센현탁액10ml5포",
+    slug: "파인큐나프록센현탁액",
   },
   {
     id: "finecue-ibufen-syrup-5",
@@ -441,7 +441,7 @@ export const products: Product[] = [
     barkiryProductId: "p1499",
     ingredients: "이부프로펜",
     usage: "체중 기준: 5~10mg/kg, 6~8시간 간격 (1일 3회 이하)",
-    slug: "파인큐이부펜시럽20ml5포",
+    slug: "파인큐이부펜시럽",
   },
   {
     id: "daehwa-ibuprofen-400-10",

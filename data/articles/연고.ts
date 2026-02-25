@@ -7260,7 +7260,7 @@ export const spokes: Record<string, SpokeArticle> = {
           title: "에스로반티트리오일 성분 분석",
           ingredients: [
             { type: "주성분", name: "무피로신(Mupirocin)", amount: "20mg/g(2%)", role: "항생제·이소류신 합성 억제" },
-            { type: "주성분", name: "티트리오일(Tea Tree Oil)", role: "천연 항균·항염·항진균" },
+            { type: "주성분", name: "티트리오일(Tea Tree Oil)", amount: "5%", role: "천연 항균·항염·항진균" },
             { type: "첨가제", name: "마크로골 400(PEG 400)", role: "기제·수용성 전달" },
           ],
           content: "에스로반티트리오일연고는 무피로신(Mupirocin) 2%와 티트리오일(Tea Tree Oil)을 복합 배합한 항생제·항균 연고예요.\n\n무피로신은 세균의 이소류신-tRNA 합성효소(IleRS)를 억제해 단백질 합성을 차단하는 독특한 작용 기전의 국소 항생제예요. 황색포도상구균, 베타-용혈성 연쇄구균에 효과적이에요.\n\n티트리오일은 천연 항균·항염·항진균 성분으로 피부 세균·진균에 시너지 항균 효과를 더해줘요.",
