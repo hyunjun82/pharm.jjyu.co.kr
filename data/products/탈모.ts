@@ -1085,4 +1085,20 @@ export const products: Product[] = [
     usage: "1일 2회 탈모 부위에 1ml씩 도포",
     slug: "판시딜",
   },
+  // === 신규 추가 1개 (2026-02-25) ===
+  {
+    id: "dupian-30ml",
+    name: "두피앤액 30ml",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "탈모",
+    description: "미녹시딜 2% 두피 도포 발모제. 여성·초기 탈모에 적합한 저농도 미녹시딜.",
+    price: 15000,
+    unit: "30ml",
+    barkiryQuery: "두피앤액",
+    barkiryProductId: "p645",
+    ingredients: "미녹시딜",
+    usage: "1일 2회, 1ml씩 탈모 부위 두피에 도포",
+    slug: "두피앤액",
+  },
 ];

@@ -106,4 +106,20 @@ export const products: Product[] = [
     usage: "성인: 200mg(1정)×2 = 400mg 1회 복용 / 소아: 의사 지시에 따름",
     slug: "젤콤정1정",
   },
+  // === 신규 추가 1개 (2026-02-25) ===
+  {
+    id: "zentel-400mg-2tabs",
+    name: "젠텔정 400mg 2정",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "구충제",
+    description: "알벤다졸 400mg 글락소스미스클라인 광범위 구충제. 회충·요충·편충·십이지장충·조충 구충.",
+    price: 3500,
+    unit: "2정",
+    barkiryQuery: "젠텔정",
+    barkiryProductId: "p158",
+    ingredients: "알벤다졸",
+    usage: "성인·2세 이상 소아: 1회 400mg(2정) 복용, 필요 시 3주 후 반복",
+    slug: "젠텔정",
+  },
 ];
