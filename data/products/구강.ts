@@ -280,4 +280,18 @@ export const products: Product[] = [
     usage: "칫솔에 적당량 짜서 1일 2~3회 양치 후 뱉기",
     slug: "잇치페이스트프로폴리스",
   },
+  {
+    id: "oramedy-10g",
+    name: "오라메디 연고 10g",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "구강",
+    description: "오라메디 대용량 10g. 트리암시놀론 스테로이드 성분 구내염·구강 궤양 치료 연고예요.",
+    price: 5000,
+    unit: "10g",
+    barkiryProductId: "p599",
+    ingredients: "트리암시놀론아세토나이드",
+    usage: "1일 2~3회 환부에 소량 도포",
+    slug: "오라메디",
+  },
 ];

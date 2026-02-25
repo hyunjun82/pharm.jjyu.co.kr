@@ -290,4 +290,18 @@ export const products: Product[] = [
     usage: "주 1~2회, 손질 후 발톱에 도포하고 건조",
     slug: "무조날맥스네일라카",
   },
+  {
+    id: "canesten-100g",
+    name: "카네스텐 크림 100g",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "무좀",
+    description: "카네스텐 대용량 100g. 클로트리마졸 1% 항진균 크림으로 무좀·칸디다 장기 치료에 경제적이에요.",
+    price: 12000,
+    unit: "100g",
+    barkiryProductId: "p956",
+    ingredients: "클로트리마졸",
+    usage: "1일 2~3회, 환부에 얇게 바른다",
+    slug: "카네스텐",
+  },
 ];
