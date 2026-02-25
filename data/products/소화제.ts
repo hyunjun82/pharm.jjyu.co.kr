@@ -337,4 +337,18 @@ export const products: Product[] = [
     usage: "1회 1정, 1일 3회 식후 복용",
     slug: "베아제10정",
   },
+  {
+    id: "sohuaen-benatchio-f-10bottles",
+    name: "소화엔 베나치오 에프액 75ml 10병",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "소화제",
+    description: "복합 소화효소+생약 복합 소화제 75ml 10병 세트. 소화불량·위부팽만에 효과적인 액상 소화제예요.",
+    price: 6000,
+    unit: "75ml×10병",
+    barkiryProductId: "p302",
+    ingredients: "판크레아틴,소화효소",
+    usage: "1일 3회, 식후에 1병씩 복용",
+    slug: "소화엔베나치오에프",
+  },
 ];

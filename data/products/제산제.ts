@@ -136,4 +136,18 @@ export const products: Product[] = [
     usage: "식후 1~2시간 및 취침 전 1포(15ml) 복용",
     slug: "알마겔에프6포",
   },
+  {
+    id: "gaviscon-double-4packs",
+    name: "개비스콘 더블액션 현탁액 10ml 4포",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "제산제",
+    description: "알긴산나트륨 기반 이중 작용 제산제 4포. 위식도역류·속쓰림을 알긴산 젤 층으로 차단해요.",
+    price: 4500,
+    unit: "4포",
+    barkiryProductId: "p747",
+    ingredients: "알긴산나트륨,탄산수소나트륨,탄산칼슘",
+    usage: "식후 및 취침 전 1포(10ml) 복용",
+    slug: "개비스콘더블액션현탁액",
+  },
 ];

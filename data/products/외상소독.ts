@@ -157,4 +157,18 @@ export const products: Product[] = [
     usage: "포장지를 뜯어 알콜스왑으로 소독 부위를 닦아냄",
     slug: "스탠다드알콜스왑",
   },
+  {
+    id: "green-povidone-stick-50",
+    name: "그린 포비돈 스틱스왑 50개입",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "외상소독",
+    description: "포비돈요오드 함침 일회용 스틱스왑 50개입 대용량. 휴대 편리한 소독 스틱 대용량 팩이에요.",
+    price: 20000,
+    unit: "50개입",
+    barkiryProductId: "p719",
+    ingredients: "포비돈요오드",
+    usage: "스틱 끝을 부러뜨려 소독액을 활성화한 후 환부에 도포",
+    slug: "그린포비돈스틱스왑",
+  },
 ];
