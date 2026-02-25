@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 
 interface PriceCTAProps {
@@ -5,11 +6,27 @@ interface PriceCTAProps {
   barkiryQuery?: string;
   barkiryProductId?: string;
   externalSearchUrl?: string;
+  categorySlug?: string;
 }
 
-export function PriceCTA({ name, barkiryQuery, barkiryProductId, externalSearchUrl }: PriceCTAProps) {
+export function PriceCTA({ name, barkiryQuery, barkiryProductId, externalSearchUrl, categorySlug }: PriceCTAProps) {
   const hasLink = !!(barkiryProductId || externalSearchUrl || barkiryQuery);
-  if (!hasLink) return null;
+  if (!hasLink) {
+    if (!categorySlug) return null;
+    return (
+      <Link
+        href={`/${categorySlug}/가격비교`}
+        className="group block w-full rounded-xl bg-gray-100 px-6 py-5 text-center text-gray-800 shadow transition-all duration-200 hover:bg-gray-200 hover:-translate-y-0.5"
+      >
+        <span className="flex items-center justify-center gap-2 text-lg font-bold">
+          📋 {name} 약국 가격 정보 보기
+        </span>
+        <span className="block text-sm text-gray-500 mt-1">
+          카테고리 전체 약국 기준가 비교 →
+        </span>
+      </Link>
+    );
+  }
 
   const barkiryUrl = barkiryProductId
     ? `https://barkiri.com/products/${barkiryProductId}`

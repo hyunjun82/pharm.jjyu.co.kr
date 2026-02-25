@@ -258,7 +258,7 @@ export default async function SpokePage({ params }: PageProps) {
                         {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
                         약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
                       </p>
-                      <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} barkiryProductId={mainProduct.barkiryProductId} externalSearchUrl={mainProduct.externalSearchUrl} />
+                      <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} barkiryProductId={mainProduct.barkiryProductId} externalSearchUrl={mainProduct.externalSearchUrl} categorySlug={catSlug} />
                     </div>
                     <Separator className="mt-8" />
                   </section>
