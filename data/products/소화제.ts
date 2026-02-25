@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "gaviscon-double-12pk",
     name: "개비스콘 더블액션 현탁액 10ml 12포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-개비스콘.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "위산 역류, 속쓰림 완화. 알긴산 위 보호막.",
@@ -93,7 +93,7 @@ export const products: Product[] = [
   {
     id: "gelfos-m-4pack",
     name: "겔포스엠 현탁액 4포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-겔포스엠.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "인산알루미늄+마그네슘 복합 제산제. 속쓰림, 위산 과다에 효과적이에요.",
@@ -108,7 +108,7 @@ export const products: Product[] = [
   {
     id: "hwalmeongsu-q-75ml",
     name: "까스 활명수 큐액 75ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-활명수큐.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "동화약품 대표 생약 소화제. 식체, 소화불량에 빠른 효과를 기대할 수 있어요.",
@@ -123,7 +123,7 @@ export const products: Product[] = [
   {
     id: "sohwaen-venatioF-75ml",
     name: "소화엔 베나치오 에프액 75ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-소화엔베나치오에프.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴 복합 소화효소 드링크. 과식·음주 후 더부룩함 해소에 사용해요.",
@@ -151,7 +151,7 @@ export const products: Product[] = [
   {
     id: "hwalmeongsu-yu-5pcs",
     name: "활명수 유 액 10ml 5포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-활명수유.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "동아제약 생약 복합 소화제. 정향유·계피·후박 등 한방 성분.",
@@ -165,7 +165,7 @@ export const products: Product[] = [
   {
     id: "sokpyeonhan-venatio-20ml-3pcs",
     name: "속편한 베나치오액 20ml 3병",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-속편한베나치오.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+시메티콘 복합 소화 드링크. 소화불량·가스에 효과.",
@@ -179,7 +179,7 @@ export const products: Product[] = [
   {
     id: "gelfos-l-20g-4pack",
     name: "겔포스엘 현탁액 20g 4포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-겔포스엘4포.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "알마게이트 단일 성분 제산제. 속쓰림·위산 과다에 빠른 완화.",
@@ -193,7 +193,7 @@ export const products: Product[] = [
   {
     id: "kkoma-hwalmeongsu-10ml-5pcs",
     name: "꼬마 활명수액 10ml 5포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-꼬마활명수.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "어린이용 생약 소화제. 계피·생강·정향 순한 생약 성분.",
@@ -207,7 +207,7 @@ export const products: Product[] = [
   {
     id: "sol-wijeongsu-gold-75ml-10pcs",
     name: "솔표 위청수 골드액 75ml 10병",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-솔표위청수.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "향사·진피·목향 등 한방 생약 소화제. 소화불량·위장 불쾌감 완화.",
@@ -235,7 +235,7 @@ export const products: Product[] = [
   {
     id: "sokpyeonhan-venatio-q-75ml-10pcs",
     name: "속편한 베나치오 큐액 75ml 10병",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-속편한베나치오큐.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+시메티콘 대용량 드링크. 과식·음주 후 소화 지원.",
@@ -250,7 +250,7 @@ export const products: Product[] = [
   {
     id: "bolgle-30packs",
     name: "볼그레액 30포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-볼그레액.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+라이페이스 복합 소화효소 드링크. 지방·단백질·탄수화물 동시 분해.",
@@ -265,7 +265,7 @@ export const products: Product[] = [
   {
     id: "dr-beaze-10tabs",
     name: "닥터 베아제정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-닥터베아제10정.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴 복합 강력 소화제. 소화불량·식욕감퇴 개선 10정 팩.",
@@ -280,7 +280,7 @@ export const products: Product[] = [
   {
     id: "quzyme-10tabs",
     name: "큐자임정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-큐자임정.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "다이아스타제+셀룰라제 복합 소화효소 정제. 탄수화물·섬유소 분해 전문.",
@@ -295,7 +295,7 @@ export const products: Product[] = [
   {
     id: "gasnfree-chu-12tabs",
     name: "까스앤 프리 츄정 12정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-까스앤프리.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "시메티콘+탄산수소나트륨 씹어먹는 가스 제거제. 더부룩함·복부팽만 빠른 해소.",
@@ -310,7 +310,7 @@ export const products: Product[] = [
   {
     id: "festal-plus-100tabs",
     name: "훼스탈 플러스정 100정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-훼스탈플러스100정.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+헤미셀룰라제 대용량 소화제 100정. 장기 복용에 경제적인 구성.",
@@ -325,7 +325,7 @@ export const products: Product[] = [
   {
     id: "bearse-10tabs",
     name: "베아제정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-베아제10정.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴 복합 소화제 10정 팩. 소화불량·식욕감퇴 개선 기본 소화제.",
@@ -340,7 +340,7 @@ export const products: Product[] = [
   {
     id: "sohuaen-benatchio-f-10bottles",
     name: "소화엔 베나치오 에프액 75ml 10병",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-소화엔베나치오에프.webp",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "복합 소화효소+생약 복합 소화제 75ml 10병 세트. 소화불량·위부팽만에 효과적인 액상 소화제예요.",

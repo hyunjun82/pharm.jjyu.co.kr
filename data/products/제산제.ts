@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "gelposm-4packs",
     name: "겔포스엠 현탁액 20g 4포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-겔포스엠4포.webp",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "알마게이트+시메티콘 복합 제산제. 위산 중화+가스 제거 이중 작용 겔포스엠.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "gelposel-4packs",
     name: "겔포스엘 현탁액 20g 4포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-겔포스엘4포.webp",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "알마게이트 복합 제산제 겔포스엘. 위산 중화+위점막 보호 효과.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "almacol-f-20packs",
     name: "알마겔 에프 현탁액 15ml 20포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알마겔에프20포.webp",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "수산화알루미늄·수산화마그네슘·시메티콘 복합 제산제. 속쓰림·가스·위산 종합 케어.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "almacol-20packs",
     name: "알마겔 현탁액 15ml 20포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알마겔20포.webp",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "수산화알루미늄·수산화마그네슘 기본 제산제 알마겔. 속쓰림·위산 과다에 기본형.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "almacol-f-4packs",
     name: "알마겔 에프 현탁액 15ml 4포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알마겔에프4포.webp",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "알마겔 에프 소포장 4포. 휴대·단기 속쓰림 완화에 편리한 소용량.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "sokpyeon-f-90packs",
     name: "속편F환 90포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-속편F환.webp",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "향사평위산 기반 한방 제산제. 소화불량·식체·속쓰림에 전통 생약 성분.",
@@ -139,7 +139,7 @@ export const products: Product[] = [
   {
     id: "gaviscon-double-4packs",
     name: "개비스콘 더블액션 현탁액 10ml 4포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-개비스콘더블액션현탁액.webp",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "알긴산나트륨 기반 이중 작용 제산제 4포. 위식도역류·속쓰림을 알긴산 젤 층으로 차단해요.",

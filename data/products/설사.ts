@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "jungrowhan-f-100pills",
     name: "동성 정로환 에프환 100환",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-정로환에프환.webp",
     category: "일반의약품",
     categorySlug: "설사",
     description: "급성 설사, 복통 완화. 전통 환제 타입.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "jungrowhan-coated-36tabs",
     name: "동성 정로환 당의정 36정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-정로환당의정.webp",
     category: "일반의약품",
     categorySlug: "설사",
     description: "급성 설사, 복통 완화. 냄새 없는 코팅 정제.",
@@ -104,7 +104,7 @@ export const products: Product[] = [
   {
     id: "bioflor-250-48caps",
     name: "비오플250 캡슐 48캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-비오플250.webp",
     category: "일반의약품",
     categorySlug: "설사",
     description: "대용량 비오플250. 사카로마이세스 유산균으로 장내 균형 회복.",
@@ -149,7 +149,7 @@ export const products: Product[] = [
   {
     id: "lactoprin-10tabs",
     name: "락토프린정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-락토프린정.webp",
     category: "일반의약품",
     categorySlug: "설사",
     description: "락트산균 건조분말 유산균 정장제. 장내 환경을 개선해 설사·과민성장을 완화.",
@@ -163,7 +163,7 @@ export const products: Product[] = [
   {
     id: "lactogreen-10tabs",
     name: "락토그린정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-락토그린정.webp",
     category: "일반의약품",
     categorySlug: "설사",
     description: "락토바실러스+비피도박테리움 복합 생균제. 장내 유익균 균형 회복으로 설사 개선.",

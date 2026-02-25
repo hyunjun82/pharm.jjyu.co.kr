@@ -32,7 +32,7 @@ export const products: Product[] = [
   {
       id: "ssanghwa-100ml-10",
       name: "광동 쌍화탕 100ml 10병",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-쌍화탕.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "몸살 감기에 효과적인 한방 감기약. 작약·숙지황 등 생약 성분.",
@@ -47,7 +47,7 @@ export const products: Product[] = [
   {
       id: "theraflu-daytime-6",
       name: "테라플루 데이타임 건조시럽 6개입",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-테라플루데이타임.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "따뜻한 음료형 감기약. 발열·두통·코막힘 완화.",
@@ -62,7 +62,7 @@ export const products: Product[] = [
   {
       id: "theraflu-nighttime-6",
       name: "테라플루 나이트타임 건조시럽 6개입",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-테라플루나이트타임.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "야간 감기 증상 완화. 숙면 도움 항히스타민 포함.",
@@ -107,7 +107,7 @@ export const products: Product[] = [
   {
       id: "pancold-s-30ml-5",
       name: "판콜 에스 내복액 30ml 5병",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-판콜에스.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "액상형 종합감기약. 빠른 흡수, 다양한 감기 증상 완화.",
@@ -122,7 +122,7 @@ export const products: Product[] = [
   {
       id: "tylenol-cold-s-10tabs",
       name: "타이레놀 콜드에스정 10정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-타이레놀콜드에스.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "타이레놀 기반 종합감기약. 발열·두통·콧물·코막힘 완화.",
@@ -137,7 +137,7 @@ export const products: Product[] = [
   {
       id: "huituben-nasal-10ml",
       name: "화이투벤 나잘 스프레이 무향 10ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-화이투벤나잘.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "코막힘 즉각 완화 스프레이. 옥시메타졸린 성분.",
@@ -152,7 +152,7 @@ export const products: Product[] = [
   {
       id: "cophu-syrup-s-6",
       name: "코푸 시럽 에스 20ml 6포",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-코푸시럽에스.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "기침감기 전문 시럽. 가래·기침 동시 완화.",
@@ -197,7 +197,7 @@ export const products: Product[] = [
   {
       id: "kosmuldoctor",
       name: "콧물닥터",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-콧물닥터.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "콧물, 재채기 완화. 항히스타민 성분.",
@@ -257,7 +257,7 @@ export const products: Product[] = [
   {
       id: "theraflu-coldcough-10",
       name: "테라플루 데이타임 콜드앤코프 10개입",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-테라플루콜드앤코프.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "분말 타입 종합감기약. 따뜻하게 마시는 기침·코감기 복합 치료제.",
@@ -272,7 +272,7 @@ export const products: Product[] = [
   {
       id: "huituben-q-nose-10caps",
       name: "화이투벤 큐 노즈 연질캡슐 10캡슐",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-화이투벤큐노즈.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "코감기 전용 연질캡슐. 슈도에페드린으로 코막힘·콧물 집중 완화.",
@@ -287,7 +287,7 @@ export const products: Product[] = [
   {
       id: "theraflu-coldcough-night-10",
       name: "테라플루 콜드앤코프 나이트타임 10개입",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-테라플루콜드앤코프나이트.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "야간 기침·코감기 복합 치료제. 디펜히드라민 포함으로 숙면 도움.",
@@ -302,7 +302,7 @@ export const products: Product[] = [
   {
       id: "ccold-plus-nose-10tabs",
       name: "씨콜드 플러스 노즈정 10정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-씨콜드플러스노즈.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "코감기 전용 정제. 코막힘·콧물에 집중 작용.",
@@ -317,7 +317,7 @@ export const products: Product[] = [
   {
       id: "huituben-q-cough-10caps",
       name: "화이투벤 큐 코프 연질캡슐 10캡슐",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-화이투벤큐코프.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "기침감기 전용 캡슐. 해열+진해 성분으로 목감기·기침 완화.",
@@ -332,7 +332,7 @@ export const products: Product[] = [
   {
       id: "pancol-i-cold-syrup-8",
       name: "판콜 아이 콜드시럽 12ml 8포",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-판콜아이콜드시럽.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "소아용 종합감기 시럽. 어린이 복용에 적합한 액상 감기약.",
@@ -347,7 +347,7 @@ export const products: Product[] = [
   {
       id: "panpirin-q-liquid-5",
       name: "판피린큐액 20ml 5병",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-판피린큐액.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "판피린 액상 타입. 빠른 흡수로 발열·두통·코막힘 빠르게 완화.",
@@ -362,7 +362,7 @@ export const products: Product[] = [
   {
       id: "panpirin-night-5",
       name: "판피린 나이트 20ml 5병",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-판피린나이트.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "야간 감기 전용 판피린. 항히스타민 성분으로 숙면 도움.",
@@ -377,7 +377,7 @@ export const products: Product[] = [
   {
       id: "huituben-c-plus-10caps",
       name: "화이투벤 씨플러스 캡슐 10캡슐",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-화이투벤씨플러스.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "비타민C 강화 종합감기 캡슐. 감기 증상 완화 + 면역 지원.",
@@ -392,7 +392,7 @@ export const products: Product[] = [
   {
       id: "ccold-premium-10tabs",
       name: "씨콜드 프리미엄정 10정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-씨콜드프리미엄.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "프리미엄 종합감기약. 발열·콧물·기침·코막힘 4중 동시 완화.",
@@ -422,7 +422,7 @@ export const products: Product[] = [
   {
       id: "kopustop-plus-10caps",
       name: "코푸스탑 플러스 연질캡슐 10캡슐",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-코푸스탑플러스.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "기침·가래 강화 연질캡슐. 진해+거담+기관지 확장 3중 효과.",
@@ -437,7 +437,7 @@ export const products: Product[] = [
   {
       id: "huituben-cold-syrup-5",
       name: "화이투벤 콜드 시럽 20ml 5포",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-화이투벤콜드시럽.webp",
       category: "일반의약품",
       categorySlug: "감기",
       description: "종합감기 시럽. 빠른 흡수로 발열·콧물·기침 동시 완화.",
@@ -452,7 +452,7 @@ export const products: Product[] = [
   {
     id: "childtylenol-suspension-100ml",
     name: "어린이 타이레놀 현탁액 100ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-어린이타이레놀현탁액.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세트아미노펜 소아용 액상 해열진통제. 발열·두통·감기 증상에 2세 이상 어린이에게 사용.",
@@ -467,7 +467,7 @@ export const products: Product[] = [
   {
     id: "tylenol-er-tablet-6",
     name: "타이레놀 8시간 이알 서방정 6정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-타이레놀이알서방정.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세트아미노펜 서방형 해열진통제. 8시간 지속 효과로 발열·통증에 편리하게 복용.",
@@ -482,7 +482,7 @@ export const products: Product[] = [
   {
     id: "suspen-er-tablet-6",
     name: "써스펜 8시간 이알 서방정 650mg 6정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-써스펜이알서방정.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세트아미노펜 650mg 서방정. 8시간 지속 해열·진통 효과로 감기 발열 완화.",
@@ -497,7 +497,7 @@ export const products: Product[] = [
   {
     id: "coanecool-nasal-spray-20ml",
     name: "코앤쿨 나잘 스프레이 20ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코앤쿨나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "크실로메타졸린 비충혈제거 비강 스프레이. 감기 코막힘·알레르기성 비염에 빠른 완화.",
@@ -512,7 +512,7 @@ export const products: Product[] = [
   {
     id: "otrivin-menthol-10ml",
     name: "오트리빈 상쾌한 멘톨향 10ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-오트리빈.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "크실로메타졸린 0.1% 멘톨향 비강 스프레이. 코막힘을 빠르게 뚫어주는 오트리빈 시리즈.",
@@ -527,7 +527,7 @@ export const products: Product[] = [
   {
     id: "greencoldshot-s-syrup",
     name: "그린콜샷 에스 시럽",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그린콜샷에스.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "종합감기 시럽. 발열·콧물·기침·가래를 한번에 완화하는 개봉 즉시 복용형 시럽.",
@@ -542,7 +542,7 @@ export const products: Product[] = [
   {
     id: "greennose-s-syrup",
     name: "그린노즈 에스 시럽",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그린노즈에스.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "코감기 전용 시럽. 콧물·코막힘·재채기에 항히스타민+비충혈제거 복합 시럽.",
@@ -557,7 +557,7 @@ export const products: Product[] = [
   {
     id: "pancoles-liquid-5",
     name: "판콜 에스 내복액 30ml 5병",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-판콜에스내복액.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "종합감기 내복액 30ml×5병. 발열·콧물·기침에 빠른 흡수로 효과를 내는 액상형 감기약.",
@@ -572,7 +572,7 @@ export const products: Product[] = [
   {
     id: "coldone-cof-s-syrup-5",
     name: "콜대원 코프에스 시럽 20ml 5포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-콜대원코프에스.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "기침·가래 전용 시럽 5포. 덱스트로메토르판+구아이페네신으로 기침 완화·가래 배출 도움.",
@@ -587,7 +587,7 @@ export const products: Product[] = [
   {
     id: "coldone-nose-s-syrup-5",
     name: "콜대원 노즈에스 시럽 20ml 5포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-콜대원노즈에스.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "코감기 전용 시럽 5포. 콧물·코막힘에 항히스타민+비충혈제거 복합 시럽.",
@@ -602,7 +602,7 @@ export const products: Product[] = [
   {
     id: "cold-mask-nasal-spray",
     name: "콜드 마스크 비강 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-콜드마스크비강스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "염화나트륨·히알루론산 비강 보습 스프레이. 건조한 코 점막을 촉촉하게 유지해요.",
@@ -616,7 +616,7 @@ export const products: Product[] = [
   {
     id: "huituben-menthol-nasal",
     name: "화이투벤 멘톨 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-화이투벤멘톨나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "멘톨·유칼립투스 성분 코막힘 완화 스프레이. 청량감과 함께 코막힘을 빠르게 해소해요.",
@@ -630,7 +630,7 @@ export const products: Product[] = [
   {
     id: "hwacol-kids-nasal",
     name: "화콜 키즈 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-화콜키즈나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "소아용 자일로메타졸린 비충혈제거 스프레이. 2세 이상 어린이 코막힘 완화에 사용해요.",
@@ -644,7 +644,7 @@ export const products: Product[] = [
   {
     id: "cona-fresh-nasal",
     name: "코나 프레쉬 나잘 스프레이액",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코나프레쉬나잘스프레이액.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "생리식염수 기반 비강 세척 스프레이. 코 점막을 세척·보습해 알레르기·감기 예방에 도움돼요.",
@@ -658,7 +658,7 @@ export const products: Product[] = [
   {
     id: "siwon-taoa-nasal",
     name: "시원타조아 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-시원타조아나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "자일로메타졸린 혈관수축 코막힘 해소 스프레이. 코막힘을 빠르게 뚫어줘요.",
@@ -672,7 +672,7 @@ export const products: Product[] = [
   {
     id: "champ-syrup-cherry-280",
     name: "챔프시럽 아세트아미노펜 체리맛",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-챔프시럽아세트아미노펜체리맛.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "소아용 아세트아미노펜 체리맛 해열 시럽. 아이들이 먹기 쉬운 체리향으로 해열·진통에 효과적이에요.",
@@ -686,7 +686,7 @@ export const products: Product[] = [
   {
     id: "maplus-nasal-spray",
     name: "마플러스 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마플러스나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "자일로메타졸린 코막힘 해소 비강 스프레이. 빠른 혈관수축 작용으로 코막힘을 즉각 완화해요.",
@@ -700,7 +700,7 @@ export const products: Product[] = [
   {
     id: "tylenol-500mg-tabs",
     name: "타이레놀정 500mg",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-타이레놀정500mg.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세트아미노펜 500mg 성인 해열진통정. 감기로 인한 발열·두통·인후통 완화에 가장 많이 쓰여요.",
@@ -714,7 +714,7 @@ export const products: Product[] = [
   {
     id: "coan-nasal-spray",
     name: "코앤 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코앤나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "자일로메타졸린·히알루론산 복합 비강 스프레이. 코막힘을 빠르게 해소하고 코 점막을 보습해요.",
@@ -728,7 +728,7 @@ export const products: Product[] = [
   {
     id: "womens-tylenol-tabs",
     name: "우먼스 타이레놀정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-우먼스타이레놀정.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "여성용 아세트아미노펜 500mg 해열진통제. 감기 발열·두통과 생리통에 모두 사용 가능해요.",
@@ -742,7 +742,7 @@ export const products: Product[] = [
   {
     id: "tylenol-powder-500-12",
     name: "타이레놀산 500mg 12포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-타이레놀산500mg12포.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세트아미노펜 500mg 분말형 12포. 물에 타서 먹거나 그대로 복용하는 편리한 산제 타입이에요.",
@@ -756,7 +756,7 @@ export const products: Product[] = [
   {
     id: "child-tylenol-powder-160-12",
     name: "어린이 타이레놀산 160mg 12포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-어린이타이레놀산160mg12포.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "소아용 아세트아미노펜 160mg 분말 12포. 먹기 쉬운 분말형으로 소아 해열·진통에 사용해요.",
@@ -770,7 +770,7 @@ export const products: Product[] = [
   {
     id: "tylenol-suspension-200ml",
     name: "타이레놀 현탁액 200ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-타이레놀현탁액200ml.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "소아용 아세트아미노펜 현탁액 200ml 대용량. 병원·가정 상비용으로 많이 쓰이는 소아 해열 시럽이에요.",
@@ -784,7 +784,7 @@ export const products: Product[] = [
   {
     id: "huituben-nasal-kids",
     name: "화이투벤 나잘 스프레이 소아용",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-화이투벤나잘스프레이소아용.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "소아용 자일로메타졸린 0.05% 비강 스프레이. 2세 이상 어린이 코막힘에 사용하는 저농도 제품이에요.",
@@ -798,7 +798,7 @@ export const products: Product[] = [
   {
     id: "huituben-q-plus-10caps",
     name: "화이투벤 큐 플러스 10연질캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-화이투벤큐플러스.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "이부프로펜+슈도에페드린 복합 종합감기 연질캡슐. 발열·코막힘 동시에 잡아주는 강력 감기약이에요.",
@@ -812,7 +812,7 @@ export const products: Product[] = [
   {
     id: "green-nasal-moisture",
     name: "그린 나잘 스프레이 모이스쳐액",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그린나잘스프레이모이스쳐액.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "염화나트륨·알로에 비강 보습 스프레이. 코 점막 건조 완화 및 세척에 사용해요.",
@@ -826,7 +826,7 @@ export const products: Product[] = [
   {
     id: "visajin-nasal-spray",
     name: "비사진 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-비사진나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "자일로메타졸린·판테놀 복합 비강 스프레이. 코막힘 해소와 점막 회복을 동시에 도와줘요.",
@@ -840,7 +840,7 @@ export const products: Product[] = [
   {
     id: "haben-fresh-nasal",
     name: "하벤 프레쉬 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-하벤프레쉬나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "염화나트륨·히알루론산 비강 케어 스프레이. 코 점막을 촉촉하게 유지하고 세척해줘요.",
@@ -854,7 +854,7 @@ export const products: Product[] = [
   {
     id: "huituben-q-cof-plus",
     name: "화이투벤 큐 코프 플러스",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-화이투벤큐코프플러스.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "이부프로펜·슈도에페드린·덱스트로메토르판 3중 복합 감기약. 발열·코막힘·기침을 동시에 해결해요.",
@@ -868,7 +868,7 @@ export const products: Product[] = [
   {
     id: "cobiway-nasal-spray",
     name: "코비웨이 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코비웨이나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "자일로메타졸린 코막힘 해소 비강 스프레이. 빠른 작용으로 코막힘을 즉각 완화해줘요.",
@@ -882,7 +882,7 @@ export const products: Product[] = [
   {
     id: "coan-cool-es-nasal",
     name: "코앤쿨 에스 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코앤쿨에스나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "자일로메타졸린·멘톨 복합 비강 스프레이. 코막힘 해소에 청량한 쿨링 효과가 더해진 스프레이예요.",
@@ -896,7 +896,7 @@ export const products: Product[] = [
   {
     id: "physiomer-baby-nasal",
     name: "피지오머 베이비 나잘 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-피지오머베이비나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "등장성 해수 아기 비강 세척 스프레이. 영아 코 점막 세척·보습에 적합한 천연 해수 제품이에요.",
@@ -910,7 +910,7 @@ export const products: Product[] = [
   {
     id: "champ-syrup-102",
     name: "챔프 시럽",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-챔프시럽.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세트아미노펜 160mg/5ml 소아 해열 시럽. 어린이 발열·감기 증상에 가장 많이 쓰이는 해열 시럽이에요.",
@@ -925,7 +925,7 @@ export const products: Product[] = [
   {
     id: "bebecl-nasal-20ml",
     name: "베베클 나잘스프레이 20ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-베베클나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "어린이용 크실로메타졸린 0.05% 나잘스프레이. 어린이 코막힘 감기에 사용하는 저농도 비강 충혈 완화제예요.",
@@ -939,7 +939,7 @@ export const products: Product[] = [
   {
     id: "coldone-konaes-nasal-30ml",
     name: "콜대원 코나에스 나잘스프레이액 30ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-콜대원코나에스나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "옥시메타졸린 성분 콜대원 나잘스프레이 30ml. 코막힘을 12시간 지속 완화하는 비강 충혈 완화제예요.",
@@ -953,7 +953,7 @@ export const products: Product[] = [
   {
     id: "cocostop-nasal-18ml",
     name: "코코스탑 나잘스프레이 18ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코코스탑나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "옥시메타졸린 코코스탑 나잘스프레이 18ml. 코막힘을 빠르게 완화하는 비강 충혈 완화제예요.",
@@ -967,7 +967,7 @@ export const products: Product[] = [
   {
     id: "comakiten-q-nasal-20ml",
     name: "코마키텐큐 나잘스프레이 20ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코마키텐큐나잘스프레이.webp",
     category: "일반의약품",
     categorySlug: "감기",
     description: "크실로메타졸린 0.1% 고농도 성인용 나잘스프레이. 강력한 코막힘 완화와 항균 성분 포함이에요.",
@@ -981,7 +981,7 @@ export const products: Product[] = [
   {
     id: "modcoph-es-target-20caps",
     name: "모드코프 에스 목감기 20연질캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/모드코프에스.avif",
     category: "일반의약품",
     categorySlug: "감기",
     description: "목감기 전용 모드코프에스 20캡슐 대용량. 인후통·목의 염증에 특화된 종합감기약이에요.",

@@ -152,7 +152,7 @@ export const products: Product[] = [
   {
     id: "childbrufen-syrup-90ml",
     name: "어린이 부루펜 시럽 90ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-어린이부루펜시럽.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "어린이 해열·진통 시럽. 이부프로펜 100mg/5ml 체중별 용량 조절 가능.",
@@ -166,7 +166,7 @@ export const products: Product[] = [
   {
     id: "penzal-q-10tabs",
     name: "펜잘 큐 정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-펜잘큐정.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 200mg 일반 진통제. 두통·생리통·치통 완화.",
@@ -180,7 +180,7 @@ export const products: Product[] = [
   {
     id: "ezn6-any-10caps",
     name: "이지엔6애니 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이지엔6애니.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 200mg 연질캡슐. 언제 어디서나 간편하게.",
@@ -194,7 +194,7 @@ export const products: Product[] = [
   {
     id: "purossak-10caps",
     name: "푸로싹 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-푸로싹.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "나프록센 110mg 연질캡슐. 두통·생리통 장시간 효과.",
@@ -208,7 +208,7 @@ export const products: Product[] = [
   {
     id: "painangelsen-10caps",
     name: "페인엔젤센 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-페인엔젤센.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "나프록센 110mg 연질캡슐. 오래 가는 진통 효과.",
@@ -222,7 +222,7 @@ export const products: Product[] = [
   {
     id: "naksen-250-10caps",
     name: "낙센 250mg 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-낙센.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "나프록센 250mg 고용량 진통제. 12시간 지속 효과.",
@@ -236,7 +236,7 @@ export const products: Product[] = [
   {
     id: "ezn6-night-10caps",
     name: "이지엔6나이트 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이지엔6나이트.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜+디펜히드라민 복합 야간용 진통제. 통증 완화+수면 유도.",
@@ -250,7 +250,7 @@ export const products: Product[] = [
   {
     id: "saridon-a-10tabs",
     name: "사리돈 에이정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-사리돈에이.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이소프로필안티피린+아세트아미노펜+카페인 복합 두통약.",
@@ -264,7 +264,7 @@ export const products: Product[] = [
   {
     id: "ezn6-strong-10caps",
     name: "이지엔6스트롱 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이지엔6스트롱.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 400mg 고용량 진통제. 강한 통증에 효과적.",
@@ -278,7 +278,7 @@ export const products: Product[] = [
   {
     id: "eve400-oneq-s-10caps",
     name: "이브400 원큐 에스 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이브400원큐에스.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 400mg+파마브롬 복합. 생리통+붓기 동시 해결.",
@@ -292,7 +292,7 @@ export const products: Product[] = [
   {
     id: "champ-ibufen-syrup-10",
     name: "챔프 이부펜 시럽 5ml 10포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-챔프이부펜시럽.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 100mg/5ml 소아 진통해열 시럽 10포. 어린이 해열·진통에 사용하는 분포형 시럽이에요.",
@@ -306,7 +306,7 @@ export const products: Product[] = [
   {
     id: "champ-ibufen-cherry-10",
     name: "챔프이부펜시럽 체리맛 5ml 10포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-챔프이부펜시럽체리맛.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 100mg/5ml 체리맛 소아 해열진통 시럽. 거부감 없이 먹을 수 있는 체리향 소아용 시럽이에요.",
@@ -320,7 +320,7 @@ export const products: Product[] = [
   {
     id: "coldaewon-kids-ibufen-10",
     name: "콜대원 키즈 이부펜시럽 5ml 10포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-콜대원키즈이부펜시럽.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 100mg/5ml 소아용 분포 시럽 10포. 간편한 분포 형태로 어린이 해열·진통에 사용해요.",
@@ -334,7 +334,7 @@ export const products: Product[] = [
   {
     id: "yuhan-acetaminophen-10caps",
     name: "유한 아세트아미노펜 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유한아세트아미노펜연질캡슐.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "아세트아미노펜 300mg 연질캡슐. 빠른 흡수가 장점인 연질캡슐 타입 해열진통제예요.",
@@ -348,7 +348,7 @@ export const products: Product[] = [
   {
     id: "painangel-lady-10caps",
     name: "페인엔젤 레이디 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-페인엔젤레이디10캡슐.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "덱시부프로펜 생리통 여성 전용 연질캡슐. 위 부담을 줄인 덱시부프로펜으로 생리통·두통에 특화됐어요.",
@@ -362,7 +362,7 @@ export const products: Product[] = [
   {
     id: "painangel-pro-10caps",
     name: "페인엔젤 프로 덱시부프로펜 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-페인엔젤프로덱시부프로펜.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "덱시부프로펜 강력형 진통 연질캡슐. 일반 이부프로펜보다 위 부담이 적고 효과는 동등해요.",
@@ -376,7 +376,7 @@ export const products: Product[] = [
   {
     id: "ibufen-400-10tabs",
     name: "이부펜정 400mg 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이부펜정400mg10정.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 400mg 성인 고용량 진통제. 두통·치통·근육통·관절통에 강력한 항염진통 효과를 발휘해요.",
@@ -390,7 +390,7 @@ export const products: Product[] = [
   {
     id: "painangel-ibu-10caps",
     name: "페인엔젤 이부 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-페인엔젤이부10캡슐.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 일반형 진통 연질캡슐. 두통·치통·생리통에 빠른 흡수로 통증을 완화해줘요.",
@@ -404,7 +404,7 @@ export const products: Product[] = [
   {
     id: "taksen-acetaminophen-500-10",
     name: "탁센 아세트아미노펜정 500mg 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-탁센아세트아미노펜정500mg10정.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "아세트아미노펜 500mg 정제. 탁센 브랜드의 해열진통제로 두통·발열 완화에 사용해요.",
@@ -418,7 +418,7 @@ export const products: Product[] = [
   {
     id: "finecue-naproxen-5packs",
     name: "파인큐 나프록센 현탁액 10ml 5포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-파인큐나프록센현탁액.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "소아용 나프록센 현탁액 5포. 장시간 지속되는 진통 효과로 어린이 해열·진통에 사용하는 시럽이에요.",
@@ -432,7 +432,7 @@ export const products: Product[] = [
   {
     id: "finecue-ibufen-syrup-5",
     name: "파인큐 이부펜시럽 20ml 5포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-파인큐이부펜시럽.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "소아용 이부프로펜 시럽 20ml 5포. 단위 포당 용량이 넉넉해 소아 해열·진통에 편리하게 사용해요.",
@@ -460,7 +460,7 @@ export const products: Product[] = [
   {
     id: "jbutin-10tabs",
     name: "제이부틴정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제이부틴정10정.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 400mg 진통 정제. 두통·치통·근육통·생리통 등 다양한 통증에 효과적인 진통제예요.",
@@ -474,7 +474,7 @@ export const products: Product[] = [
   {
     id: "jbutin-double-10tabs",
     name: "제이부틴 더블정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제이부틴더블정10정.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 400mg+카페인 복합 진통제. 카페인이 진통 효과를 강화해 두통에 특히 효과적이에요.",
@@ -488,7 +488,7 @@ export const products: Product[] = [
   {
     id: "roidifen-10caps",
     name: "로이디펜 캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-로이디펜캡슐.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 200mg 진통·해열·소염 캡슐. 두통·치통·생리통·근육통에 사용하는 일반 이부프로펜 진통제예요.",
@@ -502,7 +502,7 @@ export const products: Product[] = [
   {
     id: "ndifen-10tabs",
     name: "엔디펜정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-엔디펜정.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 200mg 진통·해열·소염 정제. 두통·치통·생리통 등에 사용하는 이부프로펜 진통제예요.",
@@ -516,7 +516,7 @@ export const products: Product[] = [
   {
     id: "ndifen-alpha-10tabs",
     name: "엔디펜알파정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-엔디펜알파정.webp",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜+카페인 복합 진통 강화 정제. 카페인이 이부프로펜의 진통 효과를 빠르게 강화해요.",
@@ -530,7 +530,7 @@ export const products: Product[] = [
   {
     id: "tylenol-500mg-30tabs",
     name: "타이레놀정 500mg 30정",
-    image: "/images/placeholder.svg",
+    image: "/images/nedrug-타이레놀.jpg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "아세트아미노펜 500mg 30정. 해열·진통 대표약 타이레놀 30정 경제적 규격이에요.",
@@ -544,7 +544,7 @@ export const products: Product[] = [
   {
     id: "tylenol-500mg-110tabs",
     name: "타이레놀정 500mg 110정",
-    image: "/images/placeholder.svg",
+    image: "/images/nedrug-타이레놀.jpg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "아세트아미노펜 500mg 110정 대용량. 가정 상비용으로 적합한 타이레놀 대용량이에요.",

@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "insadol-100tabs",
     name: "인사돌정 100정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-인사돌정.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "잇몸 염증·출혈 치료제. 은행엽 추출물로 잇몸 혈액순환 개선.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "insadol-plus-100tabs",
     name: "인사돌 플러스정 100정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-인사돌플러스.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "강화 잇몸 치료제. 은행엽 추출물 + 비타민C 복합 잇몸 건강.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "igatan-f-100caps",
     name: "이가탄 에프 100캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이가탄에프.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "잇몸 질환 치료 캡슐. 비타민E·카르바조크롬으로 잇몸 강화.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "oramedy-6g",
     name: "오라메디 연고 6g",
-    image: "/images/placeholder.svg",
+    image: "/images/nedrug-오라메디.jpg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "구내염·구강 궤양 치료 연고. 트리암시놀론 스테로이드 성분.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "peridex-6g",
     name: "페리덱스 연고 6g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-페리덱스.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "잇몸 치료 연고. 잇몸 염증·부종 완화.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "albothyl-5ml",
     name: "동화 알보칠액 5ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알보칠.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "구내염 치료액. 폴리크레줄렌으로 구내염·잇몸 상처 소독·치유.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
     id: "hexamedine-250ml",
     name: "헥사메딘액 0.12% 250ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-헥사메딘.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "구강 소독 가글액. 클로르헥시딘으로 잇몸 질환·구내염 예방.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
     id: "tantum-gargle-100ml",
     name: "삼아 탄툼액 가글 100ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-탄툼액.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "항염 구강 가글. 벤지다민으로 인후통·구내염·잇몸 염증 완화.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: "betadine-throat-spray-50ml",
     name: "베타딘 인후스프레이 50ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-베타딘인후스프레이50ml.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "포비돈요오드 구강·인후 스프레이. 인후염·구내염 항균 소독.",
@@ -138,7 +138,7 @@ export const products: Product[] = [
   {
     id: "betadine-throat-spray-25ml",
     name: "베타딘 인후스프레이 25ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-베타딘인후스프레이25ml.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "포비돈요오드 구강·인후 스프레이 소용량. 휴대하기 편한 25ml.",
@@ -152,7 +152,7 @@ export const products: Product[] = [
   {
     id: "inhuprsin-10caps",
     name: "인후프신 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-인후프신.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "리소자임+세틸피리디늄 복합 인후염 캡슐. 효소 항균 작용.",
@@ -166,7 +166,7 @@ export const products: Product[] = [
   {
     id: "inhurexin-20caps",
     name: "인후렉신 20캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-인후렉신.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "세틸피리디늄+아스코르빈산 복합 인후 캡슐. 항균+비타민C.",
@@ -180,7 +180,7 @@ export const products: Product[] = [
   {
     id: "inhushin-caps-10",
     name: "인후신캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-인후신캡슐10.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "세틸피리디늄염화물 구강 항균 소독 캡슐. 인후통·구내염 완화.",
@@ -208,7 +208,7 @@ export const products: Product[] = [
   {
     id: "tantum-verde-nebulizer-30ml",
     name: "탄툼 베르데 네뷸라이저 30ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-탄툼베르데네뷸라이저.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "벤지다민염산염 분무형 구강·인후 항염제. 스프레이 제형 탄툼.",
@@ -223,7 +223,7 @@ export const products: Product[] = [
   {
     id: "itchi-paste-120g",
     name: "잇치 페이스트 120g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-잇치페이스트.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "질산칼륨+불화나트륨 함유 시린이·충치 예방 치약. 시린이 증상 완화와 충치 예방 동시.",
@@ -238,7 +238,7 @@ export const products: Product[] = [
   {
     id: "itchi-paste-phytoncide-150g",
     name: "잇치 페이스트 피톤치드향 150g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-잇치페이스트피톤치드향.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "질산칼륨+불화나트륨+피톤치드 함유 시린이 치약. 상쾌한 피톤치드향 대용량.",
@@ -253,7 +253,7 @@ export const products: Product[] = [
   {
     id: "mocan-spray-20ml",
     name: "목앤 스프레이 20ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-목앤스프레이.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "세틸피리디늄클로라이드 인후 항균 스프레이. 인후통·목 불쾌감에 간편 분사.",
@@ -268,7 +268,7 @@ export const products: Product[] = [
   {
     id: "itchi-paste-propolis-140g",
     name: "잇치 페이스트 프로폴리스 140g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-잇치페이스트프로폴리스.webp",
     category: "일반의약품",
     categorySlug: "구강",
     description: "질산칼륨+불화나트륨+프로폴리스 함유 시린이 치약. 천연 항균 프로폴리스 성분 추가.",
@@ -283,7 +283,7 @@ export const products: Product[] = [
   {
     id: "oramedy-10g",
     name: "오라메디 연고 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/nedrug-오라메디.jpg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "오라메디 대용량 10g. 트리암시놀론 스테로이드 성분 구내염·구강 궤양 치료 연고예요.",

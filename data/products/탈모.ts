@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
       id: "minoxidil-60ml",
       name: "미녹시딜 5% 60ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "남성형 탈모 치료. FDA 승인 탈모 치료 성분.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
       id: "propecia-28tabs",
       name: "프로페시아정 1mg 28정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-프로페시아.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "남성형 탈모 치료. 피나스테리드 오리지널.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
       id: "finawon-30tabs",
       name: "피나원정 1mg 30정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-피나원.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "남성형 탈모 치료. 피나스테리드 제네릭.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
       id: "hairgro-30tabs",
       name: "헤어그로정 1mg 30정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-헤어그로.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "남성형 탈모 치료. 가성비 피나스테리드.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
       id: "dupina-30ml",
       name: "두피나액 30ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "미녹시딜 함유 두피 탈모 치료 외용액. 남성형 탈모에 사용.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
       id: "hyundai-minoxidil-30tabs",
       name: "현대 미녹시딜정 5mg 30정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "경구용 미녹시딜 5mg. 남성형 탈모 치료 정제.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
       id: "panxidil-liquid-240ml",
       name: "판시딜액 5% 240ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "미녹시딜 5% 탈모 치료 외용액. 판시딜 캡슐과 병행 사용 가능.",
@@ -167,7 +167,7 @@ export const products: Product[] = [
   {
       id: "rogaine-60g-3pack",
       name: "로게인 폼 5% 60g 3개입",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "세계 1위 미녹시딜 브랜드. 폼/액 두 가지 타입.",
@@ -210,7 +210,7 @@ export const products: Product[] = [
   {
       id: "shinshin-finasteride-30tabs",
       name: "신신 피나스테리드정 1mg 30정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-신신피나스테리드.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "신신제약 피나스테리드 1mg 제네릭. 남성형 탈모 치료제.",
@@ -225,7 +225,7 @@ export const products: Product[] = [
   {
       id: "minopecia-28tabs",
       name: "미노페시아정 1mg 28정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미노페시아.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "피나스테리드 1mg 제네릭 28정. 처음 시작하기 좋은 소용량.",
@@ -240,7 +240,7 @@ export const products: Product[] = [
   {
       id: "aloscan-30tabs",
       name: "알로스칸정 1mg 30정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-알로스칸.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "피나스테리드 1mg 제네릭. 남성형 탈모 치료 정제.",
@@ -255,7 +255,7 @@ export const products: Product[] = [
   {
       id: "capiluros-foam-60g",
       name: "카필러스 폼 에어로솔 미녹시딜 5% 60g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "미녹시딜 5% 거품 타입. 바르기 쉽고 두피 자극 적은 폼 제형.",
@@ -270,7 +270,7 @@ export const products: Product[] = [
   {
       id: "minoxifoam-60g-3pack",
       name: "미녹시폼 에어로솔 미녹시딜 5% 60g 3캔",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "미녹시딜 5% 폼 에어로솔 3캔 세트. 장기 사용자에게 경제적인 구성.",
@@ -285,7 +285,7 @@ export const products: Product[] = [
   {
       id: "dongkwang-minoxidil-300tabs",
       name: "동광 미녹시딜정 5mg 300정",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "경구용 미녹시딜 5mg 300정 대용량. 장기 복용자 비용 절감.",
@@ -300,7 +300,7 @@ export const products: Product[] = [
   {
       id: "panxidil-liquid-3pct-200ml",
       name: "판시딜액 3% 200ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "미녹시딜 3% 탈모 치료 외용액. 자극이 적어 초보자·여성에게 적합.",
@@ -315,7 +315,7 @@ export const products: Product[] = [
   {
       id: "dongsung-minoxidil-3pct-200ml",
       name: "동성 미녹시딜액 3% 200ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-미녹시딜.webp",
       category: "일반의약품",
       categorySlug: "탈모",
       description: "동성제약 미녹시딜 3% 대용량. 여성 탈모 또는 초보자에게 추천.",
@@ -330,7 +330,7 @@ export const products: Product[] = [
   {
     id: "baropina-28t",
     name: "바로피나정 28정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-바로피나정.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "신풍제약 피나스테리드 1mg 제네릭. 10년 넘게 복용하는 장기 사용자도 있는 신뢰 제품.",
@@ -344,7 +344,7 @@ export const products: Product[] = [
   {
     id: "monad-30t",
     name: "모나드정 30정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-모나드정.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "JW신약 피나스테리드 1mg 제네릭. 대다모 후기 320건 이상의 검증된 탈모 치료제.",
@@ -358,7 +358,7 @@ export const products: Product[] = [
   {
     id: "keramin-90caps",
     name: "케라민캡슐 90캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케라민캡슐.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "동성제약 케라틴+판토텐산+아미노산 탈모 영양 보조제. 처방약과 병용 가능.",
@@ -372,7 +372,7 @@ export const products: Product[] = [
   {
     id: "naknoxidil-5pct-60ml",
     name: "나녹시딜액 5% 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "나노팜 미녹시딜 5% 롤러 타입 외용액. 정량 도포로 낭비 없이 사용 가능.",
@@ -463,7 +463,7 @@ export const products: Product[] = [
   {
     id: "maidil-3pct-60ml",
     name: "마이딜액 3% 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "JW신약 미녹시딜 3% 외용액. 두피에 직접 바르는 탈모 치료 외용제.",
@@ -528,7 +528,7 @@ export const products: Product[] = [
   {
     id: "moxidil-5pct-60ml",
     name: "목시딜액 5% 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "한미약품 미녹시딜 5%. 뚜껑 열고 두드리는 방식으로 사용 편리한 외용액.",
@@ -593,7 +593,7 @@ export const products: Product[] = [
   {
     id: "baegil-5pct-60ml",
     name: "백일후애액 5% 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "동광제약 미녹시딜 5% 외용액. 한 달 반 사용 후 잔털이 생겼다는 후기.",
@@ -606,7 +606,7 @@ export const products: Product[] = [
   {
     id: "boldumin-5pct-60ml",
     name: "볼두민액 5% 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "JW중외제약 미녹시딜 5%. 흡수 빠르고 기름지지 않아 사용감이 좋다는 후기.",
@@ -802,7 +802,7 @@ export const products: Product[] = [
   {
     id: "mynoxil-60ml",
     name: "마이녹실액 5% 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "현대약품 미녹시딜 5% 외용액. 모발이 약간 굵어지는 효과가 있으며 공식 인증된 미녹시딜 외용제.",
@@ -893,7 +893,7 @@ export const products: Product[] = [
   {
     id: "momosidil-30",
     name: "모모시딜정 30정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "더유제약 미녹시딜 경구정. 바르는 미녹시딜 대비 편리하고 효과가 좋다는 후기가 있는 경구용 미녹시딜.",
@@ -984,7 +984,7 @@ export const products: Product[] = [
   {
     id: "minoxidil-bygrut-60ml",
     name: "미녹시딜바이그루트액3% 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "태극제약 미녹시딜 3% 외용액. 분사형과 스포이드형 두 가지가 들어있어 편하게 선택해 사용 가능.",
@@ -1049,7 +1049,7 @@ export const products: Product[] = [
   {
     id: "unimino-30",
     name: "유니미녹시딜정 30정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "한국유니온제약 미녹시딜 경구정. 바르는 미녹시딜과 피나스테리드 조합 복용 시 단기간에 체감 효과가 있다는 후기.",
@@ -1075,7 +1075,7 @@ export const products: Product[] = [
   {
     id: "pansidyl-60ml",
     name: "판시딜 미녹시딜 5% 외용액 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "미녹시딜 5% 남성형 탈모 치료 외용액. FDA 승인 성분으로 두피 혈류를 개선해 모발 성장을 촉진해요.",
@@ -1089,7 +1089,7 @@ export const products: Product[] = [
   {
     id: "dupian-30ml",
     name: "두피앤액 30ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "미녹시딜 2% 두피 도포 발모제. 여성·초기 탈모에 적합한 저농도 미녹시딜.",
@@ -1104,7 +1104,7 @@ export const products: Product[] = [
   {
     id: "pansidil-180caps",
     name: "판시딜 180캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-판시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "판시딜 180캡슐 대용량. 아미노산+비오틴+B군 비타민 복합 탈모 영양제 3개월분이에요.",
@@ -1118,7 +1118,7 @@ export const products: Product[] = [
   {
     id: "pansidil-270caps",
     name: "판시딜 270캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-판시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "판시딜 270캡슐. 아미노산+비오틴+B군 비타민 복합 탈모 영양제 4.5개월분이에요.",
@@ -1132,7 +1132,7 @@ export const products: Product[] = [
   {
     id: "pansidil-360caps",
     name: "판시딜 360캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-판시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "판시딜 360캡슐 대용량. 아미노산+비오틴+B군 비타민 복합 탈모 영양제 6개월분 경제적 규격이에요.",

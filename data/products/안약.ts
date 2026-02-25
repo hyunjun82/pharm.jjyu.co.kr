@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "nunan-30pcs",
     name: "눈앤점안액 0.5% 30개입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-눈앤점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "건조한 눈 완화. 히알루론산 인공눈물.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "irisplus-30pcs",
     name: "아이리스 플러스 점안액 일회용 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이리스플러스.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "충혈 개선, 눈 피로 완화. 복합 점안액.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "refresh-plus-30pcs",
     name: "리프레쉬 플러스 점안액 0.5% 0.4ml 30개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리프레쉬플러스.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "무방부제 인공눈물. 건조한 눈 완화.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "eyetok-30tubes",
     name: "아이톡 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이톡.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "프리미엄 히알루론산 인공눈물. 장시간 보습.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "friends-eyedrop-soon-14ml",
     name: "프렌즈 아이드롭 점안액 순 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프렌즈아이드롭순.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "부드러운 인공눈물. 렌즈 위 점안 가능.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "rohto-c3-aquacharge-13ml",
     name: "로토 씨큐브 아쿠아차지 아이 점안액 13ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-로토씨큐브.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "콘택트렌즈 전용 인공눈물. 렌즈 위 직접 점안.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
     id: "tearclean-30pcs",
     name: "티어클린 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-티어클린.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "카르복시메틸셀룰로스 인공눈물. 눈 건조증 완화 일회용 점안액.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
     id: "ipoure-30pcs",
     name: "아이포레 점안액 0.4ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이포레.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산 일회용 인공눈물. 눈 건조증 및 콘택트렌즈 착용 시 사용.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: "numarren-30pcs",
     name: "누마렌 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-누마렌.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "보령 히알루론산 인공눈물. 콘택트렌즈 착용 중에도 점안 가능.",
@@ -139,7 +139,7 @@ export const products: Product[] = [
   {
     id: "dialfresh-30pcs",
     name: "디알프레쉬 점안액 0.45ml 30개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디알프레쉬.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "덱스트란+히프로멜로스 복합 인공눈물. 오래 지속되는 눈물막 형성.",
@@ -154,7 +154,7 @@ export const products: Product[] = [
   {
     id: "ripozig-gel-10g",
     name: "리포직 점안겔 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리포직점안겔.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "지질 성분 점안겔. 심한 안구건조증 장시간 보습.",
@@ -168,7 +168,7 @@ export const products: Product[] = [
   {
     id: "friends-eyedrop-coolhi-14ml",
     name: "프렌즈 아이드롭 점안액 쿨하이 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프렌즈아이드롭쿨하이.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산+멘톨 쿨링 인공눈물. 시원한 청량감과 보습 효과.",
@@ -182,7 +182,7 @@ export const products: Product[] = [
   {
     id: "ocusis-60pcs",
     name: "오큐시스 점안액 0.5ml 60개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-오큐시스점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산 무방부제 일회용 인공눈물. 60개 대용량 경제적.",
@@ -196,7 +196,7 @@ export const products: Product[] = [
   {
     id: "nazolin-10pcs",
     name: "나조린 점안액 0.5ml 10관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-나조린점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산 소용량 일회용 인공눈물. 휴대하기 편한 10관 구성.",
@@ -210,7 +210,7 @@ export const products: Product[] = [
   {
     id: "dailyq-30pcs",
     name: "데일리큐 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-데일리큐점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산 일회용 인공눈물. 매일 사용에 최적화된 30관 구성.",
@@ -224,7 +224,7 @@ export const products: Product[] = [
   {
     id: "imiru40ex-15ml",
     name: "아이미루 40EX 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이미루40EX점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "타우린+판토텐산+비타민B6 복합 점안액. 눈 피로 회복에 효과적.",
@@ -238,7 +238,7 @@ export const products: Product[] = [
   {
     id: "ipure-30pcs",
     name: "아이퓨어 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이퓨어점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산 무방부제 일회용 인공눈물. 청결하고 순한 사용감.",
@@ -252,7 +252,7 @@ export const products: Product[] = [
   {
     id: "cutis-15ml",
     name: "인공눈물 큐티스 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-인공눈물큐티스.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "카르복시메틸셀룰로스 점안액. 눈 건조증 완화 경제적인 15ml.",
@@ -266,7 +266,7 @@ export const products: Product[] = [
   {
     id: "rian-30pcs",
     name: "리안 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리안점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산 프리미엄 일회용 인공눈물. 고급 보습 성분으로 오래 지속.",
@@ -280,7 +280,7 @@ export const products: Product[] = [
   {
     id: "iriscare-30pcs",
     name: "아이리스 케어 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이리스케어점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산+콘드로이틴 복합 인공눈물. 더 강력한 보습과 눈 보호.",
@@ -294,7 +294,7 @@ export const products: Product[] = [
   {
     id: "itear-plus-15ml",
     name: "아이티어 플러스 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이티어플러스점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산+카르복시메틸셀룰로스 복합 점안액. 이중 보습 성분으로 오래 지속.",
@@ -308,7 +308,7 @@ export const products: Product[] = [
   {
     id: "friends-eyedrop-soon-12ml",
     name: "프렌즈 아이드롭 점안액 순 12ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프렌즈아이드롭순12ml.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히프로멜로스 기반 인공눈물 소용량. 휴대 간편한 12ml 경제형.",
@@ -322,7 +322,7 @@ export const products: Product[] = [
   {
     id: "luping-30pcs",
     name: "루핑 점안액 0.5ml 30개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-루핑점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산 일회용 무방부제 인공눈물. 합리적인 가격으로 30개 구성.",
@@ -336,7 +336,7 @@ export const products: Product[] = [
   {
     id: "sikrin-view-15ml",
     name: "시크린 뷰 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-시크린뷰점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "카르복시메틸셀룰로스 점안액. 눈 건조증 완화, 보존제 함유 15ml.",
@@ -350,7 +350,7 @@ export const products: Product[] = [
   {
     id: "aibong-w-480ml",
     name: "아이봉 W 세안액 비타민 함유 480ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이봉W세안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "붕산 기반 눈 세척액이에요. 비타민 함유로 눈을 깨끗하게 세척하고 이물질을 제거해줘요.",
@@ -364,7 +364,7 @@ export const products: Product[] = [
   {
     id: "imiru40ex-gold-13ml",
     name: "아이미루 40EX 골드 점안액 13ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이미루40EX골드.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨과 타우린 복합 성분으로 건조한 눈을 촉촉하게 케어해줘요. 골드 라인의 프리미엄 점안액이에요.",
@@ -378,7 +378,7 @@ export const products: Product[] = [
   {
     id: "friends-cool-14ml",
     name: "프렌즈 아이드롭 점안액 쿨 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프렌즈아이드롭쿨.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "염화나트륨과 멘톨로 보통 쿨링 효과를 내는 점안액이에요. 눈의 피로와 충혈을 완화해줘요.",
@@ -392,7 +392,7 @@ export const products: Product[] = [
   {
     id: "friends-care-0.5ml-30pcs",
     name: "프렌즈 아이드롭 점안액 케어 0.5ml 30개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프렌즈아이드롭케어.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 단회용 점안액이에요. 무방부제로 눈에 자극 없이 건조증을 완화해줘요.",
@@ -406,7 +406,7 @@ export const products: Product[] = [
   {
     id: "roto-jifai-new-11ml",
     name: "로토지파이 뉴점안액 11ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-로토지파이뉴.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "비타민B6와 타우린으로 눈에 영양을 공급하는 점안액이에요. 피로한 눈의 회복을 도와줘요.",
@@ -420,7 +420,7 @@ export const products: Product[] = [
   {
     id: "friends-ice-14ml",
     name: "프렌즈 아이드롭 점안액 아이스 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프렌즈아이드롭아이스.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "염화나트륨과 고농도 멘톨로 강한 아이스 쿨링 효과를 내는 점안액이에요. 눈의 열감과 피로를 빠르게 식혀줘요.",
@@ -434,7 +434,7 @@ export const products: Product[] = [
   {
     id: "riclan-0.5ml-30tubes",
     name: "리클란 점안액 0.5ml 30튜브",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리클란점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 0.1% 단회용 인공눈물이에요. 무방부제로 민감한 눈에도 안전하게 사용할 수 있어요.",
@@ -448,7 +448,7 @@ export const products: Product[] = [
   {
     id: "ripozik-ideo-gel-0.6g-30pcs",
     name: "리포직이디오 점안겔 0.6g 30개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리포직이디오.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "카르보머 기반 수성 겔 점안제예요. 겔 제형으로 건조한 눈에 오래 지속되는 보습 효과를 제공해요.",
@@ -462,7 +462,7 @@ export const products: Product[] = [
   {
     id: "ituo-mini-0.5ml-30pcs",
     name: "아이투오 미니 점안액 0.5ml 30개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이투오미니.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 단회용 점안액이에요. 소용량 미니 패키지로 휴대하기 편리해요.",
@@ -476,7 +476,7 @@ export const products: Product[] = [
   {
     id: "imiru40ex-13ml",
     name: "아이미루 40EX 점안액 13ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이미루40EX.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨으로 눈의 건조증을 완화하는 점안액이에요. 40세 이상 건조한 눈을 위해 설계됐어요.",
@@ -490,7 +490,7 @@ export const products: Product[] = [
   {
     id: "sikrin-one-14ml",
     name: "시크린원 점안액 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-시크린원점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "나파졸린염산염으로 눈의 충혈을 빠르게 제거하는 점안액이에요. 타우린이 눈 피로 회복을 도와줘요.",
@@ -504,7 +504,7 @@ export const products: Product[] = [
   {
     id: "iyangel-toktok-0.4ml-30pcs",
     name: "아이엔젤톡톡 점안액 0.4ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이엔젤톡톡0.4ml.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 단회용 소용량 점안액이에요. 0.4ml 소용량으로 눈에 딱 맞는 양만 사용할 수 있어요.",
@@ -518,7 +518,7 @@ export const products: Product[] = [
   {
     id: "santen-karyuni-5ml",
     name: "산텐 가리유니 점안액 5ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-산텐가리유니.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "피레노키신 성분으로 백내장의 진행을 억제하는 점안액이에요. 산텐제약의 백내장 예방용 안약이에요.",
@@ -532,7 +532,7 @@ export const products: Product[] = [
   {
     id: "sindotop-cool-14ml",
     name: "신도톱 쿨 점안액 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신도톱쿨.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "나파졸린, 타우린, 멘톨이 조합된 쿨링+충혈제거 복합 점안액이에요. 시원하게 충혈을 제거해줘요.",
@@ -546,7 +546,7 @@ export const products: Product[] = [
   {
     id: "ilyang-tuaicare-14ml",
     name: "일양 투아이케어 점안액 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-일양투아이케어.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 기반 건조안 케어 점안액이에요. 일양약품에서 만든 건조한 눈을 위한 점안액이에요.",
@@ -560,7 +560,7 @@ export const products: Product[] = [
   {
     id: "mytoktok-pure-0.5ml-30pcs",
     name: "마이톡톡 퓨어 점안액 0.5ml 30개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마이톡톡퓨어.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 단회용 순수형 점안액이에요. 방부제 무첨가로 민감한 눈에 안전하게 사용할 수 있어요.",
@@ -574,7 +574,7 @@ export const products: Product[] = [
   {
     id: "itok-cmc-0.5ml-30pcs",
     name: "아이톡 씨엠씨 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이톡씨엠씨.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "카르복시메틸셀룰로오스나트륨(CMC) 단회용 점안액이에요. 무방부제로 눈에 자극 없이 수분을 보충해줘요.",
@@ -588,7 +588,7 @@ export const products: Product[] = [
   {
     id: "allercon-5ml",
     name: "알러콘 점안액 5ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알러콘점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "나파졸린염산염으로 알레르기성 충혈을 빠르게 제거하는 점안액이에요. 5ml 소용량으로 경제적으로 사용할 수 있어요.",
@@ -602,7 +602,7 @@ export const products: Product[] = [
   {
     id: "aibong-c-480ml",
     name: "아이봉 C 세안액 480ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이봉C세안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "염화나트륨과 붕산 기반 눈 세척액이에요. 눈에 들어간 먼지와 이물질을 깨끗하게 제거해줘요.",
@@ -616,7 +616,7 @@ export const products: Product[] = [
   {
     id: "eiresh-0.5ml-30pcs",
     name: "아이레쉬 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이레쉬점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 단회용 점안액이에요. 장기적인 건조안 케어를 위한 무방부제 일회용 인공눈물이에요.",
@@ -630,7 +630,7 @@ export const products: Product[] = [
   {
     id: "moacure-14ml",
     name: "모아큐어 점안액 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-모아큐어점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 기반 건조안 케어 점안액이에요. 건조한 눈에 수분을 보충하고 눈물막을 안정시켜줘요.",
@@ -672,7 +672,7 @@ export const products: Product[] = [
   {
     id: "oesu-ketopinfree-0.5ml-12pcs",
     name: "오에수 케토핀프리 점안액 0.5ml 12개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-오에수케토핀프리.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 방부제 무첨가 점안액이에요. 민감한 눈에도 안전하게 사용할 수 있는 순한 인공눈물이에요.",
@@ -686,7 +686,7 @@ export const products: Product[] = [
   {
     id: "poteten-15ml",
     name: "포테텐 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-포테텐점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "염화나트륨과 타우린 복합 성분으로 눈에 영양을 공급하는 점안액이에요. 눈의 피로와 건조증을 동시에 케어해요.",
@@ -700,7 +700,7 @@ export const products: Product[] = [
   {
     id: "iyocool-su-0.5ml-30pcs",
     name: "아이오쿨 수 점안액 0.5ml 30개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이오쿨수.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 단회용 수분 점안액이에요. 건조한 눈에 수분을 보충하는 무방부제 일회용 인공눈물이에요.",
@@ -714,7 +714,7 @@ export const products: Product[] = [
   {
     id: "nunankyu-15ml",
     name: "눈앤 큐 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-눈앤큐점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 기반 건조안 케어 점안액이에요. 눈앤 브랜드의 15ml 다회용 제형이에요.",
@@ -728,7 +728,7 @@ export const products: Product[] = [
   {
     id: "iyocool-pro-0.5ml-60pcs",
     name: "아이오쿨 프로 점안액 0.5ml 60개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이오쿨프로.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 단회용 60개 대용량 점안액이에요. 대용량으로 경제적으로 건조안을 케어할 수 있어요.",
@@ -742,7 +742,7 @@ export const products: Product[] = [
   {
     id: "sikrin-cool-14ml",
     name: "시크린 점안액 쿨 14ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-시크린쿨점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "나파졸린과 멘톨이 조합된 쿨링 충혈제거 점안액이에요. 시원한 느낌으로 충혈을 빠르게 없애줘요.",
@@ -756,7 +756,7 @@ export const products: Product[] = [
   {
     id: "theeyes-0.5ml-30pcs",
     name: "더아이즈 점안액 0.5ml 30개입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-더아이즈점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 단회용 점안액이에요. 건조한 눈을 촉촉하게 유지하는 무방부제 일회용 인공눈물이에요.",
@@ -770,7 +770,7 @@ export const products: Product[] = [
   {
     id: "hinoon-15ml",
     name: "하이눈 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-하이눈점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 기반 건조안 케어 점안액이에요. 건조한 눈에 수분을 공급하는 15ml 다회용 인공눈물이에요.",
@@ -784,7 +784,7 @@ export const products: Product[] = [
   {
     id: "imiru40ex-mild-13ml",
     name: "아이미루 40EX 마일드 점안액 13ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이미루40EX마일드.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 마일드 점안액이에요. 자극에 민감한 눈을 위해 순하게 설계된 아이미루 마일드 버전이에요.",
@@ -798,7 +798,7 @@ export const products: Product[] = [
   {
     id: "new-v-roto-ex-12ml",
     name: "뉴브이로토 이엑스 점안액 12ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-뉴브이로토이엑스.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "타우린과 비타민B6로 눈에 영양을 공급하는 점안액이에요. 피로한 눈의 회복을 도와주는 영양 점안액이에요.",
@@ -812,7 +812,7 @@ export const products: Product[] = [
   {
     id: "iyefeel-15ml",
     name: "아이필 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이필점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 기반 건조안 케어 점안액이에요. 15ml 다회용 제형으로 경제적으로 눈 건조증을 관리할 수 있어요.",
@@ -826,7 +826,7 @@ export const products: Product[] = [
   {
     id: "nunank-60pcs",
     name: "눈앤점안액 0.5ml 60개입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-눈앤점안액60개.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 0.5% 단회용 60개입 대용량이에요. 눈앤 브랜드의 고농도 무방부제 대용량 점안액이에요.",
@@ -840,7 +840,7 @@ export const products: Product[] = [
   {
     id: "roto-c3-aquacharge-12ml",
     name: "로토 씨큐브 아쿠아차지 아이 점안액 12ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-로토씨큐브아쿠아차지.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "타우린과 비타민B6로 눈에 영양을 공급하는 점안액이에요. 로토 씨큐브의 눈 영양 전용 점안액이에요.",
@@ -854,7 +854,7 @@ export const products: Product[] = [
   {
     id: "myoguard-0.125pct-30tubes",
     name: "마이오가드 점안액 0.125% 30튜브",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마이오가드점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 0.125% 단회용 점안액이에요. 무방부제 일회용 인공눈물로 민감한 눈에도 안전해요.",
@@ -868,7 +868,7 @@ export const products: Product[] = [
   {
     id: "fortiten-15ml",
     name: "포티텐 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-포티텐점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "염화나트륨, 타우린, 비타민B6 복합 성분의 눈 영양 점안액이에요. 눈의 피로 회복과 건조증 케어를 동시에 해요.",
@@ -882,7 +882,7 @@ export const products: Product[] = [
   {
     id: "sikrin-ones-0.5ml-30pcs",
     name: "시크린 원스 점안액 0.5ml 30관",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-시크린원스.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "히알루론산나트륨 방부제 무첨가 단회용 점안액이에요. 시크린 브랜드의 일회용 무방부제 인공눈물이에요.",
@@ -897,7 +897,7 @@ export const products: Product[] = [
   {
     id: "friends-eyedrop-cool-hi-12ml",
     name: "프렌즈 아이드롭 점안액 쿨하이 12ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프렌즈아이드롭쿨하이.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "프렌즈 아이드롭 쿨하이 12ml 고함량 멘톨 버전. 강한 시원함으로 눈 충혈·피로 완화해요.",
@@ -911,7 +911,7 @@ export const products: Product[] = [
   {
     id: "friends-eyedrop-cool-12ml",
     name: "프렌즈 아이드롭 점안액 쿨 12ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프렌즈아이드롭쿨.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "프렌즈 아이드롭 쿨 12ml. 시원한 청량감으로 눈 충혈·피로를 완화하는 점안액이에요.",
@@ -925,7 +925,7 @@ export const products: Product[] = [
   {
     id: "nazorin-15ml",
     name: "나조린 점안액 15ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-나조린점안액.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "충혈 완화+피로 회복 복합 점안액 15ml. 나파졸린+클로르페니라민으로 알레르기성 충혈에 효과적이에요.",
@@ -939,7 +939,7 @@ export const products: Product[] = [
   {
     id: "idrops-clean-10ml",
     name: "아이드롭스클린 10ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이드롭스클린.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "생리식염수 기반 눈 세정 세안액 10ml. 이물질 제거와 눈 세척에 사용하는 안과 세정제예요.",
@@ -953,7 +953,7 @@ export const products: Product[] = [
   {
     id: "rohto-zphi-new-12ml",
     name: "로토지파이 뉴점안액 12ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-로토지파이뉴.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "로토 지파이 뉴 복합 충혈완화·피로회복 점안액 12ml. 비타민B12+강화 성분으로 눈 피로 케어해요.",
@@ -967,7 +967,7 @@ export const products: Product[] = [
   {
     id: "eye-miru-40ex-gold-13ml",
     name: "아이미루 40EX 골드 콘택트 점안액 13ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아이미루40EX골드.webp",
     category: "일반의약품",
     categorySlug: "안약",
     description: "콘택트렌즈 착용 중 사용 가능한 아이미루 40EX 골드 점안액 13ml. 히알루론산 고함량으로 건조 눈 케어해요.",

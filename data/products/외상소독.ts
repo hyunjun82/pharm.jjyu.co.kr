@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "green-povidone-25ml",
     name: "그린 포비돈 요오드액 25ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그린포비돈요오드액.webp",
     category: "일반의약품",
     categorySlug: "외상소독",
     description: "포비돈요오드 10% 상처 소독액. 세균·바이러스·진균에 광범위 살균 효과.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "green-povidone-stick-10",
     name: "그린 포비돈 스틱스왑 10개입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그린포비돈스틱스왑.webp",
     category: "일반의약품",
     categorySlug: "외상소독",
     description: "포비돈요오드 함침 일회용 스틱스왑. 휴대 편리한 소독 스틱.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "green-h2o2-250ml",
     name: "그린 과산화수소수 250ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그린과산화수소수.webp",
     category: "일반의약품",
     categorySlug: "외상소독",
     description: "과산화수소 3% 상처 세척·소독액. 거품으로 이물질 제거 효과.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "borami-ethanol-250ml",
     name: "보라미 소독용 에탄올 250ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-보라미소독에탄올.webp",
     category: "일반의약품",
     categorySlug: "외상소독",
     description: "에탄올 76.9% 피부 소독액. 주사 전 피부 소독과 기구 소독에 사용.",
@@ -130,7 +130,7 @@ export const products: Product[] = [
   {
     id: "sungkwang-povidone-25ml",
     name: "성광 포비딘 포비돈 요오드액 25ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-성광포비딘.webp",
     category: "일반의약품",
     categorySlug: "외상소독",
     description: "포비돈요오드 10% 성광제약 상처 소독액. 세균·바이러스·진균 광범위 살균 소독.",
@@ -145,7 +145,7 @@ export const products: Product[] = [
   {
     id: "standard-alcohol-swap-100",
     name: "스탠다드 일회용 알콜스왑 100매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-스탠다드알콜스왑.webp",
     category: "일반의약품",
     categorySlug: "외상소독",
     description: "이소프로판올 70% 함침 일회용 알콜스왑 100매. 주사 전 피부 소독과 상처 소독에 편리.",
@@ -160,7 +160,7 @@ export const products: Product[] = [
   {
     id: "green-povidone-stick-50",
     name: "그린 포비돈 스틱스왑 50개입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그린포비돈스틱스왑.webp",
     category: "일반의약품",
     categorySlug: "외상소독",
     description: "포비돈요오드 함침 일회용 스틱스왑 50개입 대용량. 휴대 편리한 소독 스틱 대용량 팩이에요.",

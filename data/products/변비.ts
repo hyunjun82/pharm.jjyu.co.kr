@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "dulcolax-s-40tabs",
     name: "둘코락스 에스 장용정 40정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-둘코락스에스.webp",
     category: "일반의약품",
     categorySlug: "변비",
     description: "비사코딜 5mg 장용정 변비약. 대장을 직접 자극해 배변을 촉진하는 자극성 하제.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "dulcolax-sup-50",
     name: "둘코락스 좌약 50개",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-둘코락스좌약.webp",
     category: "일반의약품",
     categorySlug: "변비",
     description: "비사코딜 10mg 좌약. 직장에 직접 삽입해 15~30분 내 효과. 경구 복용 불가 시 대안.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "magmil-210tabs",
     name: "마그밀정 210정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마그밀정.webp",
     category: "일반의약품",
     categorySlug: "변비",
     description: "산화마그네슘 500mg 삼투성 하제. 장내 수분을 끌어당겨 변을 부드럽게 하는 변비약.",

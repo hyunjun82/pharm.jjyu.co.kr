@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "easyen6-eve-10caps",
     name: "이지엔6이브 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/이지엔6이브.avif",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "생리통 전용 이부프로펜 400mg 연질캡슐. 여성 생리통에 특화된 대표 진통제.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "easyen6-pro-10caps",
     name: "이지엔6프로 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/이지엔6프로.avif",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜+카페인 복합 강화 생리통약. 이브보다 빠른 효과.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "easyen6-ace-10caps",
     name: "이지엔6에이스 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/이지엔6에이스.avif",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜 400mg 고함량 에이스 버전. 심한 생리통에 효과적.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "easyen6-night-10caps",
     name: "이지엔6나이트 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이지엔6나이트.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜+수면유도 성분 야간용 생리통약. 통증+수면 동시 케어.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "buscopan-plus-10tabs",
     name: "부스코판 플러스정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-부스코판플러스.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "진경+진통 복합 생리통약. 히오신부틸브로마이드+파라세타몰로 경련성 통증 완화.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "buscopan-10tabs",
     name: "부스코판 당의정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-부스코판당의정.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "순수 진경제 부스코판. 자궁·장의 경련성 통증을 근본적으로 해소.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
     id: "eve400-10caps",
     name: "이브400 원큐 에스 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이브400원큐에스.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜 400mg 속효성 연질캡슐. 생리통·두통에 빠르게 작용.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
     id: "eve-doubleshot-10caps",
     name: "이브더블샷 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이브더블샷.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜+카페인 더블샷 생리통약. 카페인이 진통 효과를 강화.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: "ginobetadine-180ml",
     name: "지노베타딘 질세정액 여성세정제 180ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-지노베타딘.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "포비돈요오드 여성 질 세정액. 질염·외음부 감염 소독·예방.",
@@ -140,7 +140,7 @@ export const products: Product[] = [
   {
     id: "sensia-120tabs",
     name: "센시아정 120정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-센시아정.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "레보노르게스트렐 0.03mg+에티닐에스트라디올 30mcg 복합 경구피임약. 21일 복용 주기 피임약.",
@@ -155,7 +155,7 @@ export const products: Product[] = [
   {
     id: "mercilon-21tabs",
     name: "머시론정 21정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-머시론정.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "데소게스트렐+에티닐에스트라디올 복합 경구피임약. 저용량 피임약 대표 제품.",
@@ -170,7 +170,7 @@ export const products: Product[] = [
   {
     id: "geuraeaen-cold-plus-10caps",
     name: "그날엔 콜드 플러스 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그날엔콜드플러스.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜 400mg+카페인 복합 생리통 연질캡슐. 빠른 흡수와 강화된 진통 효과.",
@@ -185,7 +185,7 @@ export const products: Product[] = [
   {
     id: "geuraeaen-q-triple-10tabs",
     name: "그날엔 Q 삼중정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그날엔Q삼중정.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜+피리독신+카페인 삼중 복합 생리통약. 통증·부종·피로 동시 케어.",
@@ -200,7 +200,7 @@ export const products: Product[] = [
   {
     id: "geuraeaen-10tabs",
     name: "그날엔정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그날엔정.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜 400mg 단일 성분 생리통약. 생리통 전용 대표 이부프로펜 정제.",
@@ -215,7 +215,7 @@ export const products: Product[] = [
   {
     id: "geuraeaen-dex-10caps",
     name: "그날엔 덱스 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그날엔덱스.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "덱시부프로펜 생리통 연질캡슐. 이부프로펜보다 위장 부담 적은 활성형 성분.",
@@ -230,7 +230,7 @@ export const products: Product[] = [
   {
     id: "geuraeaen-nose-10tabs",
     name: "그날엔 노즈 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그날엔노즈.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "나프록센나트륨 함유 생리통약. 지속 시간 길어 오래 가는 효과 기대.",
@@ -245,7 +245,7 @@ export const products: Product[] = [
   {
     id: "geuraeaen-nose-a-10caps",
     name: "그날엔 노즈 에이 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그날엔노즈에이.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "나프록센+카페인 복합 생리통 연질캡슐. 지속 효과와 카페인 시너지 강화.",
@@ -260,7 +260,7 @@ export const products: Product[] = [
   {
     id: "geuraeaen-q-10tabs",
     name: "그날엔 큐정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-그날엔큐정.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이부프로펜+카페인 복합 생리통 정제. 빠른 진통 효과와 카페인 시너지.",
@@ -275,7 +275,7 @@ export const products: Product[] = [
   {
     id: "taxen-eve-10caps",
     name: "탁센 이브 연질캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-탁센이브.webp",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "덱시부프로펜 여성 전용 진통 연질캡슐. 위장 자극 적고 생리통·두통에 효과적.",
@@ -290,7 +290,7 @@ export const products: Product[] = [
   {
     id: "easyen6-eve-30caps",
     name: "이지엔6이브 연질캡슐 30캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/이지엔6이브.avif",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이지엔6이브 30캡슐 대용량. 이부프로펜 400mg 생리통 전용 연질캡슐 경제적 규격이에요.",
@@ -304,7 +304,7 @@ export const products: Product[] = [
   {
     id: "easyen6-pro-30caps",
     name: "이지엔6프로 연질캡슐 30캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/이지엔6프로.avif",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "이지엔6프로 30캡슐 대용량. 이부프로펜+카페인 복합 생리통약 경제적 30캡슐 규격이에요.",

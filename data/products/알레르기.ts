@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "zyrtec-10tabs",
     name: "지르텍정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-지르텍.webp",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "세티리진 10mg 2세대 항히스타민제. 알레르기성 비염·두드러기에 졸음 적은 효과.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "uhan-cetirizine-30tabs",
     name: "유한 세티리진 30정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유한세티리진.webp",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "유한양행 세티리진 10mg 제네릭 항히스타민제. 지르텍과 동일 성분 저렴한 대안.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "zyrtec-100tabs",
     name: "지르텍정 100정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-지르텍100정.webp",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "세티리진 10mg 100정 대용량. 알레르기성 비염·만성 두드러기 장기 관리용.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "allegra-120mg-10tabs",
     name: "알레그라정 120mg 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알레그라.webp",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "펙소페나딘 120mg 비졸음성 항히스타민제. 운전 중에도 사용 가능한 알레르기약.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "allegra-120mg-30tabs",
     name: "알레그라정 120mg 30정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알레그라30정.webp",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "펙소페나딘 120mg 30정 알레르기약. 봄철·계절성 알레르기 비염 장기 관리에 적합.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "allegra-120mg-20tabs",
     name: "알레그라정 120mg 20정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알레그라20정.webp",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "펙소페나딘 120mg 20정 알레르기약. 알레르기성 비염·두드러기 10일 치료분.",

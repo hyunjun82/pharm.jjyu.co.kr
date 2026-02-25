@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
       id: "lamisil-15g",
       name: "라미실 크림 15g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-라미실.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "무좀, 피부 진균 감염 치료. 테르비나핀 성분.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
       id: "canesten-20g",
       name: "카네스텐 크림 20g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-카네스텐.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "무좀, 칸디다, 피부진균 치료. 클로트리마졸 성분.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
       id: "terbinew-gel-20g",
       name: "터비뉴겔 20g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-터비뉴겔.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "무좀 치료 겔 타입. 테르비나핀 성분.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
       id: "lamisil-once-4g",
       name: "라미실 원스 외용액 4g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-라미실원스.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "1회 도포로 무좀 치료. 테르비나핀 필름 형성.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
       id: "terbinew-once-6g",
       name: "터비뉴 원스 외용액 6g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-터비뉴원스.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "한 번 바르는 무좀 치료. 터비나핀 성분.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
       id: "terbinew-double-30g",
       name: "터비뉴 더블액션 겔 30g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-터비뉴더블액션.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "이중 작용 무좀 치료 겔. 터비나핀 성분.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
       id: "canesten-10g",
       name: "카네스텐 크림 10g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-카네스텐10g.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "소용량 무좀 치료 크림. 클로트리마졸 성분.",
@@ -148,7 +148,7 @@ export const products: Product[] = [
   {
       id: "nizoral-2pct-120ml",
       name: "니조랄 2%액 120ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-니조랄액.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "케토코나졸 2% 항진균 샴푸/외용액. 두피 비듬·지루성피부염·무좀·어루러기 치료.",
@@ -162,7 +162,7 @@ export const products: Product[] = [
   {
       id: "kinoral-2pct-100ml",
       name: "키노랄액 2% 100ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-키노랄액.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "케토코나졸 2% 항진균 제네릭 외용액. 무좀·지루성피부염·비듬·어루러기에 사용.",
@@ -176,7 +176,7 @@ export const products: Product[] = [
   {
       id: "nizoral-2pct-100ml",
       name: "니조랄 2%액 100ml",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-니조랄액100ml.webp",
       category: "일반의약품",
       categorySlug: "무좀",
       description: "케토코나졸 2% 항진균 외용액 소용량. 두피 비듬·지루성피부염·무좀 치료에 사용.",
@@ -191,7 +191,7 @@ export const products: Product[] = [
   {
     id: "surantra-15g",
     name: "수란트라크림 1% 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-수란트라크림.webp",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "이사부코나졸 1% 신세대 항진균 크림. 무좀·완선·어루러기 치료에 사용해요.",
@@ -205,7 +205,7 @@ export const products: Product[] = [
   {
     id: "terbiplus-15g",
     name: "테르비플러스크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-테르비플러스크림.webp",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "테르비나핀 1% 항진균 크림. 라미실 제네릭으로 무좀·완선 치료에 효과적이에요.",
@@ -219,7 +219,7 @@ export const products: Product[] = [
   {
     id: "muzonal-15g",
     name: "무조날크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-무조날크림.webp",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "미코나졸 2% 광범위 항진균 크림. 무좀·완선·칸디다성 피부염 치료.",
@@ -233,7 +233,7 @@ export const products: Product[] = [
   {
     id: "sensecanagel-15g",
     name: "센스카나겔 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-센스카나겔.webp",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "클로트리마졸 1% 항진균 겔. 무좀 치료용 겔 타입으로 산뜻한 사용감이에요.",
@@ -248,7 +248,7 @@ export const products: Product[] = [
   {
     id: "azol-10tabs",
     name: "아졸정 10정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아졸정.webp",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "이트라코나졸 100mg 경구 항진균제. 심한 손발톱무좀·완선에 복용하는 전신 치료 무좀약.",
@@ -263,7 +263,7 @@ export const products: Product[] = [
   {
     id: "muzonal-s-naillaca-6ml",
     name: "무조날S 네일라카 6ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-무조날S네일라카.webp",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "아모롤핀 5% 발톱무좀 네일라카. 주 1~2회 도포로 발톱무좀 국소 치료.",
@@ -278,7 +278,7 @@ export const products: Product[] = [
   {
     id: "muzonal-max-naillaca-5ml",
     name: "무조날 맥스 네일라카 5ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-무조날맥스네일라카.webp",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "강화 아모롤핀 발톱무좀 네일라카. 무조날S 업그레이드 버전으로 더 강력한 항진균 효과.",
@@ -293,7 +293,7 @@ export const products: Product[] = [
   {
     id: "canesten-100g",
     name: "카네스텐 크림 100g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-카네스텐.webp",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "카네스텐 대용량 100g. 클로트리마졸 1% 항진균 크림으로 무좀·칸디다 장기 치료에 경제적이에요.",

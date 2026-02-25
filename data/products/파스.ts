@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "ketotop-plaster-7",
     name: "케토톱 플라스타 7매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케토톱.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 파스. 근육통·관절통·어깨결림에 효과적인 붙이는 파스.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "kepentech-plaster-40",
     name: "케펜텍 플라스타 40매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케펜텍.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 대용량 소염진통 파스. 근육통·관절통에 경제적인 선택.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "voltaren-emulgel-50g",
     name: "볼타렌 에멀겔 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-볼타렌에멀겔.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "디클로페낙 소염진통 겔. 바르는 타입으로 근육통·관절통·염좌에 사용.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-arex-large-6",
     name: "신신파스 아렉스 대형 6매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스아렉스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 전통 소염진통 파스. 어깨결림·근육통·타박상에 시원한 효과.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "zenol-powerful-plaster-12",
     name: "제놀 파워풀 플라스타 12매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀파워풀.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸·멘톨 소염진통 파스. 근육통·관절통·요통에 강력한 효과.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
     id: "sinsin-airpas-100ml",
     name: "신신 에어파스 100ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신에어파스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "스프레이형 소염진통제. 뿌리는 파스로 근육통·타박상에 간편하게 사용.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-cool-airpas-220ml",
     name: "안티푸라민 쿨 에어파스 220ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민에어파스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "안티푸라민 스프레이형 소염진통제. 시원한 쿨링 효과로 근육통·관절통 완화.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: "hyundai-mulpas-f-45ml",
     name: "현대 물파스 에프 45ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-현대물파스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "바르는 물파스. 살리실산메틸·멘톨로 근육통·어깨결림·타박상 완화.",
@@ -139,7 +139,7 @@ export const products: Product[] = [
   {
     id: "nopen-piroxicam-gel-50g",
     name: "노펜 피록시캄 겔 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-노펜피록시캄겔.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "피록시캄 소염진통 겔. 바르는 타입으로 관절염·근육통·염좌에 사용.",
@@ -154,7 +154,7 @@ export const products: Product[] = [
   {
     id: "kepem-plaster-10",
     name: "케펨 플라스타 10매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케펨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 플라스타 10매. 근육통·관절통·요통에 붙이는 파스.",
@@ -169,7 +169,7 @@ export const products: Product[] = [
   {
     id: "topsign-hot-cataplasma-6",
     name: "탑사인 핫 카타플라스마 6매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-탑사인핫카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "캡사이신·멘톨 온열 카타플라스마. 만성 근육통·관절통에 지속적인 온열 효과.",
@@ -184,7 +184,7 @@ export const products: Product[] = [
   {
     id: "hanbang-jangsuco-cataplasma-6",
     name: "한방 장수고 카타플라스마 6매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-한방장수고카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "한방 성분 카타플라스마. 오적골·천궁·홍화 등 생약 추출물로 근육·관절 통증 완화.",
@@ -199,7 +199,7 @@ export const products: Product[] = [
   {
     id: "zenol-cool-cataplasma-5",
     name: "제놀 쿨 카타플라스마 5매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀쿨카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨 쿨링 카타플라스마. 시원한 냉각 효과로 급성 근육통·타박상에 적합.",
@@ -214,7 +214,7 @@ export const products: Product[] = [
   {
     id: "keprotec-cataplasma-5",
     name: "케프로텍 카타플라스마 5매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케프로텍카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 카타플라스마. 수분 함유 기제로 피부 자극이 적고 지속 흡수 효과.",
@@ -229,7 +229,7 @@ export const products: Product[] = [
   {
     id: "topsign-cataplasma-6",
     name: "탑사인 카타플라스마 6매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-탑사인카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸 기본형 카타플라스마. 근육통·관절통에 활용하는 부착형 파스.",
@@ -244,7 +244,7 @@ export const products: Product[] = [
   {
     id: "minion-plaster-60",
     name: "미니온 플라스타 60매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미니온플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "소형 플라스타 60매 대용량. 손가락·발가락 등 작은 관절 통증에 편리한 소형 파스.",
@@ -259,7 +259,7 @@ export const products: Product[] = [
   {
     id: "hyundai-moolpas-f-45ml",
     name: "현대 물파스 에프 45ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-현대물파스에프.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸 바르는 물파스 45ml. 시원한 쿨링과 소염진통 효과의 고전 물파스.",
@@ -274,7 +274,7 @@ export const products: Product[] = [
   {
     id: "sinshin-moolpas-s-90ml",
     name: "신신 물파스 에스 90ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신물파스에스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "신신 바르는 물파스 90ml. 멘톨·살리실산메틸 소염진통 외용액.",
@@ -289,7 +289,7 @@ export const products: Product[] = [
   {
     id: "coditop-cool-plaster-40",
     name: "코디톱 쿨 플라스타 40매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코디톱쿨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨 쿨링 대용량 플라스타 40매. 경제적인 쿨 파스 대용량 제품.",
@@ -304,7 +304,7 @@ export const products: Product[] = [
   {
     id: "nopen-strong-plaster",
     name: "노펜 스트롱",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-노펜스트롱.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "피록시캄 성분의 소염진통 파스예요. 관절염·근육통에 효과적인 강력한 붙이는 파스.",
@@ -318,7 +318,7 @@ export const products: Product[] = [
   {
     id: "ketotop-plaster-band-type",
     name: "케토톱 플라스타 밴드타입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케토톱플라스타밴드타입.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 밴드형 소염진통 파스예요. 소형 관절 부위에 사용하기 편리해요.",
@@ -332,7 +332,7 @@ export const products: Product[] = [
   {
     id: "ketotop-plaster-standard",
     name: "케토톱 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케토톱플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 플라스타예요. 근육통·관절통에 효과적인 기본형 파스.",
@@ -346,7 +346,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-cool-cata",
     name: "안티푸라민 쿨 카타플라스마",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민쿨카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 성분의 쿨링 카타플라스마예요. 수분 함유로 피부 자극이 적어요.",
@@ -360,7 +360,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-pap",
     name: "안티푸라민 파프",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민파프.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 성분의 안티푸라민 파프 타입 파스예요. 시원한 쿨링 소염진통 효과.",
@@ -374,7 +374,7 @@ export const products: Product[] = [
   {
     id: "dipen-cool-plaster",
     name: "디펜 쿨 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디펜쿨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸 성분의 쿨링 파스예요. 근육통·어깨결림에 시원한 냉감 효과.",
@@ -388,7 +388,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-coin-plaster",
     name: "안티푸라민 코인 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민코인플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 성분의 동전형 소형 파스예요. 손가락·발목 등 작은 관절에 편리해요.",
@@ -402,7 +402,7 @@ export const products: Product[] = [
   {
     id: "carolpro-double-power-plaster",
     name: "캐롤프로 더블파워 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-캐롤프로더블파워플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 더블파워 플라스타예요. 강력한 소염진통 효과의 붙이는 파스.",
@@ -416,7 +416,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-cool-power-plaster",
     name: "안티푸라민 쿨파워 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민쿨파워플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 쿨파워 파스예요. 강력한 쿨링 소염진통 효과.",
@@ -430,7 +430,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-cool-airpas-spray",
     name: "안티푸라민 쿨 에어파스",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민쿨에어파스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸·멘톨 성분의 뿌리는 에어파스예요. 간편한 스프레이 타입.",
@@ -444,7 +444,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-double-power-plaster",
     name: "안티푸라민 더블파워 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민더블파워플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 더블파워 파스예요. 강화된 소염진통 쿨링 효과.",
@@ -458,7 +458,7 @@ export const products: Product[] = [
   {
     id: "zenol-furotop-plaster",
     name: "제놀 푸로탑 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀푸로탑플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 플라스타예요. 제놀 브랜드의 케토프로펜 붙이는 파스.",
@@ -472,7 +472,7 @@ export const products: Product[] = [
   {
     id: "gwangdong-mansuco-gold-plaster",
     name: "광동 만수고 골드 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-광동만수고골드플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸·멘톨 성분의 한방 골드 플라스타예요. 근육·관절 통증 완화에 효과적.",
@@ -486,7 +486,7 @@ export const products: Product[] = [
   {
     id: "beomuri-plaster",
     name: "버물리 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-버물리플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸·멘톨 성분의 소염진통 파스예요. 근육통·관절통·타박상에 사용해요.",
@@ -500,7 +500,7 @@ export const products: Product[] = [
   {
     id: "dinapen-plaster",
     name: "디나펜 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디나펜플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 플라스타예요. 근육통·관절통에 효과적인 붙이는 파스.",
@@ -514,7 +514,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-40-plaster",
     name: "안티푸라민 40 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민40플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 성분의 안티푸라민 40매 대용량 파스예요. 경제적인 대용량 쿨링 파스.",
@@ -528,7 +528,7 @@ export const products: Product[] = [
   {
     id: "dipen-hot-plaster",
     name: "디펜 핫 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디펜핫플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸·캠퍼 성분의 온열 파스예요. 만성 근육통에 따뜻한 온열 효과.",
@@ -542,7 +542,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-hanbang-cata",
     name: "안티푸라민 한방 카타플라스마",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민한방카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "한방 성분과 멘톨이 함유된 카타플라스마예요. 전통 한방 효능과 쿨링 효과 결합.",
@@ -556,7 +556,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-s-plaster",
     name: "신신파스 에스",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스에스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 성분의 신신 전통 파스예요. 근육통·관절통에 시원한 효과.",
@@ -570,7 +570,7 @@ export const products: Product[] = [
   {
     id: "zenol-hanbang-cata",
     name: "제놀 한방 카타플라스마",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀한방카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "한방 성분 카타플라스마예요. 생약 추출물로 근육·관절 통증 완화에 도움을 줘요.",
@@ -584,7 +584,7 @@ export const products: Product[] = [
   {
     id: "sarafen-plaster",
     name: "사라펜 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-사라펜플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 플라스타예요. 근육통·관절통 완화에 효과적인 붙이는 파스.",
@@ -598,7 +598,7 @@ export const products: Product[] = [
   {
     id: "zenol-damfuleo-tablet",
     name: "제놀 담푸러정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀담푸러정.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "이부프로펜 경구형 소염진통제예요. 근육통·관절통·두통에 먹는 진통제.",
@@ -612,7 +612,7 @@ export const products: Product[] = [
   {
     id: "kepem-plaster-long-slim",
     name: "케펨 플라스타 롱슬림",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케펨플라스타롱슬림.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 롱슬림 플라스타예요. 긴 근육 부위에 맞게 설계된 슬림형 파스.",
@@ -626,7 +626,7 @@ export const products: Product[] = [
   {
     id: "zenol-one-cata",
     name: "제놀 원 카타플라스마",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀원카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸 성분의 카타플라스마예요. 근육통·관절통·염좌에 수분 함유 부착 파스.",
@@ -640,7 +640,7 @@ export const products: Product[] = [
   {
     id: "ketotop-plaster-original-type",
     name: "케토톱 플라스타 오리지날",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케토톱플라스타오리지날.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 오리지날 플라스타예요. 케토톱 기본 원조 제품으로 소염진통 효과.",
@@ -654,7 +654,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-flex-arex-mild",
     name: "신신파스 플렉스 아렉스 마일드",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스플렉스아렉스마일드.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 성분의 부드러운 신신파스예요. 민감한 피부를 위한 순한 쿨링 파스.",
@@ -668,7 +668,7 @@ export const products: Product[] = [
   {
     id: "gongpas-plaster",
     name: "공파스 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-공파스플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·살리실산메틸 성분의 공파스 플라스타예요. 근육통·관절통 완화에 활용해요.",
@@ -682,7 +682,7 @@ export const products: Product[] = [
   {
     id: "ichirescue-plaster",
     name: "이치레스큐 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이치레스큐플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 플라스타예요. 급성 근육통·관절통 완화에 효과적.",
@@ -696,7 +696,7 @@ export const products: Product[] = [
   {
     id: "roihi-tsuboko-coin-plaster",
     name: "로이히츠보코 코인 플라스타",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-로이히츠보코코인플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "노닐산바닐아미드·멘톨 성분의 일본 직수입 코인형 파스예요. 따뜻한 온열 쿨링 효과.",
@@ -710,7 +710,7 @@ export const products: Product[] = [
   {
     id: "gevofit-max-plaster",
     name: "게보핏 맥스 플라스타 어깨목파스",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-게보핏맥스플라스타어깨목파스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 어깨·목 전용 맥스 플라스타예요. 어깨결림·목통증에 특화된 붙이는 파스.",
@@ -725,7 +725,7 @@ export const products: Product[] = [
   {
     id: "sinsin-jjimpas-large-8",
     name: "신신 찜파스 대형 8매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신찜파스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 열감 파스 대형 8매. 근육통·관절통에 따뜻한 온열 쿨링 효과.",
@@ -739,7 +739,7 @@ export const products: Product[] = [
   {
     id: "jeil-coolpap-5",
     name: "제일쿨파프 5매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제일쿨파프.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨 쿨링 카타플라스마 5매. 시원한 냉각 효과로 근육통·타박상에 적합한 쿨 파프.",
@@ -753,7 +753,7 @@ export const products: Product[] = [
   {
     id: "renox-cataplasma-5",
     name: "레녹스 카타플라스마 5매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-레녹스카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 일반 카타플라스마 5매. 수분 함유 기제로 피부 밀착력이 좋은 파스.",
@@ -767,7 +767,7 @@ export const products: Product[] = [
   {
     id: "newpap-hot-6",
     name: "뉴파프 핫 6매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-뉴파프핫.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "캡사이신·살리실산 온열 파프 6매. 만성 근육통·관절통에 지속적인 온열 효과.",
@@ -781,7 +781,7 @@ export const products: Product[] = [
   {
     id: "jeil-hotpap-5",
     name: "제일핫파프 5매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제일핫파프.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "캠퍼·멘톨 온열 카타플라스마 5매. 온열 효과로 만성 근육통·관절통 완화.",
@@ -795,7 +795,7 @@ export const products: Product[] = [
   {
     id: "carol-cooling-double-power-cata-7",
     name: "캐롤쿨링 더블파워 카타플라스마 7매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-캐롤쿨링더블파워카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "캠퍼·멘톨·살리실산 쿨링 더블파워 카타플라스마 7매. 강화된 냉각 소염진통 효과.",
@@ -809,7 +809,7 @@ export const products: Product[] = [
   {
     id: "sinsin-myunghwanggo-cata-50",
     name: "신신 명황고 카타플라스마 50매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신명황고카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "한방성분·멘톨 카타플라스마 대용량 50매. 황기·당귀 등 생약 추출물과 멘톨 결합.",
@@ -823,7 +823,7 @@ export const products: Product[] = [
   {
     id: "jeil-hanbangpap-su-6",
     name: "제일 한방파프 수 6매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제일한방파프수.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "한방 성분 수분 카타플라스마 6매. 생약 추출물과 수분 기제의 한방 파프.",
@@ -837,7 +837,7 @@ export const products: Product[] = [
   {
     id: "sinsin-coldpap-cata-large-5",
     name: "신신 냉파프 카타플라스마 대형 5매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신냉파프카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨 냉각 카타플라스마 대형 5매. 급성 타박상·염좌에 시원한 냉찜질 효과.",
@@ -851,7 +851,7 @@ export const products: Product[] = [
   {
     id: "ssabercool-plaster-48",
     name: "써버쿨 플라스타 48매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-써버쿨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 쿨링 플라스타 대용량 48매. 경제적인 대용량 냉각 소염진통 파스.",
@@ -865,7 +865,7 @@ export const products: Product[] = [
   {
     id: "mandham-duoimpact-cata-7",
     name: "맨담 듀오임팩 카타플라스마 7매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-맨담듀오임팩카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산나트륨 듀오임팩 카타플라스마 7매. 이중 효과 소염진통 파스.",
@@ -879,7 +879,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-diclomax-plaster-large-6",
     name: "신신파스 디클로맥스 플라스타 대형 6매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스디클로맥스플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "디클로페낙나트륨 비스테로이드 소염진통 플라스타 대형 6매. 강력한 소염 효과.",
@@ -893,7 +893,7 @@ export const products: Product[] = [
   {
     id: "zenol-double-action-cata-7",
     name: "제놀 더블액션 카타플라스마 7매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀더블액션카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·한방성분 더블액션 카타플라스마 7매. 쿨링과 한방 효과 결합.",
@@ -907,7 +907,7 @@ export const products: Product[] = [
   {
     id: "ketotop-l-plaster-7",
     name: "케토톱 엘 플라스타 7매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케토톱엘플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 대형 엘(L) 사이즈 플라스타 7매. 넓은 면적 근육통·관절통에 사용.",
@@ -921,7 +921,7 @@ export const products: Product[] = [
   {
     id: "sinsin-defencool-plaster-medium-10",
     name: "신신 디펜쿨 플라스타 중형 10매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신디펜쿨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "디클로페낙디에틸아민 중형 플라스타 10매. 비스테로이드 소염진통 쿨링 파스.",
@@ -935,7 +935,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-piroxta-plaster-medium-10",
     name: "신신파스 피록스타 플라스타 중형 10매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스피록스타플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "피록시캄 비스테로이드 소염진통 플라스타 중형 10매. 관절통·근육통에 효과적.",
@@ -949,7 +949,7 @@ export const products: Product[] = [
   {
     id: "papk-plus-cata-6",
     name: "파프케이 플러스 카타플라스마 6매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-파프케이플러스카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜·멘톨 복합 카타플라스마 6매. 소염진통 효과와 쿨링 효과 동시에.",
@@ -963,7 +963,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-coin-alpha-plaster-84",
     name: "안티푸라민 코인 알파 플라스타 84매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민코인알파플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산 코인형 플라스타 대용량 84매. 소형 관절에 경제적으로 사용.",
@@ -977,7 +977,7 @@ export const products: Product[] = [
   {
     id: "hanbangsu-cata-6",
     name: "한방수 카타플라스마 6매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-한방수카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "한방성분 수분 카타플라스마 6매. 생약 추출물과 수분 기제로 피부 밀착력 우수.",
@@ -991,7 +991,7 @@ export const products: Product[] = [
   {
     id: "kepentec-cool-plaster-34",
     name: "케펜텍 쿨 플라스타 34매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케펜텍쿨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 쿨형 대용량 플라스타 34매. 소염진통과 쿨링 효과의 경제적 대용량.",
@@ -1005,7 +1005,7 @@ export const products: Product[] = [
   {
     id: "hanbang-pap-cata-6",
     name: "한방 파프 카타플라스마 6매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-한방파프카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "한방성분 카타플라스마 6매. 생약 추출물 기반 전통 한방 파프 타입 파스.",
@@ -1019,7 +1019,7 @@ export const products: Product[] = [
   {
     id: "hyulganggo-cata-6",
     name: "혈강고 카타플라스마 6매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-혈강고카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "한방 혈관성분·멘톨 카타플라스마 6매. 혈액순환 개선과 소염진통 효과 결합.",
@@ -1033,7 +1033,7 @@ export const products: Product[] = [
   {
     id: "jeil-dicool24-plaster-40",
     name: "제일 디쿨 24 플라스타 40매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제일디쿨24플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "디클로페낙나트륨 24시간 지속 대용량 플라스타 40매. 하루 한 번으로 지속 소염진통.",
@@ -1047,7 +1047,7 @@ export const products: Product[] = [
   {
     id: "epolmin-cata-7",
     name: "에폴민 카타플라스마 7매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-에폴민카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "플루르비프로펜(에폴민) 소염진통 카타플라스마 7매. 비스테로이드 소염진통 효과.",
@@ -1061,7 +1061,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-keto-plaster-10",
     name: "안티푸라민 케토 플라스타 10매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민케토플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 플라스타 10매. 안티푸라민 브랜드의 케토프로펜 파스.",
@@ -1075,7 +1075,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-joint-plaster-10",
     name: "안티푸라민 조인트 플라스타 10매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민조인트플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "관절용 멘톨·캠퍼 플라스타 10매. 관절 전용으로 설계된 소염진통 파스.",
@@ -1090,7 +1090,7 @@ export const products: Product[] = [
   {
     id: "kepem-plaster-40",
     name: "케펨 플라스타 40매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케펨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 플라스타 대용량 40매. 경제적인 대용량 붙이는 파스.",
@@ -1104,7 +1104,7 @@ export const products: Product[] = [
   {
     id: "minion-plaster-96",
     name: "미니온 플라스타 96매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미니온플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소형 플라스타 초대용량 96매. 작은 관절 부위 장기 사용에 경제적.",
@@ -1118,7 +1118,7 @@ export const products: Product[] = [
   {
     id: "zenol-powerful-plaster-48",
     name: "제놀 파워풀 플라스타 48매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀파워풀.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸·멘톨 강력 소염진통 플라스타 대용량 48매. 경제적인 대용량 파스.",
@@ -1132,7 +1132,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-arex-small-10",
     name: "신신파스 아렉스 소형 10매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스아렉스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 전통 소염진통 파스 소형 10매. 손가락·발목 등 작은 부위에 적합.",
@@ -1146,7 +1146,7 @@ export const products: Product[] = [
   {
     id: "sinsin-moolpas-s-120ml",
     name: "신신 물파스 에스 120ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신물파스에스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·살리실산메틸 바르는 물파스 대용량 120ml. 신신 물파스 에스 대용량.",
@@ -1160,7 +1160,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-arex-medium-10",
     name: "신신파스 아렉스 중형 10매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스아렉스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 전통 소염진통 파스 중형 10매. 어깨·등 부위에 적합한 중형 파스.",
@@ -1174,7 +1174,7 @@ export const products: Product[] = [
   {
     id: "zenol-cool-cataplasma-one-5",
     name: "제놀 쿨 카타 플라스마 일체형 5매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀쿨카타플라스마.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨 쿨링 일체형 카타플라스마 5매. 이형지 일체형으로 편리하게 부착.",
@@ -1188,7 +1188,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-double-power-medium-7-4",
     name: "안티푸라민 더블파워 중형 7매입 4박스",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민더블파워플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 더블파워 중형 파스 7매 4박스. 대용량 구성으로 경제적.",
@@ -1202,7 +1202,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-arex-large-30",
     name: "신신파스 아렉스 대형 30매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스아렉스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 전통 소염진통 파스 대형 30매. 넓은 허리·등 부위에 사용하는 대형.",
@@ -1216,7 +1216,7 @@ export const products: Product[] = [
   {
     id: "dipen-cool-plaster-40",
     name: "디펜 쿨 플라스타 40매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디펜쿨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "살리실산메틸·멘톨 쿨링 대용량 플라스타 40매. 경제적인 냉각 소염진통 대용량.",
@@ -1230,7 +1230,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-arex-small-42",
     name: "신신파스 아렉스 소형 42매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스아렉스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 전통 소염진통 파스 소형 대용량 42매. 소형 파스를 경제적으로 사용.",
@@ -1244,7 +1244,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-pap-6",
     name: "안티푸라민 파프 6매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민파프.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼 안티푸라민 파프 6매. 시원한 쿨링 소염진통 효과의 파프 타입.",
@@ -1258,7 +1258,7 @@ export const products: Product[] = [
   {
     id: "kepem-plaster-long-slim-10",
     name: "케펨 플라스타 롱슬림 10매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케펨플라스타롱슬림.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 롱슬림 플라스타 10매. 긴 근육 부위에 맞게 설계된 슬림형 파스.",
@@ -1272,7 +1272,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-s-small-16",
     name: "신신파스 에스 소형 16매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스에스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 신신파스 에스 소형 16매. 소형 부위 사용에 적합.",
@@ -1286,7 +1286,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-double-power-large-6-5",
     name: "안티푸라민 더블파워 대형 6매입 5박스",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민더블파워플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 더블파워 대형 파스 6매 5박스. 대형 대용량 구성.",
@@ -1300,7 +1300,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-cool-power-plaster-40",
     name: "안티푸라민 쿨파워 플라스타 40매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민쿨파워플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 쿨파워 대용량 플라스타 40매. 강력한 쿨링 대용량.",
@@ -1314,7 +1314,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-cool-airpas-power-250ml",
     name: "안티푸라민 쿨 에어파스 파워 250ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민쿨에어파스.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·살리실산메틸 분사형 에어파스 파워 250ml 대용량. 강력한 쿨링 스프레이.",
@@ -1328,7 +1328,7 @@ export const products: Product[] = [
   {
     id: "sinsinpas-piroxta-medium-10-v2",
     name: "신신파스 피록스타 플라스타 중형 10매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신파스피록스타플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "피록시캄 소염진통 중형 플라스타 10매. 관절통·근육통에 효과적인 비스테로이드 파스.",
@@ -1342,7 +1342,7 @@ export const products: Product[] = [
   {
     id: "sinsin-defencool-plaster-medium-40",
     name: "신신 디펜쿨 플라스타 중형 40매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신디펜쿨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "디클로페낙디에틸아민 중형 대용량 플라스타 40매. 비스테로이드 쿨링 대용량.",
@@ -1356,7 +1356,7 @@ export const products: Product[] = [
   {
     id: "sarafen-plaster-40",
     name: "사라펜 플라스타 40매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-사라펜플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 대용량 플라스타 40매. 경제적인 케토프로펜 대용량 파스.",
@@ -1370,7 +1370,7 @@ export const products: Product[] = [
   {
     id: "sinsin-defencool-large-30",
     name: "신신 디펜쿨 플라스타 대형 30매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-신신디펜쿨플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "디클로페낙디에틸아민 대형 플라스타 30매. 넓은 근육 부위에 사용하는 대형.",
@@ -1384,7 +1384,7 @@ export const products: Product[] = [
   {
     id: "antiphlamine-double-power-medium-7",
     name: "안티푸라민 더블파워 중형 7매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민더블파워플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "멘톨·캠퍼·살리실산메틸 더블파워 중형 파스 7매. 강화된 쿨링 소염진통 효과.",
@@ -1398,7 +1398,7 @@ export const products: Product[] = [
   {
     id: "zenol-furotop-plaster-45",
     name: "제놀 푸로탑 플라스타 45매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀푸로탑플라스타.webp",
     category: "일반의약품",
     categorySlug: "파스",
     description: "케토프로펜 소염진통 대용량 플라스타 45매. 제놀 브랜드의 경제적 대용량 파스.",

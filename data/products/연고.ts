@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
       id: "compound-madecassol-15g",
       name: "복합 마데카솔 연고 15g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-복합마데카솔.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "상처 치유 + 세균 감염 방지. 센텔라 + 네오마이신 복합.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
       id: "esroban-10g",
       name: "에스로반 연고 10g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-에스로반.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "피부 세균 감염 치료. 무피로신 항생제 연고.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
       id: "noscarna-20g",
       name: "노스카나겔 20g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-노스카나겔.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "흉터 치료 겔. 헤파린·알란토인·덱스판테놀 복합.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
       id: "venoplus-20g",
       name: "멍약 베노플러스겔 20g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-베노플러스겔.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "멍·타박상 치료 겔. 헤파린나트륨 성분.",
@@ -139,7 +139,7 @@ export const products: Product[] = [
   {
       id: "antiphlamine-30g",
       name: "안티푸라민 연고 30g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-안티푸라민.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "근육통·관절통 완화 연고. 살리실산메틸 + 멘톨.",
@@ -154,7 +154,7 @@ export const products: Product[] = [
   {
       id: "posterisan-25g",
       name: "포스테리산 연고 25g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-포스테리산.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "치질·항문 질환 치료 연고. 대장균 불활화 배양액.",
@@ -169,7 +169,7 @@ export const products: Product[] = [
   {
       id: "acnon-13g",
       name: "애크논 크림 13g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-애크논.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "여드름 치료 크림. 이부프로펜피코놀 항염 성분.",
@@ -184,7 +184,7 @@ export const products: Product[] = [
   {
       id: "furepine-28g",
       name: "푸레파인 연고 28g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-푸레파인.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "화상·상처 항염 연고. 아줄렌 성분 함유.",
@@ -199,7 +199,7 @@ export const products: Product[] = [
   {
       id: "acyclovir-5g",
       name: "신신 아시클로버크림 5g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-아시클로버크림.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "항바이러스 크림. 헤르페스(입술 물집) 치료.",
@@ -214,7 +214,7 @@ export const products: Product[] = [
   {
       id: "danaqu-50g",
       name: "다나큐아 크림 50g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-다나큐아크림.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "히알루론산+알란토인 복합 상처 치유 크림. 흉터 예방 효과.",
@@ -229,7 +229,7 @@ export const products: Product[] = [
   {
       id: "bosong-10g",
       name: "보송크림 10g",
-      image: "/images/placeholder.svg",
+      image: "/images/barkiri-보송크림.webp",
       category: "일반의약품",
       categorySlug: "연고",
       description: "산화아연 기반 습진·기저귀 발진 예방 크림. 땀띠·피부 자극 완화.",
@@ -244,7 +244,7 @@ export const products: Product[] = [
   {
     id: "bearoban-10g",
     name: "베아로반 연고 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-베아로반연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "무피로신 0.2% 항생제 연고. 박트로반 제네릭. 대웅제약.",
@@ -258,7 +258,7 @@ export const products: Product[] = [
   {
     id: "fusicmed-10g",
     name: "후시메드 연고 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-후시메드연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "후시드산나트륨 2% 항생제 연고. 후시딘 제네릭.",
@@ -272,7 +272,7 @@ export const products: Product[] = [
   {
     id: "celestone-g-15g",
     name: "쎄레스톤-지 크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-쎄레스톤지크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "베타메타손+겐타마이신 복합 스테로이드 크림. 습진·피부염 치료.",
@@ -286,7 +286,7 @@ export const products: Product[] = [
   {
     id: "hami-urea-50g",
     name: "한미 유리아 크림 200mg 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유리아크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "요소(Urea) 20% 고보습 크림. 건성·어린선 피부 개선.",
@@ -300,7 +300,7 @@ export const products: Product[] = [
   {
     id: "dexpanol-30g",
     name: "덱스파놀 연고 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-덱스파놀연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "덱스판테놀(프로비타민B5) 5% 상처치유 연고.",
@@ -314,7 +314,7 @@ export const products: Product[] = [
   {
     id: "ridomex-15g",
     name: "삼아 리도멕스 크림 0.15% 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리도멕스크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "프레드니솔론발레레이트 0.15% 스테로이드 크림. 습진·피부염.",
@@ -328,7 +328,7 @@ export const products: Product[] = [
   {
     id: "hyarogel-15g",
     name: "히아로겔 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-히아로겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "히알루론산나트륨 0.2% 상처 보습 겔. 화상·상처 수분 공급.",
@@ -342,7 +342,7 @@ export const products: Product[] = [
   {
     id: "easyef-10g",
     name: "이지에프 새살 연고 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이지에프새살연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "인간 EGF(상피세포성장인자) 함유 상처치유 연고.",
@@ -356,7 +356,7 @@ export const products: Product[] = [
   {
     id: "dermatix-ultra-15g",
     name: "더마틱스 울트라겔 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-더마틱스울트라겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "실리콘겔 기반 흉터 치료제. 수술·화상 흉터 개선.",
@@ -370,7 +370,7 @@ export const products: Product[] = [
   {
     id: "contractubex-20g",
     name: "콘투락투벡스겔 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-콘투락투벡스겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "헤파린+알란토인+양파추출물 3중 복합 흉터 치료겔.",
@@ -384,7 +384,7 @@ export const products: Product[] = [
   {
     id: "nofen-piroxicam-50g",
     name: "노펜 피록시캄겔 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-노펜피록시캄겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "피록시캄 0.5% 비스테로이드 소염진통겔. 근육통·관절통.",
@@ -398,7 +398,7 @@ export const products: Product[] = [
   {
     id: "loxoan-gel-50g",
     name: "록소앤겔 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-록소앤겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "록소프로펜나트륨수화물 1% 소염진통겔. 어깨·허리·무릎 통증.",
@@ -412,7 +412,7 @@ export const products: Product[] = [
   {
     id: "difenac-50g",
     name: "디페낙겔 1% 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디페낙겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "디클로페낙나트륨 1% 소염진통겔. 볼타렌 제네릭.",
@@ -426,7 +426,7 @@ export const products: Product[] = [
   {
     id: "peridex-6g",
     name: "페리덱스 연고 6g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-페리덱스연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "리도카인+히드로코르티손+산화아연 복합 치질연고.",
@@ -440,7 +440,7 @@ export const products: Product[] = [
   {
     id: "domina-50g",
     name: "도미나 크림 튜브형 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-도미나크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "하이드로퀴논 2% 기미·잡티 미백 크림.",
@@ -454,7 +454,7 @@ export const products: Product[] = [
   {
     id: "momentason-15g",
     name: "모멘타손 크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-모멘타손크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "모메타손푸로에이트 0.1% 스테로이드 크림. 아토피·습진 치료.",
@@ -468,7 +468,7 @@ export const products: Product[] = [
   {
     id: "azulene-s-30g",
     name: "아즈렌 에스 크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아즈렌에스크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "아줄렌(디메틸이소프로필아줄렌) 소염크림. 피부 진정·염증 완화.",
@@ -482,7 +482,7 @@ export const products: Product[] = [
   {
     id: "jawoongo-15g",
     name: "한풍 자운고 연고 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-자운고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "자초·당귀 한방 외용연고. 피부 화농·상처 회복 보조.",
@@ -496,7 +496,7 @@ export const products: Product[] = [
   {
     id: "scarderm-10g",
     name: "스카덤겔 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-스카덤겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "폴리실록산 실리콘겔 흉터 치료제. 수술·화상·여드름 흉터.",
@@ -510,7 +510,7 @@ export const products: Product[] = [
   {
     id: "kyungdong-panthenol-50g",
     name: "경동 판테놀 연고 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-경동판테놀연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "덱스판테놀 50mg/g 상처치유 연고. 비판텐 제네릭. 대용량.",
@@ -524,7 +524,7 @@ export const products: Product[] = [
   {
     id: "stievaa-25g",
     name: "스티바 에이 크림 0.01% 25g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-스티바에이크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "트레티노인(레티노산) 0.01% 여드름·노화 치료 크림.",
@@ -538,7 +538,7 @@ export const products: Product[] = [
   {
     id: "bumuli-kid-25g",
     name: "버물리 키드 크림 25g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-버물리키드크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "디펜히드라민염산염 2% 벌레물림 항히스타민 크림. 소아용.",
@@ -552,7 +552,7 @@ export const products: Product[] = [
   {
     id: "philogen-75g",
     name: "필로젠 겔 75g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-필로젠겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "이소프로필메틸페놀+덱스판테놀 복합 소독·치유 겔.",
@@ -566,7 +566,7 @@ export const products: Product[] = [
   {
     id: "bacterosin-10g",
     name: "박테로신 연고 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-박테로신연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "무피로신 0.2% 항생제 연고 제네릭. 농가진·상처 감염 치료.",
@@ -580,7 +580,7 @@ export const products: Product[] = [
   {
     id: "scaheal-gold-20g",
     name: "스카힐 골드겔 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-스카힐골드겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "덱스판테놀+히알루론산 복합 흉터 개선 겔.",
@@ -594,7 +594,7 @@ export const products: Product[] = [
   {
     id: "lica-a-15g",
     name: "리카에이 크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리카에이크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "트레티노인 0.025% 여드름·광노화 치료 크림.",
@@ -608,7 +608,7 @@ export const products: Product[] = [
   {
     id: "qaacne-plus-15g",
     name: "큐아크네 플러스 크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-큐아크네플러스크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "살리실산+레조르시놀+황 복합 여드름 치료 크림.",
@@ -622,7 +622,7 @@ export const products: Product[] = [
   {
     id: "newuskin-a-50g",
     name: "뉴 유스킨에이크림 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-뉴유스킨에이크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "요소10%+비타민A 복합 보습크림. 건성·거친 피부 집중 개선.",
@@ -636,7 +636,7 @@ export const products: Product[] = [
   {
     id: "mudis-30g",
     name: "무디스 크림 1% 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-무디스크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "무피로신 1% 고농도 항생제 크림. 농가진·피부감염 치료.",
@@ -650,7 +650,7 @@ export const products: Product[] = [
   {
     id: "naphzol-30g",
     name: "나프졸 크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-나프졸크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "나프록센나트륨 외용 소염진통 크림. 타박상·근육통.",
@@ -664,7 +664,7 @@ export const products: Product[] = [
   {
     id: "zenol-power-60g",
     name: "제놀 파워겔 60g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제놀파워겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "메틸살리실산+dl-캄파 복합 근육통 소염겔. 제놀 강화버전.",
@@ -678,7 +678,7 @@ export const products: Product[] = [
   {
     id: "mibo-10g",
     name: "미보 연고 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-미보연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "히드로코르티손 0.1% 저강도 스테로이드 연고. 민감성 피부 습진.",
@@ -692,7 +692,7 @@ export const products: Product[] = [
   {
     id: "novazone-15g",
     name: "노바손 크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-노바손크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "베타메타손발레레이트 0.1% 스테로이드 크림. 습진·접촉성 피부염 치료.",
@@ -706,7 +706,7 @@ export const products: Product[] = [
   {
     id: "ventrax-20g",
     name: "벤트락스겔 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-벤트락스겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "케토프로펜 2.5% NSAID 외용겔. 근육통·관절통·타박상 소염진통.",
@@ -1407,7 +1407,7 @@ export const products: Product[] = [
   {
     id: "mentholatum-lotion-100ml",
     name: "멘소래담 로션 100ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-멘소래담로션.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "멘톨·캄파 복합 청량 로션. 근육통·피부 가려움 완화.",
@@ -1421,7 +1421,7 @@ export const products: Product[] = [
   {
     id: "lacticare-hc-lotion-60g",
     name: "락티케어HC로션 1% 60g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-락티케어HC로션.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "히드로코르티손 1% 스테로이드 로션. 건조하고 가려운 피부 염증 완화.",
@@ -1435,7 +1435,7 @@ export const products: Product[] = [
   {
     id: "melanotining-cream-30g",
     name: "멜라토닝크림 2% 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-멜라토닝크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "하이드로퀴논 2% 미백 크림. 기미·색소침착 개선.",
@@ -1449,7 +1449,7 @@ export const products: Product[] = [
   {
     id: "di-d-panthenol-ointment-50g",
     name: "디D판테놀연고 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디판테놀연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "덱스판테놀 고함량 피부 재생 연고. 화상·찰과상·건조 피부 회복.",
@@ -1463,7 +1463,7 @@ export const products: Product[] = [
   {
     id: "complex-tercool-cream-20g",
     name: "복합테르쿨크림 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-복합테르쿨크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "멘톨·살리실산 복합 청량 크림. 가려움증·피부 자극 완화.",
@@ -1477,7 +1477,7 @@ export const products: Product[] = [
   {
     id: "fines-gel-50g",
     name: "파인스겔 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-파인스겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "피록시캄 0.5% NSAID 소염진통 겔. 근육통·관절통 완화.",
@@ -1491,7 +1491,7 @@ export const products: Product[] = [
   {
     id: "traject-gel-75g",
     name: "트라제트겔 75g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-트라제트겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "디클로페낙나트륨 NSAID 겔. 근육통·관절통·염좌 소염진통.",
@@ -1505,7 +1505,7 @@ export const products: Product[] = [
   {
     id: "subercool-kid-cream-15g",
     name: "써버쿨키드크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-써버쿨키드크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "어린이용 청량 크림. 가려움증·벌레 물린 데 사용.",
@@ -1519,7 +1519,7 @@ export const products: Product[] = [
   {
     id: "barjio-modu-cream-20g",
     name: "바르지오모두크림 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-바르지오크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "알란토인·덱스판테놀 복합 다목적 피부 회복 크림.",
@@ -1533,7 +1533,7 @@ export const products: Product[] = [
   {
     id: "rejuveness-cream-10g",
     name: "리쥬비넥스크림 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리쥬비넥스크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "헤파린나트륨+알란토인 흉터 치유 크림. 켈로이드·비후성 흉터 관리.",
@@ -1547,7 +1547,7 @@ export const products: Product[] = [
   {
     id: "naoderm-cream-20g",
     name: "나오덤크림 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-나오덤크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "덱스판테놀·알란토인 복합 피부 재생 크림. 화상·찰과상 회복.",
@@ -1561,7 +1561,7 @@ export const products: Product[] = [
   {
     id: "sensespot-cream-20g",
     name: "센스팟크림 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-센스팟크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "기미·잡티 완화 복합 미백 크림. 색소침착 개선.",
@@ -1575,7 +1575,7 @@ export const products: Product[] = [
   {
     id: "zeola-cream-15g",
     name: "제올라크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제올라크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "아연·판테놀 기저귀 발진·피부 보호 크림. 습윤 환경 차단.",
@@ -1589,7 +1589,7 @@ export const products: Product[] = [
   {
     id: "acrif-cream-75g",
     name: "아크리프크림 75g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아크리프크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "살리실산 각질 용해 크림. 굳은살·티눈 제거.",
@@ -1603,7 +1603,7 @@ export const products: Product[] = [
   {
     id: "anycure-ointment-10g",
     name: "애니큐어연고 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-애니큐어연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "네오마이신·바시트라신 항생제 복합 연고. 피부 세균 감염 치료.",
@@ -1617,7 +1617,7 @@ export const products: Product[] = [
   {
     id: "asicol-cream-10g",
     name: "아시콜크림 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아시콜크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "아시클로버 5% 항바이러스 크림. 단순포진·입술 물집 치료.",
@@ -1631,7 +1631,7 @@ export const products: Product[] = [
   {
     id: "melanosa-cream-30g",
     name: "멜라노사크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-멜라노사크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "하이드로퀴논 2% 기미·색소침착 치료 크림.",
@@ -1645,7 +1645,7 @@ export const products: Product[] = [
   {
     id: "scaderm-clear-gel-20g",
     name: "스카덤클리어겔 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-스카덤클리어겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "폴리실록산 실리콘겔 흉터 치료제. 수술·화상 흉터 개선.",
@@ -1659,7 +1659,7 @@ export const products: Product[] = [
   {
     id: "twenty-cream-20g",
     name: "투앤티크림 0.025% 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-투앤티크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "트레티노인 0.025% 여드름·피부 재생 크림. 세포 턴오버 촉진.",
@@ -1673,7 +1673,7 @@ export const products: Product[] = [
   {
     id: "pozinen-cream-5g",
     name: "포지넨크림 5g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-포지넨크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "무피로신 2% 고농도 항생제 크림. MRSA 포함 내성균 치료.",
@@ -1687,7 +1687,7 @@ export const products: Product[] = [
   {
     id: "hyrover-cream-5g",
     name: "하이로버크림 5g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-하이로버크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "클로베타솔프로피오네이트 고효능 스테로이드 크림. 난치성 피부염 치료.",
@@ -1701,7 +1701,7 @@ export const products: Product[] = [
   {
     id: "neosiderm-ointment-10g",
     name: "네오시덤연고 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-네오시덤연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "네오마이신+폴리믹신B 복합 항생제 연고. 세균 감염 피부 치료.",
@@ -1715,7 +1715,7 @@ export const products: Product[] = [
   {
     id: "banzil-cream-60g",
     name: "반질크림 60g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-반질크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "요소(Urea) 고함량 각질 제거·보습 크림. 건조·각화 피부 관리.",
@@ -1729,7 +1729,7 @@ export const products: Product[] = [
   {
     id: "curip-ointment-8g",
     name: "큐립연고 8g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-큐립연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "알란토인·덱스판테놀 복합 피부 보호·재생 연고.",
@@ -1743,7 +1743,7 @@ export const products: Product[] = [
   {
     id: "melanon-cream-23g",
     name: "멜라논크림 23g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-멜라논크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "하이드로퀴논 2% 기미·잡티 색소침착 미백 크림.",
@@ -1757,7 +1757,7 @@ export const products: Product[] = [
   {
     id: "vetra-gel-15g",
     name: "베트라겔 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-베트라겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "헤파린나트륨 소염·혈전 용해 겔. 멍·타박상·정맥류 완화.",
@@ -1771,7 +1771,7 @@ export const products: Product[] = [
   {
     id: "azelia-cream-30g",
     name: "아젤리아크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아젤리아크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "아젤라산 20% 여드름·색소침착 복합 치료 크림.",
@@ -1786,7 +1786,7 @@ export const products: Product[] = [
   {
     id: "procam-ef-20ml",
     name: "프로캄이지에프 액티브바이탈크림 20ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프로캄이지에프크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "EGF(상피세포성장인자) 복합 피부 재생·활력 크림. 상처·자극 피부 회복을 도와요.",
@@ -1800,7 +1800,7 @@ export const products: Product[] = [
   {
     id: "rosiden-gel-100g",
     name: "로시덴겔 100g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-로시덴겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "헤파린나트륨 함유 혈액순환 개선 겔. 멍·타박상·혈전성 정맥염 치료.",
@@ -1814,7 +1814,7 @@ export const products: Product[] = [
   {
     id: "mulindi-kid-15g",
     name: "물린디키드크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-물린디키드크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "디펜히드라민+알란토인 어린이 벌레물림 진정 크림. 가려움·발적 완화.",
@@ -1828,7 +1828,7 @@ export const products: Product[] = [
   {
     id: "rijudbe-repair-20g",
     name: "리쥬드비에 리페어크림 20g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리쥬드비에크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "덱스판테놀+비타민E 복합 피부 재생 크림. 건조하고 손상된 피부 집중 회복.",
@@ -1842,7 +1842,7 @@ export const products: Product[] = [
   {
     id: "diphan-bug-gel-30g",
     name: "디판버그겔 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디판버그겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "디펜히드라민+덱스판테놀 복합 벌레물림·가려움 치료 겔. 항히스타민+재생 이중 작용.",
@@ -1856,7 +1856,7 @@ export const products: Product[] = [
   {
     id: "pharmacian-pdrn7000-30g",
     name: "파머시안 PDRN7000 크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-파머시안피디알엔크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "PDRN(폴리디옥시리보뉴클레오티드) 고함량 피부 재생 크림. 노화·손상 피부 회복.",
@@ -1870,7 +1870,7 @@ export const products: Product[] = [
   {
     id: "wellbeing-foot-120g",
     name: "웰빙헬스 고운발 풋크림 120g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-고운발풋크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "요소(Urea) 함유 발 전용 보습·각질 제거 크림. 갈라진 발뒤꿈치 집중 케어.",
@@ -1884,7 +1884,7 @@ export const products: Product[] = [
   {
     id: "bumuli-gel-50g",
     name: "둥근머리 버물리겔 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-버물리겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "디펜히드라민+dl-캄파 복합 벌레물림 겔. 겔 타입으로 산뜻하고 빠르게 흡수돼요.",
@@ -1898,7 +1898,7 @@ export const products: Product[] = [
   {
     id: "diphan-septic-30g",
     name: "디판셉틱크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디판셉틱크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "클로르헥시딘+덱스판테놀 복합 소독·재생 크림. 상처 감염 예방과 피부 회복을 동시에.",
@@ -1912,7 +1912,7 @@ export const products: Product[] = [
   {
     id: "diphan-cure-30g",
     name: "디판큐어크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-디판큐어크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "덱스판테놀+히알루론산 복합 상처 치유 크림. 화상·찰과상 후 피부 재생 촉진.",
@@ -1926,7 +1926,7 @@ export const products: Product[] = [
   {
     id: "neotan-10g",
     name: "네오탄연고 10g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-네오탄연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "네오마이신+덱스판테놀 복합 항생·재생 연고. 감염 상처의 치유를 돕는 복합 연고.",
@@ -1940,7 +1940,7 @@ export const products: Product[] = [
   {
     id: "sebecool-gel-40g",
     name: "써버쿨겔 40g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-써버쿨겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "이부프로펜 외용 소염진통 겔. 청량감 있는 겔 타입으로 근육통·타박상에 사용해요.",
@@ -1954,7 +1954,7 @@ export const products: Product[] = [
   {
     id: "bisten-50g",
     name: "비스텐연고 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-비스텐연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "비타민A+비타민E 복합 피부 재생·보습 연고. 건조 피부·각질 개선에 효과적이에요.",
@@ -1968,7 +1968,7 @@ export const products: Product[] = [
   {
     id: "dominalight-40g",
     name: "도미나라이트크림 40g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-도미나라이트크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "하이드로퀴논 2% 기미·색소침착 개선 크림. 기존 도미나 대비 피부 자극이 적어요.",
@@ -1982,7 +1982,7 @@ export const products: Product[] = [
   {
     id: "rejunic-pdrn-20ml",
     name: "리쥬닉 PDRN 크림 20ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리쥬닉크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "PDRN+덱스판테놀 피부 재생 크림. 민감하고 손상된 피부의 회복을 돕는 크림.",
@@ -1996,7 +1996,7 @@ export const products: Product[] = [
   {
     id: "urea-ointment-60g",
     name: "우레아연고 60g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-우레아연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "요소(Urea) 200mg/g 각질 제거·보습 연고. 건성·어린선·굳은살 등 두꺼운 각질 개선.",
@@ -2010,7 +2010,7 @@ export const products: Product[] = [
   {
     id: "uladerm-50g",
     name: "유라덤크림 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유라덤크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "요소(Urea) 10%+글리세린 복합 보습 크림. 거친 피부·건조증 집중 보습 케어.",
@@ -2024,7 +2024,7 @@ export const products: Product[] = [
   {
     id: "ptin-30g",
     name: "프틴크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프틴크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "피록시캄+알란토인 복합 소염·재생 크림. 피부 염증과 상처 회복을 동시에 도와요.",
@@ -2038,7 +2038,7 @@ export const products: Product[] = [
   {
     id: "puriden-25g",
     name: "푸리덴연고 25g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-푸리덴연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "무피로신 0.2% 항생제 연고. 농가진·상처 이차감염 치료 전문 항생 연고.",
@@ -2052,7 +2052,7 @@ export const products: Product[] = [
   {
     id: "sarana-20ml",
     name: "사라나크림 20ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-사라나크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "덱스판테놀+알란토인 복합 피부 재생 크림. 손상 피부 복구·보습을 위한 멀티 케어.",
@@ -2066,7 +2066,7 @@ export const products: Product[] = [
   {
     id: "rijuchiol-pdrn-30ml",
     name: "리쥬치올 PDRN 크림 30ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-리쥬치올크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "PDRN+덱스판테놀+히알루론산 고보습 재생 크림. 민감하고 건조한 피부에 적합해요.",
@@ -2080,7 +2080,7 @@ export const products: Product[] = [
   {
     id: "herien-tok-5g",
     name: "헤리엔톡크림 5g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-헤리엔톡크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "디클로페낙+덱스판테놀 복합 소염·재생 크림. 소용량으로 휴대가 간편해요.",
@@ -2094,7 +2094,7 @@ export const products: Product[] = [
   {
     id: "tabagen-gel-15g",
     name: "타바겐겔 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-타바겐겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "피록시캄 0.5% 소염진통 겔. 근육통·관절통·타박상의 통증과 염증 완화.",
@@ -2108,7 +2108,7 @@ export const products: Product[] = [
   {
     id: "aricot-s-15g",
     name: "아리코트에스크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아리코트에스크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "히드로코르티손+클리오퀴놀+알란토인 복합 스테로이드 크림. 습진·피부염 치료.",
@@ -2122,7 +2122,7 @@ export const products: Product[] = [
   {
     id: "keranon-60g",
     name: "케라논연고 60g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-케라논연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "요소(Urea) 고농도 각질 연화·보습 연고. 두꺼운 각질과 굳은살 집중 개선.",
@@ -2136,7 +2136,7 @@ export const products: Product[] = [
   {
     id: "jeil-cool-kid-15g",
     name: "제일쿨키드크림 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제일쿨키드크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "디펜히드라민+알란토인 소아용 벌레물림 크림. 가려움 빠른 진정과 상처 회복.",
@@ -2150,7 +2150,7 @@ export const products: Product[] = [
   {
     id: "mentholatum-roll-hot-50ml",
     name: "멘소래담 롤온로션 핫타입 50ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-멘소래담롤온로션.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "멘톨+살리실산메틸 롤온 타입 온열 소염진통 로션. 손 안 묻히고 편리하게 사용해요.",
@@ -2164,7 +2164,7 @@ export const products: Product[] = [
   {
     id: "cleartin-2pct-30ml",
     name: "클리어틴 외용액 2% 30mL",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-클리어틴외용액.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "클로트리마졸 2% 무좀·피부사상균 항진균 외용액. 발가락 사이 등 좁은 부위에도 편리하게 사용해요.",
@@ -2178,7 +2178,7 @@ export const products: Product[] = [
   {
     id: "purefine-mild-glycerol",
     name: "푸레파인 마일드 좌제",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-푸레파인마일드좌제.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "글리세롤 성분 직장 삽입형 변비 완화 좌제. 15~30분 내 효과가 나타나요.",
@@ -2192,7 +2192,7 @@ export const products: Product[] = [
   {
     id: "trigel-sucralfate",
     name: "트리겔 현탁액",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-트리겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "수크랄페이트+옥세타카인 복합 위장관 점막 보호 현탁액. 빠른 통증 완화와 점막 보호.",
@@ -2206,7 +2206,7 @@ export const products: Product[] = [
   {
     id: "duratears-ointment",
     name: "듀라티얼즈 안연고",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-듀라티얼즈안연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "파라핀+라놀린 안건조증 완화 안연고. 방부제 무함유로 민감한 눈에 적합해요.",
@@ -2220,7 +2220,7 @@ export const products: Product[] = [
   {
     id: "purefine-heparin-gel",
     name: "푸레파인겔",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-푸레파인겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "헤파린나트륨+덱스판테놀 복합 멍·부종 완화 겔. 타박상 혈종 흡수와 피부 재생.",
@@ -2234,7 +2234,7 @@ export const products: Product[] = [
   {
     id: "sangchae-beauty-premium",
     name: "상처앤 뷰티 프리미엄",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-상처앤뷰티.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "아시아티코사이드+덱스판테놀 복합 기능성 상처 치유·피부 재생 외용제.",
@@ -2248,7 +2248,7 @@ export const products: Product[] = [
   {
     id: "hepagel-1000iu",
     name: "헤파겔액",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-헤파겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "헤파린나트륨 1000IU/g 고농도 혈종·타박상·정맥류 완화 겔.",
@@ -2262,7 +2262,7 @@ export const products: Product[] = [
   {
     id: "patima-gel-25pct",
     name: "파티마겔 2.5%",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-파티마겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "피록시캄 2.5% 고농도 NSAID 소염진통 겔. 강력한 근육통·관절통 완화.",
@@ -2276,7 +2276,7 @@ export const products: Product[] = [
   {
     id: "terbinew-gel-1pct",
     name: "터비뉴겔",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-터비뉴겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "테르비나핀 1% 살진균 항진균 겔. 무좀균을 직접 사멸해 재발률이 낮아요.",
@@ -2304,7 +2304,7 @@ export const products: Product[] = [
   {
     id: "esroban-teatree-10g",
     name: "에스로반 연고 티트리오일",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-에스로반티트리오일.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "무피로신 2%+티트리오일 복합 항생제·항균 연고. 세균 감염과 천연 항균 시너지.",
@@ -2318,7 +2318,7 @@ export const products: Product[] = [
   {
     id: "procam-red-ex-cream",
     name: "프로캄 레드엑스 크림",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-프로캄레드엑스크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "캡사이신 발열 자극 소염진통 크림. 만성 근육통·신경통에 효과적이에요.",
@@ -2332,7 +2332,7 @@ export const products: Product[] = [
   {
     id: "austin-acyclovir-cream",
     name: "오스틴 아시클로버 크림 5%",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-오스틴아시클로버크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "아시클로버 5% 입술 물집·헤르페스 항바이러스 크림. 증상 초기에 바를수록 효과적.",
@@ -2346,7 +2346,7 @@ export const products: Product[] = [
   {
     id: "yuhan-minoxfen-gel-5pct",
     name: "유한 미녹펜겔 5%",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유한미녹펜겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "미녹시딜 5% 남성형 탈모 외용 겔. 두피 혈액 순환 개선으로 탈모 억제 및 발모 촉진.",
@@ -2360,7 +2360,7 @@ export const products: Product[] = [
   {
     id: "optishield-eye-ointment",
     name: "옵티실드 연고",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-옵티실드연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "히알루론산나트륨 안구 보호·건조증 완화 안연고. 방부제 무함유 고점성 안연고.",
@@ -2374,7 +2374,7 @@ export const products: Product[] = [
   {
     id: "willogel-double-action",
     name: "윌로겔 더블액션 현탁액",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-윌로겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "수크랄페이트 위장관 점막 보호 현탁액. 궤양 부위 방어막 형성으로 점막 보호.",
@@ -2388,7 +2388,7 @@ export const products: Product[] = [
   {
     id: "potagel-sucralfate",
     name: "포타겔 현탁액",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-포타겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "수크랄페이트 위궤양·십이지장궤양 점막 보호 현탁액. 위장 점막 방어막 형성.",
@@ -2402,7 +2402,7 @@ export const products: Product[] = [
   {
     id: "colordem-s-liquid",
     name: "콜로덤 에스 액",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-콜로덤에스.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "락티톨+락툴로오스 장내 삼투압 완하제 액. 만성 변비와 간성 뇌증 관리에 사용해요.",
@@ -2416,7 +2416,7 @@ export const products: Product[] = [
   {
     id: "varzio-once-solution",
     name: "바르지오 원스 외용액",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-바르지오원스.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "피록시캄 NSAID 소염진통 외용액. 빠른 건조 액체 제형으로 근육통·관절통 완화.",
@@ -2430,7 +2430,7 @@ export const products: Product[] = [
   {
     id: "acrin-spray-bpo",
     name: "애크린 외용액 스프레이",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-애크린외용액스프레이.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "과산화벤조일 2.5% 여드름 치료 스프레이. 등·가슴 넓은 부위 여드름에 편리해요.",
@@ -2444,7 +2444,7 @@ export const products: Product[] = [
   {
     id: "madecassol-care-6g",
     name: "마데카솔 케어 연고 6g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마데카솔케어연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "마데카솔 케어 소용량 6g. 항균+피부재생 복합 작용으로 세균성 상처에 효과적이에요.",
@@ -2458,7 +2458,7 @@ export const products: Product[] = [
   {
     id: "cerestongz-30g",
     name: "쎄레스톤-지 크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-쎄레스톤지크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "베타메타손+겐타마이신 복합 크림 30g 대용량. 염증+항균 동시 작용 스테로이드 크림이에요.",
@@ -2472,7 +2472,7 @@ export const products: Product[] = [
   {
     id: "fucidin-band-l5",
     name: "후시딘 밴드 대형 5매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-후시딘밴드.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "퓨시드산 함침 항균 드레싱 밴드 대형 5매. 상처 소독과 항균을 동시에 해결해요.",
@@ -2486,7 +2486,7 @@ export const products: Product[] = [
   {
     id: "madecassol-powder-30g",
     name: "마데카솔 분말 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마데카솔분말.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "마데카솔 분말 30g 대용량. 연고 바르기 불편한 습한 상처에 분말로 뿌려 사용해요.",
@@ -2500,7 +2500,7 @@ export const products: Product[] = [
   {
     id: "bepanthen-100g",
     name: "비판텐 연고 100g",
-    image: "/images/placeholder.svg",
+    image: "/images/nedrug-비판텐.jpg",
     category: "일반의약품",
     categorySlug: "연고",
     description: "비판텐 대용량 100g. 덱스판테놀(프로비타민B5) 피부재생·보습 연고로 가정 상비 크기예요.",
@@ -2514,7 +2514,7 @@ export const products: Product[] = [
   {
     id: "novazone-30g",
     name: "노바손 크림 30g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-노바손크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "노바손 크림 30g 대용량. 베타메타손+겐타마이신 복합 스테로이드 크림이에요.",
@@ -2528,7 +2528,7 @@ export const products: Product[] = [
   {
     id: "domina-60g",
     name: "도미나크림 단지형 60g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-도미나크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "하이드로퀴논+트레티노인 복합 미백 크림 60g 단지형. 기미·잡티 치료 전문 의약품이에요.",
@@ -2542,7 +2542,7 @@ export const products: Product[] = [
   {
     id: "fucidin-gel-15g",
     name: "후시딘겔 15g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-후시딘겔.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "후시딘 겔 15g. 퓨시드산 항균 성분의 겔 타입으로 산뜻하고 끈적임이 없어요.",
@@ -2556,7 +2556,7 @@ export const products: Product[] = [
   {
     id: "melanotoning-50g",
     name: "멜라토닝크림 2% 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-멜라토닝크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "하이드로퀴논 2% 미백 크림 50g. 기미·주근깨·잡티 치료에 사용하는 의약품이에요.",
@@ -2570,7 +2570,7 @@ export const products: Product[] = [
   {
     id: "ezf-newssal-5g",
     name: "이지에프 새살 연고 5g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-이지에프새살연고.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "EGF(상피세포성장인자) 함유 새살 연고 5g. 피부 세포 재생을 촉진해 흉터 없이 회복해요.",
@@ -2598,7 +2598,7 @@ export const products: Product[] = [
   {
     id: "madeca-moist-band-cut-3",
     name: "마데카 습윤밴드 잘라 쓰는 타입 3매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마데카습윤밴드잘라쓰는타입.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "마데카 히드로콜로이드 습윤밴드 잘라 쓰는 타입. 대형 상처에 원하는 크기로 재단해 사용해요.",
@@ -2612,7 +2612,7 @@ export const products: Product[] = [
   {
     id: "madeca-moist-band-m5",
     name: "마데카 습윤밴드 중형 5매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마데카습윤밴드중형.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "마데카 히드로콜로이드 습윤밴드 중형 5매. 중간 크기 상처에 바로 붙여 사용해요.",
@@ -2626,7 +2626,7 @@ export const products: Product[] = [
   {
     id: "madeca-moist-band-spot69",
     name: "마데카 습윤밴드 스팟형 69매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마데카습윤밴드스팟형.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "마데카 히드로콜로이드 습윤밴드 스팟형 69매. 여드름·소형 상처에 사용하는 경제적인 스팟 패치예요.",
@@ -2640,7 +2640,7 @@ export const products: Product[] = [
   {
     id: "madeca-moist-band-spot138",
     name: "마데카 습윤밴드 스팟형 138매입",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마데카습윤밴드스팟형.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "마데카 히드로콜로이드 습윤밴드 스팟형 138매 대용량. 여드름·소형 상처에 사용하는 가성비 대용량이에요.",
@@ -2654,7 +2654,7 @@ export const products: Product[] = [
   {
     id: "hoodicare-moist-band-l2",
     name: "후디케어 습윤밴드 대형 2매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-후디케어습윤밴드대형.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "후디케어 히드로콜로이드 습윤밴드 대형 2매. 넓은 상처 부위에 덮어 습윤 치유를 해요.",
@@ -2668,7 +2668,7 @@ export const products: Product[] = [
   {
     id: "hoodicare-moist-band-spot73",
     name: "후디케어 습윤밴드 스팟형 73매",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-후디케어습윤밴드스팟형.webp",
     category: "일반의약품",
     categorySlug: "연고",
     description: "후디케어 히드로콜로이드 습윤밴드 스팟형 73매. 여드름·소형 상처에 붙이는 스팟 패치예요.",

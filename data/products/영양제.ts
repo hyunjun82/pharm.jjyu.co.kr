@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "yuhan-vitaminc-600tabs",
     name: "유한 비타민C 1000mg 600정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유한비타민C.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "고함량 비타민C 1000mg 정제. 항산화·면역력 강화에 쓰이는 대표 비타민C.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "koreansilver-vitaminc-300tabs",
     name: "고려은단 비타민C1000 300정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-고려은단비타민C.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "약국 비타민C 대표 브랜드 고려은단. 순도 높은 L-아스코르브산 1000mg.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "jongkwangdang-vitamind-90tabs",
     name: "종근당 비타민D 4000IU 츄어블 90정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-종근당비타민D.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "씹어먹는 고함량 비타민D3 4000IU. 뼈·면역·근육 건강 지원.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "supermax-lutein-120caps",
     name: "슈퍼맥스 루테인 골드 120캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-슈퍼맥스루테인.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "눈 건강 지원 루테인+지아잔틴 복합 캡슐. 황반 보호·시력 유지.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "ildong-omega3-120caps",
     name: "일동 알티지 오메가3 프리미엄 120캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-일동오메가3.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "rTG 형태의 고순도 오메가3. EPA·DHA 함량 높아 흡수율 뛰어남.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "thebon-calcium-120tabs",
     name: "더본 칼슘 골드 120정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-더본칼슘골드.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "칼슘+비타민D3+마그네슘 복합 뼈 건강 정제. 흡수율 높은 칼슘시트레이트.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
     id: "yuhan-coq10-120caps",
     name: "유한m 코엔자임볼란테 500mg 120캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-코엔자임볼란테.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "코엔자임Q10 고함량 500mg 캡슐. 세포 에너지 생성·심혈관 건강 지원.",
@@ -109,7 +109,7 @@ export const products: Product[] = [
   {
     id: "ascorip-lipocel-30packs",
     name: "아스코립 리포셀 비타민C 30포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아스코립리포셀.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "리포소말(지질 캡슐화) 비타민C. 일반 비타민C보다 흡수율 우수.",
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: "jongkwangdang-vitaminc-gold-200tabs",
     name: "종근당 비타민C 골드정 1000mg 200정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-종근당비타민C골드.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민C+바이오플라보노이드 복합 정제. 흡수 강화 버전 종근당 비타민C.",
@@ -139,7 +139,7 @@ export const products: Product[] = [
   {
     id: "bigsolra-lutein-180caps",
     name: "빅솔라 슈퍼 루테인 500mg 180캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-빅솔라루테인.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "대용량 고함량 루테인+제아잔틴 캡슐. 장기 복용에 경제적인 180캡슐.",
@@ -154,7 +154,7 @@ export const products: Product[] = [
   {
     id: "impactamin-premium-120tabs",
     name: "임팩타민 프리미엄정 120정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-임팩타민.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민B 6종 복합 피로회복 정제. 티아민·리보플라빈·피리독신·B12·니코틴산아미드·판토텐산 한 번에.",
@@ -169,7 +169,7 @@ export const products: Product[] = [
   {
     id: "aronaamin-gold-100tabs",
     name: "아로나민 골드정 100정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아로나민골드.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "활성형 비타민B1(푸르설티아민) 신경통·피로 전문 정제. 일반 티아민보다 흡수율 높은 활성형.",
@@ -184,7 +184,7 @@ export const products: Product[] = [
   {
     id: "magbe-120caps",
     name: "마그비 연질캡슐 120캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-마그비.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "마그네슘 보충제 연질캡슐. 근육경련·수면장애·스트레스 완화에 쓰이는 대표 마그네슘.",
@@ -199,7 +199,7 @@ export const products: Product[] = [
   {
     id: "bone-d-120caps",
     name: "본앤디 연질캡슐 120캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-본앤디.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "칼슘+비타민D3+비타민K2+마그네슘 4종 복합 뼈 건강 제품. 골흡수부터 칼슘 침착까지 통합 지원.",
@@ -214,7 +214,7 @@ export const products: Product[] = [
   {
     id: "letitbe-120tabs",
     name: "렛잇비정 120정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-렛잇비.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "고함량 비타민D3 2000IU 정제. 햇빛이 부족한 실내 생활자·뼈 건강·면역력 지원에 적합.",
@@ -229,7 +229,7 @@ export const products: Product[] = [
   {
     id: "excelvita-premium-200tabs",
     name: "엑셀비타 프리미엄정 200정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-엑셀비타.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민 13종+미네랄 8종 종합 멀티비타민. 하루 한 정으로 전반적인 영양 결핍을 보충.",
@@ -244,7 +244,7 @@ export const products: Product[] = [
   {
     id: "oraviten-b10-20tabs",
     name: "오라비텐정 B10 20정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-오라비텐.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "파미놀산(비타민B10) 100mg 정제. 두피·모발 건강과 피부 광과민 완화에 쓰이는 B군 유사 영양소.",
@@ -259,7 +259,7 @@ export const products: Product[] = [
   {
     id: "chisen-60caps",
     name: "치센 캡슐 60캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-치센.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "히알루론산나트륨 240mg 관절·피부 영양제. 관절 윤활과 피부 수분 유지를 동시에 지원.",
@@ -274,7 +274,7 @@ export const products: Product[] = [
   {
     id: "aronaamin-cplus-120tabs",
     name: "아로나민 씨플러스정 120정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-아로나민씨플러스.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "활성형 비타민B1+비타민C+B6 복합 정제. 피로회복과 항산화 효과를 동시에 누릴 수 있어요.",
@@ -289,7 +289,7 @@ export const products: Product[] = [
   {
     id: "impactamin-poweraplus-120tabs",
     name: "임팩타민 파워에이플러스정 120정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-임팩타민파워에이플러스.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민A+B 복합 강화 정제. 점막 건강·시력·피로회복까지 광동제약 임팩타민 라인업 강화 버전.",
@@ -305,7 +305,7 @@ export const products: Product[] = [
   {
     id: "impactamin-premium-60tabs",
     name: "임팩타민 프리미엄정 60정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-임팩타민프리미엄정60정.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민B군 6종 복합 피로회복 정제 60정. 에너지 대사 지원 대표 비타민B 복합제.",
@@ -320,7 +320,7 @@ export const products: Product[] = [
   {
     id: "daewung-ursa-50mg-360caps",
     name: "대웅 우루사 연질캡슐 50mg 360캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-대웅우루사연질캡슐.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "우르소데옥시콜산 50mg 간 기능 개선 연질캡슐. 피로·식욕부진 개선 대용량 360캡슐.",
@@ -335,7 +335,7 @@ export const products: Product[] = [
   {
     id: "bokham-ursa-80caps",
     name: "복합 우루사 80캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-복합우루사.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "우르소데옥시콜산+비타민B군 복합 간 건강·피로회복 캡슐. 간 기능과 에너지 대사 동시 지원.",
@@ -350,7 +350,7 @@ export const products: Product[] = [
   {
     id: "ursa-100mg-100tabs",
     name: "우루사정 100mg 100정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-우루사정100mg.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "우르소데옥시콜산 100mg 고함량 간 기능 개선 정제. 담즙 분비 촉진·간세포 보호 효과.",
@@ -365,7 +365,7 @@ export const products: Product[] = [
   {
     id: "yuhan-vitaminc-1000-200tabs",
     name: "유한 비타민C 1000mg 200정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유한비타민C1000mg200정.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "고함량 비타민C 1000mg 정제 200정 팩. 항산화·면역력 강화 중용량 구성.",
@@ -380,7 +380,7 @@ export const products: Product[] = [
   {
     id: "hepatin-10caps",
     name: "헤파신캡슐 10캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-헤파신캡슐.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "실리마린 함유 간 보호 캡슐. 밀크시슬 유효성분으로 간세포 손상 억제.",
@@ -395,7 +395,7 @@ export const products: Product[] = [
   {
     id: "impactamin-once-180tabs",
     name: "임팩타민 원스정 180정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-임팩타민원스정.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민B군 1일 1회 복용형 피로회복 정제. 하루 한 번으로 간편하게 비타민B 보충.",
@@ -410,7 +410,7 @@ export const products: Product[] = [
   {
     id: "impactamin-care-120tabs",
     name: "임팩타민 케어정 120정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-임팩타민케어정.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민B군+아연 복합 면역·에너지 정제. 면역 기능과 에너지 대사를 함께 지원.",
@@ -425,7 +425,7 @@ export const products: Product[] = [
   {
     id: "impactamin-signature-120tabs",
     name: "임팩타민 시그니처정 120정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-임팩타민시그니처정.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "고함량 비타민B군 프리미엄 정제. 임팩타민 라인업 최고 함량 버전.",
@@ -440,7 +440,7 @@ export const products: Product[] = [
   {
     id: "gyeongnam-vitaminc-300tabs",
     name: "경남 비타민씨정 1000mg 300정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-경남비타민씨정.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "경남제약 비타민C 1000mg 정제 300정 대용량. 항산화·면역력 강화 경제적 구성.",
@@ -456,7 +456,7 @@ export const products: Product[] = [
   {
     id: "daewung-ursa-soft-120caps",
     name: "대웅 우루사 연질캡슐 50mg 120캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-대웅우루사연질캡슐.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "UDCA 50mg 연질캡슐 120캡슐. 간 기능 개선, 담즙 분비 촉진에 쓰이는 대표 우루사예요.",
@@ -470,7 +470,7 @@ export const products: Product[] = [
   {
     id: "compound-ursa-60caps",
     name: "복합 우루사 60캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-복합우루사.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "UDCA+비타민B군 복합 우루사 60캡슐. 간 기능 개선과 에너지 대사를 동시에 지원해요.",
@@ -484,7 +484,7 @@ export const products: Product[] = [
   {
     id: "daewung-ursa-soft-60caps",
     name: "대웅 우루사 연질캡슐 50mg 60캡슐",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-대웅우루사연질캡슐.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "UDCA 50mg 연질캡슐 60캡슐 소용량. 대웅 우루사 가장 구하기 쉬운 규격이에요.",
@@ -498,7 +498,7 @@ export const products: Product[] = [
   {
     id: "ursa-300mg-300tabs",
     name: "우루사정 100mg 300정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-우루사정100mg.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "UDCA 100mg 정제 300정. 간 기능 개선에 널리 사용되는 고함량 우루사정이에요.",
@@ -512,7 +512,7 @@ export const products: Product[] = [
   {
     id: "ursa-100mg-30tabs",
     name: "우루사정 100mg 30정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-우루사정100mg.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "UDCA 100mg 정제 30정 소용량. 우루사정 가장 작은 규격으로 처음 시작하기 좋아요.",
@@ -526,7 +526,7 @@ export const products: Product[] = [
   {
     id: "ursa-100mg-100tabs",
     name: "우루사정 100mg 100정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-우루사정100mg.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "UDCA 100mg 정제 100정. 우루사정 가장 대중적인 규격이에요.",
@@ -540,7 +540,7 @@ export const products: Product[] = [
   {
     id: "ursa-100mg-500tabs",
     name: "우루사정 100mg 500정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-우루사정100mg.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "UDCA 100mg 정제 500정 대용량. 장기 복용이나 가정 상비에 적합한 경제적 규격이에요.",
@@ -554,7 +554,7 @@ export const products: Product[] = [
   {
     id: "yuhan-vitaminc-100tabs",
     name: "유한 비타민C 1000mg 100정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유한비타민C.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민C 1000mg 정제 100정. 항산화·면역력 강화 유한양행 비타민C예요.",
@@ -568,7 +568,7 @@ export const products: Product[] = [
   {
     id: "yuhan-vitaminc-300tabs",
     name: "유한 비타민C 1000mg 300정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-유한비타민C.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민C 1000mg 정제 300정 대용량. 경제적인 유한 비타민C 대용량 팩이에요.",
@@ -582,7 +582,7 @@ export const products: Product[] = [
   {
     id: "kyungnam-vitaminc-600tabs",
     name: "경남 비타민씨정 1000mg 600정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-경남비타민씨정.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민C 1000mg 경남제약 600정 대용량. 가성비 높은 비타민C 대용량이에요.",
@@ -596,7 +596,7 @@ export const products: Product[] = [
   {
     id: "hepatos-syrup-20ml30",
     name: "헤파토스시럽 20ml 30앰플",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-헤파토스시럽.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "아르기닌+오르니틴 복합 간 기능 개선 시럽 앰플. 피로 회복과 암모니아 해독을 도와요.",
@@ -610,7 +610,7 @@ export const products: Product[] = [
   {
     id: "hepatoxion-90tabs",
     name: "헤파톡시온정 90정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-헤파톡시온정.webp",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "실리마린+메티오닌 복합 간세포 보호 정제. 알코올성 간 손상과 간 기능 저하에 효과적이에요.",

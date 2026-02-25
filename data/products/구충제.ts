@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "zelcom-2tabs",
     name: "젤콤정 알벤다졸 2정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-젤콤정.webp",
     category: "일반의약품",
     categorySlug: "구충제",
     description: "알벤다졸 200mg 대표 구충제 젤콤. 회충·요충·십이지장충 등 광범위 구충.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "jeil-albendazole-2tabs",
     name: "제일 알벤다졸 2정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-제일알벤다졸.webp",
     category: "일반의약품",
     categorySlug: "구충제",
     description: "제일제약 알벤다졸 400mg 구충제. 회충·편충·요충·십이지장충 구충 효과.",
@@ -34,7 +34,7 @@ export const products: Product[] = [
   {
     id: "boryung-albendazole-2tabs",
     name: "보령 알벤다졸 2정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-보령알벤다졸.webp",
     category: "일반의약품",
     categorySlug: "구충제",
     description: "보령제약 알벤다졸 400mg 구충제. 고함량 1회 복용으로 광범위 구충.",
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: "zelcom-suspension-2packs",
     name: "젤콤 현탁액 15ml 2포",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-젤콤현탁액.webp",
     category: "일반의약품",
     categorySlug: "구충제",
     description: "젤콤 알벤다졸 현탁액. 삼키기 어려운 소아·노인을 위한 액상 구충제.",
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: "daewung-albendazole-2tabs",
     name: "대웅 알벤다졸정 2정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-대웅알벤다졸.webp",
     category: "일반의약품",
     categorySlug: "구충제",
     description: "대웅제약 알벤다졸 400mg 구충제. 광범위 구충 효과로 연 1~2회 복용 권장.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "alsak-albendazole-2tabs",
     name: "알싹정 2정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-알싹정.webp",
     category: "일반의약품",
     categorySlug: "구충제",
     description: "알싹 알벤다졸 400mg 구충제. 회충·요충·십이지장충을 한 번에 제거.",
@@ -94,7 +94,7 @@ export const products: Product[] = [
   {
     id: "zelcom-1tab",
     name: "젤콤정 1정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-젤콤정1정.webp",
     category: "일반의약품",
     categorySlug: "구충제",
     description: "젤콤 알벤다졸 200mg 단품. 용량 조절이 필요한 소아나 개별 복용 시 편리.",
@@ -110,7 +110,7 @@ export const products: Product[] = [
   {
     id: "zentel-400mg-2tabs",
     name: "젠텔정 400mg 2정",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-젠텔정.webp",
     category: "일반의약품",
     categorySlug: "구충제",
     description: "알벤다졸 400mg 글락소스미스클라인 광범위 구충제. 회충·요충·편충·십이지장충·조충 구충.",

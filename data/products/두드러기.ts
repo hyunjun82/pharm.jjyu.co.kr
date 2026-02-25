@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "mensolatum-lotion-100ml",
     name: "멘소래담 로션 100ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-멘소래담로션.webp",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "캠퍼·멘톨 함유 피부가려움 완화 로션. 두드러기·벌레물린 데·열감에 효과.",
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: "lacticare-hc-60g",
     name: "락티케어HC로션 1% 60g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-락티케어HC로션.webp",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "히드로코르티손 1% 항소염 로션. 습진·접촉성 피부염·두드러기 완화.",
@@ -127,7 +127,7 @@ export const products: Product[] = [
   {
     id: "antipuramin-s-lotion-100ml",
     name: "안티푸라민 에스 로션 100ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민에스로션100ml.webp",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "가려움·두드러기 완화 로션. 디펜히드라민+캄파 복합 성분으로 빠른 진정 효과.",
@@ -141,7 +141,7 @@ export const products: Product[] = [
   {
     id: "antipuramin-lotion-mild-100ml",
     name: "안티푸라민 로션 마일드 100ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-안티푸라민로션마일드.webp",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "자극 없는 순한 버전 가려움 완화 로션. 디펜히드라민 1% 단일 성분.",
@@ -155,7 +155,7 @@ export const products: Product[] = [
   {
     id: "hatison-lotion-60ml",
     name: "하티손 로션 1% 60ml",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-하티손로션.webp",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "히드로코르티손 1% 스테로이드 가려움·두드러기 완화 로션. 피부염·습진에 효과.",
@@ -169,7 +169,7 @@ export const products: Product[] = [
   {
     id: "joacare-lotion-50g",
     name: "조아케어 로션 1% 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-조아케어로션.webp",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "히드로코르티손 1% 가려움·두드러기 완화 로션. 락티케어HC와 동일 성분의 제네릭.",
@@ -197,7 +197,7 @@ export const products: Product[] = [
   {
     id: "joacare-lotion-50g-b",
     name: "조아 케어 로션 1% 50g",
-    image: "/images/placeholder.svg",
+    image: "/images/barkiri-조아케어로션50g.webp",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "조아 케어 로션 히드로코르티손 1% 50g 팩. 두드러기·습진·접촉성 피부염 완화.",
