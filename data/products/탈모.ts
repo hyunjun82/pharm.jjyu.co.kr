@@ -1987,7 +1987,7 @@ export const products: Product[] = [
     image: "/images/모바린액.webp",
     category: "일반의약품",
     categorySlug: "탈모",
-    description: "태극제약 미녹시딜 5% 분무형 외용액. 두피 혈류 개선으로 발모 촉진.",
+    description: "(주)일화 미녹시딜 5% 분무형 외용액. 두피 혈류 개선으로 발모 촉진.",
     price: 18000,
     unit: "60ml",
     ingredients: "미녹시딜",
