@@ -113,9 +113,18 @@ export default async function HubPage({ params }: PageProps) {
       {categoryProducts.length > 0 && (
         <section className="border-t bg-gray-50/50">
           <div className="mx-auto max-w-4xl px-4 py-10">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">
-              {catInfo.name} 최저가 비교
-            </h2>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-bold text-gray-900">
+                {catInfo.name} 최저가 비교
+              </h2>
+              <Link
+                href={`/${slug}/가격비교`}
+                className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-700 hover:bg-emerald-100 transition-colors"
+              >
+                💰 전체 가격비교
+                <ChevronRight className="h-3.5 w-3.5" />
+              </Link>
+            </div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {categoryProducts.map((product) => (
                 <ProductCard key={product.id} product={product} />

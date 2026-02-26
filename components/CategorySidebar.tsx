@@ -43,14 +43,21 @@ export function CategorySidebar({ categorySlug, currentSlug }: CategorySidebarPr
             })}
           </ul>
 
-          {/* 허브 가이드 링크 */}
-          <div className="mt-3 pt-3 border-t border-gray-100">
+          {/* 허브 가이드 링크 + 가격비교 */}
+          <div className="mt-3 pt-3 border-t border-gray-100 space-y-1">
             <Link
               href={`/${categorySlug}`}
               className="flex items-center gap-2 px-3 py-2 text-sm text-gray-500 hover:text-emerald-600 transition-colors"
             >
               <ChevronRight className="h-3.5 w-3.5 shrink-0 text-gray-300" />
               {hub.categorySlug} 가이드 전체 보기
+            </Link>
+            <Link
+              href={`/${categorySlug}/가격비교`}
+              className="flex items-center gap-2 px-3 py-2 text-sm text-emerald-600 hover:text-emerald-700 font-medium transition-colors"
+            >
+              <ChevronRight className="h-3.5 w-3.5 shrink-0 text-emerald-400" />
+              💰 가격비교 보기
             </Link>
           </div>
         </nav>
