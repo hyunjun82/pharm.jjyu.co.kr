@@ -81,15 +81,6 @@ export default function RootLayout({
               "@type": "WebSite",
               name: "약정보",
               url: "https://pharm.jjyu.co.kr",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: {
-                  "@type": "EntryPoint",
-                  urlTemplate:
-                    "https://pharm.jjyu.co.kr/search?q={search_term_string}",
-                },
-                "query-input": "required name=search_term_string",
-              },
             }),
           }}
         />
