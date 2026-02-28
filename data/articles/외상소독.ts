@@ -69,6 +69,11 @@ export const hub: HubArticle = {
       description: "에탄올 함침 일회용 알코올 소독 스왑",
     },
     { slug: "그린과산화수소수60ml", title: "그린과산화수소수60ml 최저가 가격 | 성분 효과 사용법 부작용까지", description: "과산화수소 3% 소형 60ml 휴대용 소독액" },
+      {
+        slug: "그린과산화수소수60ml",
+        title: "그린과산화수소수60ml 보관법",
+        description: "과산화수소 3% 소형 60ml 휴대용 소독액 그린과산화수소수60ml의 성분, 사용법, 부작용 정보를 제공해요.",
+      },
   ],
 };
 
