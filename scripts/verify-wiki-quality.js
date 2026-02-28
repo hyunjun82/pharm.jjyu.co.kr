@@ -14,6 +14,7 @@ const EXTERNAL_BYEONBI = ["둘코락스좌약", "둘코락스좌약5개"];
 const EXTERNAL_TALMO = ["미녹시딜", "판시딜", "두피나액", "판시딜액", "로게인", "카필러스폼", "미녹시폼", "판시딜액3", "동성미녹시딜3", "나녹시딜액", "나녹시딜액3", "마이딜액", "목시딜액", "백일후애액", "볼두민액", "마이녹실액", "메디녹실액", "복합마이녹실액", "미녹시딜바이그루트액3", "두피앤액", "모바린액", "마이녹실겔", "모바린겔"];
 const EXTERNAL_GUGANG = ["오라메디", "페리덱스", "알보칠", "헥사메딘", "탄툼액", "탄툼베르데네뷸라이저", "잇치페이스트", "잇치페이스트피톤치드향", "잇치페이스트프로폴리스", "가그린", "헥사메딘가글액", "구강청결겔", "아프타에이", "오라센스겔", "덴탈가드가글", "목앤스프레이"];
 const EXTERNAL_YEOSUNG = ["지노베타딘"];
+const EXTERNAL_YONGYANGJE = ["블레파졸"];
 // 외부카테고리에 있지만 실제 경구 복용하는 약 (복용법 사용)
 const INTERNAL_ORAL_IN_EXTERNAL = ["아졸정", "제놀담푸러정"];
 
@@ -87,6 +88,7 @@ function isExternalUse(cat, slug) {
   if (cat === "탈모" && /(?:액|겔|폼|스칼프|로션|외용)/.test(slug)) return true;
   if (cat === "구강" && EXTERNAL_GUGANG.includes(slug)) return true;
   if (cat === "여성건강" && EXTERNAL_YEOSUNG.includes(slug)) return true;
+  if (cat === "영양제" && EXTERNAL_YONGYANGJE.includes(slug)) return true;
   if (cat === "변비" && EXTERNAL_BYEONBI.includes(slug)) return true;
   if (slug.includes("나잘") || slug.includes("스프레이")) return true;
   return false;
