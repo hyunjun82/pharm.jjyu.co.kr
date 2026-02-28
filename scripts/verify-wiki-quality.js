@@ -83,6 +83,8 @@ function isExternalUse(cat, slug) {
   if (INTERNAL_ORAL_IN_EXTERNAL.includes(slug)) return false;
   if (EXTERNAL_CATEGORIES.includes(cat)) return true;
   if (cat === "탈모" && EXTERNAL_TALMO.includes(slug)) return true;
+  // 탈모 외용액/겔/폼/스칼프 제품은 사용법 사용 (외용)
+  if (cat === "탈모" && /(?:액|겔|폼|스칼프|로션|외용)/.test(slug)) return true;
   if (cat === "구강" && EXTERNAL_GUGANG.includes(slug)) return true;
   if (cat === "여성건강" && EXTERNAL_YEOSUNG.includes(slug)) return true;
   if (cat === "변비" && EXTERNAL_BYEONBI.includes(slug)) return true;
