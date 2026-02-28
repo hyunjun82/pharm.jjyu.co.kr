@@ -241,6 +241,9 @@ export default async function SpokePage({ params }: PageProps) {
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
               </section>
 
+              {/* 광고: 3번째 섹션(i=2) 이후 본문 중간 — 무조건 노출 */}
+              {i === 2 && <AdSlot />}
+
               {/* 가격 비교 - 사용법/복용법 바로 다음 */}
               {showPriceAfter && (
                 <>
@@ -260,9 +263,7 @@ export default async function SpokePage({ params }: PageProps) {
                       </p>
                       <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} barkiryProductId={mainProduct.barkiryProductId} externalSearchUrl={mainProduct.externalSearchUrl} categorySlug={catSlug} />
                     </div>
-                    {/* 광고 2: 가격 버튼 바로 아래 */}
-                    <AdSlot />
-                    <Separator className="mt-4" />
+                    <Separator className="mt-8" />
                   </section>
 
                   {/* 내부링크 - 같은 카테고리 다른 의약품 */}
