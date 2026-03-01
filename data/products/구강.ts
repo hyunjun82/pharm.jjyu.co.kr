@@ -393,4 +393,19 @@ export const products: Product[] = [
     usage: "1일 1~2회, 원액 10~15ml로 30~60초간 가글 후 뱉기",
     slug: "덴탈가드가글",
   },
+  // === 신규 추가 1개 (2026-03-01) ===
+  {
+    id: "aphta-chi-10tabs",
+    name: "아프타치정 10정",
+    image: "/images/barkiri-아프타치정.webp",
+    category: "일반의약품",
+    categorySlug: "구강",
+    description: "트리암시놀론아세토니드 0.1mg 구내염 치료 부착정. 궤양 부위에 붙이는 스테로이드 패치.",
+    price: 5000,
+    unit: "10정",
+    barkiryProductId: "p1534",
+    ingredients: "트리암시놀론아세토니드",
+    usage: "1일 1~3회 구내염 부위에 1정씩 부착 후 녹을 때까지 유지",
+    slug: "아프타치정",
+  },
 ];

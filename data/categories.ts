@@ -127,4 +127,11 @@ export const categories: Category[] = [
     description: "겔포스, 알마겔 등 위산과다·속쓰림·역류성 식도염 완화 제산제",
     count: 9,
   },
+  {
+    name: "상처/드레싱",
+    slug: "상처관리",
+    icon: "🩹",
+    description: "메디폼, 케어리브, 대일밴드 등 상처 보호·습윤드레싱·티눈 관리 용품",
+    count: 10,
+  },
 ];
