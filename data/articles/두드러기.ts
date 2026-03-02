@@ -15,7 +15,7 @@ export const hub: HubArticle = {
   spokes: [
     {
       slug: "멘소래담로션",
-      title: "멘소래담로션 최저가 가격 | 성분 효과 사용법 부작용까지",
+      title: "멘소래담로션 성분 효과 | 사용법 부작용 총정리",
       description: "캠퍼·멘톨 피부가려움·두드러기 완화 로션",
     },
     {
@@ -142,8 +142,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "두드러기",
     datePublished: "2026-02-24",
     dateModified: "2026-02-24",
-    title: "멘소래담로션 최저가 가격 | 성분 효과 사용법 부작용까지",
-    h1: "멘소래담로션 최저가 가격 | 성분 효과 사용법 부작용까지",
+    title: "멘소래담로션 성분 효과 | 사용법 부작용 총정리",
+    h1: "멘소래담로션 성분 효과 | 사용법 부작용 총정리",
     metaDescription:
       "멘소래담로션 성분과 효능, 부작용, 올바른 사용법을 정리했습니다. 캠퍼·멘톨의 청량 작용으로 두드러기·가려움을 빠르게 완화하는 로션이에요.",
     description:

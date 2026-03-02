@@ -239,7 +239,6 @@ export const products: Product[] = [
     description: "클로트리마졸 1% 항진균 겔. 무좀 치료용 겔 타입으로 산뜻한 사용감이에요.",
     price: 5000,
     unit: "15g",
-    barkiryProductId: "p1800",
     ingredients: "클로트리마졸",
     usage: "1일 2~3회 환부에 얇게 바른다",
     slug: "센스카나겔",

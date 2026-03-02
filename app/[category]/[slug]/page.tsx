@@ -208,8 +208,8 @@ export default async function SpokePage({ params }: PageProps) {
         )}
       </section>
 
-      {/* 광고 1: 제품 카드 아래 */}
-      <AdSlot />
+      {/* 광고 1: 제품 카드 아래 (Display) */}
+      <AdSlot slot="top" />
 
       {/* Article Sections */}
       <article>
@@ -241,8 +241,8 @@ export default async function SpokePage({ params }: PageProps) {
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
               </section>
 
-              {/* 광고: 3번째 섹션(i=2) 이후 본문 중간 — 무조건 노출 */}
-              {i === 2 && <AdSlot />}
+              {/* 광고: 3번째 섹션(i=2) 이후 본문 중간 (In-article) */}
+              {i === 2 && <AdSlot slot="mid" />}
 
               {/* 가격 비교 - 사용법/복용법 바로 다음 */}
               {showPriceAfter && (
@@ -282,8 +282,8 @@ export default async function SpokePage({ params }: PageProps) {
         </div>
       )}
 
-      {/* 광고 2: 작성자 카드 위 */}
-      <AdSlot />
+      {/* 광고 2: 작성자 카드 위 (Multiplex) */}
+      <AdSlot slot="bottom" />
 
       {/* 작성자 */}
       <AuthorBio

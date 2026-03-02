@@ -131,7 +131,6 @@ export const products: Product[] = [
     price: 1400,
     unit: "45ml",
     barkiryQuery: "현대 물파스",
-    barkiryProductId: "p301",
     ingredients: "살리실산메틸,멘톨,dl-캠퍼",
     usage: "1일 수회 환부에 적당량 도포",
     slug: "현대물파스",

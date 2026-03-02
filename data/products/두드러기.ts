@@ -11,7 +11,6 @@ export const products: Product[] = [
     price: 4900,
     unit: "100ml",
     barkiryQuery: "멘소래담로션",
-    barkiryProductId: "p306",
     ingredients: "캠퍼,멘톨,살리실산메틸",
     usage: "가려운 부위에 1일 수회 적당량 도포",
     slug: "멘소래담로션",

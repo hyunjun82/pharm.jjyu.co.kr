@@ -8,7 +8,26 @@ declare global {
   }
 }
 
-export function AdSlot() {
+type AdSlotType = "top" | "mid" | "bottom";
+
+const AD_CONFIG: Record<AdSlotType, Record<string, string>> = {
+  top: {
+    "data-ad-slot": "3585199085",
+    "data-ad-format": "auto",
+    "data-full-width-responsive": "true",
+  },
+  mid: {
+    "data-ad-slot": "6501483950",
+    "data-ad-format": "fluid",
+    "data-ad-layout": "in-article",
+  },
+  bottom: {
+    "data-ad-slot": "7413238819",
+    "data-ad-format": "autorelaxed",
+  },
+};
+
+export function AdSlot({ slot = "top" }: { slot?: AdSlotType }) {
   const pushed = useRef(false);
 
   useEffect(() => {
@@ -21,15 +40,15 @@ export function AdSlot() {
     }
   }, []);
 
+  const config = AD_CONFIG[slot];
+
   return (
     <div className="my-4 overflow-hidden">
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client="ca-pub-2442517902625121"
-        data-ad-slot="3463438836"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
+        {...config}
       />
     </div>
   );

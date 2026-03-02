@@ -24,7 +24,7 @@ export const hub: HubArticle = {
       },
       {
         slug: "개비스콘",
-        title: "개비스콘 최저가 가격 | 성분 효과 복용법 부작용까지",
+        title: "개비스콘 성분 효과 | 복용법 부작용 총정리",
         description: "위산 역류 차단 현탁액 개비스콘",
       },
       {
@@ -44,7 +44,7 @@ export const hub: HubArticle = {
       },
       {
         slug: "겔포스엠",
-        title: "겔포스엠 최저가 가격 | 성분 효과 복용법 부작용까지",
+        title: "겔포스엠 성분 효과 | 복용법 부작용 총정리",
         description: "위산 중화 복합 제산제 겔포스엠",
       },
       {
@@ -364,8 +364,8 @@ export const spokes: Record<string, SpokeArticle> = {
       categorySlug: "소화제",
       datePublished: "2026-02-23",
       dateModified: "2026-02-23",
-      title: "개비스콘 최저가 가격 | 성분 효과 복용법 부작용까지",
-      h1: "개비스콘 최저가 가격 | 성분 효과 복용법 부작용까지",
+      title: "개비스콘 성분 효과 | 복용법 부작용 총정리",
+      h1: "개비스콘 성분 효과 | 복용법 부작용 총정리",
       metaDescription:
         "개비스콘 더블액션 위산 역류 치료제 성분과 효능, 부작용, 올바른 복용법을 정리했습니다. 약국별 최저가 비교로 가장 저렴하게 구매하세요.",
       description:
@@ -645,8 +645,8 @@ export const spokes: Record<string, SpokeArticle> = {
       categorySlug: "소화제",
       datePublished: "2026-02-23",
       dateModified: "2026-02-23",
-      title: "겔포스엠 최저가 가격 | 성분 효과 복용법 부작용까지",
-      h1: "겔포스엠 최저가 가격 | 성분 효과 복용법 부작용까지",
+      title: "겔포스엠 성분 효과 | 복용법 부작용 총정리",
+      h1: "겔포스엠 성분 효과 | 복용법 부작용 총정리",
       metaDescription:
         "겔포스엠 현탁액 성분과 효능, 부작용, 올바른 복용법을 정리했습니다. 개비스콘과 어떻게 다른지 비교해 알아보세요.",
       description:
