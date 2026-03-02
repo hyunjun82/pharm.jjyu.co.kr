@@ -254,4 +254,18 @@ export const products: Product[] = [
     usage: "취침 전 1~2정 복용",
     slug: "둘코락스에스대용량",
   },
+  {
+    id: "dulcolax-s-500tabs-p42",
+    name: "둘코락스 에스 장용정 500정",
+    image: "/images/barkiri-둘코락스에스.webp",
+    category: "일반의약품",
+    categorySlug: "변비",
+    description: "비사코딜 5mg 장용정 500정. 취침 전 복용으로 다음날 아침 배변을 유도하는 자극성 하제예요.",
+    price: 22000,
+    unit: "500정",
+    barkiryProductId: "p42",
+    ingredients: "비사코딜",
+    usage: "취침 전 1~2정 복용",
+    slug: "둘코락스에스p42",
+  },
 ];

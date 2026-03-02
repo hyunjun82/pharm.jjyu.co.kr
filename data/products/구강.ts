@@ -829,4 +829,18 @@ export const products: Product[] = [
     usage: "1회 1정, 1일 3회 식후 복용",
     slug: "치퀵",
   },
+  {
+    id: "hanmi-chissok-600mg-60tabs",
+    name: "한미 치쏙정 600mg 60정",
+    image: "/images/barkiri-한미치쏙.webp",
+    category: "일반의약품",
+    categorySlug: "구강",
+    description: "이소프로필안티피린 600mg 치통 진통제 60정. 치과 처치 전후 치통·잇몸 통증에 사용해요.",
+    price: 20000,
+    unit: "60정",
+    barkiryProductId: "p1930",
+    ingredients: "이소프로필안티피린",
+    usage: "치통 시 1정, 1일 3회 이내 복용",
+    slug: "한미치쏙",
+  },
 ];
