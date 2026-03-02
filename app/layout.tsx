@@ -54,6 +54,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <link rel="alternate" type="application/rss+xml" title="약정보 RSS" href="/feed.xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
