@@ -8,6 +8,11 @@ import { categories } from "@/data/categories";
 import { Badge } from "@/components/ui/badge";
 import { ChevronRight, ArrowLeft } from "lucide-react";
 
+function formatKoreanDate(isoDate: string): string {
+  const [year, month, day] = isoDate.split("-");
+  return `${year}년 ${parseInt(month)}월 ${parseInt(day)}일`;
+}
+
 interface PageProps {
   params: Promise<{ category: string }>;
 }
@@ -74,17 +79,33 @@ export default async function HubPage({ params }: PageProps) {
           <Badge className="bg-emerald-600 text-white hover:bg-emerald-600 mb-4">
             {catInfo.icon} {catInfo.name} 가이드
           </Badge>
-          <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+          <h1 className="daum-wm-title text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
             {hub.h1}
           </h1>
           <p className="mt-3 text-base text-gray-500 leading-relaxed max-w-2xl">
             {hub.heroDescription}
           </p>
+          <div className="mt-3 flex items-center gap-3 text-sm text-gray-400">
+            <Link
+              href="/about"
+              className="font-medium text-gray-500 hover:text-emerald-600 transition-colors"
+            >
+              의약품 에디터
+            </Link>
+            {hub.dateModified && (
+              <>
+                <span>|</span>
+                <time className="daum-wm-datetime" dateTime={hub.dateModified}>
+                  {formatKoreanDate(hub.dateModified)} 업데이트
+                </time>
+              </>
+            )}
+          </div>
         </div>
       </section>
 
       {/* Spoke Articles List */}
-      <section className="mx-auto max-w-4xl px-4 py-10">
+      <section className="daum-wm-content mx-auto max-w-4xl px-4 py-10">
         <h2 className="text-lg font-bold text-gray-900 mb-4">
           상세 가이드
         </h2>

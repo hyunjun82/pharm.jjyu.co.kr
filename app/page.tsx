@@ -17,7 +17,7 @@ export default function HomePage() {
             <Search className="h-3.5 w-3.5" />
             공공데이터 기반 의약품 정보
           </div>
-          <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+          <h1 className="daum-wm-title text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
             일반의약품 최저가 비교
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-gray-500 sm:text-lg">
@@ -28,7 +28,7 @@ export default function HomePage() {
       </section>
 
       {/* Categories Section */}
-      <section className="mx-auto max-w-6xl px-4 py-12">
+      <section className="daum-wm-content mx-auto max-w-6xl px-4 py-12">
         <h2 className="text-xl font-bold text-gray-900 mb-6">
           카테고리별 의약품 가이드
         </h2>

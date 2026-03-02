@@ -156,7 +156,7 @@ export default async function SpokePage({ params }: PageProps) {
           <Badge className="bg-emerald-600 text-white hover:bg-emerald-600 mb-4">
             {catInfo.icon} {catInfo.name}
           </Badge>
-          <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+          <h1 className="daum-wm-title text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
             {article.h1}
           </h1>
           <p className="mt-3 text-base text-gray-500 leading-relaxed sm:text-lg">
@@ -172,7 +172,7 @@ export default async function SpokePage({ params }: PageProps) {
             {article.datePublished && (
               <>
                 <span>|</span>
-                <time dateTime={article.datePublished}>
+                <time className="daum-wm-datetime" dateTime={article.dateModified || article.datePublished}>
                   {formatKoreanDate(article.datePublished)} 작성
                 </time>
               </>
@@ -212,7 +212,7 @@ export default async function SpokePage({ params }: PageProps) {
       <AdSlot slot="top" />
 
       {/* Article Sections */}
-      <article>
+      <article className="daum-wm-content">
         {article.sections.map((section, i) => {
           const { icon: Icon, color } = getSectionIcon(section.title);
           const showPriceAfter =
