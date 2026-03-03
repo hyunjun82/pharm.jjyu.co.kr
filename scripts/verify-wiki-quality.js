@@ -90,6 +90,7 @@ function isExternalUse(cat, slug) {
   if (cat === "여성건강" && EXTERNAL_YEOSUNG.includes(slug)) return true;
   if (cat === "영양제" && EXTERNAL_YONGYANGJE.includes(slug)) return true;
   if (cat === "변비" && EXTERNAL_BYEONBI.includes(slug)) return true;
+  if (cat === "진통제" && slug === "베노라제") return true;
   if (slug.includes("나잘") || slug.includes("스프레이")) return true;
   return false;
 }
