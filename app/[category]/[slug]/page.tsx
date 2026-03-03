@@ -192,6 +192,11 @@ export default async function SpokePage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* 광고: 서론 아래 (Display) */}
+      <div className="mx-auto max-w-3xl px-4">
+        <AdSlot slot="hero" />
+      </div>
+
       {/* 2-column layout wrapper: main + sidebar */}
       <div className="mx-auto max-w-5xl px-4 lg:flex lg:gap-8">
         {/* Main Column */}
@@ -241,8 +246,7 @@ export default async function SpokePage({ params }: PageProps) {
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
               </section>
 
-              {/* 광고: 3번째 섹션(i=2) 이후 본문 중간 (In-article) */}
-              {i === 2 && <AdSlot slot="mid" />}
+              {/* 인아티클 광고 삭제됨 — 서론 아래 디스플레이 광고로 대체 */}
 
               {/* 가격 비교 - 사용법/복용법 바로 다음 */}
               {showPriceAfter && (

@@ -87,7 +87,6 @@ export function ProductCard({ product, priority }: { product: Product; priority?
     return (
       <a
         href={barkiryUrl}
-        target="_blank"
         rel="noopener noreferrer nofollow"
         className="block"
       >

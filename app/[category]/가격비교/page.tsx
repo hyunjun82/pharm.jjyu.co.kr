@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ExternalLink, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { categories } from "@/data/categories";
 import { getProductsByCategory } from "@/data/products";
 import type { Product } from "@/lib/types";
@@ -117,11 +117,10 @@ export default async function PriceComparePage({ params }: PageProps) {
                     </span>
                     <a
                       href={getBarkiriUrl(product)}
-                      target="_blank"
                       rel="noopener noreferrer nofollow"
                       className="inline-flex items-center gap-1 rounded-lg bg-emerald-600 px-3 py-1.5 text-sm font-semibold text-white hover:bg-emerald-700 transition-colors"
                     >
-                      최저가 <ExternalLink className="h-3.5 w-3.5" />
+                      최저가 확인
                     </a>
                   </div>
                 </div>

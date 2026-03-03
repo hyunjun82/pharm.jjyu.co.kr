@@ -5383,7 +5383,7 @@ export const products: Product[] = [
     barkiryProductId: "p387",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케라시딜300",
+    slug: "케라시딜",
   },
   {
     id: "케라시딜150-p575",
@@ -5397,7 +5397,7 @@ export const products: Product[] = [
     barkiryProductId: "p575",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케라시딜150",
+    slug: "케라시딜",
   },
   {
     id: "케라시딜240-p677",
@@ -5411,7 +5411,7 @@ export const products: Product[] = [
     barkiryProductId: "p677",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케라시딜240",
+    slug: "케라시딜",
   },
   {
     id: "케라티모360-p746",
@@ -5425,7 +5425,7 @@ export const products: Product[] = [
     barkiryProductId: "p746",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케라티모360",
+    slug: "케라티모",
   },
   {
     id: "케라시딜360-p817",
@@ -5439,7 +5439,7 @@ export const products: Product[] = [
     barkiryProductId: "p817",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케라시딜360",
+    slug: "케라시딜",
   },
   {
     id: "마이모닉60-p1070",
@@ -5453,7 +5453,7 @@ export const products: Product[] = [
     barkiryProductId: "p1070",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "마이모닉60",
+    slug: "마이모닉",
   },
   {
     id: "케라티모180-p1244",
@@ -5467,7 +5467,7 @@ export const products: Product[] = [
     barkiryProductId: "p1244",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케라티모180",
+    slug: "케라티모",
   },
   {
     id: "마이모닉240-p1393",
@@ -5481,7 +5481,7 @@ export const products: Product[] = [
     barkiryProductId: "p1393",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "마이모닉240",
+    slug: "마이모닉",
   },
   {
     id: "나녹시딜-p1852",

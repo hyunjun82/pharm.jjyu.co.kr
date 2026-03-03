@@ -8,7 +8,7 @@ declare global {
   }
 }
 
-type AdSlotType = "top" | "mid" | "bottom";
+type AdSlotType = "top" | "hero" | "bottom";
 
 const AD_CONFIG: Record<AdSlotType, Record<string, string>> = {
   top: {
@@ -16,10 +16,10 @@ const AD_CONFIG: Record<AdSlotType, Record<string, string>> = {
     "data-ad-format": "auto",
     "data-full-width-responsive": "true",
   },
-  mid: {
+  hero: {
     "data-ad-slot": "6501483950",
-    "data-ad-format": "fluid",
-    "data-ad-layout": "in-article",
+    "data-ad-format": "auto",
+    "data-full-width-responsive": "true",
   },
   bottom: {
     "data-ad-slot": "7413238819",

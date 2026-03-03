@@ -252,7 +252,7 @@ export const products: Product[] = [
     barkiryProductId: "p1946",
     ingredients: "비사코딜",
     usage: "취침 전 1~2정 복용",
-    slug: "둘코락스에스대용량",
+    slug: "둘코락스에스p42",
   },
   {
     id: "dulcolax-s-500tabs-p42",
