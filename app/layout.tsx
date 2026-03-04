@@ -42,6 +42,7 @@ export const metadata: Metadata = {
     google: "kPe6sAN7cMBDG2OVVWHcI8hH-BxkT5Zv6U8TVWTxuwI",
     other: {
       "naver-site-verification": ["1ae236154d318ff542ba2858bb0d557f33834985"],
+      "daum-verification": "9def7ccef6d02b1f625a1bf0bd93f1a20d8972890a4d27602afdea23ba01e78b:g4FqG9DIBQPU4d69wz04fQ==",
     },
   },
 };
