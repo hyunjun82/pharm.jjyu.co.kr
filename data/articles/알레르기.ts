@@ -2051,7 +2051,7 @@ export const spokes: Record<string, SpokeArticle> = {
       },
       {
         question: "센스온스피드의 포장 단위가 어떻게 되나요?",
-        answer: "15ml 단독 포장이에요. 1회 복용분으로 편리하게 携帯(휴대)할 수 있어요. 외출 시나 급한 상황에서 사용하기 좋아요.",
+        answer: "15ml 단독 포장이에요. 1회 복용분으로 편리하게 휴대할 수 있어요. 외출 시나 급한 상황에서 사용하기 좋아요.",
       },
     ],
     sections: [
