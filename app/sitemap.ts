@@ -43,5 +43,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }))
   );
 
-  return [...staticPages, ...hubPages, ...spokePages];
+  // 4. 가격비교 pages
+  const pricePages: MetadataRoute.Sitemap = Object.values(hubArticles).map(
+    (hub) => ({
+      url: `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}`,
+      lastModified: hub.dateModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })
+  );
+
+  return [...staticPages, ...hubPages, ...pricePages, ...spokePages];
 }

@@ -192,10 +192,7 @@ export default async function SpokePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* 광고: 서론 아래 (Display) */}
-      <div className="mx-auto max-w-3xl px-4">
-        <AdSlot slot="hero" />
-      </div>
+      {/* 광고: 서론 아래 — 자동광고와 중복되므로 제거 */}
 
       {/* 2-column layout wrapper: main + sidebar */}
       <div className="mx-auto max-w-5xl px-4 lg:flex lg:gap-8">
@@ -269,6 +266,9 @@ export default async function SpokePage({ params }: PageProps) {
                     </div>
                     <Separator className="mt-8" />
                   </section>
+
+                  {/* 광고: 최저가 비교 아래 (Display) */}
+                  <AdSlot slot="hero" />
 
                   {/* 내부링크 - 같은 카테고리 다른 의약품 */}
                   <RelatedSpokes categorySlug={catSlug} currentSlug={spokeSlug} />
@@ -432,26 +432,7 @@ export default async function SpokePage({ params }: PageProps) {
         }}
       />
 
-      {/* #4 HowTo 스키마 - 단계별 사용법 */}
-      {article.sections.length > 0 && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "HowTo",
-              name: `${spokeSlug} 올바른 사용법`,
-              description: article.description,
-              step: article.sections.map((section, i) => ({
-                "@type": "HowToStep",
-                position: i + 1,
-                name: section.title,
-                text: section.content,
-              })),
-            }),
-          }}
-        />
-      )}
+      {/* HowTo 스키마 제거 — 성분분석/부작용 등은 절차가 아니므로 오남용 해당 */}
 
       {/* #10 Drug 스키마 - 의약품 상세 정보 (CTR 향상 핵심) */}
       {mainProduct && (

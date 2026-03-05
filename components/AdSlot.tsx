@@ -43,7 +43,7 @@ export function AdSlot({ slot = "top" }: { slot?: AdSlotType }) {
   const config = AD_CONFIG[slot];
 
   return (
-    <div className="my-4 overflow-hidden">
+    <div className="my-4 overflow-hidden" style={{ minHeight: slot === "bottom" ? 200 : 100 }}>
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
