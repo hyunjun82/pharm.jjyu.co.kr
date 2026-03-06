@@ -1,0 +1,93 @@
+{
+  "$comment": "pharm-jjyu 4층 검증 설정. verify-*.js 스크립트들이 이 설정을 참조한다.",
+  "projectName": "pharm-jjyu",
+
+  "style": {
+    "tone": "구어체",
+    "allowedEndings": ["해요", "이에요", "예요", "거예요", "세요", "죠", "어요", "아요", "네요", "데요", "래요", "할게요", "볼게요", "나요", "가요"],
+    "forbiddenEndings": ["합니다", "입니다", "됩니다", "었습니다", "있습니다", "없습니다", "됐습니다", "봅니다", "줍니다"],
+    "forbiddenWords": [
+      "또한", "결론적으로", "다양한", "매우 중요",
+      "알아보겠습니다", "살펴보겠습니다", "알아볼게요",
+      "특히 주목할 만한", "주목할 만합니다", "눈여겨볼 만",
+      "다양하게 활용", "폭넓게 사용"
+    ],
+    "fillerPatterns": [
+      "에 대해 알아보",
+      "자세히 살펴보",
+      "함께 알아보",
+      "지금부터 알아",
+      "하나씩 살펴",
+      "꼼꼼히 따져"
+    ],
+    "maxForbiddenWordCount": 1,
+    "maxConsecutiveSameEnding": 2,
+    "maxConsecutiveSameStart": 2,
+    "requireBracketExplanation": true
+  },
+
+  "structure": {
+    "sectionCount": 6,
+    "sectionTitles": [
+      "{slug} 성분 분석",
+      "{slug} 효능과 효과",
+      "{slug} 올바른 {usage}",
+      "{slug} 부작용",
+      "{slug} 주의사항",
+      "{slug} 보관법"
+    ],
+    "faqCount": 3,
+    "minParagraphsPerSection": 3,
+    "minSentencesPerParagraph": 2,
+    "requireIngredients": true,
+    "titleFormula": "{slug} 최저가 가격 | 성분 효과 {usage} 부작용까지",
+    "titleFormulaNoDeeplink": "{slug} 성분 효과 | {category} {usage} 부작용 총정리"
+  },
+
+  "factCheck": {
+    "compareFields": [
+      "itemName",
+      "efcyQesitm",
+      "useMethodQesitm",
+      "atpnQesitm",
+      "seQesitm",
+      "depositMethodQesitm"
+    ],
+    "numberPatterns": [
+      { "pattern": "(\\d+)일\\s*(\\d+)회", "label": "1일 N회" },
+      { "pattern": "1회\\s*(\\d+)\\s*(?:정|캡슐|포|밀리리터|mL)", "label": "1회 용량" },
+      { "pattern": "만\\s*(\\d+)세", "label": "연령제한" },
+      { "pattern": "(\\d+)\\s*(?:mg|밀리그램|g|그램|%)", "label": "성분 용량" }
+    ],
+    "strictMatch": [
+      "ingredients.name",
+      "ingredients.amount"
+    ]
+  },
+
+  "selfCheck": {
+    "extractFields": [
+      "ageLimit",
+      "dosagePerDay",
+      "dosagePerTime",
+      "ingredientNames",
+      "ingredientAmounts",
+      "contraindications"
+    ],
+    "contextCheck": true,
+    "negationDetection": true,
+    "negationPairs": [
+      ["복용 금지", "복용 가능"],
+      ["사용하지 마", "사용해도 돼"],
+      ["이상", "이하"],
+      ["미만", "초과"],
+      ["금기", "허용"]
+    ]
+  },
+
+  "freshness": {
+    "maxAgeDays": 90,
+    "autoRefreshOnExpiry": false,
+    "sourceApi": "http://apis.data.go.kr/1471000/DrbEasyDrugInfoService/getDrbEasyDrugList"
+  }
+}
