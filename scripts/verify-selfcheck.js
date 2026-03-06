@@ -176,9 +176,17 @@ function main() {
             `연령제한 불일치: 글="만 ${articleFacts.ageLimit.age}세 ${articleFacts.ageLimit.direction}" vs 소스="만 ${sourceFacts.ageLimit.age}세 ${sourceFacts.ageLimit.direction}"`
           );
         }
-        if (articleFacts.ageLimit.direction !== sourceFacts.ageLimit.direction) {
+        // 방향 반전 체크 — 보완 관계는 OK ("이상" ↔ "미만"은 같은 의미)
+        const complementary = {
+          "이상": "미만", "미만": "이상",
+          "이하": "초과", "초과": "이하",
+        };
+        const artDir = articleFacts.ageLimit.direction;
+        const srcDir = sourceFacts.ageLimit.direction;
+        if (artDir !== srcDir && complementary[srcDir] !== artDir) {
+          // 진짜 반전: "이상" ↔ "이하" 또는 "미만" ↔ "초과" (같은 방향 오류)
           errs.push(
-            `연령방향 반전: 글="${articleFacts.ageLimit.direction}" vs 소스="${sourceFacts.ageLimit.direction}"`
+            `연령방향 반전: 글="${artDir}" vs 소스="${srcDir}"`
           );
         }
       }
@@ -199,9 +207,9 @@ function main() {
         }
       }
 
-      // 2. 부정 맥락 대조 (금지↔가능 반전)
+      // 2. 부정 맥락 대조 (금지↔가능 반전) — WARN (context-blind detection)
       const negErrors = checkNegationConflicts(articleText, sourceAllText, negationPairs);
-      errs.push(...negErrors);
+      warns.push(...negErrors);
 
       // 3. 글에 금기가 있는데 소스에 없는 경우 (허위 정보 의심)
       if (articleFacts.contraindications.length > 0 && sourceFacts.contraindications.length === 0) {

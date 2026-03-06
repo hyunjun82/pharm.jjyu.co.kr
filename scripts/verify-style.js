@@ -240,13 +240,20 @@ function main() {
 
   if (warnsOnly.length > 0) {
     console.log(`\n[WARN] ${totalWarnings}건:\n`);
-    for (const e of warnsOnly.slice(0, 50)) {
+    // WARN 유형별 집계
+    const warnTypes = {};
+    for (const e of warnsOnly) {
       for (const item of e.items) {
-        console.log(`  [${e.cat}/${e.slug}] ${item}`);
+        const type = item.includes("어미") ? "어미반복" :
+          item.includes("문장시작") ? "문장시작반복" :
+          item.includes("FAQ 중복") ? "FAQ중복" :
+          item.includes("filler") ? "filler" :
+          item.includes("Em dash") ? "Emdash" : "기타";
+        warnTypes[type] = (warnTypes[type] || 0) + 1;
       }
     }
-    if (warnsOnly.length > 50) {
-      console.log(`  ... 외 ${warnsOnly.length - 50}건`);
+    for (const [type, count] of Object.entries(warnTypes).sort((a, b) => b[1] - a[1])) {
+      console.log(`  ${type}: ${count}건`);
     }
   }
 

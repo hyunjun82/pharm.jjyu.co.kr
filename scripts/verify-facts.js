@@ -85,6 +85,40 @@ function extractContentText(raw) {
   return contents.map((m) => m[1].replace(/\\n/g, "\n")).join("\n");
 }
 
+// ── 성분명 동의어 (한글 표기 차이, 염형태 차이) ──────────────────
+const INGREDIENT_SYNONYMS = [
+  ["요소", "우레아", "urea"],
+  ["덱스판테놀", "d-판테놀", "d판테놀", "dexpanthenol", "panthenol"],
+  ["하이드로퀴논", "히드로퀴논", "hydroquinone"],
+  ["후시드산", "퓨시드산", "fusidic"],
+  ["트롤라민", "트롤아민", "trolamine"],
+  ["엽산", "폴산", "folicacid"],
+  ["l-카르니틴", "엘-카르니틴", "엘카르니틴", "l-carnitine", "levocarnitine"],
+  ["에키나시아추출물", "에키나시아엑스", "echinacea"],
+  ["시클로피록스", "시클로피록스올아민", "ciclopirox"],
+  ["디클로페낙디에틸아민", "디클로페낙디에틸암모늄", "디클로페낙에폴아민", "diclofenacdiethylamine"],
+  ["페니라민", "클로르페니라민", "pheniramine", "chlorpheniramine"],
+  ["아젤라산", "아젤라산(미분화", "azelaicacid"],
+  ["이부프로펜", "덱시부프로펜", "이부프로펜아르기닌", "ibuprofen", "dexibuprofen"],
+  ["아르기닌", "l-아르기닌", "l-arginine"],
+  ["액체파라핀", "무수액체라놀린", "liquidparaffin"],
+  ["아연", "히스티딘아연이수화물", "zinc"],
+  ["l-아르기닌", "l-아스파르트산-l-아르기닌수화물", "l-arginine"],
+];
+
+function areIngredientSynonyms(name1, name2) {
+  const n1 = name1.toLowerCase().replace(/[\s\-·()（）\[\]]/g, "");
+  const n2 = name2.toLowerCase().replace(/[\s\-·()（）\[\]]/g, "");
+  if (n1.includes(n2) || n2.includes(n1)) return true;
+  for (const group of INGREDIENT_SYNONYMS) {
+    const norms = group.map(s => s.toLowerCase().replace(/[\s\-·()（）\[\]]/g, ""));
+    const has1 = norms.some(s => n1.includes(s) || s.includes(n1));
+    const has2 = norms.some(s => n2.includes(s) || s.includes(n2));
+    if (has1 && has2) return true;
+  }
+  return false;
+}
+
 // ── 성분명 교차 검증 ─────────────────────────────────────────────
 function checkIngredientMatch(articleIngredients, sourceItemName) {
   const errors = [];
@@ -96,20 +130,18 @@ function checkIngredientMatch(articleIngredients, sourceItemName) {
 
   const sourceIngredient = parenMatch[1].toLowerCase().replace(/\s/g, "");
   const mainIngredients = articleIngredients.filter((ing) => {
-    // 주성분만 (첨가제 제외 — raw에서 type 확인이 어려우므로 amount 있는 것만)
     return ing.amount;
   });
 
   if (mainIngredients.length === 0) return errors;
 
-  // 글의 주성분 이름이 소스와 일치하는지
   const hasMatch = mainIngredients.some((ing) => {
     const artName = ing.name.toLowerCase().replace(/\s/g, "");
     return (
       artName.includes(sourceIngredient) ||
       sourceIngredient.includes(artName) ||
-      // 영문/한글 혼용 허용
-      artName.replace(/[a-z]/g, "") === sourceIngredient.replace(/[a-z]/g, "")
+      artName.replace(/[a-z]/g, "") === sourceIngredient.replace(/[a-z]/g, "") ||
+      areIngredientSynonyms(artName, sourceIngredient)
     );
   });
 
@@ -177,11 +209,16 @@ function main() {
         // 같은 label의 소스 숫자와 비교
         const sourceMatch = sourceNumbers.find((sn) => sn.label === an.label);
         if (sourceMatch) {
-          // 숫자가 다르면 에러
           const artNums = an.numbers.join(",");
           const srcNums = sourceMatch.numbers.join(",");
           if (artNums !== srcNums) {
-            errs.push(`${an.label} 불일치: 글="${an.value}" vs 소스="${sourceMatch.value}"`);
+            // "1일 N회", "1회 용량", "연령제한"은 ERROR (specific enough)
+            // "성분 용량"은 WARN (맥락 없이 임의 숫자 비교는 false positive 다수)
+            if (an.label === "성분 용량") {
+              warns.push(`${an.label} 차이: 글="${an.value}" vs 소스="${sourceMatch.value}"`);
+            } else {
+              errs.push(`${an.label} 불일치: 글="${an.value}" vs 소스="${sourceMatch.value}"`);
+            }
           }
         }
       }
