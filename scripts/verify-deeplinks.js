@@ -54,6 +54,13 @@ async function checkDeeplink(name, productId) {
 }
 
 async function main() {
+  // Vercel 빌드 서버에서는 발키리가 클라우드 IP를 403 차단하므로 스킵
+  if (process.env.VERCEL) {
+    console.log("=== 발키리 딥링크 검증 (Vercel 환경 — 스킵) ===");
+    console.log("ℹ️  Vercel 빌드 서버 IP가 barkiri.com에서 차단되어 로컬에서만 검증합니다.");
+    process.exit(0);
+  }
+
   console.log("=== 발키리 딥링크 검증 ===\n");
 
   const products = loadProducts();
