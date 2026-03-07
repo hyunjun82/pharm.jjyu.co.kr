@@ -1,0 +1,59 @@
+{
+  "slug": "마로이신",
+  "category": "영양제",
+  "sourceType": "api",
+  "sourceOrigin": "의약품 허가정보 API (apis.data.go.kr)",
+  "fetchedAt": "2026-03-07T06:19:28.676Z",
+  "itemName": "한신마로이신캡슐",
+  "entpName": "(주)한국신약",
+  "itemSeq": "200301437",
+  "efcyQesitm": "발적(충혈되어 붉어짐), 부기, 단단해지고 통증을 수반하는 화농성질환",
+  "useMethodQesitm": "보통 성인 1회 2캡슐을 1일 3회 식전 또는 식간에 복용한다.",
+  "atpnWarnQesitm": "",
+  "atpnQesitm": "1. 다음과 같은 사람은 복용하지 말 것: 발적, 부기, 통증 등의 국소 증상 이외의 두통, 오한, 발열 등의 전신 증상을 동시에 수반하는 환자. 한성농양(열이 없는 농양), 만성종기 환자.\n2. 다음과 같은 사람은 복용 전 상의할 것: 고혈압 환자, 심장애 또는 신장애 환자, 부종 환자, 고령자, 임부 또는 임신하고 있을 가능성이 있는 여성, 어린이(안전성 미확립).\n3. 다음과 같은 경우 복용을 즉각 중지할 것: 위알도스테론증(요량 감소, 얼굴과 손발 부종, 혈압 상승, 두통 등), 근병증(무력감, 사지경련, 마비 등), 피부 발진·발적·가려움, 소화기계 위부불쾌감. 5~6일 정도 복용하여도 증상의 개선이 없을 경우.\n4. 장기간 계속하여 복용하지 않는 것이 원칙이나 부득이 장기간 계속하여 복용할 경우에는 전문가와 상의할 것.",
+  "intrcQesitm": "",
+  "seQesitm": "위알도스테론증(요량 감소, 얼굴과 손발 부종, 혈압 상승, 두통 등), 근병증(무력감, 사지경련, 마비 등), 피부 발진·발적·가려움, 위부불쾌감",
+  "depositMethodQesitm": "직사광선을 피하고 되도록 습기가 적은 서늘한 곳에 보관할 것(사용 후 반드시 밀폐 보관할 것). 어린이의 손이 닿지 않는 곳에 보관할 것. 의약품을 원래 용기에서 꺼내어 다른 용기에 보관하는 것은 의약품 오용에 의한 사고 발생이나 의약품 품질 저하의 원인이 될 수 있으므로 원래의 용기에 넣고 꼭 닫아 보관할 것.",
+  "itemImage": "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/147427965508800028",
+  "updateDe": "20030311",
+  "permitItemIngrName": "Ginger/Jujube/Licorice/Peony Root/Platycodon Root/Poncirus Immature Fruit",
+  "permitItemIngrCnt": "6",
+  "permitSpcltyPblc": "일반의약품",
+  "permitProductType": "[02630]화농성질환용제",
+  "permitKindCode": "신고",
+  "fetchMethod": "nedrug-scrape",
+  "ingredients": [
+    {
+      "name": "길경",
+      "amount": "0.67g",
+      "spec": "KP"
+    },
+    {
+      "name": "감초",
+      "amount": "0.5g",
+      "spec": "KP"
+    },
+    {
+      "name": "대추",
+      "amount": "0.5g",
+      "spec": "KP"
+    },
+    {
+      "name": "작약",
+      "amount": "0.5g",
+      "spec": "KP"
+    },
+    {
+      "name": "건강",
+      "amount": "0.17g",
+      "spec": "KP"
+    },
+    {
+      "name": "지실",
+      "amount": "0.5g",
+      "spec": "KP"
+    }
+  ],
+  "additives": "캡슐제,이상물건조엑스",
+  "note": "일반의약품 - 1캡슐 500mg, 화농성질환용 한약제제"
+}
