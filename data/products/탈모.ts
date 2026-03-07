@@ -5332,7 +5332,7 @@ export const products: Product[] = [
   {
     id: "mynoxil-liquid-3-180ml",
     name: "마이녹실액 3% 180ml",
-    image: "/images/barkiri-마이녹실액3%.webp",
+    image: "/images/barkiri-마이녹실액3.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "현대약품 미녹시딜 3% 외용액 180ml. 두피 자극이 적은 저농도 탈모 치료제.",
@@ -5346,7 +5346,7 @@ export const products: Product[] = [
   {
     id: "mynoxil-foam-5-60g",
     name: "마이녹실 폼 에어로솔 5% 60g",
-    image: "/images/barkiri-마이녹실폼5%.webp",
+    image: "/images/barkiri-마이녹실폼5.webp",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "현대약품 미녹시딜 5% 거품 폼 에어로솔. 두피 흡수가 빠르고 사용이 간편해요.",
