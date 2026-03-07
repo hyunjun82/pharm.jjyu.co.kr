@@ -4590,7 +4590,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "헤르겐스칼프액2%",
+    slug: "헤르겐스칼프액2",
   },
   {
     id: "넥스모액2",
@@ -4603,7 +4603,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "넥스모액2%",
+    slug: "넥스모액2",
   },
   {
     id: "모바린액2",
@@ -4616,7 +4616,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "모바린액2%",
+    slug: "모바린액2",
   },
   {
     id: "헤어메드액2",
@@ -4629,7 +4629,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "헤어메드액2%",
+    slug: "헤어메드액2",
   },
   {
     id: "레나시딜액2",
@@ -4642,7 +4642,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "레나시딜액2%",
+    slug: "레나시딜액2",
   },
   {
     id: "신신미녹시딜액2",
@@ -4655,7 +4655,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "신신미녹시딜액2%",
+    slug: "신신미녹시딜액2",
   },
   {
     id: "케이녹시액2",
@@ -4668,7 +4668,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케이녹시액2%",
+    slug: "케이녹시액2",
   },
   {
     id: "라코빈액5",
@@ -4681,7 +4681,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "라코빈액5%",
+    slug: "라코빈액5",
   },
   {
     id: "닥터방스카파시딜액5",
@@ -4694,7 +4694,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "닥터방스카파시딜액5%",
+    slug: "닥터방스카파시딜액5",
   },
   {
     id: "헤르겐스칼프액5",
@@ -4707,7 +4707,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "헤르겐스칼프액5%",
+    slug: "헤르겐스칼프액5",
   },
   {
     id: "헤어메드액5",
@@ -4720,7 +4720,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "헤어메드액5%",
+    slug: "헤어메드액5",
   },
   {
     id: "다모실겔5",
@@ -4733,7 +4733,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "다모실겔5%",
+    slug: "다모실겔5",
   },
   {
     id: "모리나액5",
@@ -4746,7 +4746,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "모리나액5%",
+    slug: "모리나액5",
   },
   {
     id: "신신미녹시딜액5",
@@ -4759,7 +4759,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "신신미녹시딜액5%",
+    slug: "신신미녹시딜액5",
   },
   {
     id: "리겐솔액5",
@@ -4772,7 +4772,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "리겐솔액5%",
+    slug: "리겐솔액5",
   },
   {
     id: "나니녹실액5",
@@ -4785,7 +4785,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "나니녹실액5%",
+    slug: "나니녹실액5",
   },
   {
     id: "그루녹시딜액5",
@@ -4798,7 +4798,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "그루녹시딜액5%",
+    slug: "그루녹시딜액5",
   },
   {
     id: "바로나실액5",
@@ -4811,7 +4811,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "바로나실액5%",
+    slug: "바로나실액5",
   },
   {
     id: "리드녹실액5",
@@ -4824,7 +4824,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "리드녹실액5%",
+    slug: "리드녹실액5",
   },
   {
     id: "케어모액5",
@@ -4837,7 +4837,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케어모액5%",
+    slug: "케어모액5",
   },
   {
     id: "로게인액5",
@@ -4850,7 +4850,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "로게인액5%",
+    slug: "로게인액5",
   },
   {
     id: "볼두민액3",
@@ -4863,7 +4863,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "볼두민액3%",
+    slug: "볼두민액3",
   },
   {
     id: "헤르겐스칼프액3",
@@ -4876,7 +4876,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "헤르겐스칼프액3%",
+    slug: "헤르겐스칼프액3",
   },
   {
     id: "헤어메드액3",
@@ -4889,7 +4889,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "헤어메드액3%",
+    slug: "헤어메드액3",
   },
   {
     id: "넥스모액3",
@@ -4902,7 +4902,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "넥스모액3%",
+    slug: "넥스모액3",
   },
   {
     id: "레나시딜액3",
@@ -4915,7 +4915,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "레나시딜액3%",
+    slug: "레나시딜액3",
   },
   // === 미녹시딜 3% 추가분 9개 ===
   {
@@ -4929,7 +4929,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "남탈렌액3%",
+    slug: "남탈렌액3",
   },
   {
     id: "마이녹스액3",
@@ -4942,7 +4942,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "마이녹스액3%",
+    slug: "마이녹스액3",
   },
   {
     id: "케이녹시액3",
@@ -4955,7 +4955,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "케이녹시액3%",
+    slug: "케이녹시액3",
   },
   {
     id: "신신미녹시딜액3",
@@ -4968,7 +4968,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "신신미녹시딜액3%",
+    slug: "신신미녹시딜액3",
   },
   {
     id: "나니녹실액3",
@@ -4981,7 +4981,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "나니녹실액3%",
+    slug: "나니녹실액3",
   },
   {
     id: "그루녹시딜액3",
@@ -4994,7 +4994,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "그루녹시딜액3%",
+    slug: "그루녹시딜액3",
   },
   {
     id: "바로나실액3",
@@ -5007,7 +5007,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "바로나실액3%",
+    slug: "바로나실액3",
   },
   {
     id: "백일후애액3",
@@ -5020,7 +5020,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "백일후애액3%",
+    slug: "백일후애액3",
   },
   {
     id: "모바린액3",
@@ -5033,7 +5033,7 @@ export const products: Product[] = [
     unit: "60ml",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "모바린액3%",
+    slug: "모바린액3",
   },
   {
     id: "adamo-30caps",
@@ -5341,7 +5341,7 @@ export const products: Product[] = [
     barkiryProductId: "p1671",
     ingredients: "미녹시딜",
     usage: "1일 2회, 1mL씩 두피 탈모 부위에 도포",
-    slug: "마이녹실액3%",
+    slug: "마이녹실액3",
   },
   {
     id: "mynoxil-foam-5-60g",
@@ -5355,7 +5355,7 @@ export const products: Product[] = [
     barkiryProductId: "p1726",
     ingredients: "미녹시딜",
     usage: "1일 2회, 반 캡 분량을 두피에 도포하고 손가락으로 가볍게 마사지",
-    slug: "마이녹실폼5%",
+    slug: "마이녹실폼5",
   },
   {
     id: "복합마이녹실-p190",

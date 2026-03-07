@@ -681,41 +681,41 @@ export const hub: HubArticle = {
     { slug: "네오페시아정", title: "네오페시아정 성분 효과 | 탈모치료제 복용법 부작용 총정리", description: "녹십자 피나스테리드 1mg 탈모 치료 제네릭 정제" },
     { slug: "피나스로정5mg", title: "피나스로정5mg 성분 효과 | 탈모치료제 복용법 부작용 총정리", description: "알리코제약 피나스테리드 5mg 전립선비대증 치료 제네릭 정제" },
     { slug: "모바렌액", title: "모바렌액 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "대웅제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "헤르겐스칼프액2%", title: "헤르겐스칼프액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "마더스제약 미녹시딜 2% 두피 탈모 치료 외용액" },
-    { slug: "넥스모액2%", title: "넥스모액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "넥스팜코리아 미녹시딜 2% 두피 탈모 치료 외용액" },
-    { slug: "모바린액2%", title: "모바린액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "태극제약 미녹시딜 2% 두피 탈모 치료 외용액" },
-    { slug: "헤어메드액2%", title: "헤어메드액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "광동제약 미녹시딜 2% 두피 탈모 치료 외용액" },
-    { slug: "레나시딜액2%", title: "레나시딜액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "알보젠코리아 미녹시딜 2% 두피 탈모 치료 외용액" },
-    { slug: "신신미녹시딜액2%", title: "신신미녹시딜액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신신제약 미녹시딜 2% 두피 탈모 치료 외용액" },
-    { slug: "케이녹시액2%", title: "케이녹시액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "한국콜마 미녹시딜 2% 두피 탈모 치료 외용액" },
-    { slug: "라코빈액5%", title: "라코빈액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "갈더마코리아 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "닥터방스카파시딜액5%", title: "닥터방스카파시딜액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "넥스팜코리아 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "헤르겐스칼프액5%", title: "헤르겐스칼프액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "마더스제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "헤어메드액5%", title: "헤어메드액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "광동제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "다모실겔5%", title: "다모실겔5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "티디에스팜 미녹시딜 5% 겔 타입 두피 탈모 치료 외용제" },
-    { slug: "모리나액5%", title: "모리나액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "레고켐제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "신신미녹시딜액5%", title: "신신미녹시딜액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신신제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "리겐솔액5%", title: "리겐솔액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "부광약품 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "나니녹실액5%", title: "나니녹실액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "씨트리 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "그루녹시딜액5%", title: "그루녹시딜액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "제이에스제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "바로나실액5%", title: "바로나실액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신풍제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "리드녹실액5%", title: "리드녹실액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "삼일제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "케어모액5%", title: "케어모액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "고려제약 미녹시딜 5% 두피 탈모 치료 외용액" },
-    { slug: "로게인액5%", title: "로게인액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "한국존슨앤드존슨판매 로게인 미녹시딜 5% 외용액" },
-    { slug: "볼두민액3%", title: "볼두민액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "제이더블유중외제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "헤르겐스칼프액3%", title: "헤르겐스칼프액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "마더스제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "헤어메드액3%", title: "헤어메드액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "광동제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "넥스모액3%", title: "넥스모액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "넥스팜코리아 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "레나시딜액3%", title: "레나시딜액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "알보젠코리아 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "남탈렌액3%", title: "남탈렌액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "익수제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "마이녹스액3%", title: "마이녹스액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신일제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "케이녹시액3%", title: "케이녹시액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "한국콜마 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "신신미녹시딜액3%", title: "신신미녹시딜액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신신제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "나니녹실액3%", title: "나니녹실액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "씨트리 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "그루녹시딜액3%", title: "그루녹시딜액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "제이에스제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "바로나실액3%", title: "바로나실액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신풍제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "백일후애액3%", title: "백일후애액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "동광제약 미녹시딜 3% 두피 탈모 치료 외용액" },
-    { slug: "모바린액3%", title: "모바린액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "태극제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "헤르겐스칼프액2", title: "헤르겐스칼프액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "마더스제약 미녹시딜 2% 두피 탈모 치료 외용액" },
+    { slug: "넥스모액2", title: "넥스모액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "넥스팜코리아 미녹시딜 2% 두피 탈모 치료 외용액" },
+    { slug: "모바린액2", title: "모바린액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "태극제약 미녹시딜 2% 두피 탈모 치료 외용액" },
+    { slug: "헤어메드액2", title: "헤어메드액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "광동제약 미녹시딜 2% 두피 탈모 치료 외용액" },
+    { slug: "레나시딜액2", title: "레나시딜액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "알보젠코리아 미녹시딜 2% 두피 탈모 치료 외용액" },
+    { slug: "신신미녹시딜액2", title: "신신미녹시딜액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신신제약 미녹시딜 2% 두피 탈모 치료 외용액" },
+    { slug: "케이녹시액2", title: "케이녹시액2% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "한국콜마 미녹시딜 2% 두피 탈모 치료 외용액" },
+    { slug: "라코빈액5", title: "라코빈액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "갈더마코리아 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "닥터방스카파시딜액5", title: "닥터방스카파시딜액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "넥스팜코리아 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "헤르겐스칼프액5", title: "헤르겐스칼프액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "마더스제약 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "헤어메드액5", title: "헤어메드액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "광동제약 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "다모실겔5", title: "다모실겔5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "티디에스팜 미녹시딜 5% 겔 타입 두피 탈모 치료 외용제" },
+    { slug: "모리나액5", title: "모리나액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "레고켐제약 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "신신미녹시딜액5", title: "신신미녹시딜액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신신제약 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "리겐솔액5", title: "리겐솔액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "부광약품 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "나니녹실액5", title: "나니녹실액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "씨트리 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "그루녹시딜액5", title: "그루녹시딜액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "제이에스제약 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "바로나실액5", title: "바로나실액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신풍제약 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "리드녹실액5", title: "리드녹실액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "삼일제약 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "케어모액5", title: "케어모액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "고려제약 미녹시딜 5% 두피 탈모 치료 외용액" },
+    { slug: "로게인액5", title: "로게인액5% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "한국존슨앤드존슨판매 로게인 미녹시딜 5% 외용액" },
+    { slug: "볼두민액3", title: "볼두민액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "제이더블유중외제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "헤르겐스칼프액3", title: "헤르겐스칼프액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "마더스제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "헤어메드액3", title: "헤어메드액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "광동제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "넥스모액3", title: "넥스모액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "넥스팜코리아 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "레나시딜액3", title: "레나시딜액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "알보젠코리아 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "남탈렌액3", title: "남탈렌액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "익수제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "마이녹스액3", title: "마이녹스액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신일제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "케이녹시액3", title: "케이녹시액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "한국콜마 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "신신미녹시딜액3", title: "신신미녹시딜액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신신제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "나니녹실액3", title: "나니녹실액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "씨트리 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "그루녹시딜액3", title: "그루녹시딜액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "제이에스제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "바로나실액3", title: "바로나실액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "신풍제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "백일후애액3", title: "백일후애액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "동광제약 미녹시딜 3% 두피 탈모 치료 외용액" },
+    { slug: "모바린액3", title: "모바린액3% 성분 효과 | 발모촉진제 사용법 부작용 총정리", description: "태극제약 미녹시딜 3% 두피 탈모 치료 외용액" },
     { slug: "아다모연질캡슐", title: "아다모 연질캡슐 최저가 가격 | 탈모치료제 성분 효과 복용법 부작용까지", description: "두타스테리드 0.5mg 남성형 탈모 치료 연질캡슐. 아보다트 제네릭" },
     { slug: "미노페시아84", title: "미노페시아정 84정 최저가 가격 | 탈모치료제 성분 효과 복용법 부작용까지", description: "피나스테리드 1mg 3개월분 84정 대용량" },
     { slug: "모모페시아90", title: "모모페시아정 90정 최저가 가격 | 탈모치료제 성분 효과 복용법 부작용까지", description: "피나스테리드 1mg 3개월분 90정 대용량" },
@@ -737,8 +737,8 @@ export const hub: HubArticle = {
     { slug: "에이페시아30", title: "에이페시아정 30정 최저가 가격 | 탈모치료제 성분 효과 복용법 부작용까지", description: "피나스테리드 1mg 남성형 탈모 치료 제네릭 30정" },
     { slug: "마이녹실에스S360", title: "마이녹실 에스 S 캡슐 360캡슐 최저가 가격 | 발모촉진제 성분 효과 복용법 부작용까지", description: "미녹시딜 5mg 경구 캡슐 대용량 360캡슐" },
     { slug: "마이녹실액5리필", title: "마이녹실액 5% 리필 360ml 최저가 가격 | 발모촉진제 성분 효과 사용법 부작용까지", description: "현대약품 미녹시딜 5% 대용량 리필 360ml" },
-    { slug: "마이녹실액3%", title: "마이녹실액 3% 180ml 최저가 가격 | 발모촉진제 성분 효과 사용법 부작용까지", description: "현대약품 미녹시딜 3% 두피 자극 적은 저농도 탈모 치료제" },
-    { slug: "마이녹실폼5%", title: "마이녹실 폼 에어로솔 5% 최저가 가격 | 발모촉진제 성분 효과 사용법 부작용까지", description: "현대약품 미녹시딜 5% 거품 폼 에어로솔" },
+    { slug: "마이녹실액3", title: "마이녹실액 3% 180ml 최저가 가격 | 발모촉진제 성분 효과 사용법 부작용까지", description: "현대약품 미녹시딜 3% 두피 자극 적은 저농도 탈모 치료제" },
+    { slug: "마이녹실폼5", title: "마이녹실 폼 에어로솔 5% 최저가 가격 | 발모촉진제 성분 효과 사용법 부작용까지", description: "현대약품 미녹시딜 5% 거품 폼 에어로솔" },
     { slug: "복합마이녹실", title: "복합마이녹실 최저가 가격 | 발모촉진제 성분 효과 사용법 부작용까지", description: "미녹시딜+피나스테리드 복합 탈모 외용액 60ml" },
     { slug: "케라시딜", title: "케라시딜 성분 효과 | 미녹시딜 외용액 사용법 부작용까지", description: "미녹시딜 5% 탈모 치료 외용액 여러 용량 선택" },
     { slug: "케라티모", title: "케라티모 성분 효과 | 미녹시딜 외용액 사용법 부작용까지", description: "미녹시딜 5% 탈모 치료 외용액 180ml·360ml 선택" },
@@ -15465,7 +15465,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "헤르겐스칼프액2%": {
-    slug: "헤르겐스칼프액2%",
+    slug: "헤르겐스칼프액2",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15495,7 +15495,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "넥스모액2%": {
-    slug: "넥스모액2%",
+    slug: "넥스모액2",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15525,7 +15525,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "모바린액2%": {
-    slug: "모바린액2%",
+    slug: "모바린액2",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15555,7 +15555,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "헤어메드액2%": {
-    slug: "헤어메드액2%",
+    slug: "헤어메드액2",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15585,7 +15585,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "레나시딜액2%": {
-    slug: "레나시딜액2%",
+    slug: "레나시딜액2",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15615,7 +15615,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "신신미녹시딜액2%": {
-    slug: "신신미녹시딜액2%",
+    slug: "신신미녹시딜액2",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15645,7 +15645,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "케이녹시액2%": {
-    slug: "케이녹시액2%",
+    slug: "케이녹시액2",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15675,7 +15675,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "라코빈액5%": {
-    slug: "라코빈액5%",
+    slug: "라코빈액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15705,7 +15705,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "닥터방스카파시딜액5%": {
-    slug: "닥터방스카파시딜액5%",
+    slug: "닥터방스카파시딜액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15735,7 +15735,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "헤르겐스칼프액5%": {
-    slug: "헤르겐스칼프액5%",
+    slug: "헤르겐스칼프액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15765,7 +15765,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "헤어메드액5%": {
-    slug: "헤어메드액5%",
+    slug: "헤어메드액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15795,7 +15795,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "다모실겔5%": {
-    slug: "다모실겔5%",
+    slug: "다모실겔5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15825,7 +15825,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "모리나액5%": {
-    slug: "모리나액5%",
+    slug: "모리나액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15855,7 +15855,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "신신미녹시딜액5%": {
-    slug: "신신미녹시딜액5%",
+    slug: "신신미녹시딜액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15885,7 +15885,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "리겐솔액5%": {
-    slug: "리겐솔액5%",
+    slug: "리겐솔액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15915,7 +15915,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "나니녹실액5%": {
-    slug: "나니녹실액5%",
+    slug: "나니녹실액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15945,7 +15945,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "그루녹시딜액5%": {
-    slug: "그루녹시딜액5%",
+    slug: "그루녹시딜액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -15975,7 +15975,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "바로나실액5%": {
-    slug: "바로나실액5%",
+    slug: "바로나실액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16005,7 +16005,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "리드녹실액5%": {
-    slug: "리드녹실액5%",
+    slug: "리드녹실액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16035,7 +16035,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "케어모액5%": {
-    slug: "케어모액5%",
+    slug: "케어모액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16065,7 +16065,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "로게인액5%": {
-    slug: "로게인액5%",
+    slug: "로게인액5",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16095,7 +16095,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "볼두민액3%": {
-    slug: "볼두민액3%",
+    slug: "볼두민액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16125,7 +16125,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "헤르겐스칼프액3%": {
-    slug: "헤르겐스칼프액3%",
+    slug: "헤르겐스칼프액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16155,7 +16155,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "헤어메드액3%": {
-    slug: "헤어메드액3%",
+    slug: "헤어메드액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16185,7 +16185,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "넥스모액3%": {
-    slug: "넥스모액3%",
+    slug: "넥스모액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16215,7 +16215,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "레나시딜액3%": {
-    slug: "레나시딜액3%",
+    slug: "레나시딜액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16245,7 +16245,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "남탈렌액3%": {
-    slug: "남탈렌액3%",
+    slug: "남탈렌액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16275,7 +16275,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "마이녹스액3%": {
-    slug: "마이녹스액3%",
+    slug: "마이녹스액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16305,7 +16305,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "케이녹시액3%": {
-    slug: "케이녹시액3%",
+    slug: "케이녹시액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16335,7 +16335,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "신신미녹시딜액3%": {
-    slug: "신신미녹시딜액3%",
+    slug: "신신미녹시딜액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16365,7 +16365,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "나니녹실액3%": {
-    slug: "나니녹실액3%",
+    slug: "나니녹실액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16395,7 +16395,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "그루녹시딜액3%": {
-    slug: "그루녹시딜액3%",
+    slug: "그루녹시딜액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16425,7 +16425,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "바로나실액3%": {
-    slug: "바로나실액3%",
+    slug: "바로나실액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16455,7 +16455,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "백일후애액3%": {
-    slug: "백일후애액3%",
+    slug: "백일후애액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -16485,7 +16485,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "모바린액3%": {
-    slug: "모바린액3%",
+    slug: "모바린액3",
     categorySlug: "탈모",
     datePublished: "2026-02-28",
     dateModified: "2026-02-28",
@@ -17147,7 +17147,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "마이녹실액3%": {
-    slug: "마이녹실액3%",
+    slug: "마이녹실액3",
     categorySlug: "탈모",
     datePublished: "2026-03-01",
     dateModified: "2026-03-01",
@@ -17177,7 +17177,7 @@ export const spokes: Record<string, SpokeArticle> = {
   },
 
   "마이녹실폼5%": {
-    slug: "마이녹실폼5%",
+    slug: "마이녹실폼5",
     categorySlug: "탈모",
     datePublished: "2026-03-01",
     dateModified: "2026-03-01",
