@@ -39,3 +39,33 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# source data (API에서 수집한 원본 — 레포에 올릴 필요 없음)
+/source-data/
+
+# scripts (일회성 유틸리티)
+/scripts/
+
+# tmp (임시 파일)
+/tmp/
+
+# 스크린샷 / 이미지 캡처
+*.png
+*.jpeg
+
+# 루트 임시 스크립트
+/add_spokes.js
+/gen_spokes.js
+/test_run.js
+/tmp_*.js
+/spoke_data*.json
+/nul
+
+# 백업 파일
+/data/*.backup.ts
+/data/*.old.ts
+
+# IDE / 도구
+.vscode/
+.playwright-mcp/
+.claude/

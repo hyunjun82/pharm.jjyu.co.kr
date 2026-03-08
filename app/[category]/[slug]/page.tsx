@@ -456,6 +456,7 @@ export default async function SpokePage({ params }: PageProps) {
                 price: mainProduct.price,
                 priceCurrency: "KRW",
                 availability: "https://schema.org/InStock",
+                priceValidUntil: "2026-12-31",
               },
             }),
           }}

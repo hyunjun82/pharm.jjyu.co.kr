@@ -108,6 +108,50 @@ ingredients: [
 
 ---
 
+## 소스 기반 글 작성 (필수)
+
+### 절대 규칙: AI 지식으로 글 쓰지 말 것
+
+spoke 글의 효능, 용법, 부작용, 주의사항, 보관법은 **반드시 `source-data/{slug}.json`에서 가져와야** 합니다.
+AI의 학습 데이터나 웹 검색 결과로 의약품 정보를 작성하면 안 됩니다.
+
+### 글 작성 절차
+
+1. `source-data/{slug}.json` 파일이 있는지 확인
+2. **있으면** → JSON의 `efcyQesitm`, `useMethodQesitm`, `atpnQesitm`, `seQesitm`, `depositMethodQesitm`을 읽고, 이 데이터를 기반으로 구어체로 재작성
+3. **없으면** → 글 작성 금지. 먼저 e약은요 API에서 소스를 수집해야 함
+
+### 소스 JSON 필드 → 섹션 매핑
+
+| 소스 JSON 필드 | 글 섹션 |
+|---------------|--------|
+| `efcyQesitm` (효능효과) | 2번: 효능과 효과 |
+| `useMethodQesitm` (용법용량) | 3번: 올바른 사용법/복용법 |
+| `atpnQesitm` (주의사항) | 5번: 주의사항 |
+| `seQesitm` (부작용) | 4번: 부작용 |
+| `depositMethodQesitm` (보관법) | 6번: 보관법 |
+| `itemName` 괄호 안 성분 | 1번: 성분 분석 |
+
+### 숫자 정확도
+
+- "만 N세", "1일 N회", "1회 N정" 등 **숫자는 소스 JSON과 정확히 일치**해야 함
+- 소스에 "1일 3~4회"면 글에도 "1일 3~4회" 또는 범위 내 값만 허용
+- Pre-edit 훅이 자동으로 대조하며, 불일치 시 저장 차단됨
+
+### 소스 없는 slug 작성이 필요한 경우
+
+```bash
+# 1. e약은요 API에서 소스 수집
+node scripts/fetch-source.js --slug {slug명}
+
+# 2. 소스 확인
+cat source-data/{slug}.json
+
+# 3. 소스 기반으로 글 작성
+```
+
+---
+
 ## 데이터 파일 작성 규칙
 
 ### products 데이터 (`data/products/` 또는 `data/products.ts`)
