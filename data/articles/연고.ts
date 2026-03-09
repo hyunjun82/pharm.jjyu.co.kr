@@ -2145,6 +2145,7 @@ export const spokes: Record<string, SpokeArticle> = {
           title: "디페낙겔 성분 분석",
           ingredients: [
             { type: "주성분", name: "디클로페낙디에틸암모늄(Diclofenac Diethylammonium)", amount: "10mg/g(1%)", role: "진통·소염" },
+            { type: "첨가제", name: "카보머(Carbomer)", role: "겔 기제 형성" },
           ],
           content: "디페낙겔의 주성분은 디클로페낙디에틸암모늄(Diclofenac Diethylammonium) 1%예요. 비스테로이드성 소염진통제(NSAID) 계열의 바르는 약이에요.\n\n디클로페낙 성분이 피부를 통해 흡수돼 염증 부위에 직접 작용해요. 먹는 소염진통제와 같은 계열이지만, 바르는 형태라 원하는 부위에 집중적으로 쓸 수 있어요.\n\n태극제약에서 제조하는 겔 형태의 일반의약품이에요. 처방전 없이 약국에서 구입할 수 있어요.",
         },
