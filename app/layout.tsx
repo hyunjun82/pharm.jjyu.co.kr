@@ -55,6 +55,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <meta name="verify-v1" content="DaumWebMasterTool:9def7ccef6d02b1f625a1bf0bd93f1a20d8972890a4d27602afdea23ba01e78b:g4FqG9DIBQPU4d69wz04fQ==" />
         <link rel="alternate" type="application/rss+xml" title="약정보 RSS" href="/feed.xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
