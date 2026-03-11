@@ -2,6 +2,7 @@
 User-agent: *
 Allow: /
 Disallow: /api/
+Allow: /_next/image
 Disallow: /_next/
 
 # Daum 웹마스터도구 인증
