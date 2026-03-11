@@ -45,12 +45,12 @@ export const hub: HubArticle = {
       },
     {
         slug: "볼타렌",
-        title: "볼타렌 최저가 가격 | 성분 효과 사용법 부작용까지",
+        title: "볼타렌 성분 효과 | 소염진통겔 사용법 부작용 총정리",
         description: "디클로페낙 소염진통 겔 볼타렌의 성분, 효능, 사용법, 부작용을 소스 기반으로 정리했어요.",
       },
     {
         slug: "노스카나겔",
-        title: "노스카나겔 최저가 가격 | 성분 효과 사용법 부작용까지",
+        title: "노스카나겔 성분 효과 | 흉터치료겔 사용법 부작용 총정리",
         description: "흉터 치료 겔 노스카나겔의 3중 복합 성분, 효능, 사용법을 소스 기반으로 정리했어요.",
       },
     {
@@ -849,8 +849,8 @@ export const spokes: Record<string, SpokeArticle> = {
       categorySlug: "연고",
       datePublished: "2026-03-11",
       dateModified: "2026-03-11",
-      title: "볼타렌 최저가 가격 | 성분 효과 사용법 부작용까지",
-      h1: "볼타렌 최저가 가격 | 성분 효과 사용법 부작용까지",
+      title: "볼타렌 성분 효과 | 소염진통겔 사용법 부작용 총정리",
+      h1: "볼타렌 성분 효과 | 소염진통겔 사용법 부작용 총정리",
       metaDescription:
         "볼타렌에멀겔(디클로페낙디에틸암모늄) 성분과 효능, 부작용, 올바른 사용법을 정리했습니다. 근육·관절 염증 및 통증에 만 12세 이상 1회 2~4g, 1일 3~4회 사용하는 소염진통 겔입니다.",
       description:
@@ -906,8 +906,8 @@ export const spokes: Record<string, SpokeArticle> = {
       categorySlug: "연고",
       datePublished: "2026-03-11",
       dateModified: "2026-03-11",
-      title: "노스카나겔 최저가 가격 | 성분 효과 사용법 부작용까지",
-      h1: "노스카나겔 최저가 가격 | 성분 효과 사용법 부작용까지",
+      title: "노스카나겔 성분 효과 | 흉터치료겔 사용법 부작용 총정리",
+      h1: "노스카나겔 성분 효과 | 흉터치료겔 사용법 부작용 총정리",
       metaDescription:
         "노스카나겔 흉터 치료 겔의 성분과 효능, 부작용, 올바른 사용법을 정리했습니다. 비대성·켈로이드성 흉터, 여드름 흉터, 수술 흉터에 성인 및 2세 이상 소아가 1일 수회 사용합니다.",
       description:
@@ -1075,7 +1075,7 @@ export const spokes: Record<string, SpokeArticle> = {
         },
       ],
     },
-        포스테리산: {
+    포스테리산: {
       slug: "포스테리산",
       categorySlug: "연고",
       datePublished: "2026-02-23",
