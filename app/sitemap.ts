@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { hubArticles, spokeArticles } from "@/data/articles";
 
+export const dynamic = "force-dynamic";
+
 const BASE_URL = "https://pharm.jjyu.co.kr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
