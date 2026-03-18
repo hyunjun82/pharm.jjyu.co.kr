@@ -36,7 +36,7 @@ const MIN_SECTION_CHARS = 300;
 
 function getStagedArticleFiles() {
   try {
-    const output = execSync("git diff --cached --name-only", {
+    const output = execSync("git -c core.quotePath=false diff --cached --name-only", {
       cwd: PROJECT_ROOT,
       encoding: "utf8",
       timeout: 5000,
