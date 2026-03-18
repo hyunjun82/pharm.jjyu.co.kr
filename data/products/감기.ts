@@ -1236,7 +1236,7 @@ export const products: Product[] = [
     description: "숙지황·백작약·천궁·계피·감초 전통 한방 쌍화탕 10병 묶음. 피로 회복과 원기 보충에 효과적이에요.",
     price: 4500,
     unit: "100ml×10병",
-    barkiryProductId: "p1297",
+    barkiryQuery: "부채표쌍화탕",
     ingredients: "숙지황,백작약,천궁,계피,감초",
     usage: "1일 3회, 1병(100ml)씩 식후 복용",
     slug: "부채표쌍화탕",
