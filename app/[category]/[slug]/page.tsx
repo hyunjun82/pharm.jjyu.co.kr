@@ -66,13 +66,7 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  const allParams: { category: string; slug: string }[] = [];
-  for (const [categorySlug, spokes] of Object.entries(spokeArticles)) {
-    for (const spokeSlug of Object.keys(spokes)) {
-      allParams.push({ category: categorySlug, slug: spokeSlug });
-    }
-  }
-  return allParams;
+  return [];
 }
 
 export async function generateMetadata({
