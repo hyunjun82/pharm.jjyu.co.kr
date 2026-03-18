@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   experimental: {
-    workerThreads: true,
+    workerThreads: false,
   },
   async redirects() {
     return [
