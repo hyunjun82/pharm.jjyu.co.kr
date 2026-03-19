@@ -17,7 +17,7 @@ const EXTERNAL_YEOSUNG = ["지노베타딘", "관류용생리식염수"];
 const EXTERNAL_YONGYANGJE = ["블레파졸", "캐치티니핑썸머패치"];
 const EXTERNAL_GAMGI = ["시원타좋아나잘스프레이", "화콜나잘스프레이", "나졸액", "노스엣센스액", "나리스타에스점비액", "곰탱이열냉각시트", "아기천사열냉각시트", "오트리빈베이비내추럴", "오트리빈에스멘톨", "뮤코미스트액"];
 // 외부카테고리에 있지만 실제 경구 복용하는 약 (복용법 사용)
-const INTERNAL_ORAL_IN_EXTERNAL = ["아졸정", "제놀담푸러정", "스카풀라정10정", "젠타졸", "트란시노"];
+const INTERNAL_ORAL_IN_EXTERNAL = ["아졸정", "제놀담푸러정", "스카풀라정10정", "젠타졸", "트란시노", "지르텍정"];
 
 let totalErrors = 0;
 let totalWarnings = 0;

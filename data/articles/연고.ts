@@ -5868,7 +5868,7 @@ export const spokes: Record<string, SpokeArticle> = {
         {
           title: "하이로버크림 성분 분석",
           ingredients: [
-            { type: "주성분", name: "아시클로버(Aciclovir)", amount: "50mg/g(5%)", role: "항바이러스 — 단순포진바이러스 DNA 복제 억제" },
+            { type: "주성분", name: "아시클로버(Aciclovir)", amount: "50mg/g(5%)", role: "항바이러스 (단순포진바이러스 DNA 복제 억제)" },
             { type: "첨가제", name: "세틸알코올(Cetyl alcohol)", role: "크림 기제, 피부 보호막" },
             { type: "첨가제", name: "프로필렌글리콜(Propylene glycol)", role: "흡수 촉진" },
             { type: "첨가제", name: "백색바셀린(White petrolatum)", role: "보습, 크림 기제" },
@@ -8960,7 +8960,7 @@ export const spokes: Record<string, SpokeArticle> = {
         title: "클리어딘 성분 분석",
         content: "클리어딘의 주성분은 로라타딘(Loratadine)이에요. 알피바이오에서 만든 연질캡슐 형태의 의약품으로, 항히스타민제 카테고리에 속해요.\n\n로라타딘은 2세대 항히스타민제로, 알레르기 반응을 일으키는 히스타민이 수용체에 결합하는 것을 막아요. 1세대 항히스타민제보다 졸음을 덜 유발하는 특징이 있어요.\n\n정확한 성분 함량과 첨가제 정보는 포장 설명서를 통해 확인하세요. 연질캡슐 제형이에요.",
         ingredients: [
-          { type: "주성분", name: "로라타딘(Loratadine)", amount: "제품 설명서 참조", role: "항히스타민 작용 — 알레르기 증상 완화" },
+          { type: "주성분", name: "로라타딘(Loratadine)", amount: "제품 설명서 참조", role: "항히스타민 (알레르기 증상 완화)" },
         ],
       },
       {
@@ -9072,7 +9072,7 @@ export const spokes: Record<string, SpokeArticle> = {
         title: "엘크라넬 성분 분석",
         content: "엘크라넬의 주성분은 리도카인(Lidocaine)이에요. 아이큐어에서 만든 크림 형태의 의약품으로, 국소마취 성분인 리도카인이 피부와 점막의 감각 신경을 일시적으로 둔감하게 만들어요.\n\n리도카인(Lidocaine)은 아미노아미드 계열 국소마취제예요. 신경 세포막의 나트륨 이온 채널을 차단해 신경 신호 전달을 일시적으로 억제하는 방식으로 작용해요.\n\n크림 제형으로 피부에 바르면 해당 부위의 촉각이 일시적으로 둔해져요. 정확한 성분 함량과 첨가제 정보는 포장 설명서를 통해 확인하세요.",
         ingredients: [
-          { type: "주성분", name: "리도카인(Lidocaine)", amount: "제품 설명서 참조", role: "국소마취 — 촉각 일시적 감소" },
+          { type: "주성분", name: "리도카인(Lidocaine)", amount: "제품 설명서 참조", role: "국소마취 (촉각 일시적 감소)" },
         ],
       },
       {

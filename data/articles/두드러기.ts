@@ -145,7 +145,7 @@ export const hub: HubArticle = {
     },
     {
       slug: "지르텍정",
-      title: "지르텍정 최저가 가격 | 성분 효과 복용법 부작용까지",
+      title: "지르텍정 성분 효과 | 두드러기 알레르기 비염 복용법 부작용까지",
       description: "세티리진 10mg 2세대 항히스타민 경구 두드러기·알레르기 비염 치료제",
     },
   ],
@@ -2054,8 +2054,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "두드러기",
     datePublished: "2026-03-19",
     dateModified: "2026-03-19",
-    title: "지르텍정 최저가 가격 | 성분 효과 복용법 부작용까지",
-    h1: "지르텍정 최저가 가격 | 성분 효과 복용법 부작용까지",
+    title: "지르텍정 성분 효과 | 두드러기 알레르기 비염 복용법 부작용까지",
+    h1: "지르텍정 성분 효과 | 두드러기 알레르기 비염 복용법 부작용까지",
     metaDescription:
       "지르텍정(세티리진) 성분과 효능, 올바른 복용법, 부작용, 주의사항을 정리했습니다. 두드러기·알레르기 비염에 쓰는 2세대 항히스타민제로 졸음 부작용이 적어요.",
     description:
