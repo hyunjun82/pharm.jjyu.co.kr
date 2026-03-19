@@ -31,8 +31,9 @@ const RESISTANCE_KEYWORDS = [
   "병원에 가", "의사와 상담", "즉시 중단",
 ];
 
-const MIN_TOTAL_CHARS = 2000;
-const MIN_SECTION_CHARS = 300;
+const MIN_TOTAL_CHARS = 1700;
+const MAX_TOTAL_CHARS = 2000;
+const MIN_SECTION_CHARS = 200;
 
 function getStagedArticleFiles() {
   try {
@@ -136,6 +137,8 @@ function verifySpoke(spoke) {
   const koreanOnly = allText.replace(/[^가-힣]/g, "");
   if (koreanOnly.length < MIN_TOTAL_CHARS) {
     errors.push(`텍스트 ${koreanOnly.length}자 (최소 ${MIN_TOTAL_CHARS})`);
+  } else if (koreanOnly.length > MAX_TOTAL_CHARS) {
+    errors.push(`텍스트 과다 ${koreanOnly.length}자 (최대 ${MAX_TOTAL_CHARS})`);
   }
 
   // 2. Per-section density
