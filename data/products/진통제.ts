@@ -2063,4 +2063,18 @@ export const products: Product[] = [
     usage: "1회 1캡슐, 1일 3회 식후 복용",
     slug: "더블락",
   },
+  {
+    id: "이브더블샷-gl",
+    name: "이브더블샷 연질캡슐",
+    image: "/images/placeholder.svg",
+    category: "일반의약품",
+    categorySlug: "진통제",
+    description: "이부프로펜 계열 연질캡슐. 두통·생리통·근육통·관절통 진통과 발열 시 해열에 사용해요.",
+    price: 2000,
+    unit: "10캡슐",
+    barkiryQuery: "이브더블샷",
+    ingredients: "이부프로펜",
+    usage: "1회 1캡슐, 1일 1~3회 4시간 이상 간격, 식후 복용",
+    slug: "이브더블샷",
+  },
 ];
