@@ -191,8 +191,8 @@ function verifyArticle(cat, block) {
     wrn(cat, slug, `타이틀에 "${expectedUsage}" 없음`);
   }
 
-  // === 섹션 제목 일치 ===
-  const expected = [
+  // === 섹션 제목 존재 여부 (Q2 기반 순서 허용 — 고정 순서 금지) ===
+  const required = [
     `${slug} 성분 분석`,
     `${slug} 효능과 효과`,
     `${slug} 올바른 ${expectedUsage}`,
@@ -200,15 +200,13 @@ function verifyArticle(cat, block) {
     `${slug} 주의사항`,
     `${slug} 보관법`,
   ];
-  for (let i = 0; i < Math.min(secTitles.length, 6); i++) {
-    if (secTitles[i] !== expected[i]) {
-      const n1 = secTitles[i].replace(/\s+/g, "");
-      const n2 = expected[i].replace(/\s+/g, "");
-      if (n1 === n2) {
-        wrn(cat, slug, `섹션 제목 띄어쓰기: "${secTitles[i]}" → "${expected[i]}"`);
-      } else {
-        err(cat, slug, `섹션 제목 불일치: "${secTitles[i]}" (기대: "${expected[i]}")`);
-      }
+  for (const req of required) {
+    const found = secTitles.find(t => t === req);
+    const foundLoose = secTitles.find(t => t.replace(/\s+/g, "") === req.replace(/\s+/g, ""));
+    if (!found && foundLoose) {
+      wrn(cat, slug, `섹션 제목 띄어쓰기: "${foundLoose}" → "${req}"`);
+    } else if (!found) {
+      err(cat, slug, `섹션 제목 누락: "${req}"`);
     }
   }
 
