@@ -14171,6 +14171,7 @@ export const spokes: Record<string, SpokeArticle> = {
           { type: "주성분", name: "아세트아미노펜", amount: "함유", role: "해열·진통 (발열·두통·근육통·관절통 완화)" },
           { type: "주성분", name: "클로르페니라민말레산염", amount: "함유", role: "항히스타민 (콧물·재채기 억제)" },
           { type: "주성분", name: "슈도에페드린염산염", amount: "함유", role: "비충혈 제거 (코막힘 완화)" },
+          { type: "첨가제", name: "제품 설명서 참조", role: "제형 성분" },
         ],
       },
       {
