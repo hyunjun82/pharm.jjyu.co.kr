@@ -3,10 +3,10 @@
  * verify-article-quality.js
  *
  * pharm-jjyu spoke 글 품질 검증 스크립트
- * - 텍스트 밀도 (전체 2000자+, 섹션별 300자+)
+ * - 텍스트 밀도 (전체 1700자+, 섹션별 200자+)
  * - AI냄새 금지어 검출
  * - 저항 FAQ 검증
- * - 같은 H2 순서 5연속 감지
+ * - H2 순서: 성분→효능→복용법→부작용→주의사항→보관법 고정 기본값
  * - 어미 반복 검사
  *
  * Usage: node scripts/verify-article-quality.js [--category 탈모] [--fix]
@@ -28,8 +28,9 @@ const RESISTANCE_KEYWORDS = [
   "병원에 가", "의사와 상담", "즉시 중단",
 ];
 
-const MIN_TOTAL_CHARS = 2000;
-const MIN_SECTION_CHARS = 300;
+const MIN_TOTAL_CHARS = 1700;
+const MAX_TOTAL_CHARS = 2000;
+const MIN_SECTION_CHARS = 200;
 
 function extractSpokes(filePath) {
   const content = fs.readFileSync(filePath, "utf-8");
@@ -173,7 +174,9 @@ function verifySpoke(spoke) {
   // 1. Text density - total
   const koreanOnly = allText.replace(/[^가-힣]/g, "");
   if (koreanOnly.length < MIN_TOTAL_CHARS) {
-    errors.push(`텍스트 밀도 부족: ${koreanOnly.length}자 (최소 ${MIN_TOTAL_CHARS}자)`);
+    errors.push(`텍스트 밀도 부족: ${koreanOnly.length}자 (${MIN_TOTAL_CHARS}~${MAX_TOTAL_CHARS}자 범위)`);
+  } else if (koreanOnly.length > MAX_TOTAL_CHARS) {
+    errors.push(`텍스트 과다: ${koreanOnly.length}자 (${MIN_TOTAL_CHARS}~${MAX_TOTAL_CHARS}자 범위)`);
   }
 
   // 2. Text density - per section
@@ -222,8 +225,6 @@ let totalErrors = 0;
 let totalWarnings = 0;
 let totalSpokes = 0;
 let h2OrderMap = {};
-let consecutiveSameOrder = 0;
-let lastOrder = null;
 
 for (const file of files) {
   const category = file.replace(".ts", "");
@@ -241,27 +242,6 @@ for (const file of files) {
     const result = verifySpoke(spoke);
     totalSpokes++;
 
-    // H2 order tracking
-    const orderKey = result.sectionTitles.map(t => {
-      if (t.includes("성분")) return "성분";
-      if (t.includes("효능") || t.includes("효과")) return "효능";
-      if (t.includes("사용법") || t.includes("복용법")) return "용법";
-      if (t.includes("부작용")) return "부작용";
-      if (t.includes("주의사항")) return "주의";
-      if (t.includes("보관")) return "보관";
-      return t;
-    }).join("→");
-
-    if (orderKey === lastOrder) {
-      consecutiveSameOrder++;
-    } else {
-      consecutiveSameOrder = 1;
-      lastOrder = orderKey;
-    }
-
-    if (consecutiveSameOrder >= 5) {
-      result.warnings.push(`H2 순서 ${consecutiveSameOrder}연속 동일: ${orderKey}`);
-    }
 
     if (result.errors.length > 0 || result.warnings.length > 0) {
       console.log(`\n[${category}/${result.slug}]`);
