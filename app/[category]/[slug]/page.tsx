@@ -66,7 +66,12 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return [];
+  return Object.entries(spokeArticles).flatMap(([category, articles]) =>
+    Object.keys(articles).map((slug) => ({
+      category,
+      slug,
+    }))
+  );
 }
 
 export async function generateMetadata({
