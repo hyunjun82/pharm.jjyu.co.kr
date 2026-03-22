@@ -389,7 +389,7 @@ export const products: Product[] = [
   {
     id: "sensila-120tabs",
     name: "센실라정 120정",
-    image: "/images/barkiri-센실라정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "레보노르게스트렐 0.03mg+에티닐에스트라디올 30mcg 피임약 120정 대용량. 5개월분 경제적 규격.",
@@ -516,7 +516,7 @@ export const products: Product[] = [
   {
     id: "hferamin-q-180tabs",
     name: "훼라민큐 180정",
-    image: "/images/barkiri-훼라민큐.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "감마오리자놀+인삼+비타민B 갱년기 복합 영양제. 갱년기 열감·불면·피로 완화에 사용해요.",
@@ -656,7 +656,7 @@ export const products: Product[] = [
   {
     id: "gyeongbang-samul-tang-500g",
     name: "경방 사물탕 엑스과립 500g",
-    image: "/images/barkiri-경방사물탕.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "당귀·천궁·작약·숙지황 사물탕 여성 보혈 한방약. 빈혈·혈허로 인한 어지럼증·피로·생리불순에 사용해요.",
@@ -698,7 +698,7 @@ export const products: Product[] = [
   {
     id: "euresco-30tabs",
     name: "유레스코정 0.5/5mg 30정",
-    image: "/images/barkiri-유레스코정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "여성건강",
     description: "드로스피레논+에티닐에스트라디올 복합 경구피임약 (야즈 성분). 24+4 복용 방식으로 생리전증후군 개선 효과도 있어요.",

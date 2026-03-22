@@ -1230,7 +1230,7 @@ export const products: Product[] = [
   {
     id: "buchaepio-ssanghwatang-100ml-10",
     name: "부채표 쌍화탕 100ml 10병",
-    image: "/images/barkiri-부채표쌍화탕.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "숙지황·백작약·천궁·계피·감초 전통 한방 쌍화탕 10병 묶음. 피로 회복과 원기 보충에 효과적이에요.",
@@ -1609,7 +1609,7 @@ export const products: Product[] = [
   {
     id: "pancoles-30ml-30",
     name: "판콜 에스 내복액 30ml 1박스 30병",
-    image: "/images/barkiri-판콜에스내복액30병.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "판콜에스 대용량 30병 박스. 아세트아미노펜+슈도에페드린+클로르페니라민 종합감기 내복액이에요.",
@@ -1735,7 +1735,7 @@ export const products: Product[] = [
   {
     id: "panpirin-q-30",
     name: "판피린큐액 20ml 30병",
-    image: "/images/barkiri-판피린큐액30병.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "판피린큐 대용량 30병 박스. 아세트아미노펜+클로르페니라민+dl-메틸에페드린 종합감기 내복액이에요.",
@@ -1763,7 +1763,7 @@ export const products: Product[] = [
   {
     id: "modcol-s-20caps",
     name: "모드콜 S 연질캡슐 20연질캡슐",
-    image: "/images/barkiri-모드콜S연질캡슐20.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "이부프로펜+슈도에페드린 종합감기 연질캡슐 20캡슐 대용량. 발열·코막힘·근육통에 효과적이에요.",
@@ -1777,7 +1777,7 @@ export const products: Product[] = [
   {
     id: "theraflu-night-10",
     name: "테라플루 나이트타임 건조시럽 10개입",
-    image: "/images/barkiri-테라플루나이트타임10개입.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세트아미노펜+디펜히드라민+페닐에프린 야간 감기 건조시럽. 10개입으로 숙면 도우면서 감기 증상 완화해요.",
@@ -1861,7 +1861,7 @@ export const products: Product[] = [
   {
     id: "sogeunwon-galgeun-1-p353",
     name: "소근원과립 갈근탕 1포",
-    image: "/images/barkiri-소근원과립갈근탕.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 갈근탕 과립제. 초기 감기 오한·두통·어깨결림에 효과적이에요.",
@@ -2001,7 +2001,7 @@ export const products: Product[] = [
   {
     id: "modco-s-10caps-p516",
     name: "모드코 S 연질캡슐 10연질캡슐",
-    image: "/images/barkiri-모드코S연질캡슐.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "종합감기 연질캡슐. 이부프로펜+클로르페니라민 복합으로 발열·콧물·두통을 완화해요.",
@@ -2197,7 +2197,7 @@ export const products: Product[] = [
   {
     id: "hanpung-eungyosan-5-p763",
     name: "한풍 은교산 엑스과립 2.3g 5포",
-    image: "/images/barkiri-한풍은교산엑스과립.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 은교산 과립제. 금은화·연교 등 생약 성분으로 인후통·발열 초기 감기를 완화해요.",
@@ -2267,7 +2267,7 @@ export const products: Product[] = [
   {
     id: "hansol-cheongsang-90-p814",
     name: "한솔 청상기가환 (청상보화환) 90포",
-    image: "/images/barkiri-한솔청상기가환.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 청상보화환. 두통·현기증·코막힘 등 상부 열증을 완화하는 전통 처방이에요.",
@@ -2477,7 +2477,7 @@ export const products: Product[] = [
   {
     id: "cheonwang-1-p934",
     name: "천왕안심환 (천왕보심단) 1포",
-    image: "/images/barkiri-천왕안심환.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 천왕보심단. 심신 안정과 불면·가슴 두근거림을 완화하는 전통 처방이에요.",
@@ -2589,7 +2589,7 @@ export const products: Product[] = [
   {
     id: "hansol-galgeun-60-p1002",
     name: "한솔 갈근탕 엑스과립 60포",
-    image: "/images/barkiri-한솔갈근탕엑스과립.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 갈근탕 과립제 대용량 60포. 초기 감기 오한·두통·어깨결림을 완화해요.",
@@ -2687,7 +2687,7 @@ export const products: Product[] = [
   {
     id: "redcough-f-10caps-p1119",
     name: "레드코프 에프 10연질캡슐",
-    image: "/images/barkiri-레드코프에프.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "기침감기 연질캡슐. 덱스트로메토르판+구아이페네신으로 기침·가래를 강력하게 완화해요.",
@@ -2855,7 +2855,7 @@ export const products: Product[] = [
   {
     id: "kyungbang-banhwa-500g-p1226",
     name: "경방 반하백출천마탕 엑스과립 500g",
-    image: "/images/barkiri-경방반하백출천마탕.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 반하백출천마탕 대용량 과립. 어지러움·두통·구역감에 효과적인 전통 처방이에요.",
@@ -2897,7 +2897,7 @@ export const products: Product[] = [
   {
     id: "hanpung-bansasin-1-p1255",
     name: "한풍제약 반사신 과립 1포",
-    image: "/images/barkiri-한풍반사신과립.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 반하사심탕 과립제. 소화불량·구역감 동반 감기에 효과적인 전통 처방이에요.",
@@ -2925,7 +2925,7 @@ export const products: Product[] = [
   {
     id: "muteran-100caps-p1275",
     name: "뮤테란 200mg 100캡슐",
-    image: "/images/barkiri-뮤테란.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세틸시스테인 거담제 대용량. 끈적한 가래를 녹여 배출을 도와줘요.",
@@ -2939,7 +2939,7 @@ export const products: Product[] = [
   {
     id: "geumwang-simdan-30-p1280",
     name: "금왕심단 30포",
-    image: "/images/barkiri-금왕심단.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 심신 안정 환. 불면·불안·가슴 두근거림·피로감을 완화하는 전통 처방이에요.",
@@ -3065,7 +3065,7 @@ export const products: Product[] = [
   {
     id: "muteran-20-p1323",
     name: "뮤테란 200mg 20포",
-    image: "/images/barkiri-뮤테란.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세틸시스테인 거담제 20포. 끈적한 가래를 녹여 배출을 도와줘요.",
@@ -3135,7 +3135,7 @@ export const products: Product[] = [
   {
     id: "iksu-galgeun-10-p1355",
     name: "익수 갈근탕액 100ml 10개입",
-    image: "/images/barkiri-익수갈근탕액.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 갈근탕 액제 10개입 대용량. 초기 감기 오한·두통·어깨결림을 완화해요.",
@@ -3191,7 +3191,7 @@ export const products: Product[] = [
   {
     id: "sokcheong-care-1-p1416",
     name: "속청 케어액 75ml 1병",
-    image: "/images/barkiri-속청케어액.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "한방 생약 액제. 소화불량·구역감 동반 감기에 효과적인 생약 복합 처방이에요.",
@@ -3219,7 +3219,7 @@ export const products: Product[] = [
   {
     id: "exceramin-exo-120t-p1440",
     name: "엑세라민 엑소정 120정",
-    image: "/images/barkiri-엑세라민엑소정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "고함량 비타민C 복합 정제. 면역력 강화와 피로 회복에 효과적이에요.",
@@ -3401,7 +3401,7 @@ export const products: Product[] = [
   {
     id: "benachio-sokpyeon-30-p1642",
     name: "속편한 베나치오액 20ml 30병",
-    image: "/images/barkiri-속편한베나치오액.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "아세트아미노펜 액제 대용량 30병. 발열·두통·인후통을 완화해요.",
@@ -3471,7 +3471,7 @@ export const products: Product[] = [
   {
     id: "hcol-10caps-p1697",
     name: "에이치콜연질캡슐 10캡슐",
-    image: "/images/barkiri-에이치콜연질캡슐.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "종합감기 연질캡슐. 아세트아미노펜+클로르페니라민 복합으로 감기 증상을 완화해요.",
@@ -3611,7 +3611,7 @@ export const products: Product[] = [
   {
     id: "redcol-10caps-p1777",
     name: "레드콜 연질캡슐 10캡슐",
-    image: "/images/barkiri-레드콜연질캡슐.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "종합감기 연질캡슐. 아세트아미노펜+클로르페니라민 복합으로 감기 증상을 완화해요.",
@@ -3639,7 +3639,7 @@ export const products: Product[] = [
   {
     id: "acol-10caps-p1798",
     name: "에이콜 연질캡슐 10캡슐",
-    image: "/images/barkiri-에이콜연질캡슐.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "종합감기 연질캡슐. 아세트아미노펜+클로르페니라민 복합으로 감기 증상을 완화해요.",
@@ -3737,7 +3737,7 @@ export const products: Product[] = [
   {
     id: "hcough-10caps-p1846",
     name: "에이치 코프 10연질캡슐",
-    image: "/images/barkiri-에이치코프.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "기침감기 연질캡슐. 덱스트로메토르판+구아이페네신으로 기침·가래를 효과적으로 완화해요.",
@@ -3905,7 +3905,7 @@ export const products: Product[] = [
   {
     id: "ichame-cough-12caps-p1962",
     name: "이참에 코프 연질캡슐 12캡슐",
-    image: "/images/barkiri-이참에코프연질캡슐.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "감기",
     description: "기침감기 연질캡슐. 덱스트로메토르판+구아이페네신으로 기침·가래를 효과적으로 완화해요.",

@@ -320,7 +320,7 @@ export const products: Product[] = [
   {
     id: "easycare-naillaca-6ml",
     name: "유한 이지케어 네일라카 6ml",
-    image: "/images/barkiri-이지케어네일라카.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "유한양행 아모롤핀 5% 네일라카 6ml. 발톱무좀 국소 치료를 위한 편리한 브러시 타입.",
@@ -404,7 +404,7 @@ export const products: Product[] = [
   {
     id: "surantra-30g",
     name: "수란트라 크림 1% 30g",
-    image: "/images/barkiri-수란트라크림30g.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "이사부코나졸 1% 신세대 항진균 크림 대용량 30g. 무좀·완선·어루러기 장기 치료에 경제적이에요.",
@@ -503,7 +503,7 @@ export const products: Product[] = [
   {
     id: "muzomen-liquid-50ml",
     name: "무조멘액 50ml",
-    image: "/images/barkiri-무조멘.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "무좀",
     description: "클로트리마졸 1% 외용액. 발무좀·완선·어루러기 치료용 액상 항진균제.",

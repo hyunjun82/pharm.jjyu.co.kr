@@ -211,7 +211,7 @@ export const products: Product[] = [
   {
     id: "bonaallegin-cream-30g",
     name: "보나알러진 크림 30g",
-    image: "/images/barkiri-보나알러진크림.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "히드로코르티손+항히스타민 복합 가려움증 크림. 두드러기·접촉성 피부염 복합 케어.",
@@ -225,7 +225,7 @@ export const products: Product[] = [
   {
     id: "dexoril-cream-30g",
     name: "덱소릴 크림 30g",
-    image: "/images/barkiri-덱소릴크림.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "히드로코르티손부티레이트 중강도 스테로이드 크림. 습진·피부염·가려움 항소염 효과.",
@@ -239,7 +239,7 @@ export const products: Product[] = [
   {
     id: "lacticare-hc-hydro-150ml",
     name: "락티케어HC 하이드로 로션 150ml",
-    image: "/images/barkiri-락티케어HC로션하이드로.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "히드로코르티손+락트산 복합 로션. 가려움 억제와 건조 피부 동시 케어.",
@@ -253,7 +253,7 @@ export const products: Product[] = [
   {
     id: "eatree-cream-30g",
     name: "에이트리 크림 30g",
-    image: "/images/barkiri-에이트리크림.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "히드로코르티손아세테이트+덱스판테놀 복합 크림. 두드러기 소염과 피부 회복 동시.",
@@ -267,7 +267,7 @@ export const products: Product[] = [
   {
     id: "pheniramine-lotion-50ml",
     name: "페니라민 로션 50ml",
-    image: "/images/barkiri-페니라민로션.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "디펜히드라민염산염+클로르페니라민 항히스타민 로션. 두드러기·가려움 국소 완화.",
@@ -281,7 +281,7 @@ export const products: Product[] = [
   {
     id: "itchy-lotion-100ml",
     name: "가려움 로션 (알러케어) 100ml",
-    image: "/images/barkiri-가려움로션.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "클로르페니라민+멘톨+캄퍼 복합 진정 로션. 두드러기·벌레물린 데 즉각 가려움 완화.",
@@ -339,7 +339,7 @@ export const products: Product[] = [
   {
     id: "mensolatum-lotion-75ml",
     name: "멘소래담 로션 75ml",
-    image: "/images/barkiri-멘소래담로션75ml.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "두드러기",
     description: "멘톨+캄퍼+살리실산 복합 가려움·두드러기 완화 로션 75ml. 휴대하기 편한 소용량.",

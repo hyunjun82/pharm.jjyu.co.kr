@@ -463,7 +463,7 @@ export const products: Product[] = [
   {
     id: "gasmyungsu-pack",
     name: "가스명수",
-    image: "/images/barkiri-가스명수.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "시메티콘+탄산수소나트륨 액상 가스·트림 완화제. 복부팽만·트림에 빠른 완화 효과.",
@@ -477,7 +477,7 @@ export const products: Product[] = [
   {
     id: "jungkisu-pack",
     name: "정기수",
-    image: "/images/barkiri-정기수.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "목향·사인·백출·진피 복합 한방 소화제. 소화불량·복부 팽만 전통 한방 처방.",
@@ -491,7 +491,7 @@ export const products: Product[] = [
   {
     id: "muhanpospo-s-10tabs",
     name: "무한포스포배에스 10정",
-    image: "/images/barkiri-무한포스포배에스정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+디아스타아제 복합 소화효소정. 탄수화물·단백질·지방 소화 개선.",
@@ -505,7 +505,7 @@ export const products: Product[] = [
   {
     id: "bestamin-10tabs",
     name: "베스타민정 10정",
-    image: "/images/barkiri-베스타민정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "베타인염산염+판크레아틴 복합 소화제. 위산 부족으로 인한 소화 장애 개선에 사용해요.",
@@ -519,7 +519,7 @@ export const products: Product[] = [
   {
     id: "trizyme-10tabs",
     name: "트리자임정 10정",
-    image: "/images/barkiri-트리자임정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+셀룰라아제+헤미셀룰라아제 3중 복합 소화효소정. 3가지 섬유소 분해효소 동시 함유.",
@@ -533,7 +533,7 @@ export const products: Product[] = [
   {
     id: "biovita-pack",
     name: "비오비타",
-    image: "/images/barkiri-비오비타.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+생약 복합 소화·정장제. 소화불량과 장 기능 정상화에 도움을 줘요.",
@@ -659,7 +659,7 @@ export const products: Product[] = [
   {
     id: "festal-plus-20tabs",
     name: "훼스탈 플러스정 20정",
-    image: "/images/barkiri-훼스탈플러스20정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+헤미셀룰라제 소화효소제 20정. 소화불량·지방 소화 불량에 효과적인 복합 소화효소.",
@@ -701,7 +701,7 @@ export const products: Product[] = [
   {
     id: "saengrokcheon-75ml-1",
     name: "생록천 75ml 1병",
-    image: "/images/barkiri-생록천1병.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "생약 성분 소화제 75ml 1병. 탄닌산알부민+비스무트 계열 소화불량·설사 완화 단독 병.",
@@ -715,7 +715,7 @@ export const products: Product[] = [
   {
     id: "bearse-100tabs",
     name: "베아제정 100정",
-    image: "/images/barkiri-베아제100정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴 복합 소화효소제 대용량 100정. 소화불량·식욕감퇴·위부팽만 개선.",
@@ -1654,7 +1654,7 @@ export const products: Product[] = [
   {
     id: "elgji-giuonup-5packs-p1377",
     name: "엘제이지 기운업 30g 5포",
-    image: "/images/barkiri-엘제이지기운업.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "인삼+비타민B 복합 피로회복·간기능 과립 5포. 기력 회복과 피로감 완화에 사용해요.",
@@ -1724,7 +1724,7 @@ export const products: Product[] = [
   {
     id: "hanshin-hurina-120packs-p1420",
     name: "한신 후리나환 120포",
-    image: "/images/barkiri-한신후리나환120.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "후리나환 한방소화 환약 120포 대용량. 소화불량 장기 관리에 경제적인 구성이에요.",
@@ -1808,7 +1808,7 @@ export const products: Product[] = [
   {
     id: "wising-yu-1pack-p1631",
     name: "위싱유정 1포",
-    image: "/images/barkiri-위싱유.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "판크레아틴+소화효소 복합 1회용 소화제 1포. 간편하게 휴대하고 필요할 때 바로 복용해요.",
@@ -1906,7 +1906,7 @@ export const products: Product[] = [
   {
     id: "jamoda-10tabs-p1778",
     name: "자모다정 10정",
-    image: "/images/barkiri-자모다.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "소화제",
     description: "트리메부틴말레산염 장운동 정제 10정. 과민성장증후군·소화불량·복통에 사용해요.",

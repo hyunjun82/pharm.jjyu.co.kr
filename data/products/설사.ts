@@ -236,7 +236,7 @@ export const products: Product[] = [
   {
     id: "medilac-ds-300caps",
     name: "메디락 디에스 장용캡슐 300캡슐",
-    image: "/images/barkiri-메디락디에스300.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "설사",
     description: "3종 복합 유산균 장용캡슐 대용량 300캡슐. 장내 환경 회복·설사·변비 개선 장기 복용에 경제적이에요.",

@@ -184,7 +184,7 @@ export const products: Product[] = [
   {
     id: "allerb-tabs",
     name: "알러비정",
-    image: "/images/barkiri-알러비정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "클로르페니라민말레산염 4mg 1세대 항히스타민제. 강력한 항히스타민 효과로 즉각 알레르기 완화.",
@@ -200,7 +200,7 @@ export const products: Product[] = [
   {
     id: "claritin-10mg-10tabs",
     name: "클라리틴정 10mg 10정",
-    image: "/images/barkiri-클라리틴정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "바이엘코리아 로라타딘 10mg 오리지널 항히스타민제. 1일 1회 졸음 없는 알레르기 비염 치료.",
@@ -214,7 +214,7 @@ export const products: Product[] = [
   {
     id: "allernyak-10mg-10tabs",
     name: "알러냑정 10mg",
-    image: "/images/barkiri-알러냑정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "로라타딘 10mg 제네릭 항히스타민제. 클라리틴과 동일 성분의 경제적인 대안.",
@@ -228,7 +228,7 @@ export const products: Product[] = [
   {
     id: "clemo-10mg-10tabs",
     name: "클레모정 10mg",
-    image: "/images/barkiri-클레모정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "로라타딘 10mg 제네릭 항히스타민제. 알레르기성 비염·만성 두드러기 1일 1회 복용.",
@@ -242,7 +242,7 @@ export const products: Product[] = [
   {
     id: "allerguard-10mg-10tabs",
     name: "알러가드정",
-    image: "/images/barkiri-알러가드정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "로라타딘 10mg 제네릭 항히스타민제. 알레르기 비염·두드러기 졸음 없이 조절.",
@@ -256,7 +256,7 @@ export const products: Product[] = [
   {
     id: "zirtop-10mg-10tabs",
     name: "지르탑정 10mg",
-    image: "/images/barkiri-지르탑정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "세티리진염산염 10mg 제네릭 항히스타민제. 지르텍 동일 성분의 저렴한 대안.",
@@ -270,7 +270,7 @@ export const products: Product[] = [
   {
     id: "allercare-10mg-10tabs",
     name: "알러케어정 10mg",
-    image: "/images/barkiri-알러케어정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "세티리진염산염 10mg 제네릭 항히스타민제. 알레르기성 비염·두드러기 1일 1회 관리.",
@@ -284,7 +284,7 @@ export const products: Product[] = [
   {
     id: "cetizin-10mg-10tabs",
     name: "세티진정 10mg",
-    image: "/images/barkiri-세티진정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "세티리진염산염 10mg 제네릭 항히스타민제. 알레르기성 비염과 두드러기 24시간 관리.",
@@ -298,7 +298,7 @@ export const products: Product[] = [
   {
     id: "allerzan-10mg-10tabs",
     name: "알러잔정 10mg",
-    image: "/images/barkiri-알러잔정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "세티리진염산염 10mg 제네릭 항히스타민제. 봄철 꽃가루 알레르기·두드러기 관리.",
@@ -312,7 +312,7 @@ export const products: Product[] = [
   {
     id: "allertop-120mg-10tabs",
     name: "알레르탑정 120mg",
-    image: "/images/barkiri-알레르탑정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "펙소페나딘염산염 120mg 제네릭 항히스타민제. 알레그라 동일 성분 비졸음성 알레르기약.",
@@ -326,7 +326,7 @@ export const products: Product[] = [
   {
     id: "fenazin-120mg-10tabs",
     name: "페나진정 120mg",
-    image: "/images/barkiri-페나진정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "펙소페나딘염산염 120mg 제네릭 항히스타민제. 졸음 없이 알레르기 비염·두드러기 완화.",
@@ -340,7 +340,7 @@ export const products: Product[] = [
   {
     id: "allerpina-4mg-10tabs",
     name: "알러피나정 4mg",
-    image: "/images/barkiri-알러피나정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "클로르페니라민말레산염 4mg 1세대 항히스타민제. 강력한 효과로 즉각적인 알레르기 완화.",
@@ -354,7 +354,7 @@ export const products: Product[] = [
   {
     id: "oromin-4mg-10tabs",
     name: "오로민정 4mg",
-    image: "/images/barkiri-오로민정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "클로르페니라민말레산염 4mg 1세대 항히스타민제. 빠른 항히스타민 효과로 알레르기 즉시 완화.",
@@ -579,7 +579,7 @@ export const products: Product[] = [
   {
     id: "aljintek-10mg-10tabs",
     name: "알진텍정 10mg",
-    image: "/images/barkiri-알진텍.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "세티리진염산염 10mg 제네릭 항히스타민제. 알레르기성 비염·두드러기 하루 1회 관리.",
@@ -649,7 +649,7 @@ export const products: Product[] = [
   {
     id: "cliddam-10mg-10tabs",
     name: "클리담정 10mg",
-    image: "/images/barkiri-클리담.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "로라타딘 10mg 제네릭 항히스타민제. 알레르기 비염·두드러기 졸음 없는 조절.",
@@ -747,7 +747,7 @@ export const products: Product[] = [
   {
     id: "sammetin-4mg-10tabs",
     name: "삼메틴정 4mg",
-    image: "/images/barkiri-삼메틴.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "페니라민말레산염 4mg 1세대 항히스타민제. 알레르기 즉각 억제 항히스타민 정제.",
@@ -803,7 +803,7 @@ export const products: Product[] = [
   {
     id: "agenca-10mg-10tabs",
     name: "아젠카정 10mg",
-    image: "/images/barkiri-아젠카.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "알레르기",
     description: "세티리진염산염 10mg 제네릭 항히스타민제. 알레르기 비염·두드러기 24시간 복합 관리.",

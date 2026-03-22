@@ -763,7 +763,7 @@ export const products: Product[] = [
   {
     id: "naksen-f-10tabs",
     name: "낙센에프 10정",
-    image: "/images/barkiri-낙센에프.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "나프록센나트륨 275mg 정제. 낙센 계열 장시간 지속 소염진통제.",
@@ -777,7 +777,7 @@ export const products: Product[] = [
   {
     id: "ezn6-solution-10caps",
     name: "이지엔6 솔루션 10캡슐",
-    image: "/images/barkiri-이지엔6솔루션.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 200mg+카페인 복합 연질캡슐. 용해 속도를 개선한 빠른 흡수 이부프로펜.",
@@ -791,7 +791,7 @@ export const products: Product[] = [
   {
     id: "child-tylenol-160-10tabs",
     name: "어린이 타이레놀정 160mg 10정",
-    image: "/images/barkiri-어린이타이레놀정160mg.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "아세트아미노펜 160mg 어린이용 씹는 정제. 어린이 해열·진통에 씹어먹는 형태.",
@@ -805,7 +805,7 @@ export const products: Product[] = [
   {
     id: "keksibuprofen-10tabs",
     name: "켁시부프로펜정 10정",
-    image: "/images/barkiri-켁시부프로펜정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "덱시부프로펜 300mg 정제. 이부프로펜 활성 이성질체로 위 자극이 적은 진통제예요.",
@@ -931,7 +931,7 @@ export const products: Product[] = [
   {
     id: "vimovo-500-20-60tabs",
     name: "비모보정 500/20mg 60정",
-    image: "/images/barkiri-비모보정60정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "나프록센 500mg + 에소메프라졸 20mg 복합 NSAID. 소화기 부작용 줄인 항염진통제 대용량 60정.",
@@ -1226,7 +1226,7 @@ export const products: Product[] = [
   {
     id: "타이센500-p780",
     name: "타이센정 500mg 10정",
-    image: "/images/barkiri-타이센500.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "아세트아미노펜 500mg 10정 해열진통제. 두통·발열·몸살에 널리 사용하는 아세트아미노펜 정제예요.",
@@ -1352,7 +1352,7 @@ export const products: Product[] = [
   {
     id: "아프소겐20-p1059",
     name: "아프소겐정 20정",
-    image: "/images/barkiri-아프소겐20.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "덱시부프로펜 300mg 20정. 위 부담이 적은 덱시부프로펜 소염진통제 두 배 포장 경제적 규격이에요.",
@@ -1422,7 +1422,7 @@ export const products: Product[] = [
   {
     id: "트리플라-p1201",
     name: "트리플라정 10정",
-    image: "/images/barkiri-트리플라.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜+아세트아미노펜+카페인 3중 복합 진통제. 세 성분이 시너지를 내 두통·신경통에 강력해요.",
@@ -1660,7 +1660,7 @@ export const products: Product[] = [
   {
     id: "하이펜-p1584",
     name: "하이펜정 10정",
-    image: "/images/barkiri-하이펜.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜+아르기닌 복합 정제. 아르기닌이 이부프로펜 흡수를 높여 더 빠른 진통 효과를 내요.",
@@ -1730,7 +1730,7 @@ export const products: Product[] = [
   {
     id: "신텍스소건중탕-p1621",
     name: "신텍스 소건중탕 엑스과립 500g",
-    image: "/images/barkiri-신텍스소건중탕.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "소건중탕 한방 복합 과립 500g 대용량. 복통·허약 체질 개선에 사용하는 한방 처방 엑스 과립이에요.",
@@ -1814,7 +1814,7 @@ export const products: Product[] = [
   {
     id: "타이리빈산-p1670",
     name: "타이리빈산",
-    image: "/images/barkiri-타이리빈산.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "아세트아미노펜 산제. 물에 녹여 마시는 편리한 산제 형태의 해열진통제예요.",
@@ -1842,7 +1842,7 @@ export const products: Product[] = [
   {
     id: "제노펜-p1685",
     name: "제노펜정 10정",
-    image: "/images/barkiri-제노펜.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜 400mg 정제. 두통·치통·근육통·관절통에 효과적인 이부프로펜 소염진통제예요.",
@@ -1926,7 +1926,7 @@ export const products: Product[] = [
   {
     id: "알지텍100-p1652",
     name: "알지텍정 100정",
-    image: "/images/barkiri-알지텍100.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "세티리진 성분 복합 진통 정제 100정 대용량. 두통·알레르기성 통증 완화에 사용하는 대용량 제형이에요.",
@@ -2052,7 +2052,7 @@ export const products: Product[] = [
   {
     id: "더블락10-p1976",
     name: "더블락 캡슐 10캡슐",
-    image: "/images/barkiri-더블락10.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "진통제",
     description: "이부프로펜+아세트아미노펜 복합 캡슐 10캡슐 소포장. 두 진통 성분으로 통증을 이중으로 차단해요.",

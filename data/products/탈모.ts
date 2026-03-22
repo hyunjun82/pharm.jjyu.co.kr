@@ -5150,7 +5150,7 @@ export const products: Product[] = [
   {
     id: "aloscia-30tabs",
     name: "알로시아정 1mg 30정",
-    image: "/images/barkiri-알로시아30.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "피나스테리드 1mg 남성형 탈모 치료 제네릭.",
@@ -5234,7 +5234,7 @@ export const products: Product[] = [
   {
     id: "momopecia-30tabs",
     name: "모모페시아정 1mg 30정",
-    image: "/images/barkiri-모모페시아30.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "피나스테리드 1mg 남성형 탈모 치료 제네릭 30정.",
@@ -5262,7 +5262,7 @@ export const products: Product[] = [
   {
     id: "avodart-90caps",
     name: "아보다트 연질캡슐 0.5밀리그램 90연질캡슐",
-    image: "/images/barkiri-아보다트90.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "두타스테리드 오리지널 아보다트 3개월분 90캡슐 대용량.",
@@ -5290,7 +5290,7 @@ export const products: Product[] = [
   {
     id: "apecia-30tabs",
     name: "에이페시아정 1밀리그램 30정",
-    image: "/images/barkiri-에이페시아30.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "피나스테리드 1mg 남성형 탈모 치료 제네릭 30정.",
@@ -5472,7 +5472,7 @@ export const products: Product[] = [
   {
     id: "마이모닉240-p1393",
     name: "마이모닉액 240ml",
-    image: "/images/barkiri-마이모닉240.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "탈모",
     description: "미녹시딜 5% 탈모 치료 외용액 240ml. 장기 탈모 치료를 위한 경제적인 중간 용량 제품이에요.",

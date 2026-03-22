@@ -298,7 +298,7 @@ export const products: Product[] = [
   {
     id: "gageurin-250ml",
     name: "가그린 구강청결제 250ml",
-    image: "/images/barkiri-가그린.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "염화세틸피리디늄+불화나트륨 구강청결제. 구강 살균과 충치 예방을 동시에.",
@@ -312,7 +312,7 @@ export const products: Product[] = [
   {
     id: "hexamedine-gargle-200ml",
     name: "헥사메딘 가글액 200ml",
-    image: "/images/barkiri-헥사메딘가글액.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "클로르헥시딘글루코네이트 0.12% 구강 세균 억제 가글액. 잇몸 질환·구내염 예방.",
@@ -326,7 +326,7 @@ export const products: Product[] = [
   {
     id: "igatan-ef-plus-60tabs",
     name: "이가탄에프 플러스 60정",
-    image: "/images/barkiri-이가탄에프플러스.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "카르바조크롬+세파란틴+토코페롤 복합 잇몸약. 잇몸 출혈과 염증을 복합적으로 케어.",
@@ -340,7 +340,7 @@ export const products: Product[] = [
   {
     id: "oral-clean-gel-15g",
     name: "구강청결 겔 15g",
-    image: "/images/barkiri-구강청결겔.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "클로르헥시딘글루코네이트+자일리톨 구강 항균 겔. 구내염·잇몸 환부에 직접 도포.",
@@ -354,7 +354,7 @@ export const products: Product[] = [
   {
     id: "aphtha-a-5g",
     name: "아프타에이 5g",
-    image: "/images/barkiri-아프타에이.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "트리암시놀론아세토니드 함유 구내염 스테로이드 연고. 구강 궤양·아프타성 구내염 완화.",
@@ -368,7 +368,7 @@ export const products: Product[] = [
   {
     id: "orasense-gel-10g",
     name: "오라센스 겔 10g",
-    image: "/images/barkiri-오라센스겔.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "클로르헥시딘글루코네이트+리도카인 구내염 진통·살균 겔. 통증 완화와 세균 억제 동시 작용.",
@@ -382,7 +382,7 @@ export const products: Product[] = [
   {
     id: "dentalguard-gargle-250ml",
     name: "덴탈가드 가글 250ml",
-    image: "/images/barkiri-덴탈가드가글.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "불화나트륨+염화세틸피리디늄 충치 예방 가글. 플루오린으로 치아 에나멜 강화.",
@@ -510,7 +510,7 @@ export const products: Product[] = [
   {
     id: "chijilae-30packs",
     name: "치지래 과립 30포",
-    image: "/images/barkiri-치지래.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "은행엽건조엑스+비타민C+비타민E 복합 잇몸 영양 과립. 잇몸 혈액순환 개선과 항산화 작용.",
@@ -538,7 +538,7 @@ export const products: Product[] = [
   {
     id: "albocue-liquid",
     name: "알보큐액",
-    image: "/images/barkiri-알보큐.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "구강",
     description: "클로르헥시딘 글루코네이트 구내염·잇몸 소독액. 구강 세균 억제와 구내염 상처 치유.",

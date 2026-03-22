@@ -2663,7 +2663,7 @@ export const products: Product[] = [
   {
     id: "noscarna-10g",
     name: "노스카나겔 10g",
-    image: "/images/barkiri-노스카나겔10g.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "연고",
     description: "헤파린+알란토인+덱스판테놀 복합 흉터 치료 겔 소용량 10g.",
@@ -2704,7 +2704,7 @@ export const products: Product[] = [
   {
     id: "trazet-50g",
     name: "트라제트겔 50g",
-    image: "/images/barkiri-트라제트겔50g.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "연고",
     description: "에토페나메이트 10% 근육통·관절통 외용 소염 겔 50g.",
@@ -2718,7 +2718,7 @@ export const products: Product[] = [
   {
     id: "scaderm-20g",
     name: "스카덤겔 20g",
-    image: "/images/barkiri-스카덤겔20g.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "연고",
     description: "알란토인+헤파린나트륨 상처 흉터 예방·개선 겔 20g.",

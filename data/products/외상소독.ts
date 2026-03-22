@@ -358,7 +358,7 @@ export const products: Product[] = [
   {
     id: "dayst-ampoule-3",
     name: "데이스트 20ml 3앰플",
-    image: "/images/barkiri-데이스트.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "외상소독",
     description: "포비돈요오드 단회용 소독 앰플 20ml×3개. 위생적이고 편리한 포비돈 요오드 소독 앰플.",

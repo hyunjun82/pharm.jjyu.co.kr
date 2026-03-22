@@ -694,7 +694,7 @@ export const products: Product[] = [
   {
     id: "benfobel-s-180tabs",
     name: "벤포벨에스정 180정",
-    image: "/images/barkiri-벤포벨에스정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "일동제약 벤포티아민+셀레늄 복합 영양제 180정. 활성 비타민B1과 항산화 미네랄.",
@@ -764,7 +764,7 @@ export const products: Product[] = [
   {
     id: "vita500-ace-100ml",
     name: "비타500 에이스 ACE 100ml",
-    image: "/images/barkiri-비타500에이스.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "광동제약 비타민A·C·E 복합 음료 100ml. 항산화 비타민 ACE 트리플 포뮬러.",
@@ -891,7 +891,7 @@ export const products: Product[] = [
   {
     id: "truemag6-30packs",
     name: "트루마그6액 30포",
-    image: "/images/barkiri-트루마그6액.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "마그네슘 6형 복합 액상 영양제 30포. 다양한 형태의 마그네슘으로 균형 있는 흡수를 지원해요.",
@@ -947,7 +947,7 @@ export const products: Product[] = [
   {
     id: "magbe-ex-120caps",
     name: "마그비 이엑스 연질캡슐 120캡슐",
-    image: "/images/barkiri-마그비이엑스.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "마그네슘+비타민E 복합 연질캡슐. 마그비 이엑스(Extra)는 항산화 비타민E와 마그네슘을 한 번에 챙겨요.",
@@ -1986,7 +1986,7 @@ export const products: Product[] = [
   {
     id: "circurex-120mg-200tabs",
     name: "써큐렉스정 120mg 200정",
-    image: "/images/barkiri-써큐렉스정.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "트록세루틴 120mg 정맥·혈관 순환 개선 정제 200정. 정맥부전·하지 부종·다리 무거움 개선에 쓰여요.",
@@ -2252,7 +2252,7 @@ export const products: Product[] = [
   {
     id: "bacchus-d-100ml-10bottles",
     name: "박카스D 100ml 10병",
-    image: "/images/barkiri-박카스D10병.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "타우린+비타민B1+B2+B6 피로회복 드링크 10병. 피로 회복 대표 드링크 박카스D 소용량 10병 구성이에요.",
@@ -2308,7 +2308,7 @@ export const products: Product[] = [
   {
     id: "glucom-10ml-30amps",
     name: "글루콤액 10ml 30병",
-    image: "/images/barkiri-글루콤액30.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "구연산제일철암모늄 함유 철분 보충 앰플액 30병. 빈혈·철분 부족에 쓰이는 경제적인 30병 구성이에요.",
@@ -2406,7 +2406,7 @@ export const products: Product[] = [
   {
     id: "bacchus-d-100ml-1bottle",
     name: "박카스D 100ml 1병",
-    image: "/images/barkiri-박카스D1병.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "타우린+비타민B1+B2+B6 피로회복 드링크 1병. 대한민국 대표 피로회복 드링크 박카스D 단일 구성이에요.",
@@ -2420,7 +2420,7 @@ export const products: Product[] = [
   {
     id: "glucom-10ml-45amps",
     name: "글루콤액 10ml 45앰플",
-    image: "/images/barkiri-글루콤액45.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "구연산제일철암모늄 함유 철분 보충 앰플액 45병. 철분 결핍·빈혈 개선에 쓰이는 중용량 구성이에요.",
@@ -2518,7 +2518,7 @@ export const products: Product[] = [
   {
     id: "impactamin-once-120tabs",
     name: "임팩타민 원스정 120정",
-    image: "/images/barkiri-임팩타민원스120.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민B군 1일 1회 복용형 피로회복 정제 120정. 하루 한 번으로 간편하게 비타민B를 보충할 수 있어요.",
@@ -2560,7 +2560,7 @@ export const products: Product[] = [
   {
     id: "kwangdong-pyeongwicheon-prime-10bottles",
     name: "광동 평위천 프라임액 75ml 10병",
-    image: "/images/barkiri-광동평위천프라임.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "소화 기능 개선 한방 음료 75ml 10병. 평위천엑스로 소화 불량과 위 기능 저하에 도움이 돼요.",
@@ -2728,7 +2728,7 @@ export const products: Product[] = [
   {
     id: "caritopofen-100caps",
     name: "카리토포텐 100캡슐",
-    image: "/images/barkiri-카리토포텐100.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "프로시아니딘B2(포도씨 추출물) 정맥순환 개선 캡슐 100캡슐 대용량. 혈관·정맥 건강과 말초순환 개선에 쓰여요.",
@@ -2812,7 +2812,7 @@ export const products: Product[] = [
   {
     id: "glucom-10ml-15amps",
     name: "글루콤액 10ml 15앰플",
-    image: "/images/barkiri-글루콤액15.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "구연산제일철암모늄 함유 철분 보충 앰플액 15병. 처음 철분제를 시작하기 좋은 소용량 구성이에요.",
@@ -2980,7 +2980,7 @@ export const products: Product[] = [
   {
     id: "ildong-gyeongokgo-23g-10packs",
     name: "일동 경옥고 23g 10포",
-    image: "/images/barkiri-일동경옥고10포.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "숙지황+인삼+복령+꿀 전통 경옥고 23g 10포 소용량. 경옥고를 처음 접하거나 선물용으로 좋은 일동 브랜드예요.",
@@ -2994,7 +2994,7 @@ export const products: Product[] = [
   {
     id: "aronamin-gold-150tabs",
     name: "아로나민 골드정 150정",
-    image: "/images/barkiri-아로나민골드150.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "활성형 비타민B1(푸르설티아민)+B2+B6+B12+C+E 복합 피로회복 정제 150정. 아로나민 골드 중간 용량이에요.",
@@ -3022,7 +3022,7 @@ export const products: Product[] = [
   {
     id: "tusdine-gold-300caps",
     name: "투스딘 골드 캡슐 300캡슐",
-    image: "/images/barkiri-투스딘300.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민E+B1+B6+B12+C 복합 성인 종합 비타민 300캡슐 대용량. 장기 복용에 경제적인 투스딘 골드 대용량이에요.",
@@ -3190,7 +3190,7 @@ export const products: Product[] = [
   {
     id: "baekcheonhwan-cheongsangbohahwan-1pack",
     name: "백천환 청상보하환 1포",
-    image: "/images/barkiri-백천환청상보하환.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "전통 한방 청상보하환 1포. 두통·어지러움·이명 등 상열감 완화에 쓰이는 한방 환약이에요.",
@@ -3204,7 +3204,7 @@ export const products: Product[] = [
   {
     id: "trueactivi5-120tabs",
     name: "트루액티비5정 120정",
-    image: "/images/barkiri-트루액티비5.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "비타민B군 5종 복합 활성비타민 120정. 에너지 대사와 피로 회복에 효과적인 고함량 활성비타민이에요.",
@@ -3302,7 +3302,7 @@ export const products: Product[] = [
   {
     id: "sentala-120tabs",
     name: "센탈라정 120정",
-    image: "/images/barkiri-센탈라.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "은행잎추출물 기반 혈행 개선 정제 120정. 말초혈액순환 장애 개선과 기억력·집중력 향상에 도움을 줘요.",
@@ -3400,7 +3400,7 @@ export const products: Product[] = [
   {
     id: "boryung-marcqn-120caps",
     name: "보령 마크큐엔 연질캡슐 120캡슐",
-    image: "/images/barkiri-보령마크큐엔.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "코엔자임Q10+비타민E 연질캡슐 120캡슐. 항산화와 심혈관 건강 유지에 도움을 줘요.",
@@ -3484,7 +3484,7 @@ export const products: Product[] = [
   {
     id: "benpobel-s-90tabs",
     name: "벤포벨 에스정 S 90정",
-    image: "/images/barkiri-벤포벨에스.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "벤포티아민 기반 활성비타민B 정제 90정. 만성 피로와 신경 기능 개선에 효과적이에요.",
@@ -3582,7 +3582,7 @@ export const products: Product[] = [
   {
     id: "newvein-14packs",
     name: "뉴베인액 7ml 14포",
-    image: "/images/barkiri-뉴베인.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "혈행 개선 액상 영양제 7ml 14포. 말초혈액순환 장애와 다리 무거움·부종 개선에 도움을 줘요.",
@@ -3680,7 +3680,7 @@ export const products: Product[] = [
   {
     id: "benpobel-s-60tabs",
     name: "벤포벨 에스정 S 60정",
-    image: "/images/barkiri-벤포벨에스.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "벤포티아민 기반 활성비타민B 정제 60정. 만성 피로와 신경 기능 개선에 효과적이에요.",
@@ -3974,7 +3974,7 @@ export const products: Product[] = [
   {
     id: "immugold-10g-30bottles",
     name: "이뮤골드액 10g 30병",
-    image: "/images/barkiri-이뮤골드.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "면역력 강화 액상 영양제 10g 30병. 에키나시아 추출물로 면역 기능 향상에 도움을 줘요.",
@@ -4170,7 +4170,7 @@ export const products: Product[] = [
   {
     id: "trumag6-60packs",
     name: "트루마그6액 60포",
-    image: "/images/barkiri-트루마그6.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "마그네슘 6종 복합 액상 영양제 60포. 근육 경련·피로·스트레스 완화에 도움을 줘요.",
@@ -4730,7 +4730,7 @@ export const products: Product[] = [
   {
     id: "bimax-jet-150tabs",
     name: "비맥스 제트정 150정",
-    image: "/images/barkiri-비맥스제트.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "벤포티아민+비타민B군 복합 고함량 활성비타민 150정. 강력한 피로 회복과 에너지 대사에 도움을 줘요.",
@@ -4758,7 +4758,7 @@ export const products: Product[] = [
   {
     id: "bimax-jet-200tabs",
     name: "비맥스 제트정 200정",
-    image: "/images/barkiri-비맥스제트.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "벤포티아민+비타민B군 복합 고함량 활성비타민 200정 대용량. 강력한 피로 회복에 도움을 줘요.",
@@ -4828,7 +4828,7 @@ export const products: Product[] = [
   {
     id: "bimax-jet-100tabs",
     name: "비맥스 제트정 100정",
-    image: "/images/barkiri-비맥스제트.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "벤포티아민+비타민B군 복합 고함량 활성비타민 100정. 강력한 피로 회복에 도움을 줘요.",
@@ -5206,7 +5206,7 @@ export const products: Product[] = [
   {
     id: "echinaforce-protect-60tabs",
     name: "에키나포스 프로텍트정 60정",
-    image: "/images/barkiri-에키나포스프로텍트.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "에키나시아 추출물 기반 면역력 강화 정제 60정. 감기 예방과 면역 기능 향상에 도움을 줘요.",
@@ -5318,7 +5318,7 @@ export const products: Product[] = [
   {
     id: "argishot-20ml-50packs",
     name: "아르기샷액 20ml 50포",
-    image: "/images/barkiri-아르기샷.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "L-아르기닌 기반 활력 드링크 20ml 50포. 활력 증진과 혈행 개선에 도움을 줘요.",
@@ -5388,7 +5388,7 @@ export const products: Product[] = [
   {
     id: "magnebi-speed-20ml-5packs",
     name: "마그네비 스피드액 20ml 5포",
-    image: "/images/barkiri-마그네비스피드.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "영양제",
     description: "마그네슘 액상 영양제 20ml 5포. 근육 경련·피로 완화에 빠르게 도움을 줘요.",

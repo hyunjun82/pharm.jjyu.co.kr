@@ -254,7 +254,7 @@ export const products: Product[] = [
   {
     id: "baroscon-double-16packs",
     name: "바로스콘 더블액션 10ml 16포",
-    image: "/images/barkiri-바로스콘더블.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "알마게이트+시메티콘 복합 제산제 16포. 위산 중화와 가스 제거를 동시에 해결하는 더블액션 제산제예요.",
@@ -324,7 +324,7 @@ export const products: Product[] = [
   {
     id: "baroscon-double-4packs",
     name: "바로스콘 더블액션 10ml 4포",
-    image: "/images/barkiri-바로스콘더블.webp",
+    image: "/images/placeholder.svg",
     category: "일반의약품",
     categorySlug: "제산제",
     description: "알마게이트+시메티콘 복합 제산제 4포 소포장. 휴대하기 편한 소용량 더블액션 제산제예요.",
