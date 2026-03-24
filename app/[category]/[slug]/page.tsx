@@ -321,6 +321,9 @@ export default async function SpokePage({ params }: PageProps) {
         </section>
       )}
 
+      {/* 광고 4: 모바일 하단 고정 (anchor) */}
+      <AdSlot slot="anchor" />
+
       {/* Back Links */}
       <div className="py-8 flex gap-4">
         <Link
