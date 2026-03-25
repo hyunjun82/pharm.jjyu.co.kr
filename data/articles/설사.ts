@@ -786,6 +786,7 @@ export const spokes: Record<string, SpokeArticle> = {
               amount: "1정 중 적정량",
               role: "장 연동운동 촉진·변비 완화",
             },
+            { type: "첨가제", name: "기타 첨가제", role: "정제 성형 보조" },
           ],
         },
         {

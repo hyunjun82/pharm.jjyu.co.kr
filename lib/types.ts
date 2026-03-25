@@ -54,6 +54,12 @@ export interface ArticleSection {
   title: string;
   content: string;
   ingredients?: IngredientItem[];
+  sectionType?: "default" | "timeline" | "comparison";
+  _qa?: {
+    verified?: string;
+    charCount?: number;
+    issues?: string[];
+  };
 }
 
 export interface HubArticle {

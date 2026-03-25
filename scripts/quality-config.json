@@ -1,5 +1,5 @@
 {
-  "$comment": "pharm-jjyu 4층 검증 설정. verify-*.js 스크립트들이 이 설정을 참조한다.",
+  "$comment": "pharm-jjyu 품질 검증 설정. verify-*.js 스크립트들이 이 설정을 참조한다.",
   "projectName": "pharm-jjyu",
 
   "style": {
@@ -30,12 +30,21 @@
   "structure": {
     "sectionCount": 6,
     "sectionTitles": [
-      "{slug} 성분 분석",
-      "{slug} 효능과 효과",
-      "{slug} 올바른 {usage}",
-      "{slug} 부작용",
-      "{slug} 주의사항",
-      "{slug} 보관법"
+      "{slug} 성분은 무엇인가요?",
+      "{slug} 효과가 나타나려면 얼마나 걸리나요?",
+      "{slug} {usage}은 어떻게 되나요?",
+      "{slug} 부작용은 어떤 게 있나요?",
+      "{slug} 주의사항은 무엇인가요?",
+      "{slug} 보관할 때 주의할 점은 무엇인가요?"
+    ],
+    "sectionTitlesWithPrice": [
+      "{slug} 성분은 무엇인가요?",
+      "{slug} 효과가 나타나려면 얼마나 걸리나요?",
+      "{slug} {usage}은 어떻게 되나요?",
+      "{slug} 가격은 얼마인가요?",
+      "{slug} 부작용은 어떤 게 있나요?",
+      "{slug} 주의사항은 무엇인가요?",
+      "{slug} 보관할 때 주의할 점은 무엇인가요?"
     ],
     "faqCount": 3,
     "minParagraphsPerSection": 3,
@@ -89,5 +98,11 @@
     "maxAgeDays": 90,
     "autoRefreshOnExpiry": false,
     "sourceApi": "http://apis.data.go.kr/1471000/DrbEasyDrugInfoService/getDrbEasyDrugList"
+  },
+
+  "preCommit": {
+    "minTotalChars": 1700,
+    "maxTotalChars": 2000,
+    "minSectionChars": 200
   }
 }

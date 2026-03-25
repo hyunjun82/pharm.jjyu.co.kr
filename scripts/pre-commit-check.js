@@ -18,12 +18,11 @@ const path = require("path");
 
 const PROJECT_ROOT = path.resolve(__dirname, "..");
 
-const BANNED_WORDS = [
-  "확인하세요", "체크하세요", "알아보겠습니다", "살펴보겠습니다",
-  "또한", "결론적으로", "다양한", "매우 중요",
-  "에 대해 알아볼게요", "자세히 살펴볼게요",
-  "에 대해 알아보겠습니다", "자세히 살펴보겠습니다",
-];
+// quality-config.json에서 규칙 읽기 (단일 진실)
+const configPath = path.join(PROJECT_ROOT, "scripts", "quality-config.json");
+const qualityConfig = JSON.parse(fs.readFileSync(configPath, "utf-8"));
+
+const BANNED_WORDS = qualityConfig.style.forbiddenWords;
 
 const RESISTANCE_KEYWORDS = [
   "안 되", "안되", "거부", "없으면", "부작용이 나타나",
@@ -31,9 +30,9 @@ const RESISTANCE_KEYWORDS = [
   "병원에 가", "의사와 상담", "즉시 중단",
 ];
 
-const MIN_TOTAL_CHARS = 1700;
-const MAX_TOTAL_CHARS = 2000;
-const MIN_SECTION_CHARS = 200;
+const MIN_TOTAL_CHARS = qualityConfig.preCommit?.minTotalChars ?? 1700;
+const MAX_TOTAL_CHARS = qualityConfig.preCommit?.maxTotalChars ?? 2000;
+const MIN_SECTION_CHARS = qualityConfig.preCommit?.minSectionChars ?? 200;
 
 function getStagedArticleFiles() {
   try {
