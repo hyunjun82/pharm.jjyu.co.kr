@@ -53,6 +53,7 @@ export interface IngredientItem {
 export interface ArticleSection {
   title: string;
   content: string;
+  data?: string;
   ingredients?: IngredientItem[];
   sectionType?: "default" | "timeline" | "comparison";
   _qa?: {

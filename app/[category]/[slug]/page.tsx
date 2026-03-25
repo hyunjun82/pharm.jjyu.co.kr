@@ -11,6 +11,8 @@ import { CategorySidebar } from "@/components/CategorySidebar";
 import { ShareButtons } from "@/components/ShareButtons";
 import { AuthorBio } from "@/components/AuthorBio";
 import { AdSlot } from "@/components/AdSlot";
+import { TimelineCard } from "@/components/TimelineCard";
+import { CompareTable } from "@/components/CompareTable";
 import { getSpokeArticle } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
 import { spokeArticles } from "@/data/articles";
@@ -38,18 +40,26 @@ function formatKoreanDate(isoDate: string): string {
 const SECTION_ICONS: Record<string, { icon: React.ElementType; color: string }> = {
   "성분 분석": { icon: Pill, color: "text-blue-500" },
   성분: { icon: Pill, color: "text-blue-500" },
+  "성분은 무엇": { icon: Pill, color: "text-blue-500" },
   "효능과 효과": { icon: Sparkles, color: "text-amber-500" },
   효능: { icon: Sparkles, color: "text-amber-500" },
   효과: { icon: Sparkles, color: "text-amber-500" },
+  "효과가 나타나려면": { icon: Sparkles, color: "text-amber-500" },
   "올바른 사용법": { icon: ClipboardList, color: "text-emerald-500" },
   "올바른 복용법": { icon: ClipboardList, color: "text-emerald-500" },
+  "사용법은 어떻게": { icon: ClipboardList, color: "text-emerald-500" },
+  "복용법은 어떻게": { icon: ClipboardList, color: "text-emerald-500" },
   사용법: { icon: ClipboardList, color: "text-emerald-500" },
   복용법: { icon: ClipboardList, color: "text-emerald-500" },
   용법: { icon: ClipboardList, color: "text-emerald-500" },
+  "부작용은 어떤": { icon: AlertTriangle, color: "text-red-500" },
   부작용: { icon: AlertTriangle, color: "text-red-500" },
+  "주의사항은 무엇": { icon: ShieldAlert, color: "text-orange-500" },
   주의사항: { icon: ShieldAlert, color: "text-orange-500" },
   주의: { icon: ShieldAlert, color: "text-orange-500" },
+  "보관할 때": { icon: PackageOpen, color: "text-violet-500" },
   보관: { icon: PackageOpen, color: "text-violet-500" },
+  "가격은 얼마": { icon: BadgePercent, color: "text-emerald-600" },
   가격: { icon: BadgePercent, color: "text-emerald-600" },
   최저가: { icon: BadgePercent, color: "text-emerald-600" },
 };
@@ -238,6 +248,12 @@ export default async function SpokePage({ params }: PageProps) {
                   {section.content.split("\n\n").map((paragraph, pi) => (
                     <p key={pi}>{paragraph}</p>
                   ))}
+                  {section.sectionType === "timeline" && section.data && (
+                    <TimelineCard items={JSON.parse(section.data)} />
+                  )}
+                  {section.sectionType === "comparison" && section.data && (
+                    <CompareTable items={JSON.parse(section.data)} />
+                  )}
                 </div>
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
               </section>
