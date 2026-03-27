@@ -1967,7 +1967,7 @@ export const spokes: Record<string, SpokeArticle> = {
         ingredients: [
           { type: "주성분", name: "폴리우레탄폼(Polyurethane Foam)", role: "삼출물 흡수·습윤 환경 유지" },
           { type: "주성분", name: "반투과성 폴리우레탄 필름(Semi-permeable Polyurethane Film)", role: "외부 세균·수분 차단, 산소·수증기 통과" },
-          { type: "점착제", name: "아크릴점착제(Acrylic Adhesive)", role: "피부 고정" },
+          { type: "첨가제", name: "아크릴점착제(Acrylic Adhesive)", role: "피부 고정" },
         ],
       },
       {
