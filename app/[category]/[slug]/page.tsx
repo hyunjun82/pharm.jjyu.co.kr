@@ -75,15 +75,6 @@ interface PageProps {
   params: Promise<{ category: string; slug: string }>;
 }
 
-export async function generateStaticParams() {
-  return Object.entries(spokeArticles).flatMap(([category, articles]) =>
-    Object.keys(articles).map((slug) => ({
-      category,
-      slug,
-    }))
-  );
-}
-
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {

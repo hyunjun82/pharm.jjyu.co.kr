@@ -10,10 +10,6 @@ interface PageProps {
   params: Promise<{ category: string }>;
 }
 
-export async function generateStaticParams() {
-  return categories.map((c) => ({ category: c.slug }));
-}
-
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category } = await params;
   const catSlug = decodeURIComponent(category);
