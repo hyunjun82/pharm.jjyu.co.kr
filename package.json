@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "if [ -n \"$OPENNEXT\" ]; then next build; else OPENNEXT=1 npx @opennextjs/cloudflare build && cp .open-next/worker.js .open-next/assets/_worker.js; fi",
+    "build": "if [ -n \"$OPENNEXT\" ]; then next build; else OPENNEXT=1 npx @opennextjs/cloudflare build && mkdir -p .open-next/assets/_worker.js && cp .open-next/worker.js .open-next/assets/_worker.js/index.js && cp -r .open-next/cloudflare .open-next/middleware .open-next/.build .open-next/server-functions .open-next/assets/_worker.js/; fi",
     "start": "next start",
     "lint": "eslint",
     "quality": "node scripts/verify-wiki-quality.js",
