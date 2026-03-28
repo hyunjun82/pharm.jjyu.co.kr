@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "npx @opennextjs/cloudflare build",
     "start": "next start",
     "lint": "eslint",
     "quality": "node scripts/verify-wiki-quality.js",
