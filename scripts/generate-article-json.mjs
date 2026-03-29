@@ -68,7 +68,49 @@ for (const [category, hub] of Object.entries(hubArticles)) {
 }
 writeFileSync(join(OUT_DIR, "hub-index.json"), JSON.stringify(hubIndex), "utf-8");
 
-// 7) 임시 번들 삭제
+// 7) sitemap.xml 생성
+const BASE_URL = "https://pharm.jjyu.co.kr";
+const now = new Date().toISOString();
+
+function urlEntry(url, lastmod, changefreq, priority) {
+  const escaped = url.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return `  <url>\n    <loc>${escaped}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+}
+
+const entries = [];
+entries.push(urlEntry(BASE_URL, now, "weekly", "1.0"));
+entries.push(urlEntry(`${BASE_URL}/about`, "2026-02-22", "monthly", "0.5"));
+
+for (const [cat, hub] of Object.entries(hubArticles)) {
+  entries.push(urlEntry(
+    `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}`,
+    hub.dateModified || now,
+    "weekly",
+    "0.9"
+  ));
+  entries.push(urlEntry(
+    `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}`,
+    hub.dateModified || now,
+    "weekly",
+    "0.7"
+  ));
+}
+
+for (const [category, articles] of Object.entries(spokeArticles)) {
+  for (const [slug, article] of Object.entries(articles)) {
+    entries.push(urlEntry(
+      `${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}`,
+      article.dateModified || now,
+      "monthly",
+      "0.8"
+    ));
+  }
+}
+
+const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join("\n")}\n</urlset>`;
+writeFileSync(join(ROOT, "public", "sitemap.xml"), sitemapXml, "utf-8");
+
+// 8) 임시 번들 삭제
 rmSync(TMP_BUNDLE, { force: true });
 
-console.log(`✅ JSON 생성 완료: ${totalCount}개 spoke + 인덱스 파일`);
+console.log(`✅ JSON 생성 완료: ${totalCount}개 spoke + sitemap.xml + 인덱스 파일`);
