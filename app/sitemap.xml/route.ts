@@ -22,7 +22,7 @@ export async function GET() {
   for (const hub of Object.values(hubArticles)) {
     entries.push(urlEntry(
       `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}`,
-      hub.dateModified,
+      hub.dateModified ?? now,
       "weekly",
       "0.9"
     ));
@@ -32,7 +32,7 @@ export async function GET() {
   for (const hub of Object.values(hubArticles)) {
     entries.push(urlEntry(
       `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}`,
-      hub.dateModified,
+      hub.dateModified ?? now,
       "weekly",
       "0.7"
     ));
