@@ -16,9 +16,9 @@ const TMP_BUNDLE = join(ROOT, ".tmp-articles-bundle.cjs");
 const OUT_DIR = join(ROOT, "public", "data");
 
 // 1) esbuild로 data/articles/index.ts → CJS 번들 변환
-console.log("📦 data/articles 번들링...");
+console.log("📦 data/articles/build-all 번들링...");
 execSync(
-  `npx esbuild data/articles/index.ts --bundle --platform=node --format=cjs --outfile=${TMP_BUNDLE} --external:react --external:next --log-level=warning`,
+  `npx esbuild data/articles/build-all.ts --bundle --platform=node --format=cjs --outfile=${TMP_BUNDLE} --external:react --external:next --log-level=warning`,
   { cwd: ROOT, stdio: "inherit" }
 );
 
