@@ -1,0 +1,335 @@
+{
+  "slug": "페인엔젤프로덱시부프로펜",
+  "category": "진통제",
+  "timestamp": "2026-03-11T23:57:12.281Z",
+  "results": [
+    {
+      "name": "1. 스토리텔링",
+      "score": 9,
+      "passed": 6,
+      "total": 7,
+      "items": [
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "섹션 6개 (6개 필수)"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "전 섹션 결론 선행 OK"
+        },
+        {
+          "id": "1C",
+          "pass": false,
+          "detail": "조건어 없는 2번째 문단 5건 (2 이하)"
+        },
+        {
+          "id": "1D",
+          "pass": true,
+          "detail": "행동어 OK"
+        },
+        {
+          "id": "1E",
+          "pass": true,
+          "detail": "전 섹션 3문단 이상 OK"
+        },
+        {
+          "id": "1F",
+          "pass": true,
+          "detail": "나열 패턴 없음"
+        },
+        {
+          "id": "1G",
+          "pass": true,
+          "detail": "ingredients 배열 OK"
+        }
+      ]
+    },
+    {
+      "name": "2. 기승전결",
+      "score": 6,
+      "passed": 5,
+      "total": 6,
+      "items": [
+        {
+          "id": "2A",
+          "pass": false,
+          "mandatory": true,
+          "detail": "[기] hero에 공감 요소 없음"
+        },
+        {
+          "id": "2B",
+          "pass": true,
+          "detail": "[승] ingredients 테이블 OK"
+        },
+        {
+          "id": "2C",
+          "pass": true,
+          "detail": "[전] 반전/주의 표현 OK"
+        },
+        {
+          "id": "2D",
+          "pass": true,
+          "detail": "[결] 행동정보 OK"
+        },
+        {
+          "id": "2E",
+          "pass": true,
+          "detail": "title === h1 OK"
+        },
+        {
+          "id": "2F",
+          "pass": true,
+          "detail": "description/hero 중복 0% (90% 미만 필수)"
+        }
+      ]
+    },
+    {
+      "name": "3. 문체",
+      "score": 6,
+      "passed": 7,
+      "total": 10,
+      "items": [
+        {
+          "id": "3A",
+          "pass": true,
+          "detail": "문어체 0건"
+        },
+        {
+          "id": "3B",
+          "pass": true,
+          "detail": "AI냄새 0건"
+        },
+        {
+          "id": "3C",
+          "pass": true,
+          "detail": "filler 0건"
+        },
+        {
+          "id": "3D",
+          "pass": false,
+          "mandatory": false,
+          "detail": "어미 연속 최대 3회 (2 이하)"
+        },
+        {
+          "id": "3E",
+          "pass": false,
+          "mandatory": true,
+          "detail": "문장시작 연속 최대 2회 (1 이하)"
+        },
+        {
+          "id": "3H",
+          "pass": true,
+          "detail": "\"이 약은\" 시작 최대 0회/섹션 (2 이하)"
+        },
+        {
+          "id": "3F",
+          "pass": true,
+          "detail": "문장 길이 표준편차 13.0 (8 이상)"
+        },
+        {
+          "id": "3G",
+          "pass": true,
+          "detail": "Em dash 없음"
+        },
+        {
+          "id": "3H",
+          "pass": true,
+          "detail": "\"이 약은\" 반복 밀도 0.0/섹션 OK"
+        },
+        {
+          "id": "3I",
+          "pass": false,
+          "detail": "소제목 전체(6개)가 \"페인엔젤프로덱시부프로펜\"로 시작 — 다양화 필요"
+        }
+      ]
+    },
+    {
+      "name": "4. 손석희+유시민",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "4A",
+          "pass": true,
+          "detail": "섹션 제목 형식 OK (6/6)"
+        },
+        {
+          "id": "4B",
+          "pass": true,
+          "detail": "전 섹션 결론 선행 OK"
+        },
+        {
+          "id": "4C",
+          "pass": true,
+          "detail": "용법/성분 숫자 밀도 0.5/섹션 (0.25 이상) — e약은요 출처 근거"
+        },
+        {
+          "id": "4D",
+          "pass": true,
+          "detail": "연결어 다양성 OK (반복 없음)"
+        },
+        {
+          "id": "4E",
+          "pass": true,
+          "detail": "근거 없는 숫자 1건 (12 이하)"
+        }
+      ]
+    },
+    {
+      "name": "5. 가독성",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "5A",
+          "pass": true,
+          "detail": "평균 문장 길이 37자 (20~65)"
+        },
+        {
+          "id": "5B",
+          "pass": true,
+          "detail": "80자 초과 문장 0건 (3 이하)"
+        },
+        {
+          "id": "5C",
+          "pass": true,
+          "detail": "전문용어 괄호설명 누락 0건 (2 이하)"
+        },
+        {
+          "id": "5D",
+          "pass": true,
+          "detail": "FAQ 답변 길이 OK"
+        },
+        {
+          "id": "5E",
+          "pass": true,
+          "detail": "이중 괄호 없음"
+        },
+        {
+          "id": "5F",
+          "pass": true,
+          "detail": "쉼표 4개+ 문장 1건 (1 이하)"
+        }
+      ]
+    },
+    {
+      "name": "6. 문제해결 100%",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "6A",
+          "pass": true,
+          "detail": "기관/장소명(약국·병원 등) OK"
+        },
+        {
+          "id": "6B",
+          "pass": true,
+          "detail": "기한/기간 OK"
+        },
+        {
+          "id": "6C",
+          "pass": true,
+          "detail": "구매/처방 경로 OK"
+        },
+        {
+          "id": "6D",
+          "pass": true,
+          "detail": "행동 가능 정보(약국/병원/링크) OK"
+        },
+        {
+          "id": "6E",
+          "pass": true,
+          "detail": "연락처/처리 경로 OK"
+        },
+        {
+          "id": "6F",
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
+        }
+      ]
+    },
+    {
+      "name": "7. 오차 제로",
+      "score": 8,
+      "passed": 5,
+      "total": 6,
+      "items": [
+        {
+          "id": "7A",
+          "pass": true,
+          "detail": "description 52자 (50~200)"
+        },
+        {
+          "id": "7B",
+          "pass": true,
+          "detail": "metaDescription 106자 (170 이하)"
+        },
+        {
+          "id": "7C",
+          "pass": false,
+          "detail": "모호 표현 2건: 약 800, 약 600"
+        },
+        {
+          "id": "7D",
+          "pass": true,
+          "detail": "내부 모순 없음"
+        },
+        {
+          "id": "7E",
+          "pass": true,
+          "detail": "소스 없음 — 팩트 체크 생략"
+        },
+        {
+          "id": "7F",
+          "pass": true,
+          "detail": "소스 없음 — 셀프체크 생략"
+        }
+      ]
+    },
+    {
+      "name": "8. 출처",
+      "score": 4,
+      "passed": 2,
+      "total": 5,
+      "items": [
+        {
+          "id": "8A",
+          "detail": "소스 미매핑"
+        },
+        {
+          "id": "8B",
+          "pass": false,
+          "detail": "소스 파일 미설정"
+        },
+        {
+          "id": "8C",
+          "pass": true,
+          "detail": "hero 출처 문구 없음 (pharm 예외 허용)"
+        },
+        {
+          "id": "8D",
+          "pass": true,
+          "detail": "소스 미매핑 — 신선도 체크 생략"
+        },
+        {
+          "id": "8E",
+          "pass": false,
+          "detail": "소스 데이터 없어 필드 대조 불가"
+        }
+      ]
+    }
+  ],
+  "average": 7.9,
+  "verdict": "FAIL",
+  "failedRules": [
+    "2. 기승전결",
+    "3. 문체",
+    "8. 출처"
+  ]
+}

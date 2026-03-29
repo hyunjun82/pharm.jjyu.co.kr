@@ -1,0 +1,1644 @@
+{
+  "timestamp": "2026-03-11T00:48:48.690Z",
+  "totalArticles": 194,
+  "passCount": 77,
+  "failCount": 117,
+  "overallAvg": "8.1",
+  "minScore": 7,
+  "results": [
+    {
+      "slug": "마데카솔",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "후시딘",
+      "category": "연고",
+      "avg": 9.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "비판텐",
+      "category": "연고",
+      "avg": 9.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "오라메디",
+      "category": "구강",
+      "avg": 8.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "복합마데카솔",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "에스로반",
+      "category": "연고",
+      "avg": 9.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "볼타렌",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "노스카나겔",
+      "category": "연고",
+      "avg": 9.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "베노플러스겔",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "안티푸라민",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "포스테리산",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "애크논",
+      "category": "연고",
+      "avg": 8.8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "푸레파인",
+      "category": "연고",
+      "avg": 9.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "아시클로버크림",
+      "category": "연고",
+      "avg": 9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "다나큐아크림",
+      "category": "연고",
+      "avg": 9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "보송크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "베아로반연고",
+      "category": "연고",
+      "avg": 8.9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "후시메드연고",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "쎄레스톤지크림",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결"
+      ]
+    },
+    {
+      "slug": "유리아크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "덱스파놀연고",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "리도멕스크림",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "히아로겔",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "이지에프새살연고",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "더마틱스울트라겔",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "콘투락투벡스겔",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "노펜피록시캄겔",
+      "category": "파스",
+      "avg": 8.9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "록소앤겔",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "디페낙겔",
+      "category": "연고",
+      "avg": 9.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "페리덱스연고",
+      "category": "연고",
+      "avg": 7.5,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "도미나크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "모멘타손크림",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "아즈렌에스크림",
+      "category": "연고",
+      "avg": 7.4,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "자운고",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "스카덤겔",
+      "category": "연고",
+      "avg": 8.9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "경동판테놀연고",
+      "category": "연고",
+      "avg": 8.9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "스티바에이크림",
+      "category": "연고",
+      "avg": 7.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "버물리키드크림",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "필로젠겔",
+      "category": "연고",
+      "avg": 7.5,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "박테로신연고",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "스카힐골드겔",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "리카에이크림",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "큐아크네플러스크림",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "뉴유스킨에이크림",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "무디스크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "나프졸크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "제놀파워겔",
+      "category": "연고",
+      "avg": 6.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "미보연고",
+      "category": "연고",
+      "avg": 7.5,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "노바손크림",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "벤트락스겔",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "정우아시클로버크림",
+      "category": "연고",
+      "avg": 9.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "녹십자아시클로버크림",
+      "category": "연고",
+      "avg": 8.8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "신신아시클로버크림",
+      "category": "연고",
+      "avg": 9.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "태극아시클로버크림",
+      "category": "연고",
+      "avg": 9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "후시딘연고5g",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "후시딘겔",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결"
+      ]
+    },
+    {
+      "slug": "후시딘크림포",
+      "category": "연고",
+      "avg": 9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "후시딘밴드",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "박트리안연고",
+      "category": "연고",
+      "avg": 8.8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "쿼드케어연고",
+      "category": "연고",
+      "avg": 8.9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "마데카솔케어연고",
+      "category": "연고",
+      "avg": 8.8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "마데카솔분말",
+      "category": "연고",
+      "avg": 8.8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "마데카솔겔",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "스카논겔",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "바이버크림",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "노바론크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "안티렌크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "쎄코론지크림",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "클리스톤지크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": []
+    },
+    {
+      "slug": "크마론지크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "벤트플라겔",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "티로클겔",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "티트로신겔",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "페리톡겔",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "에이치엘비피록시캄겔",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "광동시어스피록시캄겔",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "디판테놀연고",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "조아덱스판크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "유그린에프연고",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "일동판테놀케어연고",
+      "category": "연고",
+      "avg": 6.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "프레스탑연고",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "세스틴크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "지스톤크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "5. 가독성"
+      ]
+    },
+    {
+      "slug": "엘스킨크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "5. 가독성"
+      ]
+    },
+    {
+      "slug": "새크라손크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "하이트리크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "이치논크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "애크린겔",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "세비타비겔",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "노블루겔",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "아크덤겔",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "치젤연고",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "엘린플러스크림",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "바로비크림",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "스티모린에스크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "바스포연고",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "더마큐연고",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "베이덤연고",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "쿨스펜겔",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "멘소래담로션",
+      "category": "두드러기",
+      "avg": 8.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "락티케어HC로션",
+      "category": "두드러기",
+      "avg": 9,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "멜라토닝크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "복합테르쿨크림",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "파인스겔",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "트라제트겔",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "써버쿨키드크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "바르지오크림",
+      "category": "연고",
+      "avg": 7.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "리쥬비넥스크림",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "나오덤크림",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "센스팟크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "제올라크림",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "아크리프크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "애니큐어연고",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "아시콜크림",
+      "category": "연고",
+      "avg": 8.8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "멜라노사크림",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "스카덤클리어겔",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "투앤티크림",
+      "category": "연고",
+      "avg": 7.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "포지넨크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "하이로버크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "네오시덤연고",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "반질크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "큐립연고",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "멜라논크림",
+      "category": "연고",
+      "avg": 7.4,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "베트라겔",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "아젤리아크림",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "프로캄이지에프크림",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "로시덴겔",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "물린디키드크림",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "리쥬드비에크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "디판버그겔",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "파머시안피디알엔크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "고운발풋크림",
+      "category": "연고",
+      "avg": 6.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "버물리겔",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "디판셉틱크림",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "디판큐어크림",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "네오탄연고",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "써버쿨겔",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "비스텐연고",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "도미나라이트크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "리쥬닉크림",
+      "category": "연고",
+      "avg": 7.4,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "우레아연고",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "유라덤크림",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "프틴크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "푸리덴연고",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "사라나크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "리쥬치올크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "헤리엔톡크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "타바겐겔",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "아리코트에스크림",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": []
+    },
+    {
+      "slug": "케라논연고",
+      "category": "연고",
+      "avg": 7.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "제일쿨키드크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "멘소래담롤온로션",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "클리어틴외용액",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "푸레파인마일드좌제",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "트리겔",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "듀라티얼즈안연고",
+      "category": "연고",
+      "avg": 7.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "푸레파인겔",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "상처앤뷰티",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "헤파겔",
+      "category": "연고",
+      "avg": 8.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "파티마겔",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "터비뉴겔",
+      "category": "무좀",
+      "avg": 9.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "바르지오모두크림",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "에스로반티트리오일",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "프로캄레드엑스크림",
+      "category": "연고",
+      "avg": 7.8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "오스틴아시클로버크림",
+      "category": "연고",
+      "avg": 8.6,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "유한미녹펜겔",
+      "category": "연고",
+      "avg": 7.5,
+      "verdict": "FAIL",
+      "failedRules": [
+        "4. 손석희+유시민",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "옵티실드연고",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "윌로겔",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "포타겔",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "콜로덤에스",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결"
+      ]
+    },
+    {
+      "slug": "바르지오원스",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "애크린외용액스프레이",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "마데카습윤밴드잘라쓰는타입",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "마데카습윤밴드중형",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "마데카습윤밴드스팟형",
+      "category": "연고",
+      "avg": 7.5,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "후디케어습윤밴드대형",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "후디케어습윤밴드스팟형",
+      "category": "연고",
+      "avg": 6.9,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "리도멕스크림20g",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "노스카나겔10g",
+      "category": "연고",
+      "avg": 8.5,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "베노플러스겔15g",
+      "category": "연고",
+      "avg": 7.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "멜라논크림10g",
+      "category": "연고",
+      "avg": 7.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "트라제트겔50g",
+      "category": "연고",
+      "avg": 7.4,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "스카덤겔20g",
+      "category": "연고",
+      "avg": 8.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "더마스킨연고",
+      "category": "연고",
+      "avg": 8.8,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "스웨트롤",
+      "category": "연고",
+      "avg": 7.5,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "마스원Q",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "PASS",
+      "failedRules": []
+    },
+    {
+      "slug": "비아핀에멀젼",
+      "category": "연고",
+      "avg": 7.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "드리클로",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "하이맘번스프레이",
+      "category": "연고",
+      "avg": 7.3,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "스웨클로",
+      "category": "연고",
+      "avg": 8.4,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "클리어딘",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "프로캄판테놀립",
+      "category": "연고",
+      "avg": 7.1,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    },
+    {
+      "slug": "엘크라넬",
+      "category": "연고",
+      "avg": 8,
+      "verdict": "FAIL",
+      "failedRules": [
+        "6. 문제해결 100%"
+      ]
+    },
+    {
+      "slug": "페리터치",
+      "category": "연고",
+      "avg": 6.6,
+      "verdict": "FAIL",
+      "failedRules": [
+        "2. 기승전결",
+        "6. 문제해결 100%",
+        "8. 출처"
+      ]
+    }
+  ]
+}

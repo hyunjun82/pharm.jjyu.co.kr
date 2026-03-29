@@ -15,7 +15,6 @@ import { TimelineCard } from "@/components/TimelineCard";
 import { CompareTable } from "@/components/CompareTable";
 import { getSpokeArticle } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
-import { spokeArticles } from "@/data/articles";
 import { categories } from "@/data/categories";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
@@ -81,7 +80,7 @@ export async function generateMetadata({
   const { category, slug } = await params;
   const catSlug = decodeURIComponent(category);
   const spokeSlug = decodeURIComponent(slug);
-  const article = getSpokeArticle(catSlug, spokeSlug);
+  const article = await getSpokeArticle(catSlug, spokeSlug);
   if (!article) return {};
   return {
     title: article.title,
@@ -113,7 +112,7 @@ export default async function SpokePage({ params }: PageProps) {
   const { category, slug } = await params;
   const catSlug = decodeURIComponent(category);
   const spokeSlug = decodeURIComponent(slug);
-  const article = getSpokeArticle(catSlug, spokeSlug);
+  const article = await getSpokeArticle(catSlug, spokeSlug);
   const catInfo = categories.find((c) => c.slug === catSlug);
 
   if (!article || !catInfo) notFound();

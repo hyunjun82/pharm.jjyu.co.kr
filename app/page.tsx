@@ -2,7 +2,7 @@ import { CategoryCard } from "@/components/CategoryCard";
 import { ProductCard } from "@/components/ProductCard";
 import { categories } from "@/data/categories";
 import { products } from "@/data/products";
-import { spokeArticles } from "@/data/articles";
+import { hubArticles } from "@/data/articles";
 import { Search } from "lucide-react";
 
 export default function HomePage() {
@@ -38,7 +38,7 @@ export default function HomePage() {
               key={cat.slug}
               category={{
                 ...cat,
-                count: Object.keys(spokeArticles[cat.slug] ?? {}).length,
+                count: hubArticles[cat.slug]?.spokes?.length ?? 0,
               }}
             />
           ))}

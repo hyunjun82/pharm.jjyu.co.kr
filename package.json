@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "if [ -n \"$OPENNEXT\" ]; then next build; else OPENNEXT=1 npx @opennextjs/cloudflare build; fi",
+    "build": "node scripts/generate-article-json.mjs && if [ -n \"$OPENNEXT\" ]; then next build; else OPENNEXT=1 npx @opennextjs/cloudflare build; fi",
     "start": "next start",
     "lint": "eslint",
     "quality": "node scripts/verify-wiki-quality.js",

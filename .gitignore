@@ -43,11 +43,15 @@ next-env.d.ts
 # source data (API에서 수집한 원본 — 레포에 올릴 필요 없음)
 /source-data/
 
-# scripts (일회성 유틸리티)
+# scripts (일회성 유틸리티 — generate-article-json.mjs는 빌드에 필수)
 /scripts/
+!/scripts/generate-article-json.mjs
 
 # tmp (임시 파일)
 /tmp/
+
+# 빌드 시 자동 생성되는 JSON 데이터
+/public/data/
 
 # 스크린샷 / 이미지 캡처
 *.png
