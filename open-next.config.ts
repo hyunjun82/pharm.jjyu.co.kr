@@ -1,6 +1,7 @@
 import type { OpenNextConfig } from "@opennextjs/cloudflare";
 
 const config: OpenNextConfig = {
+  buildCommand: "node scripts/generate-article-json.mjs && next build --turbopack",
   default: {
     override: {
       wrapper: "cloudflare-node",
