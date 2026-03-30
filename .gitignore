@@ -46,6 +46,7 @@ next-env.d.ts
 # scripts (일회성 유틸리티 — generate-article-json.mjs는 빌드에 필수)
 /scripts/
 !/scripts/generate-article-json.mjs
+!/scripts/fix-bracket-chunks.mjs
 
 # tmp (임시 파일)
 /tmp/
