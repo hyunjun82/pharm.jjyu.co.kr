@@ -2,6 +2,7 @@
   "name": "pharm-jjyu",
   "version": "0.1.0",
   "private": true,
+    "sideEffects": false,
   "scripts": {
     "dev": "next dev",
     "build": "npx @opennextjs/cloudflare build && node scripts/fix-bracket-chunks.mjs",
