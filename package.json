@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/generate-article-json.mjs && if [ -n \"$OPENNEXT\" ]; then next build --turbopack; else OPENNEXT=1 npx @opennextjs/cloudflare build; fi",
+    "build": "npx @opennextjs/cloudflare build && node scripts/fix-bracket-chunks.mjs",
     "start": "next start",
     "lint": "eslint",
     "quality": "node scripts/verify-wiki-quality.js",
