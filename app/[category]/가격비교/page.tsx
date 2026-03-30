@@ -6,6 +6,10 @@ import { categories } from "@/data/categories";
 import { getProductsByCategory } from "@/data/products";
 import type { Product } from "@/lib/types";
 
+export function generateStaticParams() {
+  return categories.map((c) => ({ category: c.slug }));
+}
+
 interface PageProps {
   params: Promise<{ category: string }>;
 }

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx @opennextjs/cloudflare build && node scripts/fix-bracket-chunks.mjs && mkdir -p .open-next/assets/_worker.js && cp .open-next/worker.js .open-next/assets/_worker.js/index.js && cp -r .open-next/.build .open-next/cloudflare .open-next/middleware .open-next/server-functions .open-next/assets/_worker.js/ && find .open-next/assets/_worker.js -name '*.map' -delete && find .open-next/assets/_worker.js -name '*.d.ts' -delete && find .open-next/assets/_worker.js -name '*.d.mts' -delete && find .open-next/assets/_worker.js -name '*.md' -delete && find .open-next/assets/_worker.js -name 'LICENSE*' -delete && find .open-next/assets/_worker.js -name '*.txt' -delete && du -sh .open-next/assets/_worker.js",
+    "build": "node scripts/generate-article-json.mjs && next build",
     "start": "next start",
     "lint": "eslint",
     "quality": "node scripts/verify-wiki-quality.js",

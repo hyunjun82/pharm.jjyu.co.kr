@@ -13,7 +13,7 @@ import { AuthorBio } from "@/components/AuthorBio";
 import { AdSlot } from "@/components/AdSlot";
 import { TimelineCard } from "@/components/TimelineCard";
 import { CompareTable } from "@/components/CompareTable";
-import { getSpokeArticle } from "@/data/articles";
+import { getSpokeArticle, getSpokeIndex } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
 import { categories } from "@/data/categories";
 import { Badge } from "@/components/ui/badge";
@@ -29,6 +29,17 @@ import {
   PackageOpen,
   BadgePercent,
 } from "lucide-react";
+
+export async function generateStaticParams() {
+  const spokeIndex = await getSpokeIndex();
+  const params: { category: string; slug: string }[] = [];
+  for (const [category, slugs] of Object.entries(spokeIndex)) {
+    for (const slug of Object.keys(slugs)) {
+      params.push({ category, slug });
+    }
+  }
+  return params;
+}
 
 function formatKoreanDate(isoDate: string): string {
   const [year, month, day] = isoDate.split("-");
@@ -191,8 +202,6 @@ export default async function SpokePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* 광고: 서론 아래 — 자동광고와 중복되므로 제거 */}
-
       {/* 2-column layout wrapper: main + sidebar */}
       <div className="mx-auto max-w-5xl px-4 lg:flex lg:gap-8">
         {/* Main Column */}
@@ -247,8 +256,6 @@ export default async function SpokePage({ params }: PageProps) {
                 </div>
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
               </section>
-
-              {/* 인아티클 광고 삭제됨 — 서론 아래 디스플레이 광고로 대체 */}
 
               {/* 가격 비교 - 사용법/복용법 바로 다음 */}
               {showPriceAfter && (
@@ -439,8 +446,6 @@ export default async function SpokePage({ params }: PageProps) {
           }),
         }}
       />
-
-      {/* HowTo 스키마 제거 — 성분분석/부작용 등은 절차가 아니므로 오남용 해당 */}
 
       {/* #10 Drug 스키마 - 의약품 상세 정보 (CTR 향상 핵심) */}
       {mainProduct && (

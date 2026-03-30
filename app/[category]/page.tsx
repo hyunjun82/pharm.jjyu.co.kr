@@ -8,6 +8,10 @@ import { categories } from "@/data/categories";
 import { Badge } from "@/components/ui/badge";
 import { ChevronRight, ArrowLeft } from "lucide-react";
 
+export function generateStaticParams() {
+  return categories.map((c) => ({ category: c.slug }));
+}
+
 function formatKoreanDate(isoDate: string): string {
   const [year, month, day] = isoDate.split("-");
   return `${year}년 ${parseInt(month)}월 ${parseInt(day)}일`;

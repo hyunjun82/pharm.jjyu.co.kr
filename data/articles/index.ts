@@ -1,8 +1,10 @@
 import { HubArticle, SpokeArticle } from "@/lib/types";
+import { readFileSync } from "fs";
+import { join } from "path";
 
 // ──────────────────────────────────────────────
 // Hub 데이터만 번들에 포함 (약 100KB)
-// Spoke 데이터는 public/data/ JSON에서 fetch로 로드
+// Spoke 데이터는 public/data/ JSON에서 fs로 로드 (SSG 빌드용)
 // ──────────────────────────────────────────────
 
 import { hub as 연고Hub } from "./연고";
@@ -50,39 +52,35 @@ export function getHubArticle(categorySlug: string): HubArticle | undefined {
 }
 
 // ──────────────────────────────────────────────
-// Spoke 데이터: public/data/{category}/{slug}.json에서 fetch
-// Worker 번들에 15MB 데이터가 포함되지 않음
+// Spoke 데이터: public/data/{category}/{slug}.json에서 fs.readFile (SSG)
+// 빌드 시점에 파일시스템에서 직접 읽음
 // ──────────────────────────────────────────────
-
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://pharm.jjyu.co.kr";
 
 export async function getSpokeArticle(
   categorySlug: string,
   spokeSlug: string
 ): Promise<SpokeArticle | undefined> {
   try {
-    const url = `${BASE_URL}/data/${encodeURIComponent(categorySlug)}/${encodeURIComponent(spokeSlug)}.json`;
-    const res = await fetch(url, { cache: "force-cache" });
-    if (!res.ok) return undefined;
-    return res.json() as Promise<SpokeArticle>;
+    const filePath = join(process.cwd(), "public", "data", categorySlug, `${spokeSlug}.json`);
+    const raw = readFileSync(filePath, "utf-8");
+    return JSON.parse(raw) as SpokeArticle;
   } catch {
     return undefined;
   }
 }
 
 // ──────────────────────────────────────────────
-// Spoke 인덱스: sitemap, home page용
-// public/data/spoke-index.json에서 fetch
+// Spoke 인덱스: sitemap, home page, generateStaticParams용
+// public/data/spoke-index.json에서 fs.readFile (SSG)
 // ──────────────────────────────────────────────
 
 export async function getSpokeIndex(): Promise<
   Record<string, Record<string, { slug: string; dateModified: string }>>
 > {
   try {
-    const url = `${BASE_URL}/data/spoke-index.json`;
-    const res = await fetch(url, { cache: "force-cache" });
-    if (!res.ok) return {};
-    return res.json();
+    const filePath = join(process.cwd(), "public", "data", "spoke-index.json");
+    const raw = readFileSync(filePath, "utf-8");
+    return JSON.parse(raw);
   } catch {
     return {};
   }
