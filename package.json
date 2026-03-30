@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx @opennextjs/cloudflare build && node scripts/fix-bracket-chunks.mjs && mkdir -p .open-next/assets/_worker.js && cp .open-next/worker.js .open-next/assets/_worker.js/index.js && cp -r .open-next/.build .open-next/cloudflare .open-next/middleware .open-next/server-functions .open-next/assets/_worker.js/",
+    "build": "npx @opennextjs/cloudflare build && node scripts/fix-bracket-chunks.mjs && mkdir -p .open-next/assets/_worker.js && cp .open-next/worker.js .open-next/assets/_worker.js/index.js && cp -r .open-next/cloudflare .open-next/middleware .open-next/assets/_worker.js/",
     "start": "next start",
     "lint": "eslint",
     "quality": "node scripts/verify-wiki-quality.js",
