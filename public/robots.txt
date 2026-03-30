@@ -1,7 +1,7 @@
 # robots.txt for 파마위키
 User-agent: *
 Allow: /
-Allow: /_next/image/
+Allow: /_next/image
 Disallow: /api/
 Disallow: /_next/
 
