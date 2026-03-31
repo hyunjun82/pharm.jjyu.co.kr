@@ -379,6 +379,27 @@ pharm-jjyu/
 
 ---
 
+## 배포 아키텍처 (절대 변경 금지)
+
+> **2026-03-31 사고 기록**: Worker(SSR) 방식 → 25MB 초과 → 3일간 사이트 다운.
+> 아래 설정을 변경하면 사이트가 죽는다. 절대 건드리지 않는다.
+
+| 항목 | 값 | 변경 시 결과 |
+|------|---|-------------|
+| `next.config.ts` output | `"export"` (SSG) | Worker 25MB 초과로 배포 불가 |
+| `next.config.ts` trailingSlash | `true` | spoke 페이지 전체 404 |
+| `wrangler.toml` pages_build_output_dir | `"out"` | Cloudflare가 빌드 결과물 못 찾음 |
+| `package.json` build 스크립트 | `generate-article-json.mjs && next build && clean-out.mjs` | clean-out 빠지면 20,000 파일 제한 초과 |
+| `scripts/clean-out.mjs` | RSC .txt 파일 삭제 | 없으면 28,000+ 파일 → 배포 거부 |
+
+### 금지 사항
+- `output: "export"` 를 제거하거나 `"standalone"` 등으로 변경 금지
+- `@opennextjs/cloudflare` 재도입 금지
+- `trailingSlash: true` 제거 금지
+- `scripts/` 폴더가 `.gitignore`에 포함되어 있으므로, 새 스크립트 추가 시 `git add -f` 필수
+
+---
+
 ## 빌드 & 검증
 
 ```bash
