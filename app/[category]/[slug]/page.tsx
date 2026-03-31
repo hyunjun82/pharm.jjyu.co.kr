@@ -218,6 +218,13 @@ export default async function SpokePage({ params }: PageProps) {
         )}
       </section>
 
+      {/* 상단 최저가 CTA */}
+      {mainProduct && (mainProduct.externalSearchUrl || mainProduct.barkiryProductId || mainProduct.barkiryQuery) && (
+        <div className="mb-6">
+          <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} barkiryProductId={mainProduct.barkiryProductId} externalSearchUrl={mainProduct.externalSearchUrl} categorySlug={catSlug} />
+        </div>
+      )}
+
       {/* 광고 1: 제품 카드 아래 (Display) */}
       <AdSlot slot="top" />
 
@@ -295,6 +302,13 @@ export default async function SpokePage({ params }: PageProps) {
       {article.faq.length > 0 && (
         <div className="pb-4">
           <FAQSection items={article.faq} />
+        </div>
+      )}
+
+      {/* 하단 최저가 CTA */}
+      {mainProduct && (mainProduct.externalSearchUrl || mainProduct.barkiryProductId || mainProduct.barkiryQuery) && (
+        <div className="my-6">
+          <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} barkiryProductId={mainProduct.barkiryProductId} externalSearchUrl={mainProduct.externalSearchUrl} categorySlug={catSlug} />
         </div>
       )}
 

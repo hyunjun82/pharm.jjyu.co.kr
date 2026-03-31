@@ -25,6 +25,7 @@ import { hub as 구충제Hub } from "./구충제";
 import { hub as 변비Hub } from "./변비";
 import { hub as 알레르기Hub } from "./알레르기";
 import { hub as 제산제Hub } from "./제산제";
+import { hub as 유산균Hub } from "./유산균";
 
 export const hubArticles: Record<string, HubArticle> = {
   연고: 연고Hub,
@@ -45,6 +46,7 @@ export const hubArticles: Record<string, HubArticle> = {
   변비: 변비Hub,
   알레르기: 알레르기Hub,
   제산제: 제산제Hub,
+  유산균: 유산균Hub,
 };
 
 export function getHubArticle(categorySlug: string): HubArticle | undefined {

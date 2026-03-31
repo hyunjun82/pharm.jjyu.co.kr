@@ -17,6 +17,7 @@ import { products as 구충제Products } from "./구충제";
 import { products as 변비Products } from "./변비";
 import { products as 알레르기Products } from "./알레르기";
 import { products as 제산제Products } from "./제산제";
+import { products as 유산균Products } from "./유산균";
 export const products: Product[] = [
   ...연고Products,
   ...탈모Products,
@@ -36,6 +37,7 @@ export const products: Product[] = [
   ...변비Products,
   ...알레르기Products,
   ...제산제Products,
+  ...유산균Products,
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {

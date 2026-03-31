@@ -127,4 +127,11 @@ export const categories: Category[] = [
     description: "겔포스, 알마겔 등 위산과다·속쓰림·역류성 식도염 완화 제산제",
     count: 9,
   },
+  {
+    name: "유산균/프로바이오틱스",
+    slug: "유산균",
+    icon: "🦠",
+    description: "락토핏, 듀오락, 비피도 등 장 건강·면역력 유산균 프로바이오틱스",
+    count: 10,
+  },
 ];
