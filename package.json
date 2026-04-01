@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/generate-article-json.mjs && next build && node scripts/clean-out.mjs",
+    "build:new": "node scripts/build-new.mjs",
     "start": "next start",
     "lint": "eslint",
     "quality": "node scripts/verify-wiki-quality.js",
