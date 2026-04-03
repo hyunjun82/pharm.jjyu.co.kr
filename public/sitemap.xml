@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pharm.jjyu.co.kr</loc>
-    <lastmod>2026-04-02T14:44:27.587Z</lastmod>
+    <lastmod>2026-04-03T07:11:29.368Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13197,6 +13197,108 @@
   <url>
     <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/100%EC%96%B5%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%EB%B9%84%ED%94%BC%EB%8D%94%EC%8A%A4%EB%9D%BD%ED%86%A0%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4</loc>
     <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/LACTOMINE%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%EA%B3%A8%EB%93%9C</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/PBN0190%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/PBN%EB%A3%A8%ED%85%8C%EB%A6%AC%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/PBN%EC%95%A1%EC%8B%9C%EB%8F%84%ED%95%84%EB%9F%AC%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/PBN%ED%8C%8C%EB%9D%BC%EC%B9%B4%EC%A0%9C%EC%9D%B4%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/PBN%ED%94%8C%EB%9E%80%ED%83%80%EB%9F%BC%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/PBN%ED%9B%BC%EC%8B%9C%EC%9B%80%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/PBN%ED%9B%BC%EC%B9%BC%EB%A6%AC%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/SYN%ED%94%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/S%EB%9D%BC%EC%9D%B8%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/TS%ED%8B%B0%EC%97%90%EC%8A%A4%EA%B9%80%EC%B9%98%EC%9C%A0%EC%82%B0%EA%B7%A0%EC%B9%B4%EC%A0%9C%EC%9D%B4</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/V21%ED%95%98%EB%A3%A8good%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/W%EB%B0%B8%EB%9F%B0%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/W%EC%97%94%EC%A0%A4%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/jw%EC%A4%91%EC%99%B8%EC%A0%9C%EC%95%BD%EC%8B%A0SYN%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%ED%94%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/jw%EC%A4%91%EC%99%B8%EC%A0%9C%EC%95%BD%ED%98%88%EB%8B%B9%EB%B0%94%EB%82%98%EB%B0%94%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4Pro</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pharm.jjyu.co.kr/%EC%9C%A0%EC%82%B0%EA%B7%A0/%EA%B0%80%EB%A5%B4%EC%8B%9C%EB%8B%88%EC%95%84%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
