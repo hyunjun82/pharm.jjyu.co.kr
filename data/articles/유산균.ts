@@ -1,4 +1,25 @@
 import { HubArticle, SpokeArticle } from "@/lib/types";
+import { spokes as spokes1 } from "./유산균-1"; // 템플릿 파일 (종근당락토핏골드·듀오락)
+import { spokes as spokes2 } from "./유산균-2"; // 뉴트리원·비피도라이브비피더스·프롬바이오·닥터린·대웅
+import { spokes as spokes3 } from "./유산균-3";
+import { spokes as spokes4 } from "./유산균-4";
+import { spokes as spokes5 } from "./유산균-5";
+import { spokes6 } from "./유산균-6";
+import { spokes7 } from "./유산균-7";
+import { spokes8 } from "./유산균-8";
+import { spokes9 } from "./유산균-9";
+import { spokes10 } from "./유산균-10";
+import { spokes11 } from "./유산균-11";
+import { spokes12 } from "./유산균-12";
+import { spokes13 } from "./유산균-13";
+import { spokes14 } from "./유산균-14";
+import { spokes15 } from "./유산균-15";
+import { spokes16 } from "./유산균-16";
+import { spokes17 } from "./유산균-17";
+import { spokes18 } from "./유산균-18";
+import { spokes19 } from "./유산균-19";
+import { spokes20 } from "./유산균-20";
+import { spokes21 } from "./유산균-21";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -9184,4 +9205,29 @@ export const spokes: Record<string, SpokeArticle> = {
       },
     ],
   },
+  // ─── 유산균-1.ts (종근당락토핏골드·듀오락) ───────────────────
+  ...spokes1,
+  // ─── 유산균-2.ts (뉴트리원·비피도라이브비피더스·프롬바이오·닥터린·대웅) ───
+  ...spokes2,
+  // ─── 유산균-3.ts ~ 유산균-5.ts (Record 포맷) ─────────────────
+  ...spokes3,
+  ...spokes4,
+  ...spokes5,
+  // ─── 유산균-6.ts ~ 유산균-21.ts (Array → Record 변환) ────────
+  ...Object.fromEntries(spokes6.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes7.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes8.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes9.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes10.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes11.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes12.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes13.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes14.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes15.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes16.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes17.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes18.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes19.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes20.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes21.map((s) => [s.slug, s])),
 };
