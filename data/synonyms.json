@@ -1,0 +1,250 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "의약품 카테고리별 동의어 사전 (SEO 중복 방지)",
+    "scope": "의약품 18개 카테고리. 건강기능식품 제외.",
+    "lastUpdated": "2026-04-05"
+  },
+  "탈모": {
+    "groups": [
+      {
+        "canonical": "미녹시딜",
+        "synonyms": ["마이녹실", "마이녹실액", "로게인", "로게인폼"],
+        "activeIngredient": "미녹시딜"
+      },
+      {
+        "canonical": "피나스테리드",
+        "synonyms": ["프로페시아", "피나온", "피나스테리드정"],
+        "activeIngredient": "피나스테리드"
+      },
+      {
+        "canonical": "두타스테리드",
+        "synonyms": ["아보다트", "아보타스", "두타스테리드캡슐"],
+        "activeIngredient": "두타스테리드"
+      },
+      {
+        "canonical": "판토가",
+        "synonyms": ["판토가캡슐", "판토가르"],
+        "activeIngredient": "시스틴+케라틴+효모"
+      }
+    ]
+  },
+  "진통제": {
+    "groups": [
+      {
+        "canonical": "타이레놀",
+        "synonyms": ["타이레놀정", "타이레놀500", "타이레놀이알", "타이레놀이알서방정"],
+        "activeIngredient": "아세트아미노펜"
+      },
+      {
+        "canonical": "이부프로펜",
+        "synonyms": ["부루펜", "애드빌", "이부프로펜정"],
+        "activeIngredient": "이부프로펜"
+      },
+      {
+        "canonical": "나프록센",
+        "synonyms": ["탁센", "낙센", "나프록센정"],
+        "activeIngredient": "나프록센"
+      },
+      {
+        "canonical": "게보린",
+        "synonyms": ["게보린정"],
+        "activeIngredient": "아세트아미노펜+이소프로필안티피린+카페인"
+      }
+    ]
+  },
+  "감기": {
+    "groups": [
+      {
+        "canonical": "판콜에이",
+        "synonyms": ["판콜A", "판콜에이정", "판콜에이내복액"],
+        "activeIngredient": "아세트아미노펜+클로르페니라민+덱스트로메토르판"
+      },
+      {
+        "canonical": "타이레놀콜드",
+        "synonyms": ["타이레놀콜드에스정", "타이레놀콜드정"],
+        "activeIngredient": "아세트아미노펜+슈도에페드린+덱스트로메토르판"
+      }
+    ]
+  },
+  "연고": {
+    "groups": [
+      {
+        "canonical": "마데카솔",
+        "synonyms": ["마데카솔연고", "복합마데카솔"],
+        "activeIngredient": "센텔라아시아티카"
+      },
+      {
+        "canonical": "후시딘",
+        "synonyms": ["후시딘연고", "후시딘겔"],
+        "activeIngredient": "퓨시드산"
+      }
+    ]
+  },
+  "무좀": {
+    "groups": [
+      {
+        "canonical": "라미실",
+        "synonyms": ["라미실크림", "라미실원스"],
+        "activeIngredient": "테르비나핀"
+      },
+      {
+        "canonical": "카네스텐",
+        "synonyms": ["카네스텐크림"],
+        "activeIngredient": "클로트리마졸"
+      }
+    ]
+  },
+  "설사": {
+    "groups": [
+      {
+        "canonical": "스멕타",
+        "synonyms": ["스멕타현탁액", "스멕타이트"],
+        "activeIngredient": "디옥타헤드랄스멕타이트"
+      },
+      {
+        "canonical": "정로환",
+        "synonyms": ["정로환당의정", "정로환정"],
+        "activeIngredient": "크레오소트+황백엑스"
+      }
+    ]
+  },
+  "소화제": {
+    "groups": [
+      {
+        "canonical": "베아제",
+        "synonyms": ["베아제정"],
+        "activeIngredient": "판크레아틴+우르소데옥시콜산"
+      },
+      {
+        "canonical": "훼스탈",
+        "synonyms": ["훼스탈플러스", "훼스탈골드"],
+        "activeIngredient": "판크레아틴+디메틸폴리실록산"
+      }
+    ]
+  },
+  "안약": {
+    "groups": [
+      {
+        "canonical": "인공눈물",
+        "synonyms": ["히알루론산점안액", "리프레쉬"],
+        "activeIngredient": "히알루론산나트륨"
+      }
+    ]
+  },
+  "구강": {
+    "groups": [
+      {
+        "canonical": "인사돌",
+        "synonyms": ["인사돌플러스", "인사돌정"],
+        "activeIngredient": "은행잎엑스"
+      },
+      {
+        "canonical": "오라메디",
+        "synonyms": ["오라메디연고"],
+        "activeIngredient": "트리암시놀론아세토니드"
+      }
+    ]
+  },
+  "파스": {
+    "groups": [
+      {
+        "canonical": "케토톱",
+        "synonyms": ["케토톱플라스타"],
+        "activeIngredient": "케토프로펜"
+      },
+      {
+        "canonical": "볼타렌",
+        "synonyms": ["볼타렌겔", "볼타렌패치"],
+        "activeIngredient": "디클로페낙"
+      }
+    ]
+  },
+  "영양제": {
+    "groups": [
+      {
+        "canonical": "비타민C",
+        "synonyms": ["아스코르빈산", "비타민씨"],
+        "activeIngredient": "아스코르빈산"
+      }
+    ]
+  },
+  "여성건강": {
+    "groups": [
+      {
+        "canonical": "이지엔6이브",
+        "synonyms": ["이지엔6", "이브정"],
+        "activeIngredient": "이부프로펜"
+      }
+    ]
+  },
+  "외상소독": {
+    "groups": [
+      {
+        "canonical": "베타딘",
+        "synonyms": ["베타딘액", "포비돈요오드"],
+        "activeIngredient": "포비돈요오드"
+      }
+    ]
+  },
+  "두드러기": {
+    "groups": [
+      {
+        "canonical": "지르텍",
+        "synonyms": ["지르텍정", "세티리진"],
+        "activeIngredient": "세티리진"
+      }
+    ]
+  },
+  "구충제": {
+    "groups": [
+      {
+        "canonical": "알벤다졸",
+        "synonyms": ["젤콤", "알싹"],
+        "activeIngredient": "알벤다졸"
+      }
+    ]
+  },
+  "변비": {
+    "groups": [
+      {
+        "canonical": "둘코락스",
+        "synonyms": ["둘코락스에스정", "비사코딜"],
+        "activeIngredient": "비사코딜"
+      },
+      {
+        "canonical": "마그밀",
+        "synonyms": ["마그밀정"],
+        "activeIngredient": "수산화마그네슘"
+      }
+    ]
+  },
+  "알레르기": {
+    "groups": [
+      {
+        "canonical": "지르텍",
+        "synonyms": ["지르텍정", "세티리진"],
+        "activeIngredient": "세티리진"
+      },
+      {
+        "canonical": "알레그라",
+        "synonyms": ["알레그라정", "펙소페나딘"],
+        "activeIngredient": "펙소페나딘"
+      }
+    ]
+  },
+  "제산제": {
+    "groups": [
+      {
+        "canonical": "겔포스",
+        "synonyms": ["겔포스엠", "겔포스현탁액"],
+        "activeIngredient": "인산알루미늄겔"
+      },
+      {
+        "canonical": "알마겔",
+        "synonyms": ["알마겔에프정"],
+        "activeIngredient": "수산화알루미늄+수산화마그네슘"
+      }
+    ]
+  }
+}
