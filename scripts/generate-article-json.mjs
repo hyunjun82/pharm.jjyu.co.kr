@@ -83,13 +83,13 @@ entries.push(urlEntry(`${BASE_URL}/about`, "2026-02-22", "monthly", "0.5"));
 
 for (const [cat, hub] of Object.entries(hubArticles)) {
   entries.push(urlEntry(
-    `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}`,
+    `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/`,
     hub.dateModified || now,
     "weekly",
     "0.9"
   ));
   entries.push(urlEntry(
-    `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}`,
+    `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}/`,
     hub.dateModified || now,
     "weekly",
     "0.7"
@@ -99,7 +99,7 @@ for (const [cat, hub] of Object.entries(hubArticles)) {
 for (const [category, articles] of Object.entries(spokeArticles)) {
   for (const [slug, article] of Object.entries(articles)) {
     entries.push(urlEntry(
-      `${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}`,
+      `${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}/`,
       article.dateModified || now,
       "monthly",
       "0.8"
