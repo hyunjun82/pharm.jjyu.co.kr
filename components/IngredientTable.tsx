@@ -6,11 +6,11 @@ export function IngredientTable({ items }: { items: IngredientItem[] }) {
 
   return (
     <div className="overflow-x-auto rounded-lg border border-gray-200">
-      <table className="w-full text-sm table-fixed">
+      <table className="w-full text-sm table-auto">
         <colgroup>
           <col className="w-[76px]" />
           <col />
-          <col className="hidden sm:table-column w-[80px]" />
+          <col className="hidden sm:table-column" />
           <col />
         </colgroup>
         <thead>
