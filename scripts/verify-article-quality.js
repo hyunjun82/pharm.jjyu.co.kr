@@ -87,13 +87,35 @@ function extractSpokes(filePath) {
 }
 
 function extractContentText(spokeText) {
-  // Extract all content: "..." values
+  // Extract all content: "..." or content: `...` values
   const contents = [];
-  const regex = /content:\s*"([^"]*)"/g;
+
+  // 쌍따옴표 형식
+  const dqRegex = /content:\s*"([^"]*)"/g;
   let m;
-  while ((m = regex.exec(spokeText)) !== null) {
+  while ((m = dqRegex.exec(spokeText)) !== null) {
     contents.push(m[1].replace(/\\n/g, "\n"));
   }
+
+  // 백틱 형식 (템플릿 리터럴) - 이스케이프된 백틱(\`)을 올바르게 처리
+  const btRegex = /content:\s*\n?\s*`/g;
+  let btMatch;
+  while ((btMatch = btRegex.exec(spokeText)) !== null) {
+    // 백틱 시작 위치에서 끝 백틱 수동 탐색 (이스케이프 처리)
+    let start = btMatch.index + btMatch[0].length;
+    let end = -1;
+    let i = start;
+    while (i < spokeText.length) {
+      if (spokeText[i] === '\\') { i += 2; continue; } // 이스케이프 건너뛰기
+      if (spokeText[i] === '`') { end = i; break; }
+      i++;
+    }
+    if (end > start) {
+      const raw = spokeText.slice(start, end).replace(/\\`/g, '`').replace(/\\\$/g, '$').replace(/\\\\/g, '\\');
+      contents.push(raw);
+    }
+  }
+
   return contents;
 }
 

@@ -104,12 +104,30 @@ function verifySpoke(spoke) {
   const errors = [];
   const warnings = [];
 
-  // Extract content texts
+  // Extract content texts (double-quote format)
   const contents = [];
   const contentRegex = /content:\s*"([^"]*)"/g;
   let m;
   while ((m = contentRegex.exec(spoke.text)) !== null) {
     contents.push(m[1].replace(/\\n/g, "\n"));
+  }
+
+  // Extract content texts (backtick template literal format)
+  const btRegex = /content:\s*\n?\s*`/g;
+  let btMatch;
+  while ((btMatch = btRegex.exec(spoke.text)) !== null) {
+    let start = btMatch.index + btMatch[0].length;
+    let end = -1;
+    let i = start;
+    while (i < spoke.text.length) {
+      if (spoke.text[i] === '\\') { i += 2; continue; }
+      if (spoke.text[i] === '`') { end = i; break; }
+      i++;
+    }
+    if (end > start) {
+      const raw = spoke.text.slice(start, end).replace(/\\`/g, '`').replace(/\\\$/g, '$').replace(/\\\\/g, '\\');
+      contents.push(raw);
+    }
   }
 
   // Extract hero
