@@ -28,7 +28,7 @@ const RESISTANCE_KEYWORDS = [
   "병원에 가", "의사와 상담", "즉시 중단",
 ];
 
-const MIN_TOTAL_CHARS = 1700;
+const MIN_TOTAL_CHARS = 1500;
 const MAX_TOTAL_CHARS = 2000;
 const MIN_SECTION_CHARS = 200;
 
