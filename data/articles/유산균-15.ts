@@ -5,8 +5,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "PBN0190유산균",
     categorySlug: "유산균",
-    title: "PBN0190유산균 성분 효과 | 요구르트·우유와 함께 섭취하는 미백색 분말 복용법 총정리",
-    h1: "PBN0190유산균 성분 효과 | 요구르트·우유와 함께 섭취하는 미백색 분말 복용법 총정리",
+    title: "PBN0190유산균 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "PBN0190유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription: "PBN0190유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 1일 1회 3g씩 물·요구르트·우유와 함께 섭취하고 개봉 후 냉장 보관이 필요한 미백색 분말 제품입니다.",
     description: "",
     heroDescription: "물뿐 아니라 요구르트나 우유에 타서 마시고 싶다면 이 제품이 맞을 수 있어요. PBN0190유산균은 미백색 분말 3g을 하루 한 번 섭취하는 단일 균주 제품으로, 물·요구르트·우유 모두 사용할 수 있어 섭취 방식이 유연한 게 특징이에요. 개봉 후에는 반드시 냉장 보관이 필요한 제품이에요.",
@@ -14,30 +14,30 @@ export const spokes15: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "PBN0190유산균 성분은 무엇인가요?",
+        title: "PBN0190유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "고유의 색택과 향미를 가지며 이미·이취가 없는 미백색 분말이에요. 1g당 프로바이오틱스 생균 1억 CFU 이상을 함유하고 있으며, 1회 섭취량이 3g이라 1회에 약 3억 CFU를 섭취하게 돼요. 다른 PBN 시리즈가 1g 제품인 것과 달리 PBN0190은 1회 3g으로 용량이 많은 편이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "1억 CFU 이상/1g당 (1회 3g)", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ],
       },
       {
-        title: "PBN0190유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "PBN0190유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "프로바이오틱스는 유익한 유산균 증식, 유해균 억제 또는 배변활동 원활에 도움을 줄 수 있어요. 단일 균주에 집중한 제품으로, 복합 균주 제품과 달리 특정 균주의 특성에 집중한 구성이에요."
       },
       {
-        title: "PBN0190유산균 복용법은 어떻게 되나요?",
+        title: "PBN0190유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "1일 1회, 3g씩 물을 함께 섭취하거나 기호에 따라 요구르트나 우유와 함께 드세요. 요구르트나 우유와 함께 섭취할 수 있는 게 이 제품의 장점이에요. 뜨거운 음료는 유산균을 손상시킬 수 있으니 차갑거나 미지근한 것을 사용하세요."
       },
       {
-        title: "PBN0190유산균 주의사항은 무엇인가요?",
+        title: "PBN0190유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "알레르기 체질인 경우 성분을 확인한 후 섭취 여부를 결정해야 해요. 개봉 후에는 냉장(5℃이하)에 보관하고 오염 우려가 있으니 신속하게 사용하세요. 요구르트·우유와 함께 섭취할 때도 개봉 후 빨리 드세요."
       },
       {
-        title: "PBN0190유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "PBN0190유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "개봉 전에는 별도 보관 기준이 없지만, 개봉 후에는 반드시 냉장(5℃이하)에 보관해야 해요. 유통기한은 제조일로부터 1년(12개월)으로 다른 제품들의 18~24개월보다 짧아요. 신선도 유지를 위해 개봉 후 빠르게 사용하는 게 중요해요."
       }
     ],
-    products: [],
+    products: [{ id: "PBN0190유산균", name: "PBN0190유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=PBN0190%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "PBN0190유산균" }],
     faq: [
       {
         question: "요구르트나 우유에 타서 먹어도 유산균이 살아 있나요?",
@@ -58,8 +58,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "PBN루테리유산균",
     categorySlug: "유산균",
-    title: "PBN루테리유산균 성분 효과 | L. reuteri 단일 균주 미백색 분말 복용법 총정리",
-    h1: "PBN루테리유산균 성분 효과 | L. reuteri 단일 균주 미백색 분말 복용법 총정리",
+    title: "PBN루테리유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "PBN루테리유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription: "PBN루테리유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. L. reuteri 단일 균주 1억 CFU/g 미백색 분말로 개봉 후 냉장 보관이 필요합니다.",
     description: "",
     heroDescription: "루테리(L. reuteri) 단일 균주에 집중한 유산균을 찾는다면 이 제품이 맞을 수 있어요. 미백색 분말 1g에 루테리 균주 1억 CFU 이상이 들어 있고, 물·요구르트·우유와 함께 섭취할 수 있어요. 개봉 후에는 냉장 보관이 필수인 단일 균주 제품이에요.",
@@ -67,30 +67,30 @@ export const spokes15: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "PBN루테리유산균 성분은 무엇인가요?",
+        title: "PBN루테리유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "고유의 색택과 향미를 가지며 이미·이취가 없는 미백색 분말이에요. 1g당 프로바이오틱스 생균 1억 CFU 이상을 함유한 루테리(L. reuteri) 단일 균주 제품이에요. 다수 균주를 혼합한 복합 제품과 달리 루테리 균주 하나에 집중한 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스(L. reuteri)", amount: "1억 CFU 이상/1g당", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ],
       },
       {
-        title: "PBN루테리유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "PBN루테리유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "프로바이오틱스는 유익한 유산균 증식, 유해균 억제 또는 배변활동 원활에 도움을 줄 수 있어요. 루테리 단일 균주로 구성되어 있어 해당 균주의 특성에 맞게 장 건강을 지원하는 구성이에요."
       },
       {
-        title: "PBN루테리유산균 복용법은 어떻게 되나요?",
+        title: "PBN루테리유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "1일 1회, 1g씩 물을 함께 섭취하거나 기호에 따라 요구르트나 우유와 함께 드세요. 1g으로 섭취량이 적어 물에 타도 양이 많지 않아요. 차갑거나 미지근한 음료에 타서 드시면 돼요."
       },
       {
-        title: "PBN루테리유산균 주의사항은 무엇인가요?",
+        title: "PBN루테리유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "알레르기 체질인 경우 성분을 확인한 후 섭취 여부를 결정해야 해요. 개봉 후에는 냉장(5℃이하)에 보관하고 오염 우려가 있으니 빨리 사용하세요."
       },
       {
-        title: "PBN루테리유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "PBN루테리유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "개봉 후에는 반드시 냉장(5℃이하)에 보관하고 빠르게 사용하세요. 유통기한은 제조일로부터 1년이에요. 냉장 보관 제품이라 구매 후 즉시 냉장고에 보관하는 습관이 중요해요."
       }
     ],
-    products: [],
+    products: [{ id: "PBN루테리유산균", name: "PBN루테리유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=PBN%EB%A3%A8%ED%85%8C%EB%A6%AC%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "PBN루테리유산균" }],
     faq: [
       {
         question: "루테리 단일 균주 제품이 복합 균주 제품과 다른 게 뭔가요?",
@@ -111,8 +111,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "PBN액시도필러스유산균",
     categorySlug: "유산균",
-    title: "PBN액시도필러스유산균 성분 효과 | L. acidophilus 단일 균주 미백색 분말 복용법 총정리",
-    h1: "PBN액시도필러스유산균 성분 효과 | L. acidophilus 단일 균주 미백색 분말 복용법 총정리",
+    title: "PBN액시도필러스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "PBN액시도필러스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription: "PBN액시도필러스유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. L. acidophilus 단일 균주 1억 CFU/g 미백색 분말로 개봉 후 냉장 보관이 필요합니다.",
     description: "",
     heroDescription: "액시도필러스(L. acidophilus) 단일 균주에 집중한 유산균을 찾는다면 이 제품이 맞을 수 있어요. 미백색 분말 1g에 액시도필러스 균주 1억 CFU 이상이 들어 있고, 물·요구르트·우유와 함께 섭취할 수 있어요. 개봉 후 냉장 보관이 필수인 단일 균주 집중형 제품이에요.",
@@ -120,30 +120,30 @@ export const spokes15: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "PBN액시도필러스유산균 성분은 무엇인가요?",
+        title: "PBN액시도필러스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content: "고유의 색택과 향미를 가지며 이미·이취가 없는 미백색 분말이에요. 1g당 프로바이오틱스 생균 1억 CFU 이상을 함유한 액시도필러스(L. acidophilus) 단일 균주 제품이에요. 락토바실러스속 균주 중 가장 널리 알려진 균주 중 하나인 액시도필러스에만 집중한 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스(L. acidophilus)", amount: "1억 CFU 이상/1g당", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ],
       },
       {
-        title: "PBN액시도필러스유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "PBN액시도필러스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content: "프로바이오틱스는 유익한 유산균 증식, 유해균 억제 또는 배변활동 원활에 도움을 줄 수 있어요. 액시도필러스 단일 균주로 구성되어 있어 해당 균주에 특화된 장 건강 지원 구성이에요."
       },
       {
-        title: "PBN액시도필러스유산균 복용법은 어떻게 되나요?",
+        title: "PBN액시도필러스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content: "1일 1회, 1g씩 물을 함께 섭취하거나 기호에 따라 요구르트나 우유와 함께 드세요. 1g 소량 분말이라 음료에 잘 녹고 맛에도 영향을 적게 줘요. 차갑거나 미지근한 음료를 사용하는 게 좋아요."
       },
       {
-        title: "PBN액시도필러스유산균 주의사항은 무엇인가요?",
+        title: "PBN액시도필러스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content: "알레르기 체질인 경우 성분을 확인한 후 섭취 여부를 결정해야 해요. 개봉 후에는 냉장(5℃이하)에 보관하고 오염 우려가 있으니 빨리 사용하세요."
       },
       {
-        title: "PBN액시도필러스유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "PBN액시도필러스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content: "개봉 후에는 반드시 냉장(5℃이하)에 보관하고 빠르게 사용하세요. 유통기한은 제조일로부터 1년이에요. 상온에 방치하면 유산균이 사멸할 수 있으니 반드시 냉장 보관해야 해요."
       }
     ],
-    products: [],
+    products: [{ id: "PBN액시도필러스유산균", name: "PBN액시도필러스유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=PBN%EC%95%A1%EC%8B%9C%EB%8F%84%ED%95%84%EB%9F%AC%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "PBN액시도필러스유산균" }],
     faq: [
       {
         question: "액시도필러스가 다른 균주와 다른 점이 뭔가요?",
@@ -164,8 +164,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "PBN파라카제이유산균",
     categorySlug: "유산균",
-    title: "PBN파라카제이유산균 성분 효과 | L. paracasei 단일 균주 미백색 분말 복용법 총정리",
-    h1: "PBN파라카제이유산균 성분 효과 | L. paracasei 단일 균주 미백색 분말 복용법 총정리",
+    title: "PBN파라카제이유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "PBN파라카제이유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription: "PBN파라카제이유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. L. paracasei 단일 균주 1억 CFU/g 미백색 분말로 직사광선을 피하고 서늘한 곳에 보관합니다.",
     description: "",
     heroDescription: "파라카제이(L. paracasei) 균주에 집중한 유산균을 찾는다면 이 제품이 맞을 수 있어요. 미백색 분말 1g에 파라카제이 균주 1억 CFU 이상이 들어 있고, 물·요구르트·우유와 함께 드실 수 있어요. 개봉 후 냉장 보관과 직사광선 차단이 필요한 단일 균주 제품이에요.",
@@ -173,30 +173,30 @@ export const spokes15: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "PBN파라카제이유산균 성분은 무엇인가요?",
+        title: "PBN파라카제이유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "고유의 색택과 향미를 가지며 이미·이취가 없는 미백색 분말이에요. 1g당 프로바이오틱스 생균 1억 CFU 이상을 함유한 파라카제이(L. paracasei) 단일 균주 제품이에요. 복합 균주 제품과 달리 파라카제이 균주 하나에만 집중한 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스(L. paracasei)", amount: "1억 CFU 이상/1g당", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ],
       },
       {
-        title: "PBN파라카제이유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "PBN파라카제이유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "프로바이오틱스는 유익한 유산균 증식, 유해균 억제 또는 배변활동 원활에 도움을 줄 수 있어요. 파라카제이 단일 균주에 특화된 장 건강 지원 구성이에요."
       },
       {
-        title: "PBN파라카제이유산균 복용법은 어떻게 되나요?",
+        title: "PBN파라카제이유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "1일 1회, 1g씩 물을 함께 섭취하거나 기호에 따라 요구르트나 우유와 함께 드세요. 1g 소량이라 음료에 잘 녹고 섭취가 간편해요."
       },
       {
-        title: "PBN파라카제이유산균 주의사항은 무엇인가요?",
+        title: "PBN파라카제이유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "알레르기 체질인 경우 성분을 확인한 후 섭취 여부를 결정해야 해요. 개봉 후에는 냉장(5℃이하)에 보관하고 오염 우려가 있으니 빨리 사용하세요."
       },
       {
-        title: "PBN파라카제이유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "PBN파라카제이유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "직사광선을 피하고 서늘한 곳에 보관하세요. 개봉 후에는 냉장(5℃이하) 보관이 필요해요. 유통기한은 제조일로부터 12개월이에요. 다른 PBN 시리즈 중 유통기한이 명확하게 12개월로 기재된 제품이에요."
       }
     ],
-    products: [],
+    products: [{ id: "PBN파라카제이유산균", name: "PBN파라카제이유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=PBN%ED%8C%8C%EB%9D%BC%EC%B9%B4%EC%A0%9C%EC%9D%B4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "PBN파라카제이유산균" }],
     faq: [
       {
         question: "파라카제이 균주가 카제이 균주와 같은 건가요?",
@@ -217,8 +217,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "PBN플란타럼유산균",
     categorySlug: "유산균",
-    title: "PBN플란타럼유산균 성분 효과 | L. plantarum 단일 균주 미백색 분말 복용법 총정리",
-    h1: "PBN플란타럼유산균 성분 효과 | L. plantarum 단일 균주 미백색 분말 복용법 총정리",
+    title: "PBN플란타럼유산균 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "PBN플란타럼유산균 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription: "PBN플란타럼유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. L. plantarum 단일 균주 1억 CFU/g 미백색 분말로 개봉 후 냉장 보관이 필요한 제품입니다.",
     description: "",
     heroDescription: "플란타럼(L. plantarum) 균주에 집중한 유산균을 찾는다면 이 제품이 맞을 수 있어요. 미백색 분말 1g에 플란타럼 균주 1억 CFU 이상이 들어 있고, 물·요구르트·우유와 함께 드실 수 있어요. 개봉 후 냉장 보관이 필수인 단일 균주 집중 제품이에요.",
@@ -226,30 +226,30 @@ export const spokes15: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "PBN플란타럼유산균 성분은 무엇인가요?",
+        title: "PBN플란타럼유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "고유의 색택과 향미를 가지며 이미·이취가 없는 미백색 분말이에요. 1g당 프로바이오틱스 생균 1억 CFU 이상을 함유한 플란타럼(L. plantarum) 단일 균주 제품이에요. 다수 균주를 혼합한 제품과 달리 플란타럼 균주 하나에 집중한 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "소스 데이터 확인 필요", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ]
       },
       {
-        title: "PBN플란타럼유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "PBN플란타럼유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "프로바이오틱스는 유익한 유산균 증식, 유해균 억제 또는 배변활동 원활에 도움을 줄 수 있어요. 플란타럼 단일 균주에 특화된 장 건강 지원 구성이에요."
       },
       {
-        title: "PBN플란타럼유산균 복용법은 어떻게 되나요?",
+        title: "PBN플란타럼유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "1일 1회, 1g씩 물을 함께 섭취하거나 기호에 따라 요구르트나 우유와 함께 드세요. 분말 1g을 좋아하는 음료에 타서 마시면 거부감 없이 꾸준히 섭취할 수 있어요."
       },
       {
-        title: "PBN플란타럼유산균 주의사항은 무엇인가요?",
+        title: "PBN플란타럼유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "알레르기 체질인 경우 성분을 확인한 후 섭취 여부를 결정해야 해요. 개봉 후에는 냉장(5℃이하)에 보관하고 오염 우려가 있으니 빨리 사용하세요."
       },
       {
-        title: "PBN플란타럼유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "PBN플란타럼유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "개봉 후에는 반드시 냉장(5℃이하)에 보관하고 빠르게 사용하세요. 유통기한은 제조일로부터 1년이에요. 상온에 방치하면 유산균이 사멸할 수 있으니 주의하세요."
       }
     ],
-    products: [],
+    products: [{ id: "PBN플란타럼유산균", name: "PBN플란타럼유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=PBN%ED%94%8C%EB%9E%80%ED%83%80%EB%9F%BC%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "PBN플란타럼유산균" }],
     faq: [
       {
         question: "플란타럼 단일 균주 제품이 복합 균주 제품과 어떻게 다른가요?",
@@ -270,8 +270,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "PBN훼시움유산균",
     categorySlug: "유산균",
-    title: "PBN훼시움유산균 성분 효과 | E. faecium 단일 균주 미백색 분말 복용법 총정리",
-    h1: "PBN훼시움유산균 성분 효과 | E. faecium 단일 균주 미백색 분말 복용법 총정리",
+    title: "PBN훼시움유산균 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "PBN훼시움유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription: "PBN훼시움유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. E. faecium 단일 균주 1억 CFU/g 미백색 분말로 개봉 후 냉장 보관이 필요한 제품입니다.",
     description: "",
     heroDescription: "훼시움(E. faecium) 균주에 집중한 유산균을 찾는다면 이 제품이 맞을 수 있어요. 미백색 분말 1g에 훼시움 균주 1억 CFU 이상이 들어 있고, 물·요구르트·우유와 함께 드실 수 있어요. 엔테로코쿠스속 균주에 집중한 단일 균주 제품으로, 개봉 후 냉장 보관이 필수예요.",
@@ -279,30 +279,30 @@ export const spokes15: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "PBN훼시움유산균 성분은 무엇인가요?",
+        title: "PBN훼시움유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "고유의 색택과 향미를 가지며 이미·이취가 없는 미백색 분말이에요. 1g당 프로바이오틱스 생균 1억 CFU 이상을 함유한 훼시움(E. faecium, Enterococcus faecium) 단일 균주 제품이에요. 락토바실러스속 유산균이 아닌 엔테로코쿠스속 균주에 집중한 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "소스 데이터 확인 필요", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ]
       },
       {
-        title: "PBN훼시움유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "PBN훼시움유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "프로바이오틱스는 유익한 유산균 증식, 유해균 억제 또는 배변활동 원활에 도움을 줄 수 있어요. 훼시움 단일 균주에 특화된 장 건강 지원 구성이에요."
       },
       {
-        title: "PBN훼시움유산균 복용법은 어떻게 되나요?",
+        title: "PBN훼시움유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "1일 1회, 1g씩 물을 함께 섭취하거나 기호에 따라 요구르트나 우유와 함께 드세요. 1g의 소량 분말이라 음료에 타도 양이 적어 섭취하기 부담 없어요."
       },
       {
-        title: "PBN훼시움유산균 주의사항은 무엇인가요?",
+        title: "PBN훼시움유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "알레르기 체질인 경우 성분을 확인한 후 섭취 여부를 결정해야 해요. 개봉 후에는 냉장(5℃이하)에 보관하고 오염 우려가 있으니 빨리 사용하세요."
       },
       {
-        title: "PBN훼시움유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "PBN훼시움유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "개봉 후에는 반드시 냉장(5℃이하)에 보관하고 빠르게 사용하세요. 유통기한은 제조일로부터 1년이에요. 냉장 보관이 필수인 만큼 보관 환경 관리가 중요해요."
       }
     ],
-    products: [],
+    products: [{ id: "PBN훼시움유산균", name: "PBN훼시움유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=PBN%ED%9B%BC%EC%8B%9C%EC%9B%80%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "PBN훼시움유산균" }],
     faq: [
       {
         question: "훼시움과 훼칼리스는 어떻게 다른가요?",
@@ -323,8 +323,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "PBN훼칼리스유산균",
     categorySlug: "유산균",
-    title: "PBN훼칼리스유산균 성분 효과 | E. faecalis 단일 균주 미백색 분말 복용법 총정리",
-    h1: "PBN훼칼리스유산균 성분 효과 | E. faecalis 단일 균주 미백색 분말 복용법 총정리",
+    title: "PBN훼칼리스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "PBN훼칼리스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription: "PBN훼칼리스유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. E. faecalis 단일 균주 1억 CFU/g 미백색 분말로 개봉 후 냉장 보관이 필요한 제품입니다.",
     description: "",
     heroDescription: "훼칼리스(E. faecalis) 균주에 집중한 유산균을 찾는다면 이 제품이 맞을 수 있어요. 미백색 분말 1g에 훼칼리스 균주 1억 CFU 이상이 들어 있고, 물·요구르트·우유와 함께 드실 수 있어요. 훼시움과 같은 엔테로코쿠스속이지만 다른 종인 훼칼리스 균주에 집중한 단일 균주 제품이에요.",
@@ -332,30 +332,30 @@ export const spokes15: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "PBN훼칼리스유산균 성분은 무엇인가요?",
+        title: "PBN훼칼리스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "고유의 색택과 향미를 가지며 이미·이취가 없는 미백색 분말이에요. 1g당 프로바이오틱스 생균 1억 CFU 이상을 함유한 훼칼리스(E. faecalis, Enterococcus faecalis) 단일 균주 제품이에요. 같은 엔테로코쿠스속인 훼시움(E. faecium)과는 다른 종이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "소스 데이터 확인 필요", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ]
       },
       {
-        title: "PBN훼칼리스유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "PBN훼칼리스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "프로바이오틱스는 유익한 유산균 증식, 유해균 억제 또는 배변활동 원활에 도움을 줄 수 있어요. 훼칼리스 단일 균주에 특화된 장 건강 지원 구성이에요."
       },
       {
-        title: "PBN훼칼리스유산균 복용법은 어떻게 되나요?",
+        title: "PBN훼칼리스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "1일 1회, 1g씩 물을 함께 섭취하거나 기호에 따라 요구르트나 우유와 함께 드세요. 1g 소량 분말로 섭취 부담이 없어요. 차갑거나 미지근한 음료와 함께 드세요."
       },
       {
-        title: "PBN훼칼리스유산균 주의사항은 무엇인가요?",
+        title: "PBN훼칼리스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "알레르기 체질인 경우 성분을 확인한 후 섭취 여부를 결정해야 해요. 개봉 후에는 냉장(5℃이하)에 보관하고 오염 우려가 있으니 빨리 사용하세요."
       },
       {
-        title: "PBN훼칼리스유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "PBN훼칼리스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "개봉 후에는 반드시 냉장(5℃이하)에 보관하고 빠르게 사용하세요. 유통기한은 제조일로부터 1년이에요. 상온에 방치하면 유산균이 사멸할 수 있어요."
       }
     ],
-    products: [],
+    products: [{ id: "PBN훼칼리스유산균", name: "PBN훼칼리스유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=PBN%ED%9B%BC%EC%B9%BC%EB%A6%AC%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "PBN훼칼리스유산균" }],
     faq: [
       {
         question: "훼칼리스와 훼시움, 어떤 걸 선택해야 하나요?",
@@ -376,8 +376,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "SYN프리바이오틱스유산균",
     categorySlug: "유산균",
-    title: "SYN 프리바이오틱스 유산균 성분 효과 | 프락토올리고당 3,300mg 백색 분말 복용법 총정리",
-    h1: "SYN 프리바이오틱스 유산균 성분 효과 | 프락토올리고당 3,300mg 백색 분말 복용법 총정리",
+    title: "SYN프리바이오틱스유산균 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "SYN프리바이오틱스유산균 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription: "SYN 프리바이오틱스 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 프락토올리고당 3,300mg과 프로바이오틱스 1억 CFU가 담긴 5,500mg 백색 분말 포 제품입니다.",
     description: "",
     heroDescription: "프리바이오틱스와 프로바이오틱스를 한 포에 5,500mg으로 넉넉하게 담은 제품을 찾는다면 이 제품이 맞을 수 있어요. 백색 분말 5,500mg 포에 프락토올리고당 3,300mg과 프로바이오틱스 1억 CFU가 들어 있어요. 칼슘 흡수 지원까지 포함한 프락토올리고당의 복합 기능이 특징이에요.",
@@ -409,10 +409,9 @@ export const spokes15: SpokeArticle[] = [
         content: "직사광선 및 고온다습한 곳을 피해 건조하고 서늘한 곳에 보관하세요. 유통기한은 제조일로부터 18개월이에요. 대용량 분말 포라 개봉 후 습기 차단이 중요해요."
       }
     ],
-    products: [],
+    products: [{ id: "SYN프리바이오틱스유산균", name: "SYN프리바이오틱스유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=SYN%ED%94%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "SYN프리바이오틱스유산균" }],
     faq: [
-      {
-        question: "포 용량이 5,500mg이면 너무 많지 않나요?",
+      {products: [{ id: "SYN프리바이오틱스유산균", name: "SYN프리바이오틱스유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=SYN%ED%94%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "SYN프리바이오틱스유산균" }]stion: "포 용량이 5,500mg이면 너무 많지 않나요?",
         answer: "프락토올리고당 3,300mg이 포함되어 있어 포 용량이 큰 편이에요. 물에 타서 마시면 더 편하게 섭취할 수 있어요. 일반 유산균 2g 포보다 훨씬 크지만, 프리바이오틱스 함량을 높이려면 어느 정도 용량이 필요해요."
       },
       {
@@ -430,8 +429,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "S라인다이어트유산균",
     categorySlug: "유산균",
-    title: "S라인 다이어트 유산균 성분 효과 | 가르시니아·비오틴 복합 복용법 주의사항 총정리",
-    h1: "S라인 다이어트 유산균 성분 효과 | 가르시니아·비오틴 복합 복용법 주의사항 총정리",
+    title: "S라인다이어트유산균 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "S라인다이어트유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription: "S라인 다이어트 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 가르시니아캄보지아 HCA 750mg·비오틴 90μg·프로바이오틱스 20억 CFU가 담긴 어두운 적갈색 알갱이 분말 제품입니다.",
     description: "",
     heroDescription: "체지방 관리와 에너지 대사, 장 건강을 한 포에 담고 싶다면 이 제품을 볼 수 있어요. 가르시니아캄보지아 추출물(HCA 750mg)과 비오틴 90μg, 프로바이오틱스 20억 CFU를 어두운 적갈색 알갱이가 들어 있는 노랑 하양색 분말에 담았어요. 어린이·임산부·수유부는 섭취할 수 없고, 남성도 과다 섭취를 피해야 하는 성인용 제품이에요.",
@@ -463,10 +462,9 @@ export const spokes15: SpokeArticle[] = [
         content: "습기가 적고 직사광선을 피해 서늘한 곳에 보관하고, 어린이 손에 닿지 않도록 주의하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
+    products: [{ id: "S라인다이어트유산균", name: "S라인다이어트유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=S%EB%9D%BC%EC%9D%B8%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "S라인다이어트유산균" }],
     faq: [
-      {
-        question: "남성도 과다 섭취를 피해야 하는 이유가 뭔가요?",
+   products: [{ id: "S라인다이어트유산균", name: "S라인다이어트유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=S%EB%9D%BC%EC%9D%B8%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "S라인다이어트유산균" }] question: "남성도 과다 섭취를 피해야 하는 이유가 뭔가요?",
         answer: "가르시니아캄보지아 추출물 주의사항에 남성의 경우 과다 섭취를 피하도록 명시되어 있어요. 1일 1포 권장량을 초과하지 않도록 주의하세요."
       },
       {
@@ -484,8 +482,8 @@ export const spokes15: SpokeArticle[] = [
   {
     slug: "TS티에스김치유산균카제이",
     categorySlug: "유산균",
-    title: "T.S 김치유산균 카제이 성분 효과 | 1일 2회 백색 불투명 캡슐 복용법 주의사항 총정리",
-    h1: "T.S 김치유산균 카제이 성분 효과 | 1일 2회 백색 불투명 캡슐 복용법 주의사항 총정리",
+    title: "TS티에스김치유산균카제이 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "TS티에스김치유산균카제이 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription: "T.S 김치유산균 카제이의 성분, 효과, 복용법, 주의사항을 정리했습니다. 1일 2회 2캡슐씩 총 4캡슐 섭취하는 백색 불투명 경질캡슐 제품입니다.",
     description: "",
     heroDescription: "하루 두 번 나눠서 유산균을 섭취하고 싶다면 이 제품이 맞을 수 있어요. T.S 김치유산균 카제이는 백색 불투명 경질캡슐로, 1일 2회 1회 2캡슐씩 총 4캡슐을 물과 함께 섭취하는 독특한 복용법이 특징이에요. 김치유산균 카제이(L. casei) 균주에 집중한 제품이에요.",
@@ -493,7 +491,7 @@ export const spokes15: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "T.S 김치유산균 카제이 성분은 무엇인가요?",
+        title: "TS티에스김치유산균카제이 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "백색 불투명 경질캡슐이에요. 1g당 프로바이오틱스 1억 CFU 이상이 들어 있는 김치유산균 카제이(L. casei) 균주 제품이에요. 다른 유산균 제품이 하루 1회 1포(캡슐)인 것과 달리 하루 2회 2캡슐씩 섭취하는 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스(L. casei)", amount: "1억 CFU 이상/1g당", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
@@ -512,11 +510,11 @@ export const spokes15: SpokeArticle[] = [
         content: "알레르기 체질인 경우 성분을 확인한 후 섭취하세요. 제품 개봉 또는 섭취 시 포장재에 의해 상처를 입을 수 있으니 주의하세요. 이 제품은 최소한의 주의사항만 기재된 단순 구성 제품이에요."
       },
       {
-        title: "T.S 김치유산균 카제이 보관할 때 주의할 점은 무엇인가요?",
+        title: "TS티에스김치유산균카제이 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "직사광선을 피하고 서늘한 곳에 보관하세요. 유통기한은 제조일로부터 18개월이에요. 경질캡슐 제형이라 습기에 노출되면 변형될 수 있으니 뚜껑을 잘 닫아 보관하세요."
       }
     ],
-    products: [],
+products: [{ id: "TS티에스김치유산균카제이", name: "TS티에스김치유산균카제이", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=TS%ED%8B%B0%EC%97%90%EC%8A%A4%EA%B9%80%EC%B9%98%EC%9C%A0%EC%82%B0%EA%B7%A0%EC%B9%B4%EC%A0%9C%EC%9D%B4", ingredients: "", usage: "", slug: "TS티에스김치유산균카제이" }]: [],
     faq: [
       {
         question: "1일 2회 섭취가 1일 1회보다 더 효과적인가요?",

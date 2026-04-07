@@ -12,14 +12,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 생유산균 면역플러스 성분 효과 | 아연 비타민D 분말 복용법 주의사항 총정리",
-    h1: "100억 생유산균 면역플러스 성분 효과 | 아연 비타민D 분말 복용법 주의사항 총정리",
+    title: "100억생유산균면역플러스 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "100억생유산균면역플러스 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "100억 생유산균 면역플러스의 성분, 100억 CFU+아연+비타민D 효과, 분말 복용법, 주의사항, 보관법을 정리했습니다. 장 건강과 면역을 함께 챙기는 분말 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 + 비타민D 분말 유산균. '면역플러스'를 내세운 복합 기능성.",
     heroDescription:
       "면역 관리를 유산균과 함께 시작하고 싶다면, 100억 생유산균 면역플러스는 이름에 '면역'을 내세운 만큼 아연과 비타민D를 함께 담았어요. 아연은 면역기능, 비타민D는 뼈 건강에 각각 기능성을 인정받은 성분이에요. 연한 노란색 분말포로 물 없이 입에 털어넣거나 물에 타서 마시는 심플한 섭취 방식이에요.",
-    products: [],
+    products: [
+      {
+        id: "100----------",
+        name: "100억생유산균면역플러스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%EB%A9%B4%EC%97%AD%ED%94%8C%EB%9F%AC%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "100억생유산균면역플러스",
+      },
+    ],
     faq: [
       {
         question: "면역플러스라는 이름인데 아연만으로 면역에 도움이 되나요?",
@@ -39,7 +54,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 생유산균 면역플러스 성분은 무엇인가요?",
+        title: "100억생유산균면역플러스 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "100억 생유산균 면역플러스는 1포(2g)에 프로바이오틱스 100억 CFU, 아연 2.55mg, 비타민D 3μg이 들어있어요. 연한 노란색 분말이에요. 비타민D 3μg은 최소 기능성 수준의 소량이지만, 아연과 함께 면역·뼈 기능성을 함께 갖춘 구성이에요. 대장균군 음성 기준을 통과했어요.",
         ingredients: [
@@ -78,14 +93,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 유산균 밸런스 성분 효과 | 250mg 소형 경질캡슐 복용법 주의사항 총정리",
-    h1: "100억 유산균 밸런스 성분 효과 | 250mg 소형 경질캡슐 복용법 주의사항 총정리",
+    title: "100억유산균밸런스 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "100억유산균밸런스 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "100억 유산균 밸런스의 성분, 100억 CFU 효과, 250mg 소형 경질캡슐 복용법, 주의사항, 보관법을 정리했습니다. 작고 삼키기 편한 단일 유산균 정보를 확인하세요.",
     description: "100억 CFU를 250mg 소형 캡슐에. 단일 프로바이오틱스, 충분한 물과 복용.",
     heroDescription:
       "큰 캡슐이 부담스럽고 단순하게 장 건강만 챙기고 싶다면, 100억 유산균 밸런스는 250mg 소형 경질캡슐에 100억 CFU를 담은 제품이에요. 아연·비타민D 등 추가 성분 없이 프로바이오틱스 단독 구성이라 다른 영양제와 성분이 겹칠 걱정이 없어요. '밸런스'라는 이름처럼 장내 균총 균형에 집중하는 심플한 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "100-------",
+        name: "100억유산균밸런스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%EB%B0%B8%EB%9F%B0%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "100억유산균밸런스",
+      },
+    ],
     faq: [
       {
         question: "250mg이면 얼마나 작은 캡슐인가요?",
@@ -105,7 +135,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 유산균 밸런스 성분은 무엇인가요?",
+        title: "100억유산균밸런스 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "100억 유산균 밸런스는 1캡슐(0.25g/250mg)에 프로바이오틱스 100억 CFU가 들어있어요. 노란 하양색 분말을 담은 흰색 경질캡슐이에요. 추가 영양 성분 없이 프로바이오틱스 단독으로 구성한 제품으로, 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -142,14 +172,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 유산균 키즈 톡톡 하이 성분 효과 | 비타민E D 아연 어린이 복용법 주의사항 총정리",
-    h1: "100억 유산균 키즈 톡톡 하이 성분 효과 | 비타민E D 아연 어린이 복용법 주의사항 총정리",
+    title: "100억유산균키즈톡톡하이 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "100억유산균키즈톡톡하이 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "100억 유산균 키즈 톡톡 하이의 성분, 비타민D·E+아연 효과, 어린이 팝핑 분말 복용법, 주의사항, 보관법을 정리했습니다. 비타민E까지 담은 어린이 유산균 정보를 확인하세요.",
     description: "100억 CFU + 비타민D + 비타민E + 아연 4중 복합 어린이 팝핑 분말 유산균.",
     heroDescription:
       "비타민D와 아연이 포함된 어린이 유산균은 많지만, 여기에 비타민E 항산화까지 더하고 싶다면 100억 유산균 키즈 톡톡 하이가 그 선택지예요. 100억 CFU에 비타민D 10μg, 비타민E 11mg α-TE, 아연 2.55mg을 담은 4중 복합 분말 제품이에요. 비타민E는 항산화 작용으로 유해산소로부터 세포를 보호하는 기능성을 더해줘요. 알갱이 있는 팝핑 식감으로 아이가 거부감 없이 먹을 수 있어요.",
-    products: [],
+    products: [
+      {
+        id: "100----------",
+        name: "100억유산균키즈톡톡하이",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%82%A4%EC%A6%88%ED%86%A1%ED%86%A1%ED%95%98%EC%9D%B4",
+        ingredients: "",
+        usage: "",
+        slug: "100억유산균키즈톡톡하이",
+      },
+    ],
     faq: [
       {
         question: "비타민E가 어린이에게 왜 필요한가요?",
@@ -169,7 +214,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 유산균 키즈 톡톡 하이 성분은 무엇인가요?",
+        title: "100억유산균키즈톡톡하이 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "100억 유산균 키즈 톡톡 하이는 1포(2,000mg)에 프로바이오틱스 100억 CFU, 비타민D 10μg, 비타민E 11mg α-TE, 아연 2.55mg이 들어있어요. 알갱이가 있는 노란 하얀색 분말이에요. 비타민E가 포함된 유산균 제품은 흔하지 않아, 항산화까지 챙기고 싶은 분에게 차별화된 구성이에요.",
         ingredients: [
@@ -209,14 +254,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 유산균 프로바이오틱스 성분 효과 | 아연 비타민D 갈색분말 복용법 주의사항 총정리",
-    h1: "100억 유산균 프로바이오틱스 성분 효과 | 아연 비타민D 갈색분말 복용법 주의사항 총정리",
+    title: "100억유산균프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "100억유산균프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "100억 유산균 프로바이오틱스의 성분, 100억 CFU+아연+비타민D 효과, 복용법, 주의사항, 보관법을 정리했습니다. 미갈색 분말의 3중 기능성 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 + 비타민D 분말 유산균. 미갈색 분말이 특징.",
     heroDescription:
       "유산균 분말 하면 흰색이나 노란색이 대부분인데, 100억 유산균 프로바이오틱스는 미갈색(약간 갈색 기운)의 독특한 색상의 분말이에요. 100억 CFU에 아연과 비타민D를 더해 장 건강·면역·뼈 3중 기능성을 갖추고 있어요. 비타민D 3μg이 포함돼 있어 고칼슘혈증이 있는 분은 섭취 전 전문가 상담이 필요해요.",
-    products: [],
+    products: [
+      {
+        id: "100-----------",
+        name: "100억유산균프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "100억유산균프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "미갈색 분말이 다른 유산균 분말과 다른 이유가 있나요?",
@@ -236,7 +296,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 유산균 프로바이오틱스 성분은 무엇인가요?",
+        title: "100억유산균프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "100억 유산균 프로바이오틱스는 1포(2g)에 프로바이오틱스 100억 CFU, 비타민D 3μg, 아연 2.55mg이 들어있어요. 미갈색 분말로 다른 유산균 분말과 시각적으로 구분돼요. 대장균군 음성 기준을 통과했어요.",
         ingredients: [
@@ -275,14 +335,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 유산균 플러스 성분 효과 | 아연8.5mg 250mg 소형캡슐 복용법 주의사항 총정리",
-    h1: "100억 유산균 플러스 성분 효과 | 아연8.5mg 250mg 소형캡슐 복용법 주의사항 총정리",
+    title: "100억유산균플러스 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "100억유산균플러스 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "100억 유산균 플러스의 성분, 100억 CFU+아연 8.5mg 효과, 250mg 소형캡슐 복용법, 주의사항, 보관법을 정리했습니다. 하루 권장량 수준의 아연이 포함된 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 8.5mg 250mg 소형 경질캡슐. 아연 하루 권장량 수준 포함.",
     heroDescription:
       "유산균에 아연을 충분히 챙기고 싶다면, 100억 유산균 플러스는 아연 8.5mg을 250mg 소형 캡슐에 담은 제품이에요. 아연 2.55mg(낮은 함량) 제품과 달리 성인 하루 권장량(8~10mg) 수준인 8.5mg을 한 캡슐로 충족할 수 있어요. 소형 캡슐이라 삼키기 부담이 적으면서 면역 기능성에 필요한 아연을 충분히 챙겨요.",
-    products: [],
+    products: [
+      {
+        id: "100-------",
+        name: "100억유산균플러스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%94%8C%EB%9F%AC%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "100억유산균플러스",
+      },
+    ],
     faq: [
       {
         question: "아연 8.5mg이 하루 권장량을 초과하지 않나요?",
@@ -302,7 +377,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 유산균 플러스 성분은 무엇인가요?",
+        title: "100억유산균플러스 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "100억 유산균 플러스는 1캡슐(250mg)에 프로바이오틱스 100억 CFU와 아연 8.5mg이 들어있어요. 노란 하양색 내용물을 담은 투명 경질캡슐이에요. 아연 8.5mg은 성인 하루 권장량 수준으로, 면역 기능성을 충분히 갖춘 구성이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -340,14 +415,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 유산균+바나바 성분 효과 | 바나바잎 혈당 경질캡슐 복용법 주의사항 총정리",
-    h1: "100억 유산균+바나바 성분 효과 | 바나바잎 혈당 경질캡슐 복용법 주의사항 총정리",
+    title: "100억유산균바나바 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "100억유산균바나바 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "100억 유산균+바나바의 성분, 바나바잎 코로솔산 혈당 효과, 경질캡슐 복용법, 주의사항, 보관법을 정리했습니다. 식후 혈당과 장 건강을 함께 관리하는 유산균 정보를 확인하세요.",
     description: "100억 CFU + 바나바잎 추출물(코로솔산 1.3mg) 경질캡슐. 혈당+장건강 복합.",
     heroDescription:
       "식후 혈당이 신경 쓰이면서 장 건강도 챙기고 싶다면, 100억 유산균+바나바는 코로솔산 1.3mg의 바나바잎 추출물과 100억 CFU 유산균을 500mg 경질캡슐에 담은 제품이에요. 마이핏B혈당앤유산균이 300mg 캡슐에 코로솔산 0.45mg을 담은 것과 달리, 이 제품은 500mg에 코로솔산 1.3mg으로 코로솔산 함량이 더 높은 구성이에요.",
-    products: [],
+    products: [
+      {
+        id: "100-------",
+        name: "100억유산균바나바",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%EB%B0%94%EB%82%98%EB%B0%94",
+        ingredients: "",
+        usage: "",
+        slug: "100억유산균바나바",
+      },
+    ],
     faq: [
       {
         question: "코로솔산 함량이 높을수록 효과가 더 좋은가요?",
@@ -367,7 +457,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 유산균+바나바 성분은 무엇인가요?",
+        title: "100억유산균바나바 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "100억 유산균+바나바는 1캡슐(500mg)에 프로바이오틱스 100억 CFU와 코로솔산 1.3mg(바나바잎 추출물)이 들어있어요. 알갱이가 있는 연한 흰노랑색 분말을 담은 투명 경질캡슐이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -405,14 +495,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "2억보장 유산균 캡슐+B1 성분 효과 | 비타민B6 에너지대사 복용법 주의사항 총정리",
-    h1: "2억보장 유산균 캡슐+B1 성분 효과 | 비타민B6 에너지대사 복용법 주의사항 총정리",
+    title: "2억보장유산균캡슐B1 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "2억보장유산균캡슐B1 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "2억보장 유산균 캡슐+B1의 성분, 비타민B6+유산균 에너지 대사 효과, 1일 2회 복용법, 주의사항, 보관법을 정리했습니다. 에너지 대사와 장 건강을 함께 챙기는 유산균 정보를 확인하세요.",
     description: "2억 CFU + 비타민B6 10mg 경질캡슐. 탄수화물·에너지 대사 + 장 건강. 1일 2회 복용.",
     heroDescription:
       "유산균에 에너지 대사를 돕는 비타민B계열까지 더하고 싶다면, 2억보장 유산균 캡슐+B1은 비타민B6 10mg과 2억 CFU 유산균을 담은 제품이에요. 탄수화물과 에너지 대사에 필요한 기능성이 더해져 피로감이 신경 쓰이는 분에게 맞는 구성이에요. 1일 2회 복용으로 하루에 나눠 꾸준히 드실 수 있어요.",
-    products: [],
+    products: [
+      {
+        id: "2--------b1",
+        name: "2억보장유산균캡슐B1",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=2%EC%96%B5%EB%B3%B4%EC%9E%A5%EC%9C%A0%EC%82%B0%EA%B7%A0%EC%BA%A1%EC%8A%90%20B1",
+        ingredients: "",
+        usage: "",
+        slug: "2억보장유산균캡슐B1",
+      },
+    ],
     faq: [
       {
         question: "비타민B6 10mg이 에너지에 도움이 되나요?",
@@ -432,7 +537,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "2억보장 유산균 캡슐+B1 성분은 무엇인가요?",
+        title: "2억보장유산균캡슐B1 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "2억보장 유산균 캡슐+B1은 1캡슐(1,000mg) 기준 프로바이오틱스 2억 CFU와 비타민B6 10mg이 들어있어요. 노란 하양색 분말을 담은 흰색 경질캡슐이에요. 1일 2회 복용으로 하루 총 4억 CFU와 비타민B6 20mg을 섭취하게 돼요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -470,14 +575,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "3 바이오틱스 플러스 100 성분 효과 | 아연8.5mg 셀레늄55μg 복용법 주의사항 총정리",
-    h1: "3 바이오틱스 플러스 100 성분 효과 | 아연8.5mg 셀레늄55μg 복용법 주의사항 총정리",
+    title: "3바이오틱스플러스100 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "3바이오틱스플러스100 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "3 바이오틱스 플러스 100의 성분, 100억 CFU+아연 8.5mg+셀레늄 55μg 효과, 복용법, 주의사항, 보관법을 정리했습니다. 고함량 아연과 셀레늄을 갖춘 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 8.5mg + 셀레늄 55μg 분말 유산균. 면역·항산화 고함량 복합.",
     heroDescription:
       "면역과 항산화를 높은 함량으로 한꺼번에 챙기고 싶다면, 3 바이오틱스 플러스 100은 100억 CFU에 아연 8.5mg과 셀레늄 55μg을 2.5g 분말포에 담은 제품이에요. 셀레늄 55μg은 성인 하루 권장량에 해당하는 수준으로, 항산화 기능성을 강화한 구성이에요. 갈색 입자가 섞인 흰 분홍색 분말로, 여러 성분이 혼합된 복합 유산균이에요.",
-    products: [],
+    products: [
+      {
+        id: "3--------100",
+        name: "3바이오틱스플러스100",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=3%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%ED%94%8C%EB%9F%AC%EC%8A%A4100",
+        ingredients: "",
+        usage: "",
+        slug: "3바이오틱스플러스100",
+      },
+    ],
     faq: [
       {
         question: "셀레늄 55μg이 하루 권장량에 맞는 양인가요?",
@@ -497,7 +617,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "3 바이오틱스 플러스 100 성분은 무엇인가요?",
+        title: "3바이오틱스플러스100 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "3 바이오틱스 플러스 100은 1포(2.5g)에 프로바이오틱스 100억 CFU, 아연 8.5mg, 셀레늄 55μg이 들어있어요. 갈색 입자를 함유한 흰 분홍색 분말이에요. 아연 8.5mg은 하루 권장량 수준이고, 셀레늄 55μg도 권장량과 동일해요. 면역·항산화 성분이 모두 고함량으로 포함된 복합 유산균이에요.",
         ingredients: [
@@ -536,14 +656,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "3-스텝 활성 유산균 성분 효과 | 5억 경질캡슐 임산부주의 복용법 총정리",
-    h1: "3-스텝 활성 유산균 성분 효과 | 5억 경질캡슐 임산부주의 복용법 총정리",
+    title: "3스텝활성유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "3스텝활성유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "3-스텝 활성 유산균의 성분, 5억 CFU 효과, 경질캡슐 복용법, 임산부·수유부 주의사항, 보관법을 정리했습니다. 3단계 활성화 공법을 내세운 유산균 정보를 확인하세요.",
     description: "5.43억 CFU 경질캡슐 유산균. 임산부·수유부는 섭취에 주의 필요.",
     heroDescription:
       "임산부나 수유부가 유산균을 고를 때 안전성이 최우선이라면, 3-스텝 활성 유산균은 주의사항에 임산부·수유부 섭취 주의를 명시한 제품이에요. 무조건 금지가 아닌 '주의'이므로 섭취 전 전문의와 상담 후 결정하는 게 필요해요. 5.43억 CFU로 고함량은 아니지만, 충분한 물과 함께 드시는 0.4g 소형 경질캡슐이에요.",
-    products: [],
+    products: [
+      {
+        id: "3-------",
+        name: "3스텝활성유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=3%EC%8A%A4%ED%85%9D%ED%99%9C%EC%84%B1%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "3스텝활성유산균",
+      },
+    ],
     faq: [
       {
         question: "임산부가 이 유산균을 먹으면 안 되나요?",
@@ -563,7 +698,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "3-스텝 활성 유산균 성분은 무엇인가요?",
+        title: "3스텝활성유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "3-스텝 활성 유산균은 1캡슐(0.4g/400mg)에 프로바이오틱스 5.43억 CFU가 들어있어요. 노란 하얀색 분말을 담은 백색 경질캡슐이에요. 아연·비타민D 등 추가 성분 없이 프로바이오틱스 단독 구성이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -600,14 +735,29 @@ export const spokes9: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "365 와이케어 유산균 성분 효과 | 셀렌22.5μg 아연4.25mg 복용법 주의사항 총정리",
-    h1: "365 와이케어 유산균 성분 효과 | 셀렌22.5μg 아연4.25mg 복용법 주의사항 총정리",
+    title: "365와이케어유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "365와이케어유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "365 와이케어 유산균의 성분, 10억 CFU+셀렌+아연 효과, 복용법, 주의사항, 보관법을 정리했습니다. 진분홍색 경질캡슐의 항산화+면역+장 건강 유산균 정보를 확인하세요.",
     description: "10억 CFU + 셀렌 22.5μg + 아연 4.25mg 경질캡슐. 진분홍색 분말이 특징.",
     heroDescription:
       "365일 매일 챙기는 여성 건강 유산균을 찾는다면, 365 와이케어 유산균은 진분홍색 분말을 담은 투명 경질캡슐로 한눈에 알아볼 수 있는 제품이에요. 10억 CFU 유산균에 셀렌 22.5μg(항산화)과 아연 4.25mg(면역)을 더해 3중 기능성을 350mg 소형 캡슐에 담았어요. 와이(Y) 케어라는 이름처럼 여성에게 필요한 항산화·면역 기능성에 집중한 구성이에요.",
-    products: [],
+    products: [
+      {
+        id: "365-------",
+        name: "365와이케어유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=365%EC%99%80%EC%9D%B4%EC%BC%80%EC%96%B4%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "365와이케어유산균",
+      },
+    ],
     faq: [
       {
         question: "셀렌 22.5μg이면 하루 권장량의 얼마나 되나요?",
@@ -627,7 +777,7 @@ export const spokes9: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "365 와이케어 유산균 성분은 무엇인가요?",
+        title: "365와이케어유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "365 와이케어 유산균은 1캡슐(0.35g/350mg)에 프로바이오틱스 10억 CFU, 셀렌 22.5μg, 아연 4.25mg이 들어있어요. 알갱이가 있는 진분홍색 분말을 담은 투명 경질캡슐로 눈에 띄는 색상이에요. 셀렌+아연 항산화·면역 복합 구성이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [

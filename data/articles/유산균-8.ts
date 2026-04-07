@@ -12,14 +12,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 생유산균 트리플케어 성분 효과 | 아연5mg 경질캡슐 복용법 주의사항 총정리",
-    h1: "100억 생유산균 트리플케어 성분 효과 | 아연5mg 경질캡슐 복용법 주의사항 총정리",
+    title: "100억생유산균트리플케어 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "100억생유산균트리플케어 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "100억 생유산균 트리플케어의 성분, 100억 CFU+아연 5mg 효과, 충분한 물 복용법, 주의사항, 보관법을 정리했습니다. 장 건강과 면역을 함께 챙기는 경질캡슐 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 5mg 경질캡슐. 아연 5mg은 하루 권장량의 절반 수준.",
     heroDescription:
       "장 건강과 면역을 동시에 챙기되 아연 함량이 너무 적거나 너무 많지 않게 조절하고 싶다면, 100억 생유산균 트리플케어는 아연 5mg을 기준으로 한 균형 잡힌 구성이에요. 일부 제품의 아연 2.55mg(낮은 함량)이나 8.5mg(높은 함량)과 달리, 5mg은 성인 하루 권장량(8~10mg)의 50~60% 수준으로 적당한 중간 함량이에요. 아연을 따로 챙기기 부담스러운 분에게 맞는 선택이에요.",
-    products: [],
+    products: [
+      {
+        id: "100----------",
+        name: "100억생유산균트리플케어",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%8A%B8%EB%A6%AC%ED%94%8C%EC%BC%80%EC%96%B4",
+        ingredients: "",
+        usage: "",
+        slug: "100억생유산균트리플케어",
+      },
+    ],
     faq: [
       {
         question: "충분한 물과 함께 먹어야 하는 이유가 있나요?",
@@ -39,7 +54,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 생유산균 트리플케어 성분은 무엇인가요?",
+        title: "100억생유산균트리플케어 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "100억 생유산균 트리플케어는 1캡슐(0.38g/380mg)에 프로바이오틱스 100억 CFU와 아연 5mg이 들어있어요. 흰 노란색 분말을 담은 투명 경질캡슐이에요. 아연 함량이 5mg으로, 면역 관련 기능성을 챙기되 하루 권장량 내에서 적정 섭취를 원하는 분에게 맞는 구성이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -77,14 +92,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 소리나는 프로+프리바이오틱스 성분 효과 | 프락토올리고당 셀렌 복용법 주의사항 총정리",
-    h1: "100억 소리나는 프로+프리바이오틱스 성분 효과 | 프락토올리고당 셀렌 복용법 주의사항 총정리",
+    title: "100억소리나는프리바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "100억소리나는프리바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "100억 소리나는 프로+프리바이오틱스의 성분, 프락토올리고당+아연+비타민D+셀렌 효과, 복용법, 주의사항, 보관법을 정리했습니다. 5중 복합 기능성 유산균 정보를 확인하세요.",
     description: "100억 CFU + 프락토올리고당 + 아연 + 비타민D + 셀렌 5중 복합 대용량 분말 유산균.",
     heroDescription:
       "유산균 하나로 장 건강·면역·항산화·뼈 건강까지 한꺼번에 챙기고 싶다면, 100억 소리나는 프로+프리바이오틱스는 1포(6g)에 5가지 기능성 성분을 담은 제품이에요. 프로바이오틱스에 프리바이오틱스(프락토올리고당)를 함께 담아 유익균의 먹이까지 공급하는 '신바이오틱스' 개념이에요. 다른 유산균과 달리 섭취 초기에 가스가 찰 수 있다는 주의사항이 명시돼 있어서 자신의 장 반응을 확인하면서 드시는 게 좋아요.",
-    products: [],
+    products: [
+      {
+        id: "100------------",
+        name: "100억소리나는프리바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%86%8C%EB%A6%AC%EB%82%98%EB%8A%94%ED%94%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "100억소리나는프리바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "프락토올리고당이 함께 들어있으면 어떤 점이 다른가요?",
@@ -104,7 +134,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 소리나는 프로+프리바이오틱스 성분은 무엇인가요?",
+        title: "100억소리나는프리바이오틱스 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "100억 소리나는 프로+프리바이오틱스는 1포(6,000mg)에 프로바이오틱스 100억 CFU, 프락토올리고당 3,500mg, 아연 2.55mg, 비타민D 3μg, 셀렌 16.5μg이 들어있어요. 흰색 입자성 분말이에요. 1포 용량이 6g으로 다른 분말 유산균(2g) 대비 3배에 달하는 대용량 구성이에요. 프락토올리고당이 포함된 신바이오틱스 제품이에요.",
         ingredients: [
@@ -145,14 +175,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 우먼 프로바이오틱스 레드 성분 효과 | 비타민C 셀렌 여성 복용법 주의사항 총정리",
-    h1: "100억 우먼 프로바이오틱스 레드 성분 효과 | 비타민C 셀렌 여성 복용법 주의사항 총정리",
+    title: "100억우먼프로바이오틱스레드 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "100억우먼프로바이오틱스레드 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "100억 우먼 프로바이오틱스 레드의 성분, 비타민C+아연+셀렌 효과, 여성 복용법, 주의사항, 보관법을 정리했습니다. 여성을 위한 항산화+면역+장 건강 유산균 정보를 확인하세요.",
     description: "100억 CFU + 비타민C + 아연 + 셀렌. 여성을 위한 항산화·면역·장 건강 분말 유산균.",
     heroDescription:
       "여성이 특히 신경 쓰는 항산화와 면역 관리를 유산균과 함께 챙기고 싶다면, 100억 우먼 프로바이오틱스 레드는 분홍색 분말로 한눈에 알아볼 수 있는 여성 지향 제품이에요. 100억 CFU 유산균에 비타민C, 아연, 셀렌을 더해 4중 기능성을 담았어요. 특히 셀렌은 항산화, 비타민C는 피부와 철 흡수, 아연은 면역에 각각 작용해 단순 유산균 제품에 없는 성분 조합이에요.",
-    products: [],
+    products: [
+      {
+        id: "100------------",
+        name: "100억우먼프로바이오틱스레드",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%9A%B0%EB%A8%BC%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%EB%A0%88%EB%93%9C",
+        ingredients: "",
+        usage: "",
+        slug: "100억우먼프로바이오틱스레드",
+      },
+    ],
     faq: [
       {
         question: "신장질환이 있으면 비타민C를 조심해야 하나요?",
@@ -172,7 +217,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 우먼 프로바이오틱스 레드 성분은 무엇인가요?",
+        title: "100억우먼프로바이오틱스레드 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "100억 우먼 프로바이오틱스 레드는 1포(2,000mg)에 프로바이오틱스 100억 CFU, 비타민C 30mg, 아연 2.55mg, 셀렌 16.5μg이 들어있어요. 흰 노랑색 알갱이가 있는 분홍색 분말로 여성 제품임을 색상으로 구분해요. 비타민C+아연+셀렌의 항산화·면역 복합 성분이 단순 장 건강 중심의 유산균과 차별화되는 구성이에요.",
         ingredients: [
@@ -212,14 +257,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 유산균 ABC 성분 효과 | 24개월 장방형 경질캡슐 복용법 주의사항 총정리",
-    h1: "100억 유산균 ABC 성분 효과 | 24개월 장방형 경질캡슐 복용법 주의사항 총정리",
+    title: "100억유산균ABC 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "100억유산균ABC 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "100억 유산균 ABC의 성분, 100억 CFU 효과, 장방형 경질캡슐 복용법, 주의사항, 보관법을 정리했습니다. 24개월 유통기한의 단일 유산균 정보를 확인하세요.",
     description: "100억 CFU를 장방형 경질캡슐에 담은 단일 유산균. 유통기한 24개월.",
     heroDescription:
       "단순하고 심플한 유산균을 찾는다면, 100억 유산균 ABC는 100억 CFU 단일 프로바이오틱스를 장방형 경질캡슐에 담은 제품이에요. 동그란 일반 캡슐과 달리 길쭉한 장방형 캡슐은 삼키기 편한 형태예요. 아연·비타민D 등 복합 성분 없이 장 건강에 집중하면서, 유통기한이 24개월로 일반 제품(18개월)보다 6개월 더 길어 여유 있게 사용할 수 있어요.",
-    products: [],
+    products: [
+      {
+        id: "100----abc",
+        name: "100억유산균ABC",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%20A%20B%20C",
+        ingredients: "",
+        usage: "",
+        slug: "100억유산균ABC",
+      },
+    ],
     faq: [
       {
         question: "유통기한이 24개월이면 균수가 줄어들지 않나요?",
@@ -239,7 +299,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 유산균 ABC 성분은 무엇인가요?",
+        title: "100억유산균ABC 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "100억 유산균 ABC는 1캡슐(420mg)에 프로바이오틱스 100억 CFU가 들어있어요. 연한 노란색 분말을 담은 투명 장방형 경질캡슐이에요. 아연·비타민D·셀렌 등 추가 성분 없이 프로바이오틱스 단독 구성이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -276,14 +336,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 유산균 미니 성분 효과 | 아연 140mg 초소형 캡슐 복용법 주의사항 총정리",
-    h1: "100억 유산균 미니 성분 효과 | 아연 140mg 초소형 캡슐 복용법 주의사항 총정리",
+    title: "100억유산균미니 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "100억유산균미니 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "100억 유산균 미니의 성분, 100억 CFU+아연 효과, 140mg 초소형 캡슐 복용법, 주의사항, 보관법을 정리했습니다. 삼키기 편한 미니 사이즈 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 2.55mg을 140mg 초소형 캡슐에. 삼키기 부담 없는 크기.",
     heroDescription:
       "캡슐이 너무 커서 유산균 삼키기가 부담스러웠다면, 100억 유산균 미니는 이름 그대로 140mg 초소형 캡슐이에요. 비피더스유한생유산균과 같은 140mg 크기에 100억 CFU와 아연 2.55mg을 담았어요. 연한 노란 연두색이라는 독특한 색상의 캡슐로, 복합 성분을 작은 캡슐 하나에 챙길 수 있어요.",
-    products: [],
+    products: [
+      {
+        id: "100------",
+        name: "100억유산균미니",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%EB%AF%B8%EB%8B%88",
+        ingredients: "",
+        usage: "",
+        slug: "100억유산균미니",
+      },
+    ],
     faq: [
       {
         question: "140mg 미니 캡슐인데 100억 CFU가 충분히 들어갈 수 있나요?",
@@ -303,7 +378,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 유산균 미니 성분은 무엇인가요?",
+        title: "100억유산균미니 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "100억 유산균 미니는 1캡슐(140mg)에 프로바이오틱스 100억 CFU와 아연 2.55mg이 들어있어요. 연한 노란 연두색 내용물을 담은 투명 경질캡슐이에요. 일반 유산균 캡슐(300~500mg)의 3분의 1 이하 크기인 140mg 초소형 캡슐이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -341,14 +416,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억콜유산균 성분 효과 | 아연 비타민D 분말 복용법 주의사항 총정리",
-    h1: "100억콜유산균 성분 효과 | 아연 비타민D 분말 복용법 주의사항 총정리",
+    title: "100억콜유산균 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "100억콜유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "100억콜유산균의 성분, 100억 CFU+아연+비타민D 효과, 분말 복용법, 주의사항, 보관법을 정리했습니다. 장·면역·뼈 기능성 분말 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 + 비타민D 분말 유산균. 연한 노랑 분홍색 분말.",
     heroDescription:
       "장·면역·뼈 건강을 분말 형태로 한 번에 챙기고 싶다면, 100억콜유산균은 100억 CFU, 아연 2.55mg, 비타민D 3μg을 2g 분말포에 담은 제품이에요. 연한 노랑 분홍색의 분말로, 물에 타거나 그냥 입에 털어넣어 섭취해요. 비타민D는 3μg(120IU)으로 기능성 성분 최소 기준 수준의 소량이 포함돼 있어요.",
-    products: [],
+    products: [
+      {
+        id: "100-----",
+        name: "100억콜유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%BD%9C%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "100억콜유산균",
+      },
+    ],
     faq: [
       {
         question: "비타민D 3μg이 너무 적은 것 아닌가요?",
@@ -368,7 +458,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억콜유산균 성분은 무엇인가요?",
+        title: "100억콜유산균 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "100억콜유산균은 1포(2g)에 프로바이오틱스 100억 CFU, 아연 2.55mg, 비타민D 3μg이 들어있어요. 연한 노랑 분홍색 분말로 다른 흰노란색 분말 유산균과 구분돼요. 비타민D 3μg이 포함돼 장 건강·면역·뼈 기능성을 모두 챙기는 구성이에요. 대장균군 음성 기준을 통과했어요.",
         ingredients: [
@@ -378,22 +468,22 @@ export const spokes8: SpokeArticle[] = [
         ],
       },
       {
-        title: "100억콜유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "100억콜유산균 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "공식 기능성 세 가지예요. 유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음, 아연으로 정상적인 면역기능·세포분열에 필요, 비타민D로 칼슘과 인 흡수 이용·뼈 형성과 유지·골다공증 위험 감소에 도움을 줌이에요.",
       },
       {
-        title: "100억콜유산균 복용법은 어떻게 되나요?",
+        title: "100억콜유산균 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "1일 1회, 1회 1포를 직접 섭취하거나 물과 함께 섭취해요. 분말을 입에 털어넣거나 물에 타서 마셔도 돼요. 분말 특성상 개봉 후에는 즉시 섭취하는 게 좋아요.",
       },
       {
-        title: "100억콜유산균 주의사항은 무엇인가요?",
+        title: "100억콜유산균 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "질환이 있거나 의약품 복용 중이라면 전문가와 상담하세요. 알레르기 체질은 과민반응이 나타날 수 있어요. 어린이가 임의로 섭취하지 않도록 지도하고, 이상사례 발생 시 즉시 섭취를 중단하고 전문가와 상담하세요. 고칼슘혈증이 있거나 의약품 복용 중이라면 반드시 전문가와 상담 후 결정하세요.",
       },
       {
-        title: "100억콜유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "100억콜유산균 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "직사광선 및 고온다습한 곳을 피해 서늘한 곳에 보관하세요. 분말 특성상 개봉 후 즉시 섭취하고 남기지 마세요. 유통기한은 제조일로부터 18개월이에요.",
       },
@@ -407,14 +497,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "10 Billion 프로바이오틱스 성분 효과 | 36개월 분말 복용법 주의사항 총정리",
-    h1: "10 Billion 프로바이오틱스 성분 효과 | 36개월 분말 복용법 주의사항 총정리",
+    title: "10Billion프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "10Billion프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "10 Billion 프로바이오틱스의 성분, 100억 CFU 효과, 분말 복용법, 주의사항, 보관법을 정리했습니다. 36개월 최장 유통기한의 단일 유산균 정보를 확인하세요.",
     description: "100억 CFU 단일 분말 유산균. 유통기한 36개월로 최장 수준.",
     heroDescription:
       "한 번에 많은 양을 구매해서 여유 있게 사용하고 싶다면, 10 Billion 프로바이오틱스는 유통기한이 제조일로부터 36개월로 시중 유산균 중 최장 수준이에요. 디노키즈의 36개월과 같은 수준으로, 대용량 구매 후 오래 두고 먹어도 균수 보장이 되는 제품이에요. 하얀 분홍색 분말포로 단일 프로바이오틱스 구성이에요.",
-    products: [],
+    products: [
+      {
+        id: "10billion-------",
+        name: "10Billion프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=10%20Billion%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "10Billion프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "36개월 유통기한인데 오래 보관해도 균이 살아있나요?",
@@ -434,7 +539,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "10 Billion 프로바이오틱스 성분은 무엇인가요?",
+        title: "10Billion프로바이오틱스 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "10 Billion 프로바이오틱스는 1포(2g)에 프로바이오틱스 100억 CFU가 들어있어요. 하얀 분홍색 분말 형태로 깔끔한 색상이에요. 아연·비타민D 등 추가 성분 없이 프로바이오틱스 단독 구성이에요. 대장균군 음성 기준을 통과한 건강기능식품이에요.",
         ingredients: [
@@ -471,14 +576,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "중원 프로바이오틱스 유산균 성분 효과 | 파인애플향 분말 복용법 주의사항 총정리",
-    h1: "중원 프로바이오틱스 유산균 성분 효과 | 파인애플향 분말 복용법 주의사항 총정리",
+    title: "중원프로바이오틱스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "중원프로바이오틱스유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "중원 프로바이오틱스 유산균의 성분, 3억 CFU 효과, 파인애플향 분말 복용법, 주의사항, 보관법을 정리했습니다. 파인애플향 분말 유산균 정보를 확인하세요.",
     description: "3억 CFU 파인애플향 회백색 분말 유산균. 유산균 입문에 적합한 저함량 제품.",
     heroDescription:
       "유산균을 처음 시작하거나 장이 예민해서 고함량 유산균이 부담스럽다면, 중원 프로바이오틱스 유산균은 3억 CFU의 부담 없는 입문형 제품이에요. 파인애플 향이 나는 회백색 분말로, 흔한 무향 유산균과 달리 향긋한 파인애플 향 덕분에 거부감 없이 드실 수 있어요. 배변활동 원활에 집중한 단순 구성이에요.",
-    products: [],
+    products: [
+      {
+        id: "------------",
+        name: "중원프로바이오틱스유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EC%A4%91%EC%9B%90%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "중원프로바이오틱스유산균",
+      },
+    ],
     faq: [
       {
         question: "3억 CFU는 너무 적은 것 아닌가요?",
@@ -498,7 +618,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "중원 프로바이오틱스 유산균 성분은 무엇인가요?",
+        title: "중원프로바이오틱스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "중원 프로바이오틱스 유산균은 1포(2g)에 프로바이오틱스 3억 CFU가 들어있어요. 파인애플 특유의 향미가 나는 회백색 분말이에요. 아연·비타민D 등 추가 성분 없이 배변활동 원활과 장 건강에 집중한 단순 구성이에요. 대장균군 음성 기준을 통과했어요.",
         ingredients: [
@@ -535,14 +655,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "홍삼 프리미엄 유산균 성분 효과 | 홍삼 진세노사이드 유산균 복용법 주의사항 총정리",
-    h1: "홍삼 프리미엄 유산균 성분 효과 | 홍삼 진세노사이드 유산균 복용법 주의사항 총정리",
+    title: "홍삼프리미엄유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "홍삼프리미엄유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "홍삼 프리미엄 유산균의 성분, 홍삼 진세노사이드+유산균 효과, 1일 2회 복용법, 주의사항, 보관법을 정리했습니다. 홍삼과 유산균을 함께 챙기는 복합 제품 정보를 확인하세요.",
     description: "홍삼(진세노사이드 3mg) + 2억 CFU 유산균. 면역·피로·혈액순환과 장 건강 복합.",
     heroDescription:
       "홍삼과 유산균을 따로 챙기는 게 번거롭다면, 홍삼 프리미엄 유산균은 두 가지를 하나의 분말포에 담았어요. 진세노사이드 Rg1+Rb1+Rg3 합산 3mg의 홍삼 성분이 면역력 증진·피로회복·기억력 개선·항산화에 도움을 주고, 2억 CFU 유산균이 장 건강을 지원해요. 단, 당뇨 치료제나 혈액 항응고제를 복용 중이라면 홍삼 성분 주의가 필요해요.",
-    products: [],
+    products: [
+      {
+        id: "---------",
+        name: "홍삼프리미엄유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%ED%99%8D%EC%82%BC%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "홍삼프리미엄유산균",
+      },
+    ],
     faq: [
       {
         question: "당뇨약이나 혈액항응고제를 먹고 있으면 왜 주의해야 하나요?",
@@ -562,7 +697,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "홍삼 프리미엄 유산균 성분은 무엇인가요?",
+        title: "홍삼프리미엄유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "홍삼 프리미엄 유산균은 1일 2포(6g) 기준으로 홍삼 진세노사이드 Rg1+Rb1+Rg3 합 3mg과 프로바이오틱스 2억 CFU가 들어있어요. 홍삼 고유의 색택을 지닌 분말이에요. 일반 유산균과 달리 홍삼 성분이 포함된 복합 제품으로, 장 건강과 함께 홍삼의 다양한 기능성을 한 번에 챙길 수 있어요. 대장균군 음성 기준을 통과했어요.",
         ingredients: [
@@ -600,14 +735,29 @@ export const spokes8: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 생 유산균 비피더스 락토 프로바이오틱스 성분 효과 | 장용성캡슐 복용법 주의사항 총정리",
-    h1: "100억 생 유산균 비피더스 락토 프로바이오틱스 성분 효과 | 장용성캡슐 복용법 주의사항 총정리",
+    title: "100억생유산균비피더스락토 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "100억생유산균비피더스락토 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "100억 생 유산균 비피더스 락토 프로바이오틱스의 성분, 100억 CFU 효과, 장용성 캡슐 복용법, 주의사항, 보관법을 정리했습니다. 비피더스+락토 균주 장용성 유산균 정보를 확인하세요.",
     description: "100억 CFU 비피더스·락토 포함 장용성 경질캡슐. 위산을 통과해 장에서 방출.",
     heroDescription:
       "비피더스균과 락토균을 모두 포함하면서 장용성 코팅으로 위산을 통과하는 유산균을 찾고 있다면, 100억 생 유산균 비피더스 락토 프로바이오틱스는 그 조건을 갖춘 제품이에요. 흰색 장용성 경질캡슐에 100억 CFU를 담아, 위산에서는 방출되지 않고 장에서만 녹도록 설계됐어요. 실온 보관이 가능하면서 위산 내성까지 갖춘 구성이에요.",
-    products: [],
+    products: [
+      {
+        id: "100-----------",
+        name: "100억생유산균비피더스락토",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%EB%B9%84%ED%94%BC%EB%8D%94%EC%8A%A4%EB%9D%BD%ED%86%A0",
+        ingredients: "",
+        usage: "",
+        slug: "100억생유산균비피더스락토",
+      },
+    ],
     faq: [
       {
         question: "비피더스균과 락토균이 함께 있으면 어떤 점이 좋은가요?",
@@ -627,7 +777,7 @@ export const spokes8: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 생 유산균 비피더스 락토 프로바이오틱스 성분은 무엇인가요?",
+        title: "100억생유산균비피더스락토 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "100억 생 유산균 비피더스 락토 프로바이오틱스는 1캡슐(350mg)에 프로바이오틱스 100억 CFU가 들어있어요. 연한 노란색 분말을 담은 흰색 장용성 경질캡슐이에요. 붕해시험에서 제1액 120분 이내 미방출, 제2액 60분 이내 방출 기준을 통과했어요. 비피더스균·락토균을 포함한 균주 구성으로 장내 다양성을 지원해요.",
         ingredients: [

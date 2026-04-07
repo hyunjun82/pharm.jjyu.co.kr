@@ -12,14 +12,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "마이키즈 비피더스 유산균 성분 효과 | 어린이 분말 복용법 주의사항 총정리",
-    h1: "마이키즈 비피더스 유산균 성분 효과 | 어린이 분말 복용법 주의사항 총정리",
+    title: "마이키즈비피더스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "마이키즈비피더스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "마이키즈 비피더스 유산균의 성분, 20억 CFU 효과, 어린이 복용법, 주의사항, 보관법을 정리했습니다. 자줏빛 분홍색 분말의 어린이 전용 비피더스 유산균 정보를 확인하세요.",
     description: "20억 CFU 어린이 비피더스 분말 유산균. 자줏빛 분홍색 분말이 특징.",
     heroDescription:
       "아이에게 줄 유산균을 고를 때 함량이 너무 높으면 부담될까 걱정되는 부모라면, 마이키즈 비피더스 유산균은 20억 CFU로 어린이 장에 맞게 설계된 분말포 제품이에요. 자줏빛 분홍색이라는 독특한 색상의 분말로, 어린이가 거부감 없이 입에 털어넣거나 물에 타 마시기 편해요. 100억 CFU 성인용과 달리 어린이 장 환경에 부담이 적은 함량이에요.",
-    products: [],
+    products: [
+      {
+        id: "-----------",
+        name: "마이키즈비피더스유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%A7%88%EC%9D%B4%ED%82%A4%EC%A6%88%EB%B9%84%ED%94%BC%EB%8D%94%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "마이키즈비피더스유산균",
+      },
+    ],
     faq: [
       {
         question: "마이키즈 비피더스 유산균은 몇 살부터 먹일 수 있나요?",
@@ -39,7 +54,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "마이키즈 비피더스 유산균 성분은 무엇인가요?",
+        title: "마이키즈비피더스유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "마이키즈 비피더스 유산균은 1포(2g)에 프로바이오틱스 20억 CFU가 들어있어요. 연한 자줏빛 분홍 또는 탁한 자줏빛 분홍색의 분말로, 일반 흰노란색 유산균 분말과 시각적으로 구분돼요. 아연이나 비타민D 등 추가 성분 없이 비피더스 균주 중심의 단일 프로바이오틱스 구성이에요. 대장균군 음성 기준을 통과했어요.",
         ingredients: [
@@ -76,14 +91,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "마이핏 B 혈당 앤 유산균 성분 효과 | 바나바잎 혈당 유산균 복용법 주의사항 총정리",
-    h1: "마이핏 B 혈당 앤 유산균 성분 효과 | 바나바잎 혈당 유산균 복용법 주의사항 총정리",
+    title: "마이핏B혈당앤유산균 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "마이핏B혈당앤유산균 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "마이핏 B 혈당 앤 유산균의 성분, 바나바잎 혈당 조절 효과, 40억 CFU 유산균, 복용법, 주의사항, 보관법을 정리했습니다. 혈당 관리와 장 건강을 동시에 챙기는 유산균 정보를 확인하세요.",
     description: "바나바잎 추출물로 식후 혈당상승 억제 + 40억 CFU 유산균. 어린이·임산부 섭취 금지.",
     heroDescription:
       "식후 혈당이 신경 쓰이면서 장 건강까지 함께 챙기고 싶다면, 마이핏 B 혈당 앤 유산균은 두 가지 목적을 하나의 캡슐로 해결하는 제품이에요. 바나바잎 추출물의 코로솔산 성분이 식후 혈당상승 억제에 도움을 주고, 40억 CFU 프로바이오틱스가 장 건강을 지원해요. 단, 어린이·임산부·수유부는 섭취를 피해야 하는 성인 전용 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "---b------",
+        name: "마이핏B혈당앤유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%A7%88%EC%9D%B4%ED%95%8F%20B%ED%98%88%EB%8B%B9%EC%95%A4%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "마이핏B혈당앤유산균",
+      },
+    ],
     faq: [
       {
         question: "바나바잎 추출물이 혈당에 어떻게 작용하나요?",
@@ -103,7 +133,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "마이핏 B 혈당 앤 유산균 성분은 무엇인가요?",
+        title: "마이핏B혈당앤유산균 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "마이핏 B 혈당 앤 유산균은 1캡슐(300mg)에 프로바이오틱스 40억 CFU와 바나바잎 추출물(코로솔산 0.45mg)이 들어있어요. 밝은 회황색 분말을 담은 흰색 경질캡슐이에요. 일반 유산균과 달리 식후 혈당상승 억제 기능성을 추가한 복합 제품이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -141,14 +171,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "위스콘신 생유산균 성분 효과 | 동물모양 츄어블 어린이 유산균 복용법 주의사항 총정리",
-    h1: "위스콘신 생유산균 성분 효과 | 동물모양 츄어블 어린이 유산균 복용법 주의사항 총정리",
+    title: "위스콘신생유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "위스콘신생유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "위스콘신 생유산균의 성분, 20억 CFU+비타민C 효과, 동물모양 츄어블 복용법, 주의사항, 보관법을 정리했습니다. 씹어서 먹는 어린이 유산균 정보를 확인하세요.",
     description: "동물모양 연보라색 츄어블 정제. 20억 CFU + 비타민C, 씹어서 섭취하는 어린이 유산균.",
     heroDescription:
       "아이가 캡슐이나 분말 유산균을 먹기 싫어한다면, 위스콘신 생유산균은 다른 접근을 제안해요. 연보라색 동물 모양 츄어블 정제로, 물 없이 그냥 씹어서 먹으면 돼요. 20억 CFU 유산균에 비타민C 50mg을 더해 장 건강과 항산화 기능을 함께 챙겨요. 캡슐이나 분말과 달리 씹어 먹는 즐거움이 있어 아이가 스스로 먹으려 하는 편이에요.",
-    products: [],
+    products: [
+      {
+        id: "--------",
+        name: "위스콘신생유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EC%9C%84%EC%8A%A4%EC%BD%98%EC%8B%A0%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "위스콘신생유산균",
+      },
+    ],
     faq: [
       {
         question: "씹어 먹으면 유산균이 위산에 노출되지 않나요?",
@@ -168,7 +213,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "위스콘신 생유산균 성분은 무엇인가요?",
+        title: "위스콘신생유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "위스콘신 생유산균은 1일 복용량(2정/2.6g)에 프로바이오틱스 20억 CFU와 비타민C 50mg이 들어있어요. 연보라색 동물 모양 츄어블 정제로 점박이 무늬가 있어요. 비타민C는 결합조직 형성, 철 흡수, 항산화 작용을 돕는 기능성 성분이에요. 캡슐을 삼키기 어려운 어린이를 위한 씹어 먹는 제형이에요.",
         ingredients: [
@@ -206,14 +251,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "묵직한 장 유산균 성분 효과 | 100억 370mg 경질캡슐 복용법 주의사항 총정리",
-    h1: "묵직한 장 유산균 성분 효과 | 100억 370mg 경질캡슐 복용법 주의사항 총정리",
+    title: "묵직한장유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "묵직한장유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "묵직한 장 유산균의 성분, 100억 CFU 효과, 370mg 경질캡슐 복용법, 주의사항, 보관법을 정리했습니다. 묵직한 이름처럼 고함량 단일 유산균 정보를 확인하세요.",
     description: "100억 CFU를 370mg 경질캡슐에 담은 고함량 단일 프로바이오틱스.",
     heroDescription:
       "이름처럼 장을 묵직하게 채우는 유산균을 찾는다면, 묵직한 장 유산균은 100억 CFU를 370mg 경질캡슐에 담은 제품이에요. 아연이나 비타민D 추가 없이 프로바이오틱스 단일 구성으로 장 건강에만 집중해요. 분말포처럼 이것저것 섞을 필요 없이 캡슐 1개로 하루 섭취가 끝나는 심플한 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "-------",
+        name: "묵직한장유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%AC%B5%EC%A7%81%ED%95%9C%EC%9E%A5%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "묵직한장유산균",
+      },
+    ],
     faq: [
       {
         question: "100억 CFU면 장에 부담이 되지 않나요?",
@@ -233,7 +293,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "묵직한 장 유산균 성분은 무엇인가요?",
+        title: "묵직한장유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "묵직한 장 유산균은 1캡슐(0.37g/370mg)에 프로바이오틱스 100억 CFU가 들어있어요. 노란 하얀색 내용물을 담은 투명 경질캡슐이에요. 아연·비타민D·셀렌 등 복합 성분 없이 프로바이오틱스 단독으로 구성한 심플한 제품이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -270,14 +330,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "아이엠바이오틱스 장건강 성분 효과 | 100억 경질캡슐 복용법 주의사항 총정리",
-    h1: "아이엠바이오틱스 장건강 성분 효과 | 100억 경질캡슐 복용법 주의사항 총정리",
+    title: "아이엠바이오틱스장건강 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "아이엠바이오틱스장건강 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "아이엠바이오틱스 장건강&밸런스의 성분, 100억 CFU 효과, 복용법, 주의사항, 보관법을 정리했습니다. 장 건강 밸런스를 위한 유산균 정보를 확인하세요.",
     description: "100억 CFU를 500mg 경질캡슐에 담은 단일 장 건강 프로바이오틱스.",
     heroDescription:
       "장 건강에 집중하고 싶은데 복잡한 성분 조합이 필요 없다면, 아이엠바이오틱스 장건강&밸런스는 100억 CFU 프로바이오틱스 단독 구성이에요. 흰노랑색 내용물을 담은 흰색 경질캡슐로, 아연·비타민D 등 추가 성분 없이 장내 균총 균형에만 집중한 제품이에요. 실온 유통이 가능해 보관이나 휴대가 편해요.",
-    products: [],
+    products: [
+      {
+        id: "-----------",
+        name: "아이엠바이오틱스장건강",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EC%95%84%EC%9D%B4%EC%97%A0%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%EC%9E%A5%EA%B1%B4%EA%B0%95",
+        ingredients: "",
+        usage: "",
+        slug: "아이엠바이오틱스장건강",
+      },
+    ],
     faq: [
       {
         question: "아이엠바이오틱스는 어떤 분들에게 적합한가요?",
@@ -297,7 +372,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "아이엠바이오틱스 장건강 성분은 무엇인가요?",
+        title: "아이엠바이오틱스장건강 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "아이엠바이오틱스 장건강&밸런스는 1캡슐(500mg)에 프로바이오틱스 100억 CFU가 들어있어요. 흰노랑색 내용물을 담은 흰색 경질캡슐이에요. 장용성 코팅 없이 일반 경질캡슐 형태이고, 아연·셀렌 등 추가 성분 없이 프로바이오틱스 단독 구성이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과했어요.",
         ingredients: [
@@ -334,14 +409,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "잘키 딸기맛 팝핑 유산균 성분 효과 | 비타민B D 아연 어린이 복용법 주의사항 총정리",
-    h1: "잘키 딸기맛 팝핑 유산균 성분 효과 | 비타민B D 아연 어린이 복용법 주의사항 총정리",
+    title: "잘키딸기맛팝핑유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "잘키딸기맛팝핑유산균 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "잘키 딸기맛 팝핑 유산균의 성분, 30억 CFU+비타민B1·B2·D·아연 효과, 어린이 복용법, 주의사항, 보관법을 정리했습니다. 5중 기능성 어린이 팝핑 유산균 정보를 확인하세요.",
     description: "30억 CFU + 비타민B1·B2·D + 아연 5중 복합 어린이 딸기맛 팝핑 분말 유산균.",
     heroDescription:
       "아이에게 유산균·비타민·아연을 한꺼번에 챙겨주고 싶다면, 잘키 딸기맛 팝핑 유산균은 5가지 기능성 성분을 하나의 분말포에 담았어요. 30억 CFU 프로바이오틱스에 에너지 대사를 돕는 비타민B1·B2, 뼈 발달을 지원하는 비타민D, 면역에 필요한 아연까지 더했어요. 딸기맛 팝핑 분말이라 아이가 거부감 없이 먹는다는 게 가장 큰 특징이에요.",
-    products: [],
+    products: [
+      {
+        id: "----------",
+        name: "잘키딸기맛팝핑유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EC%9E%98%ED%82%A4%EB%94%B8%EA%B8%B0%EB%A7%9B%ED%8C%9D%ED%95%91%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "잘키딸기맛팝핑유산균",
+      },
+    ],
     faq: [
       {
         question: "비타민D와 아연이 함께 들어있는데 다른 영양제와 중복 섭취해도 되나요?",
@@ -361,7 +451,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "잘키 딸기맛 팝핑 유산균 성분은 무엇인가요?",
+        title: "잘키딸기맛팝핑유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "잘키 딸기맛 팝핑 유산균은 1포(2g)에 프로바이오틱스 30억 CFU, 비타민B1 0.36mg, 비타민B2 0.45mg, 비타민D 10μg, 아연 2.55mg이 들어있어요. 알갱이가 있는 노란 하얀색 분말로 팝핑 식감이 특징이에요. 단순 유산균 제품과 달리 성장기 어린이에게 필요한 에너지 대사·뼈 발달·면역 기능성 성분을 모두 담았어요.",
         ingredients: [
@@ -402,14 +492,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 EVERY 프로바이오틱스+ 성분 효과 | 아연 장용성 1일2회 복용법 주의사항 총정리",
-    h1: "100억 EVERY 프로바이오틱스+ 성분 효과 | 아연 장용성 1일2회 복용법 주의사항 총정리",
+    title: "100억EVERY프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "100억EVERY프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "100억 EVERY 프로바이오틱스+의 성분, 100억 CFU+아연 효과, 1일 2회 복용법, 주의사항, 보관법을 정리했습니다. 장용성 캡슐로 하루 2번 챙기는 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 장용성 캡슐. 하루 2회(아침·저녁) 1캡슐씩 복용.",
     heroDescription:
       "하루 한 번 섭취로 부족하다고 느끼는 분이라면, 100억 EVERY 프로바이오틱스+는 1일 2회 복용으로 설계된 제품이에요. 시중 대부분의 유산균이 하루 1회 섭취인 것과 달리, 이 제품은 아침·저녁 두 번 나눠 1캡슐씩 드시게 돼요. 100억 CFU와 아연이 담긴 장용성 경질캡슐로, 매 끼니 규칙적으로 챙기는 습관을 들이고 싶은 분께 맞는 구성이에요.",
-    products: [],
+    products: [
+      {
+        id: "100-every-------",
+        name: "100억EVERY프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%20E%20V%20E%20R%20Y%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "100억EVERY프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "왜 1일 2회로 나눠 먹는 건가요?",
@@ -429,7 +534,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 EVERY 프로바이오틱스+ 성분은 무엇인가요?",
+        title: "100억EVERY프로바이오틱스 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "100억 EVERY 프로바이오틱스+는 1캡슐(1,000mg)에 프로바이오틱스 100억 CFU와 아연 8.5mg이 들어있어요. 흰색 내용물을 담은 흰색 장용성 경질캡슐이에요. 1일 2회 복용 기준으로 하루에 캡슐 2개, 총 1,000mg×2 = 2,000mg을 섭취하게 돼요. 붕해도 제1액 120분, 제2액 60분 이내 기준을 통과했어요.",
         ingredients: [
@@ -467,14 +572,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 라이브 비피더스 성분 효과 | 아연 비타민D 냉장보관 유산균 복용법 주의사항 총정리",
-    h1: "100억 라이브 비피더스 성분 효과 | 아연 비타민D 냉장보관 유산균 복용법 주의사항 총정리",
+    title: "100억라이브비피더스 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "100억라이브비피더스 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "100억 라이브 비피더스의 성분, 아연+비타민D 효과, 장용성 캡슐 복용법, 냉장 보관 주의사항을 정리했습니다. 장·면역·뼈를 함께 챙기는 냉장 보관 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 + 비타민D 장용성 캡슐. 냉장 보관 필수.",
     heroDescription:
       "장 건강·면역·뼈 건강을 한 캡슐로 챙기고 싶다면, 100억 라이브 비피더스는 100억 CFU, 아연 8.5mg, 비타민D 15μg을 장용성 경질캡슐에 담은 제품이에요. 비타민D 함량이 15μg(600IU)으로 일반적인 10μg 제품보다 높은 게 특징이에요. 단, 냉장 보관이 필수여서 외출 시 보냉 관리가 필요해요.",
-    products: [],
+    products: [
+      {
+        id: "100--------",
+        name: "100억라이브비피더스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%B9%84%ED%94%BC%EB%8D%94%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "100억라이브비피더스",
+      },
+    ],
     faq: [
       {
         question: "비타민D가 15μg이면 하루 권장량 기준으로 어느 정도인가요?",
@@ -494,7 +614,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 라이브 비피더스 성분은 무엇인가요?",
+        title: "100억라이브비피더스 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "100억 라이브 비피더스는 1캡슐(500mg)에 프로바이오틱스 100억 CFU, 아연 8.5mg, 비타민D 15μg(600IU)이 들어있어요. 흰 노랑색 분말을 담은 흰색 장용성 경질캡슐이에요. 비타민D 15μg은 일반 제품(10μg)보다 높은 함량으로, 뼈 건강이 더 필요한 분에게 적합할 수 있어요. 붕해시험(제1액 120분 미방출, 제2액 60분 이내 방출) 기준을 충족해요.",
         ingredients: [
@@ -533,14 +653,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 비피더스 생유산균 프로바이오틱스 성분 효과 | 아연 분말 복용법 주의사항 총정리",
-    h1: "100억 비피더스 생유산균 프로바이오틱스 성분 효과 | 아연 분말 복용법 주의사항 총정리",
+    title: "100억비피더스생유산균프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "100억비피더스생유산균프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "100억 비피더스 생유산균 프로바이오틱스의 성분, 100억 CFU+아연 효과, 분말 복용법, 주의사항, 보관법을 정리했습니다. 비피더스 균주 중심의 분말형 유산균 정보를 확인하세요.",
     description: "100억 CFU 비피더스 분말 + 아연 2.55mg. 물 없이 바로 섭취 가능.",
     heroDescription:
       "캡슐이나 정제 대신 분말로 유산균을 챙기되 면역 기능까지 신경 쓰고 싶다면, 100억 비피더스 생유산균 프로바이오틱스는 100억 CFU와 아연 2.55mg을 분말포 형태로 담았어요. 흰 노랑색 분말로, 그대로 입에 털어넣거나 물과 함께 마실 수 있어요. 캡슐 삼키기가 부담스럽고 면역 기능성도 원하는 분께 적합한 분말형 복합 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "100----------------",
+        name: "100억비피더스생유산균프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EB%B9%84%ED%94%BC%EB%8D%94%EC%8A%A4%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "100억비피더스생유산균프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "분말 유산균은 캡슐 유산균보다 효과가 떨어지나요?",
@@ -560,7 +695,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 비피더스 생유산균 프로바이오틱스 성분은 무엇인가요?",
+        title: "100억비피더스생유산균프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "100억 비피더스 생유산균 프로바이오틱스는 1포(2g)에 프로바이오틱스 100억 CFU와 아연 2.55mg이 들어있어요. 흰 노랑색 분말 형태예요. 아연 2.55mg은 다른 아연 추가 유산균(8.5mg)보다 낮은 함량으로, 식이 아연을 보완하는 수준의 구성이에요. 대장균군 음성 기준을 통과했어요.",
         ingredients: [
@@ -598,14 +733,29 @@ export const spokes7: SpokeArticle[] = [
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "100억 생유산균 프리미엄 성분 효과 | 아연 비타민D 분말 복용법 주의사항 총정리",
-    h1: "100억 생유산균 프리미엄 성분 효과 | 아연 비타민D 분말 복용법 주의사항 총정리",
+    title: "100억생유산균프리미엄 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "100억생유산균프리미엄 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "100억 생유산균 프리미엄의 성분, 100억 CFU+아연+비타민D 효과, 분말 복용법, 주의사항, 보관법을 정리했습니다. 장·면역·뼈 3중 기능 분말 유산균 정보를 확인하세요.",
     description: "100억 CFU + 아연 + 비타민D 분말 유산균. 장·면역·뼈 3중 기능, 특이한 갈색 알갱이.",
     heroDescription:
       "분말형 유산균으로 장 건강·면역·뼈 관리를 동시에 원한다면, 100억 생유산균 프리미엄은 연한 갈색과 검은색 알갱이가 섞인 특이한 색상의 분말포예요. 100억 CFU에 아연 2.55mg과 비타민D 10μg을 더해 3중 기능성을 담았어요. 캡슐 제품의 장용성 코팅 없이 분말로 즉시 섭취하는 방식이 편한 분에게 맞는 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "100---------",
+        name: "100억생유산균프리미엄",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=100%EC%96%B5%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84",
+        ingredients: "",
+        usage: "",
+        slug: "100억생유산균프리미엄",
+      },
+    ],
     faq: [
       {
         question: "비타민D가 들어있는데 고칼슘혈증이 있으면 먹어도 되나요?",
@@ -625,7 +775,7 @@ export const spokes7: SpokeArticle[] = [
     ],
     sections: [
       {
-        title: "100억 생유산균 프리미엄 성분은 무엇인가요?",
+        title: "100억생유산균프리미엄 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "100억 생유산균 프리미엄은 1포(2g)에 프로바이오틱스 100억 CFU, 아연 2.55mg, 비타민D 10μg이 들어있어요. 연한 갈색 및 검은색 알갱이가 있는 흰 노랑색 분말로 다른 유산균 분말과 시각적으로 구분돼요. 아연과 비타민D를 모두 담은 분말형 복합 제품이에요. 대장균군 음성 기준을 통과했어요.",
         ingredients: [

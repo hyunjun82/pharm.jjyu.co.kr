@@ -5,8 +5,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "19종생유산균셀레늄아연프로바이오틱스",
     categorySlug: "유산균",
-    title: "19종 생유산균 셀레늄 아연 프로바이오틱스 성분 효과 | 복용법 주의사항 총정리",
-    h1: "19종 생유산균 셀레늄 아연 프로바이오틱스 성분 효과 | 복용법 주의사항 총정리",
+    title: "19종생유산균셀레늄아연프로바이오틱스 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "19종생유산균셀레늄아연프로바이오틱스 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription: "19종 생유산균 셀레늄 아연 프로바이오틱스의 성분, 효과, 복용법, 주의사항을 정리했습니다. 19종 균주 1억 CFU에 셀레늄 55μg과 아연 2.8mg이 담긴 노란 하양색 분말입니다.",
     description: "",
     heroDescription: "19종 균주의 다양성에 셀레늄과 아연까지 한 포에 담은 유산균을 찾는다면 이 제품이 맞을 수 있어요. 1억 CFU의 프로바이오틱스에 셀레늄 55μg과 아연 2.8mg을 더한 노란 하양색 분말 제품이에요. 함량보다 균주 다양성과 복합 기능에 초점을 맞춘 구성이에요.",
@@ -39,8 +39,7 @@ export const spokes14: SpokeArticle[] = [
         content: "유통기한은 제조일로부터 18개월이에요. 분말 제품이니 개봉 후에는 빠르게 섭취하는 게 좋아요. 별도 보관 온도·습도 기준이 기재되어 있지 않으니 일반적으로 직사광선과 고온다습한 환경을 피해 서늘한 곳에 두세요."
       }
     ],
-    products: [],
-    faq: [
+    prproducts: [{ id: "19종생유산균셀레늄아연프로바이오틱스", name: "19종생유산균셀레늄아연프로바이오틱스", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=19%EC%A2%85%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%EC%85%80%EB%A0%88%EB%8A%84%EC%95%84%EC%97%B0%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4", ingredients: "", usage: "", slug: "19종생유산균셀레늄아연프로바이오틱스" }]    faq: [
       {
         question: "1억 CFU면 너무 적지 않나요?",
         answer: "1억 CFU도 공식 프로바이오틱스 기능성 인정 기준 안에 들어요. 함량보다 균주 다양성과 추가 기능성 성분이 중요할 때 선택하는 제품이에요. 고함량을 원한다면 10억 이상 제품을 비교해보세요."
@@ -60,8 +59,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "1일1유산균",
     categorySlug: "유산균",
-    title: "1일 1유산균 성분 효과 | 미백색 분말 복용법 주의사항 총정리",
-    h1: "1일 1유산균 성분 효과 | 미백색 분말 복용법 주의사항 총정리",
+    title: "1일1유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "1일1유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription: "1일 1유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 1억 CFU의 미백색 분말 포 제품으로 유통기한 24개월, 물과 함께 섭취합니다.",
     description: "",
     heroDescription: "하루 한 번 간단하게 유산균을 시작하고 싶다면 이 제품이 맞을 수 있어요. 이미·이취가 없는 미백색 분말 포에 1억 CFU 프로바이오틱스를 담아, 추가 성분 없이 장 건강에 집중한 단순 구성이에요. 유통기한이 24개월로 넉넉한 제품이에요.",
@@ -92,8 +91,7 @@ export const spokes14: SpokeArticle[] = [
         content: "직사광선 및 고온다습한 곳을 피해 보관하세요. 유통기한은 제조일로부터 24개월이에요. 복합 성분 제품보다 보관 조건이 단순하고, 넉넉한 유통기한이 장점이에요."
       }
     ],
-    products: [],
-    faq: [
+    productsproducts: [{ id: "1일1유산균", name: "1일1유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=1%EC%9D%BC1%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "1일1유산균" }]q: [
       {
         question: "포 개봉 시 왜 손을 다칠 수 있나요?",
         answer: "스틱형 분말 포를 찢을 때 포장재 모서리가 날카로울 수 있어요. 제품 주의사항에도 포장재에 의한 상처 가능성이 명시되어 있어요. 가위로 자르거나 조심해서 개봉하는 게 좋아요."
@@ -113,8 +111,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "20억보장키즈생유산균영유아유래균주",
     categorySlug: "유산균",
-    title: "20억 보장 키즈 생유산균 영유아 유래 균주 성분 효과 | 어린이 분홍 분말 복용법 총정리",
-    h1: "20억 보장 키즈 생유산균 영유아 유래 균주 성분 효과 | 어린이 분홍 분말 복용법 총정리",
+    title: "20억보장키즈생유산균영유아유래균주 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "20억보장키즈생유산균영유아유래균주 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription: "20억 보장 키즈 생유산균 영유아 유래 균주의 성분, 효과, 복용법, 주의사항을 정리했습니다. 영유아 유래 균주 20억 CFU가 담긴 연한 분홍색 분말 어린이 제품입니다.",
     description: "",
     heroDescription: "아이 장에 원래 있는 균과 가까운 유산균을 찾는다면 이 제품이 맞을 수 있어요. 영유아 유래 균주로 구성된 20억 CFU 프로바이오틱스를 연한 분홍색 분말에 담은 어린이 전용 제품이에요. 물 없이 그대로 먹거나 물과 함께 먹을 수 있어 아이가 먹기 편한 형태예요.",
@@ -145,9 +143,8 @@ export const spokes14: SpokeArticle[] = [
         content: "직사광선 및 고온다습한 곳을 피해 실온에 보관하세요. 유통기한은 제조일로부터 18개월이에요. 어린이 제품이니 아이 손에 닿지 않는 곳에 보관하고 보호자가 관리하세요."
       }
     ],
-    products: [],
-    faq: [
-      {
+    products: [{ id: "20억보장키즈생유산균영유아유래균주", name: "20억보장키즈생유산균영유아유래균주", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=20%EC%96%B5%EB%B3%B4%EC%9E%A5%ED%82%A4%EC%A6%88%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%EC%98%81%EC%9C%A0%EC%95%84%EC%9C%A0%EB%9E%98%EA%B7%A0%EC%A3%BC", ingredients: "", usage: "", slug: "20억보장키즈생유산균영유아유래균주" }],
+  products: [{ id: "20억보장키즈생유산균영유아유래균주", name: "20억보장키즈생유산균영유아유래균주", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=20%EC%96%B5%EB%B3%B4%EC%9E%A5%ED%82%A4%EC%A6%88%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%EC%98%81%EC%9C%A0%EC%95%84%EC%9C%A0%EB%9E%98%EA%B7%A0%EC%A3%BC", ingredients: "", usage: "", slug: "20억보장키즈생유산균영유아유래균주" }]   {
         question: "영유아 유래 균주가 뭔가요?",
         answer: "영유아 유래 균주는 건강한 영유아의 장에서 분리·추출한 균주예요. 성인 유래 균주와 달리 어린이 장내 환경에 적합하게 선별된 균주를 사용한다는 게 특징이에요."
       },
@@ -166,8 +163,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "20억유산균분말",
     categorySlug: "유산균",
-    title: "20억 유산균 분말 성분 효과 | 노란 하얀색 분말 복용법 주의사항 총정리",
-    h1: "20억 유산균 분말 성분 효과 | 노란 하얀색 분말 복용법 주의사항 총정리",
+    title: "20억유산균분말 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "20억유산균분말 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription: "20억 유산균 분말의 성분, 효과, 복용법, 주의사항을 정리했습니다. 20억 CFU를 1.5g 소용량 포에 담은 노란 하얀색 분말 제품입니다.",
     description: "",
     heroDescription: "20억 CFU를 적은 용량에 압축해서 담고 싶다면 이 제품이 맞을 수 있어요. 1.5g의 소용량 포에 20억 CFU를 담은 노란 하얀색 분말이에요. 다른 20억 제품들이 2g 이상인 것과 달리 포 용량이 작아 섭취가 부담 없어요. 개봉 후 즉시 섭취를 강조하는 제품이에요.",
@@ -198,10 +195,8 @@ export const spokes14: SpokeArticle[] = [
         content: "직사광선을 피하고 실온에 보관하세요. 제품 개봉 후에는 바로 섭취하는 게 중요해요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
-    faq: [
-      {
-        question: "개봉 후 바로 먹어야 하는 이유가 뭔가요?",
+    products: [{ id: "20억유산균분말", name: "20억유산균분말", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=20%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%EB%B6%84%EB%A7%90", ingredients: "", usage: "", slug: "20억유산균분말" }],
+    faq:products: [{ id: "20억유산균분말", name: "20억유산균분말", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=20%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0%EB%B6%84%EB%A7%90", ingredients: "", usage: "", slug: "20억유산균분말" }]       question: "개봉 후 바로 먹어야 하는 이유가 뭔가요?",
         answer: "분말 유산균은 공기 중 산소나 습기에 노출되면 균이 죽을 수 있어요. 특히 포를 열면 밀폐가 깨지기 때문에, 개봉 즉시 섭취하는 게 유산균 섭취 효과를 높이는 방법이에요."
       },
       {
@@ -219,8 +214,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "3중케어닥터프로프리움유산균",
     categorySlug: "유산균",
-    title: "3중케어 닥터 프로프리움 유산균 성분 효과 | 프락토올리고당·아연 복용법 주의사항 총정리",
-    h1: "3중케어 닥터 프로프리움 유산균 성분 효과 | 프락토올리고당·아연 복용법 주의사항 총정리",
+    title: "3중케어닥터프로프리움유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "3중케어닥터프로프리움유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription: "3중케어 닥터 프로프리움 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 프로바이오틱스·프락토올리고당·아연 3중 구성의 흰색 분말 제품입니다.",
     description: "",
     heroDescription: "유산균, 프리바이오틱스, 아연을 한 포에 담은 제품을 찾는다면 이 제품이 맞을 수 있어요. 프로바이오틱스, 프락토올리고당 3g, 아연 3mg을 한 포(4.5g)에 담아 3가지 기능을 동시에 챙기는 구성이에요. 흰색 분말로 물과 함께 또는 그대로 섭취할 수 있어요.",
@@ -247,13 +242,12 @@ export const spokes14: SpokeArticle[] = [
         content: "유통기한을 확인하고 섭취량과 섭취 방법을 준수하세요. 특이체질·알레르기 체질은 성분을 확인하고 섭취하세요. 이상사례 발생 시 섭취를 즉시 중단하고 전문가와 상담하세요. 질환이 있거나 의약품을 복용 중이라면 전문가와 상담하세요. 알레르기 체질은 과민반응이 나타날 수 있어요. 어린이가 임의로 섭취하지 않도록 지도하세요."
       },
       {
-        title: "3중케어 닥터 프로프리움 유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "3중케어닥터프로프리움유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "직사광선을 받지 않는 서늘한 곳에 보관하고, 어린이 손에 닿지 않도록 주의하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
-    faq: [
-      {
+    products: [{ id: "3중케어닥터프로프리움유산균", name: "3중케어닥터프로프리움유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=3%EC%A4%91%EC%BC%80%EC%96%B4%EB%8B%A5%ED%84%B0%ED%94%84%EB%A1%9C%ED%94%84%EB%A6%AC%EC%9B%80%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "3중케어닥터프로프리움유산균" }],
+    products: [{ id: "3중케어닥터프로프리움유산균", name: "3중케어닥터프로프리움유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=3%EC%A4%91%EC%BC%80%EC%96%B4%EB%8B%A5%ED%84%B0%ED%94%84%EB%A1%9C%ED%94%84%EB%A6%AC%EC%9B%80%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "3중케어닥터프로프리움유산균" }] {
         question: "프락토올리고당이 칼슘 흡수에 도움이 된다는 게 무슨 뜻인가요?",
         answer: "프락토올리고당은 장내에서 발효되며 단쇄지방산을 만들어 장내 pH를 낮추고, 이 환경이 칼슘 흡수를 촉진하는 데 도움을 줄 수 있어요. 별도의 칼슘 보충제를 먹지 않더라도 식사로 섭취한 칼슘 흡수율을 높이는 데 도움이 될 수 있어요."
       },
@@ -272,8 +266,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "4중케어닥터프로프리움유산균",
     categorySlug: "유산균",
-    title: "4중케어 닥터 프로프리움 유산균 성분 효과 | 셀렌·아연·프락토올리고당 복용법 총정리",
-    h1: "4중케어 닥터 프로프리움 유산균 성분 효과 | 셀렌·아연·프락토올리고당 복용법 총정리",
+    title: "4중케어닥터프로프리움유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "4중케어닥터프로프리움유산균 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription: "4중케어 닥터 프로프리움 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 프로바이오틱스·프락토올리고당·셀렌·아연 4중 구성의 황갈색 알갱이 분말 제품입니다.",
     description: "",
     heroDescription: "프로바이오틱스·프락토올리고당·셀렌·아연 4가지를 한 포에 담은 복합 제품을 찾는다면 이 제품이 맞을 수 있어요. 밝은 황갈색·회갈색 알갱이가 섞인 노랑 하양색 분말 4g 포 안에 4가지 기능성 성분이 함께 들어 있어요. 3중케어 제품에서 셀렌을 더해 항산화까지 추가한 구성이에요.",
@@ -281,7 +275,7 @@ export const spokes14: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "4중케어 닥터 프로프리움 유산균 성분은 무엇인가요?",
+        title: "4중케어닥터프로프리움유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content: "밝은 황갈색, 회갈색 알갱이가 들어 있는 노랑 하양색 분말이에요. 1포(4g)에 프로바이오틱스 1억 CFU, 프락토올리고당 3,000mg, 셀렌 16.5μg, 아연 2.55mg이 들어 있어요. 3중케어 제품 구성에서 셀렌이 추가되어 항산화 기능까지 포함한 4중 구성이에요. 독특한 황갈색·회갈색 알갱이가 시각적으로도 구분이 쉬워요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "소스 데이터 확인 필요", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
@@ -292,7 +286,7 @@ export const spokes14: SpokeArticle[] = [
         content: "셀렌은 유해산소로부터 세포를 보호하는 데 필요해요. 아연은 정상적인 면역기능과 세포분열에 필요해요. 프락토올리고당은 장내 유익균 증식 및 배변활동 원활에 도움을 줄 수 있어요. 프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 4가지 방향에서 장 건강과 항산화, 면역을 복합 지원하는 구성이에요."
       },
       {
-        title: "4중케어 닥터 프로프리움 유산균 복용법은 어떻게 되나요?",
+        title: "4중케어닥터프로프리움유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "1일 1회, 1회 1포를 그대로 혹은 물과 함께 섭취하면 돼요. 4g 포로 다소 용량이 크지만, 물에 타서 마시면 편리해요. 물과 함께 드실 때는 미지근하거나 차가운 물을 사용하는 게 좋아요."
       },
       {
@@ -304,7 +298,7 @@ export const spokes14: SpokeArticle[] = [
         content: "습기가 적고 직사광선을 피해 서늘한 곳에 보관하고, 어린이 손에 닿지 않도록 주의하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
+   products: [{ id: "4중케어닥터프로프리움유산균", name: "4중케어닥터프로프리움유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=4%EC%A4%91%EC%BC%80%EC%96%B4%EB%8B%A5%ED%84%B0%ED%94%84%EB%A1%9C%ED%94%84%EB%A6%AC%EC%9B%80%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "4중케어닥터프로프리움유산균" }]],
     faq: [
       {
         question: "3중케어 제품과 4중케어 제품의 차이가 뭔가요?",
@@ -325,8 +319,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "CMG제약프로바이오틱스10억유산균",
     categorySlug: "유산균",
-    title: "CMG제약 프로바이오틱스 10억 유산균 성분 효과 | 아연·셀레늄 회분홍 분말 복용법 총정리",
-    h1: "CMG제약 프로바이오틱스 10억 유산균 성분 효과 | 아연·셀레늄 회분홍 분말 복용법 총정리",
+    title: "CMG제약프로바이오틱스10억유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "CMG제약프로바이오틱스10억유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription: "CMG제약 프로바이오틱스 10억 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 아연 8.5mg·셀레늄 55μg이 담긴 밝은 회분홍색 분말로 물 없이 직접 섭취합니다.",
     description: "",
     heroDescription: "물 없이 바로 먹는 유산균을 찾는다면 이 제품을 볼 수 있어요. 10억 CFU에 아연 8.5mg과 셀레늄 55μg을 더한 밝은 회분홍색 또는 회분홍색 분말이에요. 직접 섭취 방식이라 물 없이 간편하게 먹을 수 있는 게 특징이에요.",
@@ -334,7 +328,7 @@ export const spokes14: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "CMG제약 프로바이오틱스 10억 유산균 성분은 무엇인가요?",
+        title: "CMG제약프로바이오틱스10억유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "고유의 향미를 지니고 이미·이취가 없는 밝은 회분홍 또는 회분홍색 분말이에요. 1포(2g)에 프로바이오틱스 10억 CFU, 아연 8.5mg, 셀레늄 55μg이 들어 있어요. 밝은 회분홍이라는 특유의 색상이 다른 흰색·노랑색 분말 제품과 쉽게 구분돼요. 아연 8.5mg은 1일 권장 섭취량에 가까운 함량이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "1,000,000,000(10억", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
@@ -347,7 +341,7 @@ export const spokes14: SpokeArticle[] = [
         content: "프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 아연은 정상적인 면역기능과 세포분열에 필요해요. 셀레늄은 유해산소로부터 세포를 보호하는 데 필요한 성분이에요. 장 건강, 면역, 항산화를 함께 지원하는 구성이에요."
       },
       {
-        title: "CMG제약 프로바이오틱스 10억 유산균 복용법은 어떻게 되나요?",
+        title: "CMG제약프로바이오틱스10억유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "1일 1회, 1회 1포를 직접 섭취하면 돼요. 물 없이 바로 입에 털어 먹는 방식이에요. 다른 분말형 제품이 물과 함께 또는 직접 섭취를 선택할 수 있는 것과 달리, 직접 섭취를 기본으로 안내하는 제품이에요."
       },
       {
@@ -355,11 +349,11 @@ export const spokes14: SpokeArticle[] = [
         content: "알레르기 체질은 성분을 확인한 후 섭취하세요. 질환이 있거나 의약품을 복용 중이라면 전문가와 상담하세요. 알레르기 체질은 개인에 따라 과민반응이 나타날 수 있어요. 어린이가 임의로 섭취하지 않도록 지도하고, 이상사례 발생 시 즉시 섭취를 중단하고 전문가와 상담하세요."
       },
       {
-        title: "CMG제약 프로바이오틱스 10억 유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "DCN퍼펙트유산균프로바이오틱스100억 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "고온다습한 곳이나 직사광선을 피해 서늘한 곳에 보관하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
+ products: [{ id: "CMG제약프로바이오틱스10억유산균", name: "CMG제약프로바이오틱스10억유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=CMG%EC%A0%9C%EC%95%BD%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A410%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "CMG제약프로바이오틱스10억유산균" }] [],
     faq: [
       {
         question: "물 없이 먹어도 괜찮나요?",
@@ -380,8 +374,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "DCN퍼펙트유산균프로바이오틱스100억",
     categorySlug: "유산균",
-    title: "DCN 퍼펙트 유산균 프로바이오틱스 100억 성분 효과 | 300mg 소형 캡슐 복용법 총정리",
-    h1: "DCN 퍼펙트 유산균 프로바이오틱스 100억 성분 효과 | 300mg 소형 캡슐 복용법 총정리",
+    title: "DCN퍼펙트유산균프로바이오틱스100억 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "DCN퍼펙트유산균프로바이오틱스100억 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription: "DCN 퍼펙트 유산균 프로바이오틱스 100억의 성분, 효과, 복용법, 주의사항을 정리했습니다. 100억 CFU를 300mg 소형 흰색 경질캡슐에 담은 제품입니다.",
     description: "",
     heroDescription: "100억 CFU를 작은 캡슐 하나에 압축해 담고 싶다면 이 제품을 볼 수 있어요. 흰 노랑색 내용물을 담은 흰색 경질캡슐 300mg 한 알에 100억 CFU 프로바이오틱스가 들어 있어요. 추가 성분 없이 고함량 프로바이오틱스에만 집중한 소형 캡슐 제품이에요.",
@@ -389,7 +383,7 @@ export const spokes14: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "DCN 퍼펙트 유산균 프로바이오틱스 100억 성분은 무엇인가요?",
+        title: "DCN퍼펙트유산균프로바이오틱스100억 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "흰 노랑색 내용물을 포함한 흰색 경질캡슐이에요. 1캡슐(300mg)에 프로바이오틱스 100억 CFU가 들어 있어요. 같은 100억 CFU 제품 중 500mg 내외인 것과 달리 300mg이라는 소형 캡슐에 담겨 있어 삼키기 부담이 적어요. 아연·셀레늄 같은 추가 성분 없이 장 건강에 집중한 단순 고함량 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "소스 데이터 확인 필요", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
@@ -400,7 +394,7 @@ export const spokes14: SpokeArticle[] = [
         content: "프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 100억 CFU 고함량으로, 기존 10억~50억 제품에서 함량을 높이고 싶은 분이나 처음부터 고함량을 원하는 분께 맞는 구성이에요."
       },
       {
-        title: "DCN 퍼펙트 유산균 프로바이오틱스 100억 복용법은 어떻게 되나요?",
+        title: "DCN퍼펙트유산균프로바이오틱스100억 부작용 주의사항 | 성분 효과 복용법 가격",
         content: "1일 1회, 1회 1캡슐을 물과 함께 섭취하면 돼요. 300mg 소형 캡슐이라 삼키기 편해요. 분말형과 달리 계량이나 혼합 과정이 필요 없어 간편해요."
       },
       {
@@ -412,7 +406,7 @@ export const spokes14: SpokeArticle[] = [
         content: "습기가 적고 직사광선을 받지 않는 실온에 보관하고, 어린이 손에 닿지 않도록 주의하세요. 유통기한은 제조일로부터 18개월이에요. 캡슐 제형이라 습기에 노출되면 캡슐이 변형될 수 있으니 뚜껑을 잘 닫아 보관하세요."
       }
     ],
-    products: [],
+   products: [{ id: "DCN퍼펙트유산균프로바이오틱스100억", name: "DCN퍼펙트유산균프로바이오틱스100억", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=DCN%ED%8D%BC%ED%8E%99%ED%8A%B8%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4100%EC%96%B5", ingredients: "", usage: "", slug: "DCN퍼펙트유산균프로바이오틱스100억" }]],
     faq: [
       {
         question: "300mg 캡슐이면 너무 작지 않나요? 100억이 다 들어가나요?",
@@ -433,8 +427,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "DH프라임생유산균",
     categorySlug: "유산균",
-    title: "DH프라임생유산균 성분 효과 | 하얀색 분말 복용법 주의사항 총정리",
-    h1: "DH프라임생유산균 성분 효과 | 하얀색 분말 복용법 주의사항 총정리",
+    title: "DH프라임생유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "DH프라임생유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription: "DH프라임생유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 1억 CFU 하얀색 분말 포 제품으로 유통기한 24개월, 충분한 물과 함께 섭취합니다.",
     description: "",
     heroDescription: "간단하게 장 건강만 챙기고 싶고 24개월의 넉넉한 유통기한이 중요하다면 이 제품이 맞을 수 있어요. 1억 CFU의 하얀색 분말 2g 포 제품으로, 추가 성분 없이 장 건강에 집중한 단순 구성이에요. 충분한 물과 함께 섭취하도록 안내하는 제품이에요.",
@@ -442,30 +436,30 @@ export const spokes14: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "DH프라임생유산균 성분은 무엇인가요?",
+        title: "DH프라임생유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "고유의 향미가 있고 이미·이취가 없는 하얀색 분말이에요. 1포(2g)에 프로바이오틱스 1억 CFU가 들어 있어요. 비타민·미네랄 추가 없이 프로바이오틱스만 담은 단순 구성으로, 복합 성분이 부담스럽거나 특정 성분 추가를 원하지 않는 분께 맞는 제품이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "1*10^8 CFU/2g", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ]
       },
       {
-        title: "DH프라임생유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "DH프라임생유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 1억 CFU로 낮은 함량이지만, 처음 유산균을 시작하거나 장이 예민한 분이 부담 없이 시작하기 좋은 구성이에요."
       },
       {
-        title: "DH프라임생유산균 복용법은 어떻게 되나요?",
+        title: "DH프라임생유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "1일 1회, 1회 1포(2g)를 충분한 물과 함께 섭취하면 돼요. '충분한 물'을 강조하는 제품이에요. 분말이 물에 잘 녹아 내려가도록 충분한 양의 물(150~200mL 이상)과 함께 드세요."
       },
       {
-        title: "DH프라임생유산균 주의사항은 무엇인가요?",
+        title: "DH프라임생유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "질환이 있거나 의약품을 복용 중이라면 전문가와 상담하세요. 알레르기 체질은 개인에 따라 과민반응이 나타날 수 있어요. 어린이가 임의로 섭취하지 않도록 지도하고, 이상사례 발생 시 즉시 섭취를 중단하고 전문가와 상담하세요."
       },
       {
-        title: "DH프라임생유산균 보관할 때 주의할 점은 무엇인가요?",
+        title: "DH프라임생유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "고온다습 및 직사광선을 피하고 서늘한 곳에 보관하세요. 유통기한은 제조일로부터 24개월로, 일반 유산균(18개월)보다 유통기한이 길어요."
       }
     ],
-    products: [],
+    products: [{ id: "DH프라임생유산균", name: "DH프라임생유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=DH%ED%94%84%EB%9D%BC%EC%9E%84%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "DH프라임생유산균" }],
     faq: [
       {
         question: "왜 충분한 물과 함께 먹으라고 하나요?",
@@ -486,8 +480,8 @@ export const spokes14: SpokeArticle[] = [
   {
     slug: "LACTOMINE생유산균골드",
     categorySlug: "유산균",
-    title: "LACTOMINE 생유산균 골드 성분 효과 | 아연 8.5mg 하양색 분말 복용법 주의사항 총정리",
-    h1: "LACTOMINE 생유산균 골드 성분 효과 | 아연 8.5mg 하양색 분말 복용법 주의사항 총정리",
+    title: "LACTOMINE생유산균골드 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "LACTOMINE생유산균골드 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription: "LACTOMINE 생유산균 골드의 성분, 효과, 복용법, 주의사항을 정리했습니다. 10억 CFU에 아연 8.5mg이 담긴 하양색 분말로 개봉 후 공기 차단 보관이 중요한 제품입니다.",
     description: "",
     heroDescription: "10억 CFU에 아연 8.5mg을 담아 면역까지 챙기고 싶다면 이 제품을 볼 수 있어요. LACTOMINE 생유산균 골드는 하양색 분말 2포(2,000mg)에 10억 CFU와 아연 8.5mg이 들어 있어요. 개봉 후 공기 차단 보관을 강조하는 제품으로, 유산균 신선도 관리에 주의가 필요해요.",
@@ -495,7 +489,7 @@ export const spokes14: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "LACTOMINE 생유산균 골드 성분은 무엇인가요?",
+        title: "LACTOMINE생유산균골드 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "고유의 향미가 있고 이미·이취가 없는 하양색 분말이에요. 1포(2,000mg)에 프로바이오틱스 10억 CFU와 아연 8.5mg이 들어 있어요. 아연 8.5mg은 성인 1일 권장 섭취량에 가까운 함량으로, 면역 기능을 함께 지원하는 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "10억 CFU/2,000mg당", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
@@ -507,7 +501,7 @@ export const spokes14: SpokeArticle[] = [
         content: "프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 아연은 정상적인 면역기능과 세포분열에 필요한 성분이에요. 장 건강과 면역을 함께 지원하는 구성이에요."
       },
       {
-        title: "LACTOMINE 생유산균 골드 복용법은 어떻게 되나요?",
+        title: "LACTOMINE생유산균골드 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "1일 1회, 1회 1포를 그대로 먹거나 물과 함께 섭취하면 돼요. 물 없이도 섭취할 수 있고, 물이나 음료에 타서 마셔도 돼요. 다만 뜨거운 음료에 타면 유산균이 손상될 수 있으니 미지근하거나 차가운 음료를 사용하세요."
       },
       {
@@ -519,7 +513,7 @@ export const spokes14: SpokeArticle[] = [
         content: "30℃ 이상, 상대습도 75% 이상의 고온다습한 환경과 직사광선을 피해 서늘한 곳에 보관하세요. 개봉 후에는 공기 노출을 최대한 차단하여 보관하는 게 중요해요. 공기에 오래 노출되면 유산균 생존율이 떨어질 수 있으니, 개봉 후 바로 사용하거나 밀봉 상태로 보관하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
+    products: [{ id: "LACTOMINE생유산균골드", name: "LACTOMINE생유산균골드", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=LACTOMINE%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%EA%B3%A8%EB%93%9C", ingredients: "", usage: "", slug: "LACTOMINE생유산균골드" }],
     faq: [
       {
         question: "개봉 후 공기 차단이 왜 중요한가요?",

@@ -5,8 +5,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "V21하루good유산균",
     categorySlug: "유산균",
-    title: "V21 하루 good 유산균 성분 효과 | 자주빛 분홍색 분말 복용법 주의사항 총정리",
-    h1: "V21 하루 good 유산균 성분 효과 | 자주빛 분홍색 분말 복용법 주의사항 총정리",
+    title: "V21하루good유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "V21하루good유산균 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription: "V21 하루 good 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 대웅제약이 만든 10억 CFU 자주빛 분홍색 분말로 보관 시 변색이 생길 수 있는 제품입니다.",
     description: "",
     heroDescription: "대웅제약이 만든 자주빛 분홍색 유산균이 궁금하다면 이 제품을 볼 수 있어요. V21 하루 good 유산균은 10억 CFU 프로바이오틱스를 자주빛 분홍색 분말 2g 포에 담은 제품이에요. 보관 중 자연적인 변색이 생길 수 있지만 품질에는 이상이 없다는 안내가 인상적인 제품이에요.",
@@ -37,10 +37,8 @@ export const spokes16: SpokeArticle[] = [
         content: "직사광선 및 고온다습한 곳을 피해 서늘한 곳에 보관하세요. 보관 상태에 따라 자연적인 변색이 발생할 수 있지만, 제품 품질에는 이상이 없으니 안심하고 섭취하면 돼요. 영·유아 손에 닿지 않는 곳에 보관하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
-    faq: [
-      {
-        question: "분말 색이 변했는데 먹어도 괜찮나요?",
+    products: [{ id: "V21하루good유산균", name: "V21하루good유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=V21%ED%95%98%EB%A3%A8good%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "V21하루good유산균" }],
+    faq:products: [{ id: "V21하루good유산균", name: "V21하루good유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=V21%ED%95%98%EB%A3%A8good%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "V21하루good유산균" }]       question: "분말 색이 변했는데 먹어도 괜찮나요?",
         answer: "제품 안내에 보관 상태에 따라 자연적인 변색이 발생할 수 있으나 품질에는 이상이 없다고 명시되어 있어요. 다만 변색이 심하거나 이미·이취가 생겼다면 섭취를 피하고 구매처에 문의하는 게 좋아요."
       },
       {
@@ -58,8 +56,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "W밸런스유산균",
     categorySlug: "유산균",
-    title: "W밸런스 유산균 성분 효과 | 셀렌 100μg·아연·비타민D 복합 캡슐 복용법 총정리",
-    h1: "W밸런스 유산균 성분 효과 | 셀렌 100μg·아연·비타민D 복합 캡슐 복용법 총정리",
+    title: "W밸런스유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "W밸런스유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription: "W밸런스 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 50억 CFU에 셀렌 100μg·아연 8.5mg·비타민D 10μg이 담긴 400mg 투명 경질캡슐 제품입니다.",
     description: "",
     heroDescription: "유산균에 비타민D·아연·셀렌까지 한 캡슐에 담은 제품을 찾는다면 이 제품이 맞을 수 있어요. 50억 CFU에 비타민D 10μg, 아연 8.5mg, 셀렌 100μg을 400mg 투명 경질캡슐에 담았어요. 특히 셀렌 100μg은 다른 제품보다 높은 함량이에요. 반드시 충분한 물과 함께 섭취해야 하는 캡슐 제품이에요.",
@@ -95,8 +93,7 @@ export const spokes16: SpokeArticle[] = [
     ],
     products: [],
     faq: [
-      {
-        question: "셀렌 100μg이면 과하지 않나요?",
+     products: [{ id: "W밸런스유산균", name: "W밸런스유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=W%EB%B0%B8%EB%9F%B0%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "W밸런스유산균" }]uestion: "셀렌 100μg이면 과하지 않나요?",
         answer: "셀레늄 1일 상한 섭취량은 성인 기준 400μg이에요. 이 제품의 100μg은 상한 이하지만, 다른 영양제에서도 셀레늄을 섭취하고 있다면 총 섭취량이 초과되지 않는지 확인하는 게 좋아요."
       },
       {
@@ -114,8 +111,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "W엔젤유산균",
     categorySlug: "유산균",
-    title: "W엔젤 유산균 성분 효과 | 아연 2.55mg 흰분홍색 분말 복용법 주의사항 총정리",
-    h1: "W엔젤 유산균 성분 효과 | 아연 2.55mg 흰분홍색 분말 복용법 주의사항 총정리",
+    title: "W엔젤유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "W엔젤유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription: "W엔젤 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 1억 CFU에 아연 2.55mg이 담긴 흰분홍색 분말 제품입니다.",
     description: "",
     heroDescription: "면역 지원을 위한 아연과 장 건강을 한 포에 담고 싶다면 이 제품이 맞을 수 있어요. W엔젤 유산균은 흰분홍색 분말 2g 포에 프로바이오틱스 1억 CFU와 아연 2.55mg을 담은 제품이에요. 물 없이도 섭취할 수 있어 편리한 분말 제형이에요.",
@@ -123,7 +120,7 @@ export const spokes16: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "W엔젤 유산균 성분은 무엇인가요?",
+        title: "W엔젤유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "고유의 향미가 있고 이미·이취가 없는 흰분홍색 분말이에요. 1포(2g)에 프로바이오틱스 1억 CFU와 아연 2.55mg이 들어 있어요. 함량은 저함량이지만 아연으로 면역 기능까지 지원하는 복합 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "소스 데이터 확인 필요", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
@@ -146,8 +143,7 @@ export const spokes16: SpokeArticle[] = [
         content: "직사광선 및 고온다습한 곳을 피해 건조하고 서늘한 곳에 실온 보관하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
-    faq: [
+    prodproducts: [{ id: "W엔젤유산균", name: "W엔젤유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=W%EC%97%94%EC%A0%A4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "W엔젤유산균" }]  faq: [
       {
         question: "1억 CFU도 장 건강에 충분한가요?",
         answer: "1억 CFU도 프로바이오틱스 기능성 인정 기준 내에 있어요. 처음 유산균을 시작하거나 낮은 함량부터 시도하고 싶은 분께 맞는 수준이에요."
@@ -167,8 +163,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균",
     categorySlug: "유산균",
-    title: "jw중외제약 SYN 100억 유산균 성분 효과 | 프락토올리고당·아연 복용법 주의사항 총정리",
-    h1: "jw중외제약 SYN 100억 유산균 성분 효과 | 프락토올리고당·아연 복용법 주의사항 총정리",
+    title: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription: "jw중외제약 SYN 퍼스트바이오틱스 100억 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 100억 CFU·프락토올리고당 3,000mg·아연 8.5mg이 담긴 5,000mg 분말 포 제품입니다.",
     description: "",
     heroDescription: "100억 유산균에 프리바이오틱스와 아연까지 한 포에 담은 제품을 찾는다면 이 제품이 맞을 수 있어요. jw중외제약이 선보인 퍼스트바이오틱스 제품으로, 100억 CFU 프로바이오틱스에 프락토올리고당 3,000mg과 아연 8.5mg을 5,000mg 포에 담았어요. 고함량에 프리바이오틱스까지 더한 복합 구성이에요.",
@@ -198,10 +194,8 @@ export const spokes16: SpokeArticle[] = [
       },
       {
         title: "jw중외제약 SYN 100억 유산균 보관할 때 주의할 점은 무엇인가요?",
-        content: "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하세요. 어린이 손에 닿지 않는 곳에 두세요. 유통기한은 제조일로부터 18개월이에요."
-      }
-    ],
-    products: [],
+        content: "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하세요. 어린이 손에 닿지 않는 곳에 두세요. 유통기한은 제조일로부터 18개월이에요."products: [{ id: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균", name: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=jw%EC%A4%91%EC%99%B8%EC%A0%9C%EC%95%BD%EC%8B%A0SYN%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%ED%94%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균" }] ],
+    products: [{ id: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균", name: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=jw%EC%A4%91%EC%99%B8%EC%A0%9C%EC%95%BD%EC%8B%A0SYN%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%ED%94%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4100%EC%96%B5%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "jw중외제약신SYN퍼스트바이오틱스프리바이오틱스프로바이오틱스100억유산균" }],
     faq: [
       {
         question: "5,000mg 포가 너무 크지 않나요?",
@@ -222,8 +216,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "jw중외제약혈당바나바유산균프로바이오틱스Pro",
     categorySlug: "유산균",
-    title: "jw중외제약 혈당 바나바 유산균 Pro 성분 효과 | 코로솔산 식후 혈당 복용법 총정리",
-    h1: "jw중외제약 혈당 바나바 유산균 Pro 성분 효과 | 코로솔산 식후 혈당 복용법 총정리",
+    title: "jw중외제약혈당바나바유산균프로바이오틱스Pro 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "jw중외제약혈당바나바유산균프로바이오틱스Pro 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription: "jw중외제약 혈당 바나바 유산균 프로바이오틱스 Pro의 성분, 효과, 복용법, 주의사항을 정리했습니다. 바나바잎 코로솔산 1.3mg·아연·프로바이오틱스 1억 CFU 복합 분말 제품입니다.",
     description: "",
     heroDescription: "식후 혈당 관리와 장 건강을 함께 챙기고 싶다면 이 제품을 볼 수 있어요. jw중외제약의 혈당 바나바 유산균은 검은색·갈색 입자가 섞인 노란 하얀색 분말에 바나바잎 추출물(코로솔산 1.3mg)과 프로바이오틱스 1억 CFU, 아연 2.55mg을 담았어요. 어린이·임산부·수유부는 섭취할 수 없는 성인 전용 제품이에요.",
@@ -248,7 +242,7 @@ export const spokes16: SpokeArticle[] = [
         content: "1일 1회, 1회 1포를 직접 섭취하면 돼요. 물 없이 직접 섭취하는 방식이에요."
       },
       {
-        title: "jw중외제약 혈당 바나바 유산균 Pro 주의사항은 무엇인가요?",
+        title: "jw중외제약혈당바나바유산균프로바이오틱스Pro 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "알레르기 체질은 성분을 확인한 후 섭취하세요. 바나바잎 추출물이 들어 있어 어린이·임산부·수유부는 섭취를 피해야 해요. 이상사례 발생 시 즉시 섭취를 중단하고 전문가와 상담하세요. 프로바이오틱스 관련해서는 질환이 있거나 의약품 복용 시 전문가와 상담하고, 알레르기 체질은 과민반응에 주의하세요. 어린이가 임의로 섭취하지 않도록 지도하세요."
       },
       {
@@ -256,7 +250,7 @@ export const spokes16: SpokeArticle[] = [
         content: "고온다습한 곳이나 직사광선을 피해 서늘한 곳에 보관하세요. 유통기한은 제조일로부터 24개월이에요. 혈당 관련 제품 중 유통기한이 24개월로 비교적 긴 편이에요."
       }
     ],
-    products: [],
+products: [{ id: "jw중외제약혈당바나바유산균프로바이오틱스Pro", name: "jw중외제약혈당바나바유산균프로바이오틱스Pro", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=jw%EC%A4%91%EC%99%B8%EC%A0%9C%EC%95%BD%ED%98%88%EB%8B%B9%EB%B0%94%EB%82%98%EB%B0%94%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4Pro", ingredients: "", usage: "", slug: "jw중외제약혈당바나바유산균프로바이오틱스Pro" }]: [],
     faq: [
       {
         question: "바나바잎 추출물이 혈당을 낮춰주는 건가요?",
@@ -277,8 +271,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "가르시니아다이어트프로바이오틱스유산균",
     categorySlug: "유산균",
-    title: "가르시니아 다이어트 프로바이오틱스 유산균 성분 효과 | 체지방 감소 복용법 총정리",
-    h1: "가르시니아 다이어트 프로바이오틱스 유산균 성분 효과 | 체지방 감소 복용법 총정리",
+    title: "가르시니아다이어트프로바이오틱스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "가르시니아다이어트프로바이오틱스유산균 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription: "가르시니아 다이어트 프로바이오틱스 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 가르시니아캄보지아 HCA 750mg과 프로바이오틱스 1억 CFU가 담긴 연한 갈색 분말 포 제품입니다.",
     description: "",
     heroDescription: "체지방 감소 기능성과 장 건강을 함께 담은 유산균을 찾는다면 이 제품이 맞을 수 있어요. 가르시니아캄보지아 추출물(HCA 750mg)과 프로바이오틱스 1억 CFU를 3g 포의 연한 갈색 분말에 담았어요. 어린이·임산부·수유부는 섭취할 수 없는 성인 전용 제품이에요.",
@@ -303,7 +297,7 @@ export const spokes16: SpokeArticle[] = [
         content: "1일 1회, 1회 1포를 섭취하면 돼요. 별도 물과 함께 또는 직접 섭취에 대한 명시가 없으니 물과 함께 드시는 게 편해요."
       },
       {
-        title: "가르시니아 다이어트 프로바이오틱스 유산균 주의사항은 무엇인가요?",
+        title: "가르시니아다이어트프로바이오틱스유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "가르시니아캄보지아 추출물이 들어 있어 어린이·임산부·수유부는 섭취를 피해야 해요. 간·신장·심장 질환, 알레르기, 천식이 있거나 의약품을 복용 중이라면 전문가와 상담하세요. 이상사례 발생 시 즉시 섭취를 중단하고 전문가와 상담하세요. 프로바이오틱스 관련해서도 질환이 있거나 의약품 복용 시 전문가와 상담하고, 알레르기 체질은 과민반응에 주의하세요."
       },
       {
@@ -311,8 +305,7 @@ export const spokes16: SpokeArticle[] = [
         content: "고온다습하고 직사광선이 드는 곳을 피해 서늘한 곳에 보관하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
-    faq: [
+    prodproducts: [{ id: "가르시니아다이어트프로바이오틱스유산균", name: "가르시니아다이어트프로바이오틱스유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EA%B0%80%EB%A5%B4%EC%8B%9C%EB%8B%88%EC%95%84%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "가르시니아다이어트프로바이오틱스유산균" }]  faq: [
       {
         question: "가르시니아 제품을 간 질환이 있을 때 먹으면 안 되는 이유가 있나요?",
         answer: "가르시니아캄보지아 추출물 관련 이상사례 보고 중 간 관련 이상이 있어요. 간 질환이 있는 분은 반드시 섭취 전 전문가와 상담해야 해요."
@@ -332,8 +325,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "3-스텝활성유산균",
     categorySlug: "유산균",
-    title: "3-스텝 활성 유산균 성분 효과 | 0.4g 초소형 캡슐 복용법 주의사항 총정리",
-    h1: "3-스텝 활성 유산균 성분 효과 | 0.4g 초소형 캡슐 복용법 주의사항 총정리",
+    title: "3-스텝활성유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "3-스텝활성유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription: "3-스텝 활성 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 5.43억 CFU를 담은 0.4g 초소형 백색 경질캡슐 제품입니다.",
     description: "",
     heroDescription: "아주 작은 캡슐 하나에 유산균을 담은 제품을 찾는다면 이 제품이 맞을 수 있어요. 3-스텝 활성 유산균은 노란 하얀색 분말을 담은 백색 경질캡슐 단 0.4g에 5.43억 CFU를 담은 초소형 캡슐이에요. 임산부·수유부는 섭취에 주의가 필요하고, 개봉 후 밀봉 보관이 중요한 제품이에요.",
@@ -352,7 +345,7 @@ export const spokes16: SpokeArticle[] = [
         content: "프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활에 도움을 줄 수 있어요. 0.4g 소형 캡슐이라 삼키기 부담이 적으면서도 5억 이상의 유산균을 섭취할 수 있는 구성이에요."
       },
       {
-        title: "3-스텝 활성 유산균 복용법은 어떻게 되나요?",
+        title: "3-스텝활성유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "1일 1회, 1회 1캡슐(0.4g)을 충분한 물과 함께 섭취하면 돼요. 캡슐이 매우 작아서 삼키기 편하지만, 충분한 물과 함께 드세요. 캡슐 개봉 시 포장재에 의해 상처를 입을 수 있으니 주의하세요."
       },
       {
@@ -364,9 +357,8 @@ export const spokes16: SpokeArticle[] = [
         content: "직사광선을 피해 서늘한 곳에 보관하세요. 제품 개봉 후에는 흡습되지 않게 밀봉하여 보관해야 해요. 캡슐이 습기에 노출되면 변형될 수 있어요. 유통기한은 제조일부터 18개월이에요."
       }
     ],
-    products: [],
-    faq: [
-      {
+    products: [{ id: "3-스텝활성유산균", name: "3-스텝활성유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=3-%EC%8A%A4%ED%85%9D%ED%99%9C%EC%84%B1%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "3-스텝활성유산균" }],
+    faproducts: [{ id: "3-스텝활성유산균", name: "3-스텝활성유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=3-%EC%8A%A4%ED%85%9D%ED%99%9C%EC%84%B1%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "3-스텝활성유산균" }]
         question: "0.4g 캡슐이 너무 작으면 효과가 덜한가요?",
         answer: "캡슐 크기보다 유산균 CFU 수가 효과에 더 중요해요. 0.4g에 5.43억 CFU가 들어 있어 충분한 함량을 가지고 있어요. 삼키기 편한 소형 캡슐을 선호하는 분께 맞는 제품이에요."
       },
@@ -385,8 +377,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "365와이Y케어유산균",
     categorySlug: "유산균",
-    title: "365 와이Y 케어 유산균 성분 효과 | 진분홍색 알갱이 셀렌·아연 캡슐 복용법 총정리",
-    h1: "365 와이Y 케어 유산균 성분 효과 | 진분홍색 알갱이 셀렌·아연 캡슐 복용법 총정리",
+    title: "365와이Y케어유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "365와이Y케어유산균 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription: "365 와이Y 케어 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 10억 CFU에 셀렌 22.5μg·아연 4.25mg이 담긴 진분홍색 알갱이 분말의 0.35g 초소형 투명 캡슐입니다.",
     description: "",
     heroDescription: "0.35g 초소형 캡슐에 10억 유산균과 셀렌·아연을 담은 제품을 찾는다면 이 제품이 맞을 수 있어요. 진분홍색 알갱이가 들어 있는 분말의 투명 경질캡슐로, 0.35g이라는 매우 작은 크기에 10억 CFU, 셀렌 22.5μg, 아연 4.25mg이 담겨 있어요.",
@@ -394,14 +386,14 @@ export const spokes16: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "365 와이Y 케어 유산균 성분은 무엇인가요?",
+        title: "365와이Y케어유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "알갱이가 있는 진분홍색 분말을 함유한 투명 경질캡슐이에요. 1캡슐(0.35g)에 프로바이오틱스 10억 CFU, 셀렌 22.5μg, 아연 4.25mg이 들어 있어요. 0.35g이라는 극소형 캡슐 안에 3가지 기능성 성분을 담아 삼키기 부담 없는 구성이에요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "5.43억 CFU/0.4g당", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ],
       },
       {
-        title: "365 와이Y 케어 유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "365와이Y케어유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content: "셀렌은 유해산소로부터 세포를 보호하는 데 필요해요. 아연은 정상적인 면역기능과 세포분열에 필요해요. 프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 소형 캡슐 하나에 장 건강·항산화·면역 3가지를 지원하는 구성이에요."
       },
       {
@@ -409,7 +401,7 @@ export const spokes16: SpokeArticle[] = [
         content: "1일 1회, 1회 1캡슐씩 충분한 물과 함께 섭취하면 돼요. 0.35g 초소형 캡슐이라 물 없이도 삼킬 수 있지만, 충분한 물과 함께 드세요."
       },
       {
-        title: "365 와이Y 케어 유산균 주의사항은 무엇인가요?",
+        title: "50억보장장건강해질유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content: "질환이 있거나 의약품을 복용 중이라면 전문가와 상담하세요. 알레르기 체질은 과민반응이 나타날 수 있어요. 어린이가 임의로 섭취하지 않도록 지도하고, 이상사례 발생 시 즉시 섭취를 중단하고 전문가와 상담하세요."
       },
       {
@@ -417,8 +409,7 @@ export const spokes16: SpokeArticle[] = [
         content: "습기가 적고 직사광선을 피해 서늘한 곳에 보관하고, 어린이 손에 닿지 않도록 주의하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
-    faq: [
+    proproducts: [{ id: "365와이Y케어유산균", name: "365와이Y케어유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=365%EC%99%80%EC%9D%B4Y%EC%BC%80%EC%96%B4%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "365와이Y케어유산균" }]   faq: [
       {
         question: "0.35g 캡슐에 10억 유산균이 다 들어가나요?",
         answer: "동결건조 기술로 고농도의 균주를 소형 캡슐에 압축하는 게 가능해요. 0.35g 초소형 캡슐에 10억 CFU가 보장되는 제품이에요. 보관 조건(습기·온도)을 잘 지켜야 유산균이 유통기한까지 보장돼요."
@@ -438,8 +429,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "50억보장장건강해질유산균",
     categorySlug: "유산균",
-    title: "50억보장 장 건강해질 유산균 성분 효과 | 분홍색 분말 아연·셀레늄 캡슐 복용법 총정리",
-    h1: "50억보장 장 건강해질 유산균 성분 효과 | 분홍색 분말 아연·셀레늄 캡슐 복용법 총정리",
+    title: "50억보장장건강해질유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "50억보장장건강해질유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription: "50억보장 장 건강해질 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 50억 CFU에 아연 2.55mg·셀레늄 16.5μg이 담긴 분홍색 분말의 500mg 투명 경질캡슐입니다.",
     description: "",
     heroDescription: "50억 CFU에 아연과 셀레늄까지 담은 캡슐을 찾는다면 이 제품이 맞을 수 있어요. 분홍색 분말을 담은 투명 경질캡슐 500mg에 50억 CFU, 아연 2.55mg, 셀레늄 16.5μg이 들어 있어요. 메디오젠이 제조한 50억 중함량 복합 구성 제품이에요.",
@@ -447,7 +438,7 @@ export const spokes16: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "50억보장 장 건강해질 유산균 성분은 무엇인가요?",
+        title: "50억보장장건강해질유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "고유의 향미가 있고 이미·이취가 없는 분홍색 분말을 함유한 투명 경질캡슐이에요. 1캡슐(500mg)에 프로바이오틱스 50억 CFU, 아연 2.55mg, 셀레늄 16.5μg이 들어 있어요. 중함량(50억)에 항산화(셀레늄)와 면역(아연)까지 더한 3중 구성이에요.",
         ingredients: [
           { type: "주성분", name: "가르시니아캄보지아 추출물(HCA)", amount: "750mg/3g당", role: "탄수화물이 지방으로 합성되는 것을 억제하여 체지방 감소에 도움" },
@@ -456,7 +447,7 @@ export const spokes16: SpokeArticle[] = [
         ],
       },
       {
-        title: "50억보장 장 건강해질 유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "50억보장장건강해질유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content: "프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 아연은 정상적인 면역기능과 세포분열에 필요해요. 셀레늄은 유해산소로부터 세포를 보호하는 데 필요한 성분이에요. 장 건강, 면역, 항산화를 함께 지원하는 50억 중함량 제품이에요."
       },
       {
@@ -464,7 +455,7 @@ export const spokes16: SpokeArticle[] = [
         content: "1일 1회, 1회 1캡슐을 물과 함께 섭취하면 돼요. 500mg 캡슐로 일반적인 크기이므로 물과 함께 삼키면 돼요."
       },
       {
-        title: "50억보장 장 건강해질 유산균 주의사항은 무엇인가요?",
+        title: "가벼운다이어트유산균 복용법 부작용 | 성분 효과 가격 비교",
         content: "질환이 있거나 의약품을 복용 중이라면 전문가와 상담하세요. 알레르기 체질은 과민반응이 나타날 수 있어요. 어린이가 임의로 섭취하지 않도록 지도하고, 이상사례 발생 시 즉시 섭취를 중단하고 전문가와 상담하세요."
       },
       {
@@ -472,8 +463,7 @@ export const spokes16: SpokeArticle[] = [
         content: "직사광선 및 고온다습한 곳을 피해 서늘한 곳에 보관하세요. 유통기한은 제조일로부터 18개월이에요. 캡슐 제형이라 습기 차단이 중요해요."
       }
     ],
-    products: [],
-    faq: [
+    producproducts: [{ id: "50억보장장건강해질유산균", name: "50억보장장건강해질유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=50%EC%96%B5%EB%B3%B4%EC%9E%A5%EC%9E%A5%EA%B1%B4%EA%B0%95%ED%95%B4%EC%A7%88%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "50억보장장건강해질유산균" }]faq: [
       {
         question: "50억 CFU면 어떤 분에게 맞나요?",
         answer: "10억에서 함량을 높이고 싶지만 100억은 부담스러운 분이나, 중간 함량을 원하는 분께 맞는 제품이에요. 50억은 중함량대에 해당해요."
@@ -493,8 +483,8 @@ export const spokes16: SpokeArticle[] = [
   {
     slug: "가벼운다이어트유산균",
     categorySlug: "유산균",
-    title: "가벼운 다이어트 유산균 성분 효과 | 가르시니아·비타민C 복합 복용법 주의사항 총정리",
-    h1: "가벼운 다이어트 유산균 성분 효과 | 가르시니아·비타민C 복합 복용법 주의사항 총정리",
+    title: "가벼운다이어트유산균 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "가벼운다이어트유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription: "가벼운 다이어트 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 가르시니아캄보지아 HCA 750mg·비타민C 50mg·프로바이오틱스 1억 CFU가 담긴 점박이 노란 하얀색 분말입니다.",
     description: "",
     heroDescription: "체지방 감소와 항산화, 장 건강을 한 포에 담고 싶다면 이 제품을 볼 수 있어요. 가르시니아캄보지아 추출물(HCA 750mg)에 비타민C 50mg과 프로바이오틱스 1억 CFU를 더한 한미양행 제품이에요. 점박이가 있는 노란 하얀색 분말로 물 없이 직접 섭취하는 방식이에요. 어린이·임산부·수유부, 남성의 과다섭취는 피해야 하는 제품이에요.",
@@ -502,14 +492,14 @@ export const spokes16: SpokeArticle[] = [
     dateModified: "2026-04-04",
     sections: [
       {
-        title: "가벼운 다이어트 유산균 성분은 무엇인가요?",
+        title: "가벼운다이어트유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "고유의 향미를 지니고 이미·이취가 없는 점박이가 있는 노란 하얀색 또는 흰 노란색 분말이에요. 1포(3g)에 가르시니아캄보지아 추출물(HCA 750mg), 프로바이오틱스 1억 CFU, 비타민C 50mg이 들어 있어요. 가르시니아캄보지아에 비타민C(항산화)를 더한 게 다른 가르시니아 유산균 제품과 차별화되는 포인트예요.",
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "100,000,000(1억", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
         ]
       },
       {
-        title: "가벼운 다이어트 유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "가벼운다이어트유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content: "가르시니아캄보지아 추출물은 탄수화물이 지방으로 합성되는 것을 억제하여 체지방 감소에 도움을 줄 수 있어요. 프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 비타민C는 결합조직 형성과 기능 유지에 필요하고, 철의 흡수에 필요하며, 항산화 작용으로 유해산소로부터 세포를 보호하는 데 필요한 성분이에요."
       },
       {
@@ -525,7 +515,7 @@ export const spokes16: SpokeArticle[] = [
         content: "고온다습하고 직사광선이 드는 곳을 피해 서늘한 곳에 보관하세요. 유통기한은 제조일로부터 18개월이에요."
       }
     ],
-    products: [],
+  products: [{ id: "가벼운다이어트유산균", name: "가벼운다이어트유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EA%B0%80%EB%B2%BC%EC%9A%B4%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "가벼운다이어트유산균" }][],
     faq: [
       {
         question: "비타민C가 들어 있으면 가르시니아와 시너지가 있나요?",

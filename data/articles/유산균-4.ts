@@ -13,15 +13,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "메디오젠 유산균 성분 효과 | 100억 비타민D 아연 복용법 부작용 총정리",
-    h1: "메디오젠 유산균 성분 효과 | 100억 비타민D 아연 복용법 부작용 총정리",
+    title: "메디오젠유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "메디오젠유산균 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "메디오젠 유산균 성분, 100억 CFU·비타민D·아연 기능성, 복용법, 주의사항을 정리했습니다. 분말형 고함량 프로바이오틱스 복합 유산균의 부작용을 확인하세요.",
     description:
       "메디오젠 유산균 100억 CFU + 비타민D 3μg + 아연 2.55mg 분말형 복합 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "100억 CFU 고함량 유산균을 캡슐 없이 분말포 형태로 편하게 먹고 싶은 분이라면 메디오젠 유산균이 선택지가 될 수 있어요. 1포(2g)에 프로바이오틱스 100억 CFU, 비타민D 3μg, 아연 2.55mg이 담긴 복합 분말형 제품이에요. 같은 100억 CFU 캡슐 유산균과 달리 분말 그대로 혀 위에 올려 섭취하거나 물에 타서 마실 수 있어요. 장 건강, 뼈 건강, 면역 기능을 한 포로 챙기는 구성이 단순 유산균 단일 제품과 다른 점이에요. 미갈색 특유의 분말 색도 이 제품만의 특징이에요. 비타민D가 부족하거나 뼈 건강이 걱정되는 분이 유산균과 함께 보충하려 할 때 선택하는 경우가 많아요.",
-    products: [],
+    products: [
+      {
+        id: "-------",
+        name: "메디오젠유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%A9%94%EB%94%94%EC%98%A4%EC%A0%A0%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "메디오젠유산균",
+      },
+    ],
     faq: [
       {
         question: "100억 CFU 분말형은 캡슐형보다 흡수가 빠른가요?",
@@ -41,7 +56,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "메디오젠 유산균 성분은 무엇인가요?",
+        title: "메디오젠유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "1포(2g)에 프로바이오틱스 100억 CFU, 비타민D 3μg, 아연 2.55mg이 담겨 있어요. 100억은 고함량 구간이에요. 고함량 캡슐 유산균이 많은데 이 제품은 분말포 형태로 100억을 제공해요. 캡슐 껍질이 없어서 위에서 빠르게 분산되는 구조예요.\n\n비타민D 3μg은 칼슘과 인이 흡수되고 이용되는 데 필요한 영양소예요. 뼈의 형성과 유지에 필요하고 골다공증 발생 위험을 낮추는 데도 도움이 돼요. 아연 2.55mg은 성인 하루 권장량(8.5~10mg)의 약 25~30% 수준이에요. 정상적인 면역 기능과 세포 분열에 필요한 미네랄이에요. 한 포로 장 건강, 뼈 건강, 면역 기능을 함께 챙기는 복합 구성이에요.\n\n제형은 미갈색 분말이에요. 갈색 빛이 도는 게 이 제품 특유의 색이에요. 직접 섭취하거나 물과 함께 타서 마실 수 있어요. 식약처 대장균군 음성, 프로바이오틱스 수 기준을 통과한 제품이에요.",
         ingredients: [
@@ -80,15 +95,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "풀무원 데일리 프로바이오틱스 성분 효과 | 액상 유산균 복용법 부작용 총정리",
-    h1: "풀무원 데일리 프로바이오틱스 성분 효과 | 액상 유산균 복용법 부작용 총정리",
+    title: "풀무원데일리프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "풀무원데일리프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "풀무원 데일리 프로바이오틱스 성분, 100억 CFU·비타민D 기능성, 복용법, 주의사항을 정리했습니다. 사과맛 액상형 냉장 유산균의 유통기한과 보관법을 확인하세요.",
     description:
       "풀무원 데일리 프로바이오틱스 100억 CFU + 비타민D 10μg 액상형 냉장 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "분말이나 캡슐 유산균이 영 입맛에 맞지 않는 분이라면 액상형이 대안이 돼요. 풀무원 데일리 프로바이오틱스는 1병(130ml)에 프로바이오틱스 100억 CFU와 비타민D 10μg이 담긴 음료 형태예요. 고유의 사과 향미로 마시기 편해요. 분말포나 캡슐과 달리 냉장 보관(0~10°C)이 필수이고 유통기한이 제조일로부터 27일로 짧아서 신선하게 관리되는 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "-------------",
+        name: "풀무원데일리프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%ED%92%80%EB%AC%B4%EC%9B%90%EB%8D%B0%EC%9D%BC%EB%A6%AC%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "풀무원데일리프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "유통기한이 27일밖에 안 되는데 왜 이렇게 짧나요?",
@@ -108,7 +138,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "풀무원 데일리 프로바이오틱스 성분은 무엇인가요?",
+        title: "풀무원데일리프로바이오틱스 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "1병(130ml)에 프로바이오틱스 100억 CFU와 비타민D 10μg이 담긴 액상 제품이에요. 유산균 제품 중 액상 형태는 드물어요. 분말포나 캡슐이 싫거나 음료처럼 편하게 마시고 싶은 분에게 맞는 제형이에요.\n\n비타민D 10μg은 다른 복합 유산균보다 높은 함량이에요. 락토핏50대의 25μg에는 못 미치지만 뼈 건강 지원에 충분한 수준이에요. 사과 향미가 있는 백색 액상으로 마시기 편해요.\n\n냉장 보관(0~10°C)이 필수이고 유통기한은 제조일로부터 27일이에요.",
         ingredients: [
@@ -146,15 +176,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "광동 궁리본 유산균 성분 효과 | 갱년기 여성 복용법 부작용 총정리",
-    h1: "광동 궁리본 유산균 성분 효과 | 갱년기 여성 복용법 부작용 총정리",
+    title: "광동궁리본유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "광동궁리본유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "광동 궁리본 유산균 성분, 갱년기 여성 건강 기능성, 복용법, 주의사항을 정리했습니다. Lactobacillus acidophilus YT1 균주 냉장 캡슐 유산균 부작용을 확인하세요.",
     description:
       "광동 궁리본 유산균 1억 CFU + YT1 균주 갱년기 여성 특화 냉장 경질캡슐 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "갱년기 이후 장 건강과 여성 건강을 함께 챙기려는 분이라면 갱년기 여성 특화 기능성이 있는 유산균이 다른 선택이에요. 광동 궁리본 유산균은 Lactobacillus acidophilus YT1 균주(제2019-22호)로 '갱년기 여성 건강에 도움을 줄 수 있음'을 식약처로부터 인정받은 제품이에요. 1캡슐(450mg)에 프로바이오틱스 1억 CFU가 담기며, 냉장 보관이 필요해요.",
-    products: [],
+    products: [
+      {
+        id: "--------",
+        name: "광동궁리본유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EA%B4%91%EB%8F%99%EA%B6%81%EB%A6%AC%EB%B3%B8%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "광동궁리본유산균",
+      },
+    ],
     faq: [
       {
         question: "갱년기 여성 건강이 기능성으로 인정됐다는 게 어떤 의미인가요?",
@@ -174,7 +219,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "광동 궁리본 유산균 성분은 무엇인가요?",
+        title: "광동궁리본유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "1캡슐(450mg)에 Lactobacillus acidophilus YT1 균주를 포함한 프로바이오틱스 1억 CFU가 담긴 경질캡슐이에요. 일반 유산균 제품과 다른 점은 특정 균주(YT1)의 갱년기 여성 건강 기능성이 인정됐다는 거예요.\n\n납·비소 중금속 기준을 통과한 제품이에요. 제형은 노란 하얀색 내용물이 담긴 투명 경질캡슐이에요. 냉장 보관과 냉장 유통이 원칙이에요.",
         ingredients: [
@@ -211,15 +256,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "동아 프로바이오틱스 성분 효과 | 3억 유산균 복용법 부작용 총정리",
-    h1: "동아 프로바이오틱스 성분 효과 | 3억 유산균 복용법 부작용 총정리",
+    title: "동아프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "동아프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "동아 프로바이오틱스 성분, 3억 CFU 기능성, 복용법, 주의사항을 정리했습니다. 동아에스티 분말형 프로바이오틱스 유산균의 부작용과 보관법을 확인하세요.",
     description:
       "동아 프로바이오틱스 3억 CFU 분말포 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "유산균을 처음 시작하는데 100억 CFU는 너무 많을 것 같고, 1억은 너무 적을 것 같다는 분에게 중간 지점의 선택지가 있어요. 동아 프로바이오틱스는 1포(2g)에 프로바이오틱스 3억 CFU가 담긴 분말형 유산균이에요. 아연·비타민 같은 추가 성분 없이 장 건강 기능에만 집중한 단순 구성이에요. 동아에스티(주)에서 만든 제품으로 위생과 품질 관리가 잘 된 제약사 유산균이에요.",
-    products: [],
+    products: [
+      {
+        id: "---------",
+        name: "동아프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%8F%99%EC%95%84%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "동아프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "3억 CFU면 효과가 있나요?",
@@ -239,7 +299,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "동아 프로바이오틱스 성분은 무엇인가요?",
+        title: "동아프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "1포(2g)에 프로바이오틱스 3억 CFU가 담긴 단일 구성 분말포예요. 비타민, 미네랄 추가 성분 없이 프로바이오틱스 하나로 구성된 심플한 제품이에요.\n\n3억 CFU는 1억(최소)~100억(고함량) 사이의 낮은 중간 함량이에요. 처음 유산균을 시작하거나 이미 다른 영양제를 많이 복용 중인 분이 유산균만 추가로 챙기기 좋은 구성이에요. 제형은 노랑 하양색 입자성 분말이에요.",
         ingredients: [
@@ -276,15 +336,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "유한 생유산균 성분 효과 | 20억 초소형 캡슐 복용법 부작용 총정리",
-    h1: "유한 생유산균 성분 효과 | 20억 초소형 캡슐 복용법 부작용 총정리",
+    title: "유한생유산균 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "유한생유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "유한 생유산균 성분, 20억 CFU 기능성, 복용법, 주의사항을 정리했습니다. 140mg 초소형 투명 경질캡슐 유산균의 삼키기 쉬운 크기와 부작용을 확인하세요.",
     description:
       "유한 생유산균 20억 CFU 140mg 초소형 투명 경질캡슐 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "캡슐 유산균이 삼키기 불편해서 분말로만 먹었던 분이라면 유한 생유산균이 바꿀 수 있는 기회예요. 1캡슐(140mg)이라는 초소형 투명 경질캡슐에 프로바이오틱스 20억 CFU가 담겨 있어요. 일반 캡슐(450mg 전후)과 비교하면 1/3 크기예요. 유산균 함량은 20억으로 중간 수준이고 추가 성분 없이 장 건강에 집중한 구성이에요.",
-    products: [],
+    products: [
+      {
+        id: "------",
+        name: "유한생유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EC%9C%A0%ED%95%9C%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "유한생유산균",
+      },
+    ],
     faq: [
       {
         question: "140mg 캡슐이면 정말 작은 건가요?",
@@ -304,7 +379,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "유한 생유산균 성분은 무엇인가요?",
+        title: "유한생유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "1캡슐(140mg)에 프로바이오틱스 20억 CFU가 담긴 초소형 투명 경질캡슐이에요. 140mg은 시중 캡슐형 유산균 중 매우 작은 크기예요. 추가 비타민이나 미네랄 없이 프로바이오틱스 단일 구성이에요.\n\n20억 CFU는 식약처 최소 기준(1억)을 크게 웃도는 중간 함량이에요. 단순하게 장 건강만 챙기고 싶은 분, 이미 종합비타민·아연·비타민D 등 다른 영양제를 먹는 분이 유산균만 추가하기 좋아요. 제형은 흰 노란색 분말을 담은 투명 경질캡슐이에요.",
         ingredients: [
@@ -341,15 +416,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "아이배냇 생유산균 성분 효과 | 어린이 유산균 복용법 부작용 총정리",
-    h1: "아이배냇 생유산균 성분 효과 | 어린이 유산균 복용법 부작용 총정리",
+    title: "아이배냇생유산균 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "아이배냇생유산균 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "아이배냇 생유산균 성분, 2억 CFU 기능성, 복용법, 주의사항을 정리했습니다. 어린이 타겟 분말형 유산균의 섭취방법과 부작용을 확인하세요.",
     description:
       "아이배냇 생유산균 2억 CFU 어린이 분말포 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "아이에게 먹일 유산균을 고를 때 함량이 너무 높은 건 망설여지는 분들이 있어요. 아이배냇 생유산균은 1포(2,000mg)에 프로바이오틱스 2억 CFU가 담긴 어린이 친화적 분말포예요. 추가 비타민이나 아연 없이 프로바이오틱스 기능에 집중한 구성이에요. 직접 섭취하거나 물과 함께 마실 수 있어서 아이가 분말을 먹기 편한 형태예요.",
-    products: [],
+    products: [
+      {
+        id: "--------",
+        name: "아이배냇생유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EC%95%84%EC%9D%B4%EB%B0%B0%EB%83%87%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "아이배냇생유산균",
+      },
+    ],
     faq: [
       {
         question: "몇 살부터 아이배냇 생유산균을 먹일 수 있나요?",
@@ -369,7 +459,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "아이배냇 생유산균 성분은 무엇인가요?",
+        title: "아이배냇생유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "1포(2,000mg)에 프로바이오틱스 2억 CFU가 담긴 분말포예요. 단일 구성이라 추가 비타민이나 미네랄은 없어요. 어린이 타겟으로 설계된 아이배냇 브랜드 제품이에요.\n\n2억 CFU는 성인용 고함량 제품(100억)의 1/50 수준이에요. 어린이에게 부담을 줄인 함량 설계예요. 제형은 노란 하양색 분말이에요. 직접 섭취하거나 물과 함께 마실 수 있어요.",
         ingredients: [
@@ -406,15 +496,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "경남제약 락토생 유산균 성분 효과 | 아연 정제 복용법 부작용 총정리",
-    h1: "경남제약 락토생 유산균 성분 효과 | 아연 정제 복용법 부작용 총정리",
+    title: "경남제약락토생유산균 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "경남제약락토생유산균 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "경남제약 락토생 유산균 성분, 1억 CFU·아연 기능성, 복용법, 주의사항을 정리했습니다. 드문 정제(tablet) 형태 유산균의 복용법과 부작용을 확인하세요.",
     description:
       "경남제약 락토생 유산균 1억 CFU + 아연 3mg 정제형 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "분말도 싫고 캡슐도 큰데 유산균을 먹고 싶다면 정제(tablet) 형태가 또 다른 선택이에요. 경남제약 락토생 유산균은 1정(1g)에 프로바이오틱스 1억 CFU와 아연 3mg이 담긴 미색의 정제예요. 캡슐이 아니라 정제 형태의 유산균은 흔치 않아요. 경남제약(주)에서 만든 제약사 유산균으로 GMP 시설에서 생산돼요.",
-    products: [],
+    products: [
+      {
+        id: "----------",
+        name: "경남제약락토생유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EA%B2%BD%EB%82%A8%EC%A0%9C%EC%95%BD%EB%9D%BD%ED%86%A0%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "경남제약락토생유산균",
+      },
+    ],
     faq: [
       {
         question: "정제(tablet) 형태 유산균은 캡슐보다 나은 점이 있나요?",
@@ -434,7 +539,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "경남제약 락토생 유산균 성분은 무엇인가요?",
+        title: "경남제약락토생유산균 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "1정(1g)에 프로바이오틱스 1억 CFU와 아연 3mg이 담긴 미색의 정제예요. 캡슐이 아닌 정제 형태의 유산균은 시중에 흔치 않은 제형이에요.\n\n1억 CFU는 식약처 최소 기준 함량이에요. 아연 3mg은 성인 하루 권장량의 30~35% 수준이에요. 정상적인 면역 기능과 세포 분열에 필요해요. 고유의 색택과 향미를 가진 미색 정제예요. 붕해도 30분 이내를 통과한 제품이에요.",
         ingredients: [
@@ -472,15 +577,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "일양 장에존 프로바이오틱스 성분 효과 | 셀레늄 아연 복용법 부작용 총정리",
-    h1: "일양 장에존 프로바이오틱스 성분 효과 | 셀레늄 아연 복용법 부작용 총정리",
+    title: "일양장에존프로바이오틱스 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "일양장에존프로바이오틱스 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "일양 장에존 프로바이오틱스 성분, 셀레늄·아연·비타민D·프로바이오틱스 기능성, 복용법, 주의사항을 정리했습니다. 4중 복합 분말형 유산균의 부작용을 확인하세요.",
     description:
       "일양 장에존 프로바이오틱스 1억 CFU + 아연 2.55mg + 셀레늄 16.5μg 4중 복합 분말포 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "장 건강, 면역, 항산화, 뼈 건강을 한 포에 담고 싶은 분에게 4중 복합 유산균이 선택지예요. 일양 장에존 프로바이오틱스는 1포(2,000mg)에 프로바이오틱스 1억 CFU, 아연 2.55mg, 셀레늄 16.5μg, 비타민D가 함께 담긴 연한 보라색 분말포예요. 장대원 유산균(셀레늄 55μg)과 달리 셀레늄 함량이 16.5μg으로 상대적으로 낮아요. 그만큼 셀레늄 과다 섭취 걱정이 적은 복합 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "------------",
+        name: "일양장에존프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EC%9D%BC%EC%96%91%EC%9E%A5%EC%97%90%EC%A1%B4%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "일양장에존프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "셀레늄 16.5μg은 하루 권장량의 몇 %인가요?",
@@ -500,7 +620,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "일양 장에존 프로바이오틱스 성분은 무엇인가요?",
+        title: "일양장에존프로바이오틱스 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "1포(2,000mg)에 프로바이오틱스 1억 CFU, 아연 2.55mg, 셀레늄 16.5μg, 비타민D가 담긴 분말포예요. 4가지 기능성 성분이 한 포에 들어있어요.\n\n프로바이오틱스 1억 CFU는 식약처 최소 기준 함량이에요. 아연 2.55mg은 면역·세포분열에 필요해요. 셀레늄 16.5μg은 항산화(세포 보호)에 필요한 기능성 성분이에요. 장대원 유산균의 55μg보다 낮아서 셀레늄 과다 섭취 우려가 적어요. 제형은 연한 보라색 분말이에요.",
         ingredients: [
@@ -540,15 +660,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "보령 장건강 프로바이오틱스 성분 효과 | 20억 아연 복용법 부작용 총정리",
-    h1: "보령 장건강 프로바이오틱스 성분 효과 | 20억 아연 복용법 부작용 총정리",
+    title: "보령장건강프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "보령장건강프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "보령 장건강 프로바이오틱스 성분, 20억 CFU·아연 기능성, 복용법, 주의사항을 정리했습니다. 보령제약 분말형 유산균의 부작용과 보관법을 확인하세요.",
     description:
       "보령 장건강 프로바이오틱스 20억 CFU + 아연 2.55mg 분말형 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "보령제약이라는 제약사 브랜드의 유산균을 찾는 분들이 있어요. 보령 장건강 프로바이오틱스는 1포(2g)에 프로바이오틱스 20억 CFU와 아연 2.55mg이 담긴 분말포예요. 온가족 유산균과 달리 온가족 타겟의 비타민B·D가 없고 아연+유산균 2중 구성이에요. 장 건강과 면역 기능에 집중한 심플한 설계예요.",
-    products: [],
+    products: [
+      {
+        id: "------------",
+        name: "보령장건강프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%B3%B4%EB%A0%B9%EC%9E%A5%EA%B1%B4%EA%B0%95%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "보령장건강프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "보령 장건강과 보령 온가족 유산균은 뭐가 달라요?",
@@ -568,7 +703,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "보령 장건강 프로바이오틱스 성분은 무엇인가요?",
+        title: "보령장건강프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "1포(2g)에 프로바이오틱스 20억 CFU와 아연 2.55mg이 담긴 분말포예요. 보령 온가족 유산균(1억 CFU)보다 20배 높은 함량이에요.\n\n아연 2.55mg은 정상적인 면역 기능과 세포 분열에 필요한 성분이에요. 비타민B나 D 같은 추가 성분 없이 유산균+아연 2중 구성이에요. 제형은 노란 하얀색 분말이에요.",
         ingredients: [
@@ -606,15 +741,30 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "유산균",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
-    title: "대웅 데일리 유산균 성분 효과 | 20억 분말 복용법 부작용 총정리",
-    h1: "대웅 데일리 유산균 성분 효과 | 20억 분말 복용법 부작용 총정리",
+    title: "대웅데일리유산균 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "대웅데일리유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "대웅 데일리 유산균 성분, 20억 CFU 기능성, 복용법, 주의사항을 정리했습니다. 대웅제약 단일 분말형 프로바이오틱스의 부작용과 변색 여부를 확인하세요.",
     description:
       "대웅 데일리 유산균 20억 CFU 단일 분말포 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "대웅제약 브랜드 유산균을 찾는 분이라면 대웅 데일리 유산균과 대웅 프로바이오틱스 두 가지가 있어요. 대웅 데일리 유산균은 1포(1.5g)에 프로바이오틱스 20억 CFU가 담긴 단일 구성이에요. 아연·비타민 없이 유산균 기능에만 집중한 기본형이에요. 대웅 프로바이오틱스(100억+아연 분말포)와 달리 더 낮은 함량의 데일리 유산균이에요. 가급적 냉장 보관을 권고하는 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "--------",
+        name: "대웅데일리유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%8C%80%EC%9B%85%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "대웅데일리유산균",
+      },
+    ],
     faq: [
       {
         question: "대웅 데일리와 대웅 프로바이오틱스는 어떻게 달라요?",
@@ -634,7 +784,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "대웅 데일리 유산균 성분은 무엇인가요?",
+        title: "대웅데일리유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "1포(1.5g)에 프로바이오틱스 20억 CFU가 담긴 단일 구성 분말포예요. 대웅제약의 데일리 라인 유산균이에요. 같은 대웅 브랜드의 프로바이오틱스(100억+아연)와 달리 20억 단일 구성이에요.\n\n추가 비타민이나 미네랄 없이 유산균 기능에만 집중해요. 이미 종합비타민·아연 등 다른 영양제를 먹는 분이 유산균만 추가하려 할 때 성분 중복 걱정 없이 선택하기 좋아요. 황갈색 입자가 섞인 연한 노랑색 분말이에요.",
         ingredients: [

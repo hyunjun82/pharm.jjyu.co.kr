@@ -5,8 +5,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "AG락토생유산균17",
     categorySlug: "유산균",
-    title: "AG락토 생유산균 17 성분 효과 | 아연 비타민D 10억 분말 복용법 주의사항 총정리",
-    h1: "AG락토 생유산균 17 성분 효과 | 아연 비타민D 10억 분말 복용법 주의사항 총정리",
+    title: "AG락토생유산균17 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "AG락토생유산균17 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "메디오젠 AG락토 생유산균 17의 성분, 효과, 복용법, 주의사항을 정리했습니다. 10억 CFU 프로바이오틱스, 아연 2.55mg, 비타민D 10μg을 함유한 흰노란색 분말로 장·면역·뼈 건강을 복합 지원합니다.",
     datePublished: "2026-04-04",
@@ -14,10 +14,25 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "유산균에 면역과 뼈 건강까지 함께 챙기고 싶다면 메디오젠의 AG락토 생유산균 17이 선택지가 돼요. 10억 CFU 프로바이오틱스에 아연 2.55mg과 비타민D 10μg을 함께 담아 장 건강·면역·뼈 형성을 복합적으로 지원해요. 비타민D가 포함된 유산균 제품은 골다공증 예방 기능성까지 추가되는 게 특징이에요. 단, 고칼슘혈증이 있거나 관련 의약품을 복용 중이라면 섭취 전 반드시 전문가와 상담해야 해요.",
-    products: [],
+    products: [
+      {
+        id: "ag------17",
+        name: "AG락토생유산균17",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=A%20G%EB%9D%BD%ED%86%A0%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A017",
+        ingredients: "",
+        usage: "",
+        slug: "AG락토생유산균17",
+      },
+    ],
     sections: [
       {
-        title: "AG락토 생유산균 17 성분은 무엇인가요?",
+        title: "AG락토생유산균17 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "AG락토 생유산균 17의 기능성 원료는 프로바이오틱스, 아연, 비타민D 세 가지예요. 1포(2g) 기준 프로바이오틱스 10억 CFU(1.0×10⁹ CFU) 이상, 아연 2.55mg, 비타민D 10μg이 함유돼 있어요. 성상은 고유의 향미가 있고 이미·이취가 없는 흰 노란색의 분말이에요. 대장균군은 음성이에요.",
         ingredients: [
@@ -70,8 +85,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "AG락토혈당케어",
     categorySlug: "유산균",
-    title: "AG락토·혈당케어 성분 효과 | 코로솔산 50억 CFU 캡슐 복용법 주의사항 총정리",
-    h1: "AG락토·혈당케어 성분 효과 | 코로솔산 50억 CFU 캡슐 복용법 주의사항 총정리",
+    title: "AG락토혈당케어 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "AG락토혈당케어 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "메디오젠 AG락토·혈당케어의 성분, 효과, 복용법, 주의사항을 정리했습니다. 50억 CFU 프로바이오틱스와 코로솔산 1.3mg을 담은 투명 경질캡슐로 장 건강과 식후 혈당 관리를 함께 지원합니다.",
     datePublished: "2026-04-04",
@@ -79,10 +94,25 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "식후 혈당이 신경 쓰이면서 장 건강도 함께 챙기고 싶다면 메디오젠의 AG락토·혈당케어가 선택지가 돼요. 50억 CFU 프로바이오틱스에 코로솔산 1.3mg을 조합한 제품으로, 유산균의 장 건강 기능과 코로솔산의 식후 혈당상승 억제 기능을 한 캡슐에 담았어요. 아연·셀렌이 들어간 복합 유산균과 달리 혈당 케어에 집중한 구성이에요. 연한 노란색 분말이 들어 있는 투명 경질캡슐 형태예요.",
-    products: [],
+    products: [
+      {
+        id: "ag------",
+        name: "AG락토혈당케어",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=A%20G%EB%9D%BD%ED%86%A0%ED%98%88%EB%8B%B9%EC%BC%80%EC%96%B4",
+        ingredients: "",
+        usage: "",
+        slug: "AG락토혈당케어",
+      },
+    ],
     sections: [
       {
-        title: "AG락토·혈당케어 성분은 무엇인가요?",
+        title: "AG락토혈당케어 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "AG락토·혈당케어의 기능성 원료는 프로바이오틱스와 코로솔산 두 가지예요. 1캡슐(350mg) 기준 프로바이오틱스 50억 CFU(5,000,000,000 CFU) 이상, 코로솔산 1.3mg이 함유돼 있어요. 성상은 연한 노란색 분말을 함유한 투명 경질캡슐이에요. 대장균군은 음성이며 붕해시험(20분 이내) 적합이에요.",
         ingredients: [
@@ -134,8 +164,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "AG바이옴더퍼스트",
     categorySlug: "유산균",
-    title: "AG바이옴 더 퍼스트 성분 효과 | 215mg 소형 흰색캡슐 100억 복용법 주의사항 총정리",
-    h1: "AG바이옴 더 퍼스트 성분 효과 | 215mg 소형 흰색캡슐 100억 복용법 주의사항 총정리",
+    title: "AG바이옴더퍼스트 가격 성분 효과 | 복용법 부작용 주의사항까지",
+    h1: "AG바이옴더퍼스트 가격 성분 효과 | 복용법 부작용 주의사항까지",
     metaDescription:
       "엠에스바이오텍 AG바이옴 더 퍼스트의 성분, 효과, 복용법, 주의사항을 정리했습니다. 215mg 소형 흰색 경질캡슐에 100억 CFU 프로바이오틱스와 아연 2.55mg을 담은 제품으로 1일 1회 1캡슐 섭취합니다.",
     datePublished: "2026-04-04",
@@ -143,10 +173,25 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "캡슐 크기가 부담스러워 유산균 제품을 꺼리는 분이 있어요. 엠에스바이오텍의 AG바이옴 더 퍼스트는 215mg의 소형 흰색 경질캡슐에 100억 CFU(10,000,000,000 CFU)를 담은 제품이에요. 500mg 이상 대형 캡슐과 달리 소형으로 삼키기 부담이 적어요. 아연 2.55mg이 추가돼 면역 기능도 지원해요. 개봉 후에는 밀봉 보관이 중요한 흡습성 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "ag-------",
+        name: "AG바이옴더퍼스트",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=A%20G%EB%B0%94%EC%9D%B4%EC%98%B4%EB%8D%94%ED%8D%BC%EC%8A%A4%ED%8A%B8",
+        ingredients: "",
+        usage: "",
+        slug: "AG바이옴더퍼스트",
+      },
+    ],
     sections: [
       {
-        title: "AG바이옴 더 퍼스트 성분은 무엇인가요?",
+        title: "AG바이옴더퍼스트 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "AG바이옴 더 퍼스트의 기능성 원료는 프로바이오틱스와 아연이에요. 1캡슐(215mg) 기준 프로바이오틱스 100억 CFU(10,000,000,000 CFU) 이상, 아연 2.55mg이 함유돼 있어요. 215mg이라는 소형 캡슐에 100억 CFU를 담아낸 것이 이 제품의 특징이에요. 성상은 노란 하양색 분말을 함유한 흰색 경질캡슐이에요. 붕해시험(20분 이내) 적합, 대장균군 음성이에요.",
         ingredients: [
@@ -198,8 +243,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "AG바이옴스포츠",
     categorySlug: "유산균",
-    title: "AG바이옴 스포츠 성분 효과 | TWK10 운동수행능력 100억 캡슐 복용법 주의사항 총정리",
-    h1: "AG바이옴 스포츠 성분 효과 | TWK10 운동수행능력 100억 캡슐 복용법 주의사항 총정리",
+    title: "AG바이옴스포츠 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "AG바이옴스포츠 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "코스맥스엔비티 AG바이옴 스포츠의 성분, 효과, 복용법, 주의사항을 정리했습니다. 개별인정형 Lactiplantibacillus plantarum TWK10 100억 CFU를 담은 운동 특화 유산균으로, 영유아·임산부·수유부는 섭취에 주의해야 합니다.",
     datePublished: "2026-04-04",
@@ -207,10 +252,25 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "운동하는 분들을 위해 특별히 설계된 유산균이 있어요. 코스맥스엔비티의 AG바이옴 스포츠는 개별인정형 균주인 Lactiplantibacillus plantarum TWK10을 사용해 운동수행능력 향상에 도움을 줄 수 있는 제품이에요. 식약처 개별인정(제2022-32호)을 받은 균주로, 일반 프로바이오틱스와 차별화된 기능성이에요. 100억 CFU, 연노랑색 내용물이 담긴 불투명 흰색 장방형 경질캡슐이에요. 단, 영·유아, 어린이, 임산부, 수유부는 섭취에 주의해야 해요.",
-    products: [],
+    products: [
+      {
+        id: "ag------",
+        name: "AG바이옴스포츠",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=A%20G%EB%B0%94%EC%9D%B4%EC%98%B4%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+        ingredients: "",
+        usage: "",
+        slug: "AG바이옴스포츠",
+      },
+    ],
     sections: [
       {
-        title: "AG바이옴 스포츠 성분은 무엇인가요?",
+        title: "AG바이옴스포츠 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "AG바이옴 스포츠의 기능성 원료는 두 가지예요. 개별인정형 Lactiplantibacillus plantarum TWK10 프로바이오틱스(제2022-32호)와 일반 프로바이오틱스가 조합돼 있어요. 1캡슐(350mg) 기준 프로바이오틱스 총 100억 CFU(10,000,000,000 CFU) 이상이 함유돼 있어요. 성상은 연노랑색 내용물을 함유한 불투명 흰색 장방형 경질캡슐이에요. 붕해도 20분 이내 적합, 대장균군 음성이에요.",
         ingredients: [
@@ -261,8 +321,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "BNR17TS",
     categorySlug: "유산균",
-    title: "BNR17 TS 성분 효과 | 체지방 감소 BNR17 균주 100억 분말 복용법 주의사항 총정리",
-    h1: "BNR17 TS 성분 효과 | 체지방 감소 BNR17 균주 100억 분말 복용법 주의사항 총정리",
+    title: "BNR17TS 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "BNR17TS 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "서흥 BNR17 TS의 성분, 효과, 복용법, 주의사항을 정리했습니다. 체지방 감소 개별인정형 Lactobacillus gasseri BNR17 100억 CFU와 아연 2.55mg을 담은 분말 제품으로, 뜨거운 물이나 산성 음료와 함께 섭취를 피해야 합니다.",
     datePublished: "2026-04-04",
@@ -270,10 +330,25 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "유산균 중에서 체지방 감소 기능성을 별도로 인정받은 균주는 드물어요. 서흥의 BNR17 TS는 식약처 인정 균주인 Lactobacillus gasseri BNR17을 사용해 체지방 감소에 도움을 줄 수 있는 기능성을 갖춘 제품이에요. 여기에 아연 2.55mg을 더해 면역 기능도 함께 지원해요. 다른 유산균 제품과 달리 뜨거운 물이나 산성도가 낮은 음료와의 병용을 피해야 한다는 점이 중요한 복용 주의사항이에요.",
-    products: [],
+    products: [
+      {
+        id: "bnr17ts",
+        name: "BNR17TS",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=B%20N%20R17%20T%20S",
+        ingredients: "",
+        usage: "",
+        slug: "BNR17TS",
+      },
+    ],
     sections: [
       {
-        title: "BNR17 TS 성분은 무엇인가요?",
+        title: "BNR17TS 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "BNR17 TS의 기능성 원료는 Lactobacillus gasseri BNR17 프로바이오틱스와 아연이에요. 1포(2g) 기준 프로바이오틱스 100억 CFU(10,000,000,000 CFU) 이상, 아연 2.55mg이 함유돼 있어요. 성상은 노란 하얀색 또는 흰 노란색의 분말이에요. 대장균군은 음성이에요.",
         ingredients: [
@@ -281,7 +356,7 @@ export const spokes11: SpokeArticle[] = [
         ],
       },
       {
-        title: "BNR17 TS 효과가 나타나려면 얼마나 걸리나요?",
+        title: "BNR17TS 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "Lactobacillus gasseri BNR17은 체지방 감소에 도움을 줄 수 있어요. 또한 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에도 도움을 줄 수 있어요. 아연은 정상적인 면역기능과 세포분열에 필요해요. 체지방 감소 효과는 규칙적인 운동과 식이 관리와 함께 꾸준히 섭취할 때 의미 있는 결과를 기대할 수 있어요.",
       },
@@ -324,8 +399,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "BYH100억프로바이오틱스",
     categorySlug: "유산균",
-    title: "BYH 100억 프로바이오틱스#5 성분 효과 | 5중 복합 분말 복용법 주의사항 총정리",
-    h1: "BYH 100억 프로바이오틱스#5 성분 효과 | 5중 복합 분말 복용법 주의사항 총정리",
+    title: "BYH100억프로바이오틱스 부작용 주의사항 | 성분 효과 복용법 가격",
+    h1: "BYH100억프로바이오틱스 부작용 주의사항 | 성분 효과 복용법 가격",
     metaDescription:
       "코스맥스엔비티 BYH 100억 프로바이오틱스#5의 성분, 효과, 복용법, 주의사항을 정리했습니다. 100억 CFU 유산균, 아연, 비타민D, 비타민B1, 비타민B6를 담은 5중 복합 3,000mg 분말 제품입니다.",
     datePublished: "2026-04-04",
@@ -333,10 +408,25 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "유산균 한 포에 다섯 가지 기능성 원료가 들어 있다면 어떨까요. 코스맥스엔비티의 BYH 100억 프로바이오틱스#5는 100억 CFU 프로바이오틱스, 아연 8.5mg, 비타민D 10μg, 비타민B1 1.95mg, 비타민B6 2mg을 한 포(3,000mg)에 담은 복합 제품이에요. 장 건강·면역·뼈·에너지대사·단백질 이용까지 다섯 가지 기능을 한 번에 챙기는 구성이에요. 단순 유산균과 달리 포 용량도 3,000mg으로 큰 편이에요.",
-    products: [],
+    products: [
+      {
+        id: "byh100--------",
+        name: "BYH100억프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=B%20Y%20H100%EC%96%B5%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "BYH100억프로바이오틱스",
+      },
+    ],
     sections: [
       {
-        title: "BYH 100억 프로바이오틱스#5 성분은 무엇인가요?",
+        title: "BYH100억프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "BYH 100억 프로바이오틱스#5의 기능성 원료는 프로바이오틱스, 아연, 비타민D, 비타민B1, 비타민B6 다섯 가지예요. 1포(3,000mg) 기준 프로바이오틱스 100억 CFU(10,000,000,000 CFU) 이상, 아연 8.5mg, 비타민D 10μg, 비타민B1 1.95mg, 비타민B6 2mg이 함유돼 있어요. 성상은 노랑하양 또는 흰 노랑색의 입자성 분말이에요. 대장균군은 음성이에요.",
         ingredients: [
@@ -346,7 +436,7 @@ export const spokes11: SpokeArticle[] = [
         ],
       },
       {
-        title: "BYH 100억 프로바이오틱스#5 효과가 나타나려면 얼마나 걸리나요?",
+        title: "BYH100억프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 아연은 면역기능과 세포분열, 비타민D는 칼슘·인 흡수와 뼈 형성·유지, 골다공증 위험 감소에 도움을 줄 수 있어요. 비타민B1은 탄수화물과 에너지 대사에, 비타민B6는 단백질·아미노산 이용과 혈액 호모시스테인 수준 유지에 필요해요. 다섯 가지 기능성이 동시에 작용하는 복합 설계예요.",
       },
@@ -389,8 +479,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "KIBAM유산균",
     categorySlug: "유산균",
-    title: "KIBAM 유산균 성분 효과 | 칼슘 마그네슘 100억 CFU 분말 복용법 주의사항 총정리",
-    h1: "KIBAM 유산균 성분 효과 | 칼슘 마그네슘 100억 CFU 분말 복용법 주의사항 총정리",
+    title: "KIBAM유산균 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "KIBAM유산균 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "내츄럴엔 KIBAM 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 100억 CFU 프로바이오틱스에 칼슘 210mg, 마그네슘 105mg을 담은 연한 흰노랑색 분말로 1일 1회 1포(3g)를 섭취합니다.",
     datePublished: "2026-04-04",
@@ -398,7 +488,22 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "장 건강을 챙기면서 뼈와 근육 건강까지 함께 고려한다면 KIBAM 유산균이 선택지예요. 내츄럴엔의 이 제품은 100억 CFU 프로바이오틱스에 칼슘 210mg과 마그네슘 105mg을 함께 담은 복합 분말이에요. 칼슘은 뼈·치아 형성, 신경·근육 기능, 혈액응고, 골다공증 예방에 기여하고, 마그네슘은 에너지 이용과 신경·근육 기능 유지에 필요해요. 아연이나 비타민D 대신 칼슘·마그네슘으로 뼈 건강을 지원하는 차별화된 구성이에요.",
-    products: [],
+    products: [
+      {
+        id: "kibam---",
+        name: "KIBAM유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=K%20I%20B%20A%20M%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "KIBAM유산균",
+      },
+    ],
     sections: [
       {
         title: "KIBAM 유산균 성분은 무엇인가요?",
@@ -409,7 +514,7 @@ export const spokes11: SpokeArticle[] = [
         ],
       },
       {
-        title: "KIBAM 유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "KIBAM유산균 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "칼슘은 뼈와 치아 형성에 필요하고, 신경과 근육 기능 유지, 정상적인 혈액응고, 골다공증 발생 위험 감소에 도움을 줄 수 있어요. 마그네슘은 에너지 이용과 신경·근육 기능 유지에 필요해요. 프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 세 가지 기능성이 함께 작용하는 복합 설계예요.",
       },
@@ -452,8 +557,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "G7혼합유산균",
     categorySlug: "유산균",
-    title: "G7 혼합유산균 성분 효과 | 풀무원 식사 후 1일 3회 복용법 주의사항 총정리",
-    h1: "G7 혼합유산균 성분 효과 | 풀무원 식사 후 1일 3회 복용법 주의사항 총정리",
+    title: "G7혼합유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
+    h1: "G7혼합유산균 최저가 가격 | 성분 효과 복용법 부작용까지",
     metaDescription:
       "풀무원건강생활 G7 혼합유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 7종 균주를 조합한 흰노란색 분말로 1일 3회 식사 후 1포씩 섭취하는 4억 CFU 프로바이오틱스입니다.",
     datePublished: "2026-04-04",
@@ -461,7 +566,22 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "하루 세 번 식사마다 챙기는 유산균이 있어요. 풀무원건강생활의 G7 혼합유산균은 1일 3회, 식사 후마다 1포씩 섭취하는 유산균이에요. 하루 한 번 섭취하는 제품과 달리 식사 리듬에 맞춰 균을 공급하는 방식이에요. 4억 CFU(4.0×10⁸ CFU)의 7종 균주가 혼합된 흰노란색 분말로, 개봉 후에는 가급적 빨리 섭취하는 것이 권장돼요.",
-    products: [],
+    products: [
+      {
+        id: "g7-----",
+        name: "G7혼합유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=G7%ED%98%BC%ED%95%A9%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "G7혼합유산균",
+      },
+    ],
     sections: [
       {
         title: "G7 혼합유산균 성분은 무엇인가요?",
@@ -472,7 +592,7 @@ export const spokes11: SpokeArticle[] = [
         ],
       },
       {
-        title: "G7 혼합유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "G7혼합유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "G7 혼합유산균은 유익한 유산균 증식, 유해균 억제 또는 배변활동 원활에 도움을 줄 수 있어요. 1일 3회 식사 후 섭취로 하루 총 12억 CFU 이상을 공급할 수 있어요. 7종 균주의 복합 조합이 장 내 다양한 환경에서 작용할 수 있어요.",
       },
@@ -515,8 +635,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "DailyWise리스펙타유산균",
     categorySlug: "유산균",
-    title: "Daily Wise 리스펙타 유산균 성분 효과 | 여성 질 건강 락토페린 24개월 복용법 총정리",
-    h1: "Daily Wise 리스펙타 유산균 성분 효과 | 여성 질 건강 락토페린 24개월 복용법 총정리",
+    title: "DailyWise리스펙타유산균 성분 효과 복용법 | 가격 부작용 주의사항",
+    h1: "DailyWise리스펙타유산균 성분 효과 복용법 | 가격 부작용 주의사항",
     metaDescription:
       "코스맥스엔비티 Daily Wise 리스펙타 유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 개별인정형 Respecta® 균주로 질내 유익균 증식을 지원하고, 락토페린 54mg이 포함된 24개월 유통기한 여성 특화 유산균입니다.",
     datePublished: "2026-04-04",
@@ -524,10 +644,25 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "여성의 질 건강까지 고려한 유산균을 찾는다면 DailyWise 리스펙타 유산균이 해당돼요. 코스맥스엔비티의 이 제품은 식약처 개별인정형 균주 Respecta®를 사용해 질내 유익균 증식 및 유해균 억제에 도움을 줄 수 있는 기능성을 갖췄어요. 여기에 락토페린 54mg이 추가돼 있어요. 유통기한도 제조일로부터 24개월로, 18개월 제품 대비 6개월 더 길어요. 연한 노란 분홍색 분말에 원료 고유의 붉은 입자가 섞여 있을 수 있는데 정상 성상이에요.",
-    products: [],
+    products: [
+      {
+        id: "dailywise-------",
+        name: "DailyWise리스펙타유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=Daily%20Wise%EB%A6%AC%EC%8A%A4%ED%8E%99%ED%83%80%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "DailyWise리스펙타유산균",
+      },
+    ],
     sections: [
       {
-        title: "Daily Wise 리스펙타 유산균 성분은 무엇인가요?",
+        title: "DailyWise리스펙타유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "DailyWise 리스펙타 유산균의 기능성 원료는 리스펙타(Respecta®) 복합물(개별인정 제2019-26호)과 일반 프로바이오틱스 두 가지예요. 1포(1,500mg) 기준 프로바이오틱스 50억 CFU(5,000,000,000 CFU) 이상, 락토페린 54mg이 함유돼 있어요. 성상은 연한 노란 분홍색 분말로, 원료 고유의 붉은색 입자가 섞여 있을 수 있어요. 대장균군은 음성이에요.",
         ingredients: [
@@ -535,7 +670,7 @@ export const spokes11: SpokeArticle[] = [
         ],
       },
       {
-        title: "Daily Wise 리스펙타 유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "DailyWise리스펙타유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "리스펙타(Respecta®) 복합물은 질내 유익균 증식 및 유해균 억제에 도움을 줄 수 있어요(개별인정 제2019-26호). 일반 프로바이오틱스는 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강에 도움을 줄 수 있어요. 질 건강 관련 효과는 꾸준한 섭취로 확인해보는 것이 중요해요.",
       },
@@ -578,8 +713,8 @@ export const spokes11: SpokeArticle[] = [
   {
     slug: "DK디케이119유산균",
     categorySlug: "유산균",
-    title: "DK(디케이)119유산균 성분 효과 | 미황색 분말 1억 CFU 복용법 주의사항 총정리",
-    h1: "DK(디케이)119유산균 성분 효과 | 미황색 분말 1억 CFU 복용법 주의사항 총정리",
+    title: "DK디케이119유산균 복용법 부작용 | 성분 효과 가격 비교",
+    h1: "DK디케이119유산균 복용법 부작용 | 성분 효과 가격 비교",
     metaDescription:
       "엠에스바이오텍 DK(디케이)119유산균의 성분, 효과, 복용법, 주의사항을 정리했습니다. 미황색 분말 형태로 1일 1회 1포를 섭취하는 1억 CFU 프로바이오틱스입니다.",
     datePublished: "2026-04-04",
@@ -587,10 +722,25 @@ export const spokes11: SpokeArticle[] = [
     description: "",
     heroDescription:
       "엠에스바이오텍의 DK(디케이)119유산균은 미황색 분말 형태의 단순한 프로바이오틱스예요. 1억 CFU(100,000,000 CFU)로 유산균 함량이 낮은 편이고, 추가 성분 없이 프로바이오틱스 단일 구성이에요. 주의사항도 알레르기 체질 확인과 포장재 상처 주의로 간단하게 정리돼 있어요. 복잡한 복합 성분 없이 기본 프로바이오틱스 기능만 원하는 분께 부담 없이 시작할 수 있는 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "dk---119---",
+        name: "DK디케이119유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=D%20K%EB%94%94%EC%BC%80%EC%9D%B4119%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "DK디케이119유산균",
+      },
+    ],
     sections: [
       {
-        title: "DK(디케이)119유산균 성분은 무엇인가요?",
+        title: "DK디케이119유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "DK(디케이)119유산균의 기능성 원료는 프로바이오틱스 단일 성분이에요. 1포(2g) 기준 1억 CFU(100,000,000 CFU) 이상이 보장돼요. 성상은 미황색 분말로 이미·이취가 없어요. 대장균군은 음성이에요. 추가 비타민이나 미네랄 없이 프로바이오틱스 본연에만 집중한 구성이에요.",
         ingredients: [
@@ -598,7 +748,7 @@ export const spokes11: SpokeArticle[] = [
         ],
       },
       {
-        title: "DK(디케이)119유산균 효과가 나타나려면 얼마나 걸리나요?",
+        title: "DK디케이119유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "DK(디케이)119유산균은 유산균 증식 및 유해균 억제, 배변활동 원활에 도움을 줄 수 있어요. 1억 CFU 저함량으로 자극이 적어 처음 유산균을 시작하는 분이나 민감한 분께 적합해요. 꾸준한 섭취로 장 환경 변화를 확인해보세요.",
       },

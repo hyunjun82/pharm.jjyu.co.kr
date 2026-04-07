@@ -32,7 +32,22 @@ export const spokes: Record<string, SpokeArticle> = {
       "뉴트리원 프로바이오틱스 100억 CFU 캡슐형 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "아연이나 비타민D 같은 추가 성분 없이 유산균 100억 CFU에만 집중한 제품을 찾는 분들이 뉴트리원 프로바이오틱스를 선택해요. 콜마비앤에이치(주)에서 만드는 이 제품은 캡슐 1개(450mg)에 프로바이오틱스 100억 CFU를 담은 단일 구성이에요. 복합 기능성 제품보다 유산균 본연의 효과에 집중하고 싶은 분에게 맞는 선택이에요.",
-    products: [],
+    products: [
+      {
+        id: "-----------",
+        name: "뉴트리원프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%89%B4%ED%8A%B8%EB%A6%AC%EC%9B%90%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "뉴트리원프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "뉴트리원 프로바이오틱스 언제 먹는 게 좋나요?",
@@ -52,7 +67,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "뉴트리원 프로바이오틱스 성분은 무엇인가요?",
+        title: "뉴트리원프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지",
         content:
           "캡슐 1개(450mg)에 프로바이오틱스 100억 CFU가 담겨 있어요. 아연·비타민D처럼 추가 영양소 없이 프로바이오틱스 단일 구성이에요. 다른 복합 제품보다 성분이 단순한 대신, 유산균 본연의 기능성에 집중한 구성이에요.\n\n제형은 노란 하얀색 분말을 담은 투명한 경질캡슐이에요. 고유의 향미가 있고 이미·이취가 없는 것이 정품 기준이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과한 제품이에요.\n\n식약처 프로바이오틱스 함량 기준(1억~1,000억 CFU) 안에서 100억 CFU는 중상위 함량이에요. 처음 유산균을 시작하는 분보다는 이미 저함량 제품을 섭취하다가 함량을 높이려는 분에게 적합한 함량이에요.",
         ingredients: [
@@ -102,7 +117,22 @@ export const spokes: Record<string, SpokeArticle> = {
       "비피도 라이브 비피더스 장용성 캡슐 100억 CFU + 아연 + 비타민D 복합 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "유산균이 위산을 통과하면서 살아서 장까지 도달하는지 걱정해본 적 있다면 장용성 캡슐 제품이 선택지에 오를 거예요. (주)비피도의 라이브 비피더스는 위산을 견디는 장용성 코팅 캡슐에 프로바이오틱스 100억 CFU와 아연, 비타민D까지 담았어요. 냉장 보관이 필요하다는 점이 다른 유산균과 크게 다른 부분이에요.",
-    products: [],
+    products: [
+      {
+        id: "----------",
+        name: "비피도라이브비피더스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%B9%84%ED%94%BC%EB%8F%84%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%B9%84%ED%94%BC%EB%8D%94%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "비피도라이브비피더스",
+      },
+    ],
     faq: [
       {
         question: "비피도 라이브 비피더스 냉장 보관 꼭 해야 하나요?",
@@ -122,7 +152,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "비피도 라이브 비피더스 성분은 무엇인가요?",
+        title: "비피도라이브비피더스 복용법 부작용 | 성분 효과 가격 비교",
         content:
           "캡슐 1개(500mg)에 프로바이오틱스 100억 CFU, 아연 8.5mg, 비타민D 15ug(600IU)이 함께 담겨 있어요. 프로바이오틱스만 들어있는 단일 제품들과 달리, 이 제품은 유산균·면역·뼈 건강을 1캡슐로 동시에 챙길 수 있어요.\n\n가장 큰 특징은 **장용성 경질캡슐**이에요. 일반 캡슐은 위산에서 일부 유산균이 손상되는 반면, 장용성 캡슐은 위산 환경(제1액)에서 120분 이상 버티고 장 환경(제2액)에서 60분 이내 방출되는 기준을 통과해야 해요. 살아있는 유산균이 장에 더 안정적으로 도달하는 구조예요.\n\n아연 8.5mg은 성인 하루 권장 섭취량(8.5~10mg)에 해당하는 양이에요. 비타민D 600IU는 한국인 영양소 섭취기준(400~800IU) 범위 안이에요.",
         ingredients: [
@@ -184,7 +214,22 @@ export const spokes: Record<string, SpokeArticle> = {
       "프롬바이오 유산균 for 우먼 10억 CFU 여성 전용 소형 캡슐 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "유산균을 고를 때 나에게 맞는 균주와 함량을 찾다가 여성 전용 제품을 검색하게 되는 경우가 있어요. 프롬바이오 유산균 for 우먼은 코스맥스엔비티(주)에서 만든 여성 타겟 유산균으로, 캡슐 1개(170mg)에 프로바이오틱스 10억 CFU가 담겨 있어요. 100억 CFU 고함량 제품이 장에 부담스럽게 느껴지거나 처음 유산균을 시작하는 여성이라면 고려해볼 수 있는 저함량 제품이에요.",
-    products: [],
+    products: [
+      {
+        id: "--------",
+        name: "프롬바이오유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%ED%94%84%EB%A1%AC%EB%B0%94%EC%9D%B4%EC%98%A4%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "프롬바이오유산균",
+      },
+    ],
     faq: [
       {
         question: "프롬바이오 유산균 10억 CFU가 너무 적은 건 아닌가요?",
@@ -204,7 +249,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "프롬바이오 유산균 for 우먼 성분은 무엇인가요?",
+        title: "프롬바이오유산균 부작용 주의사항 | 성분 효과 복용법 가격",
         content:
           "캡슐 1개(170mg)에 프로바이오틱스 10억 CFU가 담겨 있어요. 식약처 프로바이오틱스 함량 기준(1억~1,000억 CFU) 안에서 10억 CFU는 저함량 구간이에요. 100억 CFU 고함량 제품에 비해 장 적응이 부드럽고 초기 가스나 복부 팽만이 적게 나타나는 경향이 있어요.\n\n제형은 노란 하양색 분말을 담은 투명한 장방형 경질캡슐이에요. 일반 원통형 캡슐보다 납작한 장방형으로 삼키기 수월해요. 붕해 20분 이내, 대장균군 음성 기준을 통과한 제품이에요.\n\n아연·비타민D 같은 추가 성분 없이 프로바이오틱스 단일 구성이에요. 복합 영양소를 별도로 챙기면서 유산균만 따로 관리하고 싶은 분에게 맞는 구성이에요.",
         ingredients: [
@@ -254,7 +299,22 @@ export const spokes: Record<string, SpokeArticle> = {
       "닥터린 유산균 100억 CFU 소형 경질캡슐 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "캡슐형 유산균 100억 CFU를 찾는데 캡슐 크기가 부담스럽다는 분들이 닥터린 유산균을 선택하는 경우가 많아요. (주)팜크로스에서 만드는 이 제품은 캡슐 1개가 230mg으로, 같은 100억 CFU 함량의 다른 캡슐 제품들(450~500mg)보다 캡슐 크기가 작아요. 고함량을 유지하면서 삼키기 편한 소형 캡슐을 원한다면 선택지가 될 수 있어요.",
-    products: [],
+    products: [
+      {
+        id: "------",
+        name: "닥터린유산균",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%8B%A5%ED%84%B0%EB%A6%B0%EC%9C%A0%EC%82%B0%EA%B7%A0",
+        ingredients: "",
+        usage: "",
+        slug: "닥터린유산균",
+      },
+    ],
     faq: [
       {
         question: "닥터린 유산균 캡슐 크기가 실제로 작은가요?",
@@ -274,7 +334,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "닥터린 유산균 성분은 무엇인가요?",
+        title: "닥터린유산균 성분 효과 복용법 | 가격 부작용 주의사항",
         content:
           "캡슐 1개(230mg)에 프로바이오틱스 100억 CFU가 담겨 있어요. 같은 100억 CFU 함량에서 뉴트리원(450mg)·듀오락(500mg)보다 캡슐 크기가 작은 편이에요. 아연·비타민D 같은 추가 성분 없이 프로바이오틱스 단일 구성이에요.\n\n제형은 흰노랑색 내용물을 담은 투명한 경질캡슐이에요. 고유의 향미가 있고 이미·이취가 없는 것이 정품 기준이에요. 대장균군 음성, 붕해 20분 이내 기준을 통과한 제품이에요.\n\n식약처 프로바이오틱스 함량 기준(1억~1,000억 CFU) 안에서 100억 CFU는 중상위 함량이에요. 고함량을 원하면서 캡슐 크기 부담을 줄이고 싶은 분에게 맞는 선택이에요.",
         ingredients: [
@@ -324,7 +384,22 @@ export const spokes: Record<string, SpokeArticle> = {
       "대웅제약 프로바이오틱스 100억 CFU + 아연 복합 분말포 유산균의 성분, 기능성, 복용법, 주의사항 정보예요.",
     heroDescription:
       "대웅제약 브랜드의 유산균을 찾는다면 100억 프로바이오틱스 생유산균 맥스가 눈에 띌 거예요. 코스맥스엔비티(주)에서 제조하는 이 제품은 1포(2000mg)에 프로바이오틱스 100억 CFU와 아연 8.5mg이 담긴 분말포예요. 종근당 락토핏 골드처럼 분말 타입이지만, 물 없이 섭취하는 락토핏 골드와 달리 물과 함께 마시는 방식이에요.",
-    products: [],
+    products: [
+      {
+        id: "---------",
+        name: "대웅프로바이오틱스",
+        image: "",
+        category: "건강기능식품",
+        categorySlug: "유산균",
+        description: "",
+        price: 0,
+        unit: "",
+        externalSearchUrl: "https://search.shopping.naver.com/search/all?query=%EB%8C%80%EC%9B%85%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+        ingredients: "",
+        usage: "",
+        slug: "대웅프로바이오틱스",
+      },
+    ],
     faq: [
       {
         question: "대웅제약 프로바이오틱스 분말을 물에 녹여서 마셔야 하나요?",
@@ -344,7 +419,7 @@ export const spokes: Record<string, SpokeArticle> = {
     ],
     sections: [
       {
-        title: "대웅제약 프로바이오틱스 성분은 무엇인가요?",
+        title: "대웅프로바이오틱스 가격 성분 효과 | 복용법 부작용 주의사항까지",
         content:
           "1포(2000mg)에 프로바이오틱스 100억 CFU와 아연 8.5mg이 담겨 있어요. 분말 제형이라 1포 중량이 2000mg으로, 캡슐형 100억 제품들(230~500mg)보다 훨씬 많은 양이에요. 분말에는 프로바이오틱스 외에 아연과 부형제가 포함돼 전체 중량이 커요.\n\n성상은 노랑 하양색의 입자성이 있는 분말이에요. 고유의 향미가 있고 이미·이취가 없는 것이 정품 기준이에요. 대장균군 음성 기준을 통과한 제품이에요.\n\n아연 8.5mg은 성인 하루 권장 섭취량(8.5~10mg)에 해당하는 양이에요. 락토핏 골드(아연 2.55mg)보다 아연 함량이 높아, 아연을 더 많이 챙기고 싶은 분에게 맞는 구성이에요.",
         ingredients: [
