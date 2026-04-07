@@ -393,7 +393,6 @@ export const spokes16: SpokeArticle[] = [
       }
     ],
     products: [{ id: "3-스텝활성유산균", name: "3-스텝활성유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=3-%EC%8A%A4%ED%85%9D%ED%99%9C%EC%84%B1%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "3-스텝활성유산균" }],
-    products: [{ id: "3-스텝활성유산균", name: "3-스텝활성유산균", image: "", category: "건강기능식품", categorySlug: "유산균", description: "", price: 0, unit: "", externalSearchUrl: "https://search.shopping.naver.com/search/all?query=3-%EC%8A%A4%ED%85%9D%ED%99%9C%EC%84%B1%EC%9C%A0%EC%82%B0%EA%B7%A0", ingredients: "", usage: "", slug: "3-스텝활성유산균" }],
     faq: [
       {
         question: "0.4g 캡슐이 너무 작으면 효과가 덜한가요?",

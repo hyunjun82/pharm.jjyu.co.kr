@@ -753,7 +753,7 @@ export const spokes11: SpokeArticle[] = [
         ingredients: [
           { type: "주성분", name: "리스펙타(Respecta®) 복합물", amount: "(개별인정 제2019-26호)", role: "질내 유익균 증식 및 유해균 억제에 도움" },
           { type: "주성분", name: "프로바이오틱스", amount: "5,000,000,000 (50억) CFU/이상 (1,500mg 기준)", role: "유산균 증식·유해균 억제, 배변활동 원활, 장 건강" },
-          { type: "부성분", name: "락토페린", amount: "54mg (1,500mg 기준)", role: "포함 원료" },
+          { type: "첨가제", name: "락토페린", amount: "54mg (1,500mg 기준)", role: "포함 원료" },
         ],
       },
       {
