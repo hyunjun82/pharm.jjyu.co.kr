@@ -20,6 +20,9 @@ import { spokes18 } from "./유산균-18";
 import { spokes19 } from "./유산균-19";
 import { spokes20 } from "./유산균-20";
 import { spokes21 } from "./유산균-21";
+import { spokes22 } from "./유산균-22";
+import { spokes23 } from "./유산균-23";
+import { spokes24 } from "./유산균-24";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -634,6 +637,9 @@ export const hub: HubArticle = {
     { slug: "굿베이스유산균", title: "굿베이스 유산균 성분 효과 | 복용법 부작용까지", description: "5억 CFU+아연+비타민D+칼슘 분말. 1일 1회, 1회 2정(2.4 g). (주)서흥. 제조일부터 18개월." },
     { slug: "굿베이스유산균에센스", title: "굿베이스 유산균 에센스 성분 효과 | 복용법 부작용까지", description: "10억 CFU+아연 분말. 1일 1회, 1회 2정(2.4g). (주)서흥. 제조일부터 18개월 ." },
     { slug: "굿앤키즈맛있는생유산균", title: "굿앤키즈 맛있는 생유산균 성분 효과 | 복용법 부작용까지", description: "1억 CFU+아연+비타민D+셀레늄+칼슘 분말. 1일 1회, 1회 1포. 엠에스바이오텍(주). 제조일로부터 18개월." },
+    { slug: "듀오락시그니처유산균", title: "듀오락시그니처유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "50억 CFU 캡슐형. 1일 1회, 1회 1캡슐(350mg). (주)쎌바이오텍. 제조일로부터 24개월." },
+    { slug: "듀오락순수유산균", title: "듀오락순수유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "10억 CFU 분말형. 1일 1회, 1회 1포(1g). (주)쎌바이오텍. 제조일로부터 24개월." },
+    { slug: "락토핏생유산균코어", title: "락토핏생유산균코어 성분 효과 | 유산균 복용법 부작용 총정리", description: "10억 CFU 분말형. 1일 1회, 1회 1포. 종근당건강(주). 제조일로부터 24개월." },
   ],
 };
 
@@ -9230,4 +9236,7 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes19.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes20.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes21.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes22.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes23.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes24.map((s) => [s.slug, s])),
 };
