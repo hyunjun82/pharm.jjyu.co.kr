@@ -74,3 +74,4 @@ next-env.d.ts
 .vscode/
 .playwright-mcp/
 .claude/
+_workspace/
