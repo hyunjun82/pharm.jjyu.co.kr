@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { hubArticles, getSpokeIndex } from "@/data/articles";
 
+export const dynamic = "force-static";
+
 const BASE_URL = "https://pharm.jjyu.co.kr";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
