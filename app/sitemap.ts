@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
-import { hubArticles, spokeArticles } from "@/data/articles";
+import { hubArticles, getSpokeIndex } from "@/data/articles";
 
 const BASE_URL = "https://pharm.jjyu.co.kr";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date().toISOString();
+  const spokeIndex = await getSpokeIndex();
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
@@ -18,7 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const spokePages: MetadataRoute.Sitemap = Object.entries(spokeArticles).flatMap(
+  const spokePages: MetadataRoute.Sitemap = Object.entries(spokeIndex).flatMap(
     ([category, articles]) =>
       Object.values(articles).map((article) => ({
         url: `${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}`,
