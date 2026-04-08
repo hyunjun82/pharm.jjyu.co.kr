@@ -24,6 +24,7 @@ import { spokes22 } from "./유산균-22";
 import { spokes23 } from "./유산균-23";
 import { spokes24 } from "./유산균-24";
 import { spokes25 } from "./유산균-25";
+import { spokes26 } from "./유산균-26";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -599,6 +600,16 @@ export const hub: HubArticle = {
     { slug: "날씬다이어트앤유산균17", title: "날씬다이어트앤유산균17 성분 효과 | 유산균 복용법 부작용 총정리", description: "HCA 750mg+1억 CFU+비타민B1·B2 캡슐. 1일 2회, 1회 2캡슐. (주)팜투팜2공장. 제조일로부터 24개월." },
     { slug: "굿키즈앤베베유산균", title: "굿키즈앤베베유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "10억 CFU+아연+비타민D 분말. 1일 1회, 1회 1포. 동서바이오팜(주). 제조일로부터 24개월." },
     { slug: "금단미인우리유산균", title: "금단미인우리유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "2억 CFU 캡슐. 1일 1회, 1회 1캡슐. (주)한풍네이처팜. 제조일로부터 18개월." },
+    { slug: "날씬다이어트유산균", title: "날씬다이어트유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "가르시니아 HCA 750mg+10억 CFU+비타민C 100mg 분말. 1일 1회, 1회 1포. (주)웰레스트. 18개월." },
+    { slug: "날씬다이어트유산균17", title: "날씬다이어트유산균17 성분 효과 | 유산균 복용법 부작용 총정리", description: "녹차추출물 카테킨 300mg+1억 CFU 경질캡슐. 1일 1회, 2캡슐. (주)아오스. 18개월." },
+    { slug: "날씬다이어트유산균17프로", title: "날씬다이어트유산균17프로 최저가 가격 | 성분 효과 복용법 부작용까지", description: "녹차추출물 카테킨 300mg+1억 CFU 경질캡슐. 1일 1회, 2캡슐. (주)아오스. 18개월." },
+    { slug: "날씬한다이어트생유산균", title: "날씬한다이어트생유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "가르시니아 HCA 750mg+1억 CFU+비타민C 100mg 분말. 1일 1회, 1회 1포. 주식회사 아람. 18개월." },
+    { slug: "남양유업6종혼합유산균", title: "남양유업6종혼합유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "6종 3,000억 CFU/g 고농축 원료용. 일동바이오사이언스(주). 24개월." },
+    { slug: "남유네유산균앤비타민C", title: "남유네유산균앤비타민C 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU+비타민C 50mg 분말. 1일 1회, 1회 1포. 주식회사 아람. 12개월." },
+    { slug: "남유네유산균앤아연", title: "남유네유산균앤아연 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+아연 6mg 분말. 1일 1회, 1회 1포. 주식회사 아람. 12개월." },
+    { slug: "내몸다운피부유산균", title: "내몸다운피부유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+피부유산균+비타민D+비오틴+아연+셀레늄 분말. 1일 1회, 1포. 코스맥스엔비티(주). 18개월." },
+    { slug: "내몸애愛유산균", title: "내몸애유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "5억 CFU+아연 8.5mg 분말. 1일 1회, 1포(3g). (주)알피바이오. 24개월." },
+    { slug: "내몸애愛유산균플러스", title: "내몸애유산균플러스 성분 효과 | 유산균 복용법 부작용 총정리", description: "자일로올리고당 700mg+50억 CFU+아연 8.5mg 분말. 1일 1회, 1포. (주)알피바이오. 24개월." },
   ],
 };
 
@@ -9199,4 +9210,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes23.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes24.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes25.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes26.map((s) => [s.slug, s])),
 };
