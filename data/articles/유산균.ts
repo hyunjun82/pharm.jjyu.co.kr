@@ -23,6 +23,7 @@ import { spokes21 } from "./유산균-21";
 import { spokes22 } from "./유산균-22";
 import { spokes23 } from "./유산균-23";
 import { spokes24 } from "./유산균-24";
+import { spokes25 } from "./유산균-25";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -588,6 +589,16 @@ export const hub: HubArticle = {
     { slug: "듀오락시그니처유산균", title: "듀오락시그니처유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU 캡슐형. 1일 1회, 1회 1캡슐(350mg). (주)쎌바이오텍. 제조일로부터 24개월." },
     { slug: "듀오락순수유산균", title: "듀오락순수유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU 분말형. 1일 1회, 1회 1포(1g). (주)쎌바이오텍. 제조일로부터 24개월." },
     { slug: "락토핏생유산균코어", title: "락토핏생유산균코어 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU 분말형. 1일 1회, 1회 1포. 종근당건강(주). 제조일로부터 24개월." },
+    { slug: "굿앤키즈유산균", title: "굿앤키즈유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "1억 CFU+아연 분말. 1일 1회, 1회 1포. 엠에스바이오텍(주). 제조일로부터 18개월." },
+    { slug: "그린핏유산균", title: "그린핏유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "25억 CFU+프락토올리고당+아연 분말. 1일 3회, 1회 1포. 엠에스바이오텍(주). 제조일로부터 18개월." },
+    { slug: "기억력앤유산균", title: "기억력앤유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "은행잎추출물+1억 CFU 캡슐. 1일 1회, 1회 1캡슐. (주)팜투팜2공장. 제조일로부터 18개월." },
+    { slug: "김소형원방100억생유산균", title: "김소형원방100억생유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU 캡슐. 1일 1회, 1회 1캡슐. 엠에스바이오텍(주). 제조일로부터 24개월." },
+    { slug: "김오곤원장의생유산균멀티비타민플러스", title: "김오곤원장의생유산균멀티비타민플러스 성분 효과 | 유산균 복용법 부작용 총정리", description: "1억 CFU+비타민B1·B2·B6·D+아연 분말. 1일 1회, 1회 1포. (주)비오팜. 제조일로부터 18개월." },
+    { slug: "김치유산균키즈", title: "김치유산균키즈 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU+비타민A·C+아연 분말. 1일 1회, 1회 1포(2g). (주)바이오리듬. 제조일로부터 2년." },
+    { slug: "꽃마생유산균", title: "꽃마생유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "3억 CFU 분말. 1일 3회, 1회 1포. (주)뉴팜. 제조일로부터 24개월." },
+    { slug: "날씬다이어트앤유산균17", title: "날씬다이어트앤유산균17 성분 효과 | 유산균 복용법 부작용 총정리", description: "HCA 750mg+1억 CFU+비타민B1·B2 캡슐. 1일 2회, 1회 2캡슐. (주)팜투팜2공장. 제조일로부터 24개월." },
+    { slug: "굿키즈앤베베유산균", title: "굿키즈앤베베유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "10억 CFU+아연+비타민D 분말. 1일 1회, 1회 1포. 동서바이오팜(주). 제조일로부터 24개월." },
+    { slug: "금단미인우리유산균", title: "금단미인우리유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "2억 CFU 캡슐. 1일 1회, 1회 1캡슐. (주)한풍네이처팜. 제조일로부터 18개월." },
   ],
 };
 
@@ -9187,4 +9198,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes22.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes23.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes24.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes25.map((s) => [s.slug, s])),
 };
