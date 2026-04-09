@@ -32,6 +32,7 @@ import { spokes30 } from "./유산균-30";
 import { spokes31 } from "./유산균-31";
 import { spokes32 } from "./유산균-32";
 import { spokes33 } from "./유산균-33";
+import { spokes34 } from "./유산균-34";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -657,6 +658,16 @@ export const hub: HubArticle = {
     { slug: "닥터생유산균프리미엄", title: "닥터생유산균프리미엄 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+비타민D 3μg 흰분홍색 분말(2,000mg). 1일 1회, 1포. 헬스앤라이프. 18개월." },
     { slug: "닥터스드림레이디타임유산균", title: "닥터스드림레이디타임유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "30억 CFU+아연 2.55mg 경질캡슐(500mg). 1일 1회, 1캡슐. 엔피케이(주). 18개월." },
     { slug: "닥터스드림베이비타임유산균D", title: "닥터스드림베이비타임유산균D 부작용 주의사항 | 성분 효과 복용법 가격", description: "11억 CFU+비타민D 10μg 분말(2,000mg). 1일 1회, 1포. 엔피케이(주). 18개월." },
+    { slug: "닥터스드림올케어유산균", title: "닥터스드림올케어유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "11억 CFU+비타민D 10μg+아연 2.55mg 분말(2,000mg). 1일 1회, 1포. 엔피케이(주). 18개월." },
+    { slug: "닥터아람혈당100억유산균", title: "닥터아람혈당100억유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "바나바잎추출물(코로솔산 1.3mg)+100억 CFU 경질캡슐(450mg). 1일 1회, 1캡슐. 엠에스바이오텍(주). 18개월." },
+    { slug: "닥터에스유산균19닥터S유산균19", title: "닥터에스유산균19 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU+비타민D 5μg+아연 2.55mg 경질캡슐(430mg). 1일 1회, 1캡슐. (주)씨티씨바이오. 18개월." },
+    { slug: "닥터와이릴리유산균", title: "닥터와이릴리유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "30억 CFU+아연 2.55mg 초소형 경질캡슐(180mg). 1일 1회, 1캡슐. (주)메디오젠. 18개월." },
+    { slug: "닥터와이칼미아다이어트유산균", title: "닥터와이칼미아다이어트유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU+카테킨 300mg 경질캡슐(1,000mg/2캡슐). 1일 1회, 2캡슐. (주)메디오젠. 18개월." },
+    { slug: "닥터유산균솔루션100억", title: "닥터유산균솔루션100억 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억 CFU 단일 성분 분말(2,000mg). 1일 1회, 1포. 코스맥스엔비티(주). 18개월." },
+    { slug: "닥터유산균솔루션숨쉬는N", title: "닥터유산균솔루션숨쉬는N 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU 단일 성분 분말(2,000mg). 1일 1회, 1포. 코스맥스엔비티(주). 18개월." },
+    { slug: "닥터유산균프리미엄", title: "닥터유산균프리미엄 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "2.5억 CFU 분말(2,000mg). 1일 1회, 1포 식후. (주)한풍네이처팜. 24개월." },
+    { slug: "닥터유산균프리미엄알파", title: "닥터유산균프리미엄알파 복용법 부작용 | 성분 효과 가격 비교", description: "50억 CFU 분말(2,000mg). 1일 1회, 1포 식후. (주)한풍네이처팜. 24개월." },
+    { slug: "닥터윰이너케어100억생유산균", title: "닥터윰이너케어100억생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "셀레늄 55μg+아연 8.5mg+100억 CFU 경질캡슐(350mg). 1일 1회, 1캡슐. 엠에스바이오텍(주). 18개월." },
   ],
 };
 
@@ -9265,4 +9276,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes31.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes32.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes33.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes34.map((s) => [s.slug, s])),
 };
