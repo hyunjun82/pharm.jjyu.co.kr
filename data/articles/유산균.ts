@@ -25,6 +25,7 @@ import { spokes23 } from "./유산균-23";
 import { spokes24 } from "./유산균-24";
 import { spokes25 } from "./유산균-25";
 import { spokes26 } from "./유산균-26";
+import { spokes27 } from "./유산균-27";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -610,6 +611,16 @@ export const hub: HubArticle = {
     { slug: "내몸다운피부유산균", title: "내몸다운피부유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+피부유산균+비타민D+비오틴+아연+셀레늄 분말. 1일 1회, 1포. 코스맥스엔비티(주). 18개월." },
     { slug: "내몸애愛유산균", title: "내몸애유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "5억 CFU+아연 8.5mg 분말. 1일 1회, 1포(3g). (주)알피바이오. 24개월." },
     { slug: "내몸애愛유산균플러스", title: "내몸애유산균플러스 성분 효과 | 유산균 복용법 부작용 총정리", description: "자일로올리고당 700mg+50억 CFU+아연 8.5mg 분말. 1일 1회, 1포. (주)알피바이오. 24개월." },
+    { slug: "내몸애그린식물성유산균", title: "내몸애그린 식물성 유산균 성분 효과 | 유산균 복용법 부작용 가이드", description: "1억 CFU 프로바이오틱스 분말. 1일 1회, 1포. 주)팜크로스. 18개월." },
+    { slug: "내몸에맞는생유산균", title: "내몸에 맞는 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "20억 CFU 프로바이오틱스 분말. 1일 1회, 1포(2g). (주)쎌바이오텍. 24개월." },
+    { slug: "내몸에유산균10억", title: "내몸에 유산균 10억 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+아연 8.5mg+셀렌 55μg 분말. 1일 1회, 1포. 콜마비앤에이치(주). 18개월." },
+    { slug: "내추럴힐식물성유산균", title: "내추럴힐 식물성 유산균 성분 효과 | 유산균 복용법 부작용 가이드", description: "10억 CFU+비타민C 30mg+비타민D 10μg+아연 5mg 분말. 1일 1회, 1포. 엠에스바이오텍(주). 18개월." },
+    { slug: "너에게난위대한유산균", title: "너에게 난 위대한 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+비타민D 10μg+아연 8.5mg 분말. 1일 1회, 1포. 주)팜크로스. 18개월." },
+    { slug: "네이처드림장에좋은생유산균12", title: "네이처드림 장에좋은 생유산균12 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU 프로바이오틱스 분말. 1일 1회, 1포(2g). (주)허브큐어. 24개월." },
+    { slug: "네이처드림장에좋은생유산균19", title: "네이처드림 장에 좋은 생유산균19 성분 효과 | 유산균 복용법 부작용 가이드", description: "1억 CFU 프로바이오틱스 분말. 1일 1회, 1포(2g). (주)케이지앤에프. 24개월." },
+    { slug: "네이처드림장에좋은생유산균키즈", title: "네이처드림 장에좋은 생유산균 키즈 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU 프로바이오틱스 분말. 1일 1회, 1포. (주)허브큐어. 24개월." },
+    { slug: "네이처드림장케어앤생유산균", title: "네이처드림 장케어앤 생유산균 성분 효과 | 유산균 복용법 부작용 가이드", description: "1억 CFU 프로바이오틱스 분말. 1일 1회, 1포(2g). 노비스바이오(주). 24개월." },
+    { slug: "네이처락미네랄생유산균", title: "네이처락 미네랄 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+아연 2.55mg+셀렌 16.5μg 분말. 1일 1회, 1포(2g). 노비스바이오(주). 18개월." },
   ],
 };
 
@@ -9211,4 +9222,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes24.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes25.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes26.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes27.map((s) => [s.slug, s])),
 };
