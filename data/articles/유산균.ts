@@ -43,6 +43,7 @@ import { spokes41 } from "./유산균-41";
 import { spokes42 } from "./유산균-42";
 import { spokes43 } from "./유산균-43";
 import { spokes44 } from "./유산균-44";
+import { spokes45 } from "./유산균-45";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -748,6 +749,16 @@ export const hub: HubArticle = {
     { slug: "디노키즈생유산균", title: "디노키즈 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU/2g 미황색 분말. 연령별 3단계 복용. 조아제약. 36개월." },
     { slug: "라비드베베프리미엄키즈유산균", title: "라비드베베 프리미엄 키즈 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU+비타민D 10μg+아연 3mg/2,000mg 연분홍색 분말. 1일 1회, 1포. 코스맥스엔비티. 18개월." },
     { slug: "듀오솔루션시크릿유산균", title: "듀오솔루션 시크릿 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "30억 CFU+셀레늄 55μg+아연 8.5mg/500mg 투명 경질캡슐. 1일 1회, 1캡슐. 메디오젠. 18개월." },
+    { slug: "락토핏생유산균뷰티", title: "락토핏 생유산균 뷰티 성분 효과 | 유산균 복용법 부작용 총정리", description: "히알루론산 120mg+프로바이오틱스 10억 CFU/4g 분말. 1일 2회, 1포. 종근당건강. 18개월." },
+    { slug: "락토핏생유산균팜", title: "락토핏 50대 최저가 가격 | 성분 효과 복용법 부작용까지", description: "비타민D 25μg+비타민K 70μg+칼슘 210mg+마그네슘 105mg+프로바이오틱스 20억 CFU/4g 분말. 1일 2회, 1포. 종근당건강. 18개월." },
+    { slug: "꽃마생生유산균", title: "꽃마 생유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU+아연 8.5mg+셀렌 38μg/2,500mg 흰색 분말. 1일 1회, 1포. 코지맘바이오. 24개월." },
+    { slug: "락토생생100억유산균", title: "락토 생생 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+비타민D 10μg+셀레늄 55μg+아연 8.5mg/450mg 캡슐. 1일 1회, 1캡슐. 일동바이오사이언스. 18개월." },
+    { slug: "면역앤100억유산균", title: "면역 앤 100억 유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU+비타민C 30mg+아연 4.25mg/4g 분말. 1일 2회, 1포. 풀무원건강생활. 12개월." },
+    { slug: "밀크씨슬앤유산균100억", title: "밀크씨슬 앤 유산균 100억 최저가 가격 | 성분 효과 복용법 부작용까지", description: "실리마린 130mg+100억 CFU/1,000mg 불투명 흰색 캡슐. 1일 1회, 2캡슐. 코스맥스엔비티. 18개월." },
+    { slug: "리얼닥터100억유산균", title: "리얼 닥터 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+아연 10mg/400mg 백색 경질캡슐. 1일 1회, 1캡슐. 뉴팜. 18개월." },
+    { slug: "바이오코어100억유산균", title: "바이오코어 100억 유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU/1.5g 자줏빛 분홍색+분홍빛 하얀색 분말. 1일 1회, 1포. 서흥. 18개월." },
+    { slug: "베리굿100억생유산균딸기우유맛", title: "베리굿 100억 생유산균 딸기우유맛 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU/1.5g 흰분홍색 딸기우유맛 분말. 1일 1회, 1포. 맥널티바이오. 18개월." },
+    { slug: "장건강100억유산균", title: "장건강 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/5,000mg 흰노랑색 분말. 1일 1회, 1포. 코스맥스엔비티. 24개월." },
   ],
 };
 
@@ -9367,4 +9378,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes42.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes43.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes44.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes45.map((s) => [s.slug, s])),
 };
