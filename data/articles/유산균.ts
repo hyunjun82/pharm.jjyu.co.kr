@@ -38,6 +38,7 @@ import { spokes36 } from "./유산균-36";
 import { spokes37 } from "./유산균-37";
 import { spokes38 } from "./유산균-38";
 import { spokes39 } from "./유산균-39";
+import { spokes40 } from "./유산균-40";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -703,6 +704,16 @@ export const hub: HubArticle = {
     { slug: "덴마크유산균골드", title: "덴마크유산균골드 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU/0.35g 투명 경질캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
     { slug: "덴마크유산균이뮨플러스", title: "덴마크유산균이뮨플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+비타민D 10μg+셀렌 55μg+아연 8.5mg/350mg 투명캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
     { slug: "덴마크유산균키즈락밸런스", title: "덴마크유산균키즈락밸런스 부작용 주의사항 | 성분 효과 복용법 가격", description: "30억 CFU+비타민D 10μg+아연 8.5mg/2g 분말. 1일 1회, 1포. 척척바이오랩. 24개월." },
+    { slug: "덴마크유산균퍼스트락", title: "덴마크유산균 퍼스트락 최저가 가격 | 성분 효과 복용법 부작용까지", description: "20억 CFU/2g 분말. 1일 1회, 1포. 척척바이오랩. 24개월." },
+    { slug: "덴마크유산균핑크", title: "덴마크 유산균 핑크 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+엽산 400μg DFE/350mg 캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "덴티마마올라잇유산균민트맛", title: "덴티마마 올라잇 유산균 민트맛 최저가 가격 | 성분 효과 복용법 부작용까지", description: "2억 CFU+칼슘 210mg/4g 분말. 1일 2회, 1포. 메디오젠. 18개월." },
+    { slug: "덴티마마올라잇유산균애플맛", title: "덴티마마 올라잇 유산균 애플맛 최저가 가격 | 성분 효과 복용법 부작용까지", description: "2억 CFU+칼슘 210mg/4g 분말. 1일 2회, 1포. 메디오젠. 18개월." },
+    { slug: "덴프스유산균이야기다이어트", title: "덴프스 유산균이야기 다이어트 최저가 가격 | 성분 효과 복용법 부작용까지", description: "B. breve B-3 50억 CFU+비타민B1·B2·판토텐산·비타민D·아연/450mg 캡슐. 알피바이오. 18개월." },
+    { slug: "덴프스유산균이야기더마", title: "덴프스 유산균이야기 더마 최저가 가격 | 성분 효과 복용법 부작용까지", description: "HY7714 100억 CFU+프로바이오틱스 10억 CFU+아연 8.5mg/360mg 캡슐. 비오팜. 24개월." },
+    { slug: "도라에몽얌얌유산균츄어블정", title: "도라에몽 얌얌 유산균 츄어블정 최저가 가격 | 성분 효과 복용법 부작용까지", description: "2억 CFU+아연 4mg/1,000mg 츄어블정. 1일 1회, 1정. 유유헬스케어. 18개월." },
+    { slug: "돌DOL구강유산균", title: "돌(DOL) 구강&유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+프로폴리스추출물/1,000mg 츄어블정. 1일 1회, 1정. 엠에스바이오텍. 18개월." },
+    { slug: "돌피니유산균츄어블", title: "돌피니 유산균 츄어블 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/2,000mg 츄어블정. 1일 1회, 2정. 팜크로스. 18개월." },
+    { slug: "동국유산균", title: "동국 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+아연 2.55mg/250mg 캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
   ],
 };
 
@@ -9317,4 +9328,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes37.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes38.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes39.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes40.map((s) => [s.slug, s])),
 };
