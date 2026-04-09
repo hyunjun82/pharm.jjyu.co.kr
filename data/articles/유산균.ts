@@ -28,6 +28,7 @@ import { spokes26 } from "./유산균-26";
 import { spokes27 } from "./유산균-27";
 import { spokes28 } from "./유산균-28";
 import { spokes29 } from "./유산균-29";
+import { spokes30 } from "./유산균-30";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -633,6 +634,16 @@ export const hub: HubArticle = {
     { slug: "뉴브라이트피부면역유산균사케이65", title: "뉴브라이트 피부면역유산균 사케이65 복용법 부작용 | 성분 효과 가격 비교", description: "L. sakei Probio65 피부면역+100억 CFU+아연 8.5mg 분말. 1일 1회, 1포. 코스맥스엔비티(주). 18개월." },
     { slug: "뉴세라토유산균D플러스프로바이오틱스", title: "뉴 세라토 유산균 D플러스 프로바이오틱스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU+비타민D 3μg 분말. 1일 1회, 1포(2,000mg). (주)비오팜. 18개월." },
     { slug: "뉴스타트17유산균", title: "뉴스타트17유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU+셀렌 55μg 캡슐. 1일 1회, 1캡슐(450mg). 에스에스바이오팜(주). 18개월." },
+    { slug: "뉴시아혈당케어생유산균", title: "뉴시아 혈당케어 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "바나바잎 추출물(코로솔산 1.3mg)+50억 CFU 분말. 1일 1회, 1포(2,500mg). 콜마비앤에이치(주). 18개월." },
+    { slug: "뉴오리진베이비프로바이오틱스", title: "뉴오리진 베이비 프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU 영유아용 분말(1.5g). 물·분유와 함께. (주)메디오젠 충주공장. 18개월." },
+    { slug: "뉴케어마이키즈비피더스유산균", title: "뉴케어 마이키즈 비피더스 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU 어린이용 자줏빛 분홍 분말(2g). 1일 1회, 1포. (주)서흥. 18개월." },
+    { slug: "뉴트리원프로바이오틱스", title: "뉴트리원 프로바이오틱스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU 고함량 투명 경질캡슐(450mg). 1일 1회, 1캡슐. 콜마비앤에이치(주). 18개월." },
+    { slug: "뉴트리키즈생유산균19", title: "뉴트리키즈 생유산균19 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU+비타민D 10μg+아연 3mg 어린이 분말(1g). 1일 1회, 1포. 엠에스바이오텍(주). 18개월." },
+    { slug: "다나운EMR-PP장건강프리미엄유산균", title: "다나운 EMR-PP 장건강 프리미엄 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU 장용성 경질캡슐(340mg). 1일 1회, 1캡슐. (주)씨티씨바이오. 18개월." },
+    { slug: "다이렉트다이어트N유산균", title: "다이렉트 다이어트N유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "가르시니아캄보지아(HCA 750mg)+10억 CFU 분말. 1일 1회, 1포(2,500mg). 상상바이오. 18개월." },
+    { slug: "다이어트100억유산균", title: "다이어트 100억 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "체지방 감소 인정 프로바이오틱스 복합물 100억 CFU 장용성 캡슐(350mg). 1일 1회. 광동헬스바이오(주). 18개월." },
+    { slug: "다이어트N유산균", title: "다이어트 N 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "녹차추출물(카테킨 300mg)+10억 CFU 투명 경질캡슐. 1일 1회, 2캡슐. 엠에스바이오텍(주). 18개월." },
+    { slug: "다이어트생유산균", title: "다이어트 생유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "가르시니아캄보지아(HCA 750mg)+30억 CFU 분말(4g). 1일 2회, 1회 1포. 엠에스바이오텍(주). 18개월." },
   ],
 };
 
@@ -9237,4 +9248,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes27.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes28.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes29.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes30.map((s) => [s.slug, s])),
 };
