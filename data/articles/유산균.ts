@@ -36,6 +36,7 @@ import { spokes34 } from "./유산균-34";
 import { spokes35 } from "./유산균-35";
 import { spokes36 } from "./유산균-36";
 import { spokes37 } from "./유산균-37";
+import { spokes38 } from "./유산균-38";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -681,6 +682,16 @@ export const hub: HubArticle = {
     { slug: "닥터트루프로바이오틱스패밀리생유산균", title: "닥터트루프로바이오틱스패밀리생유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU 분말(2g). 냉장 보관. 1일 1회, 1포. (주)케비젠. 18개월." },
     { slug: "닥터특허배양한유산균", title: "닥터특허배양한유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억 CFU+아연 2.8mg 분말(2,000mg). 1일 1회, 1포. 코스맥스엔비티(주). 18개월." },
     { slug: "닥터파이토비피아이유산균", title: "닥터파이토비피아이유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU 흰노란색 분말(2g). 실온 보관. 1일 1회, 1포. (주)비피도. 18개월." },
+    { slug: "대웅피부유산균", title: "대웅피부유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "HY7714 피부유산균 100억 CFU+아연 2.55mg/480mg 장용성 캡슐. 1일 1회, 1캡슐. 알피바이오. 18개월." },
+    { slug: "대장사랑비움유산균", title: "대장사랑비움유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU+비타민D 3μg+아연 2.55mg+셀렌 20μg/6g 분말. 1일 1회, 1포. 노비스바이오. 18개월." },
+    { slug: "더끌림유산균", title: "더끌림유산균 복용법 부작용 | 성분 효과 가격 비교", description: "50억 CFU+아연 2.55mg+셀레늄 16.5μg/500mg 분홍색 캡슐. 1일 1회, 1캡슐. 메디오젠. 18개월." },
+    { slug: "더나은생생당케어유산균", title: "더나은생생당케어유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "30억 CFU+코로솔산 1.3mg/500mg 캡슐. 1일 1회, 1캡슐. 메디오젠. 임산부·수유부 금지. 18개월." },
+    { slug: "더루틴장N유산균", title: "더루틴장N유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/2,000mg 보랏빛 하얀색 분말. 1일 1회, 1포. 뉴팜. 24개월." },
+    { slug: "더맛있는유산균", title: "더맛있는유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+아연 8.5mg+셀레늄 55μg/2g 분홍색 분말. 1일 1회, 1포. 한미양행. 18개월." },
+    { slug: "더블액션당케어유산균", title: "더블액션당케어유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "20억 CFU+코로솔산 1.3mg+아연 8.5mg/2g 분말. 1일 1회, 1포. 웰레스트. 18개월." },
+    { slug: "더파르마유산균II", title: "더파르마유산균II 복용법 부작용 | 성분 효과 가격 비교", description: "50억 CFU/0.4g 하얀색 경질캡슐. 1일 1회, 1캡슐. 서흥헬스케어. 24개월." },
+    { slug: "데이랩100억프로바이오틱스면역유산균", title: "데이랩100억프로바이오틱스면역유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+아연 8.5mg/0.35g 투명 경질캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "데일리100억생유산균알파", title: "데일리100억생유산균알파 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억 CFU+아연 8.5mg/450mg 흰색 경질캡슐. 1일 1회, 1캡슐. 팜투팜. 18개월." },
   ],
 };
 
@@ -9293,4 +9304,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes35.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes36.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes37.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes38.map((s) => [s.slug, s])),
 };
