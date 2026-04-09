@@ -41,6 +41,7 @@ import { spokes39 } from "./유산균-39";
 import { spokes40 } from "./유산균-40";
 import { spokes41 } from "./유산균-41";
 import { spokes42 } from "./유산균-42";
+import { spokes43 } from "./유산균-43";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -736,6 +737,16 @@ export const hub: HubArticle = {
     { slug: "듀오락생유산균원말100BRBLST", title: "듀오락 생유산균 원말 100% BR BL ST 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/g 원말 100% 분말. 1일 1회, 1스푼(1g). 쎌바이오텍. 냉동보관. 12개월." },
     { slug: "듀오락생유산균원말100LALRST", title: "듀오락 생유산균 원말 100% LA LR ST 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/g 원말 100% 분말. 1일 1회, 1스푼(1g). 쎌바이오텍. 냉동보관. 12개월." },
     { slug: "듀오락순수유산균캡슐", title: "듀오락 순수 유산균 캡슐 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/500mg 백색 경질캡슐. 1일 1회, 1캡슐. 쎌바이오텍. 24개월." },
+    { slug: "듀오락아기유산균", title: "듀오락 아기 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU/1.5g 노란 하얀색 분말. 1일 1회, 1포. 쎌바이오텍. 24개월." },
+    { slug: "듀오락온가족유산균", title: "듀오락 온가족 유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "15억 CFU/1.5g 노란 하얀색 분말. 1일 1회, 1포. 쎌바이오텍. 24개월." },
+    { slug: "듀오락유산균프로폴리스", title: "듀오락 유산균 프로폴리스 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU+플라보노이드 2mg/1.5g 원형 정제. 1일 1회, 1정. 쎌바이오텍. 18개월." },
+    { slug: "듀오락츄어블유산균", title: "듀오락 츄어블 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "60억 CFU/2g 백색 츄어블 정제. 1일 1회, 2정. 쎌바이오텍. 24개월." },
+    { slug: "듀오락키즈유산균", title: "듀오락 키즈 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU/1.5g 흐린 갈색 분말. 1일 1회, 1포. 쎌바이오텍. 24개월." },
+    { slug: "듀오락패밀리유산균", title: "듀오락 패밀리 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "3억 CFU/500mg 백색 경질캡슐. 1일 1회, 1캡슐. 쎌바이오텍. 30개월." },
+    { slug: "듀오락편안해질유산균", title: "듀오락 편안해질 유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "50억 CFU/350mg 백색 경질캡슐. 1일 1회, 1캡슐. 쎌바이오텍. 24개월." },
+    { slug: "디노키즈생유산균", title: "디노키즈 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU/2g 미황색 분말. 연령별 3단계 복용. 조아제약. 36개월." },
+    { slug: "라비드베베프리미엄키즈유산균", title: "라비드베베 프리미엄 키즈 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU+비타민D 10μg+아연 3mg/2,000mg 연분홍색 분말. 1일 1회, 1포. 코스맥스엔비티. 18개월." },
+    { slug: "듀오솔루션시크릿유산균", title: "듀오솔루션 시크릿 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "30억 CFU+셀레늄 55μg+아연 8.5mg/500mg 투명 경질캡슐. 1일 1회, 1캡슐. 메디오젠. 18개월." },
   ],
 };
 
@@ -9353,4 +9364,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes40.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes41.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes42.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes43.map((s) => [s.slug, s])),
 };
