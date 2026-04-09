@@ -27,6 +27,7 @@ import { spokes25 } from "./유산균-25";
 import { spokes26 } from "./유산균-26";
 import { spokes27 } from "./유산균-27";
 import { spokes28 } from "./유산균-28";
+import { spokes29 } from "./유산균-29";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -622,6 +623,16 @@ export const hub: HubArticle = {
     { slug: "네이처드림장에좋은생유산균키즈", title: "네이처드림 장에좋은 생유산균 키즈 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU 프로바이오틱스 분말. 1일 1회, 1포. (주)허브큐어. 24개월." },
     { slug: "네이처드림장케어앤생유산균", title: "네이처드림 장케어앤 생유산균 성분 효과 | 유산균 복용법 부작용 가이드", description: "1억 CFU 프로바이오틱스 분말. 1일 1회, 1포(2g). 노비스바이오(주). 24개월." },
     { slug: "네이처락미네랄생유산균", title: "네이처락 미네랄 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+아연 2.55mg+셀렌 16.5μg 분말. 1일 1회, 1포(2g). 노비스바이오(주). 18개월." },
+    { slug: "뇌유산균", title: "뇌 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "DW2009 복합물 100억 CFU 캡슐. 인지기능+장 건강. 1일 1회, 2캡슐(800mg). (주)케비젠. 18개월." },
+    { slug: "뇌유산균DW2009", title: "뇌유산균 DW2009 성분 효과 복용법 | 가격 부작용 주의사항", description: "L. plantarum C29+발효대두분말 DW2009 100억 CFU 캡슐. 인지기능+장 건강. (주)케비젠. 18개월." },
+    { slug: "누구나건강프로바이오틱스유산균", title: "누구나건강 프로바이오틱스 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU 프로바이오틱스 단일 구성 분말. 1일 1회, 1포(2g). 바이오디피씨(주). 18개월." },
+    { slug: "눈꽃프로바이오틱스유산균19", title: "눈꽃 프로바이오틱스 유산균 19 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "19종 균주 1억 CFU 분말. 물 없이 섭취 가능. 1일 1회, 1포(2g). 엠에스바이오텍(주). 18개월." },
+    { slug: "뉴로랩스덴마크유산균", title: "뉴로랩스 덴마크 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억 CFU 고함량 캡슐(340mg). 1일 1회, 1캡슐. (주)빅솔 반월공장. 24개월." },
+    { slug: "뉴메이트프로바이오유산균19", title: "뉴메이트 프로바이오 유산균19 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU 입안에서 녹여 먹는 분말. 1일 1회, 1포(2g). 이앤에스(주). 18개월." },
+    { slug: "뉴메이트프로바이오유산균19플러스아연", title: "뉴메이트 프로바이오 유산균19 플러스 아연 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU+아연 2.55mg 녹여 먹는 분말. 1일 1회, 1포(2g). 이앤에스(주). 18개월." },
+    { slug: "뉴브라이트피부면역유산균사케이65", title: "뉴브라이트 피부면역유산균 사케이65 복용법 부작용 | 성분 효과 가격 비교", description: "L. sakei Probio65 피부면역+100억 CFU+아연 8.5mg 분말. 1일 1회, 1포. 코스맥스엔비티(주). 18개월." },
+    { slug: "뉴세라토유산균D플러스프로바이오틱스", title: "뉴 세라토 유산균 D플러스 프로바이오틱스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU+비타민D 3μg 분말. 1일 1회, 1포(2,000mg). (주)비오팜. 18개월." },
+    { slug: "뉴스타트17유산균", title: "뉴스타트17유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU+셀렌 55μg 캡슐. 1일 1회, 1캡슐(450mg). 에스에스바이오팜(주). 18개월." },
   ],
 };
 
@@ -9225,4 +9236,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes26.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes27.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes28.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes29.map((s) => [s.slug, s])),
 };
