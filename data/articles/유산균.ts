@@ -39,6 +39,7 @@ import { spokes37 } from "./유산균-37";
 import { spokes38 } from "./유산균-38";
 import { spokes39 } from "./유산균-39";
 import { spokes40 } from "./유산균-40";
+import { spokes41 } from "./유산균-41";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -714,6 +715,16 @@ export const hub: HubArticle = {
     { slug: "돌DOL구강유산균", title: "돌(DOL) 구강&유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+프로폴리스추출물/1,000mg 츄어블정. 1일 1회, 1정. 엠에스바이오텍. 18개월." },
     { slug: "돌피니유산균츄어블", title: "돌피니 유산균 츄어블 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/2,000mg 츄어블정. 1일 1회, 2정. 팜크로스. 18개월." },
     { slug: "동국유산균", title: "동국 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+아연 2.55mg/250mg 캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "동국퍼스트루테인유산균", title: "동국퍼스트 루테인유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "루테인 20mg+비타민A 210μg RAE+아연 8.5mg+1억 CFU/3,000mg 분말. 1일 1회, 1포. 케이에이치앤비. 2년." },
+    { slug: "동아패밀리솔루션유산균", title: "동아 패밀리솔루션 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "3억 CFU/2g 분말. 1일 1회, 1포 입안에서 녹여 섭취. 에스엘에스. 18개월." },
+    { slug: "동아혼합유산균", title: "동아 혼합유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "3억 CFU/2g 분말. 1일 1회, 1포. 에스엘에스. 18개월." },
+    { slug: "두뇌엔PS유산균", title: "두뇌엔 PS 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "PS 300mg+10억 CFU+비타민E 11mg+비타민D 10μg/2,000mg 분말. 1일 1회, 1포. 팜크로스. 15개월." },
+    { slug: "두뇌엔PS장엔유산균", title: "두뇌엔 PS 장엔 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "PS 300mg+10억 CFU+비타민E 11mg+비타민D 10μg/2,000mg 분말. 1일 1회, 1포. 동서바이오팜. 24개월." },
+    { slug: "두뇌인지력케어PS앤유산균", title: "두뇌인지력케어 PS앤유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "PS 300mg+10억 CFU+비타민E 28mg+비타민D 10μg/2g 분말. 1일 1회, 1포. 팜투팜2공장. 15개월." },
+    { slug: "두드림장건강프로바이오틱스생유산균", title: "두드림 장건강 프로바이오틱스 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU/2,500mg 분말. 1일 1회, 1포. 노바렉스. 18개월." },
+    { slug: "듀얼소닉뷰티루틴피부유산균", title: "듀얼소닉 뷰티루틴 피부유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+비피더스 1억 CFU+L.sakei Probio65/1,500mg 분말. 1일 1회, 1포. 코스맥스엔비티. 18개월." },
+    { slug: "듀얼임팩슬림라인다이어트유산균", title: "듀얼임팩 슬림라인 다이어트유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "HCA 750mg+10억 CFU/4g 분말. 1일 1회, 1포. 엠에스바이오텍. 18개월." },
+    { slug: "듀얼임팩에스라인다이어트유산균", title: "듀얼임팩 에스라인 다이어트유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "HCA 750mg+10억 CFU/4g 분말. 1일 1회, 1포. 엠에스바이오텍. 18개월." },
   ],
 };
 
@@ -9329,4 +9340,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes38.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes39.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes40.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes41.map((s) => [s.slug, s])),
 };
