@@ -40,6 +40,7 @@ import { spokes38 } from "./유산균-38";
 import { spokes39 } from "./유산균-39";
 import { spokes40 } from "./유산균-40";
 import { spokes41 } from "./유산균-41";
+import { spokes42 } from "./유산균-42";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -725,6 +726,16 @@ export const hub: HubArticle = {
     { slug: "듀얼소닉뷰티루틴피부유산균", title: "듀얼소닉 뷰티루틴 피부유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+비피더스 1억 CFU+L.sakei Probio65/1,500mg 분말. 1일 1회, 1포. 코스맥스엔비티. 18개월." },
     { slug: "듀얼임팩슬림라인다이어트유산균", title: "듀얼임팩 슬림라인 다이어트유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "HCA 750mg+10억 CFU/4g 분말. 1일 1회, 1포. 엠에스바이오텍. 18개월." },
     { slug: "듀얼임팩에스라인다이어트유산균", title: "듀얼임팩 에스라인 다이어트유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "HCA 750mg+10억 CFU/4g 분말. 1일 1회, 1포. 엠에스바이오텍. 18개월." },
+    { slug: "듀얼케어크랜베리유산균", title: "듀얼케어 크랜베리 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+크랜베리 안토시아노사이드 1.45mg 이중캡슐. 1일 2회, 1캡슐. 씨티씨바이오. 18개월." },
+    { slug: "듀얼프리미엄락토C플러스생유산균", title: "듀얼프리미엄 락토 C플러스 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+비타민C 30mg/2g 분말. 1일 1회, 1포. 에스엘에스. 18개월." },
+    { slug: "듀얼플랜다이어트유산균", title: "듀얼플랜 다이어트 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "체지방 감소 개별인정형 100억 CFU+비타민D+비오틴+B1/2.5g 분말. 1일 1회, 1포. 서흥헬스케어. 18개월." },
+    { slug: "듀얼플로라프로바이오틱스유산균", title: "듀얼 플로라 프로바이오틱스 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/350mg 캡슐. 1일 1회, 1캡슐. 코스맥스엔비티. 냉장보관. 18개월." },
+    { slug: "듀오락김치유산균LP3", title: "듀오락 김치유산균 LP3 최저가 가격 | 성분 효과 복용법 부작용까지", description: "20억 CFU/2g 분말. 1일 1회, 2포. 쎌바이오텍. 24개월." },
+    { slug: "듀오락마이크로바이옴면역유산균", title: "듀오락 마이크로바이옴 면역 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "30억 CFU+아연 8.5mg+비타민D 10μg/2g 분말. 1일 1회, 1포. 쎌바이오텍. 24개월." },
+    { slug: "듀오락마이크로바이옴베스트유산균", title: "듀오락 마이크로바이옴 베스트 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "20억 CFU+아연 8.5mg+비타민D 10μg/4g 분말. 1일 1회, 2포. 쎌바이오텍. 24개월." },
+    { slug: "듀오락생유산균원말100BRBLST", title: "듀오락 생유산균 원말 100% BR BL ST 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/g 원말 100% 분말. 1일 1회, 1스푼(1g). 쎌바이오텍. 냉동보관. 12개월." },
+    { slug: "듀오락생유산균원말100LALRST", title: "듀오락 생유산균 원말 100% LA LR ST 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/g 원말 100% 분말. 1일 1회, 1스푼(1g). 쎌바이오텍. 냉동보관. 12개월." },
+    { slug: "듀오락순수유산균캡슐", title: "듀오락 순수 유산균 캡슐 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/500mg 백색 경질캡슐. 1일 1회, 1캡슐. 쎌바이오텍. 24개월." },
   ],
 };
 
@@ -9341,4 +9352,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes39.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes40.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes41.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes42.map((s) => [s.slug, s])),
 };
