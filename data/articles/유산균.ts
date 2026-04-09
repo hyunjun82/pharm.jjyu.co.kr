@@ -37,6 +37,7 @@ import { spokes35 } from "./유산균-35";
 import { spokes36 } from "./유산균-36";
 import { spokes37 } from "./유산균-37";
 import { spokes38 } from "./유산균-38";
+import { spokes39 } from "./유산균-39";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -692,6 +693,16 @@ export const hub: HubArticle = {
     { slug: "더파르마유산균II", title: "더파르마유산균II 복용법 부작용 | 성분 효과 가격 비교", description: "50억 CFU/0.4g 하얀색 경질캡슐. 1일 1회, 1캡슐. 서흥헬스케어. 24개월." },
     { slug: "데이랩100억프로바이오틱스면역유산균", title: "데이랩100억프로바이오틱스면역유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+아연 8.5mg/0.35g 투명 경질캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
     { slug: "데일리100억생유산균알파", title: "데일리100억생유산균알파 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억 CFU+아연 8.5mg/450mg 흰색 경질캡슐. 1일 1회, 1캡슐. 팜투팜. 18개월." },
+    { slug: "데일리락토바이오틱스유산균", title: "데일리락토바이오틱스유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+아연 8.5mg+셀레늄 55μg/500mg 장방형 경질캡슐. 1일 1회, 1캡슐. 대원헬스케어. 18개월." },
+    { slug: "데일리밸런스유산균", title: "데일리밸런스유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "20억 CFU+아연 4.25mg/2g 흰노랑색 분말. 1일 1회, 1포. 엠에스바이오텍. 18개월." },
+    { slug: "데일리유산균", title: "데일리유산균 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU/1.5g 자줏빛 분홍색 분말. 1일 1회, 1포. 콜마비앤에이치. 18개월." },
+    { slug: "데일리유산균혈당케어", title: "데일리유산균혈당케어 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+코로솔산 1.3mg/500mg 투명 경질캡슐. 1일 1회, 1캡슐. 락토메이슨. 18개월." },
+    { slug: "데일리채움프로바이유산균", title: "데일리채움프로바이유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU/400mg 미황색 경질캡슐. 1일 1회, 1캡슐. 허브큐어. 유통기한 2년." },
+    { slug: "덴라이프100억유산균", title: "덴라이프100억유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+엽산 400μg DFE+아연 8.5mg/450mg 흰색 경질캡슐. 1일 1회, 1캡슐. 상상바이오. 18개월." },
+    { slug: "덴마크락토지지LactoGG유산균", title: "덴마크락토지지LactoGG유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "100억 CFU+비타민D 3μg+아연 2.55mg+셀레늄 16.5μg/2,000mg 분말. 냉장보관. 노바렉스. 18개월." },
+    { slug: "덴마크유산균골드", title: "덴마크유산균골드 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU/0.35g 투명 경질캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "덴마크유산균이뮨플러스", title: "덴마크유산균이뮨플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+비타민D 10μg+셀렌 55μg+아연 8.5mg/350mg 투명캡슐. 1일 1회, 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "덴마크유산균키즈락밸런스", title: "덴마크유산균키즈락밸런스 부작용 주의사항 | 성분 효과 복용법 가격", description: "30억 CFU+비타민D 10μg+아연 8.5mg/2g 분말. 1일 1회, 1포. 척척바이오랩. 24개월." },
   ],
 };
 
@@ -9305,4 +9316,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes36.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes37.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes38.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes39.map((s) => [s.slug, s])),
 };
