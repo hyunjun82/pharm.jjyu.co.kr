@@ -182,11 +182,11 @@ export const spokes31: SpokeArticle[] = [
         ingredients: [
           { type: "주성분", name: "프로바이오틱스", amount: "1억 CFU/캡슐당", role: "유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강" },
           { type: "주성분", name: "녹차추출물(카테킨)", amount: "300mg/정제당", role: "항산화, 체지방 감소, 혈중 콜레스테롤 개선에 도움" },
-          { type: "부성분", name: "비타민C", amount: "50mg/정제당", role: "결합조직 형성과 기능유지, 철의 흡수, 항산화" },
-          { type: "부성분", name: "나이아신", amount: "7.5mg NE/정제당", role: "체내 에너지 생성에 필요" },
-          { type: "부성분", name: "셀레늄", amount: "16.5μg/정제당", role: "유해산소로부터 세포 보호" },
-          { type: "부성분", name: "비타민B6", amount: "0.75mg/정제당", role: "단백질 및 아미노산 이용, 호모시스테인 수준 정상 유지" },
-          { type: "부성분", name: "비타민B2", amount: "0.7mg/정제당", role: "체내 에너지 생성에 필요" },
+          { type: "첨가제", name: "비타민C", amount: "50mg/정제당", role: "결합조직 형성과 기능유지, 철의 흡수, 항산화" },
+          { type: "첨가제", name: "나이아신", amount: "7.5mg NE/정제당", role: "체내 에너지 생성에 필요" },
+          { type: "첨가제", name: "셀레늄", amount: "16.5μg/정제당", role: "유해산소로부터 세포 보호" },
+          { type: "첨가제", name: "비타민B6", amount: "0.75mg/정제당", role: "단백질 및 아미노산 이용, 호모시스테인 수준 정상 유지" },
+          { type: "첨가제", name: "비타민B2", amount: "0.7mg/정제당", role: "체내 에너지 생성에 필요" },
         ],
       },
       {
@@ -407,12 +407,12 @@ export const spokes31: SpokeArticle[] = [
         content: "듀얼 락토슬림은 회황색 분말을 함유한 연한 분홍색, 흰색의 장용성 경질캡슐이에요. 1캡슐(450mg) 기준으로 L. curvatus HY7601와 L. plantarum KY1032의 프로바이오틱스 복합물이 100억 CFU 이상 들어 있어요. 여기에 나이아신 15mg NE, 아연 8.5mg, 판토텐산 5mg, 비타민D 10μg, 비타민B6 1.5mg, 비타민B1 1.2mg이 함께 포함돼 있어요. 장용성 캡슐이라 위산에서 녹지 않고 장까지 도달하도록 설계된 제품이에요. 대장균군은 음성이에요.",
         ingredients: [
           { type: "주성분", name: "L. curvatus HY7601 + L. plantarum KY1032 복합물", amount: "100억 CFU/450mg당", role: "체지방 감소에 도움, 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강" },
-          { type: "부성분", name: "나이아신", amount: "15mg NE/450mg당", role: "체내 에너지 생성에 필요" },
-          { type: "부성분", name: "아연", amount: "8.5mg/450mg당", role: "정상적인 면역기능, 정상적인 세포분열" },
-          { type: "부성분", name: "판토텐산", amount: "5mg/450mg당", role: "지방, 탄수화물, 단백질 대사와 에너지 생성에 필요" },
-          { type: "부성분", name: "비타민D", amount: "10μg/450mg당", role: "칼슘과 인의 흡수, 뼈 형성과 유지, 골다공증 위험 감소" },
-          { type: "부성분", name: "비타민B6", amount: "1.5mg/450mg당", role: "단백질 및 아미노산 이용, 호모시스테인 수준 정상 유지" },
-          { type: "부성분", name: "비타민B1", amount: "1.2mg/450mg당", role: "탄수화물과 에너지 대사에 필요" },
+          { type: "첨가제", name: "나이아신", amount: "15mg NE/450mg당", role: "체내 에너지 생성에 필요" },
+          { type: "첨가제", name: "아연", amount: "8.5mg/450mg당", role: "정상적인 면역기능, 정상적인 세포분열" },
+          { type: "첨가제", name: "판토텐산", amount: "5mg/450mg당", role: "지방, 탄수화물, 단백질 대사와 에너지 생성에 필요" },
+          { type: "첨가제", name: "비타민D", amount: "10μg/450mg당", role: "칼슘과 인의 흡수, 뼈 형성과 유지, 골다공증 위험 감소" },
+          { type: "첨가제", name: "비타민B6", amount: "1.5mg/450mg당", role: "단백질 및 아미노산 이용, 호모시스테인 수준 정상 유지" },
+          { type: "첨가제", name: "비타민B1", amount: "1.2mg/450mg당", role: "탄수화물과 에너지 대사에 필요" },
         ],
       },
       {
@@ -485,8 +485,8 @@ export const spokes31: SpokeArticle[] = [
         content: "비에날씬+는 흰 노란색의 분말이에요. 1포(2.0g) 기준으로 Lactobacillus gasseri BNR17 프로바이오틱스 100억 CFU 이상, 비타민D 10μg, 아연 2.55mg이 들어 있어요. L. gasseri BNR17은 체지방 감소에 도움을 줄 수 있는 생리활성기능이 인정된 균주예요. 일반 프로바이오틱스 기능(유산균 증식, 유해균 억제, 배변활동 원활, 장 건강)에 체지방 감소 기능까지 갖춘 게 이 제품의 핵심이에요. 대장균군은 음성이에요.",
         ingredients: [
           { type: "주성분", name: "Lactobacillus gasseri BNR17", amount: "100억 CFU/2.0g당", role: "체지방 감소에 도움, 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강" },
-          { type: "부성분", name: "비타민D", amount: "10μg/2.0g당", role: "칼슘과 인의 흡수, 뼈 형성과 유지, 골다공증 위험 감소" },
-          { type: "부성분", name: "아연", amount: "2.55mg/2.0g당", role: "정상적인 면역기능, 정상적인 세포분열" },
+          { type: "첨가제", name: "비타민D", amount: "10μg/2.0g당", role: "칼슘과 인의 흡수, 뼈 형성과 유지, 골다공증 위험 감소" },
+          { type: "첨가제", name: "아연", amount: "2.55mg/2.0g당", role: "정상적인 면역기능, 정상적인 세포분열" },
         ],
       },
       {
@@ -631,8 +631,8 @@ export const spokes31: SpokeArticle[] = [
         content: "비에날씬+ 서흥은 흰 노란색의 분말이에요. 1포(2.0g) 기준으로 Lactobacillus gasseri BNR17 프로바이오틱스 100억 CFU 이상, 비타민D 10μg, 아연 2.55mg이 들어 있어요. 제조사 (주)서흥이 자체 유통하는 제품으로, 비에날씬+와 동일한 사양(균주, 함량, 부원료)이에요. 대장균군은 음성이에요.",
         ingredients: [
           { type: "주성분", name: "Lactobacillus gasseri BNR17", amount: "100억 CFU/2.0g당", role: "체지방 감소에 도움, 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강" },
-          { type: "부성분", name: "비타민D", amount: "10μg/2.0g당", role: "칼슘과 인의 흡수, 뼈 형성과 유지, 골다공증 위험 감소" },
-          { type: "부성분", name: "아연", amount: "2.55mg/2.0g당", role: "정상적인 면역기능, 정상적인 세포분열" },
+          { type: "첨가제", name: "비타민D", amount: "10μg/2.0g당", role: "칼슘과 인의 흡수, 뼈 형성과 유지, 골다공증 위험 감소" },
+          { type: "첨가제", name: "아연", amount: "2.55mg/2.0g당", role: "정상적인 면역기능, 정상적인 세포분열" },
         ],
       },
       {
@@ -705,8 +705,8 @@ export const spokes31: SpokeArticle[] = [
         content: "비에날씬 슬림+는 노란 하얀색 또는 흰 노란색의 분말이에요. 1포(2g) 기준으로 Lactobacillus gasseri BNR17 프로바이오틱스 100억 CFU 이상, 비타민D 10μg, 아연 2.55mg이 들어 있어요. 비에날씬+와 성분/함량이 동일하지만, 보관 조건이 냉장이 아닌 실온이고 유통기한이 24개월이 아닌 18개월이라는 차이가 있어요. 대장균군은 음성이에요.",
         ingredients: [
           { type: "주성분", name: "Lactobacillus gasseri BNR17", amount: "100억 CFU/2g당", role: "체지방 감소에 도움, 유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강" },
-          { type: "부성분", name: "비타민D", amount: "10μg/2g당", role: "칼슘과 인의 흡수, 뼈 형성과 유지, 골다공증 위험 감소" },
-          { type: "부성분", name: "아연", amount: "2.55mg/2g당", role: "정상적인 면역기능, 정상적인 세포분열" },
+          { type: "첨가제", name: "비타민D", amount: "10μg/2g당", role: "칼슘과 인의 흡수, 뼈 형성과 유지, 골다공증 위험 감소" },
+          { type: "첨가제", name: "아연", amount: "2.55mg/2g당", role: "정상적인 면역기능, 정상적인 세포분열" },
         ],
       },
       {
