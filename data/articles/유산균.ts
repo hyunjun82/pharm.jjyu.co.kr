@@ -31,6 +31,7 @@ import { spokes29 } from "./유산균-29";
 import { spokes30 } from "./유산균-30";
 import { spokes31 } from "./유산균-31";
 import { spokes32 } from "./유산균-32";
+import { spokes33 } from "./유산균-33";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -646,6 +647,16 @@ export const hub: HubArticle = {
     { slug: "다이어트100억유산균", title: "다이어트 100억 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "체지방 감소 인정 프로바이오틱스 복합물 100억 CFU 장용성 캡슐(350mg). 1일 1회. 광동헬스바이오(주). 18개월." },
     { slug: "다이어트N유산균", title: "다이어트 N 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "녹차추출물(카테킨 300mg)+10억 CFU 투명 경질캡슐. 1일 1회, 2캡슐. 엠에스바이오텍(주). 18개월." },
     { slug: "다이어트생유산균", title: "다이어트 생유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "가르시니아캄보지아(HCA 750mg)+30억 CFU 분말(4g). 1일 2회, 1회 1포. 엠에스바이오텍(주). 18개월." },
+    { slug: "닥터그루트마이크로바이옴생유산균비오틴", title: "닥터그루트마이크로바이옴생유산균비오틴 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+비오틴 900μg 경질캡슐(0.5g). 1일 1회, 1캡슐. (주)서흥. 18개월. 실온보관." },
+    { slug: "닥터데넨유산균", title: "닥터데넨유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU 프로바이오틱스 단일 경질캡슐(800mg). 1일 2회, 1회 1캡슐. 상상바이오. 18개월." },
+    { slug: "닥터락토생유산균프리미엄", title: "닥터락토생유산균프리미엄 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU 프로바이오틱스 단일 경질캡슐(500mg). 1일 1회, 1캡슐. (주)세종바이오팜. 18개월." },
+    { slug: "닥터로이면역앤멀티유산균", title: "닥터로이면역앤멀티유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+아연 8.5mg 투명 경질캡슐(0.5g). 1일 1회, 1캡슐. 엠에스바이오텍(주). 18개월." },
+    { slug: "닥터마이키DrMyKey생유산균", title: "닥터마이키DrMyKey생유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU+비타민D 4μg+아연 3mg 분말(2g). 1일 1회, 1포. (주)메디오젠 충주공장. 24개월." },
+    { slug: "닥터밸런스유산균", title: "닥터밸런스유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "2억 CFU+비타민D 10μg 분말(2g). 1일 1회, 1포. (주)한미양행 선유공장. 18개월." },
+    { slug: "닥터비비2시유산균", title: "닥터비비2시유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "바나바잎추출물(코로솔산 1.3mg)+30억 CFU+비타민D 5.36μg+아연 8.5mg 분말(2g). 1일 1회, 1포. (주)한미양행 선유공장. 24개월." },
+    { slug: "닥터생유산균프리미엄", title: "닥터생유산균프리미엄 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+비타민D 3μg 흰분홍색 분말(2,000mg). 1일 1회, 1포. 헬스앤라이프. 18개월." },
+    { slug: "닥터스드림레이디타임유산균", title: "닥터스드림레이디타임유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "30억 CFU+아연 2.55mg 경질캡슐(500mg). 1일 1회, 1캡슐. 엔피케이(주). 18개월." },
+    { slug: "닥터스드림베이비타임유산균D", title: "닥터스드림베이비타임유산균D 부작용 주의사항 | 성분 효과 복용법 가격", description: "11억 CFU+비타민D 10μg 분말(2,000mg). 1일 1회, 1포. 엔피케이(주). 18개월." },
   ],
 };
 
@@ -9253,4 +9264,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes30.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes31.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes32.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes33.map((s) => [s.slug, s])),
 };
