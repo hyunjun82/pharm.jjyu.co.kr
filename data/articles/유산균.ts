@@ -52,6 +52,7 @@ import { spokes50 } from "./유산균-50";
 import { spokes51 } from "./유산균-51";
 import { spokes52 } from "./유산균-52";
 import { spokes53 } from "./유산균-53";
+import { spokes54 } from "./유산균-54";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -807,6 +808,16 @@ export const hub: HubArticle = {
     { slug: "바이오코어100억유산균", title: "바이오코어 100억 유산균 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU/1.5g 자줏빛 분홍색+분홍빛 하얀색 분말. 1일 1회, 1포. 서흥. 18개월." },
     { slug: "베리굿100억생유산균딸기우유맛", title: "베리굿 100억 생유산균 딸기우유맛 성분 효과 | 유산균 복용법 부작용 총정리", description: "100억 CFU/1.5g 흰분홍색 딸기우유맛 분말. 1일 1회, 1포. 맥널티바이오. 18개월." },
     { slug: "장건강100억유산균", title: "장건강 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/5,000mg 흰노랑색 분말. 1일 1회, 1포. 코스맥스엔비티. 24개월." },
+    { slug: "리스펙타질유산균플러스", title: "리스펙타 질 유산균 플러스 최저가 가격 | 성분 효과 복용법 부작용까지", description: "리스펙타 개별인정형 50억 CFU+락토페린 54mg+아연 2.55mg+비타민D 10ug/350mg 캡슐. 1일 1회 1캡슐. 코스맥스엔비티. 18개월." },
+    { slug: "리얼닥터닥터픽생유산균", title: "리얼닥터 닥터픽 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+아연 8.5mg/2g 연한 보라색 분말. 1일 1회 1포. 뉴팜. 24개월." },
+    { slug: "리얼닥터멀티바이오틱스100억생유산균", title: "리얼닥터 멀티바이오틱스 100억 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+아연 10mg/400mg 장방형 경질캡슐. 1일 1회 1캡슐. 뉴팜. 18개월." },
+    { slug: "리얼닥터프리미엄생유산균", title: "리얼 닥터 프리미엄 생 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "11억 CFU+아연 8.5mg/2g 연한 보라색 분말. 1일 1회 1포. 뉴팜. 24개월." },
+    { slug: "리얼액티브생유산균", title: "리얼 액티브 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU+아연 4.26mg/1.5g 미백색 과립. 1일 1회 1포. 아미코젠. 2년." },
+    { slug: "리얼퍼펙트100억유산균", title: "리얼 퍼펙트 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/300mg 투명 경질캡슐. 프로바이오틱스 단일. 1일 1회 1캡슐. 케이지앤에프. 24개월." },
+    { slug: "리얼프로바이오틱스성인용생유산균", title: "리얼 프로바이오틱스 성인용 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "20억 CFU+아연 2.55mg/350mg 장방형 경질캡슐. 1일 1회 1캡슐. 쎌바이오텍. 24개월." },
+    { slug: "리얼프로바이오틱스온가족용생유산균", title: "리얼 프로바이오틱스 온가족용 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "30억 CFU+아연 2.55mg/2.5g 분말. 1일 1회 1포. 쎌바이오텍. 24개월." },
+    { slug: "리턴당케어혈당유산균", title: "리턴당케어 혈당&유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "코로솔산 1.3mg+30억 CFU/400mg 경질캡슐. 1일 1회 1캡슐. 유유헬스케어. 18개월." },
+    { slug: "리틀팡유산균", title: "리틀팡 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU+비타민D 10ug+아연 8mg/2g 분홍색 분말. 1일 1회 1포. 씨스팡. 18개월." },
   ],
 };
 
@@ -9435,4 +9446,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes51.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes52.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes53.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes54.map((s) => [s.slug, s])),
 };
