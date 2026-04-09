@@ -275,13 +275,13 @@ export const spokes42: SpokeArticle[] = [
             role: "칼슘·인 흡수·이용, 뼈 형성·유지, 골다공증 위험 감소",
           },
           {
-            type: "부성분",
+            type: "첨가제",
             name: "비오틴",
             amount: "30μg/2.5g",
             role: "지방·탄수화물·단백질 대사, 에너지 생성",
           },
           {
-            type: "부성분",
+            type: "첨가제",
             name: "비타민B1",
             amount: "1.2mg/2.5g",
             role: "탄수화물과 에너지 대사",

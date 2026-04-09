@@ -176,7 +176,7 @@ export const spokes53: SpokeArticle[] = [
             role: "면역과민반응에 의한 피부상태 개선, 유산균 증식·유해균 억제, 배변활동 원활, 장 건강",
           },
           {
-            type: "부성분",
+            type: "첨가제",
             name: "프로바이오틱스(비피더스 균)",
             amount: "100,000,000(1억) CFU/2,000mg",
             role: "장 건강 보조",
@@ -818,13 +818,13 @@ export const spokes53: SpokeArticle[] = [
             role: "리스펙타 복합물 핵심 성분(질 건강 보조)",
           },
           {
-            type: "부성분",
+            type: "첨가제",
             name: "아연",
             amount: "4.25mg/2,000mg",
             role: "정상적인 면역기능·세포분열에 필요",
           },
           {
-            type: "부성분",
+            type: "첨가제",
             name: "비타민D",
             amount: "5ug/2,000mg",
             role: "칼슘·인 흡수, 뼈 형성·유지, 골다공증 위험 감소",

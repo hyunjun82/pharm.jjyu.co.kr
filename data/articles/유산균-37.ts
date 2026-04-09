@@ -459,7 +459,7 @@ export const spokes37: SpokeArticle[] = [
             role: "유산균 증식 및 유해균 억제, 배변활동 원활, 장 건강",
           },
           {
-            type: "부원료",
+            type: "첨가제",
             name: "식이섬유",
             amount: "0.8g/3g",
             role: "유산균 증식을 돕는 프리바이오틱스 역할",
