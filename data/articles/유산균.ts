@@ -56,6 +56,7 @@ import { spokes54 } from "./유산균-54";
 import { spokes55 } from "./유산균-55";
 import { spokes56 } from "./유산균-56";
 import { spokes57 } from "./유산균-57";
+import { spokes58 } from "./유산균-58";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -841,6 +842,16 @@ export const hub: HubArticle = {
     { slug: "메디타민소장건강유산균프로바이오틱스", title: "메디타민 소장건강 유산균 프로바이오틱스 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/500mg 장용성 캡슐. 1일 1회 1캡슐. 청안오가닉스. 18개월." },
     { slug: "메디타민장건강유산균프로바이오틱스", title: "메디타민 장건강 유산균 프로바이오틱스 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/500mg 장용성 캡슐. 1일 1회 1캡슐. 엠에스바이오텍. 18개월." },
     { slug: "메이플트리키즈유산균프로바이오틱스", title: "메이플트리 키즈유산균 프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+비타민D 3μg+셀렌 16.5μg+아연 2.55mg/2g 분말. 1일 1회 1포. 엠에스바이오텍. 18개월." },
+    { slug: "멜로우생유산균", title: "멜로우 생유산균 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+아연 8.5mg/2,000mg 딸기향 분말. 1일 1회 1포 입안에서 녹여 섭취. 이앤에스. 18개월." },
+    { slug: "면역N생생유산균", title: "면역 N 생생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU+비타민D 10μg+아연 4.25mg+셀렌 27.5μg/2,000mg 분말. 1일 1회 1포. 상상바이오. 18개월." },
+    { slug: "면역가득유산균", title: "면역 가득 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 3mg+셀레늄 22μg/2,000mg 분말. 1일 1회 1포. 대웅제약. 18개월." },
+    { slug: "면역뼈건강50억유산균", title: "면역 뼈건강 50억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU+아연 8.5mg+셀렌 55μg+비타민D 10μg/2,000mg 분말. 1일 1회 1포. 코스맥스엔비티. 18개월." },
+    { slug: "면역앤100억유산균", title: "면역 앤 100억유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+아연 4.25mg+비타민C 30mg/4g 분말. 1일 2회 1회 1포. 풀무원건강생활. 12개월." },
+    { slug: "면역앤N마이크로바이옴100억유산균", title: "면역앤 마이크로바이옴 100억 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU+비타민D 10μg+셀렌 55μg+아연 8.5mg/0.35g 캡슐. 1일 1회 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "면역앤생유산균", title: "면역앤 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "2억 CFU+아연 2.55mg/2,000mg 분말. 1일 1회 1포. 뉴팜. 18개월." },
+    { slug: "면역앤유산균", title: "면역 앤 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/g+아연 3.0mg/g+비타민B6 0.6mg/g+셀렌 17μg/g 캡슐. 1일 1회 2캡슐. 일동바이오사이언스. 18개월." },
+    { slug: "면역앤장유산균", title: "면역앤장유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "30억 CFU+비타민D 3μg+아연 2.55mg/2g 분말. 1일 1회 1포. 메디오젠. 18개월." },
+    { slug: "면역유산균바이탈업", title: "면역유산균 바이탈업 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 2.55mg+비타민B1 1.2mg/2,000mg 분말. 1일 1회 1포. 코스맥스엔비티. 18개월." },
   ],
 };
 
@@ -9473,4 +9484,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes55.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes56.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes57.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes58.map((s) => [s.slug, s])),
 };
