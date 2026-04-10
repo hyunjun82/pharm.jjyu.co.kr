@@ -59,6 +59,7 @@ import { spokes57 } from "./유산균-57";
 import { spokes58 } from "./유산균-58";
 import { spokes59 } from "./유산균-59";
 import { spokes60 } from "./유산균-60";
+import { spokes61 } from "./유산균-61";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -874,6 +875,16 @@ export const hub: HubArticle = {
     { slug: "프로프리신바이오틱스생유산균", title: "프로프리 신바이오틱스 생유산균 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+프락토올리고당 4,000mg+아연 12mg/5g 분말. 칼슘흡수+장건강. 녹십초알로에. 18개월." },
     { slug: "프롬바이오유산균for우먼", title: "프롬바이오 유산균 for 우먼 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU/170mg 장방형 캡슐. 여성 전용. 코스맥스엔비티. 18개월." },
     { slug: "프리미엄100억유산균", title: "프리미엄 100억 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/500mg 캡슐. 장건강 집중. 아오스. 18개월." },
+    { slug: "마이크로바이옴프로프리바이오틱스유산균", title: "마이크로바이옴 프로 프리바이오틱스 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+프락토올리고당 3g+아연 8.5mg+판토텐산 1.5mg/5g 분말. 신바이오틱스 4중 구성. 일양약품. 18개월." },
+    { slug: "빼빼컷다이어트유산균", title: "빼빼컷 다이어트 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "가르시니아 HCA 750mg+1억 CFU+비타민C 100mg/5g 분말. 체지방감소+장건강. 대웅제약. 18개월." },
+    { slug: "생유산균골드", title: "생유산균 골드 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU/2g 분말. 프로바이오틱스 단일 구성. 종근당건강. 18개월." },
+    { slug: "모발유산균엘비나인", title: "모발유산균 엘비나인 성분 효과 | 유산균 복용법 부작용까지", description: "LB-P9 50억 CFU+비오틴+비타민B1/450mg 장용성 캡슐. 모발개선 개별인정형. 대원헬스케어. 18개월." },
+    { slug: "락티브원더플로라유산균", title: "락티브 원더 플로라 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+셀렌 27.5ug+아연 4.25mg/0.35g 캡슐. 장+항산화+면역. 엠에스바이오텍. 18개월." },
+    { slug: "바이크롬간유산균", title: "바이크롬 간 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/500mg 캡슐. 비알콜성·알콜성 간건강+장건강. 종근당바이오. 냉장보관. 18개월." },
+    { slug: "면역이뮨100억유산균", title: "면역이뮨 100억 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU+아연 10mg/400mg 캡슐. 아연 고함량 면역+장건강. 엠에스바이오텍. 18개월." },
+    { slug: "맛있는저당츄어블유산균아연", title: "맛있는 저당 츄어블 유산균 아연 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+아연 2.55mg/1g 씹어먹는 정제. 저당 츄어블. 엠에스바이오텍. 18개월." },
+    { slug: "맘편한생유산균베이비앤키즈", title: "맘편한 생 유산균 베이비 앤 키즈 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+아연 2.55mg/2g 분말. 어린이 저함량 설계. 엠에스바이오텍. 18개월." },
+    { slug: "생유산균19프로바이오틱스", title: "생유산균 19 프로바이오틱스 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+비타민D 3ug+아연 2.55mg/250mg 캡슐. 장+뼈+면역. 한미양행. 24개월." },
   ],
 };
 
@@ -9509,4 +9520,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes58.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes59.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes60.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes61.map((s) => [s.slug, s])),
 };
