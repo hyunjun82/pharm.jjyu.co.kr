@@ -68,6 +68,7 @@ import { spokes66 } from "./유산균-66";
 import { spokes67 } from "./유산균-67";
 import { spokes68 } from "./유산균-68";
 import { spokes69 } from "./유산균-69";
+import { spokes70 } from "./유산균-70";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -932,6 +933,16 @@ export const hub: HubArticle = {
     { slug: "여에스더코유산균코면역엔노즈락토7days", title: "여에스더 코 유산균 노즈락토 7days 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU 코 면역 특화 캡슐. 냉장보관 필수. 일동바이오사이언스. 18개월." },
     { slug: "여에스더피부유산균", title: "여에스더 피부 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "HY7714+100억 CFU+아연 8.5mg+비타민A 장용성 캡슐. 알피바이오. 18개월." },
     { slug: "영라뉴다이어트유산균리턴컷솔루션PRO", title: "영라뉴 다이어트 유산균 리턴컷 솔루션 PRO 부작용 주의사항 | 성분 효과 복용법 가격", description: "B.breve B-3 50억 CFU+비타민B군 6종 장용성 캡슐. 대원헬스케어. 18개월." },
+    { slug: "오늘부터락토생유산균", title: "오늘부터 락토 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+아연 8.5mg 분말. 팜크로스. 18개월." },
+    { slug: "오메가유산균더블액션", title: "오메가 유산균 더블액션 성분 효과 복용법 | 가격 부작용 주의사항", description: "20억 CFU+EPA/DHA 600mg+아연 8.5mg 장용성 연질캡슐. 알피바이오. 18개월." },
+    { slug: "오메가유산균더블액션에스", title: "오메가 유산균 더블액션 에스 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU+EPA/DHA 600mg+아연 8.5mg 장용성 연질캡슐 에스. 알피바이오. 18개월." },
+    { slug: "오브맘다이어트유산균", title: "오브맘 다이어트 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "HY7601+KY1032 100억 CFU+비타민B군+크롬+비타민D 분말. 서흥헬스케어. 18개월." },
+    { slug: "오브맘피부유산균", title: "오브맘 피부 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "HY7714 100억 CFU+비타민E·A·D+아연 분말. 서흥헬스케어. 18개월." },
+    { slug: "온가족멀티유산균", title: "온가족 멀티 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+비타민D+셀렌+아연 투명경질캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "온가족생생유산균", title: "온가족 생생 유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "50억 CFU+비타민B군+비타민D+아연 분말. 엠에스바이오텍. 18개월." },
+    { slug: "온가족생유산균", title: "온가족 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+아연 2.7mg 기본형 분말. 엠에스바이오텍. 18개월." },
+    { slug: "온가족생유산균19플러스", title: "온가족 생유산균 19 플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU+엽산+셀렌+아연 분말. 비오팜. 18개월." },
+    { slug: "온가족생유산균200포", title: "온가족 생유산균 200포 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU+아연+셀렌 대용량 200포 분말. 뉴팜. 18개월." },
   ],
 };
 
@@ -9576,4 +9587,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes67.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes68.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes69.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes70.map((s) => [s.slug, s])),
 };
