@@ -61,6 +61,7 @@ import { spokes59 } from "./유산균-59";
 import { spokes60 } from "./유산균-60";
 import { spokes61 } from "./유산균-61";
 import { spokes62 } from "./유산균-62";
+import { spokes63 } from "./유산균-63";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -886,6 +887,16 @@ export const hub: HubArticle = {
     { slug: "맛있는저당츄어블유산균아연", title: "맛있는 저당 츄어블 유산균 아연 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+아연 2.55mg/1g 씹어먹는 정제. 저당 츄어블. 엠에스바이오텍. 18개월." },
     { slug: "맘편한생유산균베이비앤키즈", title: "맘편한 생 유산균 베이비 앤 키즈 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+아연 2.55mg/2g 분말. 어린이 저함량 설계. 엠에스바이오텍. 18개월." },
     { slug: "생유산균19프로바이오틱스", title: "생유산균 19 프로바이오틱스 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+비타민D 3ug+아연 2.55mg/250mg 캡슐. 장+뼈+면역. 한미양행. 24개월." },
+    { slug: "생유산균로얄", title: "생유산균 로얄 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU/2g 분말. 프로바이오틱스 단일. 종근당건강. 24개월." },
+    { slug: "생유산균맘스", title: "생유산균맘스 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU/2g 분말. 프로바이오틱스 단일. 종근당건강. 위탁 (주)아람. 15개월." },
+    { slug: "생유산균베베", title: "생유산균베베 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU/2g 분말. 프로바이오틱스 단일. 종근당건강. 18개월." },
+    { slug: "생유산균비타민D", title: "생유산균 비타민D 성분 효과 | 유산균 복용법 부작용까지", description: "3억 CFU+비타민D 3μg/2000mg 분말. 장+뼈. 코스맥스엔비티. 18개월." },
+    { slug: "생유산균비타민D아연", title: "생유산균 비타민D 아연 성분 효과 | 유산균 복용법 부작용까지", description: "3억 CFU+비타민D 3μg+아연 2.55mg/2000mg 분말. 장+뼈+면역. 코스맥스엔비티. 18개월." },
+    { slug: "생유산균스피루리나", title: "생유산균 스피루리나 성분 효과 | 유산균 복용법 부작용까지", description: "5억 CFU+비타민D 4.5μg+셀렌 40μg+아연 5mg+스피루리나/3g 정제. 5중 복합. 엠에스바이오텍. 24개월." },
+    { slug: "생유산균슬림", title: "생유산균슬림 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+HCA 750mg/4g 분말. 장건강+체지방. 종근당건강. 15개월." },
+    { slug: "생유산균식물성", title: "생유산균 식물성 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 8.5mg/2g 분말. 장+면역. 종근당건강. 15개월." },
+    { slug: "생유산균알파", title: "생유산균 알파 성분 효과 | 유산균 복용법 부작용까지", description: "3억 CFU/6000mg 분말. 1일3회. 경남제약. 24개월." },
+    { slug: "생유산균에프F", title: "생유산균에프(F) 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU/2000mg 분말. 최저함량 단일. 에스케이내추럴팜. 24개월." },
   ],
 };
 
@@ -9523,4 +9534,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes60.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes61.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes62.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes63.map((s) => [s.slug, s])),
 };
