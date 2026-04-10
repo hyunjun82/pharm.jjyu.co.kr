@@ -62,6 +62,7 @@ import { spokes60 } from "./유산균-60";
 import { spokes61 } from "./유산균-61";
 import { spokes62 } from "./유산균-62";
 import { spokes63 } from "./유산균-63";
+import { spokes64 } from "./유산균-64";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -897,6 +898,16 @@ export const hub: HubArticle = {
     { slug: "생유산균식물성", title: "생유산균 식물성 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 8.5mg/2g 분말. 장+면역. 종근당건강. 15개월." },
     { slug: "생유산균알파", title: "생유산균 알파 성분 효과 | 유산균 복용법 부작용까지", description: "3억 CFU/6000mg 분말. 1일3회. 경남제약. 24개월." },
     { slug: "생유산균에프F", title: "생유산균에프(F) 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU/2000mg 분말. 최저함량 단일. 에스케이내추럴팜. 24개월." },
+    { slug: "생유산균이뮨", title: "생유산균 이뮨 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 8.5mg/2g 분말. 면역 강화. 종근당건강. 15개월." },
+    { slug: "생유산균츄어블키즈", title: "생유산균 츄어블 키즈 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 2.55mg/1.8g 츄어블 정제. 메디오젠. 18개월." },
+    { slug: "생유산균키즈", title: "생유산균키즈 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+비타민D 10μg+아연 2.55mg/2g 분말. 종근당건강. 18개월." },
+    { slug: "생유산균팜", title: "생유산균 팜 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 8.5mg+셀렌 16.5μg/2g 분말. 종근당건강. 24개월." },
+    { slug: "생유산균패밀리플러스", title: "생유산균 패밀리 플러스 성분 효과 | 유산균 복용법 부작용까지", description: "30억 CFU/1.5g 분말. 프로바이오틱스 단일. 서흥. 18개월." },
+    { slug: "생유산균패스", title: "생유산균패스 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+L-테아닌 200mg+B군비타민/4g 분말. 종근당건강. 15개월." },
+    { slug: "생유산균프로바이오키즈골드", title: "생유산균 프로바이오 키즈 골드 성분 효과 | 유산균 복용법 부작용까지", description: "5억 CFU+아연+비타민D·A+셀렌/2g 분말. 비오팜. 18개월." },
+    { slug: "생유산균프로바이오틱스", title: "생유산균 프로바이오틱스 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU/2g 분말. 최저함량 단일. 케이지앤에프. 18개월." },
+    { slug: "생유산균프리미엄", title: "생유산균 프리미엄 성분 효과 | 유산균 복용법 부작용까지", description: "500억 CFU L.plantarum CJLP133 장용성캡슐. 피부개선 개별인정형. 서흥헬스케어. 18개월." },
+    { slug: "생유산균화이버", title: "생유산균화이버 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+식이섬유 4g/6g 분말. 물에 타서 섭취. 종근당건강. 15개월." },
   ],
 };
 
@@ -9535,4 +9546,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes61.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes62.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes63.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes64.map((s) => [s.slug, s])),
 };
