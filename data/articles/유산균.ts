@@ -54,6 +54,7 @@ import { spokes52 } from "./유산균-52";
 import { spokes53 } from "./유산균-53";
 import { spokes54 } from "./유산균-54";
 import { spokes55 } from "./유산균-55";
+import { spokes56 } from "./유산균-56";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -819,6 +820,16 @@ export const hub: HubArticle = {
     { slug: "리얼프로바이오틱스온가족용생유산균", title: "리얼 프로바이오틱스 온가족용 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "30억 CFU+아연 2.55mg/2.5g 분말. 1일 1회 1포. 쎌바이오텍. 24개월." },
     { slug: "리턴당케어혈당유산균", title: "리턴당케어 혈당&유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "코로솔산 1.3mg+30억 CFU/400mg 경질캡슐. 1일 1회 1캡슐. 유유헬스케어. 18개월." },
     { slug: "리틀팡유산균", title: "리틀팡 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU+비타민D 10ug+아연 8mg/2g 분홍색 분말. 1일 1회 1포. 씨스팡. 18개월." },
+    { slug: "마이코드신바이오틱스유산균100억", title: "마이코드 신바이오틱스 유산균 100억 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+락추로스 650mg+아연 8.5mg/3g 분말. 1일 1회 1포. 코스맥스엔비티. 18개월." },
+    { slug: "마이크로바이옴유산균", title: "마이크로바이옴 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+아연 8.5mg/500mg 투명 경질캡슐. 1일 1회 1캡슐. 일동바이오사이언스. 18개월." },
+    { slug: "마이핏B듀얼케어피부유산균", title: "마이핏 B 듀얼케어 피부유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "HY7714 피부보습+100억 CFU+아연 8.5mg/480mg 경질캡슐. 1일 1회 1캡슐. 비오팜. 18개월." },
+    { slug: "마이핏ORIGIN덴마크100억유산균", title: "마이핏 ORIGIN 덴마크 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+아연 8.5mg/250mg 소형 경질캡슐. 1일 1회 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "마이해빗프리미엄다이어트유산균", title: "마이해빗 프리미엄 다이어트 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "HY7601+KY1032 체지방감소+100억 CFU+판토텐산+아연+비타민D/1g 캡슐. 1일 1회 2캡슐. 서흥. 18개월. 냉장보관." },
+    { slug: "맘앤베이비밸런스유산균", title: "맘앤베이비 밸런스 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU/500mg 투명 경질캡슐. 프로바이오틱스 단일. 1일 1회 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "맘편한생유산균키즈", title: "맘편한 생유산균 키즈 최저가 가격 | 성분 효과 복용법 부작용까지", description: "30억 CFU+비타민D 3ug+아연 2.55mg/2g 분말. 1일 1회 1포. 엠에스바이오텍. 18개월." },
+    { slug: "매일건강한습관W유산균", title: "매일 건강한 습관 W 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "20억 CFU+아연 8.5mg+비타민D 10ug+셀레늄 55ug/2g 분말. 1일 1회 1포. 메디오젠. 24개월." },
+    { slug: "맥스케어마이크로바이옴100억유산균", title: "맥스케어 마이크로바이옴 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+프락토올리고당 3,000mg+아연+셀레늄+비타민D/5g 분말. 1일 1회 1포. 코스맥스엔비티. 24개월." },
+    { slug: "머선129빠져드네유산균", title: "머선129 빠져드네 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/1,500mg 원형 정제. 씹어서 섭취. 프로바이오틱스 단일. 1일 1회 1정. 포항바이오파크. 24개월." },
   ],
 };
 
@@ -9449,4 +9460,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes53.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes54.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes55.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes56.map((s) => [s.slug, s])),
 };
