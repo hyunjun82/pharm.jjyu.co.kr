@@ -66,6 +66,7 @@ import { spokes64 } from "./유산균-64";
 import { spokes65 } from "./유산균-65";
 import { spokes66 } from "./유산균-66";
 import { spokes67 } from "./유산균-67";
+import { spokes68 } from "./유산균-68";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -142,7 +143,7 @@ export const hub: HubArticle = {
     },
     {
       slug: "여에스더뇌유산균",
-      title: "여에스더 뇌 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지",
+      title: "여에스더 뇌 유산균 복용법 부작용 | 성분 효과 가격 비교",
       description: "100억 CFU 인지기능 유산균 여에스더 브레인 프로바이오틱스",
     },
     {
@@ -911,6 +912,15 @@ export const hub: HubArticle = {
     { slug: "생유산균프로바이오틱스", title: "생유산균 프로바이오틱스 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU/2g 분말. 최저함량 단일. 케이지앤에프. 18개월." },
     { slug: "생유산균프리미엄", title: "생유산균 프리미엄 성분 효과 | 유산균 복용법 부작용까지", description: "500억 CFU L.plantarum CJLP133 장용성캡슐. 피부개선 개별인정형. 서흥헬스케어. 18개월." },
     { slug: "생유산균화이버", title: "생유산균화이버 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+식이섬유 4g/6g 분말. 물에 타서 섭취. 종근당건강. 15개월." },
+    { slug: "여에스더다이어트유산균Pro", title: "여에스더 다이어트 유산균 Pro 최저가 가격 | 성분 효과 복용법 부작용까지", description: "B.breve B-3 50억 CFU+비타민B군 6종 장용성 캡슐. 체지방 감소. 대원헬스케어. 18개월." },
+    { slug: "여에스더다이어트유산균혈당케어", title: "여에스더 다이어트 유산균 혈당 케어 성분 효과 복용법 | 가격 부작용 주의사항", description: "100억 CFU+바나바잎(코로솔산 0.45mg) 캡슐. 체지방+혈당. 서흥. 18개월." },
+    { slug: "여에스더유산균갱년기케어", title: "여에스더 유산균 갱년기 케어 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "백수오+10억 CFU+셀레늄+아연+비타민D 등 9종 장용성 캡슐. 서흥. 18개월." },
+    { slug: "여에스더유산균골드PRO", title: "여에스더 유산균 골드 PRO 부작용 주의사항 | 성분 효과 복용법 가격", description: "프로바이오틱스 100억 CFU 단일 캡슐. 서흥. 18개월." },
+    { slug: "여에스더유산균덴탈", title: "여에스더 유산균 덴탈 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+칼슘 210mg 츄어블 정제. 1일2회. 메디오젠. 18개월." },
+    { slug: "여에스더유산균락토지지LactoGG", title: "여에스더 유산균 락토지지 성분 효과 복용법 | 가격 부작용 주의사항", description: "100억 CFU 장방형 투명 캡슐. 코스맥스엔비티. 18개월." },
+    { slug: "여에스더유산균맘케어", title: "여에스더 유산균 맘케어 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU+비타민D 5ug+철 3.6mg 분말. 코스맥스엔비티. 18개월." },
+    { slug: "여에스더유산균슬림", title: "여에스더 유산균 슬림 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+가르시니아 HCA 750mg/5g 분말. 코스맥스엔비티. 18개월." },
+    { slug: "여에스더유산균위케어플러스", title: "여에스더 유산균 위케어 플러스 부작용 주의사항 | 성분 효과 복용법 가격", description: "꾸지뽕잎추출물+30억 CFU 캡슐. 위 불편감 개선. 알피바이오. 18개월." },
   ],
 };
 
@@ -9553,4 +9563,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes65.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes66.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes67.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes68.map((s) => [s.slug, s])),
 };
