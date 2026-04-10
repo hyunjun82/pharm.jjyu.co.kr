@@ -70,6 +70,7 @@ import { spokes68 } from "./유산균-68";
 import { spokes69 } from "./유산균-69";
 import { spokes70 } from "./유산균-70";
 import { spokes71 } from "./유산균-71";
+import { spokes72 } from "./유산균-72";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -954,6 +955,16 @@ export const hub: HubArticle = {
     { slug: "온가족을위한생유산균츄어블", title: "온가족을 위한 생유산균 츄어블 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+아연 2.65mg 미백색 원형 정제. 엠에스바이오텍. 18개월." },
     { slug: "온가족장건강생유산균19", title: "온가족 장건강 생유산균19 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU 입안에서 녹여 섭취. 에스엘에스. 18개월." },
     { slug: "온가족츄어블유산균", title: "온가족 츄어블 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU 1일2회 씹어 먹는 연분홍색 정제. 팜크로스. 18개월." },
+    { slug: "온가족패밀리유산균", title: "온가족 패밀리 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "30억 CFU+아연 4.25mg/2.1g 분말. 메디오젠 충주공장. 18개월." },
+    { slug: "온가족혈당생유산균", title: "온가족 혈당 생유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "1억 CFU+코로솔산 1mg/2g 분말. 에이원바이옴. 혈당+장 건강. 18개월." },
+    { slug: "온가족혼합생유산균", title: "온가족 혼합 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+비타민D·B군·셀렌·엽산 9종/3,000mg 분말. 비오팜. 18개월." },
+    { slug: "온가족혼합생유산균프로바이오틱스비타민D플러스", title: "온가족 혼합 생유산균 프로바이오틱스 비타민D 플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU+비타민D 3ug/2g 분말. 허브큐어. 18개월." },
+    { slug: "온가족혼합생유산균프로바이오틱스비타민D플러스아연", title: "온가족 혼합 생유산균 프로바이오틱스 비타민D 플러스 아연 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU+아연 2.55mg+비타민D 3ug/2,000mg 분말. 코지맘바이오. 18개월." },
+    { slug: "온가족혼합생유산균프로바이오틱스플러스아연", title: "온가족 혼합 생유산균 프로바이오틱스 플러스 아연 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+아연 2.55mg/2,000mg 분홍빛 분말. 비오팜. 18개월." },
+    { slug: "온가족혼합생유산균프로프리바이오틱스", title: "온가족 혼합 생유산균 프로프리바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항", description: "1억 CFU+프락토올리고당 3g/5g 분말. 비엠제약. 신바이오틱스. 18개월." },
+    { slug: "온리바이옴듀얼케어100억유산균", title: "온리바이옴 듀얼 케어 100억 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "액상(식이섬유5g)+장용성캡슐(100억 CFU+아연8.5mg). 상상바이오. 18개월." },
+    { slug: "온케어쏙빼고다이어트유산균", title: "온케어 쏙빼고 다이어트 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "HCA 750mg+1억 CFU+프락토올리고당 3g/4.7g 분말. 세종바이오팜. 24개월." },
+    { slug: "올데이유산균17종", title: "올데이 유산균 17종 부작용 주의사항 | 성분 효과 복용법 가격", description: "17종 균주 1억 CFU+아연 2.55mg/2g 분말. 엠에스바이오텍. 18개월." },
   ],
 };
 
@@ -9600,4 +9611,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes69.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes70.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes71.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes72.map((s) => [s.slug, s])),
 };
