@@ -69,6 +69,7 @@ import { spokes67 } from "./유산균-67";
 import { spokes68 } from "./유산균-68";
 import { spokes69 } from "./유산균-69";
 import { spokes70 } from "./유산균-70";
+import { spokes71 } from "./유산균-71";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -943,6 +944,16 @@ export const hub: HubArticle = {
     { slug: "온가족생유산균", title: "온가족 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+아연 2.7mg 기본형 분말. 엠에스바이오텍. 18개월." },
     { slug: "온가족생유산균19플러스", title: "온가족 생유산균 19 플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU+엽산+셀렌+아연 분말. 비오팜. 18개월." },
     { slug: "온가족생유산균200포", title: "온가족 생유산균 200포 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU+아연+셀렌 대용량 200포 분말. 뉴팜. 18개월." },
+    { slug: "온가족생유산균골드", title: "온가족 생유산균 골드 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+셀렌 55ug+아연 8.5mg 분말. 서흥. 18개월." },
+    { slug: "온가족생유산균엔탑프로바이오틱스", title: "온가족 생유산균엔 탑 프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항", description: "1억 CFU+아연+셀렌+비타민D+엽산 5종 분말. 비오팜. 18개월." },
+    { slug: "온가족생유산균플러스", title: "온가족 생유산균 플러스 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU 단일 구성 분말. 뉴팜. 24개월." },
+    { slug: "온가족유산균비타민D아연", title: "온가족 유산균 비타민D 아연 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "30억 CFU+아연+비타민D 분말. 코스맥스엔비티. 18개월." },
+    { slug: "온가족유산균비피더스프리미엄", title: "온가족 유산균 비피더스 프리미엄 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억 CFU+아연+셀레늄 투명경질캡슐. 비피도. 18개월." },
+    { slug: "온가족유산균비피더스플러스", title: "온가족 유산균 비피더스 플러스 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU+아연+셀레늄 투명경질캡슐. 비피도. 18개월." },
+    { slug: "온가족유산균플러스", title: "온가족 유산균 플러스 성분 효과 복용법 | 가격 부작용 주의사항", description: "1억 CFU 단일 구성 미황색 분말. 허브큐어. 24개월." },
+    { slug: "온가족을위한생유산균츄어블", title: "온가족을 위한 생유산균 츄어블 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+아연 2.65mg 미백색 원형 정제. 엠에스바이오텍. 18개월." },
+    { slug: "온가족장건강생유산균19", title: "온가족 장건강 생유산균19 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU 입안에서 녹여 섭취. 에스엘에스. 18개월." },
+    { slug: "온가족츄어블유산균", title: "온가족 츄어블 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU 1일2회 씹어 먹는 연분홍색 정제. 팜크로스. 18개월." },
   ],
 };
 
@@ -9588,4 +9599,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes68.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes69.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes70.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes71.map((s) => [s.slug, s])),
 };
