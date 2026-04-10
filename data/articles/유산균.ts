@@ -72,6 +72,7 @@ import { spokes70 } from "./유산균-70";
 import { spokes71 } from "./유산균-71";
 import { spokes72 } from "./유산균-72";
 import { spokes73 } from "./유산균-73";
+import { spokes74 } from "./유산균-74";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -966,6 +967,16 @@ export const hub: HubArticle = {
     { slug: "온리바이옴듀얼케어100억유산균", title: "온리바이옴 듀얼 케어 100억 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "액상(식이섬유5g)+장용성캡슐(100억 CFU+아연8.5mg). 상상바이오. 18개월." },
     { slug: "온케어쏙빼고다이어트유산균", title: "온케어 쏙빼고 다이어트 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "HCA 750mg+1억 CFU+프락토올리고당 3g/4.7g 분말. 세종바이오팜. 24개월." },
     { slug: "올데이유산균17종", title: "올데이 유산균 17종 부작용 주의사항 | 성분 효과 복용법 가격", description: "17종 균주 1억 CFU+아연 2.55mg/2g 분말. 엠에스바이오텍. 18개월." },
+    { slug: "올키유산균츄어블", title: "올키 유산균 츄어블 최저가 가격 | 성분 효과 복용법 부작용까지", description: "2억 CFU/2,000mg 씹어먹는 연분홍색 정제. 1일 2회 1정. 팜크로스. 18개월." },
+    { slug: "올트루원더바이오틱스유산균플러스", title: "올트루 원더바이오틱스 유산균 플러스 성분 효과 복용법 | 가격 부작용 주의사항", description: "50억 CFU+아연 2.55mg+셀레늄 16.5ug+비타민D 3ug/500mg 캡슐. 메디오젠. 18개월." },
+    { slug: "올팜유산균다이어트", title: "올팜 유산균 다이어트 복용법 부작용 | 성분 효과 가격 비교", description: "가르시니아 HCA 750mg+1억 CFU+비타민C 100mg/3.5g 분말. 노비스바이오. 18개월." },
+    { slug: "올퓨어피부면역앤장유산균", title: "올퓨어 피부면역 앤 장 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+비피더스 1억+아연+비타민D/2,000mg 분말. L.sakei Probio65 피부개선. 코스맥스엔비티. 18개월." },
+    { slug: "와이락진유산균", title: "와이락진 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "30억 CFU+아연 2.55mg/180mg 소형 캡슐. 메디오젠. 18개월." },
+    { slug: "우디스웰베이비유산균건조효모비타민D", title: "우디스웰 베이비 유산균 건조효모 비타민D 최저가 가격 | 성분 효과 복용법 부작용까지", description: "15억 CFU+비타민D 10ug/2.5g 분말. 내츄럴엔. 영유아용. 18개월." },
+    { slug: "우리가족생유산균", title: "우리가족 생유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "20억 CFU+아연 5mg/2,000mg 분말. 아마존허브. 36개월." },
+    { slug: "우리가족장건강엔프로바이오틱스생유산균", title: "우리가족 장건강엔 프로바이오틱스 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU/2g 순수 유산균 흰색 분말. 코지맘바이오. 18개월." },
+    { slug: "우리아기를위한프로바이오틱스유산균베이비키즈", title: "우리 아기를 위한 프로바이오틱스 유산균 베이비키즈 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU/2,000mg 흰분홍색 분말. 코스맥스엔비티. 영유아·어린이용. 18개월." },
+    { slug: "우리아기생유산균-프로바이오틱스비타민D아연", title: "우리 아기 생유산균 프로바이오틱스 비타민D 아연 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU+아연 3mg+비타민D 5ug/1,500mg 분말. 비오팜. 영유아용. 18개월." },
   ],
 };
 
@@ -9614,4 +9625,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes71.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes72.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes73.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes74.map((s) => [s.slug, s])),
 };
