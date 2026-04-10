@@ -55,6 +55,7 @@ import { spokes53 } from "./유산균-53";
 import { spokes54 } from "./유산균-54";
 import { spokes55 } from "./유산균-55";
 import { spokes56 } from "./유산균-56";
+import { spokes57 } from "./유산균-57";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -830,6 +831,16 @@ export const hub: HubArticle = {
     { slug: "매일건강한습관W유산균", title: "매일 건강한 습관 W 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "20억 CFU+아연 8.5mg+비타민D 10ug+셀레늄 55ug/2g 분말. 1일 1회 1포. 메디오젠. 24개월." },
     { slug: "맥스케어마이크로바이옴100억유산균", title: "맥스케어 마이크로바이옴 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+프락토올리고당 3,000mg+아연+셀레늄+비타민D/5g 분말. 1일 1회 1포. 코스맥스엔비티. 24개월." },
     { slug: "머선129빠져드네유산균", title: "머선129 빠져드네 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/1,500mg 원형 정제. 씹어서 섭취. 프로바이오틱스 단일. 1일 1회 1정. 포항바이오파크. 24개월." },
+    { slug: "멀티생유산균라이브", title: "멀티 생유산균 라이브 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+아연 8.5mg+B1·B2·B6+비타민D 10μg/1,500mg 분말. 1일 1회 1포. 한국바이오팜. 18개월." },
+    { slug: "멀티유산균우먼", title: "멀티유산균 우먼 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+아연 8.5mg+비타민D 30μg/400mg 캡슐. 1일 1회 1캡슐. 상상바이오. 18개월." },
+    { slug: "멀티프로바이오틱스락토앤비피더스생유산균", title: "멀티 프로바이오틱스 락토 앤 비피더스 생유산균 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+B1·B2·B6+비타민C 100mg+아연 8.5mg+셀렌 55μg/2g 분말. 1일 1회 1포. 이앤에스. 18개월." },
+    { slug: "멀티프로바이오틱스생유산균", title: "멀티 프로바이오틱스 생유산균 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU/2g 분말. 프로바이오틱스 단일. 1일 1회 1포. 엠에스바이오텍. 18개월." },
+    { slug: "멋진장건강생유산균", title: "멋진 장건강 생유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "3억 CFU/6,000mg 분말. 1일 3회 1회 1포. 프로바이오틱스 단일. (주)뉴팜. 24개월." },
+    { slug: "메노솔루션갱년기유산균", title: "메노솔루션 갱년기 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "소포리코사이드 35mg+1억 CFU/450mg 캡슐. 갱년기+장 건강. 1일 1회 1캡슐. 팜투팜. 18개월." },
+    { slug: "메디오젠유산균", title: "메디오젠 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+비타민D 3μg+아연 2.55mg/2g 분말. 1일 1회 1포. 메디오젠 충주공장. 18개월." },
+    { slug: "메디타민소장건강유산균프로바이오틱스", title: "메디타민 소장건강 유산균 프로바이오틱스 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/500mg 장용성 캡슐. 1일 1회 1캡슐. 청안오가닉스. 18개월." },
+    { slug: "메디타민장건강유산균프로바이오틱스", title: "메디타민 장건강 유산균 프로바이오틱스 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/500mg 장용성 캡슐. 1일 1회 1캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "메이플트리키즈유산균프로바이오틱스", title: "메이플트리 키즈유산균 프로바이오틱스 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+비타민D 3μg+셀렌 16.5μg+아연 2.55mg/2g 분말. 1일 1회 1포. 엠에스바이오텍. 18개월." },
   ],
 };
 
@@ -9461,4 +9472,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes54.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes55.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes56.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes57.map((s) => [s.slug, s])),
 };
