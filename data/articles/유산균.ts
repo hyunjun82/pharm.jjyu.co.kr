@@ -67,6 +67,7 @@ import { spokes65 } from "./유산균-65";
 import { spokes66 } from "./유산균-66";
 import { spokes67 } from "./유산균-67";
 import { spokes68 } from "./유산균-68";
+import { spokes69 } from "./유산균-69";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -921,6 +922,16 @@ export const hub: HubArticle = {
     { slug: "여에스더유산균맘케어", title: "여에스더 유산균 맘케어 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU+비타민D 5ug+철 3.6mg 분말. 코스맥스엔비티. 18개월." },
     { slug: "여에스더유산균슬림", title: "여에스더 유산균 슬림 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+가르시니아 HCA 750mg/5g 분말. 코스맥스엔비티. 18개월." },
     { slug: "여에스더유산균위케어플러스", title: "여에스더 유산균 위케어 플러스 부작용 주의사항 | 성분 효과 복용법 가격", description: "꾸지뽕잎추출물+30억 CFU 캡슐. 위 불편감 개선. 알피바이오. 18개월." },
+    { slug: "여에스더유산균캄", title: "여에스더 유산균 캄 최저가 가격 | 성분 효과 복용법 부작용까지", description: "L-테아닌 200mg+100억 CFU 분말. 스트레스 긴장완화. 콜마비앤에이치. 18개월." },
+    { slug: "여에스더유산균클래식PRO", title: "여에스더 유산균 클래식 PRO 성분 효과 복용법 | 가격 부작용 주의사항", description: "100억 CFU 단일 프로바이오틱스 경질캡슐. 서흥. 18개월." },
+    { slug: "여에스더유산균키즈플러스이뮨업", title: "여에스더 유산균 키즈 플러스 이뮨업 복용법 부작용 | 성분 효과 가격 비교", description: "50억 CFU+아연 4.25mg+비타민D 10ug 분말. 코스맥스엔비티. 18개월." },
+    { slug: "여에스더유산균혈당케어", title: "여에스더 유산균 혈당 케어 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "40억 CFU+코로솔산 1.3mg 캡슐. 식후 혈당 억제. 메디오젠. 18개월." },
+    { slug: "여에스더유산균화이트pro", title: "여에스더 유산균 화이트 pro 부작용 주의사항 | 성분 효과 복용법 가격", description: "50억 CFU 단일 프로바이오틱스 경질캡슐. 메디오젠. 18개월." },
+    { slug: "여에스더유산균화이트더블유", title: "여에스더 유산균 화이트 더블유 최저가 가격 | 성분 효과 복용법 부작용까지", description: "20억 CFU 단일 프로바이오틱스 경질캡슐. 메디오젠. 18개월." },
+    { slug: "여에스더질유산균리스펙타pro", title: "여에스더 질 유산균 리스펙타 pro 성분 효과 복용법 | 가격 부작용 주의사항", description: "리스펙타+50억 CFU+락토페린 54mg+아연+비타민D 캡슐. 코스맥스엔비티. 18개월." },
+    { slug: "여에스더코유산균코면역엔노즈락토7days", title: "여에스더 코 유산균 노즈락토 7days 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU 코 면역 특화 캡슐. 냉장보관 필수. 일동바이오사이언스. 18개월." },
+    { slug: "여에스더피부유산균", title: "여에스더 피부 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "HY7714+100억 CFU+아연 8.5mg+비타민A 장용성 캡슐. 알피바이오. 18개월." },
+    { slug: "영라뉴다이어트유산균리턴컷솔루션PRO", title: "영라뉴 다이어트 유산균 리턴컷 솔루션 PRO 부작용 주의사항 | 성분 효과 복용법 가격", description: "B.breve B-3 50억 CFU+비타민B군 6종 장용성 캡슐. 대원헬스케어. 18개월." },
   ],
 };
 
@@ -9564,4 +9575,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes66.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes67.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes68.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes69.map((s) => [s.slug, s])),
 };
