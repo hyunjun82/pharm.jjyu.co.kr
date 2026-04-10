@@ -57,6 +57,7 @@ import { spokes55 } from "./유산균-55";
 import { spokes56 } from "./유산균-56";
 import { spokes57 } from "./유산균-57";
 import { spokes58 } from "./유산균-58";
+import { spokes59 } from "./유산균-59";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -852,6 +853,16 @@ export const hub: HubArticle = {
     { slug: "면역앤유산균", title: "면역 앤 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/g+아연 3.0mg/g+비타민B6 0.6mg/g+셀렌 17μg/g 캡슐. 1일 1회 2캡슐. 일동바이오사이언스. 18개월." },
     { slug: "면역앤장유산균", title: "면역앤장유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "30억 CFU+비타민D 3μg+아연 2.55mg/2g 분말. 1일 1회 1포. 메디오젠. 18개월." },
     { slug: "면역유산균바이탈업", title: "면역유산균 바이탈업 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 2.55mg+비타민B1 1.2mg/2,000mg 분말. 1일 1회 1포. 코스맥스엔비티. 18개월." },
+    { slug: "면역유산균톡톡업", title: "면역유산균 톡톡업 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 2.55mg/2g 분말. 1일 1회 1포. 메디오젠 충주공장. 18개월." },
+    { slug: "면역유산균플러스업", title: "면역유산균 플러스업 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+아연 5mg/2,000mg 분말. 1일 1회 1포. 코스맥스엔비티. 18개월." },
+    { slug: "바이오센셜온가족면역유산균", title: "바이오센셜 온가족 면역유산균 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+아연 8.5mg+비타민D 10μg/0.3g 장용성 캡슐. 1일 1회 1캡슐. 서흥. 18개월." },
+    { slug: "바이오코어피부면역유산균", title: "바이오코어 피부면역 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/4,000mg 분말. L.plantarum CJLP133 피부상태 개선. 1일 1회 2포. 노바렉스. 18개월." },
+    { slug: "비피젠노즈뮨프리미엄코면역유산균", title: "비피젠 노즈뮨 프리미엄 코면역 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/2,000mg 분말. 코상태 개선. 1일 1회 1포. 일동바이오사이언스. 냉장보관. 18개월." },
+    { slug: "엘라이든키즈면역유산균", title: "엘라이든 키즈 면역 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "15억 CFU+아연 4.25mg/2,000mg 분말. 1일 1회 1포. 코스맥스엔비티. 18개월." },
+    { slug: "올키패밀리면역유산균", title: "올키 패밀리 면역 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+비타민D 10μg+아연 8.5mg/2.5g 분말. 1일 1회 1포. 콜마비앤에이치. 18개월." },
+    { slug: "위슬로면역유산균패밀리", title: "위슬로 면역유산균 패밀리 성분 효과 | 유산균 복용법 부작용까지", description: "20억 CFU+아연 8.5mg/2g 분말. 1일 1회 1포. 콜마비앤에이치. 18개월." },
+    { slug: "이너뷰티피부면역유산균", title: "이너뷰티 피부 면역 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU+비피더스 2억+아연+비타민D+셀렌+비오틴/2,000mg 분말. 피부상태 개선. 냉장보관. 18개월." },
+    { slug: "장인정신에브리데이피부면역유산균", title: "장인정신 에브리데이 피부면역 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU+비피더스 1억+셀레늄 55μg/2,000mg 분말. 피부상태 개선. 코스맥스엔비티. 18개월." },
   ],
 };
 
@@ -9485,4 +9496,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes56.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes57.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes58.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes59.map((s) => [s.slug, s])),
 };
