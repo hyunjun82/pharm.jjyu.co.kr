@@ -58,6 +58,7 @@ import { spokes56 } from "./유산균-56";
 import { spokes57 } from "./유산균-57";
 import { spokes58 } from "./유산균-58";
 import { spokes59 } from "./유산균-59";
+import { spokes60 } from "./유산균-60";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -863,6 +864,16 @@ export const hub: HubArticle = {
     { slug: "위슬로면역유산균패밀리", title: "위슬로 면역유산균 패밀리 성분 효과 | 유산균 복용법 부작용까지", description: "20억 CFU+아연 8.5mg/2g 분말. 1일 1회 1포. 콜마비앤에이치. 18개월." },
     { slug: "이너뷰티피부면역유산균", title: "이너뷰티 피부 면역 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU+비피더스 2억+아연+비타민D+셀렌+비오틴/2,000mg 분말. 피부상태 개선. 냉장보관. 18개월." },
     { slug: "장인정신에브리데이피부면역유산균", title: "장인정신 에브리데이 피부면역 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU+비피더스 1억+셀레늄 55μg/2,000mg 분말. 피부상태 개선. 코스맥스엔비티. 18개월." },
+    { slug: "프로바이오피부면역유산균분말", title: "프로바이오 피부 면역 유산균 분말 성분 효과 | 유산균 복용법 부작용까지", description: "L.sakei Probio65 100억 CFU+비피더스 10억/2,000mg 분말. 피부상태 개선. 코스맥스엔비티. 냉장. 18개월." },
+    { slug: "프로바이오피부뷰티유산균", title: "프로바이오 피부 뷰티 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU+비피더스 10억+아연 8.5mg+비타민D 10μg+셀렌 55μg+비오틴 30μg/2,000mg 분말. 피부+면역+뼈. 냉장. 18개월." },
+    { slug: "프로비던스시크릿유산균플러스", title: "프로비던스 시크릿 유산균 플러스 성분 효과 | 유산균 복용법 부작용까지", description: "30억 CFU+셀레늄 16.5μg+아연 2.55mg/180mg 캡슐. 장+면역+세포보호. 메디오젠. 24개월." },
+    { slug: "프로비던스올인원유산균", title: "프로비던스 올인원 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU/2g 분말. 프로바이오틱스 단일. 메디오젠 충주공장. 18개월." },
+    { slug: "프로비던스올인원유산균밸런스", title: "프로비던스 올인원 유산균 밸런스 성분 효과 | 유산균 복용법 부작용까지", description: "1억 CFU+프락토올리고당 3,000mg+아연 8.5mg+판토텐산 5mg/4g 분말. 신바이오틱스. 비오팜. 18개월." },
+    { slug: "프로비던스장건강100억유산균", title: "프로비던스 장건강 100억 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/0.35g 캡슐. 장건강 집중. 엠에스바이오텍. 24개월." },
+    { slug: "프로프리바이오틱스유산균", title: "프로프리 바이오틱스 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "2억 CFU+프락토올리고당 3,000mg+아연 8.5mg/4g 분말. 1일 2회. 녹십초알로에. 18개월." },
+    { slug: "프로프리신바이오틱스생유산균", title: "프로프리 신바이오틱스 생유산균 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU+프락토올리고당 4,000mg+아연 12mg/5g 분말. 칼슘흡수+장건강. 녹십초알로에. 18개월." },
+    { slug: "프롬바이오유산균for우먼", title: "프롬바이오 유산균 for 우먼 성분 효과 | 유산균 복용법 부작용까지", description: "10억 CFU/170mg 장방형 캡슐. 여성 전용. 코스맥스엔비티. 18개월." },
+    { slug: "프리미엄100억유산균", title: "프리미엄 100억 유산균 성분 효과 | 유산균 복용법 부작용까지", description: "100억 CFU/500mg 캡슐. 장건강 집중. 아오스. 18개월." },
   ],
 };
 
@@ -9497,4 +9508,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes57.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes58.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes59.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes60.map((s) => [s.slug, s])),
 };
