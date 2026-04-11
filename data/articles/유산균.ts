@@ -89,6 +89,7 @@ import { spokes87 } from "./유산균-87";
 import { spokes88 } from "./유산균-88";
 import { spokes89 } from "./유산균-89";
 import { spokes90 } from "./유산균-90";
+import { spokes91 } from "./유산균-91";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1091,6 +1092,16 @@ export const hub: HubArticle = {
     { slug: "임팩트유산균", title: "임팩트 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU/2g 흰 보라색 분말. 단일 구성. 엠에스바이오텍. 서늘한 곳. 18개월." },
     { slug: "임팩트유산균프리미엄", title: "임팩트 유산균 프리미엄 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU+비타민D 3ug+아연 2.55mg+셀렌 16.5ug/2g 분말. 콜마비앤에이치. 실온. 18개월." },
     { slug: "자사오브맘다이어트유산균", title: "자사 오브맘 다이어트 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU 체지방감소 개별인정형+아연+판토텐산+비타민D+B1/0.4g 캡슐. 서흥헬스케어. 실온. 18개월." },
+    { slug: "장건강생유산균코어", title: "장건강 생유산균 코어 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "10억 CFU+아연 8.5mg/2g 자줏빛 분홍 분말. 아람. 서늘한 곳. 18개월." },
+    { slug: "장건강생유산균키즈", title: "장건강 생유산균 키즈 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/g 주황색 분말. 어린이 전용. 종근당건강. 서늘한 곳. 18개월." },
+    { slug: "장건강앤유산균", title: "장건강 앤 유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "100억 CFU+아연+비타민B6+셀레늄/g 경질캡슐. 4성분 복합. 일동바이오사이언스. 18개월." },
+    { slug: "장건강엔100억유산균프로바이오틱스", title: "장건강엔 100억 유산균 프로바이오틱스 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억 CFU/450mg 경질캡슐. 단일 구성. 팜투팜. 건조보관. 24개월." },
+    { slug: "장건강엔닥터유산균19", title: "장건강엔 닥터유산균19 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+아연 8.5mg+프락토올리고당 3,500mg/5g 분말. 케이지랩. 18개월." },
+    { slug: "장건강엔더착한유산균더블", title: "장건강엔 더 착한 유산균 더블 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU+아연 3.84mg/2g 자줏빛 분홍 분말. 프롬바이오 익산. 실온. 18개월." },
+    { slug: "장건강엔더착한유산균비피더스", title: "장건강엔 더 착한 유산균 비피더스 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/2g 흰노란색 분말. 식후 섭취. 비피도. 실온. 18개월." },
+    { slug: "장건강엔더착한유산균센서티브", title: "장건강엔 더 착한 유산균 센서티브 성분 효과 복용법 | 가격 부작용 주의사항", description: "100억 CFU/100mg 장용성 경질캡슐. 위산 2시간 내성. 씨티씨바이오. 18개월." },
+    { slug: "장건강엔데일리프로바이오틱스생유산균", title: "장건강엔 데일리 프로바이오틱스 생유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/2g 흰색 분말. 물 없이 섭취. 코지맘바이오. 서늘한 곳. 18개월." },
+    { slug: "장건강엔덴마크생유산균두뇌엔PS", title: "장건강엔 덴마크 생유산균 두뇌엔PS 복용법 부작용 | 성분 효과 가격 비교", description: "PS 300mg+10억 CFU+비타민E+D/2,500mg 분말. 임산부 금지. 척척바이오랩. 15개월." },
   ],
 };
 
@@ -9756,4 +9767,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes88.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes89.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes90.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes91.map((s) => [s.slug, s])),
 };
