@@ -82,6 +82,7 @@ import { spokes80 } from "./유산균-80";
 import { spokes81 } from "./유산균-81";
 import { spokes82 } from "./유산균-82";
 import { spokes83 } from "./유산균-83";
+import { spokes84 } from "./유산균-84";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1036,6 +1037,14 @@ export const hub: HubArticle = {
     { slug: "유산균키즈", title: "유산균 키즈 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+비타민D 25ug+아연 8.5mg/2g 분말. 코스맥스바이오. 18개월." },
     { slug: "유산균키즈디펜덤ProbioticsKidsDefendum", title: "유산균 키즈 디펜덤 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "10억 CFU/550mg 원형 정제. 허브큐어. 18개월." },
     { slug: "유산균키즈플러스", title: "유산균 키즈 플러스 부작용 주의사항 | 성분 효과 복용법 가격", description: "20억 CFU+아연 5mg+비타민A 210ug RE/2g 분말. 서흥. 18개월." },
+    { slug: "유산균써모필러스비에이치05", title: "유산균 써모필러스 BH05 최저가 가격 | 성분 효과 복용법 부작용까지", description: "써모필러스 BH05 1억 CFU/1g 분말. 비피도. 냉장보관. 24개월." },
+    { slug: "유산균애시도필러스비에프8401BF8401", title: "유산균 애시도필러스 BF8401 성분 효과 복용법 | 가격 부작용 주의사항", description: "애시도필러스 BF8401 1억 CFU/1g 분말. 1일 2회. 비피도. 냉장보관. 2년." },
+    { slug: "유산균카제이아이비에스041", title: "유산균 카제이 IBS041 복용법 부작용 | 성분 효과 가격 비교", description: "카제이 IBS041 1억 CFU/1g 미갈색 분말. 비피도. 냉장보관. 2년." },
+    { slug: "유산균파라카제이씨에이치88", title: "유산균 파라카제이 CH88 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "파라카제이 CH88 1억 CFU/1g 분말. 1일 2회. 비피도. 냉장보관. 2년." },
+    { slug: "유산균파라카제이오케이", title: "유산균 파라카제이 OK 부작용 주의사항 | 성분 효과 복용법 가격", description: "파라카제이 OK 1억 CFU/1g 미갈색 분말. 1일 2회. 비피도. 냉장보관. 2년." },
+    { slug: "유산균플란타룸ND88", title: "유산균 플란타룸 ND88 최저가 가격 | 성분 효과 복용법 부작용까지", description: "플란타룸 ND88 1억 CFU/1g 미갈색 분말. 1일 2회. 비피도. 냉장보관. 2년." },
+    { slug: "유산균헬베티쿠스것GUT10", title: "유산균 헬베티쿠스 GUT10 성분 효과 복용법 | 가격 부작용 주의사항", description: "헬베티쿠스 GUT10 1억 CFU/1g 연한 노란색 분말. 비피도. 실온 서늘한 곳 보관. 2년." },
+    { slug: "유산균헬베티쿠스비에이치14", title: "유산균 헬베티쿠스 BH14 복용법 부작용 | 성분 효과 가격 비교", description: "헬베티쿠스 BH14 1억 CFU/1g 분말. 비피도. 냉장보관. 24개월." },
   ],
 };
 
@@ -9694,4 +9703,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes81.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes82.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes83.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes84.map((s) => [s.slug, s])),
 };
