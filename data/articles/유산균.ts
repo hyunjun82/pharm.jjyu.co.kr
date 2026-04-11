@@ -84,6 +84,7 @@ import { spokes82 } from "./유산균-82";
 import { spokes83 } from "./유산균-83";
 import { spokes84 } from "./유산균-84";
 import { spokes85 } from "./유산균-85";
+import { spokes86 } from "./유산균-86";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1056,6 +1057,16 @@ export const hub: HubArticle = {
     { slug: "이너바이탈유산균", title: "이너바이탈 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "3억 CFU+아연+셀렌+비타민D/400mg 캡슐. 1일 1회 1캡슐. 우리바이오. 실온. 18개월." },
     { slug: "이너뷰티균질유산균", title: "이너뷰티 균질유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "30억 CFU+셀레늄+아연+비타민D/180mg 소형 캡슐. 1일 1회 1캡슐. 메디오젠. 실온. 24개월." },
     { slug: "이너뷰티피부면역유산균", title: "이너뷰티 피부 면역 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억+2억 비피더스+아연+비타민D+셀렌+비오틴/2,000mg 분말. 1일 1포. 코스맥스엔비티. 냉장보관. 18개월." },
+    { slug: "이너스탠다드100억유산균", title: "이너스탠다드 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU/450mg 투명 캡슐. 1일 1회 1캡슐. 코스맥스엔비티. 서늘한 곳. 18개월." },
+    { slug: "이너엔마이크로바이옴트리플생유산균", title: "이너엔 마이크로바이옴 트리플 생 유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "L. sakei 100억+프로바이오틱스 1억 CFU/3g 분말. 피부상태 개선. 1일 1포. 프로바이오닉. 냉장보관. 18개월." },
+    { slug: "이너윌유산균", title: "이너윌 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU+셀렌 55ug+아연 4.25mg+엽산 400ug/230mg 캡슐. 1일 1회 1캡슐. 엠에스바이오텍. 서늘한 곳. 18개월." },
+    { slug: "이너유산균프로바이오틱스", title: "이너 유산균 프로바이오틱스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "50억 CFU/350mg 분홍색 캡슐. 1일 1회 1캡슐. 메디오젠. 실온. 24개월." },
+    { slug: "이너케어N유산균", title: "이너케어 N 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU+셀렌 55ug+아연 8.5mg/250mg 캡슐. 1일 1회 1캡슐. 엠에스바이오텍. 서늘한 곳. 18개월." },
+    { slug: "이너케어VL8유산균", title: "이너케어 VL8 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+셀렌 16.5ug+아연 2.55mg/500mg 캡슐. 1일 1회 1캡슐. 엔피케이. 건조한 곳. 18개월." },
+    { slug: "이너케어유산균", title: "이너케어 유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "리스펙타+50억 CFU+락토페린 54mg/170mg 캡슐. 질내 유익균. 1일 1캡슐. 코스맥스엔비티. 실온. 18개월." },
+    { slug: "이너케어우먼밸런스유산균", title: "이너케어 우먼밸런스 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU/500mg 분홍색 캡슐. 1일 1회 1캡슐. 메디오젠. 서늘한 곳. 24개월." },
+    { slug: "이너케어우먼유산균", title: "이너케어 우먼 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU/500mg 분홍색 캡슐. 1일 1회 1캡슐. 메디오젠. 서늘한 곳. 24개월." },
+    { slug: "이너케어우먼크랜베리유산균", title: "이너케어 우먼크랜베리유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "20억 CFU+안토시아노사이드 1.25mg/2g 분말. 요로건강. 1일 1포. 메디오젠. 서늘한 곳. 18개월." },
   ],
 };
 
@@ -9716,4 +9727,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes83.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes84.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes85.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes86.map((s) => [s.slug, s])),
 };
