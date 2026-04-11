@@ -85,6 +85,7 @@ import { spokes83 } from "./유산균-83";
 import { spokes84 } from "./유산균-84";
 import { spokes85 } from "./유산균-85";
 import { spokes86 } from "./유산균-86";
+import { spokes87 } from "./유산균-87";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1067,6 +1068,16 @@ export const hub: HubArticle = {
     { slug: "이너케어우먼밸런스유산균", title: "이너케어 우먼밸런스 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU/500mg 분홍색 캡슐. 1일 1회 1캡슐. 메디오젠. 서늘한 곳. 24개월." },
     { slug: "이너케어우먼유산균", title: "이너케어 우먼 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU/500mg 분홍색 캡슐. 1일 1회 1캡슐. 메디오젠. 서늘한 곳. 24개월." },
     { slug: "이너케어우먼크랜베리유산균", title: "이너케어 우먼크랜베리유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "20억 CFU+안토시아노사이드 1.25mg/2g 분말. 요로건강. 1일 1포. 메디오젠. 서늘한 곳. 18개월." },
+    { slug: "이너케어유산균VL8데일리스위트", title: "이너케어 유산균 VL8 데일리 스위트 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/2g 분말. 1일 1포 그대로 섭취. 코스팜. 실온. 18개월." },
+    { slug: "이너케어유산균아연셀레늄", title: "이너케어 유산균 아연 셀레늄 성분 효과 복용법 | 가격 부작용 주의사항", description: "30억 CFU+아연 2.55mg+셀레늄 16.5ug/500mg 캡슐. 1일 1회 1캡슐. 메디오젠. 서늘한 곳. 18개월." },
+    { slug: "이너프로바이오틱스유산균베네핏", title: "이너프로바이오틱스유산균베네핏 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU/2g 녹여먹는 분말. 과일농축분말 포함. 이앤에스. 실온. 18개월." },
+    { slug: "이너플러스여성유산균", title: "이너플러스 여성유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "50억 CFU/2g 분말. 1일 1포 그대로 섭취. 콜마비앤에이치. 실온. 18개월." },
+    { slug: "이너피움피부케어유산균", title: "이너피움 피부케어 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "L. sakei 100억+프로바이오틱스 10억 CFU/3g 분말. 피부상태 개선. 냉장보관. 18개월." },
+    { slug: "이더블유엘유산균", title: "이더블유엘 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU+아연 2.6mg/2g 분말. 1일 1회 1포. 엠에스바이오텍. 서늘한 곳. 18개월." },
+    { slug: "이더블유엘유산균20억", title: "이더블유엘 유산균 20억 성분 효과 복용법 | 가격 부작용 주의사항", description: "20억 CFU+아연 2.6mg/2g 분말. 1일 1회 1포. 엠에스바이오텍. 서늘한 곳. 18개월." },
+    { slug: "이더블유엘유산균30억", title: "이더블유엘 유산균 30억 복용법 부작용 | 성분 효과 가격 비교", description: "30억 CFU+아연 2.6mg/2g 분말. 1일 1회 1포. 엠에스바이오텍. 서늘한 곳. 18개월." },
+    { slug: "이더블유엘유산균에스", title: "이더블유엘 유산균 에스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "50억 CFU+아연 2.6mg/2g 분말. 라인업 최고함량. 엠에스바이오텍. 서늘한 곳. 18개월." },
+    { slug: "이디투스클린업유산균", title: "이디투스클린업유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/3g 분말. 1일 3회 분할 복용. 비오팜. 서늘한 곳. 24개월." },
   ],
 };
 
@@ -9728,4 +9739,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes84.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes85.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes86.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes87.map((s) => [s.slug, s])),
 };
