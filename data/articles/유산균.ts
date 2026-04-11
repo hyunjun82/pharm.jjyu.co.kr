@@ -88,6 +88,7 @@ import { spokes86 } from "./유산균-86";
 import { spokes87 } from "./유산균-87";
 import { spokes88 } from "./유산균-88";
 import { spokes89 } from "./유산균-89";
+import { spokes90 } from "./유산균-90";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -9754,4 +9755,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes87.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes88.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes89.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes90.map((s) => [s.slug, s])),
 };
