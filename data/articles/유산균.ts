@@ -80,6 +80,7 @@ import { spokes78 } from "./유산균-78";
 import { spokes79 } from "./유산균-79";
 import { spokes80 } from "./유산균-80";
 import { spokes81 } from "./유산균-81";
+import { spokes82 } from "./유산균-82";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1024,6 +1025,16 @@ export const hub: HubArticle = {
     { slug: "유산균이야기와이", title: "유산균 이야기 와이 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+아연+셀레늄+엽산/2g 분말. 메디오젠. 18개월." },
     { slug: "유산균이야기와이플러스", title: "유산균 이야기 와이 플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU+아연+셀레늄/180mg 투명 경질캡슐. 메디오젠. 18개월." },
     { slug: "유산균이함유된식이섬유항이와장이", title: "유산균이 함유된 식이섬유 항이와 장이 부작용 주의사항 | 성분 효과 복용법 가격", description: "차전자피 6,000mg+5억 CFU/9,000mg 분말. 비오팜. 24개월." },
+    { slug: "유산균이훅왔더", title: "유산균이 훅왔더 최저가 가격 | 성분 효과 복용법 부작용까지", description: "50억 CFU+비타민C 50mg/2g 분말. 내츄럴엔. 24개월." },
+    { slug: "유산균장건강", title: "유산균 장건강 성분 효과 복용법 | 가격 부작용 주의사항", description: "30억 CFU/2,000mg 분말. 유유헬스케어. 18개월." },
+    { slug: "유산균정상적인면역기능에필요한아연", title: "유산균 정상적인 면역기능에 필요한 아연 복용법 부작용 | 성분 효과 가격 비교", description: "3억 CFU+아연 8.5mg/2g 입자성 분말. 에스엘에스. 18개월." },
+    { slug: "유산균증식및유해균억제배변활동원활장건강에도움을줄수있는프리미엄케어장", title: "프리미엄케어장 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU/3.5g 분말. 비오팜. 18개월." },
+    { slug: "유산균충전내몸엔프로바이오틱스", title: "유산균 충전 내몸엔 프로바이오틱스 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU+아연 8.5mg+셀레늄 55ug/2g 분말. 한미양행. 18개월." },
+    { slug: "유산균츄어블", title: "유산균 츄어블 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+아연 2.55mg/1.2g 원형 정제. 엠에스바이오텍. 18개월." },
+    { slug: "유산균칼슘락", title: "유산균 칼슘 락 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU+칼슘 300mg+비타민D 10ug/2.4g 분말. 풀무원건강생활. 18개월." },
+    { slug: "유산균키즈", title: "유산균 키즈 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+비타민D 25ug+아연 8.5mg/2g 분말. 코스맥스바이오. 18개월." },
+    { slug: "유산균키즈디펜덤ProbioticsKidsDefendum", title: "유산균 키즈 디펜덤 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "10억 CFU/550mg 원형 정제. 허브큐어. 18개월." },
+    { slug: "유산균키즈플러스", title: "유산균 키즈 플러스 부작용 주의사항 | 성분 효과 복용법 가격", description: "20억 CFU+아연 5mg+비타민A 210ug RE/2g 분말. 서흥. 18개월." },
   ],
 };
 
@@ -9680,4 +9691,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes79.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes80.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes81.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes82.map((s) => [s.slug, s])),
 };
