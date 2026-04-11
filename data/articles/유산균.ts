@@ -78,6 +78,7 @@ import { spokes76 } from "./유산균-76";
 import { spokes77 } from "./유산균-77";
 import { spokes78 } from "./유산균-78";
 import { spokes79 } from "./유산균-79";
+import { spokes80 } from "./유산균-80";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1002,6 +1003,16 @@ export const hub: HubArticle = {
     { slug: "유산균메모리패스", title: "유산균 메모리패스 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+은행잎추출물(플라보놀배당체 36mg)/400mg 캡슐. 코스맥스바이오. 18개월." },
     { slug: "유산균면역플러스", title: "유산균 면역플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+아연 5mg/0.37g 캡슐. 서흥. 24개월. 냉장보관." },
     { slug: "유산균불가리쿠스비에이치04", title: "유산균 불가리쿠스 비에이치 04 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/1g 분말. 비피도. 2년. 1일 2회. 냉장보관." },
+    { slug: "유산균뷰티", title: "유산균 뷰티 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU+히알루론산 120mg+비타민A+비타민E/2g 분말. 코스맥스바이오. 18개월." },
+    { slug: "유산균비타민D드롭", title: "유산균 비타민D 드롭 성분 효과 복용법 | 가격 부작용 주의사항", description: "1억 CFU+비타민D 10ug/0.1785ml 액상 드롭. 코스맥스엔비티. 18개월." },
+    { slug: "유산균사랑데일리", title: "유산균사랑 데일리 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU/2g 분말. 노비스바이오. 18개월." },
+    { slug: "유산균사랑올인원", title: "유산균사랑 올인원 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU+L-테아닌 200mg/2g 분말. 노비스바이오. 18개월." },
+    { slug: "유산균사랑프리바이오틱스플러스", title: "유산균사랑 프리바이오틱스 플러스 부작용 주의사항 | 성분 효과 복용법 가격", description: "프락토올리고당 3g/4g 분말. 노비스바이오. 24개월." },
+    { slug: "유산균살리바리우스휴민유HHuMin-U", title: "유산균 살리바리우스 휴민유 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/1g 분말. 비피도. 24개월. 냉장보관(10도 이하)." },
+    { slug: "유산균아연프리미엄probioticszincpremium", title: "유산균 아연 프리미엄 성분 효과 복용법 | 가격 부작용 주의사항", description: "100억 CFU+아연 3mg/440.2mg 하드캡슐. 허브큐어. 2년." },
+    { slug: "유산균액티브", title: "유산균 액티브 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU+아연 2.55mg/2,000mg 분말. 노바렉스. 18개월." },
+    { slug: "유산균앤다이어트비컴핏", title: "유산균 앤 다이어트 비컴핏 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "가르시니아 HCA 750mg+10억 CFU+비타민B1+판토텐산/3,000mg 분말. 팜크로스. 24개월." },
+    { slug: "유산균엔19종락토사랑", title: "유산균엔 19종 락토사랑 부작용 주의사항 | 성분 효과 복용법 가격", description: "프락토올리고당 4,000mg+1억 CFU+아연 8.5mg+셀레늄 55ug/5,000mg 분말. 한미양행. 18개월." },
   ],
 };
 
@@ -9656,4 +9667,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes77.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes78.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes79.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes80.map((s) => [s.slug, s])),
 };
