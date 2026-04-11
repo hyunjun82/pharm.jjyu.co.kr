@@ -77,6 +77,7 @@ import { spokes75 } from "./유산균-75";
 import { spokes76 } from "./유산균-76";
 import { spokes77 } from "./유산균-77";
 import { spokes78 } from "./유산균-78";
+import { spokes79 } from "./유산균-79";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -991,6 +992,16 @@ export const hub: HubArticle = {
     { slug: "유기농베베프로바이오틱스생유산균", title: "유기농 베베 프로바이오틱스 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU/2g 분말. 락토메이슨. 18개월." },
     { slug: "유디장건강100억유산균UDINTESTINALHEALTH10BILLIONPROBIOTICS", title: "유디 장건강 100억 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU/2g 분말. 유디바이오. 18개월." },
     { slug: "유산균", title: "상상바이오 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/450mg 캡슐. 상상바이오. 18개월." },
+    { slug: "유산균다이어트엘브리드슈퍼슬림U", title: "유산균 다이어트 엘브리드 슈퍼슬림 U 최저가 가격 | 성분 효과 복용법 부작용까지", description: "가르시니아 HCA 750mg+10억 CFU/3,000mg 분말. 상상바이오. 18개월." },
+    { slug: "유산균다이어트트리플에스", title: "유산균 다이어트 트리플 에스 성분 효과 복용법 | 가격 부작용 주의사항", description: "프락토올리고당 3g+가르시니아 HCA 750mg+1억 CFU/6g 분말. 노비스바이오. 18개월." },
+    { slug: "유산균대장", title: "유산균대장 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU+프락토올리고당 3g+아연 8mg+판토텐산 5mg/4.5g 분말. 세종바이오팜. 18개월." },
+    { slug: "유산균락티스비에이치10", title: "유산균 락티스 비에이치10 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU/1g 분말. 비피도. 24개월. 냉장보관." },
+    { slug: "유산균람노써스비에이치09", title: "유산균 람노써스 비에이치 09 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/1g 분말. 비피도. 2년. 1일 2회. 냉장보관." },
+    { slug: "유산균루테리비에이치11", title: "유산균 루테리 비에이치11 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/1g 분말. 비피도. 24개월. 냉장보관." },
+    { slug: "유산균마루100억프로바이오틱스", title: "유산균마루 100억 프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항", description: "비타민D 10ug+아연 2.55mg+100억 CFU/2g 분말. 엠에스바이오텍. 18개월." },
+    { slug: "유산균메모리패스", title: "유산균 메모리패스 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+은행잎추출물(플라보놀배당체 36mg)/400mg 캡슐. 코스맥스바이오. 18개월." },
+    { slug: "유산균면역플러스", title: "유산균 면역플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU+아연 5mg/0.37g 캡슐. 서흥. 24개월. 냉장보관." },
+    { slug: "유산균불가리쿠스비에이치04", title: "유산균 불가리쿠스 비에이치 04 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/1g 분말. 비피도. 2년. 1일 2회. 냉장보관." },
   ],
 };
 
@@ -9644,4 +9655,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes76.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes77.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes78.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes79.map((s) => [s.slug, s])),
 };
