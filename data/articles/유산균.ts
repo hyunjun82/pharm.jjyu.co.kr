@@ -87,6 +87,7 @@ import { spokes85 } from "./유산균-85";
 import { spokes86 } from "./유산균-86";
 import { spokes87 } from "./유산균-87";
 import { spokes88 } from "./유산균-88";
+import { spokes89 } from "./유산균-89";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1079,6 +1080,16 @@ export const hub: HubArticle = {
     { slug: "이더블유엘유산균30억", title: "이더블유엘 유산균 30억 복용법 부작용 | 성분 효과 가격 비교", description: "30억 CFU+아연 2.6mg/2g 분말. 1일 1회 1포. 엠에스바이오텍. 서늘한 곳. 18개월." },
     { slug: "이더블유엘유산균에스", title: "이더블유엘 유산균 에스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "50억 CFU+아연 2.6mg/2g 분말. 라인업 최고함량. 엠에스바이오텍. 서늘한 곳. 18개월." },
     { slug: "이디투스클린업유산균", title: "이디투스클린업유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/3g 분말. 1일 3회 분할 복용. 비오팜. 서늘한 곳. 24개월." },
+    { slug: "인라이프생생유산균", title: "인라이프 생생유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU+아연 2.56mg/2g 분말. 1일 1회 1포. 우리바이오. 서늘한 곳. 18개월." },
+    { slug: "인성생유산균프리미엄", title: "인성생유산균프리미엄 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/4g 분말. 1일 2회 1포씩 녹여먹기. 디에이치팜. 서늘한 곳. 12개월." },
+    { slug: "인지력앤유산균케어", title: "인지력 앤 유산균 케어 최저가 가격 | 성분 효과 복용법 부작용까지", description: "포스파티딜세린 300mg+10억 CFU+비타민D 10ug/2g 분말. 인지력+장+뼈. 유니쎌팜. 15개월." },
+    { slug: "인핸스드에센셜혼합유산균", title: "인핸스드 에센셜 혼합유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "1억 CFU+비타민C 40.5mg/3g 분말. 장+항산화. 광동헬스바이오. 서늘한 곳. 18개월." },
+    { slug: "일동베베플러스유산균", title: "일동 베베 플러스 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU+철 6mg+아연 3mg+비타민D+B군/1,500mg 분말. 일동바이오사이언스. 실온. 24개월." },
+    { slug: "일동생유산균", title: "일동 생유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "1억 CFU+아연 2.83mg/2,000mg 연분홍색 분말. 팜크로스. 서늘한 곳. 18개월." },
+    { slug: "일동키즈플러스유산균", title: "일동 키즈 플러스 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "50억 CFU+아연 5mg+비타민D 5ug/2,000mg 분말. 키즈 전용. 일동바이오사이언스. 실온. 24개월." },
+    { slug: "임팩트유산균", title: "임팩트 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "10억 CFU/2g 흰 보라색 분말. 단일 구성. 엠에스바이오텍. 서늘한 곳. 18개월." },
+    { slug: "임팩트유산균프리미엄", title: "임팩트 유산균 프리미엄 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU+비타민D 3ug+아연 2.55mg+셀렌 16.5ug/2g 분말. 콜마비앤에이치. 실온. 18개월." },
+    { slug: "자사오브맘다이어트유산균", title: "자사 오브맘 다이어트 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU 체지방감소 개별인정형+아연+판토텐산+비타민D+B1/0.4g 캡슐. 서흥헬스케어. 실온. 18개월." },
   ],
 };
 
@@ -9742,4 +9753,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes86.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes87.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes88.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes89.map((s) => [s.slug, s])),
 };
