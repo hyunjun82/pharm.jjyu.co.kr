@@ -83,6 +83,7 @@ import { spokes81 } from "./유산균-81";
 import { spokes82 } from "./유산균-82";
 import { spokes83 } from "./유산균-83";
 import { spokes84 } from "./유산균-84";
+import { spokes85 } from "./유산균-85";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1045,6 +1046,16 @@ export const hub: HubArticle = {
     { slug: "유산균플란타룸ND88", title: "유산균 플란타룸 ND88 최저가 가격 | 성분 효과 복용법 부작용까지", description: "플란타룸 ND88 1억 CFU/1g 미갈색 분말. 1일 2회. 비피도. 냉장보관. 2년." },
     { slug: "유산균헬베티쿠스것GUT10", title: "유산균 헬베티쿠스 GUT10 성분 효과 복용법 | 가격 부작용 주의사항", description: "헬베티쿠스 GUT10 1억 CFU/1g 연한 노란색 분말. 비피도. 실온 서늘한 곳 보관. 2년." },
     { slug: "유산균헬베티쿠스비에이치14", title: "유산균 헬베티쿠스 BH14 복용법 부작용 | 성분 효과 가격 비교", description: "헬베티쿠스 BH14 1억 CFU/1g 분말. 비피도. 냉장보관. 24개월." },
+    { slug: "유플러스혼합유산균", title: "유플러스 혼합유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "1억 CFU/2g 분말. 1일 1회 1포. 다원바이오텍. 건냉한 곳. 18개월." },
+    { slug: "유한m메가당케어혈당유산균", title: "유한m 메가 당케어 혈당 유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "1억 CFU+코로솔산 1.3mg/350mg 캡슐. 1일 1회 1캡슐. 비오팜. 실온. 18개월." },
+    { slug: "유한m프리미엄어린이유산균", title: "유한m 프리미엄 어린이유산균 복용법 부작용 | 성분 효과 가격 비교", description: "2억 CFU/2g 미색 분말. 1일 1회 1포. 엠에스바이오텍. 서늘한 곳. 24개월." },
+    { slug: "유한생유산균", title: "유한 생유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU/140mg 투명 캡슐. 1일 1회 1캡슐. 메디오젠. 실온. 18개월." },
+    { slug: "응장건강엔유산균이야", title: "응 장건강엔 유산균이야 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU/400mg 흰색 캡슐. 1일 1회 1캡슐. 상상바이오. 서늘한 곳. 18개월." },
+    { slug: "이경제아이생유산균뿡뿡", title: "이경제 아이생유산균 뿡뿡 최저가 가격 | 성분 효과 복용법 부작용까지", description: "3억 CFU+아연+비타민D/1,500mg 분말. 1일 1회 1포. 비오팜. 서늘한 곳. 18개월." },
+    { slug: "이너락토세븐콤플렉스유산균아연비타민D", title: "이너 락토 세븐 콤플렉스 유산균 아연 비타민D 성분 효과 복용법 | 가격 부작용 주의사항", description: "20억 CFU+아연+비타민D/500mg 분홍색 캡슐. 1일 1회 1캡슐. 메디오젠. 서늘한 곳. 18개월." },
+    { slug: "이너바이탈유산균", title: "이너바이탈 유산균 복용법 부작용 | 성분 효과 가격 비교", description: "3억 CFU+아연+셀렌+비타민D/400mg 캡슐. 1일 1회 1캡슐. 우리바이오. 실온. 18개월." },
+    { slug: "이너뷰티균질유산균", title: "이너뷰티 균질유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "30억 CFU+셀레늄+아연+비타민D/180mg 소형 캡슐. 1일 1회 1캡슐. 메디오젠. 실온. 24개월." },
+    { slug: "이너뷰티피부면역유산균", title: "이너뷰티 피부 면역 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "100억+2억 비피더스+아연+비타민D+셀렌+비오틴/2,000mg 분말. 1일 1포. 코스맥스엔비티. 냉장보관. 18개월." },
   ],
 };
 
@@ -9704,4 +9715,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes82.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes83.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes84.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes85.map((s) => [s.slug, s])),
 };
