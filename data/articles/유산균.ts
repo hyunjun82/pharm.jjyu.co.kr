@@ -75,6 +75,7 @@ import { spokes73 } from "./유산균-73";
 import { spokes74 } from "./유산균-74";
 import { spokes75 } from "./유산균-75";
 import { spokes76 } from "./유산균-76";
+import { spokes77 } from "./유산균-77";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -979,6 +980,16 @@ export const hub: HubArticle = {
     { slug: "우리가족장건강엔프로바이오틱스생유산균", title: "우리가족 장건강엔 프로바이오틱스 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU/2g 순수 유산균 흰색 분말. 코지맘바이오. 18개월." },
     { slug: "우리아기를위한프로바이오틱스유산균베이비키즈", title: "우리 아기를 위한 프로바이오틱스 유산균 베이비키즈 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU/2,000mg 흰분홍색 분말. 코스맥스엔비티. 영유아·어린이용. 18개월." },
     { slug: "우리아기생유산균-프로바이오틱스비타민D아연", title: "우리 아기 생유산균 프로바이오틱스 비타민D 아연 부작용 주의사항 | 성분 효과 복용법 가격", description: "10억 CFU+아연 3mg+비타민D 5ug/1,500mg 분말. 비오팜. 영유아용. 18개월." },
+    { slug: "웰리카더블유100억유산균", title: "웰리카 더블유 100억 유산균 최저가 가격 | 성분 효과 복용법 부작용까지", description: "100억 CFU+아연 2.55mg+셀레늄 16.5ug/500mg 캡슐. 메디오젠. 18개월." },
+    { slug: "웰메가온가족생유산균", title: "웰메가 온가족 생유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "1억 CFU+아연 8.5mg/2,000mg 분말. 비오팜. 18개월." },
+    { slug: "웰빙혼합유산균수출명Rofit", title: "웰빙혼합유산균 Rofit 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU/4g 분말. 1일 2회 1포. 팜크로스. 18개월." },
+    { slug: "웰키커well-kicker어린이유산균", title: "웰키커 어린이 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU+아연 5mg/2g 분말. 디에이치팜. 어린이용. 18개월." },
+    { slug: "위장엔매스틱유산균", title: "위장엔 매스틱 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "매스틱검(Oleanonic acid 107.835mg)+10억 CFU/3g 분말. 프롬바이오. 24개월." },
+    { slug: "위장엔매스틱유산균더블", title: "위장엔 매스틱 유산균 더블 최저가 가격 | 성분 효과 복용법 부작용까지", description: "매스틱검+10억 CFU/6g 분말. 1일 2회 1포. 프롬바이오. 24개월." },
+    { slug: "위케어앤유산균", title: "위케어 앤 유산균 성분 효과 복용법 | 가격 부작용 주의사항", description: "스페인감초추출물(Glabridin 5.43mg)+10억 CFU/500mg 캡슐. 엠에스바이오텍. 18개월." },
+    { slug: "유기농베베프로바이오틱스생유산균", title: "유기농 베베 프로바이오틱스 생유산균 복용법 부작용 | 성분 효과 가격 비교", description: "100억 CFU/2g 분말. 락토메이슨. 18개월." },
+    { slug: "유디장건강100억유산균UDINTESTINALHEALTH10BILLIONPROBIOTICS", title: "유디 장건강 100억 유산균 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "100억 CFU/2g 분말. 유디바이오. 18개월." },
+    { slug: "유산균", title: "상상바이오 유산균 부작용 주의사항 | 성분 효과 복용법 가격", description: "1억 CFU/450mg 캡슐. 상상바이오. 18개월." },
   ],
 };
 
@@ -9630,4 +9641,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes74.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes75.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes76.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes77.map((s) => [s.slug, s])),
 };
