@@ -79,6 +79,7 @@ import { spokes77 } from "./유산균-77";
 import { spokes78 } from "./유산균-78";
 import { spokes79 } from "./유산균-79";
 import { spokes80 } from "./유산균-80";
+import { spokes81 } from "./유산균-81";
 
 export const hub: HubArticle = {
   categorySlug: "유산균",
@@ -1013,6 +1014,16 @@ export const hub: HubArticle = {
     { slug: "유산균액티브", title: "유산균 액티브 복용법 부작용 | 성분 효과 가격 비교", description: "20억 CFU+아연 2.55mg/2,000mg 분말. 노바렉스. 18개월." },
     { slug: "유산균앤다이어트비컴핏", title: "유산균 앤 다이어트 비컴핏 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "가르시니아 HCA 750mg+10억 CFU+비타민B1+판토텐산/3,000mg 분말. 팜크로스. 24개월." },
     { slug: "유산균엔19종락토사랑", title: "유산균엔 19종 락토사랑 부작용 주의사항 | 성분 효과 복용법 가격", description: "프락토올리고당 4,000mg+1억 CFU+아연 8.5mg+셀레늄 55ug/5,000mg 분말. 한미양행. 18개월." },
+    { slug: "유산균엔다이어트비컴핏", title: "유산균엔 다이어트 비컴핏 최저가 가격 | 성분 효과 복용법 부작용까지", description: "가르시니아 HCA 750mg+10억 CFU+비타민B1+판토텐산/3g 분말. 메디오젠. 24개월." },
+    { slug: "유산균연구소10억프로바이오틱스", title: "유산균 연구소 10억 프로바이오틱스 성분 효과 복용법 | 가격 부작용 주의사항", description: "10억 CFU/2g 분말 단일 구성. 코스맥스엔비티. 18개월." },
+    { slug: "유산균연구소닥터츄어블", title: "유산균 연구소 닥터 츄어블 복용법 부작용 | 성분 효과 가격 비교", description: "10억 CFU/1,000mg 츄어블 정제. 코스맥스엔비티. 18개월." },
+    { slug: "유산균우먼", title: "유산균 우먼 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU+비타민C 30mg/2,000mg 분말. 노바렉스. 18개월." },
+    { slug: "유산균우먼플러스", title: "유산균 우먼 플러스 부작용 주의사항 | 성분 효과 복용법 가격", description: "20억 CFU+비타민C 30mg+비타민A 210ug RE/2g 분말. 서흥. 18개월." },
+    { slug: "유산균으로없었던일로", title: "유산균으로 없었던일로 최저가 가격 | 성분 효과 복용법 부작용까지", description: "가르시니아 HCA 750mg+10억 CFU/5g 분말. 엠에스바이오텍. 18개월." },
+    { slug: "유산균의아침", title: "유산균의 아침 성분 효과 복용법 | 가격 부작용 주의사항", description: "20억 CFU+아연 2.55mg+셀렌 16.5ug/500mg 장용성 캡슐. 콜마비앤에이치. 18개월." },
+    { slug: "유산균이야기와이", title: "유산균 이야기 와이 복용법 부작용 | 성분 효과 가격 비교", description: "1억 CFU+아연+셀레늄+엽산/2g 분말. 메디오젠. 18개월." },
+    { slug: "유산균이야기와이플러스", title: "유산균 이야기 와이 플러스 가격 성분 효과 | 복용법 부작용 주의사항까지", description: "20억 CFU+아연+셀레늄/180mg 투명 경질캡슐. 메디오젠. 18개월." },
+    { slug: "유산균이함유된식이섬유항이와장이", title: "유산균이 함유된 식이섬유 항이와 장이 부작용 주의사항 | 성분 효과 복용법 가격", description: "차전자피 6,000mg+5억 CFU/9,000mg 분말. 비오팜. 24개월." },
   ],
 };
 
@@ -9668,4 +9679,5 @@ export const spokes: Record<string, SpokeArticle> = {
   ...Object.fromEntries(spokes78.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes79.map((s) => [s.slug, s])),
   ...Object.fromEntries(spokes80.map((s) => [s.slug, s])),
+  ...Object.fromEntries(spokes81.map((s) => [s.slug, s])),
 };
