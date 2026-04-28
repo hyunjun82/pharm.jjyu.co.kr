@@ -24,7 +24,8 @@ const AD_CONFIG: Record<AdSlotType, Record<string, string>> = {
   },
   bottom: {
     "data-ad-slot": "5506974207",   // pharm3
-    "data-ad-format": "autorelaxed",
+    "data-ad-format": "auto",
+    "data-full-width-responsive": "true",
   },
   anchor: {
     "data-ad-slot": "2880810862",   // pharm4
@@ -50,7 +51,7 @@ export function AdSlot({ slot = "top" }: { slot?: AdSlotType }) {
 
   if (slot === "anchor") {
     return (
-      <div className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-white border-t border-gray-100">
+      <div className="fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-100">
         <ins
           className="adsbygoogle"
           style={{ display: "block" }}
