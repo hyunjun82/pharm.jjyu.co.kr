@@ -8,10 +8,10 @@
     "build:new": "node scripts/build-new.mjs",
     "start": "next start",
     "lint": "eslint",
-    "quality": "node scripts/verify-wiki-quality.js",
+    "quality": "node scripts/verify-all.js",
     "verify-deeplinks": "node scripts/verify-deeplinks.js",
     "fix-deeplinks": "node scripts/resolve-deeplinks.js",
-    "prepush": "node scripts/verify-wiki-quality.js"
+    "prepush": "node scripts/verify-all.js"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

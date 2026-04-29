@@ -975,7 +975,7 @@ export const spokes64: SpokeArticle[] = [
         description: "",
         price: 0,
         unit: "",
-        externalSearchUrl: "",
+        externalSearchUrl: "https://search.shopping.naver.com/ns/search?query=%EC%83%9D%EC%9C%A0%EC%82%B0%EA%B7%A0%ED%99%94%EC%9D%B4%EB%B2%84%20%EA%B0%80%EA%B2%A9&frm=NVSCPSI&nl-ts-pid=jOJWosqo6DuPMplcvkd-377860",
         ingredients: "",
         usage: "",
         slug: "생유산균화이버",
