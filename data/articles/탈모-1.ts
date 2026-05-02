@@ -18,7 +18,7 @@ export const spokes: Record<string, SpokeArticle> = {
         {
           id: "p1671",
           name: "마이녹실액 3% 180mL",
-          image: "",
+          image: "/images/barkiri-마이녹실액3.webp",
           category: "탈모약",
           categorySlug: "탈모",
           description: "현대약품 미녹시딜 3% 외용액",
