@@ -127,9 +127,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "7매",
         barkiryProductId: "p401",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=케토톱+7매",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -156,7 +156,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "케토톱 플라스타 7매의 주성분은 케토프로펜(Ketoprofen) 30mg이에요. 비스테로이드 소염진통제(NSAID) 계열로 통증·염증을 일으키는 효소(COX)를 억제해 프로스타글란딘 생성을 차단해요.\n\n경피 흡수형 플라스타라 통증 부위에 직접 약물을 전달해 전신 부담은 최소화하고 국소 효과를 높였어요. 1매 부착으로 24시간 지속 작용이라 출근 전 부착 후 퇴근까지 효과가 유지돼요.\n\n한독 7매 단위로 1주일 단위 사용에 맞아요. 약국 최저가 약 4,500원, 1매당 약 640원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -216,9 +216,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "30매",
         barkiryProductId: "p402",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=케펜텍+30매",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -245,7 +245,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "케펜텍 30매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 케토톱과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단하고 소염·진통 효과를 내요.\n\n경피 흡수형 플라스타라 통증 부위에 직접 약물을 전달해요. 1매 부착으로 24시간 지속 작용은 케토톱과 동일해요.\n\n제일약품 30매 대용량 단위로 가족·매일 사용 비축에 맞아요. 약국 최저가 약 9,000원, 1매당 약 300원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -305,9 +305,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "7매",
         barkiryProductId: "p403",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=트라스트+7매",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -334,7 +334,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "트라스트 7매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 케토톱·케펜텍과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n패취형 제제라 강한 점착력과 48시간 지속 방출이 차별점이에요. 일반 플라스타(24시간 지속)보다 부착력과 약물 전달 시간이 더 길어요.\n\nSK케미칼 7매 단위로 만성 어깨·관절 통증 환자에게 적합해요. 약국 최저가 약 6,500원, 1매당 약 930원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "경피 패취 기제", role: "강한 점착·48시간 지속 약물 전달" },
+          { type: "첨가제", name: "경피 패취 기제", role: "강한 점착·48시간 지속 약물 전달" },
         ],
       },
       {
@@ -740,9 +740,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "10매",
         barkiryProductId: "p409",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=케펨+플라스타+10매",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -769,7 +769,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "케펨 플라스타 10매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 케토톱·케펜텍과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n경피 흡수형 플라스타라 통증 부위에 직접 약물을 전달해요. 1매 24시간 지속, 동일한 케토프로펜 작용이에요.\n\n일동제약 10매 단위로 약국 단발 1주~10일 사용에 맞아요. 약국 최저가 약 3,500원, 1매당 약 350원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -1119,9 +1119,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "60매",
         barkiryProductId: "p411",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=미니온+플라스타+60매",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -1148,7 +1148,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "미니온 플라스타 60매의 주성분은 케토프로펜(Ketoprofen) 30mg이에요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n사이즈가 일반 케토톱의 1/3~1/4인 소형 형태로 손가락·발가락·손등·작은 관절 부위에 적합해요. 1매당 함량은 작아도 부착 부위 면적당 약물 농도는 효과적으로 설계돼 있어요.\n\n동성제약 60매 대용량 단위로 작은 관절 통증 환자 가정 비축에 맞아요. 약국 최저가 약 8,000원, 1매당 약 130원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "소형 점착성 플라스타 기제", role: "작은 관절 부위 부착·약물 경피 전달" },
+          { type: "첨가제", name: "소형 점착성 플라스타 기제", role: "작은 관절 부위 부착·약물 경피 전달" },
         ],
       },
       {
@@ -1429,9 +1429,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "8매",
         barkiryProductId: "p406",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=케토톱+플라스타+밴드타입",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -1458,7 +1458,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "케토톱 플라스타 밴드타입 8매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 일반 케토톱과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n모양만 밴드 형태로 설계돼 손목·손가락·발목·팔꿈치 같은 곡면·관절 부위에 감싸 부착할 수 있어요. 1매 함량과 작용 시간(24시간)은 동일해요.\n\n한독 8매 단위로 작은 관절 통증 단발 사용에 맞아요. 약국 최저가 약 4,200원, 1매당 약 530원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "밴드형 점착성 플라스타 기제", role: "곡면·관절 부위 감싸 부착" },
+          { type: "첨가제", name: "밴드형 점착성 플라스타 기제", role: "곡면·관절 부위 감싸 부착" },
         ],
       },
       {
@@ -1518,9 +1518,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "30매",
         barkiryProductId: "p408",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=케토톱+플라스타+30매",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -1547,7 +1547,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "케토톱 플라스타 30매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 케토톱 7매·오리지날 14매와 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n경피 흡수형 플라스타라 통증 부위에 직접 약물을 전달해요. 1매 24시간 지속, 한독 클래식 라인 작용이에요.\n\n한독 30매 대용량 단위로 매일 사용·1개월 비축에 맞아요. 약국 최저가 약 13,000원, 1매당 약 430원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -1739,9 +1739,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "7매",
         barkiryProductId: "p412",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=캐롤프로+더블파워+플라스타",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -1768,7 +1768,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "캐롤프로 더블파워 플라스타 7매의 주성분은 케토프로펜(Ketoprofen) 60mg으로 일반 케토프로펜 라인(30mg)의 2배 함량이에요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n경피 흡수형 플라스타라 통증 부위에 직접 약물을 전달하고, 60mg 더블 함량으로 만성·완고한 통증에 강한 효과를 노리는 라인이에요.\n\n영진약품 7매 단위로 만성 통증 단발 사용에 맞아요. 약국 최저가 약 5,500원, 1매당 약 790원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "60mg/매(일반의 2배)", role: "COX 억제·프로스타글란딘 생성 차단·강력 소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -1894,9 +1894,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "10매",
         barkiryProductId: "p413",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=제놀+푸로탑+플라스타",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -1923,7 +1923,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "제놀 푸로탑 플라스타 10매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 케토톱·케펜텍과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n경피 흡수형 플라스타라 통증 부위에 직접 약물을 전달해요. 1매 24시간 지속, 동일한 케토프로펜 작용이에요.\n\n유한건강생활(제놀) 10매 단위로 약국 단발 1주~10일 사용에 맞아요. 약국 최저가 약 3,800원, 1매당 약 380원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -2049,9 +2049,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "10매",
         barkiryProductId: "p414",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=디나펜+플라스타+10매",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -2078,7 +2078,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "디나펜 플라스타 10매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 케토톱·케펜텍·케펨과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n경피 흡수형 플라스타라 통증 부위에 직접 약물을 전달해요. 1매 24시간 지속, 동일한 케토프로펜 작용이에요.\n\n명문제약 10매 단위로 약국 단발 1주~10일 사용에 맞아요. 약국 최저가 약 3,200원, 1매당 약 320원으로 10매 라인 중 가장 저렴해요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -2303,9 +2303,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "7매",
         barkiryProductId: "p415",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=사라펜+플라스타",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -2332,7 +2332,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "사라펜 플라스타 7매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 케토톱·케펜텍과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n경피 흡수형 플라스타라 통증 부위에 직접 약물을 전달해요. 1매 24시간 지속, 동일한 케토프로펜 작용이에요.\n\n신신제약 7매 단위로 단발 1주 사용에 맞아요. 약국 최저가 약 3,800원, 1매당 약 540원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -2392,9 +2392,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "8매",
         barkiryProductId: "p410",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=케펨+플라스타+롱슬림",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -2421,7 +2421,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "케펨 플라스타 롱슬림 8매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 일반 케펨과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n모양만 길고 좁은 슬림 형태로 설계돼 종아리·허벅지·정강이 같은 긴 근육 부위에 적합해요. 1매 함량과 작용 시간(24시간)은 동일해요.\n\n일동제약 8매 단위로 종아리 알·허벅지 햄스트링 근육통 단발 사용에 맞아요. 약국 최저가 약 4,000원, 1매당 약 500원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "긴 슬림형 점착성 플라스타 기제", role: "긴 근육 부위 부착·약물 경피 전달" },
+          { type: "첨가제", name: "긴 슬림형 점착성 플라스타 기제", role: "긴 근육 부위 부착·약물 경피 전달" },
         ],
       },
       {
@@ -2514,9 +2514,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "14매",
         barkiryProductId: "p407",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=케토톱+플라스타+오리지날",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -2543,7 +2543,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "케토톱 플라스타 오리지날 14매의 주성분은 케토프로펜(Ketoprofen) 30mg이에요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n1989년 출시 이후 30년 이상 약국 케토프로펜 파스의 표준이었던 클래식 라인이에요. 케토톱 후속 라인(엘 사이즈·밴드타입 등)도 동일 성분에 형태만 달리한 시리즈예요.\n\n한독 14매 단위로 약국 단발(7매)과 대용량(30매) 사이의 2주 비축 중간 단가예요. 약국 최저가 약 7,500원, 1매당 약 540원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제", role: "피부 부착·약물 경피 전달" },
         ],
       },
       {
@@ -3618,9 +3618,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "5매",
         barkiryProductId: "p405",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=케토톱+엘+플라스타",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -3647,7 +3647,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "케토톱 엘 플라스타 5매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 일반 케토톱과 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n사이즈가 일반 케토톱의 약 1.5배인 L 사이즈로 등·허리·종아리 광범위 부위에 적합해요. 1매당 함량과 작용 시간(24시간)은 동일해요.\n\n한독 5매 단위로 단발 광범위 통증 사용에 맞아요. 약국 최저가 약 4,800원, 1매당 약 960원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "점착성 플라스타 기제(L 사이즈)", role: "광범위 부위 부착·약물 경피 전달" },
+          { type: "첨가제", name: "점착성 플라스타 기제(L 사이즈)", role: "광범위 부위 부착·약물 경피 전달" },
         ],
       },
       {
@@ -4710,9 +4710,9 @@ export const spokes: Record<string, SpokeArticle> = {
         unit: "30매",
         barkiryProductId: "p404",
         externalSearchUrl: "https://search.shopping.naver.com/search/all?query=트라스트패취+30매",
-        ingredients: undefined,
-        usage: undefined,
-        slug: undefined,
+        ingredients: "",
+        usage: "",
+        slug: "",
       },
     ],
     faq: [
@@ -4739,7 +4739,7 @@ export const spokes: Record<string, SpokeArticle> = {
           "트라스트패취 30매의 주성분은 케토프로펜(Ketoprofen) 30mg으로 트라스트(7매)와 동일해요. 비스테로이드 소염진통제(NSAID) 계열로 COX 효소를 억제해 프로스타글란딘 생성을 차단해요.\n\n경피 패취 기제로 강한 점착력과 48시간 지속 방출이 특징이에요. 일반 플라스타보다 부착력과 약물 전달 시간이 더 길어요.\n\nSK케미칼 30매 대용량 단위로 매일 사용·가족 비축에 맞아요. 약국 최저가 약 17,000원, 1매당 약 570원이에요.",
         ingredients: [
           { type: "주성분", name: "케토프로펜", amount: "30mg/매", role: "COX 억제·프로스타글란딘 생성 차단·소염진통" },
-          { type: "기제", name: "경피 패취 기제", role: "강한 점착·48시간 지속 약물 전달" },
+          { type: "첨가제", name: "경피 패취 기제", role: "강한 점착·48시간 지속 약물 전달" },
         ],
       },
       {
