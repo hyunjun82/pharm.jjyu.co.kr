@@ -10,12 +10,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const spokeIndex = await getSpokeIndex();
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: BASE_URL, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${BASE_URL}/about`, lastModified: "2026-02-22", changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
+    { url: `${BASE_URL}/about/`, lastModified: "2026-02-22", changeFrequency: "monthly", priority: 0.5 },
   ];
 
   const hubPages: MetadataRoute.Sitemap = Object.values(hubArticles).map((hub) => ({
-    url: `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}`,
+    url: `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/`,
     lastModified: hub.dateModified,
     changeFrequency: "weekly" as const,
     priority: 0.9,
@@ -24,7 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const spokePages: MetadataRoute.Sitemap = Object.entries(spokeIndex).flatMap(
     ([category, articles]) =>
       Object.values(articles).map((article) => ({
-        url: `${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}`,
+        url: `${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}/`,
         lastModified: article.dateModified,
         changeFrequency: "monthly" as const,
         priority: 0.8,
@@ -32,7 +32,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   );
 
   const pricePages: MetadataRoute.Sitemap = Object.values(hubArticles).map((hub) => ({
-    url: `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}`,
+    url: `${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}/`,
     lastModified: hub.dateModified,
     changeFrequency: "weekly" as const,
     priority: 0.7,

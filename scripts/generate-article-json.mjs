@@ -78,8 +78,8 @@ function urlEntry(url, lastmod, changefreq, priority) {
 }
 
 const entries = [];
-entries.push(urlEntry(BASE_URL, now, "weekly", "1.0"));
-entries.push(urlEntry(`${BASE_URL}/about`, "2026-02-22", "monthly", "0.5"));
+entries.push(urlEntry(`${BASE_URL}/`, now, "weekly", "1.0"));
+entries.push(urlEntry(`${BASE_URL}/about/`, "2026-02-22", "monthly", "0.5"));
 
 for (const [cat, hub] of Object.entries(hubArticles)) {
   entries.push(urlEntry(
