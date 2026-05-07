@@ -40,8 +40,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# source data (API에서 수집한 원본 — 레포에 올릴 필요 없음)
-/source-data/
+# source data — v2에서는 글 작성에 필수 (CLAUDE.md §5)
+# .json만 추적, schema 등은 그대로
+/source-data/*
+!/source-data/*.json
 
 # scripts (일회성 유틸리티 — 빌드/검증에 필수인 것만 추적)
 # 디렉토리가 아닌 *내용물*을 제외해야 화이트리스트(!)가 작동함
