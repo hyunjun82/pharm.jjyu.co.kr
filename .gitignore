@@ -43,10 +43,14 @@ next-env.d.ts
 # source data (API에서 수집한 원본 — 레포에 올릴 필요 없음)
 /source-data/
 
-# scripts (일회성 유틸리티 — generate-article-json.mjs는 빌드에 필수)
-/scripts/
+# scripts (일회성 유틸리티 — 빌드/검증에 필수인 것만 추적)
+# 디렉토리가 아닌 *내용물*을 제외해야 화이트리스트(!)가 작동함
+/scripts/*
 !/scripts/generate-article-json.mjs
 !/scripts/fix-bracket-chunks.mjs
+# v2 — 6층 검증 시스템 (prepush에서 호출, 다른 환경에서도 필수)
+!/scripts/verify-doorway.js
+!/scripts/verify-uniqueness.js
 
 # tmp (임시 파일)
 /tmp/
@@ -73,5 +77,9 @@ next-env.d.ts
 # IDE / 도구
 .vscode/
 .playwright-mcp/
-.claude/
+# Claude Code 로컬 설정 — 단, 에이전트 정의(.md)는 팀 공유 필요해서 추적
+.claude/*
+!.claude/agents/
+.claude/agents/*
+!.claude/agents/*.md
 _workspace/
