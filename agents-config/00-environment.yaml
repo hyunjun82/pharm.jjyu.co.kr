@@ -1,0 +1,47 @@
+# Managed Agents Environment — pharm-jjyu
+# 컨테이너에 Node.js + 프로젝트 코드 + verify-* 스크립트 + source-data 디렉토리 마운트
+# 사용법: ant beta:environments create < 00-environment.yaml
+#
+# 참고: https://platform.claude.com/docs/en/managed-agents/environments
+
+name: pharm-jjyu-env
+description: pharm.jjyu.co.kr 글 자동 작성/리라이트 환경
+
+# 컨테이너 베이스 (Node.js 20+ 포함)
+container:
+  base_image: node:20
+
+  # 사전 설치 도구
+  setup_commands:
+    - npm install -g @anthropic-ai/sdk
+    - npm install -g typescript
+
+  # 작업 디렉토리
+  workdir: /workspace
+
+  # 네트워크 — 외부 출처 화이트리스트만 허용
+  network:
+    egress_allowed_domains:
+      - drug.mfds.go.kr           # 식약처 의약품 검색
+      - nedrug.mfds.go.kr         # 식약처 의약품 통합검색
+      - foodsafetykorea.go.kr     # 식품안전나라
+      - apis.data.go.kr           # 공공데이터포털
+      - pubmed.ncbi.nlm.nih.gov   # 임상논문
+      - api.anthropic.com         # 자기 API (sub-agent 호출용)
+
+  # 마운트 — 프로젝트 디렉토리를 read/write로
+  # 실제 배포 시 git 저장소 sync 또는 S3 mount 사용
+  mounts:
+    - type: project
+      source: pharm.jjyu.co.kr
+      target: /workspace
+      mode: read_write
+
+# 환경 변수 (런타임에 inject)
+env_vars:
+  - name: ARTICLES_DIR
+    value: /workspace/data/articles
+  - name: SOURCE_DATA_DIR
+    value: /workspace/source-data
+  - name: WORKSPACE_DIR
+    value: /workspace/_workspace

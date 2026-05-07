@@ -1,0 +1,54 @@
+# Dream — pharm-writer 메모리 큐레이션 템플릿
+# 매주 일요일 03:00 cron으로 실행 (외부 스케줄러 필요)
+# 사용법: envsubst < 07-dream-template.yaml | ant beta:dreams create
+#
+# 베타 헤더: managed-agents-2026-04-01,dreaming-2026-04-21
+# 참고: https://platform.claude.com/docs/en/managed-agents/dreams
+#
+# 중요: Dream은 입력 memory store를 변경하지 않음. 새 store를 출력함.
+# 사람이 출력 store를 review한 후 다음 세션에 사용 여부 결정.
+
+inputs:
+  # 1. writer 에이전트의 기존 memory store
+  - type: memory_store
+    memory_store_id: $WRITER_MEMORY_STORE_ID
+
+  # 2. 최근 7일치 writer 세션 (최대 100개)
+  # session_ids는 외부 스크립트로 주입:
+  #   ant beta:sessions list --agent-id $WRITER_ID --since "7 days ago" --limit 100
+  - type: sessions
+    session_ids: $RECENT_SESSION_IDS  # 배열 형태, envsubst로 주입
+
+model: claude-opus-4-7
+
+# Instructions: 4096자 제한
+instructions: |
+  pharm-jjyu writer 에이전트의 메모리에서 다음을 추출/통합/정리:
+
+  1. 검증 실패 패턴 학습
+     - L3 Style FAIL: 받침 조사 자주 틀린 케이스 (예: "아보다트은" 같은)
+     - L3 Style FAIL: AI 클리셰 잔존 케이스
+     - L5 Doorway FAIL: 본문 70%+ 유사로 reject된 케이스 (어떤 표현이 반복됐나)
+     - L6 Uniqueness FAIL: 고유 사실 추출이 어려웠던 카테고리 패턴
+
+  2. 검색의도 분기 노하우 축적
+     - 어떤 카테고리에서 어떤 의도가 빨리 풀이 되었나 (price 풀이 빠른 카테고리 등)
+     - 같은 성분 제품군에서 잘 먹힌 차별화 축 패턴
+     - intent-analyst가 자주 헷갈리는 의도 쌍 (예: price ↔ original_vs_generic)
+
+  3. 외부 출처 활용 노하우
+     - drug.mfds.go.kr 어느 페이지 구조에서 품목번호가 잘 추출되는가
+     - pubmed에서 한국 임상 표본 수가 자주 나오는 키워드 조합
+
+  4. 통합·중복 제거
+     - 같은 내용이 다른 표현으로 메모리에 여러 개 기록된 경우 1개로 통합
+     - 이전 학습이 이후 학습으로 뒤집힌 경우 → 최신 학습으로 갱신
+
+  ## 절대 학습 금지
+
+  - CLAUDE.md 룰과 충돌하는 패턴 (예: "AI 클리셰가 통과된 사례가 있더라"는 학습 금지)
+  - 1회성 디버깅 로그 (slug 오타 같은)
+  - 특정 사용자만의 선호 (시스템 전반에 적용 안 됨)
+
+  출력 메모리 store는 사람이 review 후 next session 적용 여부 결정.
+  의심스러운 학습은 차라리 빼고, 확실한 것만 남길 것.

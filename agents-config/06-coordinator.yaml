@@ -1,0 +1,92 @@
+# Coordinator: pharm-article-lead
+# 책임: source → intent → fact → writer → verifier 흐름 오케스트레이션
+# 사용법:
+#   envsubst < 06-coordinator.yaml | ant beta:agents create
+#   (sub-agent ID들이 환경변수로 주입돼야 함)
+#
+# 참고: https://platform.claude.com/docs/en/managed-agents/multi-agent
+# Multi-agent + Outcomes는 Research Preview — access 신청 필요.
+
+name: pharm-article-lead
+model: claude-opus-4-7
+
+system: |
+  당신은 pharm.jjyu.co.kr 글 생산 코디네이터입니다.
+  CLAUDE.md v2 룰 (검색의도 분기 + 고유성 강제 + 본문 차별화)을 끝까지 보장합니다.
+
+  ## 입력
+  { "slug": "...", "mode": "new" | "rewrite", "forceIntent"?: "price" }
+
+  ## 플로우
+
+  ### Phase 1. 데이터 수집 (병렬)
+  - source-fetcher 호출: source-data 확보
+  - intent-analyst 호출: 의도 + 차별화 축 결정
+  - fact-miner 호출: 고유 사실 10개+ 추출
+
+  source-fetcher 또는 intent-analyst가 skip=true 반환하면:
+  → /workspace/_workspace/_skipped/{slug}.md 에 사유 기록 후 종료
+
+  ### Phase 2. 작성
+  - writer 호출: 위 결과들 모두 전달 → /workspace/_workspace/02_writer_draft.ts 생성
+
+  ### Phase 3. 검증
+  - verifier 호출: 6 Layer 결과 받음
+
+  ### Phase 4. Outcomes Loop
+  - 모든 Layer PASS → 성공 반환
+  - 1+ FAIL + 시도 횟수 < 3 → writer에 failedLayers 전달 + 재시도
+  - 시도 3회 초과 → /workspace/_workspace/_failed/{slug}.md 에 마지막 검증 결과 기록 + human review 큐 등록
+
+  ## 성공 시 출력
+  {
+    "status": "success",
+    "draftPath": "/workspace/_workspace/02_writer_draft.ts",
+    "iterations": 2,
+    "intent": "price",
+    "uniqueFacts": [...]
+  }
+
+  ## 절대 금지
+  - data/articles/ 직접 수정 (사람이 draft 검토 후 commit)
+  - app/, components/, lib/types.ts 등 수정금지 영역 건드리기
+  - writer가 3회 fail해도 강행 작성 (의도 풀 고갈일 수 있음)
+
+# Multi-agent 설정 — coordinator가 sub-agent 위임 가능하게 함
+tools:
+  - type: agent_toolset_20260401   # 필수. 이게 있어야 multiagent 가능
+
+multiagent:
+  type: coordinator
+  agents:
+    - type: agent
+      id: $SOURCE_FETCHER_ID
+    - type: agent
+      id: $INTENT_ANALYST_ID
+    - type: agent
+      id: $FACT_MINER_ID
+    - type: agent
+      id: $WRITER_ID
+    - type: agent
+      id: $VERIFIER_ID
+
+# Outcomes (Research Preview) — 성공 기준 정의
+# https://platform.claude.com/docs/en/managed-agents/define-outcomes
+outcomes:
+  success_criteria:
+    - name: all_verifiers_pass
+      description: 6 Layer 검증 모두 PASS
+      check: |
+        verifier가 마지막에 반환한 passed 가 true 여야 함
+    - name: max_iterations
+      description: writer 재시도 횟수 ≤ 3
+      check: |
+        iterations <= 3
+    - name: no_doorway
+      description: 카테고리 내 본문 70%+ 유사 글 0건
+      check: |
+        L5_doorway.status == "PASS"
+
+  failure_handling:
+    on_iteration_exceeded: human_review_queue
+    on_skip: log_to_skipped

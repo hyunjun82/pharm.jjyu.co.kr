@@ -239,28 +239,120 @@ v1은 단일 공식 → 패턴 시그널. v2는 의도별 다중 공식.
 
 ---
 
-## 11. 자동화 — Managed Agents 워크플로우
+## 11. 자동화 — Claude Managed Agents 워크플로우
 
-v2는 글 양이 7,617개라 사람이 다 못 씀. Anthropic Managed Agents 활용.
+v2는 글 양이 7,617개라 사람이 다 못 씀. **Anthropic Claude Managed Agents** (cloud-hosted) 활용.
+공식 문서: https://platform.claude.com/docs/en/managed-agents/overview
+
+### 두 가지 에이전트 시스템 구분
+
+| 종류 | 위치 | 용도 |
+|---|---|---|
+| **Claude Code 서브에이전트** | `.claude/agents/*.md` | 로컬 개발·테스트, 사용자가 CLI에서 직접 호출 |
+| **Managed Agents** | Anthropic 클라우드, YAML/API | 자동화 양산, 야간 배치, 7,617개 글 리라이트 |
+
+`.claude/agents/writer.md`는 **로컬 시범용**. 실제 양산은 `agents-config/*.yaml`을 `ant beta:agents create`로 배포해서 돌림.
+
+### 베타 헤더 (필수)
+
+- 모든 Managed Agents 요청: `anthropic-beta: managed-agents-2026-04-01`
+- Dreams: 추가로 `dreaming-2026-04-21`
+- Multi-agent + Outcomes는 **research preview** → https://claude.com/form/claude-managed-agents 에서 access 신청
 
 ### Coordinator: `pharm-article-lead`
-입력: `{ slug, mode: "new"|"rewrite", forceIntent? }` → 출력: `_workspace/02_writer_draft.ts`
 
-### Sub-agents
+```yaml
+name: pharm-article-lead
+model: claude-opus-4-7
+system: |
+  의약품/건기식 글 생산 코디네이터. CLAUDE.md v2 룰 준수.
+  입력: { slug, mode: "new"|"rewrite", forceIntent? }
+  플로우: source → intent → fact → writer → verifier (병렬 6 Layer) → outcomes 평가
+tools:
+  - type: agent_toolset_20260401  # 이게 있어야 sub-agent 위임 가능
+multiagent:
+  type: coordinator
+  agents:
+    - { type: agent, id: $SOURCE_FETCHER_ID }
+    - { type: agent, id: $INTENT_ANALYST_ID }
+    - { type: agent, id: $FACT_MINER_ID }
+    - { type: agent, id: $WRITER_ID }
+    - { type: agent, id: $VERIFIER_ID }
+```
+
+### Sub-agents (5종, 깊이 1만 허용)
+
 1. **source-fetcher**: source-data/{slug}.json 확보
-2. **intent-analyst**: 같은 카테고리 기존 글 의도 분석 → 빈 의도 1개 선택 + 차별화 축 3개 도출
+2. **intent-analyst**: 같은 카테고리 기존 글 의도 분석 → 빈 의도 1개 선택 + 차별화 축 3개
 3. **fact-miner**: source-data + 외부 화이트리스트에서 고유 사실 후보 풀 추출 (10개+)
-4. **writer**: `.claude/agents/writer.md` 정의 따라 의도-템플릿 기반 작성
-5. **verifier-suite**: 6 Layer 병렬 (Source/Fact/Style/SelfCheck/Doorway/Uniqueness)
+4. **writer**: `agents-config/04-writer.yaml` 정의 따라 의도-템플릿 기반 작성
+5. **verifier**: 6 Layer 병렬 (Source/Fact/Style/SelfCheck/Doorway/Uniqueness)
 
-### Outcomes Loop
-성공 기준: 6 Layer 모두 PASS + 사용자 5초 답 검증
-실패 시: 어느 Layer FAIL인지 writer에 피드백 → 재작성 (최대 3회)
-3회 초과 시: human review 큐 (`_workspace/_failed/{slug}.md`)
+**제약**:
+- 최대 20개 unique agents / 25 concurrent threads
+- coordinator는 같은 agent의 복사본을 동시에 여러 개 호출 가능 (예: writer 5개 병렬 = OK)
+- sub-agent가 자기 sub-sub-agent를 못 부름 (depth=1)
 
-### Dreaming (야간)
-매일 03:00 cron. 최근 7일 실패 패턴 추출 → writer 시스템 프롬프트 보강 큐.
-**자동 반영 금지**. 사람이 diff 승인 후만 반영.
+### Outcomes Loop (Research Preview)
+
+성공 기준 정의 → Claude가 self-evaluate하고 통과할 때까지 반복.
+v2 성공 기준:
+- 6 Layer 모두 PASS
+- 사용자 5초 답 통과 (heroDescription 첫 80자 답)
+- writer iteration ≤ 3회
+
+실패 시 어느 Layer FAIL인지 writer에 피드백 → 재작성. 3회 초과 → human review 큐 (`_workspace/_failed/{slug}.md`).
+
+### Dreams (야간 메모리 큐레이션)
+
+매주 일요일 03:00 (cron). writer 에이전트의 memory store를 **재구성**해서 자주 틀리는 패턴을 보강.
+
+```yaml
+inputs:
+  - type: memory_store
+    memory_store_id: $WRITER_MEMORY_STORE_ID
+  - type: sessions
+    session_ids: [최근 7일 writer 세션 최대 100개]
+model: claude-opus-4-7
+instructions: |
+  pharm-jjyu writer 에이전트의 메모리에서:
+  1) 자주 틀리는 받침 조사 패턴 추출
+  2) 검색의도 중복을 자주 일으키는 카테고리 식별
+  3) 사용자 후기 시나리오 반복 패턴 파악
+  CLAUDE.md 룰과 충돌하는 학습은 제외.
+```
+
+**중요**: Dreams는 입력 메모리를 **수정하지 않고**, 새 memory store를 출력함. 사람이 review 후 OK면 다음 세션부터 새 store 사용. NG면 폐기. **자동 반영 금지** = Anthropic 공식 가이드와 일치.
+
+### 배포 명령어
+
+```bash
+# 1. 환경 정의
+ant beta:environments create < agents-config/00-environment.yaml
+
+# 2. sub-agents 먼저 (coordinator가 ID 참조)
+SOURCE_ID=$(ant beta:agents create --transform id < agents-config/01-source-fetcher.yaml)
+INTENT_ID=$(ant beta:agents create --transform id < agents-config/02-intent-analyst.yaml)
+FACT_ID=$(ant beta:agents create --transform id < agents-config/03-fact-miner.yaml)
+WRITER_ID=$(ant beta:agents create --transform id < agents-config/04-writer.yaml)
+VERIFIER_ID=$(ant beta:agents create --transform id < agents-config/05-verifier.yaml)
+
+# 3. coordinator (ID 변수 inject)
+envsubst < agents-config/06-coordinator.yaml | ant beta:agents create
+
+# 4. 실행
+ant beta:sessions create \
+  --agent "$COORDINATOR_ID" \
+  --environment-id "$ENV_ID" \
+  --input '{"slug":"아보다트","mode":"new"}'
+```
+
+### Rate limit (organization 단위)
+
+- create 엔드포인트: 300 req/min
+- read/stream: 600 req/min
+
+7,617개 글 일괄 처리 시 rate limit 회피를 위해 큐잉 필요.
 
 ---
 
