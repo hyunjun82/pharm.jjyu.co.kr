@@ -51,6 +51,8 @@ next-env.d.ts
 # v2 — 6층 검증 시스템 (prepush에서 호출, 다른 환경에서도 필수)
 !/scripts/verify-doorway.js
 !/scripts/verify-uniqueness.js
+# 데이터 다운로드 (e약은요 API → tmp/edrug-all.json 캐시)
+!/scripts/fetch-edrug.mjs
 
 # tmp (임시 파일)
 /tmp/
