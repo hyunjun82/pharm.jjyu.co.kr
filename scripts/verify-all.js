@@ -1,10 +1,13 @@
 /**
- * 4층 검증 통합 실행기
+ * 6층 검증 통합 실행기 (v2 — doorway/uniqueness 추가)
+ *
+ * Layer 5/6은 색인율 1.3% 위기 대응으로 v2에서 추가됨.
+ * 같은 카테고리 내 본문 중복 + 글마다 고유 데이터 포인트 검증.
  *
  * 사용법:
- *   node scripts/verify-all.js               전체 4층 검증
- *   node scripts/verify-all.js --slug 마데카솔  특정 slug만 4층 전체
- *   node scripts/verify-all.js --layer 2      특정 레이어만
+ *   node scripts/verify-all.js               전체 6층 검증
+ *   node scripts/verify-all.js --slug 마데카솔  특정 slug만
+ *   node scripts/verify-all.js --layer 5      특정 레이어만
  *   node scripts/verify-all.js --warn-only    WARN만 표시 (PASS 판정)
  */
 
@@ -16,6 +19,8 @@ const SCRIPTS = [
   { layer: 2, name: "Fact Gate", file: "verify-facts.js" },
   { layer: 3, name: "Style Gate", file: "verify-style.js" },
   { layer: 4, name: "Self-Check Gate", file: "verify-selfcheck.js" },
+  { layer: 5, name: "Doorway Gate", file: "verify-doorway.js" },
+  { layer: 6, name: "Uniqueness Gate", file: "verify-uniqueness.js" },
 ];
 
 function main() {
@@ -31,7 +36,7 @@ function main() {
     .join(" ");
 
   console.log("==================================================");
-  console.log("  pharm-jjyu 4층 검증 시스템");
+  console.log("  pharm-jjyu 6층 검증 시스템 (v2)");
   console.log("==================================================\n");
 
   const results = [];
@@ -82,9 +87,9 @@ function main() {
 
   console.log("");
   if (allPass) {
-    console.log("  4층 검증 전체 PASS");
+    console.log("  6층 검증 전체 PASS");
   } else {
-    console.log("  4층 검증 FAIL — 에러 수정 필요");
+    console.log("  6층 검증 FAIL — 에러 수정 필요");
     process.exit(1);
   }
 }

@@ -11,7 +11,11 @@
       "알아보겠습니다", "살펴보겠습니다", "알아볼게요",
       "특히 주목할 만한", "주목할 만합니다", "눈여겨볼 만",
       "다양하게 활용", "폭넓게 사용",
-      "거든요"
+      "거든요",
+      "찾고 계시죠?", "눈에 띄시죠?", "알아보고 계시죠?",
+      "걱정되시죠?", "궁금하시죠?", "고민되시죠?",
+      "처음 시작하거나 제품을 바꿀 때",
+      "선택할 때 무엇을 봐야 할지 헷갈리시죠?"
     ],
     "fillerPatterns": [
       "에 대해 알아보",
@@ -21,7 +25,7 @@
       "하나씩 살펴",
       "꼼꼼히 따져"
     ],
-    "maxForbiddenWordCount": 1,
+    "maxForbiddenWordCount": 0,
     "maxConsecutiveSameEnding": 2,
     "maxConsecutiveSameStart": 2,
     "requireBracketExplanation": true
@@ -104,5 +108,74 @@
     "minTotalChars": 1700,
     "maxTotalChars": 2000,
     "minSectionChars": 200
+  },
+
+  "doorway": {
+    "$comment": "Layer 5 — 같은 카테고리 내 본문 유사도 임계값. 색인율 1.3% 위기 대응.",
+    "bodyJaccardMax": 0.70,
+    "titleMatchJaccardMax": 0.50,
+    "sharedSentencesMax": 4,
+    "hero5CharsDup": true
+  },
+
+  "uniqueness": {
+    "$comment": "Layer 6 — 글마다 고유 데이터 포인트 의무. 3개+ / 카테고리 내 유일 2개+",
+    "minFactsPerArticle": 3,
+    "minUniqueFactsInCategory": 2,
+    "trustedDomains": [
+      "drug.mfds.go.kr",
+      "nedrug.mfds.go.kr",
+      "foodsafetykorea.go.kr",
+      "pubmed.ncbi.nlm.nih.gov"
+    ]
+  },
+
+  "intentTemplates": {
+    "$comment": "검색의도별 섹션 비중. writer 에이전트가 의도 결정 후 이 템플릿 사용.",
+    "price": {
+      "label": "가격 비교형",
+      "sections": [
+        { "title": "{slug} 가격, 약국·온라인 어디가 쌀까", "weight": 0.40 },
+        { "title": "{slug}와 같은 성분 다른 제품 가격 매트릭스", "weight": 0.25 },
+        { "title": "{slug} 라인업·용량별 단가 차이", "weight": 0.15 },
+        { "title": "{slug} 성분·복용법 핵심", "weight": 0.20 }
+      ]
+    },
+    "safety": {
+      "label": "안전성 의심형",
+      "sections": [
+        { "title": "{slug} 부작용 보고 통계", "weight": 0.35 },
+        { "title": "{slug} 복용 금기 대상자", "weight": 0.25 },
+        { "title": "{slug} 약물 상호작용", "weight": 0.20 },
+        { "title": "{slug} 안전 복용법과 응급 시 대처", "weight": 0.20 }
+      ]
+    },
+    "usage_scenario": {
+      "label": "사용 시나리오형",
+      "sections": [
+        { "title": "{slug}, 어떤 상황에 적합한가", "weight": 0.30 },
+        { "title": "시나리오별 {slug} 권장 용량", "weight": 0.25 },
+        { "title": "{slug} 휴대성·복용 편의성", "weight": 0.25 },
+        { "title": "{slug} 부작용 시나리오 대처", "weight": 0.20 }
+      ]
+    },
+    "original_vs_generic": {
+      "label": "오리지널vs제네릭",
+      "sections": [
+        { "title": "{slug}와 제네릭의 효능 동등성 근거 (BE 시험)", "weight": 0.30 },
+        { "title": "{slug} 가격 차이와 보험 적용 여부", "weight": 0.25 },
+        { "title": "{slug} 제조사·라인업 차이", "weight": 0.25 },
+        { "title": "처방 받을 때 {slug}로 받는 법", "weight": 0.20 }
+      ]
+    },
+    "external_vs_oral": {
+      "label": "외용vs경구",
+      "sections": [
+        { "title": "{slug} 흡수율·작용 부위", "weight": 0.30 },
+        { "title": "{slug}와 경구약 부작용 차이", "weight": 0.25 },
+        { "title": "시나리오별 {slug} 선택 가이드", "weight": 0.25 },
+        { "title": "{slug} 경구약 병행 가능성", "weight": 0.20 }
+      ]
+    }
   }
 }
