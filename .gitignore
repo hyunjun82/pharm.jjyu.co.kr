@@ -30,7 +30,7 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files (Cloudflare API 토큰 보호)
 .env*
 
 # vercel
@@ -40,13 +40,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# source data (API에서 수집한 원본 — 레포에 올릴 필요 없음)
-/source-data/
+# source-data: 원본 4,556개 .json은 ignore, map과 schema만 commit (시스템 검증에 필요)
+/source-data/*
+!/source-data/source-map.json
+!/source-data/schema.json
 
-# scripts (일회성 유틸리티 — generate-article-json.mjs는 빌드에 필수)
-/scripts/
-!/scripts/generate-article-json.mjs
-!/scripts/fix-bracket-chunks.mjs
+# scripts: 모두 commit (검증·배포 시스템 인프라)
+# 이전 ignore 해제
 
 # tmp (임시 파일)
 /tmp/
@@ -54,7 +54,7 @@ next-env.d.ts
 # 빌드 시 자동 생성되는 JSON 데이터
 /public/data/
 
-# 스크린샷 / 이미지 캡처
+# 스크린샷 / 이미지 캡처 (배포 무관)
 *.png
 *.jpeg
 
@@ -70,8 +70,16 @@ next-env.d.ts
 /data/*.backup.ts
 /data/*.old.ts
 
-# IDE / 도구
+# IDE
 .vscode/
 .playwright-mcp/
-.claude/
+
+# .claude/ — 인프라(agents·skills·templates·docs·settings.json)는 commit, 임시·메모리는 ignore
+.claude/agent-memory/
+.claude/agent-memory-local/
+.claude/worktrees/
+.claude/settings.local.json
+.claude/plans/
+
+# 4-agent 체인 작업용 임시 (글 작성 brief·draft·verify 출력)
 _workspace/

@@ -271,8 +271,22 @@ export default async function SpokePage({ params }: PageProps) {
                     </div>
                     <div className="pl-[42px]">
                       <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] mb-5">
-                        {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
-                        약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
+                        {article.priceRange ? (
+                          <>
+                            {spokeSlug}의 약국 판매가는{" "}
+                            <strong>{new Intl.NumberFormat("ko-KR").format(article.priceRange.min)}원</strong>~
+                            <strong>{new Intl.NumberFormat("ko-KR").format(article.priceRange.max)}원</strong>이에요.
+                            {article.priceRange.storeCount > 0 && (
+                              <> 전국 {article.priceRange.storeCount}개 약국에서 판매 중이에요.</>
+                            )}{" "}
+                            약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
+                          </>
+                        ) : (
+                          <>
+                            {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
+                            약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
+                          </>
+                        )}
                       </p>
                       <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} barkiryProductId={mainProduct.barkiryProductId} externalSearchUrl={mainProduct.externalSearchUrl} categorySlug={catSlug} />
                     </div>
@@ -461,17 +475,47 @@ export default async function SpokePage({ params }: PageProps) {
               image: mainProduct.image
                 ? `https://pharm.jjyu.co.kr${mainProduct.image}`
                 : undefined,
-              activeIngredient: mainProduct.ingredients || undefined,
+              activeIngredient: (() => {
+                const ingSection = article.sections.find(
+                  (s) => s.ingredients && s.ingredients.length > 0
+                );
+                if (!ingSection?.ingredients) {
+                  return mainProduct.ingredients || undefined;
+                }
+                return ingSection.ingredients
+                  .filter((i) => i.type === "주성분")
+                  .map((i) => {
+                    const amt = i.amount || "";
+                    const value = amt.replace(/[^\d.]/g, "");
+                    const unit = amt.replace(/[\d.]/g, "").trim();
+                    return {
+                      "@type": "DrugStrength",
+                      activeIngredient: i.name,
+                      strengthValue: value || undefined,
+                      strengthUnit: unit || undefined,
+                    };
+                  });
+              })(),
               indication: mainProduct.description,
               administrationRoute: "경구 또는 외용",
               url: `https://pharm.jjyu.co.kr/${catSlug}/${spokeSlug}`,
-              offers: {
-                "@type": "Offer",
-                price: mainProduct.price,
-                priceCurrency: "KRW",
-                availability: "https://schema.org/InStock",
-                priceValidUntil: "2026-12-31",
-              },
+              offers: article.priceRange
+                ? {
+                    "@type": "AggregateOffer",
+                    lowPrice: article.priceRange.min,
+                    highPrice: article.priceRange.max,
+                    priceCurrency: "KRW",
+                    offerCount: article.priceRange.storeCount || 1,
+                    availability: "https://schema.org/InStock",
+                    priceValidUntil: "2026-12-31",
+                  }
+                : {
+                    "@type": "Offer",
+                    price: mainProduct.price,
+                    priceCurrency: "KRW",
+                    availability: "https://schema.org/InStock",
+                    priceValidUntil: "2026-12-31",
+                  },
             }),
           }}
         />

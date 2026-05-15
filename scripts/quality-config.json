@@ -1,6 +1,138 @@
 {
-  "$comment": "pharm-jjyu 품질 검증 설정. verify-*.js 스크립트들이 이 설정을 참조한다.",
+  "$comment": "pharm-jjyu v2 품질 검증 설정 (재설계 2026-05-15). intent 6분기 + globalRules 신설 + style.forbiddenWords 6개 추가. v1 structure는 호환 유지.",
   "projectName": "pharm-jjyu",
+  "version": 2,
+  "lastRedesign": "2026-05-15",
+
+  "intents": {
+    "A": {
+      "name": "효과",
+      "searchPatterns": ["{slug} 효과", "{slug} 언제부터", "{slug} 후기"],
+      "sectionCount": 7,
+      "totalChars": [2400, 2800],
+      "sectionTitles": [
+        "{slug} 효과는 무엇인가요?",
+        "{slug} 효과는 언제부터 나타나나요?",
+        "{slug} 효과를 보려면 어떻게 써야 하나요?",
+        "{slug} 가격은 얼마인가요?",
+        "{slug} 부작용은 어떤 게 있나요?",
+        "{slug} 주의사항·금기는 무엇인가요?",
+        "{slug}와 같은 성분 다른 제품"
+      ],
+      "titlePattern": "{slug} 효과 {timeframe} | 부작용·{usage}·가격",
+      "requiredAnchors": ["timeframe", "효과지표"],
+      "priceH2Position": 4
+    },
+    "B": {
+      "name": "부작용",
+      "searchPatterns": ["{slug} 부작용", "{slug} 졸려요", "{slug} 어지러움"],
+      "sectionCount": 6,
+      "totalChars": [2200, 2600],
+      "sectionTitles": [
+        "{slug} 즉시 중단해야 할 신호",
+        "{slug} 흔한 부작용 vs 드문 부작용",
+        "{slug} 부작용 안 나타나게 쓰는 법",
+        "{slug} 효과는 무엇인가요?",
+        "{slug} 가격은 얼마인가요?",
+        "{slug} 금기 사항"
+      ],
+      "titlePattern": "{slug} 부작용 신호와 즉시 중단 기준 | 효과·가격",
+      "requiredAnchors": ["부작용빈도", "중단기준"],
+      "priceH2Position": 5
+    },
+    "C": {
+      "name": "사용법",
+      "searchPatterns": ["{slug} 복용법", "{slug} 사용법", "{slug} 1일 몇번"],
+      "sectionCount": 6,
+      "totalChars": [2000, 2400],
+      "sectionTitles": [
+        "{slug} 정확한 {usage} 단계",
+        "{slug} 시간·횟수·양 정리",
+        "{slug} 효과를 높이는 사용 팁",
+        "{slug} 가격은 얼마인가요?",
+        "{slug} 부작용 줄이기",
+        "{slug} 주의사항·금기"
+      ],
+      "titlePattern": "{slug} {usage} | 효과·부작용·가격",
+      "requiredAnchors": ["용량", "횟수", "타이밍"],
+      "priceH2Position": 4
+    },
+    "D": {
+      "name": "가격",
+      "searchPatterns": ["{slug} 가격", "{slug} 최저가", "{slug} 약국가", "{slug} 얼마"],
+      "sectionCount": 6,
+      "totalChars": [2200, 2600],
+      "sectionTitles": [
+        "{slug} 효과·성분 핵심",
+        "{slug} 가격은 얼마인가요? (전국 최저가)",
+        "{slug} 약국별 가격 차이가 나는 이유",
+        "{slug} 같은 성분 더 저렴한 대안",
+        "{slug} {usage}",
+        "{slug} 부작용·주의사항"
+      ],
+      "titlePattern": "{slug} 최저가 {priceMin}원~ | 약국별 가격 비교",
+      "requiredAnchors": ["minPrice", "maxPrice", "storeCount"],
+      "priceH2Position": 2,
+      "titleMustContain": ["최저가"]
+    },
+    "E": {
+      "name": "비교",
+      "searchPatterns": ["{slug} vs", "{slug} 차이", "{slug} 비교"],
+      "sectionCount": 7,
+      "totalChars": [2800, 3500],
+      "sectionTitles": [
+        "{slug} 한눈에 보기",
+        "{slug} 성분 차이",
+        "{slug} 효과 차이",
+        "{slug} 부작용 차이",
+        "{slug} 가격 차이",
+        "{slug} 어떤 게 나에게 맞을까",
+        "다른 동일 성분 제품도 비교하기"
+      ],
+      "titlePattern": "{productA} vs {productB} 차이 | 효과·부작용·가격 비교",
+      "requiredAnchors": ["성분차이", "효과차이", "가격차이"],
+      "priceH2Position": 5
+    },
+    "F": {
+      "name": "대안",
+      "searchPatterns": ["{slug} 단종", "{slug} 못 구해요", "{slug} 대신", "{slug} 대체"],
+      "sectionCount": 6,
+      "totalChars": [2000, 2400],
+      "sectionTitles": [
+        "{slug}을 못 구하는 이유",
+        "{slug}의 핵심 효과·성분",
+        "{slug}을 대신할 같은 성분 제품",
+        "대안 제품들의 가격 비교",
+        "대안 사용 시 주의할 점",
+        "약사·의사 상담이 필요한 경우"
+      ],
+      "titlePattern": "{slug} 단종·대체 | 같은 성분 다른 제품·가격",
+      "requiredAnchors": ["alternatives", "priceComparison"],
+      "priceH2Position": 4
+    }
+  },
+
+  "differentiationAnchors": {
+    "form": ["액제", "폼", "겔", "캡슐", "정", "산", "시럽", "패치", "스프레이"],
+    "dose": ["3%", "5%", "1mg", "5mg", "100mg", "500mg"],
+    "age": ["성인", "소아", "어린이", "노년"],
+    "gender": ["여성", "남성"],
+    "timing": ["임신", "수유", "공복", "식후"],
+    "comorbidity": ["고혈압", "간장애", "신장애", "당뇨"],
+    "priceTier": ["고가", "중가", "저가"],
+    "prescription": ["전문", "일반", "처방"]
+  },
+
+  "globalRules": {
+    "minNumberDensity": 2.0,
+    "minSourceCitationsPer1000": 1,
+    "maxDoorwayOverlap5gram": 0.30,
+    "minPriceTextMentions": 3,
+    "requirePriceH2": true,
+    "requireSearchIntent": true,
+    "sourceCitationKeywords": ["식약처", "허가사항", "품목번호", "e약은요", "임상시험", "허가코드"],
+    "priceCurrencyToken": "원"
+  },
 
   "style": {
     "tone": "구어체",
@@ -11,7 +143,9 @@
       "알아보겠습니다", "살펴보겠습니다", "알아볼게요",
       "특히 주목할 만한", "주목할 만합니다", "눈여겨볼 만",
       "다양하게 활용", "폭넓게 사용",
-      "거든요"
+      "거든요",
+      "찾고 계시죠", "눈에 띄시죠", "알아보고 계시죠", "걱정되시죠",
+      "처음 시작하거나 제품을 바꿀 때", "궁금하시죠"
     ],
     "fillerPatterns": [
       "에 대해 알아보",
@@ -24,10 +158,19 @@
     "maxForbiddenWordCount": 1,
     "maxConsecutiveSameEnding": 2,
     "maxConsecutiveSameStart": 2,
-    "requireBracketExplanation": true
+    "requireBracketExplanation": true,
+    "fakeEmpathyHooks": [
+      "찾고 계시죠",
+      "눈에 띄시죠",
+      "알아보고 계시죠",
+      "걱정되시죠",
+      "처음 시작하거나 제품을 바꿀 때",
+      "궁금하시죠"
+    ]
   },
 
   "structure": {
+    "$comment": "v1 호환 유지. v2부터는 intents 객체로 의도별 분기 우선 적용.",
     "sectionCount": 6,
     "sectionTitles": [
       "{slug} 성분은 무엇인가요?",
@@ -101,8 +244,8 @@
   },
 
   "preCommit": {
-    "minTotalChars": 1700,
-    "maxTotalChars": 2000,
+    "minTotalChars": 2000,
+    "maxTotalChars": 3500,
     "minSectionChars": 200
   }
 }

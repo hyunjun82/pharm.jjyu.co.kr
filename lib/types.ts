@@ -41,6 +41,18 @@ export interface SpokeArticle {
   sections: ArticleSection[];
   datePublished?: string;
   dateModified?: string;
+  searchIntent?: "A" | "B" | "C" | "D" | "E" | "F";
+  differentiationAnchor?:
+    | "form"
+    | "dose"
+    | "age"
+    | "gender"
+    | "timing"
+    | "comorbidity"
+    | "priceTier"
+    | "prescription";
+  ingredientGroup?: string;
+  priceRange?: { min: number; max: number; storeCount: number };
 }
 
 export interface IngredientItem {
