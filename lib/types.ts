@@ -50,7 +50,8 @@ export interface SpokeArticle {
     | "timing"
     | "comorbidity"
     | "priceTier"
-    | "prescription";
+    | "prescription"
+    | "nutrition";
   ingredientGroup?: string;
   priceRange?: { min: number; max: number; storeCount: number };
 }
