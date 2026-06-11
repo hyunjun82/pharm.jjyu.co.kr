@@ -13,6 +13,7 @@
 3. **풀빌드는 템플릿/컴포넌트(`app/`, `components/`) 변경 시 1회만.** 절차: main에 merge → push → 대시보드에서 빌드 일시중지 해제 → 빌드 완료 확인 → 다시 일시중지.
 4. **브랜치**: 실사이트 = `main`. 작업 브랜치에서 커밋했으면 main merge 전까지 실사이트 반영 안 됨 (프리뷰만 생성).
 5. **배포 전 게이트 (순서 고정)**: ① `node scripts/build-write-brief.js {slug}`가 차단(NEEDS_REFETCH)이면 작성 금지 ② 작성 후 `node scripts/validate-article.js {slug} {draft}` PASS ③ TS 구문 검사 ④ 그 다음에만 배포.
+6. **pre-push 훅이 규칙을 강제함** (`.git/hooks/pre-push`): `app/`·`components/` 등 풀빌드 유발 파일이 섞인 푸시는 자동 차단. 의도된 풀빌드만 `ALLOW_FULL_BUILD=1`로 통과. 글(data/)만 푸시 시 부분배포 명령 자동 안내.
 
 ## 파이프라인 (불가변)
 
