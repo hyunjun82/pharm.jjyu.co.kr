@@ -15,6 +15,11 @@
 5. **배포 전 게이트 (순서 고정)**: ① `node scripts/build-write-brief.js {slug}`가 차단(NEEDS_REFETCH)이면 작성 금지 ② 작성 후 `node scripts/validate-article.js {slug} {draft}` PASS ③ TS 구문 검사 ④ 그 다음에만 배포.
 6. **pre-push 훅이 규칙을 강제함** (`.git/hooks/pre-push`): `app/`·`components/` 등 풀빌드 유발 파일이 섞인 푸시는 자동 차단. 의도된 풀빌드만 `ALLOW_FULL_BUILD=1`로 통과. 글(data/)만 푸시 시 부분배포 명령 자동 안내.
 
+## 배치 운영 원칙
+
+- **리라이트는 카테고리 단위로 끝낸다.** 한 카테고리(예: 탈모)를 완료하기 전에 다른 카테고리로 넘어가지 않는다. 순서: 탈모 → 검증된 수요 상위 카테고리 순.
+- 배치 1회 = 같은 카테고리에서 큐(rewrite-queue.json) 상위 N편.
+
 ## 파이프라인 (불가변)
 
 ```
