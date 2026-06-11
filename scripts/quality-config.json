@@ -4,6 +4,12 @@
   "version": 2,
   "lastRedesign": "2026-05-15",
 
+  "titleGlobalRules": {
+    "banNumbers": true,
+    "maxPipes": 1,
+    "banPhrases": ["실시간 비교", "약국별 비교", "원~"],
+    "note": "v3: 제품명 선두+후킹 문장형+가격 단어(숫자 금지). master-quality.template.md 우선"
+  },
   "intents": {
     "A": {
       "name": "효과",
@@ -19,7 +25,7 @@
         "{slug} 주의사항·금기는 무엇인가요?",
         "{slug}와 같은 성분 다른 제품"
       ],
-      "titlePattern": "{slug} 효과 {timeframe} | 부작용·{usage}·가격",
+      "titlePattern": "{slug} 효과 언제부터 나타날까? {usage}과 부작용, 가격까지",
       "requiredAnchors": ["timeframe", "효과지표"],
       "priceH2Position": 4
     },
@@ -36,7 +42,7 @@
         "{slug} 가격은 얼마인가요?",
         "{slug} 금기 사항"
       ],
-      "titlePattern": "{slug} 부작용 신호와 즉시 중단 기준 | 효과·가격",
+      "titlePattern": "{slug} 부작용, 즉시 끊어야 할 신호는? 효능과 가격까지",
       "requiredAnchors": ["부작용빈도", "중단기준"],
       "priceH2Position": 5
     },
@@ -53,7 +59,7 @@
         "{slug} 부작용 줄이기",
         "{slug} 주의사항·금기"
       ],
-      "titlePattern": "{slug} {usage} | 효과·부작용·가격",
+      "titlePattern": "{slug} 올바른 {usage}은? 효과 보는 법과 부작용, 가격",
       "requiredAnchors": ["용량", "횟수", "타이밍"],
       "priceH2Position": 4
     },
@@ -70,10 +76,10 @@
         "{slug} {usage}",
         "{slug} 부작용·주의사항"
       ],
-      "titlePattern": "{slug} 최저가 {priceMin}원~ | 약국별 가격 비교",
+      "titlePattern": "{slug} 가격과 한 달 비용은? 최저가 확인법까지",
       "requiredAnchors": ["minPrice", "maxPrice", "storeCount"],
       "priceH2Position": 2,
-      "titleMustContain": ["최저가"]
+      "titleMustContain": ["가격"]
     },
     "E": {
       "name": "비교",
@@ -106,7 +112,7 @@
         "대안 사용 시 주의할 점",
         "약사·의사 상담이 필요한 경우"
       ],
-      "titlePattern": "{slug} 단종·대체 | 같은 성분 다른 제품·가격",
+      "titlePattern": "{slug} 단종됐다면? 같은 성분 대체약과 가격",
       "requiredAnchors": ["alternatives", "priceComparison"],
       "priceH2Position": 4
     }

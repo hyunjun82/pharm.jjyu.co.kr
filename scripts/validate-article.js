@@ -34,7 +34,7 @@ const slugless = body.replaceAll(slug, "P");
 let hit = 0; for (const s of brief.forbiddenSentences) if (slugless.includes(s)) hit++;
 if (hit) fails.push("B2: 보일러플레이트 " + hit + "문장");
 // B3 문체
-if (/[가-힣]+(합니다|입니다)[.\s]/.test(body)) fails.push("B3: ~합니다체 발견(본문)");
+if (/[가-힣]+(합니다|입니다|습니다)[.\s]/.test(body)) fails.push("B3: ~합니다체 발견(본문)");
 // B4 가격 단어 밀도
 if ((body.match(/원/g) || []).length < 3) fails.push("B4: '원' 3회 미만");
 // B5 출처 인용 밀도
@@ -47,6 +47,22 @@ if (body.length < 1800 || body.length > 4000) fails.push("B6: 글자수 " + body
 // B7 교정 의무
 if (brief.bodyRules.교정 && !/전립선|전립샘/.test(body)) fails.push("B7: 전립선 적응증 교정 미반영");
 if (brief.bodyRules.교정 && /4등분|쪼개/.test(body)) fails.push("B7: 허가범위 밖 분할복용 안내 금지");
+// T7/B9 사이트 전체 대조 (타이틀·서론 오차 방지)
+try{
+  const all=[];
+  for(const f of fs.readdirSync("data/articles").filter(x=>x.endsWith(".ts"))){
+    const src=fs.readFileSync("data/articles/"+f,"utf8");
+    for(const m of src.matchAll(/slug:\s*"([^"]+)",\s*\n\s*categorySlug:[\s\S]{0,600}?title:\s*"([^"]+)"[\s\S]{0,2500}?heroDescription:\s*\n?\s*"([^"]+)"/g)){
+      if(m[1]!==slug) all.push({slug:m[1],title:m[2],hero:m[3]});
+    }
+  }
+  if(all.some(a=>a.title===d.title)) fails.push("T7: 동일 타이틀이 사이트에 이미 존재");
+  const myPat=d.title.replace(new RegExp(slug,"g"),"{P}");
+  const patCnt=all.filter(a=>a.title.replace(new RegExp(a.slug.replace(/[.*+?^$()|[\]\\]/g,"\\// B8 찍어내기 서론 금지"),"g"),"{P}")===myPat).length;
+  if(patCnt>=3) fails.push("T7: 같은 타이틀 패턴이 이미 "+patCnt+"개 (어순 변형 필요)");
+  const myOpen=(d.heroDescription||"").slice(0,14);
+  if(myOpen && all.filter(a=>(a.hero||"").slice(0,14)===myOpen).length>0) fails.push("B9: 서론 첫 문장 시작이 기존 글과 동일");
+}catch(e){}
 // B8 찍어내기 서론 금지
 const introBan=["핵심부터 말하면","결론부터 말하면","정리했어요.","정리했습니다."];
 for(const ph of introBan){ if((d.heroDescription||"").includes(ph)) fails.push("B8: 서론 금지문구 '"+ph+"' (찍어내기 패턴)"); }

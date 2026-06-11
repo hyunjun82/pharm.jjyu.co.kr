@@ -35,10 +35,11 @@
    - ingredientGroup의 다른 spoke 2~3개 내부링크 (RelatedSpokes로 자동)
    - 본문에서는 차이점만 짧게
 
-## 타이틀 공식
-`{slug} 효과 {timeframe} | 부작용·{usage}·가격`
+## 타이틀 공식 (v3 — 구 공식 폐기)
 
-예: `미녹시딜 효과 4~6개월 | 부작용·사용법·가격`
+가격 숫자·파이프 나열·"약국별/실시간 비교" 약속 금지.
+제품명 선두 + 의도 후킹 문장 + "가격|최저가" 단어. 패턴은 `master-quality.template.md` §1 참조.
+
 
 ## 필수 anchor
 
