@@ -73,7 +73,7 @@ console.log("\n☁️  Step 2: Cloudflare Pages 배포 (변경 파일만 자동 
 console.log("─".repeat(50));
 try {
   execSync(
-    `npx wrangler pages deploy out --project-name=${PROJECT_NAME} --branch=main`,
+    `npx wrangler pages deploy out --project-name=${PROJECT_NAME} --branch=main --commit-message="Partial deploy via 4-agent pipeline" --commit-dirty=true`,
     {
       cwd: ROOT,
       stdio: "inherit",

@@ -225,8 +225,11 @@ export default async function SpokePage({ params }: PageProps) {
       <article className="daum-wm-content">
         {article.sections.map((section, i) => {
           const { icon: Icon, color } = getSectionIcon(section.title);
+          const hasOwnPrice = article.sections.some((sec) => sec.title.includes("가격"));
           const showPriceAfter =
-            (section.title.includes("사용법") || section.title.includes("복용법")) && !!mainProduct;
+            (hasOwnPrice
+              ? section.title.includes("가격")
+              : section.title.includes("사용법") || section.title.includes("복용법")) && !!mainProduct;
           return (
             <Fragment key={i}>
               <section className="mb-8">
@@ -261,6 +264,7 @@ export default async function SpokePage({ params }: PageProps) {
               {showPriceAfter && (
                 <>
                   <section className="mb-8">
+                    {!hasOwnPrice && (
                     <div className="flex items-center gap-2.5 mb-3">
                       <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 text-emerald-600">
                         <BadgePercent className="h-4.5 w-4.5" />
@@ -269,13 +273,17 @@ export default async function SpokePage({ params }: PageProps) {
                         {spokeSlug} 최저가 가격 비교
                       </h2>
                     </div>
+                    )}
                     <div className="pl-[42px]">
+                      {!hasOwnPrice && (
                       <p className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] mb-5">
                         {article.priceRange ? (
                           <>
-                            {spokeSlug}의 약국 판매가는{" "}
-                            <strong>{new Intl.NumberFormat("ko-KR").format(article.priceRange.min)}원</strong>~
-                            <strong>{new Intl.NumberFormat("ko-KR").format(article.priceRange.max)}원</strong>이에요.
+                            {spokeSlug}의 약국 기준가는{" "}
+                            <strong>{new Intl.NumberFormat("ko-KR").format(article.priceRange.min)}원</strong>
+                            {article.priceRange.max > article.priceRange.min && (
+                              <>~<strong>{new Intl.NumberFormat("ko-KR").format(article.priceRange.max)}원</strong></>
+                            )}부터예요.
                             {article.priceRange.storeCount > 0 && (
                               <> 전국 {article.priceRange.storeCount}개 약국에서 판매 중이에요.</>
                             )}{" "}
@@ -288,6 +296,7 @@ export default async function SpokePage({ params }: PageProps) {
                           </>
                         )}
                       </p>
+                      )}
                       <PriceCTA name={spokeSlug} barkiryQuery={mainProduct.barkiryQuery} barkiryProductId={mainProduct.barkiryProductId} externalSearchUrl={mainProduct.externalSearchUrl} categorySlug={catSlug} />
                     </div>
                     <Separator className="mt-8" />
