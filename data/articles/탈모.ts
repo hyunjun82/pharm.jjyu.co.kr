@@ -26,7 +26,7 @@ export const hub: HubArticle = {
       },
     {
         slug: "판토가",
-        title: "판토가 최저가 가격 | 성분 효과 사용법 부작용까지",
+        title: "판토가 효과 있을까? 남성형 탈모엔 금기인 이유와 가격",
         description: "여성형 탈모 치료제 판토가의 성분과 효과",
       },
     {
@@ -36,7 +36,7 @@ export const hub: HubArticle = {
       },
     {
         slug: "프로페시아",
-        title: "프로페시아 성분, 효능, 복용법, 부작용, 주의사항 확인",
+        title: "프로페시아 가격 부담된다면? 제네릭과 차이·부작용까지",
         description: "피나스테리드 오리지널 탈모 치료제",
       },
     {
@@ -71,7 +71,7 @@ export const hub: HubArticle = {
       },
     {
         slug: "아보다트",
-        title: "아보다트 두타스테리드 성분, 효과, 복용법, 부작용, 주의사항",
+        title: "아보다트 효과, 프로페시아보다 셀까? 부작용과 가격까지",
         description: "두타스테리드 오리지널, 5알파환원효소 1형+2형 동시 억제",
       },
     {
@@ -81,7 +81,7 @@ export const hub: HubArticle = {
       },
     {
         slug: "로게인",
-        title: "로게인 미녹시딜 성분, 효과, 사용법, 부작용, 주의사항",
+        title: "로게인 폼 한 달 비용은? 사용법과 부작용, 가격 정리",
         description: "세계 1위 미녹시딜 브랜드, 폼/액 타입",
       },
     {
@@ -141,7 +141,7 @@ export const hub: HubArticle = {
       },
     {
         slug: "모나드정",
-        title: "모나드정 효과와 부작용 | 성분, 복용법, 주의사항 정리",
+        title: "모나드정, 프로페시아랑 같은 약일까? 효능·부작용·가격",
         description: "JW신약 피나스테리드 1mg, 대다모 회원 후기 320건",
       },
     {
@@ -316,7 +316,7 @@ export const hub: HubArticle = {
       },
     {
         slug: "마이녹실액",
-        title: "마이녹실액 성분 효과 | 발모촉진제 사용법 부작용 총정리",
+        title: "마이녹실액 효과 언제부터? 올바른 사용법과 부작용, 가격",
         description: "현대약품 미녹시딜 5% 탈모 치료 외용액",
       },
     {
