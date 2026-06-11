@@ -47,5 +47,8 @@ if (body.length < 1800 || body.length > 4000) fails.push("B6: 글자수 " + body
 // B7 교정 의무
 if (brief.bodyRules.교정 && !/전립선|전립샘/.test(body)) fails.push("B7: 전립선 적응증 교정 미반영");
 if (brief.bodyRules.교정 && /4등분|쪼개/.test(body)) fails.push("B7: 허가범위 밖 분할복용 안내 금지");
+// B8 찍어내기 서론 금지
+const introBan=["핵심부터 말하면","결론부터 말하면","정리했어요.","정리했습니다."];
+for(const ph of introBan){ if((d.heroDescription||"").includes(ph)) fails.push("B8: 서론 금지문구 '"+ph+"' (찍어내기 패턴)"); }
 console.log(fails.length ? "FAIL\n- " + fails.join("\n- ") : "PASS ✓ (타이틀·숫자·문체·중복·인용 전 항목 통과)");
 process.exit(fails.length ? 1 : 0);

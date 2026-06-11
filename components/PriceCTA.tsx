@@ -21,7 +21,7 @@ export function PriceCTA({ name, barkiryQuery, barkiryProductId, externalSearchU
           💊 {name} 최저가 확인하기
         </span>
         <span className="block text-sm text-emerald-100 mt-1">
-          약국별 실시간 가격 비교 →
+          전체 가격비교 보기 →
         </span>
       </Link>
     );
@@ -32,6 +32,9 @@ export function PriceCTA({ name, barkiryQuery, barkiryProductId, externalSearchU
     : externalSearchUrl
       ? externalSearchUrl
       : `https://barkiri.com/search?query=${encodeURIComponent(barkiryQuery!)}`;
+  const subLabel = barkiryProductId || barkiryQuery
+    ? "발키리 약국 최저가 바로가기 →"
+    : "네이버 최저가 바로가기 →";
 
   return (
     <a
@@ -43,7 +46,7 @@ export function PriceCTA({ name, barkiryQuery, barkiryProductId, externalSearchU
         💊 {name} 최저가 확인하기
       </span>
       <span className="block text-sm text-emerald-100 mt-1">
-        약국별 실시간 가격 비교 →
+        {subLabel}
       </span>
     </a>
   );
