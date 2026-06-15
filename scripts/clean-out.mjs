@@ -9,7 +9,7 @@ import { fileURLToPath } from "url";
 import { dirname } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = join(__dirname, "..", "out");
+const OUT_DIR = join(__dirname, "..", process.argv[2] || "out");
 
 let deleted = 0;
 

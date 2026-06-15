@@ -17,6 +17,20 @@ for (const f of fs.readdirSync("source-data")) {
   if (!f.endsWith(".json")) continue;
   try { const j = JSON.parse(fs.readFileSync("source-data/" + f, "utf8")); if ((j._slug || j.slug) === slug) { source = j; break; } } catch (e) {}
 }
+// ★ 카테고리-소스 적응증 일치 검증 (프로엠정=버거병약 같은 오분류·날조 차단)
+const CAT_INDICATION = {
+  탈모: /탈모|모발|발모|남성형|안드로겐|전립샘|전립선|피나스테리드|두타스테리드|미녹시딜|5α|5알파|환원효소/,
+  무좀: /무좀|백선|족부|진균|항진균|곰팡이|케토코나졸|테르비나핀/,
+  감기: /감기|코감기|비염|콧물|기침|인후|해열|진해|거담/,
+};
+if (source) {
+  const indRe = CAT_INDICATION[(me.cat)];
+  const indText = ((source.efcyQesitm||"") + " " + (source.mainIngr||"") + " " + (source.classNoName||""));
+  if (indRe && indText.trim() && !indRe.test(indText)) {
+    console.error(`작성 차단(카테고리 불일치): '${slug}' 소스 적응증이 ${me.cat} 카테고리와 무관 → ${(source.mainIngr||"")} / ${(source.efcyQesitm||"").slice(0,40)} (오분류·격리 대상)`);
+    process.exit(2);
+  }
+}
 // 가격 포지션 (동일성분군: products desc의 성분+함량 문자열로 근사 매칭)
 const cat = me.cat;
 const psrc = fs.readFileSync(`data/products/${cat}.ts`, "utf8");
@@ -43,6 +57,10 @@ const harvest = (t) => { if (t) for (const n of String(t).match(/\d+(?:[.,]\d+)?
 if (source) Object.values(source).forEach(harvest);
 harvest(mine.price + "원"); if (mine.unit) harvest(mine.unit);
 group.slice(0, 5).forEach((x) => { harvest(x.per + "원"); harvest(x.price + "원"); });
+// 그룹 숫자 자동수확: 동일성분군 전체의 제품명·유닛 숫자(90정·84정 등)와 가격
+for (const x of group) { harvest(x.price + "원"); harvest(String(x.per)); (String(x.slug)+" "+String(x.name||"")+" "+String(x.unit||"")).match(/\d+/g)?.forEach((n)=>numPool.add(n)); }
+// 품목/허가번호 자동 허용: source 전체에서 6자리+ 식별번호 추출 (정당한 인용 — 화이트리스트 누락 방지)
+if (source) { (JSON.stringify(source).match(/\d{6,}/g) || []).forEach((n) => numPool.add(n)); }
 const brief = {
   slug, cat, status: me.status, issues: me.issues,
   correctionNotes: me.issues.filter((i) => /적응증|불일치/.test(i)),
@@ -60,7 +78,7 @@ const brief = {
     교정: me.issues.some((i) => /전립선/.test(i)) ? "전문의약품·전립선 적응증 명시, 탈모 4등분 복용법 금지, 탈모 목적은 1mg 제품 안내로 연결" : null,
   },
   forbiddenSentences: forbidden,
-  numericWhitelist: [...numPool].slice(0, 200),
+  numericWhitelist: [...new Set([...(source ? (JSON.stringify(source).match(/\d{6,}/g) || []) : []), mine.price && String(mine.price), ...numPool])].filter(Boolean).slice(0, 300),
 };
 fs.mkdirSync("_workspace/briefs", { recursive: true });
 fs.writeFileSync(`_workspace/briefs/${slug}.json`, JSON.stringify(brief, null, 1));

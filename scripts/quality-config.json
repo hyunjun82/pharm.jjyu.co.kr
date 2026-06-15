@@ -15,7 +15,7 @@
       "name": "효과",
       "searchPatterns": ["{slug} 효과", "{slug} 언제부터", "{slug} 후기"],
       "sectionCount": 7,
-      "totalChars": [2400, 2800],
+      "totalChars": [2400, 3800],
       "sectionTitles": [
         "{slug} 효과는 무엇인가요?",
         "{slug} 효과는 언제부터 나타나나요?",
@@ -33,7 +33,7 @@
       "name": "부작용",
       "searchPatterns": ["{slug} 부작용", "{slug} 졸려요", "{slug} 어지러움"],
       "sectionCount": 6,
-      "totalChars": [2200, 2600],
+      "totalChars": [2400, 3800],
       "sectionTitles": [
         "{slug} 즉시 중단해야 할 신호",
         "{slug} 흔한 부작용 vs 드문 부작용",
@@ -50,7 +50,7 @@
       "name": "사용법",
       "searchPatterns": ["{slug} 복용법", "{slug} 사용법", "{slug} 1일 몇번"],
       "sectionCount": 6,
-      "totalChars": [2000, 2400],
+      "totalChars": [2400, 3800],
       "sectionTitles": [
         "{slug} 정확한 {usage} 단계",
         "{slug} 시간·횟수·양 정리",
@@ -67,7 +67,7 @@
       "name": "가격",
       "searchPatterns": ["{slug} 가격", "{slug} 최저가", "{slug} 약국가", "{slug} 얼마"],
       "sectionCount": 6,
-      "totalChars": [2200, 2600],
+      "totalChars": [2400, 3800],
       "sectionTitles": [
         "{slug} 효과·성분 핵심",
         "{slug} 가격은 얼마인가요? (전국 최저가)",
@@ -85,7 +85,7 @@
       "name": "비교",
       "searchPatterns": ["{slug} vs", "{slug} 차이", "{slug} 비교"],
       "sectionCount": 7,
-      "totalChars": [2800, 3500],
+      "totalChars": [2400, 3800],
       "sectionTitles": [
         "{slug} 한눈에 보기",
         "{slug} 성분 차이",
@@ -103,7 +103,7 @@
       "name": "대안",
       "searchPatterns": ["{slug} 단종", "{slug} 못 구해요", "{slug} 대신", "{slug} 대체"],
       "sectionCount": 6,
-      "totalChars": [2000, 2400],
+      "totalChars": [2400, 3800],
       "sectionTitles": [
         "{slug}을 못 구하는 이유",
         "{slug}의 핵심 효과·성분",

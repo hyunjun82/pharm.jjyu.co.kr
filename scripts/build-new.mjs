@@ -145,7 +145,7 @@ writeFileSync(SPOKE_INDEX, JSON.stringify(filteredIndex), "utf-8");
 let buildOk = false;
 try {
   console.log("\n🔨 next build (부분) 시작...\n");
-  execSync("next build", { cwd: ROOT, stdio: "inherit" });
+  execSync("npx next build", { cwd: ROOT, stdio: "inherit" });
   buildOk = true;
 } catch (e) {
   console.error("\n❌ next build 실패");
