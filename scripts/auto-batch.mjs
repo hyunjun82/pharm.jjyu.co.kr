@@ -21,6 +21,7 @@ const CATEGORY = opt("--category", null);
 const BATCH = +opt("--batch", 10);
 const DRY = !!opt("--dry", false);
 const REPAIR = !!opt("--repair", false);
+const DEPLOY = !!opt("--deploy", false);
 const MODEL = opt("--model", "sonnet");
 const MAX_RETRY = 3;
 const ts = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
@@ -46,6 +47,10 @@ const doneFile = "_workspace/batch-done.json";
 const doneList = fs.existsSync(doneFile) ? JSON.parse(fs.readFileSync(doneFile, "utf8")) : [];
 const isPilot = !REPAIR && !SLUGS && !DRY && doneList.length === 0;
 const N = Math.min(BATCH, isPilot ? 5 : BATCH, queue.length);
+if (!DRY && !fs.existsSync("_workspace/gram-index.json")) {
+  console.log("gram-index 없음 → 전체 빌드(도어웨이 검사 준비)...");
+  try { execSync("node scripts/verify-crosssim.js --build", { stdio: "pipe" }); } catch {}
+}
 console.log(`배치 시작: ${N}편 (${REPAIR ? "수리" : CATEGORY || "전체"}) ${isPilot ? "[파일럿 모드 — 5편 후 승인 필요]" : ""} ${DRY ? "[모의]" : ""}`);
 
 // ── writer 호출
@@ -72,6 +77,19 @@ function gate(slug, draftPath) {
   catch (e) { r.violations += (e.stdout || "") ; return r; }
   try { execSync(`node scripts/score-article.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
   catch (e) { r.violations += (e.stdout || ""); return r; }
+  // Layer 4: 글로벌 교차 유사도(도어웨이). gram-index 없으면 skip(0), 중복위험(1)이면 반려.
+  if (!DRY) {
+    try { execSync(`node scripts/verify-crosssim.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
+    catch (e) { if (e.status === 1) { r.violations += (e.stdout || ""); return r; } }
+  }
+  // Layer 3: 의미 검수 (해석 오류 — claude -p). CLI 없으면(exit 2) 건너뜀, 의미오류(exit 1)면 반려.
+  if (!DRY) {
+    try { execSync(`node scripts/review-article.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
+    catch (e) {
+      if (e.status === 1) { r.violations += (e.stdout || ""); return r; }
+      else { console.log(`   (의미검수 건너뜀 — reviewer 불가: ${slug})`); }
+    }
+  }
   r.pass = true; return r;
 }
 
@@ -92,7 +110,11 @@ for (const slug of queue.slice(0, N)) {
       fs.writeFileSync(dp, JSON.stringify(draft));
       const g = gate(slug, dp);
       if (g.pass) {
-        execSync(`node scripts/apply-article.js "${slug}" "${dp}"`, { stdio: "pipe" });
+        if (!DRY) {
+          execSync(`node scripts/apply-article.js "${slug}" "${dp}"`, { stdio: "pipe" });
+          try { execSync(`node scripts/verify-crosssim.js --add "${slug}" "${dp}"`, { stdio: "pipe" }); } catch {}
+        }
+        else console.log("   (dry: apply skip, no real data change)");
         ok = true; break;
       }
       violations = g.violations.split("\n").slice(0, 12).join("\n");
@@ -111,5 +133,11 @@ if (escalated.length) console.log("에스컬레이션(상위 모델/사람 검�
 if (passed.length) {
   const slugsArg = passed.map((s) => { const m = JSON.parse(fs.readFileSync("_workspace/integrity-map.json", "utf8")).find((y) => y.slug === s); return `${m ? m.cat : CATEGORY}/${s}`; }).join(",");
   console.log(`\n부분배포 명령:\n  node scripts/deploy-incremental.mjs --slugs ${slugsArg}`);
+}
+if (DEPLOY && !DRY && passed.length) {
+  const slugsArg = passed.map((s) => { const m = JSON.parse(fs.readFileSync("_workspace/integrity-map.json", "utf8")).find((y) => y.slug === s); return `${m ? m.cat : CATEGORY}/${s}`; }).join(",");
+  console.log(`\n자동 배포 시작(${passed.length}편)...`);
+  try { execSync(`node scripts/deploy-incremental.mjs --slugs ${slugsArg}`, { stdio: "inherit" }); console.log("✅ 배포 완료"); }
+  catch (e) { console.log("❌ 배포 실패 — 수동 배포 필요: node scripts/deploy-incremental.mjs --slugs " + slugsArg); }
 }
 if (isPilot && !DRY) console.log("\n⚠️ 파일럿 모드였습니다. 라이브 검수 후 승인되면 다시 실행하세요 (이후 배치 제한 해제).");
