@@ -40,6 +40,10 @@
   "exclude": [
     "node_modules",
     "tmp",
-    "scripts"
+    "scripts",
+    "_workspace",
+    "_full-out",
+    "out",
+    ".open-next"
   ]
 }
