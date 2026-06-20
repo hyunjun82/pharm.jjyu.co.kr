@@ -520,7 +520,7 @@ export const spokes: Record<string, SpokeArticle> = {
     "description": "모어에이블정 피나스테리드 1mg의 효과 시점과 복용법, 28정 기준가, 부작용·금기를 정리해요.",
     "heroDescription": "거울 속 정수리가 휑해 보이기 시작했다면 가장 먼저 떠오르는 게 피나스테리드 제네릭이죠. 모어에이블정1밀리그램은 만 18~41세 남성형 탈모증에 쓰는 전문의약품이에요. 1일 1회 1정을 꾸준히 먹어야 하고, 효과는 3개월 이상 지나야 가늠이 돼요. 효과 시점부터 복용법, 부작용 빈도, 금기까지 식약처 허가사항 기준으로 차근차근 짚어볼게요.",
     "searchIntent": "A",
-    "differentiationAnchor": "onset",
+    "differentiationAnchor": "timing",
     "ingredientGroup": "finasteride",
     "products": [],
     "faq": [
