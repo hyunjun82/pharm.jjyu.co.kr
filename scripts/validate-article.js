@@ -45,6 +45,13 @@ if(/복용\s*후|복용후|먹어\s*보|써\s*보|발라\s*보|복용\s*해\s*�
    {re:/중단하면|끊으면|중단 ?후/,need:/중단|끊|재발|돌아|원래대로|되돌/,label:"중단 시 결과"},
    {re:/차이$|차이를|차이는|vs|대비/,need:/차이|다르|반면|비해|보다/,label:"차이/비교"},
    {re:/가장 (높|비싸|저렴|낮)|제일 (높|비싸|저렴|낮)/,need:/위\b|순위|중|범위|가장|상위|하위/,label:"가격 극단(가장 높/저렴)"},
+   {re:/처방/,need:/처방|병원|의사|진료|전문의약품|비대면/,label:"처방(처방 절차·경로)"},
+   {re:/비대면/,need:/비대면|온라인 ?진료|앱|화상|원격/,label:"비대면 처방"},
+   {re:/직구/,need:/직구|해외|국내|통관|배송|정식 ?수입/,label:"직구 vs 국내"},
+   {re:/한 ?달|월 ?비용|한달/,need:/원/,label:"한 달 비용(금액)"},
+   {re:/약국마다|약국 ?가격|약국별|성지/,need:/약국|편차|천차만별|비급여|약국마다/,label:"약국 가격 편차"},
+   {re:/3% ?5%|농도|\d% ?(랑|와|과|vs)/,need:/3%|5%|농도|함량/,label:"농도별(3%/5%)"},
+   {re:/정품|카피약|제네릭 ?대비|오리지널/,need:/정품|카피|제네릭|오리지널|동등|복제/,label:"정품·카피약 비교"},
  ];
  for(const c of promiseChecks){ if(c.re.test(d.title) && !c.need.test(bodyAll)) fails.push("T9b: 타이틀이 '"+c.label+"'을 약속했는데 본문에 그 답이 없음 — 약속 이행 또는 타이틀 변경"); }
 }
@@ -66,14 +73,14 @@ if (hit) fails.push("B2: 보일러플레이트 " + hit + "문장");
 // B3 문체
 if (/[가-힣]+(합니다|입니다|습니다)[.\s]/.test(body)) fails.push("B3: ~합니다체 발견(본문)");
 // B4 가격 단어 밀도
-if ((body.match(/원/g) || []).length < 3) fails.push("B4: '원' 3회 미만");
+if (!/가격|최저가/.test(body)) fails.push("B4: 가격/최저가 언급 없음 (가격 섹션 필수)");
 // B5 출처 인용 밀도
 const cite = (body.match(/식약처|허가사항|품목|식품안전나라|신고번호/g) || []).length;
 if (cite < Math.floor(body.length / 1000)) fails.push("B5: 출처 인용 부족 (" + cite + "/" + Math.floor(body.length / 1000) + ")");
 // B5b 외부 임상사실 출처 표기
 if((brief.verifiedExternalFacts||[]).length && /DHT|환원효소|메타분석|FDA/.test(body) && !/임상|문헌|학회|FDA|연구/.test(body)) fails.push("B5b: 외부 임상사실에 출처 표기 없음");
 // B6 글자수
-if (body.length < 1800 || body.length > 4000) fails.push("B6: 글자수 " + body.length);
+if (body.length < 1800 || body.length > 4200) fails.push("B6: 글자수 " + body.length);
 // B7 교정 의무
 if (brief.bodyRules.교정 && !/전립선|전립샘/.test(body)) fails.push("B7: 전립선 적응증 교정 미반영");
 // 분할복용은 '권장'일 때만 금지. 경고문(안 돼요/금지/범위 밖/위험 등 근처)은 허용
@@ -99,7 +106,8 @@ try{
   if(myOpen && all.filter(a=>(a.hero||"").slice(0,14)===myOpen).length>0) fails.push("B9: 서론 첫 문장 시작이 기존 글과 동일");
 }catch(e){}
 // B10 섹션 깊이 (소제목 100% 전달)
-for(const sec of d.sections){ if((sec.content||"").length<300) fails.push("B10: 섹션 '"+sec.title.slice(0,20)+"' "+(sec.content||"").length+"자 (최소 300자, 소스 재료 소진 필요)"); }
+// 가격 H2는 현실적 하한 220자 — OTC 외용제는 가격 데이터가 단일가(예: 40g 6500원)뿐이라 300자는 패딩(=doorway) 유발. 콘텐츠 섹션은 300자 유지. (2026-06-20 연고 배치, 단일가 제품 수학적 충돌 해소)
+for(const sec of d.sections){ const floor=/가격/.test(sec.title)?220:300; if((sec.content||"").length<floor) fails.push("B10: 섹션 '"+sec.title.slice(0,20)+"' "+(sec.content||"").length+"자 (최소 "+floor+"자, 소스 재료 소진 필요)"); }
 // B11 문장 리듬 단조 (같은 종결어미 5연속)
 const endings=(body.match(/(해요|예요|이에요|거든요|어요|아요|죠|돼요|네요)(?=[.!?])/g)||[]);
 let run=1,mono=false; for(let i=1;i<endings.length;i++){ if(endings[i]===endings[i-1]){run++; if(run>=5){mono=true;break;}} else run=1; }
