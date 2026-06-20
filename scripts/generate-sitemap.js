@@ -13,7 +13,7 @@ const TMP = path.join(ROOT, "tmp-sitemap-bundle.cjs");
 // 1) esbuild로 data/articles를 CJS 번들로 변환
 console.log("📦 data/articles 번들링...");
 execSync(
-  `npx esbuild data/articles/index.ts --bundle --platform=node --format=cjs --outfile=${TMP} --external:react --external:next`,
+  `npx esbuild data/articles/build-all.ts --bundle --platform=node --format=cjs --outfile=${TMP} --external:react --external:next`,
   { cwd: ROOT, stdio: "inherit" }
 );
 
