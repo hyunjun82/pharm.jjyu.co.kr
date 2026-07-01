@@ -11,6 +11,21 @@ export function CategorySidebar({ categorySlug, currentSlug }: CategorySidebarPr
   const hub = hubArticles[categorySlug];
   if (!hub) return null;
 
+  // 색인 보호(2026-06-17): 같은 카테고리 전체(수백 개)를 매 페이지에 링크 덤프하면
+  // 구글이 도어웨이/링크팜으로 보고 색인을 보류함(GSC "크롤됨-색인안됨" 2,031건의 핵심 원인).
+  // 현재 글 기준으로 결정적 회전한 15개만 노출 → 페이지마다 다른 15개라 크롤 예산 분산 + 도어웨이 신호 제거.
+  // 전체 목록은 아래 "가이드 전체 보기"(허브)로 이동.
+  const MAX_SIDEBAR_LINKS = 15;
+  const others = hub.spokes.filter((s) => s.slug !== currentSlug);
+  const current = hub.spokes.find((s) => s.slug === currentSlug);
+  let picks = others;
+  if (others.length > MAX_SIDEBAR_LINKS) {
+    const seed = Array.from(currentSlug).reduce((a, c) => a + c.charCodeAt(0), 0);
+    const start = seed % others.length;
+    picks = Array.from({ length: MAX_SIDEBAR_LINKS }, (_, i) => others[(start + i) % others.length]);
+  }
+  const displaySpokes = current ? [current, ...picks] : picks;
+
   return (
     <aside className="hidden lg:block w-64 shrink-0">
       <div className="sticky top-24">
@@ -19,7 +34,7 @@ export function CategorySidebar({ categorySlug, currentSlug }: CategorySidebarPr
             📋 {hub.categorySlug} 비교 가이드
           </h3>
           <ul className="space-y-1">
-            {hub.spokes.map((spoke) => {
+            {displaySpokes.map((spoke) => {
               const isCurrent = spoke.slug === currentSlug;
               return (
                 <li key={spoke.slug}>
