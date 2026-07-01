@@ -33,20 +33,23 @@ function urlEntry(url, lastmod, changefreq, priority) {
 
 const entries = [];
 
-entries.push(urlEntry(BASE_URL, now, "weekly", "1.0"));
-entries.push(urlEntry(`${BASE_URL}/about`, "2026-02-22", "monthly", "0.5"));
+// ⚠️ trailingSlash: true 사이트이므로 모든 URL은 반드시 "/"로 끝나야 함.
+//    슬래시 없는 URL은 전부 리디렉션 대상 → 구글 "리디렉션 페이지" 처리·네이버 수집 실패 유발
+//    (커밋 031dad0에서 app/sitemap.ts만 고치고 이 파일이 누락됐던 회귀 버그 — 2026-07-02 수정)
+entries.push(urlEntry(`${BASE_URL}/`, now, "weekly", "1.0"));
+entries.push(urlEntry(`${BASE_URL}/about/`, "2026-02-22", "monthly", "0.5"));
 
 for (const hub of Object.values(hubArticles)) {
-  entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(hub.categorySlug)}`, hub.dateModified, "weekly", "0.9"));
+  entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/`, hub.dateModified, "weekly", "0.9"));
 }
 
 for (const hub of Object.values(hubArticles)) {
-  entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}`, hub.dateModified, "weekly", "0.7"));
+  entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}/`, hub.dateModified, "weekly", "0.7"));
 }
 
 for (const [category, articles] of Object.entries(spokeArticles)) {
   for (const article of Object.values(articles)) {
-    entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}`, article.dateModified, "monthly", "0.8"));
+    entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}/`, article.dateModified, "monthly", "0.8"));
   }
 }
 
@@ -55,7 +58,9 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.s
 const outPath = path.join(ROOT, "public", "sitemap.xml");
 fs.writeFileSync(outPath, xml, "utf-8");
 
-// 임시 번들 삭제
-fs.unlinkSync(TMP);
+// 임시 번들 삭제 (실패해도 사이트맵 생성엔 무관하므로 무시)
+try {
+  fs.unlinkSync(TMP);
+} catch {}
 
 console.log(`✅ sitemap.xml 생성 완료: ${entries.length}개 URL`);

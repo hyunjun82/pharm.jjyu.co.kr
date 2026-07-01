@@ -111,6 +111,25 @@ if (isDeployOnly) {
   console.log("📸 부분 빌드 결과를 _full-out/ 스냅샷에 병합 완료");
 }
 
+// ── 푸시 직전 품질 게이트 (부분 배포 시 — 품질 미달이면 배포 중단) ──
+const _si = args.indexOf("--slugs");
+const _slugArg = _si > -1 && args[_si+1] && !args[_si+1].startsWith("--") ? args[_si+1] : "";
+if (_slugArg) {
+  console.log("🛡️  푸시 직전 품질 게이트 실행");
+  try { execSync(`node scripts/pre-deploy-gate.js "${_slugArg}"`, { cwd: ROOT, stdio: "inherit" }); }
+  catch { console.error("\n🚫 품질 미달로 배포 중단. 해당 글 수정 후 다시 푸시하세요."); process.exit(1); }
+}
+
+// ── 사이트맵 전체 보정 (부분 빌드가 사이트맵을 필터본으로 덮어쓰는 버그 차단) ──
+console.log("🗺️  전체 사이트맵 재생성 → 스냅샷에 강제 반영");
+execSync("node scripts/generate-sitemap.js", { cwd: ROOT, stdio: "inherit" });
+cpSync(join(ROOT, "public", "sitemap.xml"), join(SNAPSHOT, "sitemap.xml"));
+
+// ── RSS 피드 재생성 (네이버 서치어드바이저 RSS — feed.xml 404 방지, 2026-07-02 추가) ──
+console.log("📡 feed.xml 재생성 → 스냅샷에 반영");
+execSync("node scripts/generate-feed.js", { cwd: ROOT, stdio: "inherit" });
+cpSync(join(ROOT, "public", "feed.xml"), join(SNAPSHOT, "feed.xml"));
+
 console.log("\n☁️  Step 2: Cloudflare Pages 배포 (_full-out/ 전체 스냅샷 — 변경 파일만 실제 전송)");
 console.log("─".repeat(50));
 try {

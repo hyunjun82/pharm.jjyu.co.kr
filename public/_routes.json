@@ -14,6 +14,7 @@
     "/logo.png",
     "/*.svg",
     "/*.txt",
-    "/BUILD_ID"
+    "/BUILD_ID",
+    "/feed.xml"
   ]
 }
