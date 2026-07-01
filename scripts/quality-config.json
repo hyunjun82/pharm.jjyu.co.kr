@@ -3,19 +3,29 @@
   "projectName": "pharm-jjyu",
   "version": 2,
   "lastRedesign": "2026-05-15",
-
   "titleGlobalRules": {
     "banNumbers": true,
     "maxPipes": 1,
-    "banPhrases": ["실시간 비교", "약국별 비교", "원~"],
+    "banPhrases": [
+      "실시간 비교",
+      "약국별 비교",
+      "원~"
+    ],
     "note": "v3: 제품명 선두+후킹 문장형+가격 단어(숫자 금지). master-quality.template.md 우선"
   },
   "intents": {
     "A": {
       "name": "효과",
-      "searchPatterns": ["{slug} 효과", "{slug} 언제부터", "{slug} 후기"],
+      "searchPatterns": [
+        "{slug} 효과",
+        "{slug} 언제부터",
+        "{slug} 후기"
+      ],
       "sectionCount": 7,
-      "totalChars": [2400, 3800],
+      "totalChars": [
+        2400,
+        3800
+      ],
       "sectionTitles": [
         "{slug} 효과는 무엇인가요?",
         "{slug} 효과는 언제부터 나타나나요?",
@@ -26,14 +36,24 @@
         "{slug}와 같은 성분 다른 제품"
       ],
       "titlePattern": "{slug} 효과 언제부터 나타날까? {usage}과 부작용, 가격까지",
-      "requiredAnchors": ["timeframe", "효과지표"],
+      "requiredAnchors": [
+        "timeframe",
+        "효과지표"
+      ],
       "priceH2Position": 4
     },
     "B": {
       "name": "부작용",
-      "searchPatterns": ["{slug} 부작용", "{slug} 졸려요", "{slug} 어지러움"],
+      "searchPatterns": [
+        "{slug} 부작용",
+        "{slug} 졸려요",
+        "{slug} 어지러움"
+      ],
       "sectionCount": 6,
-      "totalChars": [2400, 3800],
+      "totalChars": [
+        2400,
+        3800
+      ],
       "sectionTitles": [
         "{slug} 즉시 중단해야 할 신호",
         "{slug} 흔한 부작용 vs 드문 부작용",
@@ -43,14 +63,24 @@
         "{slug} 금기 사항"
       ],
       "titlePattern": "{slug} 부작용, 즉시 끊어야 할 신호는? 효능과 가격까지",
-      "requiredAnchors": ["부작용빈도", "중단기준"],
+      "requiredAnchors": [
+        "부작용빈도",
+        "중단기준"
+      ],
       "priceH2Position": 5
     },
     "C": {
       "name": "사용법",
-      "searchPatterns": ["{slug} 복용법", "{slug} 사용법", "{slug} 1일 몇번"],
+      "searchPatterns": [
+        "{slug} 복용법",
+        "{slug} 사용법",
+        "{slug} 1일 몇번"
+      ],
       "sectionCount": 6,
-      "totalChars": [2400, 3800],
+      "totalChars": [
+        2400,
+        3800
+      ],
       "sectionTitles": [
         "{slug} 정확한 {usage} 단계",
         "{slug} 시간·횟수·양 정리",
@@ -60,14 +90,26 @@
         "{slug} 주의사항·금기"
       ],
       "titlePattern": "{slug} 올바른 {usage}은? 효과 보는 법과 부작용, 가격",
-      "requiredAnchors": ["용량", "횟수", "타이밍"],
+      "requiredAnchors": [
+        "용량",
+        "횟수",
+        "타이밍"
+      ],
       "priceH2Position": 4
     },
     "D": {
       "name": "가격",
-      "searchPatterns": ["{slug} 가격", "{slug} 최저가", "{slug} 약국가", "{slug} 얼마"],
+      "searchPatterns": [
+        "{slug} 가격",
+        "{slug} 최저가",
+        "{slug} 약국가",
+        "{slug} 얼마"
+      ],
       "sectionCount": 6,
-      "totalChars": [2400, 3800],
+      "totalChars": [
+        2400,
+        3800
+      ],
       "sectionTitles": [
         "{slug} 효과·성분 핵심",
         "{slug} 가격은 얼마인가요? (전국 최저가)",
@@ -77,15 +119,28 @@
         "{slug} 부작용·주의사항"
       ],
       "titlePattern": "{slug} 가격과 한 달 비용은? 최저가 확인법까지",
-      "requiredAnchors": ["minPrice", "maxPrice", "storeCount"],
+      "requiredAnchors": [
+        "minPrice",
+        "maxPrice",
+        "storeCount"
+      ],
       "priceH2Position": 2,
-      "titleMustContain": ["가격"]
+      "titleMustContain": [
+        "가격"
+      ]
     },
     "E": {
       "name": "비교",
-      "searchPatterns": ["{slug} vs", "{slug} 차이", "{slug} 비교"],
+      "searchPatterns": [
+        "{slug} vs",
+        "{slug} 차이",
+        "{slug} 비교"
+      ],
       "sectionCount": 7,
-      "totalChars": [2400, 3800],
+      "totalChars": [
+        2400,
+        3800
+      ],
       "sectionTitles": [
         "{slug} 한눈에 보기",
         "{slug} 성분 차이",
@@ -96,14 +151,26 @@
         "다른 동일 성분 제품도 비교하기"
       ],
       "titlePattern": "{productA} vs {productB} 차이 | 효과·부작용·가격 비교",
-      "requiredAnchors": ["성분차이", "효과차이", "가격차이"],
+      "requiredAnchors": [
+        "성분차이",
+        "효과차이",
+        "가격차이"
+      ],
       "priceH2Position": 5
     },
     "F": {
       "name": "대안",
-      "searchPatterns": ["{slug} 단종", "{slug} 못 구해요", "{slug} 대신", "{slug} 대체"],
+      "searchPatterns": [
+        "{slug} 단종",
+        "{slug} 못 구해요",
+        "{slug} 대신",
+        "{slug} 대체"
+      ],
       "sectionCount": 6,
-      "totalChars": [2400, 3800],
+      "totalChars": [
+        2400,
+        3800
+      ],
       "sectionTitles": [
         "{slug}을 못 구하는 이유",
         "{slug}의 핵심 효과·성분",
@@ -113,45 +180,133 @@
         "약사·의사 상담이 필요한 경우"
       ],
       "titlePattern": "{slug} 단종됐다면? 같은 성분 대체약과 가격",
-      "requiredAnchors": ["alternatives", "priceComparison"],
+      "requiredAnchors": [
+        "alternatives",
+        "priceComparison"
+      ],
       "priceH2Position": 4
     }
   },
-
   "differentiationAnchors": {
-    "form": ["액제", "폼", "겔", "캡슐", "정", "산", "시럽", "패치", "스프레이"],
-    "dose": ["3%", "5%", "1mg", "5mg", "100mg", "500mg"],
-    "age": ["성인", "소아", "어린이", "노년"],
-    "gender": ["여성", "남성"],
-    "timing": ["임신", "수유", "공복", "식후"],
-    "comorbidity": ["고혈압", "간장애", "신장애", "당뇨"],
-    "priceTier": ["고가", "중가", "저가"],
-    "prescription": ["전문", "일반", "처방"]
+    "form": [
+      "액제",
+      "폼",
+      "겔",
+      "캡슐",
+      "정",
+      "산",
+      "시럽",
+      "패치",
+      "스프레이"
+    ],
+    "dose": [
+      "3%",
+      "5%",
+      "1mg",
+      "5mg",
+      "100mg",
+      "500mg"
+    ],
+    "age": [
+      "성인",
+      "소아",
+      "어린이",
+      "노년"
+    ],
+    "gender": [
+      "여성",
+      "남성"
+    ],
+    "timing": [
+      "임신",
+      "수유",
+      "공복",
+      "식후"
+    ],
+    "comorbidity": [
+      "고혈압",
+      "간장애",
+      "신장애",
+      "당뇨"
+    ],
+    "priceTier": [
+      "고가",
+      "중가",
+      "저가"
+    ],
+    "prescription": [
+      "전문",
+      "일반",
+      "처방"
+    ]
   },
-
   "globalRules": {
-    "minNumberDensity": 2.0,
+    "minNumberDensity": 2,
     "minSourceCitationsPer1000": 1,
-    "maxDoorwayOverlap5gram": 0.30,
+    "maxDoorwayOverlap5gram": 0.3,
     "minPriceTextMentions": 3,
     "requirePriceH2": true,
     "requireSearchIntent": true,
-    "sourceCitationKeywords": ["식약처", "허가사항", "품목번호", "e약은요", "임상시험", "허가코드"],
+    "sourceCitationKeywords": [
+      "식약처",
+      "허가사항",
+      "품목번호",
+      "e약은요",
+      "임상시험",
+      "허가코드"
+    ],
     "priceCurrencyToken": "원"
   },
-
   "style": {
     "tone": "구어체",
-    "allowedEndings": ["해요", "이에요", "예요", "거예요", "세요", "죠", "어요", "아요", "네요", "데요", "래요", "할게요", "볼게요", "나요", "가요"],
-    "forbiddenEndings": ["합니다", "입니다", "됩니다", "었습니다", "있습니다", "없습니다", "됐습니다", "봅니다", "줍니다"],
+    "allowedEndings": [
+      "해요",
+      "이에요",
+      "예요",
+      "거예요",
+      "세요",
+      "죠",
+      "어요",
+      "아요",
+      "네요",
+      "데요",
+      "래요",
+      "할게요",
+      "볼게요",
+      "나요",
+      "가요"
+    ],
+    "forbiddenEndings": [
+      "합니다",
+      "입니다",
+      "됩니다",
+      "었습니다",
+      "있습니다",
+      "없습니다",
+      "됐습니다",
+      "봅니다",
+      "줍니다"
+    ],
     "forbiddenWords": [
-      "또한", "결론적으로", "다양한", "매우 중요",
-      "알아보겠습니다", "살펴보겠습니다", "알아볼게요",
-      "특히 주목할 만한", "주목할 만합니다", "눈여겨볼 만",
-      "다양하게 활용", "폭넓게 사용",
+      "또한",
+      "결론적으로",
+      "다양한",
+      "매우 중요",
+      "알아보겠습니다",
+      "살펴보겠습니다",
+      "알아볼게요",
+      "특히 주목할 만한",
+      "주목할 만합니다",
+      "눈여겨볼 만",
+      "다양하게 활용",
+      "폭넓게 사용",
       "거든요",
-      "찾고 계시죠", "눈에 띄시죠", "알아보고 계시죠", "걱정되시죠",
-      "처음 시작하거나 제품을 바꿀 때", "궁금하시죠"
+      "찾고 계시죠",
+      "눈에 띄시죠",
+      "알아보고 계시죠",
+      "걱정되시죠",
+      "처음 시작하거나 제품을 바꿀 때",
+      "궁금하시죠"
     ],
     "fillerPatterns": [
       "에 대해 알아보",
@@ -174,7 +329,6 @@
       "궁금하시죠"
     ]
   },
-
   "structure": {
     "$comment": "v1 호환 유지. v2부터는 intents 객체로 의도별 분기 우선 적용.",
     "sectionCount": 6,
@@ -202,7 +356,6 @@
     "titleFormula": "{slug} 최저가 가격 | 성분 효과 {usage} 부작용까지",
     "titleFormulaNoDeeplink": "{slug} 성분 효과 | {category} {usage} 부작용 총정리"
   },
-
   "factCheck": {
     "compareFields": [
       "itemName",
@@ -213,17 +366,28 @@
       "depositMethodQesitm"
     ],
     "numberPatterns": [
-      { "pattern": "(\\d+)일\\s*(\\d+)회", "label": "1일 N회" },
-      { "pattern": "1회\\s*(\\d+)\\s*(?:정|캡슐|포|밀리리터|mL)", "label": "1회 용량" },
-      { "pattern": "만\\s*(\\d+)세", "label": "연령제한" },
-      { "pattern": "(\\d+)\\s*(?:mg|밀리그램|g|그램|%)", "label": "성분 용량" }
+      {
+        "pattern": "(\\d+)일\\s*(\\d+)회",
+        "label": "1일 N회"
+      },
+      {
+        "pattern": "1회\\s*(\\d+)\\s*(?:정|캡슐|포|밀리리터|mL)",
+        "label": "1회 용량"
+      },
+      {
+        "pattern": "만\\s*(\\d+)세",
+        "label": "연령제한"
+      },
+      {
+        "pattern": "(\\d+)\\s*(?:mg|밀리그램|g|그램|%)",
+        "label": "성분 용량"
+      }
     ],
     "strictMatch": [
       "ingredients.name",
       "ingredients.amount"
     ]
   },
-
   "selfCheck": {
     "extractFields": [
       "ageLimit",
@@ -236,22 +400,56 @@
     "contextCheck": true,
     "negationDetection": true,
     "negationPairs": [
-      ["복용 금지", "복용 가능"],
-      ["사용하지 마", "사용해도 돼"],
-      ["투여하지 마", "투여해도 돼"],
-      ["금기", "허용"]
+      [
+        "복용 금지",
+        "복용 가능"
+      ],
+      [
+        "사용하지 마",
+        "사용해도 돼"
+      ],
+      [
+        "투여하지 마",
+        "투여해도 돼"
+      ],
+      [
+        "금기",
+        "허용"
+      ]
     ]
   },
-
   "freshness": {
     "maxAgeDays": 90,
     "autoRefreshOnExpiry": false,
     "sourceApi": "http://apis.data.go.kr/1471000/DrbEasyDrugInfoService/getDrbEasyDrugList"
   },
-
   "preCommit": {
     "minTotalChars": 2000,
     "maxTotalChars": 3500,
     "minSectionChars": 200
+  },
+  "humanFeel": {
+    "_comment": "human-feel.js 게이트 임계값. 라이브 실측(2026-06-17 탈모 214편)으로 보정. 표준 글(아보다트·미녹시딜·프로페시아·그로모정) 전부 통과, 도어웨이 클러스터(cv0.33/헤지5/출처0)만 차단.",
+    "minSentenceCV": 0.4,
+    "maxHedgePer1k": 4,
+    "minAuthorityPer1k": 1.5,
+    "maxAuthorityPer1k": 9,
+    "minParaOpenDiversity": 0.6,
+    "minLivedDetail": 1,
+    "enforceLivedDetail": false,
+    "metricTwinThreshold": 4
+  },
+  "titleAudit": {
+    "_comment": "audit-titles.js 규칙. 라이브 실측: 전체 타이틀 40%가 레거시 나열형, 48%가 가격단어 없음.",
+    "minLen": 28,
+    "maxLen": 45,
+    "requirePriceWord": true,
+    "requireSlugFirst": true,
+    "banPhrases": [
+      "실시간 비교",
+      "약국별 비교",
+      "원~"
+    ],
+    "dupPatternThreshold": 3
   }
 }

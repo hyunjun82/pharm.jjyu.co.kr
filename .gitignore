@@ -83,3 +83,6 @@ next-env.d.ts
 
 # 4-agent 체인 작업용 임시 (글 작성 brief·draft·verify 출력)
 _workspace/
+
+# 부분배포용 전체 사이트 스냅샷 (2026-06-13 사고 재발 방지)
+_full-out/

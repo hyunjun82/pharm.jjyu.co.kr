@@ -64,7 +64,14 @@ function writeDraft(slug, briefPath, violations, attempt) {
     return fs.readFileSync(fix, "utf8");
   }
   // --bare 금지: 인증을 ANTHROPIC_API_KEY로만 받아 OAuth 로그인 PC에서 "Not logged in" 즉사
-  return execSync(`claude -p --model ${MODEL} --output-format text`, { input: prompt, encoding: "utf8", maxBuffer: 1024 * 1024 * 20, timeout: 600000, windowsHide: true });
+  // ★ ETIMEDOUT 근본원인(2026-06-20 규명): stdin/@file/cmd.exe 문제가 아니라 "확장사고(thinking) 무한루프"였다.
+  //   복잡한 writer 작업 → 빈 thinking_delta만 무한 생성 → 답(JSON) 못 내고 타임아웃. 단순 프롬프트는 사고 안 해 즉답.
+  //   해결: MAX_THINKING_TOKENS=0 으로 확장사고 비활성 → 70초 내 정상 작성. 프롬프트는 검증된 stdin(input:) 방식으로 공급.
+  // 사고 0=덜렁대서 규칙위반 다발(통과 0%). 8000=통과 품질(섹션길이·숫자출처 충족) 검증됨. 상한이라 무한루프 없음. 편당 길어지므로 timeout 상향.
+  return execSync(`claude -p --model ${MODEL} --output-format text`, {
+    encoding: "utf8", input: prompt, maxBuffer: 1024 * 1024 * 20, timeout: 1500000, windowsHide: true,
+    env: { ...process.env, MAX_THINKING_TOKENS: "8000" },
+  });
 }
 function extractJson(out) {
   const a = out.indexOf("{"); const b = out.lastIndexOf("}");
@@ -77,6 +84,14 @@ function gate(slug, draftPath) {
   catch (e) { r.violations += (e.stdout || "") ; return r; }
   try { execSync(`node scripts/score-article.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
   catch (e) { r.violations += (e.stdout || ""); return r; }
+  // Layer 2.5: human-feel — AI 찍어내기/규정문서 단조/출처부재/복제양산 차단 (하드 FAIL이면 반려)
+  try { execSync(`node scripts/human-feel.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
+  catch (e) { r.violations += (e.stdout || ""); return r; }
+  // Layer 2.6: satisfaction-judge — 토스급 사용자만족 상한선(검색자 질문 커버리지+경쟁사 초월). claude CLI 없으면(exit2) 스킵.
+  if (!DRY) {
+    try { execSync(`node scripts/satisfaction-judge.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
+    catch (e) { if (e.status === 1) { r.violations += (e.stdout || ""); return r; } else { console.log(`   (만족심판 스킵 — judge 불가: ${slug})`); } }
+  }
   // Layer 4: 글로벌 교차 유사도(도어웨이). gram-index 없으면 skip(0), 중복위험(1)이면 반려.
   if (!DRY) {
     try { execSync(`node scripts/verify-crosssim.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }

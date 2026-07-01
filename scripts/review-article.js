@@ -43,7 +43,8 @@ ${body}`;
 
 let out = "";
 try {
-  out = execSync(`claude -p --model sonnet --output-format text`, { input: prompt, encoding: "utf8", maxBuffer: 1024 * 1024 * 20, timeout: 300000, windowsHide: true });
+  // ETIMEDOUT 방지: ① input:으로 stdin 직접공급(셸 리다이렉트 < file 대신) ② MAX_THINKING_TOKENS=0으로 확장사고 무한루프 차단 (2026-06-20 근본수정).
+  out = execSync(`claude -p --model sonnet --output-format text`, { input: prompt, encoding: "utf8", maxBuffer: 1024 * 1024 * 20, timeout: 300000, windowsHide: true, env: { ...process.env, MAX_THINKING_TOKENS: "0" } });
 } catch (e) {
   console.log("REVIEW ERROR: reviewer 호출 실패 — " + String(e.message).slice(0, 120));
   console.log("(PC에 Claude Code CLI 로그인 필요. 무인배치는 통과 작성분에만 실행)");

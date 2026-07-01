@@ -14,7 +14,9 @@
     "quality": "node scripts/verify-all.js",
     "verify-deeplinks": "node scripts/verify-deeplinks.js",
     "fix-deeplinks": "node scripts/resolve-deeplinks.js",
-    "prepush": "node scripts/verify-all.js"
+    "prepush": "node scripts/verify-all.js",
+    "push": "node scripts/deploy-incremental.mjs --slugs",
+    "redeploy": "node scripts/deploy-incremental.mjs --deploy-only"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
