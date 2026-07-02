@@ -33,8 +33,8 @@ const MODE = args.includes("--download") ? "download" : args.includes("--repair"
 const LIMIT = args.includes("--limit") ? +args[args.indexOf("--limit") + 1] : Infinity;
 const today = new Date().toISOString().slice(0, 10);
 
-const norm = (t) => String(t || "").replace(/\(.*?\)/g, "").replace(/[\s\-·・（）()\[\]]/g, "")
-  .replace(/밀리그람|밀리그램/g, "mg").toLowerCase();
+const norm = (t) => String(t || "").replace(/\(.*?\)/g, "").replace(/\[.*?\]/g, "").replace(/[\s\-·・（）()\[\]]/g, "")
+  .replace(/밀리그람|밀리그램/g, "mg").replace(/로숀/g, "로션").replace(/캅셀/g, "캡슐").toLowerCase();
 
 // ── 1) e약은요 전체 덤프 다운로드 ──
 async function download() {
@@ -101,10 +101,20 @@ function strictFind(items, slug, productName) {
   // 3) 농도 표기: 슬러그 끝 숫자 = 식약처명 숫자% (신신미녹시딜액5 ↔ 신신미녹시딜액5%)
   r = uniq(items.filter((x) => norm(x.itemName).replace(/%/g, "") === ns)); if (r) return r;
   // 4) 제형어 생략: 슬러그+제형 = 식약처명 (까스활명수 ↔ 까스활명수액)
-  for (const form of ["액", "정", "연고", "크림", "겔", "캡슐", "시럽", "과립"]) {
+  for (const form of ["액", "정", "연고", "크림", "겔", "캡슐", "시럽", "과립", "내복액", "연질캡슐", "츄어블정", "환", "산", "정10mg", "로션"]) {
     r = uniq(items.filter((x) => norm(x.itemName) === ns + form)); if (r) return r;
   }
   // 5) 제품 데이터 이름 힌트로 제형 판별 (후시딘 → products name "후시딘 연고 10g" → 후시딘연고)
+  // 6) 포장/용량 변형: 끝 숫자(+포|정|ml|g|리필 등) 제거한 줄기로 정확 일치 (알마겔에프4포→알마겔에프)
+  const stem = slug.replace(/(큐)?[0-9.]+(포|정|캡슐|매|개|병|환|ml|g|밀리리터|리필)?$/i, "").replace(/리필$/, "");
+  if (stem !== slug && stem.length >= 3) {
+    const nst = norm(stem);
+    r = uniq(items.filter((x) => norm(x.itemName) === nst || strip(norm(x.itemName)).replace(/%/g, "") === nst));
+    if (r) return r;
+    for (const form of ["액", "정", "연고", "크림", "겔", "캡슐", "내복액"]) {
+      r = uniq(items.filter((x) => norm(x.itemName) === nst + form)); if (r) return r;
+    }
+  }
   if (productName) {
     const np = norm(productName).replace(/[0-9.]+(g|ml|mg|정|캡슐|매|포|개|병)/g, "");
     r = uniq(items.filter((x) => {
@@ -185,6 +195,20 @@ async function permitRepair() {
 }
 
 async function main() {
+  if (args.includes("--debug")) {
+    const slug = args[args.indexOf("--debug") + 1];
+    const KEY = process.env.DRUG_PERMIT_API_KEY;
+    const get = (url) => new Promise((res, rej) => https.get(url, (r) => { let b = ""; r.on("data", (c) => (b += c)); r.on("end", () => res(b)); }).on("error", rej));
+    const q = slug.replace(/[0-9.]+(mg)?$/, "");
+    const raw = await get(`https://apis.data.go.kr/1471000/DrugPrdtPrmsnInfoService07/getDrugPrdtPrmsnDtlInq06?serviceKey=${encodeURIComponent(KEY)}&type=json&numOfRows=50&pageNo=1&item_name=${encodeURIComponent(q)}`);
+    const items2 = ((JSON.parse(raw).body || {}).items || []).map((x) => ({ itemName: x.ITEM_NAME, itemSeq: x.ITEM_SEQ }));
+    console.log(`검색어 "${q}" → 후보 ${items2.length}건`);
+    for (const it of items2.slice(0, 15)) console.log(`  ${it.itemName} | norm: ${norm(it.itemName)}`);
+    console.log(`슬러그 norm: ${norm(slug)}`);
+    const hit = strictFind(items2.map((x) => ({ ...x })), slug);
+    console.log("판정:", hit ? "매칭 → " + hit.itemName : "실패");
+    return;
+  }
   if (args.includes("--permit")) return permitRepair();
   if (MODE === "download") return download();
   const { contaminated } = classify();
