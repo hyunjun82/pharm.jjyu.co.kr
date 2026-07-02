@@ -90,15 +90,28 @@ function classify() {
 }
 
 // ── 3) 엄격 재매칭 + 교체 ──
-function strictFind(items, slug) {
+function strictFind(items, slug, productName) {
   const ns = norm(slug);
-  // 완전 일치 or (itemName 본체 == slug+함량 변형) 만 허용. includes 같은 완화 매칭 금지.
-  const exact = items.filter((x) => norm(x.itemName) === ns);
-  if (exact.length === 1) return exact[0];
-  // 함량 표기 차이 허용: itemName 본체에서 숫자.숫자mg 제거 후 비교 (단, 제형 문자는 유지)
+  const uniq = (arr) => (arr.length === 1 ? arr[0] : null);
+  // 1) 완전 일치
+  let r = uniq(items.filter((x) => norm(x.itemName) === ns)); if (r) return r;
+  // 2) 함량(mg) 표기 차이 흡수
   const strip = (t) => t.replace(/[0-9.]+mg/g, "");
-  const loose = items.filter((x) => strip(norm(x.itemName)) === strip(ns) && strip(ns).length >= 4);
-  if (loose.length === 1) return loose[0];
+  r = uniq(items.filter((x) => strip(norm(x.itemName)) === strip(ns) && strip(ns).length >= 4)); if (r) return r;
+  // 3) 농도 표기: 슬러그 끝 숫자 = 식약처명 숫자% (신신미녹시딜액5 ↔ 신신미녹시딜액5%)
+  r = uniq(items.filter((x) => norm(x.itemName).replace(/%/g, "") === ns)); if (r) return r;
+  // 4) 제형어 생략: 슬러그+제형 = 식약처명 (까스활명수 ↔ 까스활명수액)
+  for (const form of ["액", "정", "연고", "크림", "겔", "캡슐", "시럽", "과립"]) {
+    r = uniq(items.filter((x) => norm(x.itemName) === ns + form)); if (r) return r;
+  }
+  // 5) 제품 데이터 이름 힌트로 제형 판별 (후시딘 → products name "후시딘 연고 10g" → 후시딘연고)
+  if (productName) {
+    const np = norm(productName).replace(/[0-9.]+(g|ml|mg|정|캡슐|매|포|개|병)/g, "");
+    r = uniq(items.filter((x) => {
+      const ni = strip(norm(x.itemName)).replace(/%/g, "");
+      return ni === np || ni === np.replace(/(액|정|연고|크림|겔|캡슐)$/, "") ;
+    })); if (r) return r;
+  }
   return null;
 }
 
@@ -114,7 +127,18 @@ async function permitRepair() {
     .replace(/<[^>]+>/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&")
     .replace(/\s+/g, " ").trim();
   const log = fs.existsSync(LOG) ? JSON.parse(fs.readFileSync(LOG, "utf8")) : {};
-  const ghosts = Object.entries(log).filter(([k, v]) => v.result === "GHOST_CANDIDATE").map(([k]) => k);
+  const ghosts = Object.entries(log).filter(([k, v]) => v.result === "GHOST_CANDIDATE" || v.result === "GHOST_CONFIRMED").map(([k]) => k);
+  // 제품 데이터에서 slug → name 힌트 로드
+  const prodName = {};
+  try {
+    for (const f of fs.readdirSync(path.join(ROOT, "data", "products")).filter((x) => x.endsWith(".ts"))) {
+      const src2 = fs.readFileSync(path.join(ROOT, "data", "products", f), "utf8");
+      for (const b of src2.split(/slug: "/).slice(1)) {
+        const sl = b.slice(0, b.indexOf('"')); const nm = (b.match(/name: "([^"]+)"/) || [])[1];
+        if (sl && nm) prodName[sl] = nm;
+      }
+    }
+  } catch {}
   console.log(`허가정보 API 재검색 대상(유령 후보): ${ghosts.length}건`);
   let ok = 0, still = 0, debugged = false;
   for (const slug of ghosts.slice(0, LIMIT)) {
@@ -131,7 +155,7 @@ async function permitRepair() {
       ud: x.UD_DOC_DATA || x.udDocData || "", nb: x.NB_DOC_DATA || x.nbDocData || "",
       etc: x.ETC_OTC_CODE || x.etcOtcCode || "", permitDate: x.ITEM_PERMIT_DATE || "",
     }));
-    const hit = strictFind(cand, slug);
+    const hit = strictFind(cand, slug, prodName[slug]);
     const docLen = hit ? (flat(hit.ee) + flat(hit.ud) + flat(hit.nb)).length : 0;
     if (hit && docLen > 100) {
       const p2 = path.join(SRC, slug + ".json");
