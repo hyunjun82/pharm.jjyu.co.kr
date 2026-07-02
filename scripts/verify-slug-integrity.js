@@ -29,24 +29,24 @@ for (const f of fs.readdirSync("data/articles").filter((f) => f.endsWith(".ts") 
     const issues = [];
     let status = "VERIFIED";
     if (!s) { issues.push("소스파일 없음"); status = "NEEDS_REFETCH"; }
-    // ── 2026-07-02 신설: 소스 오염 차단 (536페이지 사고 재발 방지) ──
-    // (a) 품목번호 중복: 같은 itemSeq를 여러 슬러그가 공유 = 남의 약 데이터 복제 의심 → 소유자(제품명 일치) 외 전부 차단
-    else if (s.itemSeq && SEQ_DUP[s.itemSeq] && SEQ_DUP[s.itemSeq].length > 1) {
-      const norm = (t) => String(t||"").replace(/[\s()0-9.밀리그램mg정캡슐연질액겔폼크림포매입]/g, "");
-      const owner = SEQ_DUP[s.itemSeq].find((sl) => norm(s.itemName).includes(norm(sl).slice(0, 4)) && norm(sl) === norm((sd[sl]||{}).itemName||sl).slice(0, norm(sl).length)) || null;
-      if (slug !== owner) { issues.push("품목번호 " + s.itemSeq + " 중복(" + SEQ_DUP[s.itemSeq].length + "개 슬러그 공유) — 소스 재수집 필요"); status = "NEEDS_REFETCH"; }
-    }
-    // (b) 제형 불일치: 슬러그 끝 제형(정/캡슐/액/겔/폼/크림)이 소스 itemName에 없음 = 남의 제형 데이터
-    if (s && s.itemName && status === "VERIFIED") {
-      const formMap = [["연질캡슐","연질캡슐"],["캡슐","캡슐"],["정","정"],["액","액"],["겔","겔"],["폼","폼"],["크림","크림"]];
-      for (const [suf, form] of formMap) {
-        if (slug.replace(/[0-9.]+(mg)?$/,"").endsWith(suf)) {
-          if (!s.itemName.includes(form)) { issues.push("제형 불일치: 슬러그 '"+suf+"' vs 소스 '"+s.itemName.slice(0,20)+"'"); status = "NEEDS_REFETCH"; }
-          break;
+    else {
+      // ── 2026-07-02 신설: 소스 오염 차단 (536페이지 사고 재발 방지) ──
+      // (a) 품목번호 중복: 같은 itemSeq를 여러 슬러그가 공유 = 남의 약 데이터 복제 의심 → 소유자 외 전부 차단
+      if (s.itemSeq && SEQ_DUP[s.itemSeq] && SEQ_DUP[s.itemSeq].length > 1) {
+        const normx = (t) => String(t || "").replace(/\(.*?\)/g, "").replace(/[\s\-·・（）()\[\]]/g, "").replace(/밀리그람|밀리그램/g, "mg").toLowerCase();
+        const owner = SEQ_DUP[s.itemSeq].find((sl) => normx((sd[sl] || {}).itemName) === normx(sl)) || null;
+        if (slug !== owner) { issues.push("품목번호 " + s.itemSeq + " 중복(" + SEQ_DUP[s.itemSeq].length + "개 공유) — 소스 재수집 필요"); status = "NEEDS_REFETCH"; }
+      }
+      // (b) 제형 불일치: 슬러그 끝 제형이 소스 itemName에 없음 = 남의 제형 데이터
+      if (s.itemName && status === "VERIFIED") {
+        for (const form of ["연질캡슐", "캡슐", "정", "액", "겔", "폼", "크림"]) {
+          if (slug.replace(/[0-9.]+(mg)?$/, "").endsWith(form)) {
+            if (!s.itemName.includes(form)) { issues.push("제형 불일치: 슬러그 '" + form + "' vs 소스 '" + s.itemName.slice(0, 20) + "'"); status = "NEEDS_REFETCH"; }
+            break;
+          }
         }
       }
-    }
-    else {
+
       if (s.sourceType === "nedrug-template") { issues.push("템플릿클론: " + (s.nedrug_ref || "?")); status = "NEEDS_REFETCH"; }
       if (!s.itemSeq && !s.STTEMNT_NO && s.sourceType !== "nedrug-template") { issues.push("품목/신고번호 없음"); status = "NEEDS_REFETCH"; }
       // 슬러그↔itemName 일치 (피나원 사고 방지 규칙)
