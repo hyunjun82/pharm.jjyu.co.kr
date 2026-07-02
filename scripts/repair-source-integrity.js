@@ -109,7 +109,10 @@ async function permitRepair() {
   const get = (url) => new Promise((res, rej) => https.get(url, (r) => {
     let b = ""; r.on("data", (c) => (b += c)); r.on("end", () => res(b));
   }).on("error", rej));
-  const flat = (doc) => String(doc || "").replace(/<[^>]+>/g, " ").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/\s+/g, " ").trim();
+  const flat = (doc) => String(doc || "")
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, " $1 ")   // CDATA 본문 보존 (2026-07-02: 태그제거가 본문째 삭제하던 버그)
+    .replace(/<[^>]+>/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ").trim();
   const log = fs.existsSync(LOG) ? JSON.parse(fs.readFileSync(LOG, "utf8")) : {};
   const ghosts = Object.entries(log).filter(([k, v]) => v.result === "GHOST_CANDIDATE").map(([k]) => k);
   console.log(`허가정보 API 재검색 대상(유령 후보): ${ghosts.length}건`);
@@ -129,7 +132,8 @@ async function permitRepair() {
       etc: x.ETC_OTC_CODE || x.etcOtcCode || "", permitDate: x.ITEM_PERMIT_DATE || "",
     }));
     const hit = strictFind(cand, slug);
-    if (hit && flat(hit.ee).length > 20) {
+    const docLen = hit ? (flat(hit.ee) + flat(hit.ud) + flat(hit.nb)).length : 0;
+    if (hit && docLen > 100) {
       const p2 = path.join(SRC, slug + ".json");
       const old = fs.existsSync(p2) ? JSON.parse(fs.readFileSync(p2, "utf8")) : {};
       fs.writeFileSync(p2, JSON.stringify({
@@ -141,9 +145,15 @@ async function permitRepair() {
         depositMethodQesitm: "", itemImage: old.itemImage || "", updateDe: hit.permitDate,
       }, null, 2));
       log[slug] = { result: "REPAIRED_PERMIT", itemSeq: hit.itemSeq, at: today };
-      ok++; if (ok % 20 === 0) console.log(`  허가DB 수리 ${ok}건...`);
-    } else { log[slug] = { result: "GHOST_CONFIRMED", at: today }; still++; }
+      ok++;
+    } else {
+      const packM = slug.match(/^(.+?)(큐)?[0-9]+(병|포|매|정|캡슐|개|밀리리터|ml)$/);
+      const isPack = packM && fs.existsSync(path.join(SRC, packM[1] + ".json"));
+      log[slug] = { result: isPack ? "PACK_VARIANT" : "GHOST_CONFIRMED", at: today };
+      still++;
+    }
     fs.writeFileSync(LOG, JSON.stringify(log, null, 1));
+    if ((ok + still) % 20 === 0) console.log(`  진행 ${ok + still}건 (교체 ${ok})...`);
     await new Promise((r) => setTimeout(r, 150));
   }
   console.log(`\n══ 허가DB 수리: 교체 ${ok} / 진짜 유령 확정 ${still}`);
