@@ -102,7 +102,55 @@ function strictFind(items, slug) {
   return null;
 }
 
+// ── 3.5) 허가정보 API(전 품목 DB)에서 유령 후보 재검색 — e약은요에 없는 제네릭 구제 ──
+async function permitRepair() {
+  const KEY = process.env.DRUG_PERMIT_API_KEY;
+  if (!KEY) { console.error("DRUG_PERMIT_API_KEY 없음"); process.exit(1); }
+  const get = (url) => new Promise((res, rej) => https.get(url, (r) => {
+    let b = ""; r.on("data", (c) => (b += c)); r.on("end", () => res(b));
+  }).on("error", rej));
+  const flat = (doc) => String(doc || "").replace(/<[^>]+>/g, " ").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/\s+/g, " ").trim();
+  const log = fs.existsSync(LOG) ? JSON.parse(fs.readFileSync(LOG, "utf8")) : {};
+  const ghosts = Object.entries(log).filter(([k, v]) => v.result === "GHOST_CANDIDATE").map(([k]) => k);
+  console.log(`허가정보 API 재검색 대상(유령 후보): ${ghosts.length}건`);
+  let ok = 0, still = 0, debugged = false;
+  for (const slug of ghosts.slice(0, LIMIT)) {
+    // 검색어: 슬러그에서 mg 표기 제거한 이름 (허가 DB item_name은 한글 함량 표기)
+    const q = slug.replace(/[0-9.]+(mg)?$/, "");
+    const url = `https://apis.data.go.kr/1471000/DrugPrdtPrmsnInfoService06/getDrugPrdtPrmsnDtlInq06?serviceKey=${encodeURIComponent(KEY)}&type=json&numOfRows=50&pageNo=1&item_name=${encodeURIComponent(q)}`;
+    let j; try { j = JSON.parse(await get(url)); } catch (e) { console.error(`  ${slug}: 응답 파싱 실패`); continue; }
+    const items = ((j.body || {}).items) || [];
+    if (!debugged && items.length) { debugged = true; console.log("  [응답 필드 확인]", Object.keys(items[0]).slice(0, 12).join(",")); }
+    const cand = items.map((x) => ({
+      itemName: x.ITEM_NAME || x.itemName || "", entpName: x.ENTP_NAME || x.entpName || "",
+      itemSeq: String(x.ITEM_SEQ || x.itemSeq || ""), ee: x.EE_DOC_DATA || x.eeDocData || "",
+      ud: x.UD_DOC_DATA || x.udDocData || "", nb: x.NB_DOC_DATA || x.nbDocData || "",
+      etc: x.ETC_OTC_CODE || x.etcOtcCode || "", permitDate: x.ITEM_PERMIT_DATE || "",
+    }));
+    const hit = strictFind(cand, slug);
+    if (hit && flat(hit.ee).length > 20) {
+      const p2 = path.join(SRC, slug + ".json");
+      const old = fs.existsSync(p2) ? JSON.parse(fs.readFileSync(p2, "utf8")) : {};
+      fs.writeFileSync(p2, JSON.stringify({
+        slug, category: old.category || "", sourceType: "api",
+        sourceOrigin: "식약처 허가정보 API 재수집(무결성 수리 2026-07-02)", fetchedAt: today,
+        itemName: hit.itemName, entpName: hit.entpName, itemSeq: hit.itemSeq,
+        efcyQesitm: flat(hit.ee), useMethodQesitm: flat(hit.ud),
+        atpnWarnQesitm: "", atpnQesitm: flat(hit.nb), intrcQesitm: "", seQesitm: "",
+        depositMethodQesitm: "", itemImage: old.itemImage || "", updateDe: hit.permitDate,
+      }, null, 2));
+      log[slug] = { result: "REPAIRED_PERMIT", itemSeq: hit.itemSeq, at: today };
+      ok++; if (ok % 20 === 0) console.log(`  허가DB 수리 ${ok}건...`);
+    } else { log[slug] = { result: "GHOST_CONFIRMED", at: today }; still++; }
+    fs.writeFileSync(LOG, JSON.stringify(log, null, 1));
+    await new Promise((r) => setTimeout(r, 150));
+  }
+  console.log(`\n══ 허가DB 수리: 교체 ${ok} / 진짜 유령 확정 ${still}`);
+  console.log("다음: node scripts/verify-slug-integrity.js");
+}
+
 async function main() {
+  if (args.includes("--permit")) return permitRepair();
   if (MODE === "download") return download();
   const { contaminated } = classify();
   console.log(`오염 분류: ${contaminated.length}건`);
