@@ -55,7 +55,12 @@ console.log(`배치 시작: ${N}편 (${REPAIR ? "수리" : CATEGORY || "전체"}
 
 // ── writer 호출
 function writeDraft(slug, briefPath, violations, attempt) {
+  // 2026-07-02: 벤치마크 템플릿(검증기 회피 수칙 §9 포함)을 실제로 프롬프트에 인라인
+  //   — 기존엔 경로만 언급되고 내용이 안 들어가 B16/T2/T8 3연속 반려의 원인이었음
+  const benchPath = ".claude/templates/benchmark-master.template.md";
+  const bench = fs.existsSync(benchPath) ? "\n\n[벤치마크 마스터 템플릿 — 반드시 준수]\n" + fs.readFileSync(benchPath, "utf8") : "";
   const prompt = fs.readFileSync("prompts/writer-spoke.md", "utf8")
+    + bench
     + fs.readFileSync(briefPath, "utf8")
     + (violations ? `\n\n[직전 반려 사유 — 반드시 해결]\n${violations}` : "");
   if (DRY) { // 모의: fixtures에서 공급 (1차는 의도적 불량, 2차는 통과본)
