@@ -117,8 +117,9 @@ async function permitRepair() {
   for (const slug of ghosts.slice(0, LIMIT)) {
     // 검색어: 슬러그에서 mg 표기 제거한 이름 (허가 DB item_name은 한글 함량 표기)
     const q = slug.replace(/[0-9.]+(mg)?$/, "");
-    const url = `https://apis.data.go.kr/1471000/DrugPrdtPrmsnInfoService06/getDrugPrdtPrmsnDtlInq06?serviceKey=${encodeURIComponent(KEY)}&type=json&numOfRows=50&pageNo=1&item_name=${encodeURIComponent(q)}`;
-    let j; try { j = JSON.parse(await get(url)); } catch (e) { console.error(`  ${slug}: 응답 파싱 실패`); continue; }
+    const url = `https://apis.data.go.kr/1471000/DrugPrdtPrmsnInfoService07/getDrugPrdtPrmsnDtlInq06?serviceKey=${encodeURIComponent(KEY)}&type=json&numOfRows=50&pageNo=1&item_name=${encodeURIComponent(q)}`;
+    const raw = await get(url);
+    let j; try { j = JSON.parse(raw); } catch (e) { console.error(`  ${slug}: 응답 파싱 실패 → 원문: ${raw.slice(0, 220).replace(/\s+/g, " ")}`); continue; }
     const items = ((j.body || {}).items) || [];
     if (!debugged && items.length) { debugged = true; console.log("  [응답 필드 확인]", Object.keys(items[0]).slice(0, 12).join(",")); }
     const cand = items.map((x) => ({
