@@ -157,7 +157,14 @@ for (const slug of queue.slice(0, N)) {
 if (!DRY) fs.writeFileSync(doneFile, JSON.stringify([...doneList, ...passed]));
 fs.writeFileSync(`_workspace/batch-logs/${ts}.json`, JSON.stringify(log, null, 1));
 console.log(`\n══ 배치 결과: 통과 ${passed.length} / 에스컬레이션 ${escalated.length} / 차단 ${blocked.length}`);
-if (escalated.length) console.log("에스컬레이션(상위 모델/사람 검토 필요):", escalated.join(", "));
+if (escalated.length) {
+  console.log("에스컬레이션(상위 모델/사람 검토 필요):", escalated.join(", "));
+  const EQ = "_workspace/escalation-queue.json";
+  const eq = fs.existsSync(EQ) ? JSON.parse(fs.readFileSync(EQ, "utf8")) : [];
+  for (const sl of escalated) if (!eq.find((x) => x.slug === sl)) eq.push({ slug: sl, at: ts, category: CATEGORY });
+  fs.writeFileSync(EQ, JSON.stringify(eq, null, 1));
+  console.log(`→ _workspace/escalation-queue.json 적재 (${eq.length}건 대기) — Cowork에서 "에스컬 마감해줘"로 처리`);
+}
 if (passed.length) {
   const slugsArg = passed.map((s) => { const m = JSON.parse(fs.readFileSync("_workspace/integrity-map.json", "utf8")).find((y) => y.slug === s); return `${m ? m.cat : CATEGORY}/${s}`; }).join(",");
   console.log(`\n부분배포 명령:\n  node scripts/deploy-incremental.mjs --slugs ${slugsArg}`);
