@@ -231,7 +231,7 @@ console.log(`\n══ 배치 결과: 통과 ${passed.length} / 에스컬레이�
 if (escalated.length) {
   console.log("에스컬레이션(상위 모델/사람 검토 필요):", escalated.join(", "));
   mergeArrayFile("_workspace/escalation-queue.json", escalated.map((sl) => ({ slug: sl, at: ts, category: CATEGORY })));
-  console.log(`→ _workspace/escalation-queue.json 적재 (${eq.length}건 대기) — Cowork에서 "에스컬 마감해줘"로 처리`);
+  console.log(`→ _workspace/escalation-queue.json 적재 — Cowork에서 "에스컬 마감해줘"로 처리`);
 }
 if (passed.length) {
   const slugsArg = passed.map((s) => { const m = JSON.parse(fs.readFileSync("_workspace/integrity-map.json", "utf8")).find((y) => y.slug === s); return `${m ? m.cat : CATEGORY}/${s}`; }).join(",");
