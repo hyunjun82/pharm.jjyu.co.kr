@@ -29,6 +29,6 @@ for (let r = 1; r <= ROUNDS; r++) {
     catch { console.log("배포 실패 — 수동 배포 필요: --slugs " + dep[1]); }
   }
   if (pass + esc + blocked === 0) { console.log("큐 소진 — 카테고리 완료 🎉"); break; }
-  if (pass === 0 && esc >= BATCH * 0.9) { console.log("품질 급락 가드 발동(전량 에스컬) — 중단, 에스컬 큐 확인 필요"); break; }
+  if (pass === 0) { console.log("통과 0 가드 — 루프 중단 (에스컬 큐를 상위 모델로 마감 후 재개)"); break; }
 }
 console.log("\n루프 종료. 에스컬레이션 큐: _workspace/escalation-queue.json");

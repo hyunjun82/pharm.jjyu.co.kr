@@ -38,6 +38,9 @@ if (!SLUGS && REPAIR) {
   const q = JSON.parse(fs.readFileSync("_workspace/rewrite-queue.json", "utf8"));
   const imap = JSON.parse(fs.readFileSync("_workspace/integrity-map.json", "utf8"));
   const done = new Set(fs.existsSync("_workspace/batch-done.json") ? JSON.parse(fs.readFileSync("_workspace/batch-done.json", "utf8")) : []);
+  // 2026-07-03: 에스컬레이션·소스차단 글은 재시도 금지 (밤새 같은 20편 맴돈 버그 수정)
+  try { for (const x of JSON.parse(fs.readFileSync("_workspace/escalation-queue.json", "utf8"))) done.add(x.slug); } catch {}
+  try { for (const x of JSON.parse(fs.readFileSync("_workspace/blocked-slugs.json", "utf8"))) done.add(x); } catch {}
   queue = q.filter((x) => (!CATEGORY || x.cat === CATEGORY))
     .filter((x) => { const m = imap.find((y) => y.slug === x.slug); return m && m.status === "VERIFIED"; })
     .filter((x) => !done.has(x.slug)).map((x) => x.slug);
@@ -127,7 +130,9 @@ for (const slug of queue.slice(0, N)) {
   try {
     // 1) 브리프 게이트
     try { execSync(`node scripts/build-write-brief.js "${slug}"`, { stdio: "pipe" }); }
-    catch (e) { item.result = "BLOCKED(소스)"; blocked.push(slug); log.items.push(item); console.log(`⛔ ${slug} 소스 차단`); continue; }
+    catch (e) { item.result = "BLOCKED(소스)"; blocked.push(slug); log.items.push(item); console.log(`⛔ ${slug} 소스 차단`);
+      try { const BP="_workspace/blocked-slugs.json"; const bl=fs.existsSync(BP)?JSON.parse(fs.readFileSync(BP,"utf8")):[]; if(!bl.includes(slug)){bl.push(slug);fs.writeFileSync(BP,JSON.stringify(bl));} } catch {}
+      continue; }
     // 2) 작성→관문 루프
     let violations = null, ok = false;
     for (let att = 1; att <= MAX_RETRY; att++) {
