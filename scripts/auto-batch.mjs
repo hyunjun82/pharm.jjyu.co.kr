@@ -89,6 +89,43 @@ function writeDraft(slug, briefPath, violations, attempt) {
     }
   }
 }
+// 2026-07-03: 교정 편집 패스 — 재작성 대신 반려사유만 최소 수정 (수동 마감 12편 100% 성공 레시피의 기계화)
+function editDraft(slug, draftPath, violations, briefPath) {
+  const draft = fs.readFileSync(draftPath, "utf8");
+  const brief = fs.readFileSync(briefPath, "utf8");
+  const prompt = `너는 의약품 콘텐츠 교정 편집자다. [초안 JSON]을 [반려 사유]만 해결되도록 "최소 수정"하라. 재작성 금지 — 문제없는 문장은 글자 그대로 유지한다.
+
+교정 레시피(반려 코드별):
+- B10/섹션 깊이·전체 글자수 부족: [소스]에서 아직 안 쓴 사실로 해당 섹션에 2~4문장 추가(숫자는 소스에 있는 것만).
+- 짧은문장 부족: 각 섹션에 8~15자 짧은 문장 1~2개 삽입(예: "물 한 컵이면 충분해요." "조급함은 금물이에요." — 단 "단순해요/그게 답이에요"류 기계 맺음말 금지).
+- 출처 인용 밀도 부족: "식약처 기준" "식약처 허가사항" "임상시험에서" 표현을 문장 안에 자연스럽게 추가. 단 "허가사항" 단어는 글 전체 10회 이하.
+- B16/같은 구절 시작: 해당 섹션들 첫 문장을 서로 다른 구조로 변주(제품명 시작은 최대 2개).
+- B17/문단: 3~4문장마다 \n\n으로 분할, 숫자·임상 데이터는 별도 문단.
+- B11/어미 단조: 연속된 "~요." 중 일부를 "~죠." "~고요." "~거든요."로.
+- 서론 분량 부족: 첫 문장 즉답 유지하며 150~190자로 확장(대상·기간·비용 구조 등 소스 사실로).
+- T1: 타이틀을 제품명이 맨 앞이 되게 재배열. T2: 타이틀에 '가격' 단어 포함. T8: H2 4개 이상에 제품명 포함(단 전부는 금지).
+
+절대 규칙: ~해요체 유지, 소스에 없는 숫자·효능 창작 금지, 짝대기(—) 금지, "솔직히" 금지.
+출력: 수정 완료된 전체 JSON만. 설명·마크다운 금지.
+
+[반려 사유]
+${violations}
+
+[소스]
+${brief.slice(0, 12000)}
+
+[초안 JSON]
+${draft}`;
+  for (const budget of ["4000", "2000"]) {
+    try {
+      return execSync(`claude -p --model ${MODEL} --output-format text`, {
+        encoding: "utf8", input: prompt, maxBuffer: 1024 * 1024 * 20, timeout: 480000, windowsHide: true,
+        env: { ...process.env, MAX_THINKING_TOKENS: budget },
+      });
+    } catch (e) { if (String(e.code) === "ETIMEDOUT" && budget === "4000") { console.log(`   (편집 행 → 재시도: ${slug})`); continue; } throw e; }
+  }
+}
+
 function extractJson(out) {
   const a = out.indexOf("{"); const b = out.lastIndexOf("}");
   if (a < 0 || b < a) throw new Error("JSON 없음");
@@ -137,10 +174,13 @@ for (const slug of queue.slice(0, N)) {
     let violations = null, ok = false;
     for (let att = 1; att <= MAX_RETRY; att++) {
       item.attempts = att;
-      const raw = writeDraft(slug, `_workspace/briefs/${slug}.json`, violations, att);
-      const draft = extractJson(raw);
       const dp = `_workspace/batch-logs/draft-${slug}.json`;
+      const raw = att === 1
+        ? writeDraft(slug, `_workspace/briefs/${slug}.json`, null, att)
+        : editDraft(slug, dp, violations, `_workspace/briefs/${slug}.json`);
+      const draft = extractJson(raw);
       fs.writeFileSync(dp, JSON.stringify(draft));
+      try { execSync(`node scripts/polish-draft.mjs "${dp}"`, { stdio: "pipe" }); } catch {}
       const g = gate(slug, dp);
       if (g.pass) {
         if (!DRY) {
