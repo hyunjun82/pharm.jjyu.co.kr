@@ -23,8 +23,33 @@ const DRY = !!opt("--dry", false);
 const REPAIR = !!opt("--repair", false);
 const DEPLOY = !!opt("--deploy", false);
 const MODEL = opt("--model", "sonnet");
-const MAX_RETRY = 3;
+const MAX_RETRY = +opt("--tries", 3);
 const ts = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
+// 2026-07-03: 병렬 배치 안전장치 — 공용 장부는 잠금 + 읽고-병합-쓰기
+function withLock(file, fn) {
+  const lock = file + ".lock";
+  for (let i = 0; i < 50; i++) {
+    try { fs.writeFileSync(lock, String(process.pid), { flag: "wx" }); break; }
+    catch { const t = Date.now(); while (Date.now() - t < 100) {} }
+  }
+  try { return fn(); } finally { try { fs.unlinkSync(lock); } catch {} }
+}
+function mergeArrayFile(file, additions) {
+  withLock(file, () => {
+    let cur = [];
+    try { cur = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
+    const set = new Set(Array.isArray(cur) ? (typeof cur[0] === "string" ? cur : []) : []);
+    if (Array.isArray(cur) && cur.length && typeof cur[0] === "object") {
+      // 객체 배열(에스컬 큐): slug 기준 병합
+      const bySlug = new Map(cur.map((x) => [x.slug, x]));
+      for (const a of additions) if (!bySlug.has(a.slug)) bySlug.set(a.slug, a);
+      fs.writeFileSync(file, JSON.stringify([...bySlug.values()], null, 1));
+    } else {
+      for (const a of additions) set.add(typeof a === "string" ? a : a.slug);
+      fs.writeFileSync(file, JSON.stringify([...set]));
+    }
+  });
+}
 const log = { started: ts, mode: REPAIR ? "repair" : "rewrite", category: CATEGORY, dry: DRY, items: [] };
 
 // ── 큐 로드
@@ -169,7 +194,7 @@ for (const slug of queue.slice(0, N)) {
     // 1) 브리프 게이트
     try { execSync(`node scripts/build-write-brief.js "${slug}"`, { stdio: "pipe" }); }
     catch (e) { item.result = "BLOCKED(소스)"; blocked.push(slug); log.items.push(item); console.log(`⛔ ${slug} 소스 차단`);
-      try { const BP="_workspace/blocked-slugs.json"; const bl=fs.existsSync(BP)?JSON.parse(fs.readFileSync(BP,"utf8")):[]; if(!bl.includes(slug)){bl.push(slug);fs.writeFileSync(BP,JSON.stringify(bl));} } catch {}
+      try { mergeArrayFile("_workspace/blocked-slugs.json", [slug]); } catch {}
       continue; }
     // 2) 작성→관문 루프
     let violations = null, ok = false;
@@ -200,15 +225,12 @@ for (const slug of queue.slice(0, N)) {
   log.items.push(item);
 }
 // ── 기록·보고
-if (!DRY) fs.writeFileSync(doneFile, JSON.stringify([...doneList, ...passed]));
+if (!DRY && passed.length) mergeArrayFile(doneFile, passed);
 fs.writeFileSync(`_workspace/batch-logs/${ts}.json`, JSON.stringify(log, null, 1));
 console.log(`\n══ 배치 결과: 통과 ${passed.length} / 에스컬레이션 ${escalated.length} / 차단 ${blocked.length}`);
 if (escalated.length) {
   console.log("에스컬레이션(상위 모델/사람 검토 필요):", escalated.join(", "));
-  const EQ = "_workspace/escalation-queue.json";
-  const eq = fs.existsSync(EQ) ? JSON.parse(fs.readFileSync(EQ, "utf8")) : [];
-  for (const sl of escalated) if (!eq.find((x) => x.slug === sl)) eq.push({ slug: sl, at: ts, category: CATEGORY });
-  fs.writeFileSync(EQ, JSON.stringify(eq, null, 1));
+  mergeArrayFile("_workspace/escalation-queue.json", escalated.map((sl) => ({ slug: sl, at: ts, category: CATEGORY })));
   console.log(`→ _workspace/escalation-queue.json 적재 (${eq.length}건 대기) — Cowork에서 "에스컬 마감해줘"로 처리`);
 }
 if (passed.length) {
