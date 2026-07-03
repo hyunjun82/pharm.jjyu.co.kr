@@ -646,7 +646,7 @@ export const products: Product[] = [
     image: "/images/barkiri-나프졸크림.webp",
     category: "일반의약품",
     categorySlug: "연고",
-    description: "나프록센나트륨 외용 소염진통 크림. 타박상·근육통.",
+    description: "나프티핀염산염 항진균 크림. 무좀(백선)·어루러기·손발톱 진균증.",
     price: 4000,
     unit: "30g",
     barkiryProductId: "p1033",
