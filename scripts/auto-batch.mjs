@@ -166,8 +166,8 @@ function gate(slug, draftPath) {
   // Layer 2.5: human-feel — AI 찍어내기/규정문서 단조/출처부재/복제양산 차단 (하드 FAIL이면 반려)
   try { execSync(`node scripts/human-feel.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
   catch (e) { r.violations += (e.stdout || ""); return r; }
-  // Layer 2.6: satisfaction-judge — 토스급 사용자만족 상한선(검색자 질문 커버리지+경쟁사 초월). claude CLI 없으면(exit2) 스킵.
-  if (!DRY) {
+  // Layer 2.6: satisfaction-judge — 초안 공급 모드(tries 1)에선 스킵 (에스컬 검토가 대체 — 호출 3배 절감)
+  if (!DRY && MAX_RETRY > 1) {
     try { execSync(`node scripts/satisfaction-judge.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
     catch (e) { if (e.status === 1) { r.violations += (e.stdout || ""); return r; } else { console.log(`   (만족심판 스킵 — judge 불가: ${slug})`); } }
   }
@@ -176,8 +176,8 @@ function gate(slug, draftPath) {
     try { execSync(`node scripts/verify-crosssim.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
     catch (e) { if (e.status === 1) { r.violations += (e.stdout || ""); return r; } }
   }
-  // Layer 3: 의미 검수 (해석 오류 — claude -p). CLI 없으면(exit 2) 건너뜀, 의미오류(exit 1)면 반려.
-  if (!DRY) {
+  // Layer 3: 의미 검수 — 초안 공급 모드(tries 1)에선 스킵 (상위 모델 마감에서 수행)
+  if (!DRY && MAX_RETRY > 1) {
     try { execSync(`node scripts/review-article.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
     catch (e) {
       if (e.status === 1) { r.violations += (e.stdout || ""); return r; }
