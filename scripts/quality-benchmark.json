@@ -1,0 +1,44 @@
+{
+ "totalChars": {
+  "median": 2673,
+  "floor": 2405.7
+ },
+ "minSection": {
+  "median": 322,
+  "floor": 289.8
+ },
+ "avgSection": {
+  "median": 374,
+  "floor": 336.6
+ },
+ "numPer100": {
+  "median": 2.91,
+  "floor": 2.33
+ },
+ "citePer1000": {
+  "median": 4.58,
+  "floor": 3.66
+ },
+ "shortSentRatio": {
+  "median": 0.16,
+  "floor": 0.14
+ },
+ "sectionCount": {
+  "median": 6,
+  "floor": 5.4
+ },
+ "faqCount": {
+  "median": 3,
+  "floor": 2.7
+ },
+ "heroLen": {
+  "median": 158,
+  "floor": 142.2
+ },
+ "endingDominance": {
+  "median": 0.3,
+  "ceil": 0.39
+ },
+ "_calibratedFrom": "11편 (v3.1 PASS 표준)",
+ "_date": "2026-06-12"
+}
