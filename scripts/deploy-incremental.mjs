@@ -150,4 +150,12 @@ try {
 
 // ── IndexNow 통지 (빙+네이버 즉시 수집 요청 — 2026-07-06 추가) ──
 if (_slugArg) {
-  try { execSync(`node scripts/ping-indexnow.mjs "${_slugArg}"`, { cwd: ROOT, stdio: "
+  try { execSync(`node scripts/ping-indexnow.mjs "${_slugArg}"`, { cwd: ROOT, stdio: "inherit" }); }
+  catch { console.log("IndexNow 통지 실패 (배포는 정상 — 다음 배포 때 재시도)"); }
+}
+
+console.log(`
+배포 완료!
+   라이브 사이트: https://pharm.jjyu.co.kr/
+   배포 상태: https://dash.cloudflare.com/d2e4e8fa6127e6e2ba40e48fe715aeef/pages/view/pharm-jjyu-co-kr
+`);
