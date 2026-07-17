@@ -1,0 +1,18 @@
+name: IndexNow 자동 핑 (Bing/Naver)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ping-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Vercel 배포 대기 (2분)
+        run: sleep 120
+
+      - name: IndexNow 핑 전송
+        run: |
+          curl -s "https://api.indexnow.org/indexnow?url=https://pharm.jjyu.co.kr/sitemap.xml&key=9c135131626d49088fa4bfff9b5e8672&keyLocation=https://pharm.jjyu.co.kr/9c135131626d49088fa4bfff9b5e8672.txt"
+          echo "IndexNow 핑 완료"

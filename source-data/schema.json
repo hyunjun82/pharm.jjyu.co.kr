@@ -1,0 +1,40 @@
+{
+  "$comment": "pharm-jjyu 소스 JSON 필수 필드 스키마. verify-source.js가 이 스키마로 소스 유효성을 검증한다.",
+  "requiredFields": [
+    "itemName",
+    "efcyQesitm",
+    "useMethodQesitm",
+    "atpnQesitm",
+    "seQesitm",
+    "depositMethodQesitm"
+  ],
+  "fieldTypes": {
+    "itemName": "string",
+    "entpName": "string",
+    "itemSeq": "string",
+    "efcyQesitm": "string",
+    "useMethodQesitm": "string",
+    "atpnWarnQesitm": "string",
+    "atpnQesitm": "string",
+    "intrcQesitm": "string",
+    "seQesitm": "string",
+    "depositMethodQesitm": "string"
+  },
+  "minContentLength": {
+    "efcyQesitm": 10,
+    "useMethodQesitm": 10,
+    "atpnQesitm": 10
+  },
+  "fieldDescriptions": {
+    "itemName": "의약품명 (괄호 안에 성분명 포함)",
+    "entpName": "제조/수입사",
+    "itemSeq": "품목기준코드",
+    "efcyQesitm": "효능효과",
+    "useMethodQesitm": "용법용량 (1일 N회, 1회 N정, 만 N세 등 핵심 숫자)",
+    "atpnWarnQesitm": "경고 (과량 복용 시 등)",
+    "atpnQesitm": "주의사항 (금기, 연령제한 등)",
+    "intrcQesitm": "상호작용 (병용금기 약물)",
+    "seQesitm": "부작용",
+    "depositMethodQesitm": "보관법"
+  }
+}

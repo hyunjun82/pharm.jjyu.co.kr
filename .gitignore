@@ -1,0 +1,88 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (Cloudflare API 토큰 보호)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# source-data: 원본 4,556개 .json은 ignore, map과 schema만 commit (시스템 검증에 필요)
+/source-data/*
+!/source-data/source-map.json
+!/source-data/schema.json
+
+# scripts: 모두 commit (검증·배포 시스템 인프라)
+# 이전 ignore 해제
+
+# tmp (임시 파일)
+/tmp/
+
+# 빌드 시 자동 생성되는 JSON 데이터
+/public/data/
+
+# 스크린샷 / 이미지 캡처 (배포 무관)
+*.png
+*.jpeg
+
+# 루트 임시 스크립트
+/add_spokes.js
+/gen_spokes.js
+/test_run.js
+/tmp_*.js
+/spoke_data*.json
+/nul
+
+# 백업 파일
+/data/*.backup.ts
+/data/*.old.ts
+
+# IDE
+.vscode/
+.playwright-mcp/
+
+# .claude/ — 인프라(agents·skills·templates·docs·settings.json)는 commit, 임시·메모리는 ignore
+.claude/agent-memory/
+.claude/agent-memory-local/
+.claude/worktrees/
+.claude/settings.local.json
+.claude/plans/
+
+# 4-agent 체인 작업용 임시 (글 작성 brief·draft·verify 출력)
+_workspace/
+
+# 부분배포용 전체 사이트 스냅샷 (2026-06-13 사고 재발 방지)
+_full-out/
