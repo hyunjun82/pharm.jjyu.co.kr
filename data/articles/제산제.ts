@@ -123,8 +123,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-02-24",
     dateModified: "2026-07-17",
-    title: "겔포스엘4포 효과·가격·부작용 | 가격·효과·복용법",
-    h1: "겔포스엘4포 효과·가격·부작용 | 가격·효과·복용법",
+    title: "겔포스엘4포 복용법과 가격ㅣ성분·효과 정리",
+    h1: "겔포스엘4포 복용법과 가격ㅣ성분·효과 정리",
     metaDescription:
       "겔포스엘4포(보령 2017 허가) 식약처 등록 4성분(인산알루미늄겔·수산화마그네슘·시메티콘·DL-카르니틴염산염), 만 15세 이상 1일 1~3회 식간 복용법, 식욕감퇴·소화불량까지 12개 적응증을 정리했어요.",
     description:
@@ -903,8 +903,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-03-01",
     dateModified: "2026-07-17",
-    title: "노루모듀얼액션 효과·가격·부작용 | 가격·효과·복용법",
-    h1: "노루모듀얼액션 효과·가격·부작용 | 가격·효과·복용법",
+    title: "노루모듀얼액션이란? 효과부터 복용법, 가격까지",
+    h1: "노루모듀얼액션이란? 효과부터 복용법, 가격까지",
     metaDescription:
       "노루모듀얼액션현탁액(일양약품 2014 허가) 식약처 등록 알긴산나트륨+탄산수소나트륨+탄산칼슘 3성분, 12세 이상 1회 10~20mL 1일 4회 복용법, 7일 평가 한도, 국산 개비스콘 대안 검색의도까지 정리했어요.",
     description:
@@ -1254,8 +1254,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-03-01",
     dateModified: "2026-07-17",
-    title: "바로스콘더블16 효과·복용법·부작용 | 가격·효과·복용법",
-    h1: "바로스콘더블16 효과·복용법·부작용 | 가격·효과·복용법",
+    title: "바로스콘더블16 가격 부담된다면? 효과·복용법",
+    h1: "바로스콘더블16 가격 부담된다면? 효과·복용법",
     metaDescription:
       "바로스콘더블16(영진약품 2014 허가) 식약처 등록 알긴산나트륨+탄산칼슘+탄산수소나트륨 3성분, 12세 이상 1회 10~20mL 1일 4회 식후·취침 전 복용법, 7일 평가 한도까지 정리했어요.",
     description:
@@ -1611,8 +1611,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-03-01",
     dateModified: "2026-07-17",
-    title: "바로스콘더블4 효과·복용법·부작용 | 가격·효과·복용법",
-    h1: "바로스콘더블4 효과·복용법·부작용 | 가격·효과·복용법",
+    title: "바로스콘더블4 가격과 효과, 복용법 총정리",
+    h1: "바로스콘더블4 가격과 효과, 복용법 총정리",
     metaDescription:
       "바로스콘더블4(영진약품 2014 허가) 식약처 등록 알긴산나트륨+탄산칼슘+탄산수소나트륨 3성분, 12세 이상 1회 10~20mL 1일 4회 식후·취침 전 복용법, 7일 평가 한도까지 정리했어요.",
     description:
@@ -2220,8 +2220,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-03-01",
     dateModified: "2026-07-17",
-    title: "바로스콘더블20 효과·복용법·부작용 | 가격·효과·복용법",
-    h1: "바로스콘더블20 효과·복용법·부작용 | 가격·효과·복용법",
+    title: "바로스콘더블20 효과와 복용법, 가격 총정리",
+    h1: "바로스콘더블20 효과와 복용법, 가격 총정리",
     metaDescription:
       "바로스콘더블20(영진약품 2014 허가) 식약처 등록 알긴산나트륨+탄산칼슘+탄산수소나트륨 3성분, 12세 이상 1회 10~20mL 1일 4회 식후·취침 전 복용법, 7일 평가 한도까지 정리했어요.",
     description:
@@ -2439,8 +2439,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-03-01",
     dateModified: "2026-07-17",
-    title: "바로스콘더블15 효과·복용법·부작용 | 가격·효과·복용법",
-    h1: "바로스콘더블15 효과·복용법·부작용 | 가격·효과·복용법",
+    title: "바로스콘더블15 효과·복용법ㅣ가격까지 확인",
+    h1: "바로스콘더블15 효과·복용법ㅣ가격까지 확인",
     metaDescription:
       "바로스콘더블15(영진약품 2014 허가) 식약처 등록 알긴산나트륨+탄산칼슘+탄산수소나트륨 3성분, 12세 이상 1회 10~20mL 1일 4회 식후·취침 전 복용법, 7일 평가 한도까지 정리했어요.",
     description:
