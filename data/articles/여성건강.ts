@@ -735,7 +735,7 @@ export const spokes: Record<string, SpokeArticle> = {
     slug: "이브더블샷",
     categorySlug: "여성건강",
     datePublished: "2026-02-24",
-    dateModified: "2026-07-16",
+    dateModified: "2026-07-17",
     title: "이브더블샷 생리통에 효과 있나요? 복용법과 가격까지",
     h1: "이브더블샷 생리통에 효과 있나요? 복용법과 가격까지",
     metaDescription:
@@ -795,6 +795,7 @@ export const spokes: Record<string, SpokeArticle> = {
       },
     ],
   },
+
 
 
   "지노베타딘": {
