@@ -128,5 +128,29 @@
   "storeCount": 3,
   "aggregate": true,
   "fetchedAt": "2026-07-17"
+ },
+ "p570": {
+  "name": "탁센 레이디 연질캡슐 10캡슐",
+  "lowPrice": 1200,
+  "highPrice": 4000,
+  "storeCount": 24,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p458": {
+  "name": "에이스펜 10연질캡슐",
+  "lowPrice": 3000,
+  "highPrice": 3000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-07-17"
+ },
+ "p1469": {
+  "name": "신신 플렉스정 10정",
+  "lowPrice": 1900,
+  "highPrice": 2000,
+  "storeCount": 3,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
  }
 }
