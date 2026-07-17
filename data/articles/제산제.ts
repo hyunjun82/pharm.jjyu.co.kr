@@ -58,8 +58,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-02-24",
     dateModified: "2026-07-17",
-    title: "겔포스엠4포 효과·가격·부작용 | 가격·효과·복용법",
-    h1: "겔포스엠4포 효과·가격·부작용 | 가격·효과·복용법",
+    title: "겔포스엠4포 효과와 복용법, 가격 총정리",
+    h1: "겔포스엠4포 효과와 복용법, 가격 총정리",
     metaDescription:
       "겔포스엠4포(보령) 식약처 허가사항을 기준으로 1포 1일 3회 식간·취침 시 복용법, 복용간격 4시간 이상, 테트라사이클린계 항생제 병용금지, 3개월 미만 영아 금기, 식약처 등록 3성분 분량까지 정리했어요.",
     description:
@@ -188,8 +188,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-02-24",
     dateModified: "2026-07-17",
-    title: "알마겔에프20포 효과·가격·부작용 | 가격·효과·복용법",
-    h1: "알마겔에프20포 효과·가격·부작용 | 가격·효과·복용법",
+    title: "알마겔에프20포 가격 부담된다면? 효과·복용법",
+    h1: "알마겔에프20포 가격 부담된다면? 효과·복용법",
     metaDescription:
       "알마겔에프20포(유한양행 1990 허가) 식약처 등록 알마게이트 단일 성분 100mL 중 10g(알마겔의 1.5배), 1포(15mL)당 1.5g, 12세 이상 1일 3회 식후 30분~1시간 복용법까지 정리했어요.",
     description:
@@ -253,8 +253,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-02-24",
     dateModified: "2026-07-17",
-    title: "알마겔20포 효과·가격·부작용 | 가격·효과·복용법",
-    h1: "알마겔20포 효과·가격·부작용 | 가격·효과·복용법",
+    title: "알마겔20포란? 효과부터 복용법, 가격까지",
+    h1: "알마겔20포란? 효과부터 복용법, 가격까지",
     metaDescription:
       "알마겔20포(유한양행 1984 허가) 식약처 등록 알마게이트 단일 성분(100mL 중 6.66g) 분량, 12세 이상 1회 1g 1일 3회 식후 30분~1시간 복용법, 알츠하이머·임신중독증 등 금기까지 정리했어요.",
     description:
@@ -513,8 +513,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-02-24",
     dateModified: "2026-07-17",
-    title: "겔포스엠6포 효과·가격·부작용 | 가격·효과·복용법",
-    h1: "겔포스엠6포 효과·가격·부작용 | 가격·효과·복용법",
+    title: "겔포스엠6포 복용법과 가격ㅣ효과 확인",
+    h1: "겔포스엠6포 복용법과 가격ㅣ효과 확인",
     metaDescription:
       "겔포스엠6포(보령) 식약처 허가사항을 기준으로 1포 1일 3회 식간·취침 시 복용법, 6포 = 약 1.5일분, 복용간격 4시간 이상, 테트라사이클린계 항생제 병용금지까지 정리했어요.",
     description:
@@ -578,8 +578,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-02-24",
     dateModified: "2026-07-17",
-    title: "알마겔에프6포 효과·가격·부작용 | 가격·효과·복용법",
-    h1: "알마겔에프6포 효과·가격·부작용 | 가격·효과·복용법",
+    title: "알마겔에프6포 효과·복용법ㅣ가격까지 확인",
+    h1: "알마겔에프6포 효과·복용법ㅣ가격까지 확인",
     metaDescription:
       "알마겔에프6포(유한양행 1990 허가) 식약처 등록 알마게이트 1포 1.5g 농도 강화, 12세 이상 1일 3회 식후 30분~1시간 복용법, 6포는 1.5일분 4포와 20포 사이 중간 단위 검색의도까지 정리했어요.",
     description:
@@ -708,8 +708,8 @@ export const spokes: Record<string, SpokeArticle> = {
     categorySlug: "제산제",
     datePublished: "2026-02-26",
     dateModified: "2026-07-17",
-    title: "개비스콘더블액션현탁액12포 효과·가격·부작용 | 가격·효과·복용법",
-    h1: "개비스콘더블액션현탁액12포 효과·가격·부작용 | 가격·효과·복용법",
+    title: "개비스콘더블액션현탁액12포 가격과 효과 정리",
+    h1: "개비스콘더블액션현탁액12포 가격과 효과 정리",
     metaDescription:
       "개비스콘더블액션현탁액12포(옥시레킷벤키저 2008 허가) 식약처 등록 알긴산나트륨+탄산칼슘+탄산수소나트륨 3성분, 12포 = 1일 4포 풀 용량 기준 3일분 + 1주일 자가 복용 평가 패턴까지 정리했어요.",
     description:
