@@ -39,6 +39,10 @@ try {
   console.log(`사이트맵 제외(NEEDS_REFETCH): ${EXCLUDE.size}건`);
 } catch {}
 
+// P0(2026-07-17): 가격 데이터 전무 카테고리(1,133/1,134편 0원 렌더) 색인 유도 중단.
+//   page.tsx의 NOINDEX_CATEGORIES와 세트 — 발키리 유산균 가격 확보 시 두 곳 모두에서 제거해 복귀.
+const NOINDEX_CATEGORIES = new Set(["유산균"]);
+
 const entries = [];
 
 // ⚠️ trailingSlash: true 사이트이므로 모든 URL은 반드시 "/"로 끝나야 함.
@@ -48,14 +52,17 @@ entries.push(urlEntry(`${BASE_URL}/`, now, "weekly", "1.0"));
 entries.push(urlEntry(`${BASE_URL}/about/`, "2026-02-22", "monthly", "0.5"));
 
 for (const hub of Object.values(hubArticles)) {
+  if (NOINDEX_CATEGORIES.has(hub.categorySlug)) continue;
   entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/`, hub.dateModified, "weekly", "0.9"));
 }
 
 for (const hub of Object.values(hubArticles)) {
+  if (NOINDEX_CATEGORIES.has(hub.categorySlug)) continue;
   entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(hub.categorySlug)}/${encodeURIComponent("가격비교")}/`, hub.dateModified, "weekly", "0.7"));
 }
 
 for (const [category, articles] of Object.entries(spokeArticles)) {
+  if (NOINDEX_CATEGORIES.has(category)) continue;
   for (const article of Object.values(articles)) {
     if (EXCLUDE.has(article.slug)) continue;
     entries.push(urlEntry(`${BASE_URL}/${encodeURIComponent(category)}/${encodeURIComponent(article.slug)}/`, article.dateModified, "monthly", "0.8"));
