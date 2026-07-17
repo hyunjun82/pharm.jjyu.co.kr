@@ -256,7 +256,7 @@ export const spokes: Record<string, SpokeArticle> = {
     slug: "이지엔6이브",
     categorySlug: "여성건강",
     datePublished: "2026-02-24",
-    dateModified: "2026-07-16",
+    dateModified: "2026-07-17",
     title: "이지엔6이브 생리통에 효과, 복용법과 가격까지 정리",
     h1: "이지엔6이브 생리통에 효과, 복용법과 가격까지 정리",
     metaDescription:
@@ -316,6 +316,7 @@ export const spokes: Record<string, SpokeArticle> = {
       },
     ],
   },
+
 
 
   "이지엔6프로": {
