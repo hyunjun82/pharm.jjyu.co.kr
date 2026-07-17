@@ -390,7 +390,7 @@ export const spokes: Record<string, SpokeArticle> = {
     slug: "이지엔6에이스",
     categorySlug: "여성건강",
     datePublished: "2026-02-24",
-    dateModified: "2026-07-16",
+    dateModified: "2026-07-17",
     title: "이지엔6에이스, 복용 전 확인할 성분과 부작용, 가격까지",
     h1: "이지엔6에이스, 복용 전 확인할 성분과 부작용, 가격까지",
     metaDescription:
@@ -450,6 +450,7 @@ export const spokes: Record<string, SpokeArticle> = {
       },
     ],
   },
+
 
 
   "이지엔6나이트": {
