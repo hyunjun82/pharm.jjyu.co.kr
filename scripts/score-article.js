@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** score-article.js — 표준 11편 대비 품질 점수. 기준 90% 미달 지표가 있으면 FAIL(재작성).
+/** score-article.js — 표준 대비 품질 점수. 기준 미달 지표가 있으면 FAIL(재작성).
  *  사용:  node scripts/score-article.js --calibrate /tmp/rc-*.json   # 기준점 갱신
  *         node scripts/score-article.js {slug} {draft.json}          # 채점
  *  기준 저장: scripts/quality-benchmark.json (커밋 대상)
@@ -32,15 +32,18 @@ if (process.argv[2] === "--calibrate") {
   const files = process.argv.slice(3);
   const all = files.map((f) => metrics(JSON.parse(fs.readFileSync(f, "utf8"))));
   const bench = {};
+  // 2026-07-17 캘리브레이션 공식 수정: 중앙값×0.9 → 최악값×0.95.
+  //   구공식은 정답지의 절반이 구조적으로 기준 미달(지표 10개 × 중앙값 기준 = 표준 글 대부분이 1개 이상 걸림).
+  //   회귀 실측: 표준 13편 중 9편 false-FAIL → 공식 결함 확정. 하한선 의미(표준 최악보다 나쁘면 차단)로 재정의.
   for (const k of HIGHER_BETTER) {
     const v = all.map((m) => m[k]).sort((a, b) => a - b);
-    bench[k] = { median: v[Math.floor(v.length / 2)], floor: +(v[Math.floor(v.length / 2)] * 0.9).toFixed(2) };
+    bench[k] = { median: v[Math.floor(v.length / 2)], floor: +(v[0] * 0.95).toFixed(2) };
   }
   for (const k of LOWER_BETTER) {
     const v = all.map((m) => m[k]).sort((a, b) => a - b);
-    bench[k] = { median: v[Math.floor(v.length / 2)], ceil: +(v[Math.floor(v.length / 2)] * 1.30).toFixed(2) };
+    bench[k] = { median: v[Math.floor(v.length / 2)], ceil: +(v[v.length - 1] * 1.05).toFixed(2) };
   }
-  bench._calibratedFrom = files.length + "편 (v3.1 PASS 표준)";
+  bench._calibratedFrom = files.length + "편 (2026-07-17 현행 게이트 전체 PASS 표준)";
   bench._date = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(BM, JSON.stringify(bench, null, 1));
   console.log("기준점 저장:", BM);
@@ -72,7 +75,7 @@ for (const k of LOWER_BETTER) {
 }
 console.log(`[${slug}] 측정:`, JSON.stringify(m));
 if (fails.length) {
-  console.log("SCORE FAIL — 표준 11편 대비 미달. 재작성 필요:\n- " + fails.join("\n- "));
+  console.log("SCORE FAIL — 표준 대비 미달. 재작성 필요:\n- " + fails.join("\n- "));
   process.exit(1);
 }
 console.log("SCORE PASS ✓ (표준 글 품질 이상)");

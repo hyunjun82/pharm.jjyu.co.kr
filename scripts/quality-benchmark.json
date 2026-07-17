@@ -1,44 +1,44 @@
 {
  "totalChars": {
-  "median": 2673,
-  "floor": 2405.7
+  "median": 2913,
+  "floor": 2415.85
  },
  "minSection": {
-  "median": 322,
-  "floor": 289.8
+  "median": 337,
+  "floor": 293.55
  },
  "avgSection": {
-  "median": 374,
-  "floor": 336.6
+  "median": 371,
+  "floor": 321.1
  },
  "numPer100": {
-  "median": 2.91,
-  "floor": 2.33
+  "median": 2.48,
+  "floor": 1.31
  },
  "citePer1000": {
-  "median": 4.58,
-  "floor": 3.66
+  "median": 4.64,
+  "floor": 3.49
  },
  "shortSentRatio": {
-  "median": 0.16,
+  "median": 0.2,
   "floor": 0.14
  },
  "sectionCount": {
   "median": 6,
-  "floor": 5.4
+  "floor": 5.7
  },
  "faqCount": {
   "median": 3,
-  "floor": 2.7
+  "floor": 2.85
  },
  "heroLen": {
-  "median": 158,
-  "floor": 142.2
+  "median": 177,
+  "floor": 144.4
  },
  "endingDominance": {
-  "median": 0.3,
-  "ceil": 0.39
+  "median": 0.25,
+  "ceil": 0.35
  },
- "_calibratedFrom": "11편 (v3.1 PASS 표준)",
- "_date": "2026-06-12"
+ "_calibratedFrom": "13편 (2026-07-17 현행 게이트 전체 PASS 표준)",
+ "_date": "2026-07-17"
 }

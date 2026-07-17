@@ -1,6 +1,22 @@
 # pharm.jjyu.co.kr 글 생산 규칙
 
-> v3.2 (2026-07-02). 마스터 템플릿 `.claude/templates/master-quality.template.md` 기준. 디테일은 `.claude/docs/operations.md`. 검증 기준은 `scripts/quality-config.json`.
+> v3.3 (2026-07-17). 마스터 템플릿 `.claude/templates/master-quality.template.md` 기준. 디테일은 `.claude/docs/operations.md`. 검증 기준은 `scripts/quality-config.json`.
+
+## 원칙 0: 추측 금지 (모든 규칙에 우선)
+
+1. **실측 근거 없는 판단·보고 금지.** 모든 주장에는 실행 로그·파일 경로·명령 출력 근거가 있어야 한다. 근거가 없으면 "모른다"고 말하고 실측부터 한다.
+2. **측정 도구도 검증 대상.** 스캔·스크립트·정규식은 정답을 아는 표본에 먼저 돌려 맞는지 확인한 뒤 사용한다 (2026-07-17 실측: 정규식 스캔이 중복 23건 중 7건만 탐지 — 도구 미검증이 오판 원인).
+3. **변경은 전후 대조로만.** 시스템·글 무엇이든: 변경 전 실측 → 변경 → 변경 후 재실측 → 정답지(good/bad 라벨 세트)와 대조. 회귀에서 정답이 깨지면 롤백 (2026-07-17 실측: score 재캘리브레이션 1차안이 표준 13편 중 9편을 false-FAIL → 공식 수정 후 13/13 통과).
+4. **게이트는 자기 표준을 통과시켜야 유효.** 규칙을 강화하면 표준 세트에 즉시 재실행해 캘리브레이션 어긋남을 확인한다 (7/2 규칙 강화 후 라이브 표준 글들이 미달 상태로 방치됐던 사고 재발 방지).
+
+## 시스템 변경 로그 (2026-07-17)
+
+- **pre-deploy-gate v2**: 푸시 차단 체인이 validate+human-feel 2종 → **6종**(validate·human-feel·score·crosssim·B20·judge)으로 강화. judge FAIL(80점 미만)이면 배포 차단, claude CLI 미가용 시 스킵+경고(사람 검토 의무). *v1 시절 judge FAIL 15/18편이 라이브에 올라간 사고의 재발 방지.*
+- **B20 신설(게이트 인라인)**: 타이틀 약속(몇~/가격/언제부터/vs·차이/될까)↔서론 첫 160자 즉답 일치 검사.
+- **score 캘리브레이션 공식 수정**: floor=중앙값×0.9 → **최악값×0.95** (하한선 본래 의미). 새 표준 13편: 판시딜액3·피나시드정1mg·판시딜액·두아모정·모리모리액5·프로페시아·피나시딜정·경동판테놀연고·나프졸크림·노바손크림·녹십자아시클로버크림·뉴유스킨에이크림·게보린.
+- **유산균 카테고리 noindex** (P0): 1,133/1,134편 가격 데이터 전무(0원 렌더) → robots noindex + 사이트맵 제외(2,638→1,509 URL). 발키리 유산균 가격 확보 시 `app/[category]/[slug]/page.tsx`·`app/[category]/page.tsx`·`app/[category]/가격비교/page.tsx`·`scripts/generate-sitemap.js`의 NOINDEX_CATEGORIES에서 제거해 복귀.
+- **교차 카테고리 중복 23건 정리**: 정본 기준 = 최신 콘텐츠 > 소스 categorySlug > 건기식은 의약품 카테고리 금지. app/sitemap.ts 삭제(사이트맵 주인 = generate-sitemap.js 단일).
+- **글 생산 동결 중**: intent-harvest(포털 실측 수집기)·auto-batch judge 강제화가 완성되고 파일럿 5편이 신규 게이트+운영자 승인을 통과하기 전까지 신규·리라이트 금지.
 
 ## 배포 규칙 (불가변 — 푸시 전 반드시 확인)
 
