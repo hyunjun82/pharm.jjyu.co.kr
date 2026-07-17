@@ -1416,7 +1416,7 @@ export const spokes: Record<string, SpokeArticle> = {
     slug: "탁센이브",
     categorySlug: "여성건강",
     datePublished: "2026-02-25",
-    dateModified: "2026-07-16",
+    dateModified: "2026-07-17",
     title: "탁센이브 생리통엔 언제 먹어야 할까? 복용법과 가격 정리",
     h1: "탁센이브 생리통엔 언제 먹어야 할까? 복용법과 가격 정리",
     metaDescription:
@@ -1476,6 +1476,8 @@ export const spokes: Record<string, SpokeArticle> = {
       },
     ],
   },
+
+
 
 
   "센스데이정": {
