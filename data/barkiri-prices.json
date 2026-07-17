@@ -1,0 +1,132 @@
+{
+ "p223": {
+  "name": "아보다트 연질캡슐 0.5밀리그램 30연질캡슐",
+  "lowPrice": 21960,
+  "highPrice": 34850,
+  "storeCount": 8,
+  "fetchedAt": "2026-07-17"
+ },
+ "p1559": {
+  "name": "타이센정 500mg 10정",
+  "lowPrice": 1000,
+  "highPrice": 1000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-07-17"
+ },
+ "p1609": {
+  "name": "탁센 레이디 연질캡슐 30캡슐",
+  "lowPrice": 4000,
+  "highPrice": 10000,
+  "storeCount": 16,
+  "fetchedAt": "2026-07-17"
+ },
+ "p88": {
+  "name": "타이레놀정 500mg 10정",
+  "lowPrice": 2200,
+  "highPrice": 4000,
+  "storeCount": 74,
+  "fetchedAt": "2026-07-17"
+ },
+ "p78": {
+  "name": "게보린정 10정",
+  "lowPrice": 2800,
+  "highPrice": 4000,
+  "storeCount": 12,
+  "fetchedAt": "2026-07-17"
+ },
+ "p61": {
+  "name": "프로페시아정 1mg 28정",
+  "lowPrice": 47990,
+  "highPrice": 60000,
+  "storeCount": 13,
+  "fetchedAt": "2026-07-17"
+ },
+ "p135": {
+  "name": "동성 미녹시딜액 5% 200ml",
+  "lowPrice": 21000,
+  "highPrice": 35000,
+  "storeCount": 16,
+  "fetchedAt": "2026-07-17"
+ },
+ "p1208": {
+  "name": "사리돈 에이정 10정",
+  "lowPrice": 2700,
+  "highPrice": 3500,
+  "storeCount": 2,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p1445": {
+  "name": "판시딜액 5% 240ml",
+  "lowPrice": 24000,
+  "highPrice": 40000,
+  "storeCount": 5,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p1572": {
+  "name": "이지엔6스트롱 연질캡슐 10캡슐",
+  "lowPrice": 1700,
+  "highPrice": 2000,
+  "storeCount": 3,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p267": {
+  "name": "애드빌 리퀴겔 연질캡슐 10연질캡슐",
+  "lowPrice": 2000,
+  "highPrice": 3500,
+  "storeCount": 10,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p285": {
+  "name": "로게인 폼 에어로졸 5% 60g 3개입",
+  "lowPrice": 67000,
+  "highPrice": 85000,
+  "storeCount": 16,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p676": {
+  "name": "판시딜 180캡슐",
+  "lowPrice": 65000,
+  "highPrice": 80000,
+  "storeCount": 2,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p758": {
+  "name": "낙센 250mg 연질캡슐 10캡슐",
+  "lowPrice": 1500,
+  "highPrice": 3000,
+  "storeCount": 9,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p80": {
+  "name": "덱스피드 연질캡슐 10캡슐",
+  "lowPrice": 1500,
+  "highPrice": 3000,
+  "storeCount": 9,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p81": {
+  "name": "탁센 연질캡슐 10캡슐",
+  "lowPrice": 1400,
+  "highPrice": 3000,
+  "storeCount": 60,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ },
+ "p86": {
+  "name": "펜잘 큐 정 10정",
+  "lowPrice": 2300,
+  "highPrice": 2500,
+  "storeCount": 3,
+  "aggregate": true,
+  "fetchedAt": "2026-07-17"
+ }
+}

@@ -55,7 +55,8 @@ const log = { started: ts, mode: REPAIR ? "repair" : "rewrite", category: CATEGO
 // ── 큐 로드
 let queue = [];
 const SLUGS = opt("--slugs", null);
-if (SLUGS) queue = String(SLUGS).split(",");
+// 2026-07-17: --slugs는 "카테고리/슬러그" 형식 허용 — 내부 처리(브리프·작성)는 bare 슬러그 사용 (드라이런 실측서 발견된 차단 버그 수정)
+if (SLUGS) queue = String(SLUGS).split(",").map((s) => (s.includes("/") ? s.split("/").pop() : s)).map((s) => s.trim()).filter(Boolean);
 else
 if (!SLUGS && REPAIR) {
   queue = JSON.parse(fs.readFileSync("_workspace/repair-list.json", "utf8")).map((x) => x.slug);
@@ -166,10 +167,14 @@ function gate(slug, draftPath) {
   // Layer 2.5: human-feel — AI 찍어내기/규정문서 단조/출처부재/복제양산 차단 (하드 FAIL이면 반려)
   try { execSync(`node scripts/human-feel.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
   catch (e) { r.violations += (e.stdout || ""); return r; }
-  // Layer 2.6: satisfaction-judge — 초안 공급 모드(tries 1)에선 스킵 (에스컬 검토가 대체 — 호출 3배 절감)
-  if (!DRY && MAX_RETRY > 1) {
+  // Layer 2.6: satisfaction-judge — 2026-07-17 강제화: 모드 무관 항상 실행 (v1 스킵이 judge FAIL 15편 라이브 사고의 원인).
+  //   B20(타이틀↔서론 즉답)은 pre-deploy-gate에서도 재검사됨. judge 자체는 3회 평균 판정(satisfaction-judge 내부).
+  if (!DRY) {
     try { execSync(`node scripts/satisfaction-judge.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
-    catch (e) { if (e.status === 1) { r.violations += (e.stdout || ""); return r; } else { console.log(`   (만족심판 스킵 — judge 불가: ${slug})`); } }
+    catch (e) {
+      if (e.status === 1) { r.violations += (e.stdout || ""); return r; }
+      else { console.log(`   ⚠️ 만족심판 실행불가(${slug}) — CLI 미가용. 이 글은 배포 전 pre-deploy-gate에서 반드시 재검.`); }
+    }
   }
   // Layer 4: 글로벌 교차 유사도(도어웨이). gram-index 없으면 skip(0), 중복위험(1)이면 반려.
   if (!DRY) {
