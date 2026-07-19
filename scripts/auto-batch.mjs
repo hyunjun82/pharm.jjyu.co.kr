@@ -209,7 +209,14 @@ for (const slug of queue.slice(0, N)) {
       const raw = att === 1
         ? writeDraft(slug, `_workspace/briefs/${slug}.json`, null, att)
         : editDraft(slug, dp, violations, `_workspace/briefs/${slug}.json`);
-      const draft = extractJson(raw);
+      // 2026-07-19: JSON 파싱 실패 시 원문 저장 — "JSON 없음"만 남고 클로드가 뭐라 답했는지 증발해 진단 불가였던 결함 수리
+      let draft;
+      try { draft = extractJson(raw); }
+      catch (e) {
+        const rawPath = `_workspace/batch-logs/raw-${slug}-att${att}.txt`;
+        try { fs.writeFileSync(rawPath, raw == null ? "(null)" : String(raw)); } catch {}
+        throw new Error(`JSON 없음 (원문 ${String(raw||"").length}자 → ${rawPath})`);
+      }
       fs.writeFileSync(dp, JSON.stringify(draft));
       try { execSync(`node scripts/polish-draft.mjs "${dp}"`, { stdio: "pipe" }); } catch {}
       const g = gate(slug, dp);
