@@ -9,6 +9,7 @@
  *    ⑥ satisfaction-judge (claude CLI 있을 때만 — 없으면 경고 후 스킵)
  */
 const fs = require("fs");
+const crypto = require("crypto");
 const { execSync } = require("child_process");
 
 const arg = process.argv[2] || "";
@@ -32,10 +33,10 @@ function extract(tsSrc, slug) {
   const title = g(/\btitle:\s*"((?:[^"\\]|\\.)*)"/);
   const meta = g(/metaDescription:\s*\n?\s*"((?:[^"\\]|\\.)*)"/);
   const hero = g(/heroDescription:\s*\n?\s*"((?:[^"\\]|\\.)*)"/);
-  const sections = [...block.matchAll(/title:\s*"((?:[^"\\]|\\.)*)",\s*\n\s*content:\s*\n?\s*"((?:[^"\\]|\\.)*)"/g)]
-    .map((x) => ({ title: x[1].replace(/\\n/g, "\n").replace(/\\"/g, '"'), content: x[2].replace(/\\n/g, "\n").replace(/\\"/g, '"') }));
-  const faq = [...block.matchAll(/question:\s*"((?:[^"\\]|\\.)*)",\s*\n\s*answer:\s*\n?\s*"((?:[^"\\]|\\.)*)"/g)]
-    .map((x) => ({ question: x[1].replace(/\\n/g, "\n"), answer: x[2].replace(/\\n/g, "\n").replace(/\\"/g, '"') }));
+  const sections = [...block.matchAll(/title:\s*"((?:[^"\\]|\\.)*)",\s*\n\s*content:\s*\n?\s*(?:"((?:[^"\\]|\\.)*)"|`([^`]*)`)/g)]
+    .map((x) => ({ title: x[1].replace(/\\n/g, "\n").replace(/\\"/g, '"'), content: (x[2]||x[3]||"").replace(/\\n/g, "\n").replace(/\\"/g, '"') }));
+  const faq = [...block.matchAll(/question:\s*"((?:[^"\\]|\\.)*)",\s*\n\s*answer:\s*\n?\s*(?:"((?:[^"\\]|\\.)*)"|`([^`]*)`)/g)]
+    .map((x) => ({ question: x[1].replace(/\\n/g, "\n"), answer: (x[2]||x[3]||"").replace(/\\n/g, "\n").replace(/\\"/g, '"') }));
   if (!title || !sections.length) return null;
   return { title, metaDescription: meta, heroDescription: hero, sections, faq };
 }
@@ -81,8 +82,23 @@ for (const it of items) {
   const b20 = b20TitleIntroMatch(draft);
   if (b20.length) { reasons.push("B20"); console.log(`   ${it}: ${b20.join(" / ")}`); }
   // judge: CLI 없으면 exit 2 → 경고 스킵 (사람이 대신 검토해야 함)
-  try { execSync(`node scripts/satisfaction-judge.js "${slug}" "${tmp}"`, { stdio: "pipe" }); }
-  catch (e) { if (e.status === 1) reasons.push("judge<80점"); else judgeSkipped++; }
+  // 2026-07-19 신설 — judge PASS 캐시: 같은 내용(해시 동일)이 이미 통과했으면 재채점 생략.
+  //   실측 근거: 비모보정30정이 동일 내용으로 82점 PASS → 1시간 뒤 재채점에서 79점 FAIL (LLM 채점 요동).
+  //   경계선 글이 배포마다 복불복 차단되는 결함 + 통과분 재채점은 토큰 낭비. 내용이 바뀌면 해시가 달라져 자동 재채점.
+  const CACHE_FILE = "_workspace/judge-cache.json";
+  let judgeCache = {}; try { judgeCache = JSON.parse(fs.readFileSync(CACHE_FILE, "utf8")); } catch {}
+  const contentHash = crypto.createHash("sha256").update(JSON.stringify(draft)).digest("hex").slice(0, 16);
+  const cached = judgeCache[slug];
+  if (cached && cached.hash === contentHash && cached.pass) {
+    console.log(`   ${it}: judge 캐시 PASS (${cached.date} 통과분과 동일 내용 — 재채점 생략)`);
+  } else {
+    try {
+      execSync(`node scripts/satisfaction-judge.js "${slug}" "${tmp}"`, { stdio: "pipe" });
+      judgeCache[slug] = { hash: contentHash, pass: true, date: new Date().toISOString().slice(0, 10) };
+      fs.writeFileSync(CACHE_FILE, JSON.stringify(judgeCache, null, 1));
+    }
+    catch (e) { if (e.status === 1) reasons.push("judge<80점"); else judgeSkipped++; }
+  }
   try { fs.unlinkSync(tmp); } catch {}
   if (reasons.length) { console.log(`❌ ${it} 품질 FAIL (${reasons.join(", ")})`); failed.push(it); }
   else console.log(`✅ ${it} 품질 통과`);
