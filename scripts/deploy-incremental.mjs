@@ -130,6 +130,13 @@ console.log("📡 feed.xml 재생성 → 스냅샷에 반영");
 execSync("node scripts/generate-feed.js", { cwd: ROOT, stdio: "inherit" });
 cpSync(join(ROOT, "public", "feed.xml"), join(SNAPSHOT, "feed.xml"));
 
+// ── IndexNow 키 파일 스냅샷 강제 반영 (2026-07-19 사고 수리) ──
+// 실측: clean-out.mjs가 키 .txt까지 삭제해 라이브 404 → 빙·네이버가 IndexNow 통지 전부 무시 상태였음.
+// clean-out은 수정했지만, 과거 스냅샷에 이미 빠져있으므로 매 배포마다 여기서 무조건 다시 넣는다.
+const INDEXNOW_KEY_FILE = "9c135131626d49088fa4bfff9b5e8672.txt";
+cpSync(join(ROOT, "public", INDEXNOW_KEY_FILE), join(SNAPSHOT, INDEXNOW_KEY_FILE));
+console.log("🔑 IndexNow 키 파일 스냅샷 반영 완료");
+
 console.log("\n☁️  Step 2: Cloudflare Pages 배포 (_full-out/ 전체 스냅샷 — 변경 파일만 실제 전송)");
 console.log("─".repeat(50));
 try {
