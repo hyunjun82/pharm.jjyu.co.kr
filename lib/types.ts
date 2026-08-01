@@ -54,6 +54,10 @@ export interface SpokeArticle {
     | "nutrition";
   ingredientGroup?: string;
   priceRange?: { min: number; max: number; storeCount: number };
+  /** 성분군 허브 글에서 본문 첫 화면 목차를 노출할지 */
+  showToc?: boolean;
+  /** 목차 아래에 표기할 데이터 기준일 문구 */
+  asOfNote?: string;
 }
 
 export interface IngredientItem {
@@ -68,7 +72,13 @@ export interface ArticleSection {
   content: string;
   data?: string;
   ingredients?: IngredientItem[];
-  sectionType?: "default" | "timeline" | "comparison";
+  sectionType?: "default" | "timeline" | "comparison" | "calculator";
+  /**
+   * 이 섹션 바로 뒤에 가격비교 CTA를 붙인다.
+   * 지정하면 제목에 '가격'이 들어갔는지 보는 자동 판정을 쓰지 않는다.
+   * 제목이 두 개 이상 '가격'을 포함할 때 CTA가 중복 노출되는 걸 막는다.
+   */
+  ctaAfter?: boolean;
   _qa?: {
     verified?: string;
     charCount?: number;

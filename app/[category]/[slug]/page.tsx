@@ -13,6 +13,8 @@ import { AuthorBio } from "@/components/AuthorBio";
 import { AdSlot } from "@/components/AdSlot";
 import { TimelineCard } from "@/components/TimelineCard";
 import { CompareTable } from "@/components/CompareTable";
+import { ArticleToc } from "@/components/ArticleToc";
+import { MinoxidilCalc } from "@/components/MinoxidilCalc";
 import { getSpokeArticle, getSpokeIndex } from "@/data/articles";
 import { getProductsByCategory } from "@/data/products";
 import { categories } from "@/data/categories";
@@ -93,8 +95,9 @@ export async function generateMetadata({
   const spokeSlug = decodeURIComponent(slug);
   const article = await getSpokeArticle(catSlug, spokeSlug);
   if (!article) return {};
-  // P0(2026-07-17): 가격 데이터 전무 카테고리는 색인 제외 — 발키리 실거래가 확보 시 목록에서 제거해 복귀
-  const NOINDEX_CATEGORIES = new Set(["유산균"]);
+  // 2026-08-01: 유산균 noindex 해제 (2026-07-17 색인 회귀 복구).
+  //   0원 렌더 문제는 아래 가격 문단·Product 스키마를 조건부로 바꿔 해결 → 페이지 자체를 막을 이유 없음.
+  const NOINDEX_CATEGORIES = new Set<string>([]);
   return {
     title: article.title,
     description: article.metaDescription,
@@ -145,6 +148,17 @@ export default async function SpokePage({ params }: PageProps) {
     : matchedProduct
       ? [matchedProduct]
       : [];
+
+  // 목차 항목 — 소제목을 그대로 쓰고, 각 섹션 앵커로 이동시킨다
+  const tocItems = [
+    ...article.sections.map((sec, i) => ({
+      id: `sec-${i + 1}`,
+      title: sec.title,
+    })),
+    ...(article.faq.length > 0
+      ? [{ id: "sec-faq", title: "자주 묻는 질문" }]
+      : []),
+  ];
 
   return (
     <>
@@ -212,6 +226,11 @@ export default async function SpokePage({ params }: PageProps) {
         {/* Main Column */}
         <div className="flex-1 max-w-3xl">
 
+      {/* 목차 — 성분군 허브 글에서만 (showToc) */}
+      {article.showToc && (
+        <ArticleToc items={tocItems} asOf={article.asOfNote} />
+      )}
+
       {/* Main Product Card */}
       <section className="py-6">
         {displayProducts.length > 0 && (
@@ -230,14 +249,25 @@ export default async function SpokePage({ params }: PageProps) {
       <article className="daum-wm-content">
         {article.sections.map((section, i) => {
           const { icon: Icon, color } = getSectionIcon(section.title);
-          const hasOwnPrice = article.sections.some((sec) => sec.title.includes("가격"));
+          // ctaAfter를 지정한 글은 그 섹션 뒤에만 CTA를 붙인다.
+          // 지정이 없으면 기존 규칙(제목에 '가격' 포함 → 그 뒤)을 그대로 쓴다.
+          const explicitCta = article.sections.some((sec) => sec.ctaAfter);
+          const hasOwnPrice =
+            explicitCta || article.sections.some((sec) => sec.title.includes("가격"));
           const showPriceAfter =
-            (hasOwnPrice
-              ? section.title.includes("가격")
-              : section.title.includes("사용법") || section.title.includes("복용법")) && !!mainProduct;
+            (explicitCta
+              ? !!section.ctaAfter
+              : hasOwnPrice
+                ? section.title.includes("가격")
+                : section.title.includes("사용법") || section.title.includes("복용법")) &&
+            !!mainProduct;
           return (
             <Fragment key={i}>
-              <section className="mb-8">
+              <section
+                id={`sec-${i + 1}`}
+                className="mb-8"
+                style={{ scrollMarginTop: 84 }}
+              >
                 <div className="flex items-center gap-2.5 mb-3">
                   <div className={`flex h-8 w-8 items-center justify-center rounded-lg bg-gray-50 ${color}`}>
                     <Icon className="h-4.5 w-4.5" />
@@ -261,6 +291,8 @@ export default async function SpokePage({ params }: PageProps) {
                   {section.sectionType === "comparison" && section.data && (
                     <CompareTable items={JSON.parse(section.data)} />
                   )}
+                  {section.sectionType === "calculator" &&
+                    section.data === "미녹시딜" && <MinoxidilCalc />}
                 </div>
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
               </section>
@@ -295,10 +327,16 @@ export default async function SpokePage({ params }: PageProps) {
                             약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
                           </>
                         ) : (
+                          mainProduct.price > 0 ? (
                           <>
-                            {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원 / {mainProduct.unit} 기준이에요.
+                            {spokeSlug}의 약국 판매 가격은 {new Intl.NumberFormat("ko-KR").format(mainProduct.price)}원{mainProduct.unit ? " / " + mainProduct.unit + " 기준" : ""}이에요.
                             약국마다 가격이 다를 수 있으니, 약국별 실시간 최저가를 비교해 보세요.
                           </>
+                          ) : (
+                          <>
+                            {spokeSlug}의 판매 가격은 판매처와 용량에 따라 달라요. 아래에서 실시간 최저가를 확인해 보세요.
+                          </>
+                          )
                         )}
                       </p>
                       )}
@@ -321,7 +359,7 @@ export default async function SpokePage({ params }: PageProps) {
 
       {/* FAQ */}
       {article.faq.length > 0 && (
-        <div className="pb-4">
+        <div id="sec-faq" className="pb-4" style={{ scrollMarginTop: 84 }}>
           <FAQSection items={article.faq} />
         </div>
       )}
@@ -523,13 +561,15 @@ export default async function SpokePage({ params }: PageProps) {
                     availability: "https://schema.org/InStock",
                     priceValidUntil: "2026-12-31",
                   }
-                : {
-                    "@type": "Offer",
-                    price: mainProduct.price,
-                    priceCurrency: "KRW",
-                    availability: "https://schema.org/InStock",
-                    priceValidUntil: "2026-12-31",
-                  },
+                : mainProduct.price > 0
+                  ? {
+                      "@type": "Offer",
+                      price: mainProduct.price,
+                      priceCurrency: "KRW",
+                      availability: "https://schema.org/InStock",
+                      priceValidUntil: "2026-12-31",
+                    }
+                  : undefined,
             }),
           }}
         />
