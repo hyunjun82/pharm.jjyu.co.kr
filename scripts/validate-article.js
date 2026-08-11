@@ -10,9 +10,15 @@ const d = JSON.parse(fs.readFileSync(draftFile, "utf8"));
 const fails = [];
 const body = [d.heroDescription, ...d.sections.map((s) => s.content), ...d.faq.map((f) => f.answer)].join(" ");
 // T1 타이틀
-if (!d.title.startsWith(slug)) fails.push("T1: 제품명이 선두 아님");
+// 2026-07-27: T1 오탐 수리 — slug는 붙여쓰기('그린나잘스프레이모이스쳐액'), 타이틀은 가독성상
+//   띄어쓰기('그린 나잘 스프레이 모이스쳐액')가 자연스럽다. startsWith 원문 비교가 이를 위반으로 잡아
+//   같은 글이 3회 연속 T1 반려로 전멸했다(2026-07-27 실측: 그린나잘스프레이모이스쳐액).
+//   공백을 무시하고 비교하되, 실패 시 무엇이 문제인지 타이틀 원문을 함께 보여준다.
+const _sq = (x) => String(x || "").replace(/\s+/g, "");
+if (!_sq(d.title).startsWith(_sq(slug)))
+  fails.push(`T1: 제품명이 선두 아님 — 타이틀 "${String(d.title).slice(0, 30)}"은(는) "${slug}"(으)로 시작해야 함(띄어쓰기는 허용)`);
 if (!/가격/.test(d.title)) fails.push("T2: 타이틀에 '가격' 단어 필수 (검색어 일치 — 최저가만으로는 불충분)");
-if (/\d{1,3}(,\d{3})*\s*원/.test(d.title)) fails.push("T3: 타이틀에 가격 숫자");
+if (/\d{1,3}(,\d{3})*\s*원(?!큐)/.test(d.title)) fails.push("T3: 타이틀에 가격 숫자");
 if ((d.title.match(/[|ㅣ]/g) || []).length > 1) fails.push("T4: 파이프 2회+");
 if (d.title.length < 20 || d.title.length > 45) fails.push("T5: 길이 " + d.title.length);
 // T6 타이틀 약속 ↔ H2
@@ -27,8 +33,11 @@ if (!d.sections.some((s) => /가격/.test(s.title))) fails.push("T6: 가격 H2 �
  if(idxUse>-1 && idxPrice>-1 && idxPrice<idxUse) fails.push("T6b: 가격 H2가 복용법보다 앞 — 복용법 바로 뒤로 이동");}
 // T8 H2 제품명 포함 (6개 중 최소 4개)
 const slugCore=slug.replace(/[\d.]+\s*(mg|밀리그램|%|밀리)?$/,"").replace(/[\d.]+$/,"");
-const named=d.sections.filter((s)=>s.title.includes(slug)||(slugCore.length>=2&&s.title.includes(slugCore))).length;
-if(named<4) fails.push("T8: H2 "+named+"개만 제품명 포함 (최소 4개 — SEO 주제 신호)");
+// 2026-07-27: T8도 T1과 같은 띄어쓰기 오탐 — H2가 "그린 나잘 스프레이 모이스쳐액 사용법"처럼
+//   읽기 좋게 띄어쓰면 includes(slug)가 전부 실패해 "H2 0개만 제품명 포함"으로 잡혔다.
+const named=d.sections.filter((s)=>{const t=_sq(s.title);return t.includes(_sq(slug))||(slugCore.length>=2&&t.includes(_sq(slugCore)));}).length;
+// 2026-08-03: 하한 4 → 3. 근거 — 기준본(탈모/미녹시딜) H2 중 제품명 포함이 3개라 기준본이 스스로 걸렸다. 원칙 0-4.
+if(named<3) fails.push("T8: H2 "+named+"개만 제품명 포함 (최소 3개 — SEO 주제 신호)");
 // T9 타이틀 약속 ↔ 본문 이행 (못 지킬 약속 = 클릭베이트 차단)
 // 9a) 입증 불가 가격 인과 주장: 식약처·가격 데이터로 'A가 왜 비싼지'는 입증 불가 → 타이틀 금지
 if(/비싼\s*이유|싼\s*이유|저렴한\s*이유|선택\s*이유|왜\s*(비싸|싼|비쌀|저렴|비쌈)|비쌀까|쌀까|싸ㄹ까/.test(d.title))
@@ -80,7 +89,10 @@ if (cite < Math.floor(body.length / 1000)) fails.push("B5: 출처 인용 부족 
 // B5b 외부 임상사실 출처 표기
 if((brief.verifiedExternalFacts||[]).length && /DHT|환원효소|메타분석|FDA/.test(body) && !/임상|문헌|학회|FDA|연구/.test(body)) fails.push("B5b: 외부 임상사실에 출처 표기 없음");
 // B6 글자수
-if (body.length < 1800 || body.length > 4200) fails.push("B6: 글자수 " + body.length);
+// 2026-08-03: 상한 4200 → 7000. 근거 — 기준본(탈모/미녹시딜) 본문이 5089자라 상한 4200에 스스로 걸렸다.
+//   §14 기준본 대조 게이트가 본문 하한을 4212자(공백제거)로 강제하는 이상, 상한 4200(공백포함)은 수학적으로 통과 불가.
+//   원칙 0-4 "게이트는 자기 표준을 통과시켜야 유효" 위반이라 상한만 올린다. 하한 1800은 유지.
+if (body.length < 1800 || body.length > 7000) fails.push("B6: 글자수 " + body.length);
 // B7 교정 의무
 if (brief.bodyRules.교정 && !/전립선|전립샘/.test(body)) fails.push("B7: 전립선 적응증 교정 미반영");
 // 분할복용은 '권장'일 때만 금지. 경고문(안 돼요/금지/범위 밖/위험 등 근처)은 허용
