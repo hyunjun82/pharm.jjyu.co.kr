@@ -27,8 +27,11 @@ const AD_CONFIG: Record<AdSlotType, Record<string, string>> = {
   },
   anchor: {
     "data-ad-slot": "2880810862",   // pharm4
-    "data-ad-format": "auto",
-    "data-full-width-responsive": "true",
+    // 2026-08-12: auto+full-width-responsive가 모바일에서 화면 절반을 덮는 문제(2026-07-08 top/hero와 동일 버그).
+    //   가로 배너 형식으로 바꾸고 컨테이너에 높이 상한(모바일 60px, PC 90px)을 걸어
+    //   어떤 광고가 와도 배너 높이를 못 넘게 물리적으로 제한.
+    "data-ad-format": "horizontal",
+    "data-full-width-responsive": "false",
   },
 };
 
@@ -49,10 +52,10 @@ export function AdSlot({ slot = "top" }: { slot?: AdSlotType }) {
 
   if (slot === "anchor") {
     return (
-      <div className="fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-100">
+      <div className="fixed bottom-0 left-0 right-0 z-40 h-[60px] overflow-hidden bg-white border-t border-gray-100 sm:h-[90px]">
         <ins
           className="adsbygoogle"
-          style={{ display: "block" }}
+          style={{ display: "block", width: "100%", height: "100%" }}
           data-ad-client="ca-pub-2442517902625121"
           {...config}
         />
