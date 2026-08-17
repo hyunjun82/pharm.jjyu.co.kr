@@ -24,6 +24,7 @@ import { hub as 변비Hub, spokes as 변비Spokes } from "./변비";
 import { hub as 알레르기Hub, spokes as 알레르기Spokes } from "./알레르기";
 import { hub as 제산제Hub, spokes as 제산제Spokes } from "./제산제";
 import { hub as 유산균Hub, spokes as 유산균Spokes } from "./유산균";
+import { hub as 수면제Hub, spokes as 수면제Spokes } from "./수면제";
 
 export const hubArticles: Record<string, HubArticle> = {
   연고: 연고Hub,
@@ -45,6 +46,7 @@ export const hubArticles: Record<string, HubArticle> = {
   알레르기: 알레르기Hub,
   제산제: 제산제Hub,
   유산균: 유산균Hub,
+  수면제: 수면제Hub,
 };
 
 export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
@@ -67,4 +69,5 @@ export const spokeArticles: Record<string, Record<string, SpokeArticle>> = {
   알레르기: 알레르기Spokes,
   제산제: 제산제Spokes,
   유산균: 유산균Spokes,
+  수면제: 수면제Spokes,
 };
