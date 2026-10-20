@@ -679,5 +679,63 @@
   "storeCount": 1,
   "aggregate": false,
   "fetchedAt": "2026-10-20"
+ },
+ "p2664": {
+  "name": "마이시딜캡슐 90캡슐",
+  "lowPrice": 45000,
+  "highPrice": 45000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p645": {
+  "name": "두피앤액 30ml",
+  "lowPrice": 3900,
+  "highPrice": 7000,
+  "storeCount": 12,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20"
+ },
+ "p2342": {
+  "name": "멕스페시아정 1mg 90정",
+  "lowPrice": 16700,
+  "highPrice": 16700,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p687": {
+  "name": "두피나액 30ml",
+  "lowPrice": 4500,
+  "highPrice": 6000,
+  "storeCount": 4,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20"
+ },
+ "p2017": {
+  "name": "모나에스 180캡슐",
+  "lowPrice": 40000,
+  "highPrice": 40000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p881": {
+  "name": "모바렌 캡슐 180캡슐",
+  "lowPrice": 23000,
+  "highPrice": 38000,
+  "storeCount": 15,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20",
+  "note": "JSON-LD Product 없음 — 제품 페이지 본문(최저·최고)과 검색 결과(약국 수)에서 확인"
+ },
+ "p2054": {
+  "name": "모바렌 폼 에어로졸 5% 60g",
+  "lowPrice": 15000,
+  "highPrice": 18000,
+  "storeCount": 6,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20",
+  "note": "JSON-LD Product 없음 — 제품 페이지 본문(최저·최고)과 검색 결과(약국 수)에서 확인"
  }
 }
