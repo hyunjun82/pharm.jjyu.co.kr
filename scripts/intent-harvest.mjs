@@ -8,7 +8,10 @@
 import fs from "fs";
 import path from "path";
 const ROOT = path.join(path.dirname(new URL(import.meta.url).pathname), "..");
-const kws = process.argv.slice(2);
+const argv = process.argv.slice(2);
+const si = argv.indexOf("--slug");
+const OUT_SLUG = si > -1 ? argv[si + 1] : null; // check-article R10 이 _workspace/intent/{슬러그}.json 을 읽는다
+const kws = argv.filter((a, i) => a !== "--slug" && i !== si + 1);
 if (!kws.length) { console.error("사용: node scripts/intent-harvest.mjs {키워드...}"); process.exit(1); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -47,7 +50,7 @@ for (const kw of kws) {
     competitorCovers: [],   // TODO: SERP 상위 유형 분석 (승산 판정) — 브라우저 필요
   };
   fs.mkdirSync(path.join(ROOT, "_workspace", "intent"), { recursive: true });
-  fs.writeFileSync(path.join(ROOT, "_workspace", "intent", kw + ".json"), JSON.stringify(out, null, 1));
+  fs.writeFileSync(path.join(ROOT, "_workspace", "intent", (OUT_SLUG || kw) + ".json"), JSON.stringify(out, null, 1));
   console.log(`✓ ${kw}: 실측 검색어 ${related.length}개 → _workspace/intent/${kw}.json`);
   if (related.length < 5) console.log(`  ⚠️ ${kw} 수집량 부족(${related.length}) — 검색량 적은 키워드 가능성(저승산 후보)`);
 }

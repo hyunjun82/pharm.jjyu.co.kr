@@ -11,9 +11,11 @@
  *   R7 ~해요체 통일 (~합니다/~습니다 금지)
  *   R8 금지 문구 (버튼 지시·못 지키는 약속·찍어내기 서론)
  *   R9 숫자는 근거 파일에 있는 것만 (+ draft.calc 에 적은 계산식의 결과)
+ *   R10 타이틀 단어는 실제 연관검색어(네이버 자동완성 — _workspace/intent/{슬러그}.json)에 있는 것만
+ *   R11 타이틀 틀 찍어내기 금지: 같은 카테고리에 같은 틀(제품명→{X}, 숫자→N)이 있거나, 같은 앞머리를 3편 이상이 쓰면 FAIL
  *
  *  사용:
- *   node scripts/check-article.js {카테고리/슬러그} {draft.json} [--facts 근거파일]
+ *   node scripts/check-article.js {카테고리/슬러그} {draft.json} [--facts 근거파일] [--intent 검색어파일]
  *     근거파일 기본값: source-data/{슬러그}.json (식약처 원문). 없으면 R9 FAIL = 근거 없이 작성 금지.
  *   node scripts/check-article.js --calibrate   # 기준 글 PASS / 레거시 나열형 FAIL 재확인 (public/data 필요)
  *  종료코드: PASS 0 / FAIL 1 / 사용법 오류 2
@@ -23,7 +25,9 @@ const path = require("path");
 
 const SPEC = /(성분|효능|효과|복용법|사용법|용법|용량|부작용|주의사항|보관)/g;
 const BANNED = ["아래 버튼에서", "실시간", "핵심부터 말하면", "결론부터 말하면", "정리했어요", "정리했습니다", "솔직히", "—"];
-const PARTICLE = /(과|와|은|는|이|가|을|를|의|도|까지|부터|에서|으로|로|이에요|예요|인가요|일까요|할까요|나요|는\?|\?)+$/;
+const PARTICLE_ONE = /(이에요|예요|인가요|일까요|할까요|나요|까지|부터|에서|으로|과|와|은|는|이|가|을|를|의|도|로|\?)$/;
+// 조사를 하나씩 떼되 두 글자 미만이 되면 멈춘다 ("효과"의 '과'를 조사로 잘라 "효"가 되던 결함 수정)
+function stripP(w) { let m; while ((m = w.match(PARTICLE_ONE)) && w.length - m[0].length >= 2) w = w.slice(0, -m[0].length); return w; }
 const STOP = new Set(["얼마", "어떻게", "언제", "무엇", "뭐", "왜", "정말", "그리고"]);
 
 const norm = (t) => String(t || "").replace(/\s+/g, "");
@@ -37,14 +41,26 @@ function titleKeywords(title, name) {
   let acc = "", cut = 0;
   for (let i = 0; i < t.length && norm(acc).length < n.length; i++) { acc += t[i]; cut = i + 1; }
   t = t.slice(cut).replace(/^%/, "");
-  return t.split(/[\s,?·|]+/).map((w) => w.replace(PARTICLE, "")).filter((w) => (w.length >= 2 || /\d/.test(w)) && !STOP.has(w));
+  return t.split(/[\s,?·|]+/).map(stripP).filter((w) => (w.length >= 2 || /\d/.test(w)) && !STOP.has(w) && !/[요까]$/.test(w)); // "있나요"·"될까" 같은 질문 어미는 검색 단어가 아님
 }
 
 function numbersIn(text) {
   return (String(text).match(/\d+(?:,\d{3})*(?:\.\d+)?/g) || []).map((x) => String(Number(x.replace(/,/g, "")))); // "07" = "7"
 }
 
-function check(slug, d, factsText) {
+
+// R11: 타이틀 틀 = 첫 어절(제품명)→{X}, 숫자→N.  앞머리 = 첫 쉼표·물음표 앞
+// 제품명 = 첫 어절 + 바로 뒤 용량 어절(5%, 200ml, 1mg, 30정 …)
+const skeleton = (t) => { const w = String(t || "").split(/\s+/); let i = 1; while (i < w.length && /^[\d.,]+(%|mg|ml|mL|g|정|캡슐)?[,?]?$/.test(w[i])) i++; return ["{X}", ...w.slice(i)].join(" ").replace(/\d[\d,.]*/g, "N"); };
+const leadOf = (sk) => sk.split(/[,?|]/)[0].trim();
+function liveTitles(cat, slug) {
+  const dir = path.join("public", "data", cat);
+  if (!fs.existsSync(dir)) return null;
+  return fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== slug + ".json")
+    .map((f) => { try { return [f.slice(0, -5), JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")).title]; } catch { return null; } }).filter(Boolean);
+}
+
+function check(slug, d, factsText, intent) {
   const fails = [];
   const name = nameOf(slug, d);
   const title = String(d.title || "");
@@ -65,6 +81,26 @@ function check(slug, d, factsText) {
   if (formal) fails.push(`R7 ~합니다체 ${formal.slice(0, 3).join(", ")} — ~해요체로 통일`);
   const banned = BANNED.filter((b) => (title + "\n" + body).includes(b));
   if (banned.length) fails.push(`R8 금지 문구: ${banned.join(", ")}`);
+
+
+  if (intent !== undefined) {
+    if (intent === null) fails.push(`R10 실제 연관검색어 파일 없음 (_workspace/intent/${slug.split("/").pop()}.json) — 네이버 자동완성을 먼저 수집 (node scripts/intent-harvest.mjs "{키워드}" --slug ${slug.split("/").pop()})`);
+    else {
+      const kw = String(intent.keyword || name);
+      const allowed = new Set();
+      for (const q of intent.userQuestions || []) for (const w of String(q).replace(kw, " ").replace(name, " ").split(/[\s,?·|]+/)) { const t = stripP(w); if (t) allowed.add(t); }
+      const off = titleKeywords(title, name).filter((k) => ![...allowed].some((a) => a === k || a.startsWith(k) || k.startsWith(a)));
+      if (off.length) fails.push(`R10 타이틀 단어가 실제 연관검색어에 없음: ${off.join(", ")} (연관검색어: ${[...allowed].join(", ") || "없음"})`);
+    }
+    const live = liveTitles(slug.split("/")[0], slug.split("/").pop());
+    if (live) {
+      const sk = skeleton(title), lead = leadOf(sk);
+      const twin = live.filter(([, t]) => skeleton(t) === sk).map(([k]) => k);
+      const sameLead = live.filter(([, t]) => leadOf(skeleton(t)) === lead).map(([k]) => k);
+      if (twin.length) fails.push(`R11 타이틀 틀이 같은 글 있음: "${sk}" = ${twin.slice(0, 3).join(", ")}`);
+      else if (sameLead.length >= 3) fails.push(`R11 타이틀 앞머리 "${lead}" 를 ${sameLead.length}편이 이미 씀 (${sameLead.slice(0, 3).join(", ")}) — 실제 연관검색어로 다르게`);
+    }
+  }
 
   if (factsText === null) fails.push(`R9 근거 파일 없음 — 식약처 원문(source-data/${slug.split("/").pop()}.json) 없이 작성 금지`);
   else {
@@ -94,7 +130,7 @@ if (args[0] === "--calibrate") {
   const root = path.join("public", "data");
   if (!fs.existsSync(root)) { console.error("public/data 없음 — node scripts/generate-article-json.mjs 먼저"); process.exit(2); }
   const load = (k) => JSON.parse(fs.readFileSync(path.join(root, k + ".json"), "utf8"));
-  const struct = (k, d) => check(k, d, "").filter((f) => !f.startsWith("R9"));
+  const struct = (k, d) => check(k, d, "").filter((f) => !f.startsWith("R9")); // R10·R11은 글마다 검색어·주변 글이 달라 여기선 제외
   const g = GOOD.filter((k) => fs.existsSync(path.join(root, k + ".json"))).map((k) => [k, struct(k, load(k))]);
   const bad = [];
   for (const c of fs.readdirSync(root)) {
@@ -114,7 +150,10 @@ if (!slug || !draftPath || !slug.includes("/")) { console.error("usage: node scr
 const fi = args.indexOf("--facts");
 const factsPath = fi > -1 ? args[fi + 1] : path.join("source-data", slug.split("/").pop() + ".json");
 const factsText = fs.existsSync(factsPath) ? fs.readFileSync(factsPath, "utf8") : null;
+const ii = args.indexOf("--intent");
+const intentPath = ii > -1 ? args[ii + 1] : path.join("_workspace", "intent", slug.split("/").pop() + ".json");
+const intent = fs.existsSync(intentPath) ? JSON.parse(fs.readFileSync(intentPath, "utf8")) : null;
 const d = JSON.parse(fs.readFileSync(draftPath, "utf8"));
-const fails = check(slug, d, factsText);
+const fails = check(slug, d, factsText, intent);
 if (fails.length) { console.log(`CHECK FAIL ${slug}\n- ` + fails.join("\n- ")); process.exit(1); }
 console.log(`CHECK PASS ${slug} (소제목 ${d.sections.length}개)`);
