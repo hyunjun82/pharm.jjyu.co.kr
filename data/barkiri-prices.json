@@ -62,11 +62,11 @@
  },
  "p1445": {
   "name": "판시딜액 5% 240ml",
-  "lowPrice": 24000,
+  "lowPrice": 23000,
   "highPrice": 40000,
-  "storeCount": 5,
+  "storeCount": 6,
   "aggregate": true,
-  "fetchedAt": "2026-07-17"
+  "fetchedAt": "2026-10-20"
  },
  "p1572": {
   "name": "이지엔6스트롱 연질캡슐 10캡슐",
@@ -578,6 +578,50 @@
   "highPrice": 15600,
   "storeCount": 2,
   "aggregate": true,
+  "fetchedAt": "2026-10-20"
+ },
+ "p1852": {
+  "name": "나녹시딜액 2% 50ml",
+  "lowPrice": 23000,
+  "highPrice": 23000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p1130": {
+  "name": "동광 미녹시딜정 5mg 300정",
+  "lowPrice": 45000,
+  "highPrice": 45000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p62": {
+  "name": "모나드정 30정",
+  "lowPrice": 31680,
+  "highPrice": 31680,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p63": {
+  "name": "모나드정 90정",
+  "lowPrice": 95040,
+  "highPrice": 95040,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p530": {
+  "error": "JSON-LD Product 없음",
+  "fetchedAt": "2026-10-20"
+ },
+ "p2403": {
+  "name": "판시딜액 5% 60ml",
+  "lowPrice": 15000,
+  "highPrice": 15000,
+  "storeCount": 1,
+  "aggregate": false,
   "fetchedAt": "2026-10-20"
  }
 }
