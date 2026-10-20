@@ -663,5 +663,21 @@
   "storeCount": 2,
   "aggregate": true,
   "fetchedAt": "2026-10-20"
+ },
+ "p1070": {
+  "name": "마이모닉액 5% 60ml",
+  "lowPrice": 16000,
+  "highPrice": 16000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p1393": {
+  "name": "마이모닉액 5% 240ml",
+  "lowPrice": 26000,
+  "highPrice": 26000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
  }
 }
