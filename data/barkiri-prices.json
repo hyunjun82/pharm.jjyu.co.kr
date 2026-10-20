@@ -737,5 +737,45 @@
   "aggregate": true,
   "fetchedAt": "2026-10-20",
   "note": "JSON-LD Product 없음 — 제품 페이지 본문(최저·최고)과 검색 결과(약국 수)에서 확인"
+ },
+ "p677": {
+  "name": "케라시딜 캡슐 240캡슐",
+  "lowPrice": 80000,
+  "highPrice": 80000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p817": {
+  "name": "케라시딜 캡슐 360캡슐",
+  "lowPrice": 55000,
+  "highPrice": 78000,
+  "storeCount": 8,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20"
+ },
+ "p1244": {
+  "name": "케라티모 180캡슐",
+  "lowPrice": 35000,
+  "highPrice": 35000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p746": {
+  "name": "케라티모캡슐 360캡슐",
+  "lowPrice": 65000,
+  "highPrice": 70000,
+  "storeCount": 4,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20"
+ },
+ "p1648": {
+  "name": "현대 미녹시딜정 30정",
+  "lowPrice": 10800,
+  "highPrice": 10800,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
  }
 }
