@@ -777,5 +777,21 @@
   "storeCount": 1,
   "aggregate": false,
   "fetchedAt": "2026-10-20"
+ },
+ "p2031": {
+  "name": "목시딜액 5% 30ml",
+  "lowPrice": 4500,
+  "highPrice": 4500,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p2030": {
+  "name": "목시딜액 3% 60ml",
+  "lowPrice": 17000,
+  "highPrice": 17000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
  }
 }
