@@ -793,5 +793,29 @@
   "storeCount": 1,
   "aggregate": false,
   "fetchedAt": "2026-10-20"
+ },
+ "p73": {
+  "name": "메리나정 30정",
+  "lowPrice": 19020,
+  "highPrice": 35000,
+  "storeCount": 10,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20"
+ },
+ "p889": {
+  "name": "볼두민 캡슐 90캡슐 x 3EA",
+  "lowPrice": 46000,
+  "highPrice": 48000,
+  "storeCount": 3,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20"
+ },
+ "p43": {
+  "name": "아다모 연질캡슐 0.5mg 30캡슐",
+  "lowPrice": 14400,
+  "highPrice": 16500,
+  "storeCount": 2,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20"
  }
 }
