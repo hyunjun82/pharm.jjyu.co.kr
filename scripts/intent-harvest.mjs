@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /** intent-harvest.mjs — 포털 실측 검색어 수집기 (2026-07-17 신설)
  *  네이버 자동완성 + 구글 서제스트에서 실제 사용자 검색어를 수집해
- *  _workspace/intent/{slug}.json 생성 → satisfaction-judge의 채점 근거.
+ *  _workspace/intent/{slug}.json 생성 → /write 가 타이틀 질문·FAQ를 고르는 근거.
  *  사용: node scripts/intent-harvest.mjs 게보린 [아보다트 ...]
  *  주의: 공개 자동완성 엔드포인트만 사용. 요청 간 300ms 대기.
  */

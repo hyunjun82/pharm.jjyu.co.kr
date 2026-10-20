@@ -7,7 +7,7 @@
  *   R3 타이틀 스펙 나열 금지 (성분·효과·복용법·부작용… 3종 이상)
  *   R4 타이틀 키워드가 전부 소제목에 있다 (타이틀 = 소제목)
  *   R5 소제목 3~6개 (글자수·개수는 목표가 아님 — 타이틀 질문만큼)
- *   R6 본문에 가격 단정 금지 ("25,000원", "21,000원부터" 등 — 약국마다 다르다)
+ *   R6 가격엔 출처·시점 ("약국 가격비교 서비스… (2026년 7월 기준)"), "온라인" 표현 금지 (일반의약품은 온라인 판매 불가)
  *   R7 ~해요체 통일 (~합니다/~습니다 금지)
  *   R8 금지 문구 (버튼 지시·못 지키는 약속·찍어내기 서론)
  *   R9 숫자는 근거 파일에 있는 것만 (+ draft.calc 에 적은 계산식의 결과)
@@ -41,7 +41,7 @@ function titleKeywords(title, name) {
 }
 
 function numbersIn(text) {
-  return (String(text).match(/\d+(?:,\d{3})*(?:\.\d+)?/g) || []).map((x) => x.replace(/,/g, ""));
+  return (String(text).match(/\d+(?:,\d{3})*(?:\.\d+)?/g) || []).map((x) => String(Number(x.replace(/,/g, "")))); // "07" = "7"
 }
 
 function check(slug, d, factsText) {
@@ -58,8 +58,9 @@ function check(slug, d, factsText) {
   const miss = titleKeywords(title, name).filter((k) => !h2.some((h) => h.includes(k)));
   if (miss.length) fails.push(`R4 타이틀 키워드가 소제목에 없음: ${miss.join(", ")} — 타이틀이 약속한 질문마다 소제목 1개`);
   if (h2.length < 3 || h2.length > 6) fails.push(`R5 소제목 ${h2.length}개 — 타이틀 질문만큼 3~6개`);
-  const won = body.match(/\d[\d,]*\s*원/g);
-  if (won) fails.push(`R6 가격 단정 ${won.slice(0, 3).join(", ")} — 약국마다 다르다. 병 수·비교 기준으로 쓰고 "최저가를 확인해 보시면 돼요"로`);
+  if (/온라인/.test(title + body)) fails.push("R6 \"온라인\" 표현 금지 — 일반의약품은 온라인 판매 불가. 가격은 약국 판매가");
+  if (/\d[\d,]*\s*원/.test(body) && !(/가격비교/.test(body) && /\d{4}년\s*\d{1,2}월\s*기준/.test(body)))
+    fails.push("R6 가격 숫자엔 출처와 시점 필수 — 예: \"약국 가격비교 서비스에서 25,000원으로 확인돼요(2026년 7월 기준)\"");
   const formal = body.match(/[가-힣]*(합니다|습니다|됩니다)(?=[.\s]|$)/g);
   if (formal) fails.push(`R7 ~합니다체 ${formal.slice(0, 3).join(", ")} — ~해요체로 통일`);
   const banned = BANNED.filter((b) => (title + "\n" + body).includes(b));
