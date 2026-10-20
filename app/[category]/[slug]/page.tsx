@@ -226,12 +226,7 @@ export default async function SpokePage({ params }: PageProps) {
         {/* Main Column */}
         <div className="flex-1 max-w-3xl">
 
-      {/* 목차 — 성분군 허브 글에서만 (showToc) */}
-      {article.showToc && (
-        <ArticleToc items={tocItems} asOf={article.asOfNote} />
-      )}
-
-      {/* Main Product Card */}
+      {/* Main Product Card — 최저가 확인 버튼이 목차보다 먼저 (운영자 지정 2026-10-20) */}
       <section className="py-6">
         {displayProducts.length > 0 && (
           <div className="grid gap-3">
@@ -241,6 +236,11 @@ export default async function SpokePage({ params }: PageProps) {
           </div>
         )}
       </section>
+
+      {/* 목차 — 성분군 허브 글에서만 (showToc) */}
+      {article.showToc && (
+        <ArticleToc items={tocItems} asOf={article.asOfNote} />
+      )}
 
       {/* 광고 1: 제품 카드 아래 (Display) */}
       <AdSlot slot="top" />

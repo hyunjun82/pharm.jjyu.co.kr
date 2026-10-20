@@ -42,6 +42,7 @@
     "tmp",
     "scripts",
     "_workspace",
+    "_legacy",
     "_full-out",
     "out",
     ".open-next"
