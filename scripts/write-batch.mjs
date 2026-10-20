@@ -35,6 +35,14 @@ for (const it of items) {
   const h = spawnSync("node", ["scripts/intent-harvest.mjs", kw, "--slug", slug], { encoding: "utf8" });
   process.stdout.write(h.stdout || ""); process.stderr.write(h.stderr || "");
   if (h.status !== 0) { row.result = "중단: 연관검색어 수집 실패"; report.push(row); continue; }
+  // ①-2 식약처 원문 자동 수집 (없을 때만)
+  if (!fs.existsSync(path.join("source-data", slug + ".json"))) {
+    let item = kw;
+    try { item = JSON.parse(fs.readFileSync(path.join("source-data", "source-map.json"), "utf8"))[slug]?.itemName || kw; } catch {}
+    const f = spawnSync("node", ["scripts/fetch-drug.mjs", item, "--slug", slug], { encoding: "utf8" });
+    process.stdout.write(f.stdout || ""); process.stderr.write(f.stderr || "");
+    if (f.status !== 0) { row.result = "중단: 식약처 원문 수집 실패"; report.push(row); continue; }
+  }
   if (DRY) { row.result = "수집만(--dry)"; report.push(row); continue; }
   // ② 작성·검사·저장
   const prompt = `/write ${key} (일괄 모드: 7단계에서 배포 여부를 묻지 말고, 타이틀·소제목·검사 결과만 보고하고 끝낸다)`;
