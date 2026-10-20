@@ -9,7 +9,8 @@
  */
 import fs from "fs";
 import path from "path";
-const ROOT = path.join(path.dirname(new URL(import.meta.url).pathname), "..");
+import { fileURLToPath } from "url";
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), ".."); // Windows: new URL().pathname 은 "/C:/..." 라 경로가 C:\C:\ 로 깨졌음
 const OUT = path.join(ROOT, "data", "barkiri-prices.json");
 
 const args = process.argv.slice(2);

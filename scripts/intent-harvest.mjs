@@ -8,7 +8,8 @@
  */
 import fs from "fs";
 import path from "path";
-const ROOT = path.join(path.dirname(new URL(import.meta.url).pathname), "..");
+import { fileURLToPath } from "url";
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), ".."); // Windows: new URL().pathname 은 "/C:/..." 라 경로가 C:\C:\ 로 깨졌음
 const argv = process.argv.slice(2);
 const si = argv.indexOf("--slug");
 const OUT_SLUG = si > -1 ? argv[si + 1] : null;
