@@ -115,9 +115,20 @@ if (isDeployOnly) {
 const _si = args.indexOf("--slugs");
 const _slugArg = _si > -1 && args[_si+1] && !args[_si+1].startsWith("--") ? args[_si+1] : "";
 if (_slugArg) {
-  console.log("🛡️  푸시 직전 품질 게이트 실행");
-  try { execSync(`node scripts/pre-deploy-gate.js "${_slugArg}"`, { cwd: ROOT, stdio: "inherit" }); }
-  catch { console.error("\n🚫 품질 미달로 배포 중단. 해당 글 수정 후 다시 푸시하세요."); process.exit(1); }
+  // 2026-10-20 새 시스템: /write 가 남긴 원고(_workspace/drafts)를 check-article 로 재검사 + 저장된 글과 원고가 같은지 대조
+  console.log("🛡️  배포 전 글 검사 (check-article)");
+  for (const key of _slugArg.split(",").map((s) => s.trim()).filter(Boolean)) {
+    const slug = key.split("/").pop();
+    const draftPath = join(ROOT, "_workspace", "drafts", slug + ".json");
+    const pubPath = join(ROOT, "public", "data", key.split("/")[0], slug + ".json");
+    if (!existsSync(draftPath)) { console.error(`🚫 ${key}: 원고 없음(_workspace/drafts/${slug}.json) — /write 로 작성·검사된 글만 배포`); process.exit(1); }
+    try { execSync(`node scripts/check-article.js "${key}" "${draftPath}"`, { cwd: ROOT, stdio: "inherit" }); }
+    catch { console.error(`\n🚫 ${key} 검사 FAIL로 배포 중단. 고친 뒤 다시.`); process.exit(1); }
+    const draft = JSON.parse(readFileSync(draftPath, "utf8"));
+    const pub = existsSync(pubPath) ? JSON.parse(readFileSync(pubPath, "utf8")) : null;
+    const same = pub && pub.title === draft.title && JSON.stringify(pub.sections) === JSON.stringify(draft.sections);
+    if (!same) { console.error(`🚫 ${key}: 저장된 글이 검사한 원고와 다름 — node scripts/save-article.js 로 저장 후 다시`); process.exit(1); }
+  }
 }
 
 // ── 사이트맵 전체 보정 (부분 빌드가 사이트맵을 필터본으로 덮어쓰는 버그 차단) ──
