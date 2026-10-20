@@ -114,7 +114,7 @@ function check(slug, d, factsText, intent) {
       // eslint-disable-next-line no-new-func
       const val = Function(`return (${m[1]})`)();
       if (bad.length) fails.push(`R9 계산식 ${c}: 근거 없는 수 ${bad.join(",")}`);
-      else if (Math.abs(val - Number(m[2])) > 1e-6) fails.push(`R9 계산 틀림: ${c} (실제 ${val})`);
+      else if (Math.abs(val - Number(m[2])) > 0.5 * 10 ** -((m[2].split(".")[1] || "").length) + 1e-9) fails.push(`R9 계산 틀림: ${c} (실제 ${val})`); // 적은 자릿수로 반올림한 값은 허용 (166.666… → 166.7)
       else derived.add(m[2]);
     }
     const unknown = [...new Set(numbersIn(body + " " + title))].filter((n) => !facts.has(n) && !derived.has(n));
