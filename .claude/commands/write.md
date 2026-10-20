@@ -12,7 +12,7 @@ argument-hint: "{키워드 또는 카테고리/슬러그}"
    - `public/data` 가 없으면 먼저 `node scripts/generate-article-json.mjs` (이 스크립트가 `public/sitemap.xml` 을 덮어쓰므로 끝나면 `git checkout public/sitemap.xml`).
    - 신규라면 카테고리는 식약처 원문의 효능(efcyQesitm)으로 정한다. 애매하면 멈추고 운영자에게 묻는다.
 2. **근거 확인**: `source-data/{슬러그}.json`(식약처 원문)을 읽는다. 없으면 **작성하지 말고 멈춰서** "근거 파일 없음"이라고 보고한다. 제품명이 원문 itemName 과 다르면 멈춘다.
-3. **실제 연관검색어 (필수)**: `node scripts/intent-harvest.mjs "{키워드}" --slug {슬러그}` → `_workspace/intent/{슬러그}.json`. 타이틀은 여기 있는 연관검색어로만 만든다(검사기 R10). 수집이 안 되면(네트워크 차단 등) **멈추고** 운영자에게 네이버 자동완성 화면을 요청해 같은 형식(`{"keyword":…,"harvested":"출처·날짜","userQuestions":[…]}`)으로 저장한 뒤 진행한다.
+3. **실제 연관검색어 (필수)**: `node scripts/intent-harvest.mjs "{키워드}" --slug {슬러그}` → `_workspace/intent/{슬러그}.json`. 타이틀은 여기 있는 연관검색어로만 만든다(검사기 R10). 이미 `_workspace/intent/{슬러그}.json` 이 있으면 그대로 쓴다. 수집이 안 되면(네트워크 차단 등) **작성하지 말고 멈춰서** "연관검색어 수집 실패"라고 보고한다.
 4. **작성**: 템플릿 §6 형식으로 `_workspace/drafts/{슬러그}.json` 저장. 숫자는 원문에 있는 것만, 계산한 숫자는 `calc` 에 식으로.
 5. **검사**: `node scripts/check-article.js {카테고리}/{슬러그} _workspace/drafts/{슬러그}.json` — FAIL 이면 사유대로 고쳐 다시. 3번 안에 PASS 못 하면 멈추고 사유를 보고.
 6. **저장**: `node scripts/save-article.js {카테고리}/{슬러그} _workspace/drafts/{슬러그}.json`

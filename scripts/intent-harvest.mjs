@@ -1,56 +1,47 @@
 #!/usr/bin/env node
-/** intent-harvest.mjs — 포털 실측 검색어 수집기 (2026-07-17 신설)
- *  네이버 자동완성 + 구글 서제스트에서 실제 사용자 검색어를 수집해
- *  _workspace/intent/{slug}.json 생성 → /write 가 타이틀 질문·FAQ를 고르는 근거.
- *  사용: node scripts/intent-harvest.mjs 게보린 [아보다트 ...]
- *  주의: 공개 자동완성 엔드포인트만 사용. 요청 간 300ms 대기.
+/** intent-harvest.mjs — 네이버 자동완성(연관검색어) 수집기 (2026-10-20 개정: 네이버 전용)
+ *  사용: node scripts/intent-harvest.mjs "{키워드}" [--slug {슬러그}]
+ *  출력: _workspace/intent/{슬러그 또는 키워드}.json
+ *    userQuestions = 키워드 그대로 쳤을 때 네이버 자동완성 1단계 (검색창 화면과 같은 목록) → check-article R10 의 타이틀 근거
+ *    expanded      = "{키워드} 가격/효과/…"로 넓혀 친 자동완성 (참고용, 타이틀 근거 아님)
+ *  종료코드: 1단계 결과가 0개면 1 (네트워크 차단·검색량 없음 → 타이틀을 만들 근거 없음)
  */
 import fs from "fs";
 import path from "path";
 const ROOT = path.join(path.dirname(new URL(import.meta.url).pathname), "..");
 const argv = process.argv.slice(2);
 const si = argv.indexOf("--slug");
-const OUT_SLUG = si > -1 ? argv[si + 1] : null; // check-article R10 이 _workspace/intent/{슬러그}.json 을 읽는다
-const kws = argv.filter((a, i) => a !== "--slug" && i !== si + 1);
-if (!kws.length) { console.error("사용: node scripts/intent-harvest.mjs {키워드...}"); process.exit(1); }
+const OUT_SLUG = si > -1 ? argv[si + 1] : null;
+const kw = argv.filter((a, i) => a !== "--slug" && i !== si + 1).join(" ").trim();
+if (!kw) { console.error('사용: node scripts/intent-harvest.mjs "{키워드}" [--slug {슬러그}]'); process.exit(2); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function naverAC(q) {
+  const u = `https://ac.search.naver.com/nx/ac?q=${encodeURIComponent(q)}&con=1&frm=nv&ans=2&r_format=json&r_enc=UTF-8&r_unicode=0&t_koreng=1&run=2&rev=4&q_enc=UTF-8&st=100`;
   try {
-    const u = `https://ac.search.naver.com/nx/ac?q=${encodeURIComponent(q)}&con=1&frm=nv&ans=2&r_format=json&r_enc=UTF-8&r_unicode=0&t_koreng=1&run=2&rev=4&q_enc=UTF-8&st=100`;
     const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0" } });
     const j = await r.json();
-    return (j.items?.[0] || []).map((x) => x[0]).filter(Boolean);
-  } catch { return []; }
-}
-async function googleSuggest(q) {
-  try {
-    const u = `https://suggestqueries.google.com/complete/search?client=firefox&hl=ko&ie=UTF-8&oe=UTF-8&q=${encodeURIComponent(q)}`;
-    const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0" } });
-    const j = await r.json();
-    return (j[1] || []).filter(Boolean);
-  } catch { return []; }
+    return (j.items?.[0] || []).map((x) => String(x[0]).trim()).filter(Boolean);
+  } catch (e) { console.error(`  네이버 자동완성 요청 실패(${q}): ${e.cause?.code || e.message}`); return null; }
 }
 
-for (const kw of kws) {
-  const bag = new Set();
-  // 본검색어 + 의도 시드(공백 확장)로 수집 폭 확대
-  const seeds = [kw, kw + " 효과", kw + " 부작용", kw + " 가격", kw + " 복용"];
-  for (const s of seeds) {
-    for (const q of await naverAC(s)) bag.add(q.trim());
+const top = await naverAC(kw);
+const expanded = new Set();
+if (top && top.length) {
+  for (const seed of ["가격", "효과", "부작용", "사용법", "복용법"]) {
     await sleep(300);
-    for (const q of await googleSuggest(s)) bag.add(q.trim());
-    await sleep(300);
+    for (const q of (await naverAC(`${kw} ${seed}`)) || []) if (!top.includes(q)) expanded.add(q);
   }
-  const related = [...bag].filter((q) => q.includes(kw)).slice(0, 40);
-  const out = {
-    keyword: kw,
-    harvested: new Date().toISOString().slice(0, 10) + " naverAC+googleSuggest 실측",
-    userQuestions: related, // 실제 검색어 그대로 — judge가 "검색자 질문"으로 사용
-    competitorCovers: [],   // TODO: SERP 상위 유형 분석 (승산 판정) — 브라우저 필요
-  };
-  fs.mkdirSync(path.join(ROOT, "_workspace", "intent"), { recursive: true });
-  fs.writeFileSync(path.join(ROOT, "_workspace", "intent", (OUT_SLUG || kw) + ".json"), JSON.stringify(out, null, 1));
-  console.log(`✓ ${kw}: 실측 검색어 ${related.length}개 → _workspace/intent/${kw}.json`);
-  if (related.length < 5) console.log(`  ⚠️ ${kw} 수집량 부족(${related.length}) — 검색량 적은 키워드 가능성(저승산 후보)`);
 }
+const out = {
+  keyword: kw,
+  harvested: new Date().toISOString().slice(0, 10) + " 네이버 자동완성 (ac.search.naver.com)",
+  userQuestions: top || [],
+  expanded: [...expanded],
+};
+fs.mkdirSync(path.join(ROOT, "_workspace", "intent"), { recursive: true });
+const file = path.join(ROOT, "_workspace", "intent", (OUT_SLUG || kw) + ".json");
+if (!top || !top.length) { console.error(`✗ ${kw}: 네이버 자동완성 0개 — 저장 안 함 (${top === null ? "접속 실패" : "검색량 없음"})`); process.exit(1); }
+fs.writeFileSync(file, JSON.stringify(out, null, 1));
+console.log(`✓ ${kw}: 자동완성 ${top.length}개 (+확장 ${expanded.size}개) → ${path.relative(ROOT, file)}`);
+console.log("  " + top.join(" / "));
