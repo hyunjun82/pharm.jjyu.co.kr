@@ -24,6 +24,9 @@ const REPAIR = !!opt("--repair", false);
 const DEPLOY = !!opt("--deploy", false);
 const MODEL = opt("--model", "sonnet");
 const MAX_RETRY = +opt("--tries", 3);
+// 2026-10-20: 마스터 템플릿 없이 작성 금지 — 없으면 배치 시작 전에 정지 (모의 모드는 writer를 안 부르므로 제외)
+const BENCH_PATH = ".claude/templates/benchmark-master.template.md";
+if (!DRY && !fs.existsSync(BENCH_PATH)) { console.error(`⛔ 마스터 템플릿 없음: ${BENCH_PATH} — 템플릿 없이 쓴 글은 반영 금지. git pull 후 재실행`); process.exit(1); }
 const ts = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
 // 2026-07-03: 병렬 배치 안전장치 — 공용 장부는 잠금 + 읽고-병합-쓰기
 function withLock(file, fn) {
@@ -86,10 +89,18 @@ console.log(`배치 시작: ${N}편 (${REPAIR ? "수리" : CATEGORY || "전체"}
 function writeDraft(slug, briefPath, violations, attempt) {
   // 2026-07-02: 벤치마크 템플릿(검증기 회피 수칙 §9 포함)을 실제로 프롬프트에 인라인
   //   — 기존엔 경로만 언급되고 내용이 안 들어가 B16/T2/T8 3연속 반려의 원인이었음
-  const benchPath = ".claude/templates/benchmark-master.template.md";
-  const bench = fs.existsSync(benchPath) ? "\n\n[벤치마크 마스터 템플릿 — 반드시 준수]\n" + fs.readFileSync(benchPath, "utf8") : "";
+  //   2026-10-20: 파일이 없으면 조용히 빈 문자열로 넘어가던 것을 시작 시 정지로 바꿈(BENCH_PATH 검사) — 저장소에 템플릿이 없어 템플릿 없이 작성되던 상태였음
+  const bench = "\n\n[사용자 중심 마스터 템플릿 — 반드시 준수]\n" + fs.readFileSync(BENCH_PATH, "utf8");
+  // 2026-10-20: 실측 검색어(intent-harvest)를 writer에도 준다 — 그동안 judge 채점에만 쓰이고 writer는 실제 검색어를 못 봤음
+  const intentPath = `_workspace/intent/${slug}.json`;
+  let intent = "";
+  try {
+    const qs = JSON.parse(fs.readFileSync(intentPath, "utf8")).userQuestions || [];
+    if (qs.length) intent = "\n\n[실측 검색어 — 네이버 자동완성·구글 서제스트. H2·FAQ 질문은 여기서 고른다 (템플릿 §1)]\n" + qs.map((q) => "- " + q).join("\n");
+  } catch { console.log(`   ⚠️ ${slug}: ${intentPath} 없음 — 결정 블록 질문만으로 작성 (node scripts/intent-harvest.mjs ${slug} 권장)`); }
   const prompt = fs.readFileSync("prompts/writer-spoke.md", "utf8")
     + bench
+    + intent
     + fs.readFileSync(briefPath, "utf8")
     + (violations ? `\n\n[직전 반려 사유 — 반드시 해결]\n${violations}` : "");
   if (DRY) { // 모의: fixtures에서 공급 (1차는 의도적 불량, 2차는 통과본)
@@ -166,6 +177,9 @@ function gate(slug, draftPath) {
   catch (e) { r.violations += (e.stdout || ""); return r; }
   // Layer 2.5: human-feel — AI 찍어내기/규정문서 단조/출처부재/복제양산 차단 (하드 FAIL이면 반려)
   try { execSync(`node scripts/human-feel.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
+  catch (e) { r.violations += (e.stdout || ""); return r; }
+  // Layer 2.55: user-centric — 2026-10-20 신설. 나열형 타이틀·스펙형 H2·결정 질문 부족·타이틀 틀 복제 반려 (마스터 템플릿 §8)
+  try { execSync(`node scripts/verify-user-centric.js "${slug}" "${draftPath}"`, { encoding: "utf8", stdio: "pipe" }); }
   catch (e) { r.violations += (e.stdout || ""); return r; }
   // Layer 2.6: satisfaction-judge — 2026-07-17 강제화: 모드 무관 항상 실행 (v1 스킵이 judge FAIL 15편 라이브 사고의 원인).
   //   B20(타이틀↔서론 즉답)은 pre-deploy-gate에서도 재검사됨. judge 자체는 3회 평균 판정(satisfaction-judge 내부).

@@ -7,6 +7,7 @@
  *    ③ score-article (표준 13편 하한)  ④ verify-crosssim (도어웨이, 인덱스 있을 때)
  *    ⑤ B20: 타이틀 약속↔서론 즉답 일치 (인라인)
  *    ⑥ satisfaction-judge (claude CLI 있을 때만 — 없으면 경고 후 스킵)
+ *    ⑦ verify-user-centric (2026-10-20: 나열형 타이틀·스펙형 H2·결정 질문 부족·타이틀 틀 복제 — 마스터 템플릿 §8)
  */
 const fs = require("fs");
 const crypto = require("crypto");
@@ -100,6 +101,8 @@ for (const it of items) {
   //   차단은 1차 기준본 대조(13개 수치)+validate+human-feel+crosssim+B20이 담당한다.
   try { execSync(`node scripts/score-article.js "${slug}" "${tmp}"`, { stdio: "pipe" }); }
   catch { console.log(`   ${it}: ⚠️ score 표준 미달 — 차단하지 않고 개선 큐에 기록 (CLAUDE.md §5)`); }
+  // 2026-10-20 신설: 사용자 중심 구조 (나열형 타이틀·스펙형 H2·결정 질문 부족·타이틀 틀 복제). 정답 15편 PASS / 레거시 647편 FAIL로 보정
+  run("user-centric", `node scripts/verify-user-centric.js "${it}" "${tmp}"`);
   // crosssim: 인덱스 없으면 스크립트가 skip(0) 처리
   run("crosssim", `node scripts/verify-crosssim.js "${slug}" "${tmp}"`);
   // B20 인라인

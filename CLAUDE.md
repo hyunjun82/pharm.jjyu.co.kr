@@ -1,6 +1,6 @@
 # pharm.jjyu.co.kr 글 생산 규칙
 
-> v3.3 (2026-07-17). 마스터 템플릿 `.claude/templates/master-quality.template.md` 기준. 디테일은 `.claude/docs/operations.md`. 검증 기준은 `scripts/quality-config.json`.
+> v3.4 (2026-10-20). 마스터 템플릿 `.claude/templates/benchmark-master.template.md`(사용자 중심 v1) 기준. 디테일은 `.claude/docs/operations.md`. 검증 기준은 `scripts/quality-config.json`.
 
 ## 원칙 0: 추측 금지 (모든 규칙에 우선)
 
@@ -8,6 +8,15 @@
 2. **측정 도구도 검증 대상.** 스캔·스크립트·정규식은 정답을 아는 표본에 먼저 돌려 맞는지 확인한 뒤 사용한다 (2026-07-17 실측: 정규식 스캔이 중복 23건 중 7건만 탐지 — 도구 미검증이 오판 원인).
 3. **변경은 전후 대조로만.** 시스템·글 무엇이든: 변경 전 실측 → 변경 → 변경 후 재실측 → 정답지(good/bad 라벨 세트)와 대조. 회귀에서 정답이 깨지면 롤백 (2026-07-17 실측: score 재캘리브레이션 1차안이 표준 13편 중 9편을 false-FAIL → 공식 수정 후 13/13 통과).
 4. **게이트는 자기 표준을 통과시켜야 유효.** 규칙을 강화하면 표준 세트에 즉시 재실행해 캘리브레이션 어긋남을 확인한다 (7/2 규칙 강화 후 라이브 표준 글들이 미달 상태로 방치됐던 사고 재발 방지).
+
+## 시스템 변경 로그 (2026-10-20) — 사용자 중심 마스터 템플릿
+
+- **마스터 템플릿 신설**: `.claude/templates/benchmark-master.template.md`. 그동안 이 경로는 저장소에 없었고 auto-batch가 조용히 템플릿 없이 작성했음 → 이제 없으면 배치 정지.
+- **writer 프롬프트 모순 제거**: `prompts/writer-spoke.md` 규칙 2의 "[어떤 약][복용법][가격][부작용][금기]" 스펙 순서가 나열형 글 대량 생산 원인 → 결정 순서(§3)로 교체.
+- **실측 검색어 → writer 전달**: `_workspace/intent/{slug}.json`(intent-harvest)이 judge에만 쓰이던 것을 writer 프롬프트에도 붙임.
+- **새 게이트 `scripts/verify-user-centric.js`** (auto-batch·pre-deploy-gate 차단): U1 나열형 타이틀 / U2 스펙형 H2 / U3 결정 질문 부족 / U4 타이틀 틀 복제. 보정: 정답 15편 PASS·레거시 647편 FAIL (`--calibrate`로 재현).
+- **새 표준(정답) 세트 = 2026-08 탈모 리라이트 15편** (미녹시딜 기준본 포함). 구 표준 13편 중 8월 미재작성 11편은 새 기준 미달 → 리라이트 대상.
+- **리라이트 대상 실측**: 유산균 제외 1,976편 중 1,935편 미달 (`node scripts/verify-user-centric.js --audit` → `_workspace/user-centric-audit.json`).
 
 ## 시스템 변경 로그 (2026-07-17)
 
@@ -103,7 +112,7 @@ source-data → intent-classifier → writer → verifier → reviewer → 배�
 
 ## 글자수 (v3.1)
 
-총 2,400~3,800자. **섹션당 350~600자, 300자 미만은 자동 반려(B10).** H2 질문의 답은 섹션 첫 문장에, 브리프 소스 재료는 소진.
+총 4,300~6,200자, H2 10~12개 (2026-10-20 정답 15편 실측, 검증기 B6 상한 7,000자). **섹션당 350~600자 권장, 300자 미만은 자동 반려(B10).** H2 질문의 답은 섹션 첫 문장에, 브리프 소스 재료는 소진.
 
 ## 작업 영역
 
@@ -120,6 +129,7 @@ source-data → intent-classifier → writer → verifier → reviewer → 배�
 |---|---|---|
 | 작성 전 | 무결성 게이트 | verify-slug-integrity.js + build-write-brief.js (가짜약·미검증 소스 차단) |
 | 작성 후 | 검증기 26규칙 | validate-article.js (타이틀·숫자 화이트리스트·복붙·어미 단조·섹션 300자 + **2026-07-02 신설: B17 벽글(문단<2), B18 상투 공감 서론, B19 출처 전용 섹션**) |
+| 작성 후 | 사용자 중심 4규칙 | verify-user-centric.js (U1 나열형 타이틀·U2 스펙형 H2·U3 결정 질문·U4 타이틀 틀 복제 — 2026-10-20 신설) |
 | 작성 후 | 채점기 10지표 | score-article.js (표준 11편 대비 90% 미달 → SCORE FAIL, 재작성) |
 | 푸시 시 | pre-push 훅 | 풀빌드 유발 푸시 차단 |
 | 표본 | 운영자 | 배치 20편당 1~2편 육안 검수 → 지적사항은 템플릿·검증기 규칙으로 추가(기준 상향만 가능) |
