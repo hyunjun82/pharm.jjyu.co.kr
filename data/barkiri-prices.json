@@ -631,5 +631,37 @@
   "storeCount": 1,
   "aggregate": false,
   "fetchedAt": "2026-10-20"
+ },
+ "p2411": {
+  "name": "두타모아정 0.5mg 30정",
+  "lowPrice": 11100,
+  "highPrice": 11100,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p1589": {
+  "name": "두타윈 연질캡슐 0.5mg 30캡슐",
+  "lowPrice": 11400,
+  "highPrice": 11400,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p2349": {
+  "name": "피나움정 1mg 90정",
+  "lowPrice": 19800,
+  "highPrice": 19800,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
+ },
+ "p48": {
+  "name": "신신 피나스테리드정 1밀리그램 30정",
+  "lowPrice": 15000,
+  "highPrice": 17000,
+  "storeCount": 2,
+  "aggregate": true,
+  "fetchedAt": "2026-10-20"
  }
 }
