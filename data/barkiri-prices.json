@@ -623,5 +623,13 @@
   "storeCount": 1,
   "aggregate": false,
   "fetchedAt": "2026-10-20"
+ },
+ "p499": {
+  "name": "피나시드정 1밀리그램 30정",
+  "lowPrice": 11100,
+  "highPrice": 11100,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-20"
  }
 }
