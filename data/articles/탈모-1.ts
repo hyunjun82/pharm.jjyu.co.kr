@@ -1021,7 +1021,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "datePublished": "2026-02-23",
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
      "title": "뉴페시아 피나스테리드 1mg 부작용, 가격은?",
 
@@ -1039,9 +1039,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
       {
 
-       "question": "뉴페시아정은 처방이 필요해요?",
+       "question": "사정액 양이 줄어요?",
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "건강한 남성이 48주 먹은 시험에서 사정액 감소량 중앙값은 이 약 0.3mL(-11%), 위약 0.2mL(-8%)였어요. 5배 용량(5mg)을 먹은 시험에서는 약 0.5mL(-25%) 줄었지만, 끊으면 회복됐어요."
 
       },
 
@@ -1049,15 +1049,15 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "뉴페시아정은 언제부터 효과가 있어요?",
 
-       "answer": "일반적으로 3개월 이상 먹어야 효과를 볼 수 있다고 돼 있어요."
+       "answer": "일반적으로 3개월 이상 먹어야 효과를 볼 수 있고, 효과를 유지하려면 계속 먹어야 해요. 먹다가 끊으면 12개월 안에 효과가 사라진다고 돼 있어요."
 
       },
 
       {
 
-       "question": "여성이 먹어도 돼요?",
+       "question": "오래 먹으면 전립샘암이 생겨요?",
 
-       "answer": "아니요. 여성과 소아는 먹으면 안 돼요."
+       "answer": "55세 이상 남성 18,882명이 7년 동안 5mg을 먹은 PCPT 시험에서 Gleason 등급 8~10 전립샘암이 5mg 군 1.8%, 위약 군 1.1%였어요. 1mg 허가사항에도 이 결과가 함께 실려 있어요."
 
       }
 
@@ -2162,7 +2162,7 @@ export const spokes: Record<string, SpokeArticle> = {
      "datePublished": "2026-02-23",
 
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
 
      "title": "두모보 두타스테리드 효과와 가격, 카피약인가요?",
@@ -2189,10 +2189,10 @@ export const spokes: Record<string, SpokeArticle> = {
       {
 
 
-       "question": "두모보는 처방이 필요해요?",
+       "question": "탐스로신을 같이 먹어도 돼요?",
 
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "두타스테리드를 α-차단제(주로 탐스로신)와 함께 먹은 4년 시험 두 건에서 심부전 빈도가 함께 먹지 않은 환자보다 높게 나왔어요. 빈도는 1% 이하로 낮았고, 두 약을 함께 먹는 것과 심부전의 인과관계는 확립되지 않았어요."
 
 
       },
@@ -2204,7 +2204,7 @@ export const spokes: Record<string, SpokeArticle> = {
        "question": "임신 중인 아내가 캡슐을 만져도 돼요?",
 
 
-       "answer": "임신했거나 임신 가능성이 있는 여성은 이 약을 다루면 안 되고, 새는 캡슐에 닿았다면 바로 물과 비누로 씻어야 해요."
+       "answer": "안 돼요. 두타스테리드는 피부로 흡수되기 때문에 임신했거나 임신 가능성이 있는 여성은 이 약을 다루면 안 돼요. 새는 캡슐에 닿았다면 바로 물과 비누로 씻어야 해요."
 
 
       },
@@ -2213,10 +2213,10 @@ export const spokes: Record<string, SpokeArticle> = {
       {
 
 
-       "question": "여성이 먹어도 돼요?",
+       "question": "정자 수가 줄 수 있어요?",
 
 
-       "answer": "아니요. 여성과 18세 미만은 먹으면 안 돼요."
+       "answer": "52주 시험에서 위약 보정 후 총 정자 수 23%, 정액량 26%, 정자 운동성 18%가 줄었어요. 정자 농도와 형태는 영향을 받지 않았어요."
 
 
       }
@@ -3060,7 +3060,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
 
 
@@ -3096,11 +3096,11 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "question": "모모드정은 처방이 필요해요?",
+       "question": "전립샘비대증 약을 먹고 있으면요?",
 
 
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "양성전립샘비대증 등으로 피나스테리드 5mg이나 다른 5α-환원효소 억제제를 먹고 있다면 모모드정은 먹으면 안 돼요. 처방받을 때 먹는 약을 모두 알려 주세요."
 
 
 
@@ -3112,11 +3112,11 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "question": "모모드정 부작용은요?",
+       "question": "사정액 양이 줄어요?",
 
 
 
-       "answer": "1년 시험에서 성욕감퇴 1.8%(위약 1.3%), 발기부전 1.3%(위약 0.7%)가 보고됐어요."
+       "answer": "건강한 남성이 48주 먹은 시험에서 사정액 감소량 중앙값은 1mg 군 0.3mL(-11%), 위약 군 0.2mL(-8%)였어요. 5배 용량을 먹은 시험에서는 약 0.5mL(-25%) 줄었지만 끊으면 회복됐어요."
 
 
 
@@ -3132,7 +3132,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "answer": "첨가제 셀락토오스80에 유당이 있어 갈락토오스 불내성이 있으면 먹을 수 없어요."
+       "answer": "네. 첨가제 셀락토오스80에 유당이 있어요. 갈락토오스 불내성, Lapp 유당분해효소 결핍증, 포도당-갈락토오스 흡수장애가 있으면 먹을 수 없어요."
 
 
 
@@ -3336,7 +3336,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
 
 
@@ -3372,11 +3372,11 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "question": "네오다트는 처방이 필요해요?",
+       "question": "PSA 검사 결과가 달라져요?",
 
 
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "네오다트는 혈청 PSA를 3개월 뒤 약 40%, 6개월 뒤 약 50%까지 낮춰요. 그래서 먹기 시작하고 3~6개월 뒤 PSA 초기값을 새로 정하고, 이후 변화는 그 값을 기준으로 봐야 해요."
 
 
 
@@ -3392,7 +3392,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "answer": "임신했거나 임신 가능성이 있는 여성은 이 약을 다루면 안 돼요."
+       "answer": "임신했거나 임신 가능성이 있는 여성은 이 약을 다루면 안 돼요. 성분이 피부로 흡수되기 때문에, 캡슐이 새어 몸에 닿았다면 바로 물과 비누로 씻어 내세요."
 
 
 
@@ -3404,11 +3404,11 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "question": "운전해도 돼요?",
+       "question": "정자 수에도 영향이 있어요?",
 
 
 
-       "answer": "약의 특성상 운전이나 기계 조작 능력에 영향을 줄 것으로 예측되지 않는다고 돼 있어요."
+       "answer": "52주째 총 정자 수는 23%, 정액량은 26%, 정자 운동성은 18% 줄었어요(위약 보정). 24주 추적 뒤에도 총 정자 수는 처음보다 23% 낮았지만, 모든 평균값은 정상 범위 안이었어요."
 
 
 
@@ -5427,7 +5427,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
 
 
@@ -5463,11 +5463,11 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "question": "마이시아정은 처방이 필요해요?",
+       "question": "전립샘비대증 약을 먹고 있으면요?",
 
 
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "양성전립샘비대증 등으로 피나스테리드 5mg이나 다른 5α-환원효소 억제제를 먹고 있다면 마이시아정을 먹으면 안 돼요. 처방받을 때 먹고 있는 약을 알려 주세요."
 
 
 
@@ -5479,11 +5479,11 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "question": "임신한 아내가 만져도 돼요?",
+       "question": "많이 먹으면 효과가 더 좋아요?",
 
 
 
-       "answer": "깨지지 않은 정제는 괜찮지만, 부서진 조각은 만지면 안 돼요."
+       "answer": "아니요. 용량을 늘린다고 효과가 커진다는 근거가 없어요. 임상시험에서 400mg을 한 번에 먹거나 하루 80mg을 3개월 먹었을 때도 이상반응은 없었지만, 하루 1번 1mg을 지키세요."
 
 
 
@@ -5499,7 +5499,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
 
 
-       "answer": "끊으면 12개월 안에 효과가 사라진다고 돼 있어요."
+       "answer": "끊으면 12개월 안에 효과가 사라진다고 돼 있어요. 효과를 유지하려면 계속 먹어야 하고, 치료 기간과 효과는 꾸준히 평가해야 해요."
 
 
 
@@ -6110,7 +6110,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "datePublished": "2026-02-24",
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
      "title": "삼성두타스테리드정 두타스테리드 카피약, 가격과 효과",
 
@@ -6120,7 +6120,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "description": "삼성제약 삼성두타스테리드정0.5밀리그램의 생동성 시험(아다모정0.5밀리그램 대 아보다트), 한올바이오파마가 만드는 연한 노란색 원형 정제, 허가 효과, ",
 
-     "heroDescription": "삼성두타스테리드정은 이름에 성분명을 그대로 쓴 두타스테리드 카피약이라, 오리지널과 같은지 궁금하죠. 생동성 시험은 같은 위탁제조사의 아다모정으로 아보다트와 비교해 진행됐어요. 정제는 흔한 달걀형이 아닌 연한 노란색 원형이에요. 그럼 카피약부터 확인해야겠죠. 두타스테리드 카피약부터 가격과 효과까지 알아볼게요.",
+     "heroDescription": "삼성두타스테리드정은 이름에 성분명을 그대로 쓴 두타스테리드 카피약이라, 오리지널과 같은지 궁금하죠. 생동성 시험은 같은 위탁제조사의 아다모정으로 아보다트와 비교해 진행됐어요. 정제는 연한 노란색 원형이에요. 그럼 카피약부터 확인해야겠죠. 두타스테리드 카피약부터 가격과 효과까지 알아볼게요.",
 
      "products": [],
 
@@ -6128,9 +6128,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
       {
 
-       "question": "삼성두타스테리드정은 처방이 필요해요?",
+       "question": "탐스로신과 같이 먹어도 돼요?",
 
-       "answer": "네, 전문의약품이에요."
+       "answer": "두타스테리드와 α-차단제(주로 탐스로신)를 함께 먹은 4년 시험 두 건에서 심부전 빈도가 함께 먹지 않은 환자보다 높았어요. 빈도는 1% 이하로 낮았고, 인과관계는 확립되지 않았다고 돼 있어요."
 
       },
 
@@ -6138,7 +6138,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "PSA 검사에 영향 있어요?",
 
-       "answer": "PSA 수치를 3개월 뒤 약 40%, 6개월 뒤 약 50% 낮춘다고 돼 있어요."
+       "answer": "혈청 PSA를 3개월 뒤 약 40%, 6개월 뒤 약 50%까지 낮춰요. 먹기 시작하고 3~6개월 뒤 PSA 초기값을 다시 정해야 해서, 검사 때 복용 사실을 알려야 해요."
 
       },
 
@@ -6146,7 +6146,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "쪼개 먹어도 돼요?",
 
-       "answer": "아니요. 씹거나 쪼개지 말고 통째로 삼켜야 해요."
+       "answer": "아니요. 씹거나 쪼개지 말고 통째로 삼켜야 해요. 부서진 조각은 임신 가능성이 있는 여성이 만지면 안 되니 정제 그대로 보관하세요."
 
       }
 
@@ -6174,7 +6174,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "title": "삼성두타스테리드정 효과, 무엇에 써요?",
 
-       "content": "효능은 양성 전립선 비대증 치료와 성인 남성(만18~50세)의 남성형 탈모 치료예요. 하루 1번 1정(0.5mg)을 식사와 관계없이 통째로 삼켜요.\n\n같은 한올바이오파마가 만드는 연한 노란색 원형 정제로 두타린정, 두타베린정도 있어요."
+       "content": "효능은 양성 전립선 비대증 치료와 성인 남성(만18~50세)의 남성형 탈모 치료예요. 하루 1번 1정(0.5mg)을 식사와 관계없이 통째로 삼켜요.\n\n같은 한올바이오파마가 만드는 연한 노란색 원형 정제로 한국신텍스제약 두타린정도 있어요."
 
       },
 
@@ -6182,7 +6182,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "title": "삼성두타스테리드정 먹을 때 확인할 것",
 
-       "content": "마지막으로 먹은 뒤 최소 6개월은 헌혈하면 안 돼요. 임신 가능성이 있는 여성은 이 약을 다루면 안 되고, 부서진 조각도 만지면 안 돼요.\n\n같은 삼성제약에는 피나스테리드 5mg·1mg 정제도 있지만 성분이 다른 약이에요."
+       "content": "마지막으로 먹은 뒤 최소 6개월은 헌혈하면 안 돼요. 임신 가능성이 있는 여성은 이 약을 다루면 안 되고, 부서진 조각도 만지면 안 돼요.\n\n같은 삼성제약의 삼성피나스테리드정5밀리그램은 전립샘비대증에 쓰는 피나스테리드 정제라 성분이 다른 약이에요."
 
       }
 
