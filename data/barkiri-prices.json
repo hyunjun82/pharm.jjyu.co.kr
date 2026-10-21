@@ -1,837 +1,841 @@
 {
- "p223": {
-  "name": "아보다트 연질캡슐 0.5밀리그램 30연질캡슐",
-  "lowPrice": 21960,
-  "highPrice": 34850,
-  "storeCount": 8,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1559": {
-  "name": "타이센정 500mg 10정",
-  "lowPrice": 1000,
-  "highPrice": 1000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-07-17"
- },
- "p1609": {
-  "name": "탁센 레이디 연질캡슐 30캡슐",
-  "lowPrice": 4000,
-  "highPrice": 10000,
-  "storeCount": 16,
-  "fetchedAt": "2026-07-17"
- },
- "p88": {
-  "name": "타이레놀정 500mg 10정",
-  "lowPrice": 2200,
-  "highPrice": 4000,
-  "storeCount": 74,
-  "fetchedAt": "2026-07-17"
- },
- "p78": {
-  "name": "게보린정 10정",
-  "lowPrice": 2800,
-  "highPrice": 4000,
-  "storeCount": 12,
-  "fetchedAt": "2026-07-17"
- },
- "p61": {
-  "name": "프로페시아정 1mg 28정",
-  "lowPrice": 47990,
-  "highPrice": 60000,
-  "storeCount": 13,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p135": {
-  "name": "동성 미녹시딜액 5% 200ml",
-  "lowPrice": 21000,
-  "highPrice": 35000,
-  "storeCount": 21,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1208": {
-  "name": "사리돈 에이정 10정",
-  "lowPrice": 2700,
-  "highPrice": 3500,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p1445": {
-  "name": "판시딜액 5% 240ml",
-  "lowPrice": 23000,
-  "highPrice": 40000,
-  "storeCount": 6,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1572": {
-  "name": "이지엔6스트롱 연질캡슐 10캡슐",
-  "lowPrice": 1700,
-  "highPrice": 2000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p267": {
-  "name": "애드빌 리퀴겔 연질캡슐 10연질캡슐",
-  "lowPrice": 2000,
-  "highPrice": 3500,
-  "storeCount": 10,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p285": {
-  "name": "로게인 폼 에어로졸 5% 60g 3개입",
-  "lowPrice": 65000,
-  "highPrice": 85000,
-  "storeCount": 23,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p676": {
-  "name": "판시딜 180캡슐",
-  "lowPrice": 65000,
-  "highPrice": 80000,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p758": {
-  "name": "낙센 250mg 연질캡슐 10캡슐",
-  "lowPrice": 1500,
-  "highPrice": 3000,
-  "storeCount": 9,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p80": {
-  "name": "덱스피드 연질캡슐 10캡슐",
-  "lowPrice": 1500,
-  "highPrice": 3000,
-  "storeCount": 9,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p81": {
-  "name": "탁센 연질캡슐 10캡슐",
-  "lowPrice": 1400,
-  "highPrice": 3000,
-  "storeCount": 60,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p86": {
-  "name": "펜잘 큐 정 10정",
-  "lowPrice": 2300,
-  "highPrice": 2500,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p570": {
-  "name": "탁센 레이디 연질캡슐 10캡슐",
-  "lowPrice": 1200,
-  "highPrice": 4000,
-  "storeCount": 24,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p458": {
-  "name": "에이스펜 10연질캡슐",
-  "lowPrice": 3000,
-  "highPrice": 3000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-07-17"
- },
- "p1469": {
-  "name": "신신 플렉스정 10정",
-  "lowPrice": 1900,
-  "highPrice": 2000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-07-17"
- },
- "p1951": {
-  "name": "판시딜액 3% 200ml",
-  "lowPrice": 23000,
-  "highPrice": 25000,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1367": {
-  "name": "판시딜 360캡슐",
-  "lowPrice": 100000,
-  "highPrice": 105000,
-  "storeCount": 4,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1432": {
-  "name": "카필러스 180캡슐",
-  "lowPrice": 24500,
-  "highPrice": 40000,
-  "storeCount": 6,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1588": {
-  "name": "미녹시폼 에어로솔 미녹시딜 5% 60g 3캔",
-  "lowPrice": 40000,
-  "highPrice": 40000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p407": {
-  "name": "동성 미녹시딜액 3% 200ml",
-  "lowPrice": 21000,
-  "highPrice": 35000,
-  "storeCount": 17,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p735": {
-  "name": "판시딜 270캡슐",
-  "lowPrice": 80000,
-  "highPrice": 90000,
-  "storeCount": 7,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p2025": {
-  "name": "판시온 180캡슐",
-  "lowPrice": 40000,
-  "highPrice": 40000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2019": {
-  "name": "마이녹실 에스 S 캡슐 180캡슐",
-  "lowPrice": 30000,
-  "highPrice": 30000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p1726": {
-  "name": "마이녹실 폼 에어로솔 5% 60g",
-  "lowPrice": 14000,
-  "highPrice": 20000,
-  "storeCount": 9,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1487": {
-  "name": "마이녹실 에스 S 캡슐 360캡슐",
-  "lowPrice": 60000,
-  "highPrice": 75000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p2029": {
-  "name": "마이녹실액 3% 60ml",
-  "lowPrice": 13000,
-  "highPrice": 13000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2021": {
-  "name": "마이녹실액 5% 60ml",
-  "lowPrice": 13000,
-  "highPrice": 13000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2020": {
-  "name": "마이녹실액 5% 150ml",
-  "lowPrice": 21000,
-  "highPrice": 21000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p1671": {
-  "name": "마이녹실액 3% 180ml",
-  "lowPrice": 25000,
-  "highPrice": 35000,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1279": {
-  "name": "마이녹실액 5% 360ml",
-  "lowPrice": 55000,
-  "highPrice": 60000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p2725": {
-  "name": "마이녹실액 5% 180ml",
-  "lowPrice": 23000,
-  "highPrice": 23000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2022": {
-  "name": "복합 마이녹실액 5% 240ml",
-  "lowPrice": 50000,
-  "highPrice": 70000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p190": {
-  "name": "복합 마이녹실액 5% 60ml",
-  "lowPrice": 18000,
-  "highPrice": 18000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p1468": {
-  "name": "카필러스 폼 에어로솔 5% 미녹시딜 60g",
-  "lowPrice": 14900,
-  "highPrice": 19000,
-  "storeCount": 7,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p2242": {
-  "name": "카필러스 폼 에어로솔 5% 미녹시딜 60g 3묶음",
-  "lowPrice": 43000,
-  "highPrice": 43000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2027": {
-  "name": "카필러스액 5% 180ml",
-  "lowPrice": 25000,
-  "highPrice": 25000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2026": {
-  "name": "로게인 폼 에어로졸 5% 60g 1개입",
-  "lowPrice": 25000,
-  "highPrice": 27000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1300": {
-  "name": "로파인 캡슐 10캡슐",
-  "lowPrice": 1500,
-  "highPrice": 2500,
-  "storeCount": 4,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1779": {
-  "name": "로다인정 30정",
-  "lowPrice": 5000,
-  "highPrice": 5000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2227": {
-  "name": "미녹시딜 바이그루트 3% 200ml",
-  "lowPrice": 22000,
-  "highPrice": 35000,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p2642": {
-  "name": "미녹시딜 바이그루트겔 5% 15g",
-  "lowPrice": 17000,
-  "highPrice": 20000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p2641": {
-  "name": "미녹시딜 바이크루트액 3% 200ml",
-  "lowPrice": 25000,
-  "highPrice": 25000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2640": {
-  "name": "미녹시딜 바이크루트액 5% 200ml",
-  "lowPrice": 25000,
-  "highPrice": 25000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2028": {
-  "name": "판토가 90캡슐",
-  "lowPrice": 60000,
-  "highPrice": 60000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p90": {
-  "error": "JSON-LD Product 없음",
-  "fetchedAt": "2026-10-20"
- },
- "p84": {
-  "error": "JSON-LD Product 없음",
-  "fetchedAt": "2026-10-20"
- },
- "p363": {
-  "name": "동성 정로환 당의정 36정",
-  "lowPrice": 3900,
-  "highPrice": 4500,
-  "storeCount": 4,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p54": {
-  "name": "프로페시아정 1mg 84정",
-  "lowPrice": 137760,
-  "highPrice": 168900,
-  "storeCount": 25,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1476": {
-  "name": "피나앤정 1mg 30정",
-  "lowPrice": 7470,
-  "highPrice": 8700,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p67": {
-  "name": "알로시아정 1mg 30정",
-  "lowPrice": 41010,
-  "highPrice": 41010,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p52": {
-  "name": "헤어그로정 1mg 30정",
-  "lowPrice": 9900,
-  "highPrice": 17700,
-  "storeCount": 5,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1350": {
-  "name": "파세드정 1mg 30정",
-  "lowPrice": 16585,
-  "highPrice": 16585,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p74": {
-  "name": "피나테크정 1mg 30정",
-  "lowPrice": 16500,
-  "highPrice": 16500,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p65": {
-  "name": "헤어그로정 1mg 90정",
-  "lowPrice": 27000,
-  "highPrice": 53100,
-  "storeCount": 9,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1878": {
-  "name": "피나온정 1mg 30정",
-  "lowPrice": 13700,
-  "highPrice": 13700,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p49": {
-  "name": "미노페시아정 1mg 28정",
-  "lowPrice": 13200,
-  "highPrice": 21700,
-  "storeCount": 5,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p72": {
-  "name": "피나스로정 1mg 30정",
-  "lowPrice": 19020,
-  "highPrice": 30000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p53": {
-  "name": "모모페시아정 1mg 90정",
-  "lowPrice": 54000,
-  "highPrice": 78000,
-  "storeCount": 5,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1295": {
-  "name": "피노테정 1mg 90정",
-  "lowPrice": 27000,
-  "highPrice": 27000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p75": {
-  "name": "모모페시아정 1mg 30정",
-  "lowPrice": 18000,
-  "highPrice": 36630,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1371": {
-  "name": "스테리정 1mg 30정",
-  "lowPrice": 9000,
-  "highPrice": 9000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p51": {
-  "name": "알로스칸정 1mg 30정",
-  "lowPrice": 16500,
-  "highPrice": 16500,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p66": {
-  "name": "베아리모정 1mg 30정",
-  "lowPrice": 33000,
-  "highPrice": 33000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p47": {
-  "name": "피나원정 1mg 30정",
-  "lowPrice": 7200,
-  "highPrice": 7200,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p50": {
-  "name": "미노페시아정 1mg 84정",
-  "lowPrice": 46200,
-  "highPrice": 49560,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p511": {
-  "name": "오뉴페시아정 1mg 90정",
-  "lowPrice": 29700,
-  "highPrice": 29700,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p224": {
-  "name": "아보다트 연질캡슐 0.5밀리그램 90연질캡슐",
-  "lowPrice": 63900,
-  "highPrice": 88400,
-  "storeCount": 4,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p134": {
-  "name": "다모다트 연질캡슐 0.5mg 30캡슐",
-  "lowPrice": 11550,
-  "highPrice": 16500,
-  "storeCount": 4,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1399": {
-  "name": "모더다트 연질캡슐 0.5mg 30정",
-  "lowPrice": 10800,
-  "highPrice": 15600,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-21"
- },
- "p1852": {
-  "name": "나녹시딜액 2% 50ml",
-  "lowPrice": 23000,
-  "highPrice": 23000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p1130": {
-  "name": "동광 미녹시딜정 5mg 300정",
-  "lowPrice": 45000,
-  "highPrice": 45000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p62": {
-  "name": "모나드정 30정",
-  "lowPrice": 31680,
-  "highPrice": 31680,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p63": {
-  "name": "모나드정 90정",
-  "lowPrice": 95040,
-  "highPrice": 95040,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p530": {
-  "error": "JSON-LD Product 없음",
-  "fetchedAt": "2026-10-20"
- },
- "p2403": {
-  "name": "판시딜액 5% 60ml",
-  "lowPrice": 15000,
-  "highPrice": 15000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p499": {
-  "name": "피나시드정 1밀리그램 30정",
-  "lowPrice": 11100,
-  "highPrice": 11100,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2411": {
-  "name": "두타모아정 0.5mg 30정",
-  "lowPrice": 11100,
-  "highPrice": 11100,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p1589": {
-  "name": "두타윈 연질캡슐 0.5mg 30캡슐",
-  "lowPrice": 11400,
-  "highPrice": 11400,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-21"
- },
- "p2349": {
-  "name": "피나움정 1mg 90정",
-  "lowPrice": 19800,
-  "highPrice": 19800,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p48": {
-  "name": "신신 피나스테리드정 1밀리그램 30정",
-  "lowPrice": 15000,
-  "highPrice": 17000,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1070": {
-  "name": "마이모닉액 5% 60ml",
-  "lowPrice": 16000,
-  "highPrice": 16000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p1393": {
-  "name": "마이모닉액 5% 240ml",
-  "lowPrice": 26000,
-  "highPrice": 26000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2664": {
-  "name": "마이시딜캡슐 90캡슐",
-  "lowPrice": 45000,
-  "highPrice": 45000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p645": {
-  "name": "두피앤액 30ml",
-  "lowPrice": 3900,
-  "highPrice": 7000,
-  "storeCount": 12,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p2342": {
-  "name": "멕스페시아정 1mg 90정",
-  "lowPrice": 16700,
-  "highPrice": 16700,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p687": {
-  "name": "두피나액 30ml",
-  "lowPrice": 4500,
-  "highPrice": 6000,
-  "storeCount": 4,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p2017": {
-  "name": "모나에스 180캡슐",
-  "lowPrice": 40000,
-  "highPrice": 40000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p881": {
-  "name": "모바렌 캡슐 180캡슐",
-  "lowPrice": 23000,
-  "highPrice": 38000,
-  "storeCount": 15,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20",
-  "note": "JSON-LD Product 없음 — 제품 페이지 본문(최저·최고)과 검색 결과(약국 수)에서 확인"
- },
- "p2054": {
-  "name": "모바렌 폼 에어로졸 5% 60g",
-  "lowPrice": 15000,
-  "highPrice": 18000,
-  "storeCount": 6,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20",
-  "note": "JSON-LD Product 없음 — 제품 페이지 본문(최저·최고)과 검색 결과(약국 수)에서 확인"
- },
- "p677": {
-  "name": "케라시딜 캡슐 240캡슐",
-  "lowPrice": 80000,
-  "highPrice": 80000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p817": {
-  "name": "케라시딜 캡슐 360캡슐",
-  "lowPrice": 55000,
-  "highPrice": 78000,
-  "storeCount": 8,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1244": {
-  "name": "케라티모 180캡슐",
-  "lowPrice": 35000,
-  "highPrice": 35000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p746": {
-  "name": "케라티모캡슐 360캡슐",
-  "lowPrice": 65000,
-  "highPrice": 70000,
-  "storeCount": 4,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1648": {
-  "name": "현대 미녹시딜정 30정",
-  "lowPrice": 10800,
-  "highPrice": 10800,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2031": {
-  "name": "목시딜액 5% 30ml",
-  "lowPrice": 4500,
-  "highPrice": 4500,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p2030": {
-  "name": "목시딜액 3% 60ml",
-  "lowPrice": 17000,
-  "highPrice": 17000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-20"
- },
- "p73": {
-  "name": "메리나정 30정",
-  "lowPrice": 19020,
-  "highPrice": 35000,
-  "storeCount": 10,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p889": {
-  "name": "볼두민 캡슐 90캡슐 x 3EA",
-  "lowPrice": 46000,
-  "highPrice": 48000,
-  "storeCount": 3,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p43": {
-  "name": "아다모 연질캡슐 0.5mg 30캡슐",
-  "lowPrice": 14400,
-  "highPrice": 16500,
-  "storeCount": 2,
-  "aggregate": true,
-  "fetchedAt": "2026-10-20"
- },
- "p1176": {
-  "name": "에이페시아정 1밀리그램 30정",
-  "lowPrice": 9000,
-  "highPrice": 9000,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-21"
- },
- "p2170": {
-  "name": "유힐릭스 연질캡슐 0.5mg 30캡슐",
-  "lowPrice": 8700,
-  "highPrice": 8700,
-  "storeCount": 1,
-  "aggregate": false,
-  "fetchedAt": "2026-10-21"
- }
+  "p223": {
+    "name": "아보다트 연질캡슐 0.5밀리그램 30연질캡슐",
+    "lowPrice": 21960,
+    "highPrice": 34850,
+    "storeCount": 8,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1559": {
+    "name": "타이센정 500mg 10정",
+    "lowPrice": 1000,
+    "highPrice": 1000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-07-17"
+  },
+  "p1609": {
+    "name": "탁센 레이디 연질캡슐 30캡슐",
+    "lowPrice": 4000,
+    "highPrice": 10000,
+    "storeCount": 16,
+    "fetchedAt": "2026-07-17"
+  },
+  "p88": {
+    "name": "타이레놀정 500mg 10정",
+    "lowPrice": 2200,
+    "highPrice": 4000,
+    "storeCount": 74,
+    "fetchedAt": "2026-07-17"
+  },
+  "p78": {
+    "name": "게보린정 10정",
+    "lowPrice": 2800,
+    "highPrice": 4000,
+    "storeCount": 12,
+    "fetchedAt": "2026-07-17"
+  },
+  "p61": {
+    "name": "프로페시아정 1mg 28정",
+    "lowPrice": 47990,
+    "highPrice": 60000,
+    "storeCount": 13,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p135": {
+    "name": "동성 미녹시딜액 5% 200ml",
+    "lowPrice": 21000,
+    "highPrice": 35000,
+    "storeCount": 21,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1208": {
+    "name": "사리돈 에이정 10정",
+    "lowPrice": 2700,
+    "highPrice": 3500,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p1445": {
+    "name": "판시딜액 5% 240ml",
+    "lowPrice": 23000,
+    "highPrice": 40000,
+    "storeCount": 6,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1572": {
+    "name": "이지엔6스트롱 연질캡슐 10캡슐",
+    "lowPrice": 1700,
+    "highPrice": 2000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p267": {
+    "name": "애드빌 리퀴겔 연질캡슐 10연질캡슐",
+    "lowPrice": 2000,
+    "highPrice": 3500,
+    "storeCount": 10,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p285": {
+    "name": "로게인 폼 에어로졸 5% 60g 3개입",
+    "lowPrice": 65000,
+    "highPrice": 85000,
+    "storeCount": 23,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p676": {
+    "name": "판시딜 180캡슐",
+    "lowPrice": 65000,
+    "highPrice": 80000,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p758": {
+    "name": "낙센 250mg 연질캡슐 10캡슐",
+    "lowPrice": 1500,
+    "highPrice": 3000,
+    "storeCount": 9,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p80": {
+    "name": "덱스피드 연질캡슐 10캡슐",
+    "lowPrice": 1500,
+    "highPrice": 3000,
+    "storeCount": 9,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p81": {
+    "name": "탁센 연질캡슐 10캡슐",
+    "lowPrice": 1400,
+    "highPrice": 3000,
+    "storeCount": 60,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p86": {
+    "name": "펜잘 큐 정 10정",
+    "lowPrice": 2300,
+    "highPrice": 2500,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p570": {
+    "name": "탁센 레이디 연질캡슐 10캡슐",
+    "lowPrice": 1200,
+    "highPrice": 4000,
+    "storeCount": 24,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p458": {
+    "name": "에이스펜 10연질캡슐",
+    "lowPrice": 3000,
+    "highPrice": 3000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-07-17"
+  },
+  "p1469": {
+    "name": "신신 플렉스정 10정",
+    "lowPrice": 1900,
+    "highPrice": 2000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-07-17"
+  },
+  "p1951": {
+    "name": "판시딜액 3% 200ml",
+    "lowPrice": 23000,
+    "highPrice": 25000,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1367": {
+    "name": "판시딜 360캡슐",
+    "lowPrice": 100000,
+    "highPrice": 105000,
+    "storeCount": 4,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1432": {
+    "name": "카필러스 180캡슐",
+    "lowPrice": 24500,
+    "highPrice": 40000,
+    "storeCount": 6,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1588": {
+    "name": "미녹시폼 에어로솔 미녹시딜 5% 60g 3캔",
+    "lowPrice": 40000,
+    "highPrice": 40000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p407": {
+    "name": "동성 미녹시딜액 3% 200ml",
+    "lowPrice": 21000,
+    "highPrice": 35000,
+    "storeCount": 17,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p735": {
+    "name": "판시딜 270캡슐",
+    "lowPrice": 80000,
+    "highPrice": 90000,
+    "storeCount": 7,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2025": {
+    "name": "판시온 180캡슐",
+    "lowPrice": 40000,
+    "highPrice": 40000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2019": {
+    "name": "마이녹실 에스 S 캡슐 180캡슐",
+    "lowPrice": 30000,
+    "highPrice": 30000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1726": {
+    "name": "마이녹실 폼 에어로솔 5% 60g",
+    "lowPrice": 14000,
+    "highPrice": 20000,
+    "storeCount": 9,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1487": {
+    "name": "마이녹실 에스 S 캡슐 360캡슐",
+    "lowPrice": 60000,
+    "highPrice": 75000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2029": {
+    "name": "마이녹실액 3% 60ml",
+    "lowPrice": 13000,
+    "highPrice": 13000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2021": {
+    "name": "마이녹실액 5% 60ml",
+    "lowPrice": 13000,
+    "highPrice": 13000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2020": {
+    "name": "마이녹실액 5% 150ml",
+    "lowPrice": 21000,
+    "highPrice": 21000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1671": {
+    "name": "마이녹실액 3% 180ml",
+    "lowPrice": 25000,
+    "highPrice": 35000,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1279": {
+    "name": "마이녹실액 5% 360ml",
+    "lowPrice": 55000,
+    "highPrice": 60000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2725": {
+    "name": "마이녹실액 5% 180ml",
+    "lowPrice": 23000,
+    "highPrice": 23000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2022": {
+    "name": "복합 마이녹실액 5% 240ml",
+    "lowPrice": 50000,
+    "highPrice": 70000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p190": {
+    "name": "복합 마이녹실액 5% 60ml",
+    "lowPrice": 18000,
+    "highPrice": 18000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1468": {
+    "name": "카필러스 폼 에어로솔 5% 미녹시딜 60g",
+    "lowPrice": 14900,
+    "highPrice": 19000,
+    "storeCount": 7,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2242": {
+    "name": "카필러스 폼 에어로솔 5% 미녹시딜 60g 3묶음",
+    "lowPrice": 43000,
+    "highPrice": 43000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2027": {
+    "name": "카필러스액 5% 180ml",
+    "lowPrice": 25000,
+    "highPrice": 25000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2026": {
+    "name": "로게인 폼 에어로졸 5% 60g 1개입",
+    "lowPrice": 25000,
+    "highPrice": 27000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1300": {
+    "name": "로파인 캡슐 10캡슐",
+    "lowPrice": 1500,
+    "highPrice": 2500,
+    "storeCount": 4,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1779": {
+    "name": "로다인정 30정",
+    "lowPrice": 5000,
+    "highPrice": 5000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2227": {
+    "name": "미녹시딜 바이그루트 3% 200ml",
+    "lowPrice": 22000,
+    "highPrice": 35000,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2642": {
+    "name": "미녹시딜 바이그루트겔 5% 15g",
+    "lowPrice": 17000,
+    "highPrice": 20000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2641": {
+    "name": "미녹시딜 바이크루트액 3% 200ml",
+    "lowPrice": 25000,
+    "highPrice": 25000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2640": {
+    "name": "미녹시딜 바이크루트액 5% 200ml",
+    "lowPrice": 25000,
+    "highPrice": 25000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2028": {
+    "name": "판토가 90캡슐",
+    "lowPrice": 60000,
+    "highPrice": 60000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p90": {
+    "error": "JSON-LD Product 없음",
+    "fetchedAt": "2026-10-20"
+  },
+  "p84": {
+    "error": "JSON-LD Product 없음",
+    "fetchedAt": "2026-10-20"
+  },
+  "p363": {
+    "name": "동성 정로환 당의정 36정",
+    "lowPrice": 3900,
+    "highPrice": 4500,
+    "storeCount": 4,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p54": {
+    "name": "프로페시아정 1mg 84정",
+    "lowPrice": 137760,
+    "highPrice": 168900,
+    "storeCount": 25,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1476": {
+    "name": "피나앤정 1mg 30정",
+    "lowPrice": 7470,
+    "highPrice": 8700,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p67": {
+    "name": "알로시아정 1mg 30정",
+    "lowPrice": 41010,
+    "highPrice": 41010,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p52": {
+    "name": "헤어그로정 1mg 30정",
+    "lowPrice": 9900,
+    "highPrice": 17700,
+    "storeCount": 5,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1350": {
+    "name": "파세드정 1mg 30정",
+    "lowPrice": 16585,
+    "highPrice": 16585,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p74": {
+    "name": "피나테크정 1mg 30정",
+    "lowPrice": 16500,
+    "highPrice": 16500,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p65": {
+    "name": "헤어그로정 1mg 90정",
+    "lowPrice": 27000,
+    "highPrice": 53100,
+    "storeCount": 9,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1878": {
+    "name": "피나온정 1mg 30정",
+    "lowPrice": 13700,
+    "highPrice": 13700,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p49": {
+    "name": "미노페시아정 1mg 28정",
+    "lowPrice": 13200,
+    "highPrice": 21700,
+    "storeCount": 5,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p72": {
+    "name": "피나스로정 1mg 30정",
+    "lowPrice": 19020,
+    "highPrice": 30000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p53": {
+    "name": "모모페시아정 1mg 90정",
+    "lowPrice": 54000,
+    "highPrice": 78000,
+    "storeCount": 5,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1295": {
+    "name": "피노테정 1mg 90정",
+    "lowPrice": 27000,
+    "highPrice": 27000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p75": {
+    "name": "모모페시아정 1mg 30정",
+    "lowPrice": 18000,
+    "highPrice": 36630,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1371": {
+    "name": "스테리정 1mg 30정",
+    "lowPrice": 9000,
+    "highPrice": 9000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p51": {
+    "name": "알로스칸정 1mg 30정",
+    "lowPrice": 16500,
+    "highPrice": 16500,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p66": {
+    "name": "베아리모정 1mg 30정",
+    "lowPrice": 33000,
+    "highPrice": 33000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p47": {
+    "name": "피나원정 1mg 30정",
+    "lowPrice": 7200,
+    "highPrice": 7200,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p50": {
+    "name": "미노페시아정 1mg 84정",
+    "lowPrice": 46200,
+    "highPrice": 49560,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p511": {
+    "name": "오뉴페시아정 1mg 90정",
+    "lowPrice": 29700,
+    "highPrice": 29700,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p224": {
+    "name": "아보다트 연질캡슐 0.5밀리그램 90연질캡슐",
+    "lowPrice": 63900,
+    "highPrice": 88400,
+    "storeCount": 4,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p134": {
+    "name": "다모다트 연질캡슐 0.5mg 30캡슐",
+    "lowPrice": 11550,
+    "highPrice": 16500,
+    "storeCount": 4,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1399": {
+    "name": "모더다트 연질캡슐 0.5mg 30정",
+    "lowPrice": 10800,
+    "highPrice": 15600,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-21"
+  },
+  "p1852": {
+    "name": "나녹시딜액 2% 50ml",
+    "lowPrice": 23000,
+    "highPrice": 23000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1130": {
+    "name": "동광 미녹시딜정 5mg 300정",
+    "lowPrice": 45000,
+    "highPrice": 45000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p62": {
+    "name": "모나드정 30정",
+    "lowPrice": 31680,
+    "highPrice": 31680,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p63": {
+    "name": "모나드정 90정",
+    "lowPrice": 95040,
+    "highPrice": 95040,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p530": {
+    "name": "케라민캡슐 90캡슐",
+    "lowPrice": 52000,
+    "highPrice": 60000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-21"
+  },
+  "p2403": {
+    "name": "판시딜액 5% 60ml",
+    "lowPrice": 15000,
+    "highPrice": 15000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p499": {
+    "name": "피나시드정 1밀리그램 30정",
+    "lowPrice": 11100,
+    "highPrice": 11100,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2411": {
+    "name": "두타모아정 0.5mg 30정",
+    "lowPrice": 11100,
+    "highPrice": 11100,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1589": {
+    "name": "두타윈 연질캡슐 0.5mg 30캡슐",
+    "lowPrice": 11400,
+    "highPrice": 11400,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-21"
+  },
+  "p2349": {
+    "name": "피나움정 1mg 90정",
+    "lowPrice": 19800,
+    "highPrice": 19800,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p48": {
+    "name": "신신 피나스테리드정 1밀리그램 30정",
+    "lowPrice": 15000,
+    "highPrice": 17000,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1070": {
+    "name": "마이모닉액 5% 60ml",
+    "lowPrice": 16000,
+    "highPrice": 16000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1393": {
+    "name": "마이모닉액 5% 240ml",
+    "lowPrice": 26000,
+    "highPrice": 26000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2664": {
+    "name": "마이시딜캡슐 90캡슐",
+    "lowPrice": 45000,
+    "highPrice": 45000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p645": {
+    "name": "두피앤액 30ml",
+    "lowPrice": 3900,
+    "highPrice": 7000,
+    "storeCount": 12,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2342": {
+    "name": "멕스페시아정 1mg 90정",
+    "lowPrice": 16700,
+    "highPrice": 16700,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p687": {
+    "name": "두피나액 30ml",
+    "lowPrice": 4500,
+    "highPrice": 6000,
+    "storeCount": 4,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2017": {
+    "name": "모나에스 180캡슐",
+    "lowPrice": 40000,
+    "highPrice": 40000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p881": {
+    "name": "모바렌 캡슐 180캡슐",
+    "lowPrice": 23000,
+    "highPrice": 38000,
+    "storeCount": 15,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20",
+    "note": "JSON-LD Product 없음 — 제품 페이지 본문(최저·최고)과 검색 결과(약국 수)에서 확인"
+  },
+  "p2054": {
+    "name": "모바렌 폼 에어로졸 5% 60g",
+    "lowPrice": 15000,
+    "highPrice": 18000,
+    "storeCount": 6,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20",
+    "note": "JSON-LD Product 없음 — 제품 페이지 본문(최저·최고)과 검색 결과(약국 수)에서 확인"
+  },
+  "p677": {
+    "name": "케라시딜 캡슐 240캡슐",
+    "lowPrice": 80000,
+    "highPrice": 80000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p817": {
+    "name": "케라시딜 캡슐 360캡슐",
+    "lowPrice": 55000,
+    "highPrice": 78000,
+    "storeCount": 8,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1244": {
+    "name": "케라티모 180캡슐",
+    "lowPrice": 35000,
+    "highPrice": 35000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p746": {
+    "name": "케라티모캡슐 360캡슐",
+    "lowPrice": 65000,
+    "highPrice": 70000,
+    "storeCount": 4,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1648": {
+    "name": "현대 미녹시딜정 30정",
+    "lowPrice": 10800,
+    "highPrice": 10800,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2031": {
+    "name": "목시딜액 5% 30ml",
+    "lowPrice": 4500,
+    "highPrice": 4500,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p2030": {
+    "name": "목시딜액 3% 60ml",
+    "lowPrice": 17000,
+    "highPrice": 17000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-20"
+  },
+  "p73": {
+    "name": "메리나정 30정",
+    "lowPrice": 19020,
+    "highPrice": 35000,
+    "storeCount": 10,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p889": {
+    "name": "볼두민 캡슐 90캡슐 x 3EA",
+    "lowPrice": 46000,
+    "highPrice": 48000,
+    "storeCount": 3,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p43": {
+    "name": "아다모 연질캡슐 0.5mg 30캡슐",
+    "lowPrice": 14400,
+    "highPrice": 16500,
+    "storeCount": 2,
+    "aggregate": true,
+    "fetchedAt": "2026-10-20"
+  },
+  "p1176": {
+    "name": "에이페시아정 1밀리그램 30정",
+    "lowPrice": 9000,
+    "highPrice": 9000,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-21"
+  },
+  "p2170": {
+    "name": "유힐릭스 연질캡슐 0.5mg 30캡슐",
+    "lowPrice": 8700,
+    "highPrice": 8700,
+    "storeCount": 1,
+    "aggregate": false,
+    "fetchedAt": "2026-10-21"
+  }
 }
