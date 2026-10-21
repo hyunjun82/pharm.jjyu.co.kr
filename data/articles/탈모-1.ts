@@ -2820,7 +2820,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "datePublished": "2026-02-23",
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
      "title": "마이딜액 5% 미녹시딜 가격, 폼도 있나요?",
 
@@ -2838,9 +2838,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
       {
 
-       "question": "마이딜액은 처방이 필요해요?",
+       "question": "두피 말고 다른 곳에 발라도 돼요?",
 
-       "answer": "아니요, 처방전 없이 약국에서 사는 일반의약품이에요."
+       "answer": "마이딜액은 외용으로만 쓰고 두피 이외의 부위에는 바르지 말라고 돼 있어요. 바른 곳을 붕대로 감싸는 밀봉붕대법도 쓰지 마세요."
 
       },
 
@@ -2848,7 +2848,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "마이딜액은 언제 허가됐어요?",
 
-       "answer": "마이딜액5%는 제이더블유신약이 2007년 2월 2일 허가받았어요."
+       "answer": "마이딜액5%는 제이더블유신약이 2007년 2월 2일 허가받았어요. 같은 회사의 마이딜액3%는 2008년, 마이딜5%폼에어로졸은 2024년에 허가됐어요."
 
       },
 
@@ -2856,7 +2856,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "다른 용기에 덜어 써도 돼요?",
 
-       "answer": "아니요. 원래 용기에 보관하라고 돼 있어요."
+       "answer": "아니요. 원래 용기에서 꺼내 다른 용기에 보관하면 오용 사고나 품질 저하 원인이 될 수 있어요. 원래 용기에 넣어 꼭 닫고, 화기 근처에는 두지 마세요."
 
       }
 
@@ -3653,7 +3653,7 @@ export const spokes: Record<string, SpokeArticle> = {
      "datePublished": "2026-02-24",
 
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
 
      "title": "대웅바이오 피나스테리드 5mg 1mg, 가격과 효과",
@@ -3680,10 +3680,10 @@ export const spokes: Record<string, SpokeArticle> = {
       {
 
 
-       "question": "대웅바이오 피나스테리드는 처방이 필요해요?",
+       "question": "5mg을 오래 먹으면 전립샘암이 생겨요?",
 
 
-       "answer": "네, 5mg과 1mg 모두 전문의약품이라 처방전이 필요해요."
+       "answer": "55세 이상 남성 18,882명을 7년 관찰한 PCPT 시험에서 Gleason 등급 8~10 전립샘암은 5mg 군 1.8%, 위약 군 1.1%였어요. 5mg 허가사항에 이 결과가 실려 있어요."
 
 
       },
@@ -3695,7 +3695,7 @@ export const spokes: Record<string, SpokeArticle> = {
        "question": "5mg을 쪼개 탈모에 써도 돼요?",
 
 
-       "answer": "허가사항에 5mg을 나눠 탈모에 쓰는 용법은 없어요. 탈모는 1mg으로 허가돼 있어요."
+       "answer": "5mg 정제를 잘라 쓰는 탈모 용법은 허가사항에 없어요. 탈모에는 대웅바이오피나스테리드정1밀리그램 같은 1mg 제품이 허가돼 있어요."
 
 
       },
@@ -3707,7 +3707,7 @@ export const spokes: Record<string, SpokeArticle> = {
        "question": "임신한 아내가 만져도 돼요?",
 
 
-       "answer": "깨지지 않은 정제는 괜찮지만, 부서지거나 깨진 조각은 만지면 안 돼요."
+       "answer": "깨지지 않은 정제는 괜찮지만 부서지거나 깨진 조각은 만지면 안 돼요. 임부가 이 약을 먹으면 남성 태아의 외부생식기에 이상이 생길 수 있어요."
 
 
       }
@@ -4468,7 +4468,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "datePublished": "2026-02-24",
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
      "title": "모나시아 피나스테리드 1mg 후기, 효과와 가격",
 
@@ -4486,9 +4486,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
       {
 
-       "question": "모나시아정은 처방이 필요해요?",
+       "question": "전립샘비대증 약을 먹고 있으면요?",
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "양성전립샘비대증 등으로 피나스테리드 5mg이나 다른 5α-환원효소 억제제를 먹는 중이라면 모나시아정은 먹으면 안 돼요. 허가사항의 투여 금지 항목이에요."
 
       },
 
@@ -4496,15 +4496,15 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "후기처럼 머리가 빨리 나요?",
 
-       "answer": "허가사항상 효과는 3개월 이상 먹어야 볼 수 있다고 돼 있어요. 개인차가 있어요."
+       "answer": "허가사항상 효과는 3개월 이상 먹어야 볼 수 있다고 돼 있어요. 몇 주 만에 판단하지 말고, 치료 기간과 효과를 꾸준히 확인하세요."
 
       },
 
       {
 
-       "question": "우울한 기분이 들면요?",
+       "question": "유당이 맞지 않으면요?",
 
-       "answer": "피나스테리드 1mg에서 우울한 기분과 우울증이 보고됐어요. 의료진과 상담하세요."
+       "answer": "모나시아정은 유당을 함유하고 있어요. 갈락토오스 불내성, Lapp 유당분해효소 결핍증, 포도당-갈락토오스 흡수장애 같은 유전 질환이 있으면 먹을 수 없어요."
 
       }
 
@@ -4698,7 +4698,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "datePublished": "2026-02-24",
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
      "title": "모페시아정 피나스테리드 처방, 가격은?",
 
@@ -4716,9 +4716,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
       {
 
-       "question": "모페시아정은 처방이 필요했어요?",
+       "question": "사정액이 줄었을 수 있어요?",
 
-       "answer": "네, 전문의약품이었어요."
+       "answer": "건강한 남성 48주 시험에서 사정액 감소량 중앙값은 1mg 군 0.3mL(-11%), 위약 군 0.2mL(-8%)로 차이가 작았어요. 5mg 시험에서는 약 0.5mL(-25%) 줄었지만 끊으면 회복됐어요."
 
       },
 
@@ -4726,7 +4726,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "모페시아정 각인은요?",
 
-       "answer": "황갈색 팔각형 정제였고 각인은 HV010070이었어요."
+       "answer": "황갈색 팔각형 정제였고 각인은 HV010070이었어요. 크기는 7.4mm×7.4mm, 두께 3.5mm예요."
 
       },
 
@@ -4734,7 +4734,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "여성이 먹어도 돼요?",
 
-       "answer": "아니요. 여성과 소아는 먹으면 안 돼요."
+       "answer": "모페시아정은 여성과 소아에게 쓰지 않는 약이었어요. 임신했거나 임신 가능성이 있는 여성은 부서진 조각도 만지면 안 돼요."
 
       }
 
@@ -4754,7 +4754,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "title": "모페시아정과 모모페시아정, 같은 약이에요?",
 
-       "content": "아니요. 이름이 한 글자 차이지만 다른 회사 제품이에요. 모모페시아정 1mg은 약국 가격비교 앱 발키리에 판매가가 올라와 있는 다른 제품이에요(2026년 10월 기준).\n\n처방전에 적힌 제품명을 꼭 확인하세요."
+       "content": "아니요. 이름이 한 글자 차이지만 다른 회사 제품이에요. 모모페시아정1밀리그램은 더유제약 제품이라 회사가 달라요.\n\n처방전에 적힌 제품명을 꼭 확인하세요."
 
       },
 
@@ -7130,7 +7130,7 @@ export const spokes: Record<string, SpokeArticle> = {
      "datePublished": "2026-02-24",
 
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
 
      "title": "유니미녹시딜정 미녹시딜 부작용과 가격, 여자도 먹나요?",
@@ -7157,10 +7157,10 @@ export const spokes: Record<string, SpokeArticle> = {
       {
 
 
-       "question": "유니미녹시딜정은 처방이 필요했어요?",
+       "question": "먹는 동안 어떤 검사를 받아요?",
 
 
-       "answer": "네, 혈압강하제로 분류된 전문의약품이라 처방전이 있어야 받을 수 있었어요."
+       "answer": "투여 초기에는 요검사, 신기능검사, 심전도, 흉부 X선, 심초음파도 같은 임상검사를 정기적으로 해야 한다고 돼 있어요. 혈압약이라 의사가 검사 결과를 보며 용량을 정해요."
 
 
       },
@@ -7172,7 +7172,7 @@ export const spokes: Record<string, SpokeArticle> = {
        "question": "약을 끊으면 늘어난 털은요?",
 
 
-       "answer": "새 털이 자라는 건 멈추지만 원래 상태로 돌아가는 데 1~6개월이 걸린다고 돼 있어요."
+       "answer": "투여를 멈추면 새 털이 자라는 건 멈추지만, 치료 전 상태로 돌아가는 데는 1~6개월이 걸린다고 돼 있어요."
 
 
       },
@@ -7184,7 +7184,7 @@ export const spokes: Record<string, SpokeArticle> = {
        "question": "이런 분은 먹으면 안 돼요?",
 
 
-       "answer": "크롬친화세포종, 승모판협착에 의한 폐고혈압, 급성 심근경색이 있으면 먹으면 안 돼요."
+       "answer": "급성 심근경색, 크롬친화세포종, 승모판협착에 의한 폐고혈압이 있거나 이 약에 과민증이 있었던 분은 먹으면 안 돼요. 만성 울혈성 심부전, 중증 신부전, 협심증이 있으면 신중히 써야 했어요."
 
 
       }

@@ -5,7 +5,7 @@ export const spokes: Record<string, SpokeArticle> = {
    "slug": "스카렉스정",
    "categorySlug": "탈모",
    "datePublished": "2026-02-27",
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
    "title": "스카렉스정 5mg 효능과 부작용, 가격은?",
    "h1": "스카렉스정 5mg 효능과 부작용, 가격은?",
    "metaDescription": "아주약품 스카렉스정(피나스테리드 5mg)의 허가 효능 4가지와 탈모 효능이 없는 점, 2004년 허가된 카피약의 생동성 시험, 국내 시판 후 조사 부작용, 발키리 판매가 등록 여부를 식약처 허가사항으로 확인한다.",
@@ -14,16 +14,16 @@ export const spokes: Record<string, SpokeArticle> = {
    "products": [],
    "faq": [
     {
-     "question": "스카렉스정은 처방이 필요해요?",
-     "answer": "네, 전문의약품이에요."
+     "question": "사정량이 줄어요?",
+     "answer": "정액 농도, 운동성, 형태에는 의미 있는 영향이 없었지만 사정량은 평균 0.6mL(22.1%) 줄었어요. 정상 범위 안이었고 치료를 멈추자 평균 84주 뒤 원래대로 돌아왔어요."
     },
     {
      "question": "스카렉스정을 탈모에 써도 돼요?",
-     "answer": "효능은 전립샘비대증 치료예요. 탈모는 1mg 피나스테리드로 허가돼 있어요."
+     "answer": "효능은 전립샘비대증 치료예요. 탈모 치료는 허가된 효능에 없으니, 탈모가 목적이면 처방 의사와 다시 상의하세요."
     },
     {
      "question": "임신한 아내가 만져도 돼요?",
-     "answer": "깨지지 않은 정제는 괜찮지만, 부서진 조각은 만지면 안 돼요."
+     "answer": "깨지지 않은 정제는 괜찮지만 부서진 조각은 만지면 안 돼요. 임부가 먹으면 남성 태아의 외부생식기에 이상이 생길 수 있어서 임신 가능성이 있는 여성은 금기예요."
     }
    ],
    "sections": [
@@ -487,7 +487,7 @@ export const spokes: Record<string, SpokeArticle> = {
    "slug": "원페시아정",
    "categorySlug": "탈모",
    "datePublished": "2026-02-27",
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
    "title": "원페시아정 피나스테리드 1mg 카피약, 가격과 임신은?",
    "h1": "원페시아정 피나스테리드 1mg 카피약, 가격과 임신은?",
    "metaDescription": "하나제약 원페시아정1밀리그램(피나스테리드)이 프로스카·프로페시아와 같은 성분의 탈모약인지, 발키리 판매가 등록 여부와 프로페시아 가격 비교, 임신 중 여성이 정제를 다룰 때의 주의를 식약처 허가사항으로 확인한다.",
@@ -500,15 +500,15 @@ export const spokes: Record<string, SpokeArticle> = {
    "faq": [
     {
      "question": "원페시아정 5mg도 있어요?",
-     "answer": "의약품안전나라에서 원페시아로 찾으면 1mg인 원페시아정1밀리그램만 나와요(2026년 10월 확인)."
+     "answer": "의약품안전나라에서 원페시아로 찾으면 1mg인 원페시아정1밀리그램만 나와요(2026년 10월 확인). 탈모 치료에는 이 1mg을 하루 1번 먹어요."
     },
     {
      "question": "원페시아정 보관은요?",
-     "answer": "습기를 피해 밀폐 용기에 담아 보관해요."
+     "answer": "밀폐용기에 담아 습기를 피해 15~30℃에서 보관해요. 사용기간은 제조일로부터 36개월이에요."
     },
     {
-     "question": "원페시아정은 처방이 필요해요?",
-     "answer": "네, 전문의약품이라 의사의 처방전이 있어야 약국에서 받을 수 있어요."
+     "question": "사정액이 줄 수 있어요?",
+     "answer": "건강한 남성 48주 시험에서 사정액 감소량 중앙값은 1mg 군 0.3mL(-11%), 위약 군 0.2mL(-8%)였어요. 5mg을 먹은 시험에서는 약 0.5mL(-25%) 줄었지만 끊으면 회복됐어요."
     }
    ],
    "sections": [
@@ -2364,7 +2364,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
    "datePublished": "2026-02-27",
 
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
 
    "title": "비피케어정 5mg 피나스테리드 효과와 가격",
 
@@ -2382,9 +2382,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
     {
 
-     "question": "비피케어정은 처방이 필요해요?",
+     "question": "고혈압 약을 먹고 있어도 돼요?",
 
-     "answer": "네, 전문의약품이에요."
+     "answer": "고혈압으로 ACE억제제, 알파차단제, 베타차단제, 칼슘채널차단제, 이뇨제를 먹고 있어도 함께 먹었을 때 임상적으로 의미 있는 이상반응은 없었다고 돼 있어요."
 
     },
 
@@ -2392,15 +2392,15 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "PSA 검사에 영향 있어요?",
 
-     "answer": "먹는 동안 PSA 수치가 낮아지니 검사 때 이 약을 먹는다고 알려야 해요."
+     "answer": "6개월 이상 먹은 환자의 PSA 수치는 정상 범위와 비교할 때 2배로 조정해 해석해야 한다고 돼 있어요. 이렇게 해야 전립샘암 진단 능력이 유지돼요."
 
     },
 
     {
 
-     "question": "임신한 아내가 만져도 돼요?",
+     "question": "70세가 넘으면 용량을 줄여요?",
 
-     "answer": "부서지지 않은 정제는 괜찮지만, 부서진 조각은 만지면 안 돼요."
+     "answer": "아니요. 70세 이상은 배설이 약간 줄지만 용량 조절이 필요 없어요. 신부전 환자도 하루 1정을 그대로 먹어요."
 
     }
 
@@ -2957,7 +2957,7 @@ export const spokes: Record<string, SpokeArticle> = {
    "slug": "AG피나스테리드정",
    "categorySlug": "탈모",
    "datePublished": "2026-02-27",
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
    "title": "AG피나스테리드정 1mg 효과와 카피약 가격",
    "h1": "AG피나스테리드정 1mg 효과와 카피약 가격",
    "metaDescription": "안국약품 AG피나스테리드정(피나스테리드 1mg)의 제품명에 붙은 '수출용' 표시, 명문제약 위탁 제조, 허가 효과와 판단 시기, 발키리 판매가 등록 여부와 같은 성분 1mg 가격, 먹기 전 확인할 점을 식약처 허가사항으로 확인한다.",
@@ -2971,8 +2971,8 @@ export const spokes: Record<string, SpokeArticle> = {
    "products": [],
    "faq": [
     {
-     "question": "AG피나스테리드정은 처방이 필요해요?",
-     "answer": "네, 전문의약품이에요."
+     "question": "오래 먹으면 전립선암 위험이 있어요?",
+     "answer": "허가사항의 PCPT 시험에서 Gleason 등급 8~10 전립선암이 피나스테리드 군 1.8%, 위약 군 1.1%였어요. 두타스테리드 4년 시험에서도 비슷한 결과가 관찰됐다고 돼 있어요."
     },
     {
      "question": "AG피나스테리드정은 어디서 만들어요?",
@@ -2980,7 +2980,7 @@ export const spokes: Record<string, SpokeArticle> = {
     },
     {
      "question": "간이 안 좋아도 먹을 수 있어요?",
-     "answer": "간에서 많이 대사되는 약이라 간기능에 이상이 있으면 신중히 써야 해요."
+     "answer": "피나스테리드는 간에서 광범위하게 대사돼서 간기능에 이상이 있으면 주의해서 써야 해요. 간 질환이 있다면 처방 전에 알려 주세요."
     }
    ],
    "sections": [
@@ -3598,7 +3598,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
    "datePublished": "2026-02-27",
 
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
 
    "title": "아보두타연질캡슐 두타스테리드 임신, 0.5 가격",
 
@@ -3616,9 +3616,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
     {
 
-     "question": "아보두타연질캡슐은 처방이 필요해요?",
+     "question": "아보두타를 먹으면서 운전해도 돼요?",
 
-     "answer": "네, 전문의약품이에요."
+     "answer": "허가사항에는 약력학적·약물동력학적 특성으로 볼 때 운전이나 기계 조작 능력에 영향을 줄 것으로 예측되지 않는다고 돼 있어요."
 
     },
 
@@ -3626,7 +3626,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "효능은 무엇이에요?",
 
-     "answer": "양성 전립선 비대증 치료와 성인 남성(만18~50세)의 남성형 탈모 치료예요."
+     "answer": "양성 전립선 비대증 치료와 성인 남성(만18~50세)의 남성형 탈모 치료예요. 하루 1번 1캡슐(0.5mg)을 씹지 말고 통째로 삼켜요."
 
     },
 
@@ -3634,7 +3634,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "헌혈은요?",
 
-     "answer": "마지막으로 먹은 뒤 최소 6개월은 헌혈하면 안 돼요."
+     "answer": "헌혈한 혈액이 임신부에게 수혈될 수 있어서, 마지막으로 먹은 뒤 최소 6개월은 헌혈하면 안 돼요. 끊은 뒤에도 6개월을 세어 보세요."
 
     }
 
@@ -3690,7 +3690,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
    "datePublished": "2026-02-27",
 
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
 
    "title": "휴메리나 두타스테리드 용량, 가격과 임신은?",
 
@@ -3708,9 +3708,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
     {
 
-     "question": "휴메리나는 처방이 필요했어요?",
+     "question": "리토나비르를 먹고 있었어요.",
 
-     "answer": "네, 전문의약품이라 처방전이 있어야 받을 수 있었어요."
+     "answer": "휴메리나 같은 두타스테리드는 강력한 CYP3A4 억제제와의 상호작용을 시험하지 않았어요. 리토나비르처럼 강한 억제제를 오래 먹는 환자에게는 주의해서 써야 해요."
 
     },
 
@@ -3718,7 +3718,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "휴메리나를 먹었으면 PSA 검사가 달라져요?",
 
-     "answer": "두타스테리드는 PSA 수치를 3개월 뒤 약 40%, 6개월 뒤 약 50%까지 낮춘다고 돼 있어요. 검사 때 먹었다고 알리세요."
+     "answer": "휴메리나를 먹은 동안 혈청 PSA는 3개월째 약 40%, 6개월째 약 50%까지 낮아져요. 검사받을 때 복용 사실을 알리고, 3~6개월 값을 새 초기값으로 봐야 해요."
 
     },
 
@@ -3726,7 +3726,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "휴메리나연질캡슐도 있었어요?",
 
-     "answer": "의약품안전나라에서 휴메리나로 찾으면 정제인 휴메리나정0.5밀리그램만 나와요(2026년 10월 확인)."
+     "answer": "의약품안전나라에서 휴메리나로 찾으면 정제인 휴메리나정0.5밀리그램만 나와요(2026년 10월 확인). 연질캡슐 제품은 없어요."
 
     }
 
@@ -4105,7 +4105,7 @@ export const spokes: Record<string, SpokeArticle> = {
    "slug": "아보테리드연질캡슐0.5mg",
    "categorySlug": "탈모",
    "datePublished": "2026-02-27",
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
    "title": "아보테리드 두타스테리드 0.5 가격과 효과, 카피약인가요?",
    "h1": "아보테리드 두타스테리드 0.5 가격과 효과, 카피약인가요?",
    "metaDescription": "유한양행 아보테리드연질캡슐0.5밀리그램(두타스테리드)의 허가 효능(전립선비대증·만 18~50세 남성형 탈모), 아보다트 대비 발키리 가격, 탈모 임상시험 이상반응, 캡슐 취급과 헌혈 제한을 식약처 허가사항으로 확인한다.",
@@ -4115,15 +4115,15 @@ export const spokes: Record<string, SpokeArticle> = {
    "faq": [
     {
      "question": "아보테리드를 먹으면 PSA 검사에 영향 있어요?",
-     "answer": "두타스테리드는 PSA 수치를 3개월 뒤 약 40%, 6개월 뒤 약 50%까지 낮춘다고 돼 있어요. 검사 때 먹고 있다고 알리세요."
+     "answer": "아보테리드 복용 3개월째 PSA는 약 40%, 6개월째 약 50% 내려가요. 그래서 검사 때 먹고 있다고 알리고, 3~6개월 값을 새 기준으로 삼아요."
     },
     {
      "question": "아보테리드 보관은요?",
-     "answer": "어린이 손이 닿지 않는 곳에 원래 포장 그대로 보관하세요."
+     "answer": "밀폐용기에 담아 30℃ 이하에서 보관해요. 원래 용기에서 꺼내 다른 용기에 옮기면 오용 사고나 품질 저하 원인이 될 수 있어요."
     },
     {
-     "question": "아보테리드는 처방이 필요해요?",
-     "answer": "네, 전문의약품이라 의사의 처방전이 있어야 약국에서 받을 수 있어요."
+     "question": "간 질환이 있으면 먹어도 돼요?",
+     "answer": "간장애 환자에게 투여한 자료가 없어서 간장애가 있을 때의 권장용량은 확립돼 있지 않아요. 처방받기 전에 간 질환을 알려 주세요."
     }
    ],
    "sections": [
@@ -4320,7 +4320,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
    "datePublished": "2026-02-27",
 
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
 
    "title": "아보그로정 0.5 용량과 두타스테리드 가격",
 
@@ -4338,25 +4338,25 @@ export const spokes: Record<string, SpokeArticle> = {
 
     {
 
-     "question": "아보그로정은 처방이 필요해요?",
+     "question": "정자 수도 줄어요?",
 
-     "answer": "네, 전문의약품이에요."
-
-    },
-
-    {
-
-     "question": "효능은 무엇이에요?",
-
-     "answer": "양성 전립선 비대증 치료와 성인 남성(만18~50세)의 남성형 탈모 치료예요."
+     "answer": "52주 동안 먹은 건강한 남성에서 총 정자 수 23%, 정액량 26%, 정자 운동성 18%가 위약 보정 후 줄었어요. 정자 농도와 형태는 그대로였어요."
 
     },
 
     {
 
-     "question": "식후에 먹어야 해요?",
+     "question": "임신을 계획하고 있으면요?",
 
-     "answer": "아니요. 식사와 관계없이 먹을 수 있어요."
+     "answer": "아이를 가질 계획인 남성이 탈모 치료로 먹으면 생식능에 영향을 줄 수 있어 신중히 투여해야 해요. 의사 판단이 필요하니 계획을 먼저 알려 주세요."
+
+    },
+
+    {
+
+     "question": "먹다가 우울해지면요?",
+
+     "answer": "다른 먹는 5-알파 환원효소 억제제에서 우울한 기분과 우울증을 포함한 기분 변화가 보고됐어요. 이런 증상이 나타나면 진료를 받으라고 돼 있어요."
 
     }
 

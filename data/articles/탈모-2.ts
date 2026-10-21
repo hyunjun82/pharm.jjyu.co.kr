@@ -945,7 +945,7 @@ export const spokes: Record<string, SpokeArticle> = {
    "slug": "피나스칸정",
    "categorySlug": "탈모",
    "datePublished": "2026-02-25",
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
    "title": "피나스칸정 5mg 여성 처방, 가격과 효과는?",
    "h1": "피나스칸정 5mg 여성 처방, 가격과 효과는?",
    "metaDescription": "킵스바이오파마 피나스칸정5mg(피나스테리드)을 여성이 처방받을 수 없는 이유와 임신 중 주의, 허가 효능과 효과 판단 기간, 발키리 판매가 등록 여부와 필요 수량, 동등성 시험을 식약처 허가사항으로 확인한다.",
@@ -955,11 +955,11 @@ export const spokes: Record<string, SpokeArticle> = {
    "faq": [
     {
      "question": "피나스칸정을 탈모에 써도 되나요?",
-     "answer": "5mg은 전립샘비대증 치료로만 허가됐어요. 탈모에 허가된 피나스테리드는 만 18~41세 남성에게 쓰는 1mg 제품이에요."
+     "answer": "5mg은 전립샘비대증 치료로만 허가됐어요. 탈모 치료용으로는 같은 회사의 피나스칸정1mg이 따로 있어요."
     },
     {
      "question": "피나스칸정 부작용은요?",
-     "answer": "4년 임상시험에서 성기능 관련 이상반응이 가장 많이 보고됐고, 2~4년째에는 위약과 차이가 없었어요."
+     "answer": "4년 임상시험 첫해에 발기부전 8.1%(위약 3.7%), 성욕감퇴 6.4%(위약 3.4%)가 보고됐어요. 2~4년째에는 발기부전 5.1%, 성욕감퇴 2.6%로 위약과 같았어요."
     },
     {
      "question": "피나스칸정 1mg도 있어요?",
@@ -1239,7 +1239,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
    "datePublished": "2026-02-25",
 
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
 
    "title": "두테스몰 카피약 효과와 두타스테리드 가격",
 
@@ -1263,9 +1263,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
     {
 
-     "question": "두테스몰은 처방이 필요해요?",
+     "question": "정자 수가 줄 수 있어요?",
 
-     "answer": "네, 전문의약품이에요."
+     "answer": "정자 검사로 보면 52주째 위약 보정 후 총 정자 수 23%, 정액량 26%, 정자 운동성 18%가 줄었어요. 정자 농도와 형태는 영향을 받지 않았어요."
 
     },
 
@@ -1273,7 +1273,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "두테스몰과 두테스정은 같은 약이에요?",
 
-     "answer": "아니요. 두테스정은 넥스팜코리아의 두타스테리드 정제로 다른 회사 제품이에요."
+     "answer": "아니요. 두테스정0.5밀리그램은 넥스팜코리아의 두타스테리드 정제로 다른 회사 제품이에요. 성분과 효능은 같고 제형과 회사가 달라요."
 
     },
 
@@ -1281,7 +1281,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "캡슐을 씹어 먹어도 돼요?",
 
-     "answer": "아니요. 내용물이 입과 목을 자극할 수 있어 통째로 삼켜야 해요."
+     "answer": "안 돼요. 캡슐 내용물이 입안과 목의 점막을 자극할 수 있어서, 씹거나 쪼개지 말고 물과 함께 통째로 삼켜야 해요."
 
     }
 
@@ -1848,7 +1848,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
    "datePublished": "2026-02-25",
 
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
 
    "title": "나녹시딜액 3% 여자, 5% 가격과 약국은?",
 
@@ -1868,7 +1868,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "나녹시딜액 3%를 많이 바르면 효과가 커져요?",
 
-     "answer": "하루 총량을 넘기지 말라고 돼 있어요. 남성은 2mL, 여성은 1.3mL까지예요."
+     "answer": "아니요. 하루 총량을 넘기지 말라고 돼 있어요. 남성은 2mL, 여성은 1.3mL까지이고, 많이 바르면 몸에 흡수돼 전신 작용이 나타날 수 있어요."
 
     },
 
@@ -1876,7 +1876,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "얼마나 써야 효과를 알 수 있어요?",
 
-     "answer": "최소 4개월은 바르라고 돼 있어요."
+     "answer": "최소 4개월은 하루 2번 발라야 효과를 판단할 수 있다고 돼 있어요. 4개월이 지나도 효과가 없으면 의사나 약사와 상의하세요."
 
     },
 
@@ -1884,7 +1884,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "드라이어로 말려도 돼요?",
 
-     "answer": "아니요. 빨리 말리려고 헤어드라이어를 쓰지 말라고 돼 있어요."
+     "answer": "두피에 공기가 순환하면 효과가 줄 수 있어서 드라이어로 말리지 말라고 돼 있어요. 저녁에는 잠들기 2~4시간 전에 발라 자연스럽게 마르게 하세요."
 
     }
 
@@ -2566,7 +2566,7 @@ export const spokes: Record<string, SpokeArticle> = {
    "slug": "그로모정",
    "categorySlug": "탈모",
    "datePublished": "2026-02-26",
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
    "title": "그로모정 5mg 1mg, 가격과 부작용은?",
    "h1": "그로모정 5mg 1mg, 가격과 부작용은?",
    "metaDescription": "에이프로젠바이오로직스 그로모정1밀리그램과 그로모정5밀리그램(피나스테리드)의 효능·위탁제조사 차이, 발키리 기준 같은 성분 1mg 가격, 1mg의 임신 관련 동물시험(랫트·원숭이)과 부작용을 식약처 허가사항으로 확인한다.",
@@ -2575,16 +2575,16 @@ export const spokes: Record<string, SpokeArticle> = {
    "products": [],
    "faq": [
     {
-     "question": "그로모정은 처방이 필요해요?",
-     "answer": "네, 1mg과 5mg 모두 전문의약품이라 처방전이 필요해요."
+     "question": "유당이 맞지 않으면요?",
+     "answer": "그로모정 1mg은 유당을 함유하고 있어요. 그래서 갈락토오스 불내성, Lapp 유당분해효소 결핍증, 포도당-갈락토오스 흡수장애가 있으면 먹을 수 없어요."
     },
     {
-     "question": "그로모정 5mg을 쪼개 탈모에 써도 돼요?",
-     "answer": "허가사항에 5mg을 나눠 탈모에 쓰는 용법은 없어요. 탈모는 1mg으로 허가돼 있어요."
+     "question": "전립샘비대증 약을 먹고 있으면요?",
+     "answer": "이미 피나스테리드 5mg(그로모정5밀리그램 등)이나 다른 5α-환원효소 억제제를 먹고 있다면 그로모정1밀리그램은 먹으면 안 돼요. 처방받을 때 먹는 약을 모두 알려 주세요."
     },
     {
-     "question": "여성이 먹어도 돼요?",
-     "answer": "아니요. 여성과 소아는 먹으면 안 돼요."
+     "question": "간이 안 좋으면 먹어도 돼요?",
+     "answer": "이 약은 간에서 광범위하게 대사돼서 간기능에 이상이 있으면 주의해서 투여해야 해요. 간 질환이 있다면 처방 전에 말해 주세요."
     }
    ],
    "sections": [
