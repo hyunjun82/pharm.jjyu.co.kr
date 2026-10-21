@@ -929,7 +929,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "datePublished": "2026-02-23",
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
      "title": "프로스카정 탈모 처방, 5mg 부작용과 가격",
 
@@ -947,9 +947,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
       {
 
-       "question": "프로스카정은 처방이 필요해요?",
+       "question": "오래 먹으면 전립샘암 위험이 있어요?",
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "프로스카정 허가사항의 PCPT 시험(55세 이상 18,882명, 7년)에서는 Gleason 등급 8~10 전립샘암이 이 약 군 1.8%, 위약 군 1.1%였어요. 이 약을 먹은 전립샘암 환자에게 임상적 이득이 있다는 근거는 없다고 돼 있어요."
 
       },
 
@@ -957,7 +957,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "임신한 아내가 만져도 돼요?",
 
-       "answer": "부서지거나 깨진 조각은 만지면 안 돼요. 깨지지 않은 정제는 코팅돼 있어요."
+       "answer": "부서지거나 깨진 조각은 만지면 안 돼요. 임부가 이 약을 먹으면 남성 태아의 외부생식기에 이상이 생길 수 있어서, 임신 가능성이 있는 여성은 금기예요."
 
       },
 
@@ -965,7 +965,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "신장이 안 좋으면 용량을 줄여요?",
 
-       "answer": "신부전 환자도 용량을 조절할 필요가 없다고 돼 있어요."
+       "answer": "아니요. 크레아티닌청소율 9.0mL/min을 포함한 여러 신부전 환자에서 약의 체내 변화가 없어 용량을 조절하지 않아요. 70세 이상도 배설이 약간 줄 뿐 같은 용량이에요."
 
       }
 
@@ -1001,7 +1001,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "title": "프로스카정은 어떤 약이에요?",
 
-       "content": "한국오가논의 오리지널 피나스테리드 5mg으로, 1995년 8월 22일 허가됐어요. 청색 정제 한 면에 MSD72가 새겨져 있고, 1정 무게는 153.8mg이에요.\n\n국내 5mg 카피약 상당수가 프로스카정을 대조약으로 생동성 시험을 했어요. 피나에스정, 피나디드정 등의 허가사항에 그 시험이 적혀 있어요."
+       "content": "한국오가논의 오리지널 피나스테리드 5mg으로, 1995년 8월 22일 허가됐어요. 청색 정제 한 면에 MSD72가 새겨져 있고, 1정 무게는 153.8mg이에요.\n\n피나에스정, 피나디드정 같은 5mg 카피약의 허가사항에는 프로스카정을 대조약으로 한 생동성 시험이 적혀 있어요."
 
       }
 
@@ -3515,7 +3515,7 @@ export const spokes: Record<string, SpokeArticle> = {
      "datePublished": "2026-02-24",
 
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
 
      "title": "목시딜액 5% 가격과 구매처, 여성은?",
@@ -3557,7 +3557,7 @@ export const spokes: Record<string, SpokeArticle> = {
        "question": "목시딜액을 끊으면요?",
 
 
-       "answer": "사용을 멈추면 탈모가 다시 생길 수 있다고 돼 있어요."
+       "answer": "바르던 것을 멈추면 탈모가 재발될 수 있다고 돼 있어요. 효과는 최소 4개월은 하루 2번 발라 본 뒤 판단해요."
 
 
       },
@@ -3566,10 +3566,10 @@ export const spokes: Record<string, SpokeArticle> = {
       {
 
 
-       "question": "드라이어로 말려도 돼요?",
+       "question": "깜빡하고 안 발랐으면요?",
 
 
-       "answer": "아니요. 빨리 말리려고 헤어드라이어를 쓰지 말라고 돼 있어요."
+       "answer": "잊은 양을 보충하지 말고 다음 번 양만 그대로 바르면 돼요. 저녁에 바를 때는 약이 마르도록 잠자기 2~4시간 전에 바르세요."
 
 
       }
@@ -4062,7 +4062,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "datePublished": "2026-02-24",
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
      "title": "백일후애액 사용법과 가격, 5% 구매는?",
 
@@ -4082,7 +4082,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "백일후애는 약국에서 바로 사요?",
 
-       "answer": "네, 2%·5% 액과 캡슐 모두 처방 없이 사는 일반의약품이에요."
+       "answer": "네. 2%·5% 액과 캡슐 모두 처방 없이 사는 일반의약품이에요. 다만 5% 액은 남성 전용이라 여성은 2%를 골라야 해요."
 
       },
 
@@ -4090,7 +4090,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "백일후애액을 끊으면요?",
 
-       "answer": "사용을 멈추면 탈모가 다시 생길 수 있다고 돼 있어요."
+       "answer": "바르다가 멈추면 탈모가 재발될 수 있다고 돼 있어요. 효과를 판단하려면 최소 4개월은 하루 2번 꾸준히 발라야 해요."
 
       },
 
@@ -4098,7 +4098,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "드라이어로 말려도 돼요?",
 
-       "answer": "아니요. 빨리 말리려고 헤어드라이어를 쓰지 말라고 돼 있어요."
+       "answer": "아니요. 두피에 공기가 순환하면 효과가 떨어질 수 있어서 드라이어로 말리지 말라고 돼 있어요. 저녁에는 잠자기 2~4시간 전에 발라 약이 마르게 하세요."
 
       }
 
@@ -4126,7 +4126,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "title": "백일후애캡슐은 액과 무엇이 달라요?",
 
-       "content": "백일후애캡슐은 바르는 미녹시딜이 아니라 약용효모·케라틴 등이 든 먹는 탈모 보조치료 캡슐이에요. 동광제약이 2019년 3월 4일 허가받았고 마더스제약이 위탁 제조해요.\n\n같은 계열 캡슐은 남성형 대머리와 안드로젠 유전성 탈모증에는 먹지 말라고 돼 있어요. 액과 캡슐은 쓰임이 달라요."
+       "content": "백일후애캡슐은 바르는 미녹시딜이 아니라 약용효모·케라틴 등이 든 먹는 탈모 보조치료 캡슐이에요. 동광제약이 2019년 3월 4일 허가받았고 마더스제약이 위탁 제조해요.\n\n백일후애캡슐은 남성형 대머리와 안드로젠 유전성 탈모증에는 먹지 말라고 돼 있어요. 액과 캡슐은 쓰임이 달라요."
 
       },
 
@@ -6202,7 +6202,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "datePublished": "2026-02-24",
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
      "title": "두타엠정 두타스테리드 임신, 0.5 가격은?",
 
@@ -6220,9 +6220,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
       {
 
-       "question": "두타엠정은 처방이 필요해요?",
+       "question": "리토나비르를 오래 먹고 있으면요?",
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "강력한 CYP3A4 억제제(예: 리토나비르)를 장기간 먹는 환자에게는 두타엠정을 주의해서 써야 해요. 이 약은 광범위하게 대사되는데 그런 억제제와의 상호작용은 시험하지 않았어요."
 
       },
 
@@ -6230,7 +6230,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "두타엠정을 먹으면 PSA가 달라져요?",
 
-       "answer": "PSA 수치를 3개월 뒤 약 40%, 6개월 뒤 약 50% 낮춘다고 돼 있어요."
+       "answer": "PSA가 3개월 뒤 약 40%, 6개월 뒤 약 50%까지 떨어져요. 3~6개월에 PSA 초기값을 다시 정하고, 이후 암과 관련한 변화는 새 초기값으로 평가해요."
 
       },
 
@@ -6238,7 +6238,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
        "question": "두타엠정 다른 용량도 있어요?",
 
-       "answer": "의약품안전나라에서 두타엠으로 찾으면 두타엠정0.5밀리그램 하나만 나와요(2026년 10월 확인)."
+       "answer": "의약품안전나라에서 두타엠으로 찾으면 두타엠정0.5밀리그램 하나만 나와요(2026년 10월 확인). 하루 1번 1정(0.5mg)이 허가된 용량이에요."
 
       }
 
@@ -6575,7 +6575,7 @@ export const spokes: Record<string, SpokeArticle> = {
      "datePublished": "2026-02-24",
 
 
-     "dateModified": "2026-10-20",
+     "dateModified": "2026-10-21",
 
 
      "title": "두타스텐정 두타스테리드 효과, 가격과 임신",
@@ -6602,10 +6602,10 @@ export const spokes: Record<string, SpokeArticle> = {
       {
 
 
-       "question": "두타스텐정은 처방이 필요해요?",
+       "question": "다른 약과 같이 먹을 때 주의할 건요?",
 
 
-       "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+       "answer": "리토나비르처럼 CYP3A4를 강하게 억제하는 약을 오래 먹는 환자에게는 주의해서 써야 해요. 이 약은 광범위하게 대사되지만 강력한 CYP3A4 억제제와의 상호작용은 시험하지 않았기 때문이에요."
 
 
       },
@@ -6614,10 +6614,10 @@ export const spokes: Record<string, SpokeArticle> = {
       {
 
 
-       "question": "두타스텐정을 먹으면 PSA가 달라져요?",
+       "question": "먹는 동안 기분이 가라앉으면요?",
 
 
-       "answer": "PSA 수치를 3개월 뒤 약 40%, 6개월 뒤 약 50% 낮춘다고 돼 있어요."
+       "answer": "다른 먹는 5-알파 환원효소 억제제 사용자에게서 우울한 기분, 우울증을 포함한 기분 변화가 보고됐어요. 이런 증상이 나타나면 의사의 진료를 받으라고 돼 있어요."
 
 
       },
@@ -6629,7 +6629,7 @@ export const spokes: Record<string, SpokeArticle> = {
        "question": "운전해도 돼요?",
 
 
-       "answer": "운전이나 기계 조작 능력에 영향을 줄 것으로 예측되지 않는다고 돼 있어요."
+       "answer": "두타스텐정은 약력학적·약물동력학적 특성으로 볼 때 운전이나 기계 조작 능력에 영향을 줄 것으로 예측되지 않아요. 허가사항의 일반적 주의 항목에 그렇게 적혀 있어요."
 
 
       }
