@@ -578,7 +578,7 @@
   "highPrice": 15600,
   "storeCount": 2,
   "aggregate": true,
-  "fetchedAt": "2026-10-20"
+  "fetchedAt": "2026-10-21"
  },
  "p1852": {
   "name": "나녹시딜액 2% 50ml",
@@ -646,7 +646,7 @@
   "highPrice": 11400,
   "storeCount": 1,
   "aggregate": false,
-  "fetchedAt": "2026-10-20"
+  "fetchedAt": "2026-10-21"
  },
  "p2349": {
   "name": "피나움정 1mg 90정",
@@ -822,6 +822,14 @@
   "name": "에이페시아정 1밀리그램 30정",
   "lowPrice": 9000,
   "highPrice": 9000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-21"
+ },
+ "p2170": {
+  "name": "유힐릭스 연질캡슐 0.5mg 30캡슐",
+  "lowPrice": 8700,
+  "highPrice": 8700,
   "storeCount": 1,
   "aggregate": false,
   "fetchedAt": "2026-10-21"
