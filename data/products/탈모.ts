@@ -624,7 +624,7 @@ export const products: Product[] = [
     image: "/images/barkiri-미녹시딜.webp",
     category: "일반의약품",
     categorySlug: "탈모",
-    description: "습진·피부염·가려움에 바르는 액(스테로이드 성분 포함). 탈모 치료제 아님.",
+    description: "습진·피부염·가려움에 바르는 액(프레드니솔론발레로아세테이트 등 6성분). 탈모 치료제 아님.",
     price: 3900,
     unit: "30ml",
     barkiryQuery: "두피앤액",
