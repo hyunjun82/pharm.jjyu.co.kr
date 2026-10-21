@@ -817,5 +817,13 @@
   "storeCount": 2,
   "aggregate": true,
   "fetchedAt": "2026-10-20"
+ },
+ "p1176": {
+  "name": "에이페시아정 1밀리그램 30정",
+  "lowPrice": 9000,
+  "highPrice": 9000,
+  "storeCount": 1,
+  "aggregate": false,
+  "fetchedAt": "2026-10-21"
  }
 }
