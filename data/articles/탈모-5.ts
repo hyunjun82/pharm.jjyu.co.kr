@@ -403,7 +403,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
    "datePublished": "2026-02-27",
 
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-21",
 
    "title": "두타렉스 두타스테리드 용량과 효과, 가격",
 
@@ -421,9 +421,9 @@ export const spokes: Record<string, SpokeArticle> = {
 
     {
 
-     "question": "두타렉스는 처방이 필요해요?",
+     "question": "탐스로신과 같이 먹으면요?",
 
-     "answer": "네, 전문의약품이라 처방전이 있어야 약국에서 받을 수 있어요."
+     "answer": "두타스테리드와 α-차단제(주로 탐스로신)를 함께 먹은 4년 시험 두 건에서 심부전 빈도가 더 높게 나왔어요. 다만 빈도는 1% 이하였고, 함께 먹는 것과 심부전의 인과관계는 확립되지 않았어요."
 
     },
 
@@ -431,7 +431,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "여성이 캡슐을 만져도 돼요?",
 
-     "answer": "임신 가능성이 있는 여성은 이 약을 다루면 안 되고, 새는 캡슐은 누구든 닿지 않게 하세요."
+     "answer": "두타스테리드는 피부를 통해 흡수돼서, 임신했거나 임신 가능성이 있는 여성은 이 약을 다루면 안 돼요. 캡슐이 새어 닿았다면 바로 물과 비누로 씻어 내세요."
 
     },
 
@@ -439,7 +439,7 @@ export const spokes: Record<string, SpokeArticle> = {
 
      "question": "운전해도 돼요?",
 
-     "answer": "운전이나 기계 조작 능력에 영향을 줄 것으로 예측되지 않는다고 돼 있어요."
+     "answer": "운전이나 기계 조작 능력에 영향을 줄 것으로 예측되지 않는다고 돼 있어요. 이 판단은 약의 약력학적·약물동력학적 특성에 근거한 거예요."
 
     }
 
